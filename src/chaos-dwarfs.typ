@@ -701,7 +701,7 @@ NOTES:
 - May include one Hobgoblin Overseer +20 points
   ],
   notes: [
-- You may not have more units of Orc Slaves than you have units of Hobgoblin Cutthroats or Hobgoblin Archers in your army.
+- You may not have more units of Orc Slaves than you have units of Cutthroats or Archers in your army.
   ],
 )
 
@@ -725,7 +725,7 @@ NOTES:
 - May include one Hobgoblin Overseer +20 points
   ],
   notes: [
-- You may not have more units of Goblin Slaves than you have units of Hobgoblin Cutthroats or Hobgoblin Archers in your army.
+- You may not have more units of Goblin Slaves than you have units of Cutthroats or Archers in your army.
   ],
 )
 
