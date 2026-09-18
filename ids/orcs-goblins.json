@@ -211,71 +211,8 @@
    }
   },
   "GIANT RIVER TROLL HAG": {
-   "1-2-smother": {
-    "1-2 | Smother": "1-2-smother"
-   },
-   "1-stuff-into-net": {
-    "1 | Stuff into Net: The model is effectively removed as a casualty and can do nothing whilst in the bag, but if the Troll Hag should be slain, any enemy trapped in its bag are freed at the end of the battle, and no longer counts as casualties.": "1-stuff-into-net-the-model-is-effectively-removed-as-a-casualty-and-can-do-nothing-whilst-in-the-bag-but-if-the-troll-hag-should-be-slain-any-enemy-trapped-in-its-bag-are-freed-at-the-end-of-the-battle-and-no-longer-counts-as-casualties"
-   },
-   "1-suck-out-its": {
-    "1 | Suck out its Marrow": "1-suck-out-its-marrow"
-   },
-   "2-3-pick-up-and": {
-    "2-3 | Pick up and…": "2-3-pick-up-and"
-   },
-   "2-toss-back-the": {
-    "2 | Toss Back: The victim suffers D3 Strength 6 Hits which Ignores Armour saves, and D6 Strength 3 hits are inflicted on the unit (save as normal).": "2-toss-back-the-victim-suffers-d3-strength-6-hits-which-ignores-armour-saves-and-d6-strength-3-hits-are-inflicted-on-the-unit-save-as-normal"
-   },
-   "3-4-mother": {
-    "3-4 | Mother": "3-4-mother"
-   },
-   "3-send-packing-the": {
-    "3 | Send Packing: The Troll Hag will attempt to throw the victim in the nearest water feature (such as a river, marsh or swamp) within 12\". The victim is automatically removed as a casualty unless they have the Aquatic special rule in which case the model lands unharmed in the water. If no water feature is in range, treat this as a Toss Back result instead.": "3-send-packing-the-troll-hag-will-attempt-to-throw-the-victim-in-the-nearest-water-feature-such-as-a-river-marsh-or-swamp-within-12-the-victim-is-automatically-removed-as-a-casualty-unless-they-have-the-aquatic-special-rule-in-which-case-the-model-lands-unharmed-in-the-water-if-no-water-feature-is-in-range-treat-this-as-a-toss-back-result-instead"
-   },
-   "4-5-crush-with-stump": {
-    "4-5 | Crush with Stump": "4-5-crush-with-stump"
-   },
-   "4-squish-the-model": {
-    "4 | Squish: The model is removed as a casualty.": "4-squish-the-model-is-removed-as-a-casualty"
-   },
-   "5-6-mither": {
-    "5-6 | Mither": "5-6-mither"
-   },
-   "5-gobble-the-model": {
-    "5 | Gobble: The model is removed as a casualty.": "5-gobble-the-model-is-removed-as-a-casualty"
-   },
-   "6-grind-its-bones": {
-    "6 | Grind its Bones": "6-grind-its-bones"
-   },
-   "6-pick-another-treat": {
-    "6 | Pick Another: Treat the attack as if the Troll Hag had rolled the Stuff into Net result, and then choose another victim. Roll again on this table to see what the Troll Hag does with it.": "6-pick-another-treat-the-attack-as-if-the-troll-hag-had-rolled-the-stuff-into-net-result-and-then-choose-another-victim-roll-again-on-this-table-to-see-what-the-troll-hag-does-with-it"
-   },
-   "crush-with-stump-all": {
-    "- Crush with Stump: All models in base contact, friend or foe, suffer a Strength 6 hit. - Grind its Bones: The Troll Hag may target a single model in base contact. This model suffers a single Strength 6 hit with the Multiple Wounds (D3) special rule. - Smother: The target suffers D3 Wounds which Ignores Armour saves. This has no effect on Animated Constructs. In addition, the target may not make any attacks until the Troll Hag is either slain or rolls a different result on its special attack table. - Mother: The target takes a single Strength 6 hit with the Multiple Wounds (D3) special rule. If the target survives the attack, it may not attack until the start of your next turn. - Mither: Neither the Troll Hag nor the target actually fight if they have not already done so this round. The Troll Hag automatically wins the combat by 2 points or more. In addition, the target has its Weapon Skill reduced to 1 until the end of the next turn. This result has no effect against Animated Constructs.": "crush-with-stump-all-models-in-base-contact-friend-or-foe-suffer-a-strength-6-hit-grind-its-bones-the-troll-hag-may-target-a-single-model-in-base-contact-this-model-suffers-a-single-strength-6-hit-with-the-multiple-wounds-d3-special-rule-smother-the-target-suffers-d3-wounds-which-ignores-armour-saves-this-has-no-effect-on-animated-constructs-in-addition-the-target-may-not-make-any-attacks-until-the-troll-hag-is-either-slain-or-rolls-a-different-result-on-its-special-attack-table-mother-the-target-takes-a-single-strength-6-hit-with-the-multiple-wounds-d3-special-rule-if-the-target-survives-the-attack-it-may-not-attack-until-the-start-of-your-next-turn-mither-neither-the-troll-hag-nor-the-target-actually-fight-if-they-have-not-already-done-so-this-round-the-troll-hag-automatically-wins-the-combat-by-2-points-or-more-in-addition-the-target-has-its-weapon-skill-reduced-to-1-until-the-end-of-the-next-turn-this-result-has-no-effect-against-animated-constructs"
-   },
-   "d6-result": {
-    "D6 | Result": "d6-result"
-   },
-   "d6-result-2": {
-    "D6 | Result": "d6-result"
-   },
-   "d6-result-3": {
-    "D6 | Result": "d6-result"
-   },
    "magic-items": {
     "Magic Items": "magic-items"
-   },
-   "suck-out-its-marrow": {
-    "- Suck out its Marrow: The unit suffers D6 Strength 5 hits. For every wound the target loses, the Troll Hag gains one, up to its starting number. - Pick up and…: The Troll Hag stoops down and grabs a single Character in base contact from the target unit (Troll Hag's choice). The Troll Hag grabs the model and the player rolls a D6 to see what happens next": "suck-out-its-marrow-the-unit-suffers-d6-strength-5-hits-for-every-wound-the-target-loses-the-troll-hag-gains-one-up-to-its-starting-number-pick-up-and-the-troll-hag-stoops-down-and-grabs-a-single-character-in-base-contact-from-the-target-unit-troll-hags-choice-the-troll-hag-grabs-the-model-and-the-player-rolls-a-d6-to-see-what-happens-next"
-   },
-   "tiddlers-table-use-this-chart": {
-    "TIDDLERS TABLE Use this chart when fighting Infantry, Large Infantry, Cavalry, War Beasts or Swarms.": "tiddlers-table-use-this-chart-when-fighting-infantry-large-infantry-cavalry-war-beasts-or-swarms"
-   },
-   "troll-hag-special-attacks-to": {
-    "Troll Hag Special Attacks: To determine what happens in each Close Combat phase, pick a unit in base contact with the Troll Hag and roll a D6 on one of the following tables. Which table you use depends on the size of the Troll Hag's victim. If no suitable target is in base contact, roll again on the chart until you get another result.": "troll-hag-special-attacks-to-determine-what-happens-in-each-close-combat-phase-pick-a-unit-in-base-contact-with-the-troll-hag-and-roll-a-d6-on-one-of-the-following-tables-which-table-you-use-depends-on-the-size-of-the-troll-hags-victim-if-no-suitable-target-is-in-base-contact-roll-again-on-the-chart-until-you-get-another-result"
-   },
-   "whoppers-table-use-this-chart": {
-    "WHOPPERS TABLE Use this chart when fighting Monsters, Monstrous Creatures, Monstrous Beasts, Monstrous Infantry, Monstrous Cavalry, Chariots, War Machines, and Shrines.": "whoppers-table-use-this-chart-when-fighting-monsters-monstrous-creatures-monstrous-beasts-monstrous-infantry-monstrous-cavalry-chariots-war-machines-and-shrines"
    },
    "wizard-level": {
     "additional Wizard Level": "additional-wizard-level"
@@ -857,29 +794,8 @@
    "May have a Magical Ward (6+) (if Savage Orc Wizard is included in your army)": "magical-ward"
   },
   "GIANT RIVER TROLL HAG": {
-   "- Crush with Stump: All models in base contact, friend or foe, suffer a Strength 6 hit. - Grind its Bones: The Troll Hag may target a single model in base contact. This model suffers a single Strength 6 hit with the Multiple Wounds (D3) special rule. - Smother: The target suffers D3 Wounds which Ignores Armour saves. This has no effect on Animated Constructs. In addition, the target may not make any attacks until the Troll Hag is either slain or rolls a different result on its special attack table. - Mother: The target takes a single Strength 6 hit with the Multiple Wounds (D3) special rule. If the target survives the attack, it may not attack until the start of your next turn. - Mither: Neither the Troll Hag nor the target actually fight if they have not already done so this round. The Troll Hag automatically wins the combat by 2 points or more. In addition, the target has its Weapon Skill reduced to 1 until the end of the next turn. This result has no effect against Animated Constructs.": "crush-with-stump-all",
-   "- Suck out its Marrow: The unit suffers D6 Strength 5 hits. For every wound the target loses, the Troll Hag gains one, up to its starting number. - Pick up and…: The Troll Hag stoops down and grabs a single Character in base contact from the target unit (Troll Hag's choice). The Troll Hag grabs the model and the player rolls a D6 to see what happens next:": "suck-out-its-marrow",
-   "1 | Stuff into Net: The model is effectively removed as a casualty and can do nothing whilst in the bag, but if the Troll Hag should be slain, any enemy trapped in its bag are freed at the end of the battle, and no longer counts as casualties.": "1-stuff-into-net",
-   "1 | Suck out its Marrow": "1-suck-out-its",
-   "1-2 | Smother": "1-2-smother",
-   "2 | Toss Back: The victim suffers D3 Strength 6 Hits which Ignores Armour saves, and D6 Strength 3 hits are inflicted on the unit (save as normal).": "2-toss-back-the",
-   "2-3 | Pick up and…": "2-3-pick-up-and",
-   "3 | Send Packing: The Troll Hag will attempt to throw the victim in the nearest water feature (such as a river, marsh or swamp) within 12\". The victim is automatically removed as a casualty unless they have the Aquatic special rule in which case the model lands unharmed in the water. If no water feature is in range, treat this as a Toss Back result instead.": "3-send-packing-the",
-   "3-4 | Mother": "3-4-mother",
-   "4 | Squish: The model is removed as a casualty.": "4-squish-the-model",
-   "4-5 | Crush with Stump": "4-5-crush-with-stump",
-   "5 | Gobble: The model is removed as a casualty.": "5-gobble-the-model",
-   "5-6 | Mither": "5-6-mither",
-   "6 | Grind its Bones": "6-grind-its-bones",
-   "6 | Pick Another: Treat the attack as if the Troll Hag had rolled the Stuff into Net result, and then choose another victim. Roll again on this table to see what the Troll Hag does with it.": "6-pick-another-treat",
-   "D6 | Result": "d6-result",
-   "D6 | Result #2": "d6-result-2",
-   "D6 | Result #3": "d6-result-3",
    "May take Magic Items up to a total of 100 points": "magic-items",
-   "May take an additional Wizard Level": "wizard-level",
-   "TIDDLERS TABLE Use this chart when fighting Infantry, Large Infantry, Cavalry, War Beasts or Swarms.": "tiddlers-table-use-this-chart",
-   "Troll Hag Special Attacks: To determine what happens in each Close Combat phase, pick a unit in base contact with the Troll Hag and roll a D6 on one of the following tables. Which table you use depends on the size of the Troll Hag's victim. If no suitable target is in base contact, roll again on the chart until you get another result.": "troll-hag-special-attacks-to",
-   "WHOPPERS TABLE Use this chart when fighting Monsters, Monstrous Creatures, Monstrous Beasts, Monstrous Infantry, Monstrous Cavalry, Chariots, War Machines, and Shrines.": "whoppers-table-use-this-chart"
+   "May take an additional Wizard Level": "wizard-level"
   },
   "GIANT WOLF": {
    "May take barding": "barding"
