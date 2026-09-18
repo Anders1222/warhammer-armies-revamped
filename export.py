@@ -40,8 +40,9 @@ Shape, top down (docs/format.md has the full description and worked examples):
 
 formatVersion 2 added the ids, the typed `optionGroups` beside `options`, the
 parsed unit size and list forms, and `composition`. Every formatVersion 1
-field kept its value; the new data is in new fields beside it. Ids are read
-from `ids/<slug>.json`, one committed map per book (exporter/ids.py).
+field kept its value; the new data is in new fields beside it. Ids are
+minted from the source names on every run (exporter/ids.py), so a name
+corrected in the source changes its id.
 
 A unit's fields keep the template's vocabulary in camelCase: `unit-size` is
 `unitSize`, and a companion `special-rules-body` is `specialRulesBody`. A
@@ -64,7 +65,7 @@ source, every printed option line is in `optionGroups` exactly once and is
 in the source, every word of exported text is a word on the rendered page,
 and the file conforms to schema/war.schema.json. It then prints the build
 report: groups and choices per faction, what stayed unclassified, unit
-sizes that did not parse, ids that needed a suffix, id-map entries added.
+sizes that did not parse, ids that needed a suffix.
 """
 
 from __future__ import annotations
@@ -81,7 +82,7 @@ from pathlib import Path
 
 from exporter import schema as war_schema
 from exporter.composition import rulebook_composition, unit_constraints
-from exporter.ids import IdMap, slug
+from exporter.ids import Ids, slug
 from exporter.options import (Context, family_patterns, lines_of, norm_rule, option_groups,
                               raws_of_groups)
 
@@ -519,7 +520,7 @@ class Vocab:
                      if w["name"].isupper() and not re.search(r"chart|firing|resolving", w["name"], re.I)}
 
 
-def enrich_unit(unit: dict, ids: IdMap, vocab: Vocab, fac: dict, families, upgrade_names,
+def enrich_unit(unit: dict, ids: Ids, vocab: Vocab, fac: dict, families, upgrade_names,
                 report: dict) -> None:
     """The formatVersion 2 fields of a unit, added beside the record's own."""
     unit["id"] = ids.assign(("units",), unit["name"])
@@ -615,7 +616,7 @@ def is_lore(title: str) -> bool:
     return "LORE" in title.upper()
 
 
-def build_faction(book: dict, ids: IdMap, vocab: Vocab, report: dict) -> dict:
+def build_faction(book: dict, ids: Ids, vocab: Vocab, report: dict) -> dict:
     meta = book["meta"]
     fac: dict = {"id": meta["slug"], "name": meta["army"], "version": meta["version"],
                  "align": meta.get("align"), "rules": [], "items": [],
@@ -804,7 +805,7 @@ def git_head() -> str | None:
 
 def new_report() -> dict:
     return {"units": 0, "groups": 0, "choices": 0, "unclassified": 0,
-            "unparsedSize": [], "suffixed": [], "newIds": []}
+            "unparsedSize": [], "suffixed": []}
 
 
 def export() -> tuple[dict, dict[str, dict], dict]:
@@ -822,18 +823,15 @@ def export() -> tuple[dict, dict[str, dict], dict]:
                   "rulebook": rulebook, "composition": rulebook_composition(rulebook),
                   "factions": {}}
     vocab = Vocab(rulebook)
-    report: dict = {"factions": {}, "mapsWritten": []}
+    report: dict = {"factions": {}}
     for book in books:
         meta = book["meta"]
         if meta["layout"] == "rules":
             continue
-        ids = IdMap(ROOT / "ids" / f"{meta['slug']}.json")
+        ids = Ids()
         rep = new_report()
         data["factions"][meta["slug"]] = build_faction(book, ids, vocab, rep)
-        rep["suffixed"] = ids.suffixed_in_map()
-        rep["newIds"] = ids.new
-        if ids.save():
-            report["mapsWritten"].append(ids.path.name)
+        rep["suffixed"] = ids.suffixed
         report["factions"][meta["slug"]] = rep
     return data, raw, report
 
@@ -1137,16 +1135,6 @@ def print_report(report: dict) -> None:
         print("    " + s)
     if len(suffixed) > 12:
         print(f"    .. and {len(suffixed) - 12} more")
-    new = [(slug, n) for slug, rep in sorted(report["factions"].items()) for n in rep["newIds"]]
-    print(f"  new id-map entries: {len(new)}"
-          + (f" (written: {', '.join(report['mapsWritten'])})" if report["mapsWritten"] else ""))
-    by_book = Counter(slug for slug, _ in new)
-    for slug, n in sorted(by_book.items()):
-        print(f"    ids/{slug}.json +{n}")
-    for slug, n in new[:8]:
-        print(f"    {slug} {n}")
-    if len(new) > 8:
-        print(f"    .. and {len(new) - 8} more; review the map before committing")
 
 
 def cited(rules: str) -> list[str]:

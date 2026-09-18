@@ -101,16 +101,14 @@ Four things read *out* of that, none write back into it:
   The formatVersion 2 additions live in **`exporter/`**: `options.py`
   classifies each printed option line into a typed `optionGroups` entry by
   wording and vocabulary, `composition.py` reads CHOOSING YOUR ARMY and unit
-  NOTES into data, `ids.py` mints the stable ids, `schema.py` validates
-  against `schema/war.schema.json`. Nothing there parses Typst either.
-- **`ids/<slug>.json`** is the committed id map of one book: source name to
-  id, by table. The export reads it, adds names it has not seen and never
-  renames an entry, so a name corrected in `src/` arrives as a new entry
-  with a fresh id, and keeping saved army lists working means pointing the
-  new name at the old id by hand and dropping the stale one. The build
-  report lists new entries; review them, then commit the map with the
-  source change that caused them. Do not delete a map to "reset" it: every
-  id in it is one the builder may have stored.
+  NOTES into data, `ids.py` mints the ids, `schema.py` validates against
+  `schema/war.schema.json`. Nothing there parses Typst either.
+- **Ids are minted, not stored.** `exporter/ids.py` derives every id from
+  the source names on each run — the slug of the printed name, then a
+  numeric suffix where two names in one parent collide, by the order the
+  source encounters them. Nothing is read from or written to disk, so a
+  name corrected in `src/` changes its id; reconciling that against saved
+  army lists is the builder's job at release time.
 
 **`extract/`** is the one-way import path: `extract.py` recovers structure from
 the PDFs, `batch.py` orchestrates extract → coverage → welds into `build/`, and
@@ -151,10 +149,9 @@ assumed:
   the build, and confirm `check: ok`. Read the build report under it: a new
   `unclassified` line or a jump in suffixed ids is a regression the gate does
   not fail on.
-- Renamed a unit, option, item or upgrade in a book, or added one → `python
-  export.py --check` writes the new names into `ids/<slug>.json` and lists
-  them; for a rename, move the old id to the new name in the map, then
-  commit the map with the book.
+- Renamed a unit, option, item or upgrade in a book → its id in
+  `build/war.json` changes with it. There is nothing to update here; the
+  builder reconciles the old id at release time.
 - Changed anything under `extract/` → the gates need the source PDFs, which are
   not in the repo. If you don't have them, say so rather than reporting the
   change as verified.

@@ -41,7 +41,7 @@ baseline render this session makes before the branch is cut.
 | Repository, branch | Absolute path of the clone; the feature branch to work on (created, checked out) and `main` as the branch the PR will target |
 | Orientation | `CLAUDE.md`, the relevant section of `src/template.typ`, `docs/format.md` for export changes, plus the files the change depends on |
 | Scope | Files or areas to change, one line each (from the scout hits); everything else is out of scope |
-| Acceptance criteria | Observable, checkable statements: build exit 0, `check: ok`, no new `unclassified` line, no new id in `ids/<slug>.json` beyond the ones named |
+| Acceptance criteria | Observable, checkable statements: build exit 0, `check: ok`, no new `unclassified` line |
 | Verification the implementer runs | Exact commands: `python build.py` (whole corpus for a template change), `python export.py --check`, `python emit.py` when a book or its meta changed |
 | Verification reserved for the session | `render-text`/`render-glyphs` against the baseline, `check-site`, the `extract/` gates that need the source PDFs |
 | Decisions already taken | Design choices from the planning phase, so the implementer does not re-derive them differently |
@@ -72,7 +72,7 @@ Read the diff (`git diff`), not the implementer's narrative, and check:
    commit message) or sent back.
 5. Conventions — one line per comment, no unrelated edits, generated
    files (`site/index.html`, `build/render.json`) regenerated not
-   edited, `ids/<slug>.json` changes reviewed name by name.
+   edited.
 
 Findings go back to the same implementer (SendMessage keeps its
 context) as a delta brief, at most two rounds; then finish the change in
