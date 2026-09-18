@@ -185,9 +185,6 @@
    "magic-items-overseer": {
     "Magic Items": "magic-items"
    },
-   "magic-standard-with-no-points": {
-    "Magic Standard with no points limit in addition to any other Magic Items they might have.": "magic-standard-with-no-points-limit-in-addition-to-any-other-magic-items-they-might-have"
-   },
    "missile-weapon": {
     "Blunderbuss": "blunderbuss",
     "Crossbow": "crossbow",
@@ -196,9 +193,6 @@
    "mount": {
     "Bale Taurus": "bale-taurus",
     "Great Taurus": "great-taurus"
-   },
-   "notes": {
-    "NOTES": "notes"
    },
    "shield": {
     "shield": "shield"
@@ -599,9 +593,7 @@
    "May choose one of the following: #2": "missile-weapon",
    "May choose one of the following: #3": "armour",
    "May take a shield": "shield",
-   "NOTES:": "notes",
-   "One Overseer may carry the Battle Standard": "battle-standard",
-   "The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.": "magic-standard-with-no-points"
+   "One Overseer may carry the Battle Standard": "battle-standard"
   },
   "DEVASTATORS": {
    "Must choose one of the following:": "melee-weapon"
