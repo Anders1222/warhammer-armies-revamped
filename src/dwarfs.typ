@@ -1034,8 +1034,8 @@ If a Gyrocopter Dive Bombs, it cannot make any other shooting attacks in that tu
 - May upgrade one Irondrake to a Leader +5 points
   - May take cinderblast bombs (see Ironbreakers) +5 points
   - May replace drakegun with one of the following:
-- Brace of drakefire pistols free
-- Trollhammer torpedo +15 points
+    - Brace of drakefire pistols free
+    - Trollhammer torpedo +15 points
 - May upgrade one Irondrake to a Musician +5 points
 - May upgrade one Irondrake to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points

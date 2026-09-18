@@ -813,9 +813,9 @@ This item can be used in addition to any other missile weapon the Master Enginee
 - May take light armour +0.5 point/model
 - May upgrade one Handgunner to a Leader +5 points
   - May replace handgun with one of the following:
-- Brace of pistols free
-- Repeater handgun +5 points
-- Hochland long rifle +10 points
+    - Brace of pistols free
+    - Repeater handgun +5 points
+    - Hochland long rifle +10 points
 - May upgrade one Handgunner to a Musician +5 points
 - May upgrade one Handgunner to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 25 points
@@ -1039,9 +1039,9 @@ This item can be used in addition to any other missile weapon the Master Enginee
 - May take barding free
 - May upgrade one Outrider to a Leader +5 points
   - May replace repeater handgun with one of the following:
-- Brace of pistols including one repeater pistol free
-- Grenade launching blunderbuss free
-- Hochland long rifle free
+    - Brace of pistols including one repeater pistol free
+    - Grenade launching blunderbuss free
+    - Hochland long rifle free
 - May upgrade one Outrider to a Musician +5 points
   ],
 )
