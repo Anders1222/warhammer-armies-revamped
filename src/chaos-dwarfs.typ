@@ -405,9 +405,8 @@ Lores of Magic:
 - One Overseer may carry the Battle Standard +25 points
 - An Overseer may take Magic Items up to a total of 50 points
 - An Overlord may take Magic Items up to a total of 100 points
-
-NOTES:
-
+  ],
+  notes: [
 - The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
   ],
 )

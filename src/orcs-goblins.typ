@@ -754,12 +754,7 @@ Little Waaagh!
     rule("Slimy Shanks")[Enemies attempting to attack a Giant River Troll Hag in close combat suffer a \-1 penalty to their To Hit rolls.],
     rule("Swamp Breath")[This is a Strength 3 Breath Weapon with the Ignores Armour saves special rule. A unit that takes casualties from to this attack suffers \-2 to its Leadership until the start of your next turn.],
     rule("Water Wise")[Unless she is within a water feature of any type (including rivers, marshes, swamps, etc), the Giant River Troll Hag has the Stupidity special rule. If the test is failed and there is one or more water features on the table, the Troll Hag moves towards the closest of these instead of straight forwards.],
-  ),
-  options: [
-- May take an additional Wizard Level +35 points
-- May take Magic Items up to a total of 100 points
-
-- *Troll Hag Special Attacks:* To determine what happens in each Close Combat phase, pick a unit in base contact with the Troll Hag and roll a D6 on one of the following tables. Which table you use depends on the size of the Troll Hag's victim. If no suitable target is in base contact, roll again on the chart until you get another result.
+    rule("Troll Hag Special Attacks")[To determine what happens in each Close Combat phase, pick a unit in base contact with the Troll Hag and roll a D6 on one of the following tables. Which table you use depends on the size of the Troll Hag's victim. If no suitable target is in base contact, roll again on the chart until you get another result.
 
 *TIDDLERS TABLE *_Use this chart when fighting Infantry, Large Infantry, Cavalry, War Beasts or Swarms._
 
@@ -780,7 +775,11 @@ unless they have the Aquatic special rule in which case the model lands unharmed
 If no water feature is in range, treat this as a Toss Back result instead."), ("4", "Squish: The model is removed as a casualty."), ("5", "Gobble: The model is removed as a casualty."), ("6", "Pick Another: Treat the attack as if the Troll Hag had rolled the Stuff into Net result, and then
 choose another victim. Roll again on this table to see what the Troll Hag does with it.")))
 
-*\- Crush with Stump:* All models in base contact, friend or foe, suffer a Strength 6 hit. *\- Grind its Bones:* The Troll Hag may target a single model in base contact. This model suffers a single Strength 6 hit with the Multiple Wounds (D3) special rule. *\- Smother:* The target suffers D3 Wounds which Ignores Armour saves. This has no effect on Animated Constructs. In addition, the target may not make any attacks until the Troll Hag is either slain or rolls a different result on its special attack table. *\- Mother:* The target takes a single Strength 6 hit with the Multiple Wounds (D3) special rule. If the target survives the attack, it may not attack until the start of your next turn. *\- Mither:* Neither the Troll Hag nor the target actually fight if they have not already done so this round. The Troll Hag automatically wins the combat by 2 points or more. In addition, the target has its Weapon Skill reduced to 1 until the end of the next turn. This result has no effect against Animated Constructs.
+*\- Crush with Stump:* All models in base contact, friend or foe, suffer a Strength 6 hit. *\- Grind its Bones:* The Troll Hag may target a single model in base contact. This model suffers a single Strength 6 hit with the Multiple Wounds (D3) special rule. *\- Smother:* The target suffers D3 Wounds which Ignores Armour saves. This has no effect on Animated Constructs. In addition, the target may not make any attacks until the Troll Hag is either slain or rolls a different result on its special attack table. *\- Mother:* The target takes a single Strength 6 hit with the Multiple Wounds (D3) special rule. If the target survives the attack, it may not attack until the start of your next turn. *\- Mither:* Neither the Troll Hag nor the target actually fight if they have not already done so this round. The Troll Hag automatically wins the combat by 2 points or more. In addition, the target has its Weapon Skill reduced to 1 until the end of the next turn. This result has no effect against Animated Constructs.],
+  ),
+  options: [
+- May take an additional Wizard Level +35 points
+- May take Magic Items up to a total of 100 points
   ],
 )
 
