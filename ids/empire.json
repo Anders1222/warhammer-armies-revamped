@@ -360,14 +360,13 @@
    }
   },
   "HANDGUNNERS": {
-   "brace-of-pistols": {
-    "Brace of pistols": "brace-of-pistols"
-   },
    "champion": {
     "Leader": "leader"
    },
-   "hochland-long-rifle": {
-    "Hochland long rifle": "hochland-long-rifle"
+   "equipment": {
+    "Brace of pistols": "brace-of-pistols",
+    "Hochland long rifle": "hochland-long-rifle",
+    "Repeater handgun": "repeater-handgun"
    },
    "light-armour": {
     "light armour": "light-armour"
@@ -377,9 +376,6 @@
    },
    "musician": {
     "Musician": "musician"
-   },
-   "repeater-handgun": {
-    "Repeater handgun": "repeater-handgun"
    },
    "standard-bearer": {
     "Standard Bearer": "standard-bearer"
@@ -584,16 +580,12 @@
    "barding": {
     "barding": "barding"
    },
-   "brace-of-pistols-including-one-repeater-pistol": {
-    "Brace of pistols including one repeater pistol": "brace-of-pistols-including-one-repeater-pistol"
-   },
    "champion": {
     "Leader": "leader"
    },
-   "grenade-launching-blunderbuss": {
-    "Grenade launching blunderbuss": "grenade-launching-blunderbuss"
-   },
-   "hochland-long-rifle": {
+   "equipment": {
+    "Brace of pistols including one repeater pistol": "brace-of-pistols-including-one-repeater-pistol",
+    "Grenade launching blunderbuss": "grenade-launching-blunderbuss",
     "Hochland long rifle": "hochland-long-rifle"
    },
    "musician": {
@@ -965,15 +957,12 @@
    "May upgrade one Halfling to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
   },
   "HANDGUNNERS": {
-   "Brace of pistols": "brace-of-pistols",
-   "Hochland long rifle": "hochland-long-rifle",
    "May take light armour": "light-armour",
    "May upgrade one Handgunner to a Leader": "champion",
    "May upgrade one Handgunner to a Leader > Leader > May replace handgun with one of the following:": "equipment",
    "May upgrade one Handgunner to a Musician": "musician",
    "May upgrade one Handgunner to a Standard Bearer": "standard-bearer",
-   "May upgrade one Handgunner to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard",
-   "Repeater handgun": "repeater-handgun"
+   "May upgrade one Handgunner to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
   },
   "HANS VON LOWENHACKE": {
    "May take Magic Items up to a total of 50 points": "magic-items"
@@ -1058,9 +1047,6 @@
    "May upgrade one Ogre to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 25 points": "magic-standard"
   },
   "OUTRIDERS": {
-   "Brace of pistols including one repeater pistol": "brace-of-pistols-including-one-repeater-pistol",
-   "Grenade launching blunderbuss": "grenade-launching-blunderbuss",
-   "Hochland long rifle": "hochland-long-rifle",
    "May take barding": "barding",
    "May upgrade one Outrider to a Leader": "champion",
    "May upgrade one Outrider to a Leader > Leader > May replace repeater handgun with one of the following:": "equipment",

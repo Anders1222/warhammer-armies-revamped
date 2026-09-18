@@ -126,14 +126,15 @@
    }
   },
   "IRONDRAKES": {
-   "brace-of-drakefire-pistols": {
-    "Brace of drakefire pistols": "brace-of-drakefire-pistols"
-   },
    "champion": {
     "Leader": "leader"
    },
    "cinderblast-bombs": {
     "cinderblast bombs": "cinderblast-bombs"
+   },
+   "equipment": {
+    "Brace of drakefire pistols": "brace-of-drakefire-pistols",
+    "Trollhammer torpedo": "trollhammer-torpedo"
    },
    "magic-standard": {
     "Magic Standard": "magic-standard"
@@ -143,9 +144,6 @@
    },
    "standard-bearer": {
     "Standard Bearer": "standard-bearer"
-   },
-   "trollhammer-torpedo": {
-    "Trollhammer torpedo": "trollhammer-torpedo"
    }
   },
   "JOSEF BUGMAN": {
@@ -485,14 +483,12 @@
    "May upgrade one Ironbreaker to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
   },
   "IRONDRAKES": {
-   "Brace of drakefire pistols": "brace-of-drakefire-pistols",
    "May upgrade one Irondrake to a Leader": "champion",
    "May upgrade one Irondrake to a Leader > Leader > May replace drakegun with one of the following:": "equipment",
    "May upgrade one Irondrake to a Leader > Leader > May take cinderblast bombs (see Ironbreakers)": "cinderblast-bombs",
    "May upgrade one Irondrake to a Musician": "musician",
    "May upgrade one Irondrake to a Standard Bearer": "standard-bearer",
-   "May upgrade one Irondrake to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard",
-   "Trollhammer torpedo": "trollhammer-torpedo"
+   "May upgrade one Irondrake to a Standard Bearer > Standard Bearer > May take a Magic Standard worth up to 50 points": "magic-standard"
   },
   "JOSEF BUGMAN": {
    "May take a Dwarfen crossbow": "dwarfen-crossbow"

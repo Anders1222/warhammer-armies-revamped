@@ -555,8 +555,7 @@ def option_groups(options, ctx: Context, ids: IdMap, unit_name: str,
                     if k.kind != kind.kind:
                         k.extra.pop("rule", None)
             else:
-                # A menu head with nothing under it is a fault in the source
-                # (three entries print the choices as top-level bullets);
+                # A menu head with nothing under it is a fault in the source,
                 # flagged so the report shows it until the book is fixed.
                 kind = Kind(head_kind.kind, head_kind.name, dict(head_kind.extra),
                             unclassified=True)
