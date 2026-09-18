@@ -229,3 +229,26 @@ book says which.
 Messages are a plain declarative sentence describing what changed, sometimes
 two clauses joined by "and" — "The Cohort gets its Kroxigor back, and only two
 words had to change". No conventional-commit prefixes, no bullet lists.
+
+## Agent workflow (model split)
+
+- Plan, brief and review in the session. Delegate implementation to
+  the `implementer` agent (Opus) through the `delegate-implementation`
+  skill when the change has known scope, a mechanical check and is
+  more than a one-file fix. Diagnosis, exploration, math and
+  unverifiable changes stay in the session.
+- Locate with `scout` (Haiku) before reading files yourself; condense
+  logs with `log-summarizer` (Haiku). Never paste build output or the
+  export build report into the session: redirect to a log, grep it.
+- Unpinned subagents run on Opus (`CLAUDE_CODE_SUBAGENT_MODEL` in
+  `.claude/settings.json`); spawn one on Fable only deliberately and
+  say so.
+- Never commit without approval. Feature branches off `main`, named as
+  plain slugs; `main` is the default branch and CI publishes it. A
+  delegated change is delivered as a PR into `main`: committing and
+  pushing on its feature branch to open that PR is the one exception;
+  merging is the user's.
+- Build: `python build.py`. Checks: `python export.py --check` after
+  the build, `python emit.py` when a book's meta changed. Never
+  unattended: `to_book.py` against an existing slug, and `export.py
+  --out` into the builder repo, which is a release step.
