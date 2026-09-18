@@ -18,9 +18,11 @@ Added:
   unit ratios, Army General rules, handler ratios. The vocabulary also
   defines "0-1 per N points" limits and "must include" minimums, which no
   WAR book prints, so that the same rule engine can read another edition.
-- Stable ids: `id` on every faction, rule, item, upgrade, lore, unit, profile
-  row, option group and choice, kept in a committed map per book under
-  `ids/<slug>.json`. The export adds new names and never renames an entry.
+- Ids: `id` on every faction, rule, item, upgrade, lore, unit, profile row,
+  option group and choice, minted from the source names on every export -
+  the slug of the printed name, a numeric suffix where two names in one
+  parent collide. A name corrected in the source changes its id; keeping
+  saved lists working across that is the builder's job at release time.
 - `optionGroups` on every unit: the typed view of the printed OPTIONS. Each
   line becomes a group with a `kind` (`equipment`, `mount`, `command`,
   `magicStandard`, `magicItems`, `battleStandard`, `wizardLevel`,
@@ -32,8 +34,7 @@ Added:
   and `specialRulesList`.
 - `schema/war.schema.json`, validated by `--check`.
 - A build report printed by `--check`: units, groups, choices and
-  unclassified lines per faction, unparsed unit sizes, suffixed ids, new
-  id-map entries.
+  unclassified lines per faction, unparsed unit sizes, suffixed ids.
 
 Changed:
 

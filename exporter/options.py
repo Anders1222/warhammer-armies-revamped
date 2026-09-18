@@ -26,7 +26,7 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, field
 
-from .ids import IdMap, slug
+from .ids import Ids, slug
 
 # --- the printed line, parsed --------------------------------------------------
 
@@ -496,9 +496,9 @@ def group_base(k: Kind, applies: str | None, menu: bool) -> str:
     return slug(" ".join(k.name.split()[:5])) if k.name else "upgrade"
 
 
-def option_groups(options, ctx: Context, ids: IdMap, unit_name: str,
+def option_groups(options, ctx: Context, ids: Ids, unit_name: str,
                   report: dict) -> list[dict]:
-    """The typed view of a unit's OPTIONS, ids assigned from the book's map."""
+    """The typed view of a unit's OPTIONS, ids minted from the names in this run."""
     if options is None:
         return []
     items = tree_of_text(options) if isinstance(options, str) else options

@@ -150,16 +150,16 @@ its parent: a unit, rule, item, upgrade or lore within the faction; a
 profile row and a group within the unit; a choice within its group. Only a
 collision earns a numeric suffix.
 
-Ids are stable across source edits because each book has a committed map,
-`ids/<slug>.json`, from source name to id, by table (`units`, `profiles`,
-`groups`, `choices`, `rules`, `items`, `upgrades`, `lores`). Group keys are
-the printed line without its price, so a price correction keeps the id. The
-export reads the map, adds names it has not seen, and never renames an entry
-it has. A name corrected in the source therefore arrives as a **new** entry
-with a fresh id; the fix, so that saved army lists keep working, is to point
-the new name at the old id by hand and drop the stale entry. The build
-report lists every new entry so that review happens before the map is
-committed.
+An id is a function of the source names alone: the slug of the printed
+name, then a numeric suffix where two names in one parent claim the same
+slug, by the order they are encountered in the source. Nothing is stored
+between runs; every export mints the ids fresh. Group keys are the printed
+line without its price, so a price correction keeps the id.
+
+A name corrected in the source therefore changes its id, as does a change
+of order that moves a collision suffix from one name to the other.
+Reconciling that against saved army lists is the army builder's job at
+release time, when it takes a new copy of the bundle.
 
 ## Composition
 
@@ -475,5 +475,4 @@ same nine lines as printed and is elided here after its first entry.
 
 It then prints the build report: units, groups and choices per faction; the
 `unclassified` count per faction; units whose `unitSize` did not parse; ids
-that carry a collision suffix; and the id-map entries added by this run, so
-the map can be reviewed before it is committed.
+that carry a collision suffix.
