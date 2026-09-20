@@ -4876,7 +4876,7 @@ Remains in play. _Throne of Vines_ is an *augment* spell cast upon the Wizard. W
 ]
 #lore("THE LORE OF SHADOW")[
 
-#spell("STEED OF SHADOWS", "Lore Attribute")[After a spell from the Lore of Shadow is successfully cast and resolved, the caster can choose to immediately make a normal move using the Fly special rule as if it were the Remaining Moves sub-phase. The Fly move is equal to 10 minus the model's Line of Sight value.]
+#spell("STEED OF SHADOWS", "Lore Attribute")[After a spell from the Lore of Shadow is successfully cast and resolved, the caster can choose to immediately make a normal move using the Fly (10) special rule as if it were the Remaining Moves sub-phase.]
 
 #spell("MELKOTH'S MYSTIFYING MIASMA", "Signature Spell", cast: "5+")[_Melkoth's Mystifying Miasma_ is a *hex* spell with a range of 24". The target unit's Weapon Skill, Ballistic Skill, Initiative or Movement (you choose which) is reduced by D3 (to a minimum of 1) until the start of the caster's next Magic phase.]
 
@@ -4890,17 +4890,17 @@ Remains in play. _Throne of Vines_ is an *augment* spell cast upon the Wizard. W
 
 #spell("THE WITHERING", 2, cast: "7+")[Remains in play. _The Withering_ is a *hex* spell with a range of 24". While the spell is in effect, all models in the target unit have their Toughness reduced by 1 (to a minimum of 1).]
 
-#spell("THE DANCE OF DESPAIR", 2, cast: "8+")[Remains in play. _The Dance of Despair_ is a *hex* spell with a range of 24". While the spell is in effect, the target must move straight forward using the Random Movement (2D6) special rule.]
+#spell("THE DANCE OF DESPAIR", 2, cast: "7+")[Remains in play. _The Dance of Despair_ is a *hex* spell with a range of 24". While the spell is in effect, the target must move straight forward using the Random Movement (2D6) special rule.]
 
-#spell("CROWN OF TAIDRON", 3, cast: "9+")[_Crown of Taidron_ is a *direct damage aura* spell with a range of 12". Each affected unit suffers D6 Strength 4 Hits.]
+#spell("CROWN OF TAIDRON", 3, cast: "9+")[_Crown of Taidron_ is a *hex aura* spell with a range of 12". Each affected unit suffers D6 Strength 4 Hits.]
 
 #spell("UNSEEN LURKER", 3, cast: "10+")[_Unseen Lurker_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, units can only draw Line of Sight to the target if they are within 8", though the unit still blocks Line of Sight as normal.]
 
 #spell("BRIDGE OF SHADOWS", 3, cast: "12+")[_Bridge of Shadows_ is a *conveyance* spell with a range of 12". The target is immediately picked up and may be moved to any position on the battlefield within 18" of their original position, just like a summoning spell.]
 
-#spell("OKKAM'S MINDRAZOR", 4, cast: "12+")[_Okkam's Mindrazor_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, the target unit (except mounts) gain the Magical Attacks special rule and use their Leadership instead of Strength when rolling To Wound with all close combat attacks (any Strength bonuses from weapons are ignored). Armour saves are taken and modified by the Attack's actual Strength value.]
+#spell("OKKAM'S MINDRAZOR", 4, cast: "12+")[_Okkam's Mindrazor_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, the target unit (except mounts) use their Leadership instead of Strength when rolling To Wound with all close combat attacks (any Strength bonuses from weapons are ignored). Armour saves are taken and modified by the Attack's actual Strength value.]
 
-#spell("THE PENUMBRAL PENDULUM", 4, cast: "13+")[_The Penumbral Pendulum_ is a *direct damage area* spell that uses the line template. Place it 18" in length, directly away from the caster's front arc. Each model in the way suffers a Strength 10 Hit with the Multiple Wounds (D3) special rule.]
+#spell("THE PENUMBRAL PENDULUM", 4, cast: "13+")[_The Penumbral Pendulum_ is a *direct damage area* spell that uses the line template. Place it 18" in length, directly away from the caster. Each model in the way suffers a Strength 10 Hit with the Multiple Wounds (D3) special rule.]
 
 #spell("PIT OF SHADES", 4, cast: "15+")[_Pit of Shades_ is a *direct damage area* spell with a range of 24" that uses the small round template. All models under the template must roll a D6 per Wound on their profile – for each roll of a 4+ they suffer a Wound which Ignores Armour Saves and Regeneration.]
 ]
