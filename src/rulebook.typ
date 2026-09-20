@@ -1441,7 +1441,7 @@ The player whose turn it is nominates a close combat involving one or more of th
 
 == 1. FIGHT A ROUND OF CLOSE COMBAT
 
-Just as all eligible units (i.e. those in base contact with the enemy) must fight in close combat, similarly all models that are able to must fight. Models cannot elect not to strike, nor can they normally be prevented from doing so.
+Just as all eligible units (i.e. those in base contact with the enemy) must fight in close combat, similarly all models in base contact with an enemy must fight. Models cannot elect not to strike, nor can they normally be prevented from doing so.
 
 #namecost("FIRST ROUND OF CLOSE COMBAT", "")
 
@@ -1451,17 +1451,17 @@ There are multiple rules in the game that refer to something having an effect "i
 
 *Models can fight if they are in base contact with an enemy model when it is their chance to attack, even if the models' bases only touch at the corner.*
 
-Normally, each model can only attack enemy models in base contact. However, a minimum of five models in the front rank may always attack, as long as the unit is in base contact with any model of the enemy unit in that arc. This is what is referred to as the fighting rank.
+Normally, a warrior can only strike blows against an enemy model in base contact. The most common exception is if they are making a supporting attack.
 
-If a model has more than one Attack and finds itself in base contact with two or more enemies with different characteristic profiles, it must choose which one to attack when its turn to strike comes (before any dice are rolled). If the model is not in direct base contact, it can only direct its attacks against normal rank and file models in the enemy unit.
+However, you may always direct attacks against normal rank and file models, as long as the model is in base contact with any model of the enemy unit (including characters and command group models).
+
+If a model has more than one Attack and finds itself in base contact with two or more enemies with different characteristic profiles, it must choose which one to attack when its turn to strike comes (before any dice are rolled).
 
 #diagram("/assets/figures/rulebook/img-0493.jpg", 0.463)
 
 #note[_Models in base contact with an enemy, even just corner-to-corner, can attack (marked white). These two blue models are in contact with both a cavalry and an infantry model, so can choose to direct their attacks at either unit._]
 
 #diagram("/assets/figures/rulebook/img-0494.jpg", 0.463)
-
-#note[_All five models in the fighting rank may attack, even though only four red models are in base contact with the two blue models._]
 
 #namecost("SUPPORTING ATTACKS", "")
 
@@ -1471,7 +1471,7 @@ A model can make a supporting attack if it is in the second rank and directly be
 
 The number of maximum supporting attacks each model can make is dependent on their troop type, as explained in in the Troop Types chapter.
 
-Supporting attacks are made against models in base contact with the front rank model that is being fought 'through'.
+Supporting attacks are made against models in base contact with the front rank model that is being fought 'through'. If the front rank model is in base contact with two or more enemies with different profiles, the attacking player can only direct the supporting attacks against normal rank and file models in the unit. This means they cannot target specific models like characters, handlers or other unique models, unless those are the only options available.
 
 === HOW MANY ATTACKS?
 
@@ -1535,12 +1535,10 @@ Not all hits are going to harm your enemy – some bounce off tough hide, while 
 
 Consult the To Wound chart, cross-referencing the attacker's Strength with the defender's Toughness. Both values appear on the profiles of the creatures that are fighting. The chart indicates the minimum score required on a D6 to cause a wound. In most cases, you use the Strength on the attacker's profile regardless of what weapon they are using. However, some close combat weapons give the attacker a Strength bonus (see the Weapons chapter).
 
-Remember to roll dice separately for models with different Strength values. Sometimes modifiers apply to these rolls, but a natural dice score of 1 always fails.
-
-In the boxes where there are two values listed, this means that in order to successfully score a Wound, you must first roll a 6, followed by another D6. In situations where the roll might have a modifier to it, this primarily affects the second roll before the first. For example, a Strength 2 Attack with a +1 modifier treats Toughness 5 as only requiring to roll a 6+ To Wound, rather than a 6+ followed by a 2+.
+Remember to roll dice separately for models with different Strength values. Sometimes modifiers apply to these rolls, but a natural dice score of 6 always succeeds and a natural dice score of 1 always fails.
 
 #chartlabel("TARGET'S TOUGHNESS")
-#chart((("", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"), ("1", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+", "6+/6+", "n/a", "n/a"), ("2", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+", "6+/6+", "n/a"), ("3", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+", "6+/6+"), ("4", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+"), ("5", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+"), ("6", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+"), ("7", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+"), ("8", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+"), ("9", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+"), ("10", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+")))
+#chart((("", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"), ("1", "4+", "5+", "6+", "6+", "6+", "6+", "6+", "6+", "6+", "6+"), ("2", "3+", "4+", "5+", "6+", "6+", "6+", "6+", "6+", "6+", "6+"), ("3", "2+", "3+", "4+", "5+", "6+", "6+", "6+", "6+", "6+", "6+"), ("4", "2+", "2+", "3+", "4+", "5+", "6+", "6+", "6+", "6+", "6+"), ("5", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+", "6+", "6+"), ("6", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+", "6+"), ("7", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+"), ("8", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+"), ("9", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+"), ("10", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+")))
 #chartlabel("ATTACKER'S STRENGTH")
 
 === TAKE SAVING THROWS
@@ -1583,7 +1581,7 @@ If your unit charged this turn, it receives +1 combat result. This is cumulative
 
 #namecost("EXTRA RANKS", "")
 
-*\+1 combat result for each extra complete rank of models, to a maximum of +3. Units that have charged the same turn are limited to a maximum of +2.*
+*\+1 combat result for each extra complete rank of models, to a maximum of +3.*
 
 If your unit's formation is in a complete rank, you can claim a bonus of +1 combat result for each extra complete rank behind the fighting rank, at the end of the fight, up to a maximum of +3. Note that this bonus can also be claimed for an incomplete rear rank, as long as there are enough models in it. This number of models is specified in the troop types chapter.
 
@@ -1633,11 +1631,11 @@ If one or more of your units are fighting the enemy in the rear, you receive +2 
 
 If you are charging or fighting from a higher position than your enemy, for example, your troops are occupying the crest of a hill or charged down from it the same turn, you receive +1 combat result. In the case of a fight involving multiple units, the side that has the fighting rank in the highest position gets the bonus.
 
-#namecost("CHALLENGE", "")
+#namecost("OVERKILL", "")
 
-*\+1 combat result if a challenge was refused by your enemy.*
+*\+1 combat result per excess wound caused in a challenge, to a maximum of +3.*
 
-In addition, if a character fighting in a challenge kills their opponent and scores more wounds than their enemy has remaining, then each excess wound scores +1 combat result, up to a maximum of +3.
+If a character fighting in a challenge kills their opponent and scores more wounds than their enemy has remaining, then each excess wound scores +1 combat result, up to a maximum of +3.
 
 Challenges are a special type of close combat performed only by characters, and are covered in more detail in the characters chapter.
 
@@ -1673,7 +1671,7 @@ Note that in case the penalty to the losing unit's Leadership is equal to or gre
 
 *If a defeated unit has a higher number of complete ranks after the first than all individual enemy units in base contact, it takes its Break test on its unmodified Leadership.*
 
-Disrupted units cannot be Steadfast.
+Disrupted units and Skirmishers (see Special Rules chapter) cannot be Steadfast.
 
 Steadfast units always take Break tests on their own Leadership characteristic, ignoring any negative close combat resolution modifiers.
 
@@ -1715,7 +1713,7 @@ In some cases, most likely because a unit previously engaged in combat has broke
 
 === RESTRAIN OR PURSUE
 
-*The victorious unit can choose to pursue or restrain pursuit. A fleeing and pursuing unit both move the sum of their Movement + D6".*
+*The victorious unit can choose to pursue or restrain pursuit. A fleeing and pursuing unit both move 2D6".*
 
 If the losing unit failed its Break test, it must flee, but the winning unit can choose to either pursue the fleeing unit or restrain.
 
@@ -1725,7 +1723,7 @@ If you wish your unit to restrain pursuit, it must first take a Leadership test.
 
 *If one or more pursuing unit rolls equal to or higher than the fleeing unit, parts of the fleeing unit is destroyed.*
 
-If the victorious unit's pursuit roll is equal to or greater than the Flee roll scored by the fleeing enemy unit, the fleeing unit suffers one Wound with no saves of any kind allowed for each point of Unit Strength the charging unit(s) has, just as when charging a fleeing enemy. If any models survive, the pursuing unit then stops 1" behind the remains of the fleeing unit, just as if they had charged a fleeing enemy. If no models survive, see the "Move Pursuers" section below.
+If the victorious unit's pursuit roll is equal to or greater than the Flee roll scored by the fleeing enemy unit, the fleeing unit suffers two Wounds with no saves of any kind allowed for each point of Unit Strength the charging unit(s) has, just as when charging a fleeing enemy. If any models survive, the pursuing unit then stops 1" behind the remains of the fleeing unit, just as if they had charged a fleeing enemy. If no models survive, see the "Move Pursuers" section below.
 
 === MOVE FLEEING UNIT
 
@@ -1786,7 +1784,7 @@ Even if the charged unit was already fleeing, it still cannot take any charge re
 
 #namecost("OVERRUN!", "")
 
-*If the victorious unit charged into combat and the enemy was wiped out, it can move the sum of their Movement + D6" inches straight forward.*
+*If the victorious unit charged into combat and the enemy was wiped out, it can move 2D6 inches straight forward.*
 
 If a unit charges into combat and, by the end of that round of close combat, all its enemies have been wiped out as the result of the combat or combat result (rather than the pursuit) the unit can choose to make a pursuit move, even with nobody left alive to pursue. This is an Overrun move.
 
@@ -1830,6 +1828,10 @@ Note that if a unit is Disrupted from any source, it may not count its rank bonu
 
 #note[_The Goblins have a total combat resolution score of 2 against the Halberdiers. The Halberdiers have a total combat resolution score of 9 against the Goblins. Normally the Goblins would have lost the combat by 7. However, as the overall combat was lost by just 2, the Goblins must take a Break test suffering only a \-2 Leadership Modifier._]
 
+#namecost("Steadfast", "")
+
+Units on the losing side are Steadfast as per the normal rules as long as the combined Unit Strength of all friendly units is higher than that of the combined Unit Strength of all enemy units in the close combat. Note that currently Disrupted units do not contribute to the overall Unit Strength for those units that can be Steadfast.
+
 #diagram("/assets/figures/rulebook/img-0518.jpg", 0.463)
 #diagram("/assets/figures/rulebook/img-0519.jpg", 0.463)
 
@@ -1871,7 +1873,7 @@ Once all flee moves have been resolved, resolve any pursue moves one at a time. 
 
 Occasionally, a situation can arise when one or more units are no longer in base contact with the enemy, but at least part of the enemy unit is still alive. This normally occurs when an enemy has been charged in the rear – as casualties come from the rear rank first, this would in theory leave the attackers stranded from their foe. Clearly this is wrong, just as warriors on a real battlefield would push on to continue the fight, and would not stop fighting if the enemy was standing a few paces away, so must warriors on the miniature battlefield.
 
-Whenever a unit becomes stranded in this manner, the winning unit is immediately nudged (by as small an amount as possible) to bring it back into contact with the foe. This move cannot be used to alter the facing the attacker is in base contact with, nor is it an opportunity to change the attacker's formation or charge a unit not engaged in the fight. If the winning unit cannot be moved in this manner, then the losing unit is moved instead.
+Whenever a unit becomes stranded in this manner, the attacking unit is immediately nudged (by as small an amount as possible) to bring it back into contact with the foe. This move cannot be used to alter the facing the attacker is in base contact with, nor is it an opportunity to change the attacker's formation or charge a unit not engaged in the fight. If the attacker cannot be moved in this manner, then the defending unit is moved instead.
 
 === NO MORE FOES
 
