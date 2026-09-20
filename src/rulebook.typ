@@ -1986,7 +1986,7 @@ In addition, models with this special rule can march, claim rank bonus and be st
 
 A model with a Breath Weapon can use it to make a special attack once per shooting or close combat phase. A model with two or more different Breath Weapons must choose which one they want to use. The form that this special attack takes depends on whether or not the creature is in close combat. In the event that a model has more than one Breath Weapon attack, it is permitted to attempt to use only one in a single turn.
 
-However, after each Breath Weapon has been used the first time, roll a D6 before attempting to use it again in later rounds. On 4+, it may be used as normal. On a 1- 3, the model is literally out of breath, and cannot use its Breath Weapon this round. It may choose to attack normally in close combat instead. This does not apply to temporary Breath Weapons from magic items or spells.
+However, after each Breath Weapon has been used the first time, roll a D6 before attempting to use it again in later rounds. On 4+, it may be used as normal. On a 1- 3, the model is literally out of breath, and cannot use its Breath Weapon this round. It may choose to attack normally in close combat instead.
 
 Note that Breath Weapons are not physical attacks, and certain models may be Immune to the effects of some Breath Weapons.
 
@@ -2002,15 +2002,11 @@ To perform the attack, place the flame template so that it lies entirely within 
 
 #namecost("Breath Weapon Close Combat Attack", "")
 
-If the model with this special rule is in close combat, it can use the Breath Weapon instead of using its normal attacks. A model that makes a breath weapon attack in this way inflicts 2D6 automatic hits (resolved like shooting) on a single enemy unit in base contact – if there is more than one enemy unit in base contact with the model, the controlling player chooses which enemy unit suffers the hits. As with breath weapon attacks made in the Shooting phase, the Strength and any special effects of the creature's Breath Weapon will be covered in its rules, any other special rules do not apply.
+If the model with this special rule is in close combat, it can use the Breath Weapon instead of using its normal attacks. A model that makes a breath weapon attack in this way inflicts 2D6 automatic hits (resolved like shooting) on a single enemy unit in base contact – if there is more than one enemy unit in base contact with the model, the controlling player chooses which enemy unit suffers the hits. Note that no single model in the target unit may be Hit more than once from the same breath weapon attack – any excess hits are ignored. As with breath weapon attacks made in the Shooting phase, the Strength and any special effects of the creature's Breath Weapon will be covered in its rules, any other special rules do not apply. Wounds caused by a Breath Weapon in close combat count towards combat resolution.
 
 === COLD-BLOODED
 
-Whenever a unit where the majority of the models have this special rule takes a Psychology or Break test, it rolls an additional dice and discards the highest result.
-
-=== CUMBERSOME
-
-Models or weapons with the Cumbersome special rule cannot be used to Stand and Shoot.
+Whenever a model with this special rule takes a Leadership test, it rolls an additional dice and discards the highest result.
 
 === DEVASTATING CHARGE
 
@@ -2020,15 +2016,11 @@ Models with this special rule have +1 Attack during a turn in which they charge 
 
 Models with this rule gain an invulnerable save against attacks in their front arc (including templates, Stomps and Impact Hits) as indicated in the brackets. This is cumulative with other sources of Dodge. This cannot be used against Magical Attacks that Hit automatically (such as spells or certain special rules), or that have the Always Strikes First special rule, nor can it be used if the model is subject to the Always Strikes Last special rule.
 
-=== DISCIPLINED
-
-Whenever a unit where the majority of the models have this special rule takes a Leadership test that is not a Psychology or Break test, it rolls an additional dice and discards the highest result.
-
 === ETHEREAL
 
 Ethereal creatures treat all terrain as Open Terrain for the purposes of movement. They may not finish their movement inside Impassable Terrain. They are also never slowed by any special rule, spell or item that would otherwise reduce their movement or stop them from moving completely.
 
-Models with this rule have the Magical Attacks, Magical Ward (3+) and Unstable special rules (described later in this chapter).
+Models with this special rule have both the Magical Attacks and Unstable special rules (described later in this chapter). Ethereal models have an invulnerable save (2+) against mundane attacks. However, they only have an invulnerable save (5+) against magical attacks. Ethereal creatures block Line of Sight normally and cannot see through anything that would block the Line of Sight of normal units.
 
 Characters that are not themselves Ethereal are not permitted to join units that are (even if they become temporarily Ethereal for some reason).
 
@@ -2041,8 +2033,6 @@ For every Core unit with the Expendable special rule in your army, you are requi
 === FEAR
 
 A unit containing one or more Fear-causing models gains +1 to its Combat Resolution score. If the Unit Strength of all Fear-causing models is double or more that of the total Unit Strength of all enemy units in base contact, the Combat Resolution score is increased by +2. Note that the bonus from Fear is otherwise not cumulative for having multiple units with the Fear special rule involved in the same combat.
-
-If a model has the Fear special rule from two or more different sources (such as a combination of different special rules, spells or magic items), it instead gains the Terror special rule (described later).
 
 If the majority of the models in a unit cause Fear, they also gain the Immunity (Fear) special rule (described later), and thus the Combat Resolution bonus of their Fear-causing enemies is ignored for that unit.
 
@@ -2068,7 +2058,7 @@ If a model has the Frenzy special rule from two or more different sources (such 
 
 #namecost("Berserk Rage", "")
 
-A unit that includes one or more Frenzied models can never choose Flee as a Charge Reaction, and must pass a Leadership test if it wishes to choose a charge reaction other than Counter-charge. If this test is failed, the unit must declare a Counter-charge instead as per the normal rules for it.
+A unit that includes one or more Frenzied models can only choose Hold or Stand & Shoot as a charge reaction.
 
 If, during the Charge sub-phase, a unit that includes one or more Frenzied models does not declare a charge, then it must do so unless a Leadership test is passed. If the Leadership test is failed, the Frenzied unit must declare a charge against the nearest viable enemy.
 
@@ -2122,23 +2112,13 @@ Models that are Immune to all three above effects have the Immunity (Psychology)
 
 === IMPACT HITS
 
-The number of Impact Hits caused is shown in brackets after the special rule. If a unit contains more than one model that inflicts a random amount of Impact Hits (such as D6), always roll separately for each model.
+The number of Impact Hits caused is shown in brackets after the special rule. If a model is granted two sets of Impact Hits, normally because its troop type and special rules both bestow Impact Hits, use the highest set, rather than a total, before rolling. If a unit contains more than one model that inflicts a random amount of Impact Hits (such as D6), always roll separately for each model.
 
 Impact Hits are only made on the turn the model makes a successful charge into close combat, and only against the unit the model has charged. Impact Hits are resolved at the very beginning of the close combat, before challenges are issued and attacks of any other kind are made. They hit a unit in base contact and are randomised as Automatic Hits. If the model is in base contact with more than one unit, distribute the Impact Hits between them as evenly as possible. If the model with Impact Hits is not in base contact with the enemy, no Impact Hits are inflicted.
 
-Impact Hits roll to wound using the Strength of the model making the Impact Hits. Any armour saves taken are done using the close combat value of the armour.
+Impact Hits roll to wound using the Strength of the model making the Impact Hits. Any armour saves taken are done using the close combat value of the armour, and Parry saves may not be taken (see Weapons and Armour chapter). Any Wounds caused by Impact Hits are counted towards combat resolution.
 
 Unless specified, any special rules or bonuses that apply to the model’s normal attacks do not apply to its Impact Hits.
-
-=== IMPALE
-
-A mount with this special rule has the Mighty Blow (1) special rule in any turn that it charges.
-
-=== INDEPENDENT
-
-A character with this special rule cannot join a unit without this special rule. A unit with this special rule cannot be joined by a character without this special rule.
-
-In addition, they may never use the Inspiring Presence or Hold Your Ground special rules. Note that Characters, ridden models and Mixed Units that still have their Handlers ignore this special rule, unless specified.
 
 === INSPIRING PRESENCE
 
@@ -2174,15 +2154,17 @@ Lightning Attacks have the Ignores Armour Saves special rule against all armour 
 
 Unless otherwise stated, a model with this special rule has both Lightning shooting and close combat attacks (though any spells cast by the model or special attacks are unaffected).
 
+=== LONER
+
+A character with this special rule cannot be your Army General and cannot join a unit without this special rule. A unit with this special rule cannot be joined by a character without this special rule.
+
 === LOREMASTER
 
 A Wizard with the Loremaster special rule knows all the available spells from their chosen Lore (limited by their Wizard level as normal). The lore in question is normally given in brackets as part of the Loremaster special rule. If a model knows spells from multiple Lores, then Loremaster only applies to one of the Lores normally available to them (player's choice).
 
 === MAGICAL ATTACKS
 
-Models with this special rule inflict a \-1 penalty to Magical Wards. Unless otherwise stated, a model with this special rule has both Magical shooting and close combat attacks (though any special attacks are unaffected).
-
-All attacks made by spells and magic items are Magical Attacks. Shots fired from magical items are also considered to be Magical Attacks, unless their description specifically states otherwise. Hits inflicted by rolls on the Miscast table are treated as Magical Attacks. Note that spells are never considered to be physical attacks.
+All attacks made by spells and magic items are considered to be Magical Attacks, as are all attacks that are specifically noted as being Magical Attacks. Shots fired from magical items are also considered to be Magical Attacks, unless their description specifically states otherwise. Hits inflicted by rolls on the Miscast table are treated as Magical Attacks. Note that spells are never considered to be physical attacks.
 
 === MAGICAL WARD
 
@@ -2190,17 +2172,11 @@ Models with this rule gain an invulnerable save as indicated in the brackets.
 
 === MAGIC RESISTANCE
 
-Enemy spells that target a unit containing one or more models with Magic Resistance suffer a casting penalty equal to the number as indicated in the brackets. So, Magic Resistance (1) would give a \-1 casting penalty, Magic Resistance (2) would give a \-2 casting penalty, and Magic Resistance (3) would give a \-3 casting penalty, and so on.
-
-This casting penalty also applies to aura and area spells, if the model would be within the aura's range or under the area's effect when initially cast.
+Enemy spells directly targeting a model (not including templates that are placed on top of it) with Magic Resistance suffers a casting penalty equal to the number shown in brackets after the Magic Resistance special rule. So, Magic Resistance (1) would give a \-1 penalty to the casting roll, Magic Resistance (2) would give a \-2 penalty to the casting roll, and Magic Resistance (3) would give a \-3 penalty to the casting roll, and so on.
 
 In addition, models with Magic resistance gain an invulnerable save against all spells based on the number in the brackets. So, Magic Resistance (1) would give a 6+ invulnerable save, Magic Resistance (2) would give a 5+ invulnerable save, and Magic Resistance (3) would give a 4+ invulnerable save, and so on. Note that Magic resistance does not offer protection against Miscasts.
 
-Note that this special rule is not cumulative. If two or more models in a unit have this special rule, use the highest modifier.
-
-=== MARCH & SHOOT
-
-Models or weapons with this special rule can shoot even if they marched this turn.
+If a character with Magic Resistance joins a unit, all models in the unit benefit from the Magic Resistance as long as they are part of the unit. If a model or unit has two sets of Magic Resistance, the two combine to a maximum of Magic Resistance (3), unless specified.
 
 === MIGHTY BLOW
 
@@ -2218,11 +2194,11 @@ As long as the unit (but not the handlers) have a Unit Strength of 5 or more, an
 
 === MOVE OR FIRE
 
-A model or weapon with the Move or Fire special rule cannot fire a weapon or be fired (respectively) in the Shooting phase if the model moved earlier in the turn, including rallying, reforming and pivoting on the spot. This even applies if the model in question was forced to move as the result of a spell or other such compulsory action.
+A model or weapon with the Move or Fire special rule cannot be fired in the Shooting phase if the model moved earlier in the turn, including rallying, reforming and pivoting on the spot (except for Lone Models, who can pivot and fire in the same turn). This even applies if the model in question was forced to move as the result of a spell or other such compulsory action.
 
 === MULTIPLE SHOTS
 
-A weapon with this special rule enables its wielder to fire several shots at a time, rather than a single shot. The number of shots the weapon can fire is normally given as part of its description in the brackets. Such weapons can either fire once without penalty, or as many times as indicated in their rules with a \-1 To Hit penalty (in addition to any other modifiers To Hit).
+A weapon with this special rule enables its wielder to fire several shots at a time, rather than a single shot. The number of shots the weapon can fire is normally given as part of its description in the brackets. Such weapons can either fire once without penalty, or as many times as indicated in their rules with a \-1 To Hit penalty (in addition to any other modifiers To Hit). War Machines with this special rule do not suffer \-1 To Hit for firing Multiple Shots.
 
 All models in the unit (excluding characters) must fire either single or Multiple Shots – the player cannot choose to fire single shots with some and Multiple Shots with others.
 
@@ -2240,7 +2216,7 @@ Models with this rule have an armour save value equal to the number in the brack
 
 === PARRY
 
-Models with this rule gain an invulnerable save in close combat as indicated in the brackets. This is cumulative with other sources of Parry. It cannot be used against attacks made against the model's flank or rear, nor can it be used against attacks that Hit automatically, attacks that are made at +3 Strength over the model's own Strength value.
+Models with this rule gain an invulnerable save in close combat as indicated in the brackets. This is cumulative with other sources of Parry. It cannot be used against attacks made against the model's flank or rear, nor can it be used against attacks that Hit automatically, attacks that are made at +3 Strength over the model's own Strength value, nor can it be used by mounted models, unless specified.
 
 === POISONED ATTACKS
 
@@ -2248,17 +2224,17 @@ A model with the Poisoned Attacks special rule gets a +1 modifier to its To Woun
 
 Unless otherwise stated, a model with this special rule has both Poisoned shooting and close combat attacks (though any spells cast by the model or special attacks are unaffected).
 
-If a model has the Poisoned Attacks special rule from two or more different sources (such as a combination of different special rules, spells or magic items), it may also re-roll failed To Wound rolls.
+If a model has the Poisoned Attacks special rule from two or more different sources (such as a combination of different special rules, spells or magic items), it automatically Wounds on a To Hit roll of 6 in addition to its original effect.
 
 === PONDEROUS
 
-Weapons with this rule suffer an additional \-1 To Hit penalty if they move and shoot in the same turn, and when choosing Stand & Shoot as a charge reaction.
+Weapons with this rule suffer an additional \-1 To Hit penalty if they move and shoot in the same turn.
 
-=== QUICK SHOT
+=== QUICK TO FIRE
 
-Models or weapons with this special rule ignore penalties for Moving & Shooting (unless they also March). In addition, they can always Stand & Shoot or Fire & Flee (see Formation Special rules), even if that enemy would normally be too close for such a charge reaction to be declared.
+Models or weapons with this special rule do not suffer the usual \-1 To Hit penalty for moving and shooting. In addition, Quick to Fire weapons can always be used to Stand and Shoot against a charging enemy, even if that enemy would normally be too close for such a charge reaction to be declared.
 
-Furthermore, Quick Shot may be used once per turn when declaring a charge, immediately after rolling for your charge distance. If the charging unit has enough Movement to enter the maximum range of its missile weapons, resolve the shooting attacks for each weapon as if the charging unit had just entered that weapon’s range. If the enemy unit chose to Stand & Shoot or Fire & Flee, both units will fire at the same time. Any shots fired in this manner suffer a \-1 To Hit penalty, but ignore penalties to long range. This may cause a Panic test following the rules for Heavy Casualties as normal.
+Furthermore, Quick to Fire weapons may be used once per turn when declaring a charge (unless they are also Move or Fire), immediately after the enemy unit has declared their charge reaction (but before moving any units). If the enemy unit chose to Stand & Shoot or Fire & Flee, both units will fire at the same time. Quick to Fire weapons can be used this way even if the unit starts its charge outside their weapons' maximum range – the shooting is resolved normally assuming the enemy is just within maximum range of the shooting unit's shortest-ranged weapon. If the charge fails, for whatever reason, we assume that the chargers closed to within the weapons' maximum range first. Any shots fired in this manner suffer a \-1 To Hit penalty.
 
 === RANDOM ATTACKS
 
@@ -2268,15 +2244,15 @@ Models with the Random Attacks special rule do not have a normal number for thei
 
 Models with the Random Movement special rule do not have a normal Movement characteristic, but rather a dice roll, such as D6, 2D6 or 3D6 (as indicated in the brackets). This is the distance they use for all their movement (regardless of other special rules). Note that certain Random Movement rolls can result in the model having a Movement value higher than 10 – this is an exception to the usual maximum.
 
-Models with Random Movement cannot declare charges, can only choose Hold as a charge reaction, and must always move in the Compulsory Moves sub- phase. When the model moves, first pivot it about its centre to face the direction in which you wish it to travel. Then, roll the dice shown in the Random Movement brackets. Finally, move the model directly forwards a number of inches equal to the total rolled by the dice. No other pivots can be made.
+Models with Random Movement cannot declare charges, and must always move in the Compulsory Moves sub- phase. When the model moves, first pivot it about its centre to face the direction in which you wish it to travel. Then, roll the dice shown in the Random Movement brackets. Finally, move the model directly forwards a number of inches equal to the total rolled by the dice. No other pivots can be made.
 
 There's a chance that the model's peculiar movement will cause it to come into contact with an enemy, so measure the distance in a straight line before the model is moved. If the move is found to take the unit’s front arc into contact with an enemy, then it counts as charging, and this is resolved using the normal rules for charges and using the distance rolled as its charge range. Charge reactions cannot be declared against enemies with the Random Movement special rule.
 
 If the random move brings the unit to within 1" of a friendly unit or Impassable Terrain, it stops immediately and cannot move further during that Movement phase.
 
-A Random Move counts as a ‘normal’ move for triggering a Dangerous Terrain test, unless the model is making a charge, pursuit or flee move, in which case it counts as a move of the appropriate type.
+If two or more models in a unit have the Random Movement special rule, pivot the unit about its centre, then roll the dice only once to determine how far the unit moves. If models in the unit have a different Random Movement value, use the slowest for the entire unit.
 
-A character with this special rule cannot join a unit without this special rule. A unit with this special rule cannot be joined by a character without this special rule. If a character in the unit has a different Random Movement value, use the slowest for the entire unit.
+A Random Move counts as a ‘normal’ move for triggering a Dangerous Terrain test, unless the model is making a charge, pursuit or flee move, in which case it counts as a move of the appropriate type.
 
 === RAPID FIRE
 
@@ -2288,7 +2264,11 @@ A model with the Regeneration special rule gains an invulnerable save (indicated
 
 === REQUIRES TWO HANDS
 
-If a weapon has this rule, it is not possible for a model to use a shield or buckler alongside it in close combat (although a shield can still be used against wounds caused by shooting or magic). In addition, missile weapons with this special rule cannot use Quick Shot when charging.
+If a weapon has this rule, it is not possible for a model to use a shield or buckler alongside it in close combat (although a shield can still be used against wounds caused by shooting or magic).
+
+=== SLOW TO FIRE
+
+Weapons with the Slow to Fire special rule cannot be used to Stand and Shoot.
 
 === SNIPER
 
@@ -2296,44 +2276,33 @@ A model with the Sniper special rule can make a special Sniper shot instead of s
 
 === STOMP
 
-A model with this special rule can make a Stomp in addition to its other close combat attacks (including Breath Weapons). A Stomp has the Always Strikes Last special rule and inflicts a number of automatic hits as indicated in the brackets. These are resolved at the model's Strength against a single enemy unit that consists of models with a Line of Sight value of 1 or less. If the model is a Monster, it may also Stomp models with a Line of Sight value of 3 or less.
+A model with this special rule can make a Stomp in addition to its other close combat attacks (including Breath Weapons). A Stomp has the Always Strikes Last special rule and inflicts a number of automatic hits as indicated in the brackets. These are resolved at the model's Strength against a single enemy unit that consists of models with a Line of Sight value of 1 or less. If the model is a Monster, it may also Stomp models with a Line of Sight value of 2 or less.
 
 Unless specified, any special rules or bonuses that apply to the model’s normal attacks do not apply to its Stomp.
 
 === STRIDER
 
-Models with the Strider special rule are rare – normally, they will have a subset of Strider, such as Hill, Forest, Marshland or River Strider and the rule only applies in terrain of the specified type. Models with the Strider rule treat that piece of terrain as Open Ground, meaning they ignore any combat and movement penalties or Dangerous Terrain tests otherwise caused by it.
+Models with the Strider special rule are rare – normally, they will have a subset of Strider, such as Hill, Forest, Marshland or River Strider and the rule only applies in terrain of the specified type. Models with the Strider rule treat that piece of terrain as Open Ground for the purposes of Movement, meaning they ignore any Movement penalties or Dangerous Terrain tests otherwise caused by it. Note that they still follow the rules for that terrain type in terms of combat.
 
 === STUBBORN
 
 A unit is considered Stubborn if the majority of the models in a unit have this special rule. A Stubborn unit is always Steadfast, whether or not they have more ranks than their enemy or are disrupted.
 
-If a model has the Stubborn special rule from two or more different sources (such as a combination of different special rules, spells or magic items), it may also re-roll failed Break tests.
-
 === STUPIDITY
 
-Provided that they are not engaged in close combat, a unit that contains one or more models with the Stupidity special rule must roll a D6 at the start of its Compulsory Movement sub-phase and consult the table below to see what effect it has until the start of your next turn:
+Provided that they are not engaged in close combat, a unit that contains one or more models with the Stupidity special rule must take a Leadership test at the start of its Movement phase. If the test is passed, the unit will act normally this turn.
 
-#chart((("D6", "Result"), ("1", "Me Head Hurts: The model and any unit
-they are with must move directly forwards
-using the Random Movement (D6) special
-rule, can only choose Hold as a charge
-reaction and cannot use combat reform. In
-addition, the model gains the Immunity
-(Psychology) special rule, may not cast spells
-or channel dice, shoot or use any other
-optional special rules. Note that in case only
-a mount has Stupidity, the rider is not
-affected by the penalties to shooting, casting
-or channelling."), ("2-3", "Unfocused: The model suffers a -1 penalty to
-its Weapon Skill, Ballistic Skill, Leadership,
-casting and dispelling, and only channel dice
-on the roll of a 6. This does not affect any
-riders if only the mount has Stupidity."), ("4-6", "Clear-headed: The model acts as normal.")))
+If the test is failed, it moves directly forwards using the Random Movement (D6) special rule in the Compulsory Movement sub-phase. The Stupid unit cannot take any further action that turn, so cannot declare charges or make a shooting attack. However, a unit that has failed a Stupidity test can still be forced to move, or perform any other action, by a spell, or other special rule/magic item.
+
+Until they pass the Stupidity test again, models that have failed their Stupidity test have the Immunity (Psychology) and Random Movement (D6) special rule, except that they can only move directly forwards. They cannot choose to do a combat reform or choose any other charge reaction except Hold. In addition, Wizards cannot attempt to cast/dispel or channel power dice or dispel dice.
 
 === SWIFTSTRIDE
 
-When charging, fleeing and pursuing, units entirely made of models with the Swiftstride special rule may re-roll 1's when determining the result of the distance they move.
+When charging, units entirely made of models with the Swiftstride special rule and Movement 7 or higher roll 3D6, discard the lowest result, and add the result to their Movement value. When fleeing or pursuing, they roll 3D6, and discard the lowest result.
+
+When charging, units entirely made of models with the Swiftstride special rule and Movement 6 or lower roll 2D6, and add the result to their Movement value. When fleeing or pursuing, they roll 2D6.
+
+#chart((("", "Swiftstride M6 or lower", "Swiftstride M7 or more"), ("Charging", "Movement + 2D6", "Movement + 3D6 (discard the lowest)"), ("Failed Charge", "2D6", "3D6 (discard the lowest)"), ("Fleeing/Pursuing", "2D6", "3D6 (discard the lowest)")))
 
 === TERROR
 
@@ -2355,13 +2324,13 @@ Characters that are Unbreakable may only join units that are also Unbreakable, a
 
 Unstable units are Unbreakable, and suffer one extra Wound for every point they have lost the round of combat by, with no saves of any kind permitted against these wounds. If an Unstable unit would normally be eligible to be Steadfast, they instead suffer 1 less Wound than they would normally do.
 
-If an Unstable unit also contains Unstable characters, the controlling player first allocates wounds to the unit, then divides any remaining wounds (if any) as equally as possible amongst the characters.
+Unlike Unbreakable units, Unstable characters may join Unstable units. If an Unstable unit also contains Unstable characters, the controlling player first allocates wounds to the unit, then divides any remaining wounds (if any) as equally as possible amongst the characters.
 
 === VOLLEY FIRE
 
-Weapons with this rule allow a unit to fire with all ranks that are within range in the Shooting Phase, rather than only the first two ranks.
+Weapons with this rule allow the unit to fire with all ranks within range in the Shooting Phase, rather than just the first two. However, if they do so, all models in the third and subsequent ranks suffer \-1 To Hit.
 
-A unit cannot use Volley Fire if the target is within the weapon’s effective range, if the unit moved earlier in the turn, or when making a Stand and Shoot charge reaction.
+A unit cannot Volley Fire if the target is within half the weapon’s maximum range.
 
 === WEAPON TEAM
 
@@ -2389,11 +2358,11 @@ If both players' armies contain Scouts, players should roll off. The players the
 
 === VANGUARD
 
-When starting deployment, all units that choose to Vanguard must be deployed first. The players take it in turns to place their vanguards until they are finished. After this, all other units may be deployed as normal.
+After both sides have deployed all their other forces (including Scouts), but before the roll to see who gets the first turn is made, units containing only models with the Vanguard special rule can immediately make a move up to 6" (12" in case they move using the Swiftstride special rule) regardless of their Movement value (they cannot march and are affected by terrain as normal). This cannot be used to move the Vanguard troops within 12" of the enemy. A Vanguard move does not count as moving for the purpose of shooting in the first turn.
 
-Models with this special rule may deploy up to a distance equal to their Movement characteristic (or 2D6" in case they have Random Movement) beyond their deployment zone. However, this cannot be used to deploy a unit within 12" of the enemy. Units that deploy this way cannot declare a charge in the first turn if their army goes first.
+If both players' armies contain Vanguard troops, players should roll off. The players then alternate moving their Vanguard units one at a time, starting with the player who won the roll-off.
 
-Note that a character may only join a unit deploying with the Vanguard special rule if they also have the same rule.
+Units that have made a Vanguard move cannot declare a charge in the first turn if their army goes first.
 
 == FORMATION SPECIAL RULES
 
@@ -2405,19 +2374,21 @@ Fast Cavalry have the following rules:
 
 Fast Cavalry automatically have the Vanguard deployment special rule.
 
-#namecost("Swift Manoeuvre", "")
+#namecost("Free Reform", "")
 
-Fast Cavalry may turn without losing any movement, redress the ranks for a quarter of their movement and reform for half their movement. In addition, they may perform two manoeuvres during their move (even while marching), and still shoot after reforming.
+Unless it charges, a Fast Cavalry unit is allowed to reform twice during its move without losing any Movement; once before they move, and at the end of their move. The unit may do this even if it marches, provided that no model ends up moving a number of inches higher than double its Movement value.
 
 #namecost("Fire & Flee", "")
 
-A unit of Fast Cavalry armed with missile weapons that chooses Flee as a Charge Reaction can choose to fire their weapons first (unless they are within the enemy's minimum charge range or Ponderous). If it chooses to do so, the unit will first fire upon the target. After this, the unit makes a flee move.
-
-Any shots fired in this manner suffer a \-1 To Hit penalty. This may cause a Panic test following the rules for Heavy Casualties as normal.
+A unit of Fast Cavalry armed with missile weapons that chooses Flee as a Charge Reaction can choose to fire their weapons first. If it chooses to do so, the unit will first fire upon the target following the rules for Stand & Shoot (this also counts as moving and shooting for the purposes of shooting modifiers). After this, the unit makes a flee move. However, it may not use its Swiftstride special rule if it does so.
 
 #namecost("Feigned Flight", "")
 
-A unit of Fast Cavalry that chooses Flee or Fire & Flee as a charge reaction does not cause Panic from fleeing through friendly units and may re-roll failed Rally tests in its next Compulsory Movement Phase (unless it is forced to Flee again from another source). In addition, it is then also free to move during the remaining moves part of the Movement phase. The unit is also free to shoot as normal (but always counts as having moved).
+A unit of Fast Cavalry that chooses Flee or Fire & Flee as a charge reaction does not cause Panic from fleeing through friendly units and may re-roll failed Rally tests in its next Compulsory Movement Phase (unless it is forced to Flee again from another source). In addition, it is then also free to move during the remaining moves part of the Movement phase. The unit is also free to shoot as normal (but always counts as having moved). Note that if the flee move of the Fast Cavalry does not take them beyond the charge reach of their enemies, the unit suffers casualties as normal.
+
+#namecost("Fire on the March", "")
+
+Fast Cavalry can shoot even if they marched or reformed earlier in the turn. However, the normal \-1 To Hit penalty for moving and shooting still applies.
 
 #namecost("Characters", "")
 
@@ -2425,28 +2396,26 @@ A Character that joins a unit of Fast Cavalry gains the Fast Cavalry special rul
 
 #namecost("Armour Saves", "")
 
-Units containing one or more models with an unmodified close combat armour save better than 5+ cannot use Fire & Flee or Feigned Flight. If the armour save is better than 4+, the unit cannot use the Fast Cavalry rule at all.
+Units containing one or more models with an unmodified close combat armour save better than 4+ cannot use the Fast Cavalry rule.
 
 === SKIRMISHERS
 
 Skirmishers have the following rules:
 
-#namecost("Loose Formation", "")
+#namecost("Skirmish Formation", "")
 
 Skirmishers are deployed in a 'loose' formation, where the models are not placed in base contact, but are positioned roughly 1/2" apart. The models in the unit must still face the same direction and the unit will still have a front, two flanks and a rear.
 
-All shots aimed at a unit of two or more Skirmisher models with an individual Unit Strength of 2 or less suffer an additional \-1 To Hit penalty.
+This dispersed formation allows Skirmishers to move and shoot with greater freedom than other troop types. All Skirmishers in a unit do not count as blocking each other's Line of Sight (note that they still count as blocking Line of Sight for other units). As long as you can draw a Line of Sight from the front rank to the target, the second and subsequent ranks may fire too.
 
 #diagram("/assets/figures/rulebook/img-0541.jpg", 0.463)
-#namecost("Skirmishers & Combat", "")
+#namecost("Skirmishers & Charging", "")
 
 If skirmishers declare a charge (or a charge reaction that does not involve fleeing) they tighten their loose formation into a 'normal' formation after the charge distance is rolled and the chargers are moved. This happens 'for free' at the moment both units move into base contact. The unit immediately forms up in base contact around the centremost model in the front rank (the Skirmishers' controlling player can choose which if the front rank has an even number of models) that is also in base contact with the enemy.
 
 The number of ranks, files and the formation's facing do not alter as the Skirmishers tighten up – all that happens is that models that were previously spaced out are now in base contact with one another. This has the effect of rendering the Skirmishers' loose formation into a regular shape so that other units can fight them in the normal way.
 
 If the Skirmishers are not in base contact with an enemy in the Remaining Moves sub-phase, the controlling player must move them apart so that they readopt their loose formation.
-
-Skirmishers gain no bonus from their ranks (such as rank bonus or Steadfast) in the first round of close combat.
 
 #diagram("/assets/figures/rulebook/img-0544.jpg", 0.463)
 
@@ -2456,35 +2425,33 @@ Skirmishers gain no bonus from their ranks (such as rank bonus or Steadfast) in 
 
 Skirmishers have the Vanguard deployment special rule.
 
-#namecost("Swift Manoeuvre", "")
+#namecost("Free Reform", "")
 
-Skirmishers may turn without losing any movement, redress the ranks for a quarter of their movement and reform for half their movement. In addition, they may perform two manoeuvres during their move (even while marching), and still shoot after reforming.
-
-#namecost("Fire & Flee", "")
-
-A unit of Skirmishers armed with missile weapons that chooses Flee as a Charge Reaction can choose to fire their weapons first (unless they are within the enemy's minimum charge range or Ponderous). If it chooses to do so, the unit will first fire upon the target. After this, the unit makes a flee move.
-
-Any shots fired in this manner suffer a \-1 To Hit penalty. This may cause a Panic test following the rules for Heavy Casualties as normal.
+A unit of Skirmishers moves, wheels, marches and charges just like other troops. However, unless it charges, a skirmishing unit is allowed to reform twice during its move; once before they move, and at the end of their move. The unit may do this even if it marches, provided that no model ends up moving a number of inches higher than double its Movement value.
 
 #namecost("Feigned Flight", "")
 
-A unit of Skirmishers that chooses Flee or Fire & Flee as a charge reaction does not cause Panic from fleeing through friendly units and may re-roll failed Rally tests in its next Compulsory Movement Phase (unless it is forced to Flee again from another source). In addition, it is then also free to move during the remaining moves part of the Movement phase. The unit is also free to shoot as normal (but always counts as having moved).
+A unit of Skirmishers that chooses Flee as a charge reaction does not cause Panic from fleeing through friendly units and may re-roll failed Rally tests in its next Compulsory Movement Phase (unless it is forced to Flee again from another source). In addition, it is then also free to move during the remaining moves part of the Movement phase. The unit is also free to shoot as normal (but always counts as having moved). Note that if the flee move of the Skirmishers do not take them beyond the charge reach of their enemies, the unit suffers casualties as normal.
+
+#namecost("Fire on the March", "")
+
+Skirmishers can shoot even if they marched or reformed earlier in the turn. However, the normal \-1 To Hit penalty for moving and shooting still applies.
+
+#namecost("Light Troops", "")
+
+All shots aimed at a unit of two or more Skirmisher models with an individual Unit Strength of 2 or less suffer an additional \-1 To Hit penalty. However, Skirmishers always count as having zero ranks, and therefore cannot claim a rank bonus or be Steadfast (unless they are also Stubborn).
 
 #namecost("Characters", "")
 
 A Character model that joins a unit of Skirmishers gains the Skirmishers special rule as long as they stay with the unit. Characters may only join Skirmishers with the same troop type (explained in the troop types chapter) as them.
 
-#namecost("Armour Saves", "")
-
-Units containing one or more models with an unmodified close combat armour save better than 5+ cannot use Fire & Flee or Feigned Flight. If the armour save is better than 4+, the unit cannot use the Skirmishers rule at all.
-
 === FLY
 
-Units made up entirely of models that can Fly can choose to either use their normal Movement, or instead choose to Fly (including when using Vanguard). The distance the model can fly is listed in the brackets. Any modifiers to the model's Movement also affects its Fly move.
+Flying models follow the rules for Swiftstride. Units made up entirely of models that can Fly can move or charge normally on the ground, using their Movement value, or instead choose to Fly. The distance the model can fly is listed in the brackets.
 
 A unit that flies can move over other units and terrain as it does so, treating the entire move as taking place over open ground. It may not finish the move on top of another unit or in Impassable Terrain. Models that Fly can make a flying charge over intervening units and terrain as long as they can draw Line of Sight to their target as normal. Flying units may march as normal.
 
-In addition, flying units containing two or more models follow the following rules for Skirmishers: Loose Formation, Skirmishers & Combat, Swift Manoeuvre.
+In addition, flying units containing two or more models follow the following rules for Skirmishers: Skirmish Formation, Skirmishers & Charging, Free Reform, Fire on the March, Light Troops.
 
 = TROOP TYPES
 
