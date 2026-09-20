@@ -4264,7 +4264,7 @@ Players then take it in turn to place units on the table, using the alternating 
 
 #namecost("FIRST TURN", "")
 
-Roll off after deployment to see which player takes the first turn.
+Roll off after deployment to see which player takes the first turn. The player that finished deploying their army first adds +1 to their roll as per the normal rules.
 
 #namecost("GAME LENGTH", "")
 
@@ -4340,7 +4340,7 @@ Players take it in turn to place units on the table, using the alternating unit 
 
 #namecost("FIRST TURN", "")
 
-Roll off after deployment to see which player receives the first turn.
+Roll off after deployment to see which player receives the first turn. The player that finished deploying their army first adds +1 to their roll as per the normal rules.
 
 #namecost("GAME LENGTH", "")
 
@@ -4373,7 +4373,7 @@ Units may be placed anywhere in their half of the table that is more than 9" fro
 
 #namecost("FIRST TURN", "")
 
-Roll off after deployment to see which player receives the first turn.
+Roll off after deployment to see which player receives the first turn. The player that finished deploying their army first adds +1 to their roll as per the normal rules.
 
 #namecost("GAME LENGTH", "")
 
