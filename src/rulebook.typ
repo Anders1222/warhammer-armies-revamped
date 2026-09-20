@@ -219,7 +219,7 @@ The models that make up your Warhammer army must be organised into 'units'. A un
 
 A unit consists of 1 or more models that are arranged in base contact with each other in formations of squares or rectangles. All models in a unit must face the same direction. In addition, all models in the unit must be arranged in a formation that consists of one or more horizontal lines, called ranks, and a number of vertical lines, called files. This is why we often refer to basic warriors as 'rank and file' troops.
 
-A unit may not have more ranks than they have files, e.g. if the unit is 5 models wide, it may at most have 5 ranks. The exception to this is if the unit is too wide to pass in between terrain or units; in these situations, the unit may temporary reform into a formation with more ranks than files for as long as it takes to pass the terrain or unit. After this, it must return to a legal formation again as soon as possible.
+A unit may not have more complete ranks than they have files, e.g. if the unit is 5 models wide, it may at most have 5 complete ranks. The exception to this is if the unit is too wide to pass in between terrain or units; in these situations, the unit may temporary reform into a formation with more ranks than files for as long as it takes to pass the terrain or unit. After this, it must return to a legal formation again as soon as possible.
 
 As far as possible there must be the same number of models in each rank. Where this is not possible it must be the rear rank that has fewer models, and models should always be placed as centrally as possible. Once formed into a unit, the models move and fight as a single entity for the rest of the battle.
 
@@ -272,7 +272,7 @@ There will likely be situations where you or your opponent will find yourself in
 
 However, once the dice has been rolled for any reason, or your opponent has made a countermove of any kind; players are not allowed to change their decision.
 
-Likewise, if a player has forgotten a rule that should have happened in a previous sub-phase; they are not allowed to go back and apply that rule later unless both players agree.
+Likewise, if a player has forgotten a rule that should have happened in a previous sub-phase; they are not allowed to go back and apply that rule later.
 
 However, players should be encouraged to remind each other about said rules if they are able to ensure the game is as fair as possible to both sides.
 
@@ -305,7 +305,7 @@ Likewise; if there are any rules you or your gaming group dislike, feel free to 
 = MODEL PROFILES
 
 #balanced-columns[
-Warhammer uses nine different statistics or characteristics to describe the various attributes of the different models. All characteristics are rated on a scale from 0 to 10 – they cannot go below 0 or rise above 10, unless specified.
+Warhammer uses nine different statistics or characteristics to describe the various attributes of the different models. All characteristics are rated on a scale from 0 to 10 – they cannot go below 0 or rise above 10.
 
 If certain spells or special rules give an increase or decrease to a model’s characteristics, then you use the new value for as long as that spells or special rule is in effect. However, this does not apply to weapons of any kind (see the Weapons & Armour chapter for more information).
 
@@ -365,16 +365,11 @@ First, you must choose an army to play and a points value to use. In a pitched b
 
 === THE BATTLEFIELD
 
-The size of the battlefield depends on the size of the game played. A standard game of 2500 points is best played on a 6' x 4' table. Games below 1500 points are best played on a 4' x 4' table, and games above 3500 points are best played on an 8' x 4' table.
+The size of the battlefield depends on the size of the game played. A standard game of 2500 points is best played on a 6' x 4' table.
 
-Firstly, players take their turn to place terrain pieces on the tabletop. Unless both players agree to do otherwise, place the terrain you want to use according to the following rules:
+Firstly, place the terrain you want to use. Rules are not strict here, but a good guideline is placing one terrain piece for every 2' x 2' square of the table.
 
-- Place a minimum of one terrain piece for every 2' x 2' square of the table.
-- Keep a minimum distance of 6" between separate terrain pieces.
-- Multiple terrain pieces that fit together (such as a group of fences, trees, or buildings) counts as a single terrain piece, as long as they do not take up more than a 12" x 12" square of space combined.
-- Single terrain pieces may extend beyond 12" in size.
-
-Each player should clarify what type of terrain is placed upon deployment of said terrain.
+Players take their turn to place the terrain pieces on the tabletop. Once finished, both players should agree on what sort of terrain each piece is to clarify what certain rules they might have during the battle.
 
 === DEPLOYMENT
 
@@ -386,7 +381,7 @@ When deploying your units, place them at least 1" apart so it is made clear whic
 
 === STARTING THE BATTLE
 
-After deployment is finished, the players roll a dice to decide which player will begin. The player with the least amount of deployment drops adds +1 to their result. The player with the highest result then chooses if they want to go first or second. In case both players roll the same result, re-roll the dice until one player rolls higher.
+After deployment is finished, the players roll a dice to decide which player will begin. The player with the least amount of deployment drops adds +1 to their result. In case both players roll the same result, re-roll the dice until one player rolls higher.
 
 A standard game lasts 6 whole turns. A turn consists of the Movement, Magic, Shooting and Close Combat phase of both players. Once the 6 turns are finished, calculate the casualties and completed objectives for both armies to determine the winner. For more information on various battles, see the Scenarios chapter.
 
@@ -414,19 +409,19 @@ In Warhammer, a normal move for any model, and therefore any unit of models, is 
 
 Individual models are not permitted to leave their units and so a unit effectively moves as a single entity. If, for whatever reason, there is more than one Move characteristic in the unit, then the entire unit is treated as having the same Move value as the slowest model.
 
+Models (and units) must move forward in a straight line, unless performing a manoeuvre, which we'll discuss in a moment.
+
 #diagram("/assets/figures/rulebook/img-0454.jpg", 0.463)
 
 #note[_When moving models, it is a common mistake to measure the distance from the front of the base and then place the model so the back of its base is on the far side of the tape measure. This is incorrect, as it adds the entire length of the model's base (or the unit's bases) to the distance moved. Always use a common measuring point – in this example, the front of the first rank._]
 
 #namecost("1\" APART", "")
 
-A unit is not allowed to end their move closer than 1" to another unit, friend or foe. If pivoting the unit on the spot would cause you to come into base contact with another unit, you must move your model back so that it is still 1" away from these after your pivot. If your model cannot be moved back because it is between two units, you should, if possible, move the other unit back so the pivot can be performed. Note that units that are engaged in close combat may never be moved back in this way. On the off chance that neither unit can be moved back, the pivot may not be made.
+A unit is not allowed to end their move closer than 1" to another unit, friend or foe, or impassable terrain (as described in the Battlefield Terrain chapter). If pivoting the unit on the spot would cause you to come into base contact with another unit or impassable terrain, you must move your model back so that it is still 1" away from these after your pivot. If your model cannot be moved back because it is between two units or pieces of impassable terrain, you should, if possible, move the other unit back so the pivot can be performed. Note that units that are engaged in close combat may never be moved back in this way. On the off chance that neither unit can be moved back, the pivot may not be made.
 
 This rule does not apply to charge moves, as the whole point of charging is to get a unit into base contact with an enemy. Occasionally, a unit will have approached to within 1" of a unit it did not charge as the result of moving into contact with a unit it did charge. This is perfectly acceptable, although players may wish to nudge the units further apart to maintain a suitable degree of clarity.
 
 #namecost("WHEEL", "")
-
-A model may always wheel as part of a normal move.
 
 When performing a wheel, the leading edge of the formation moves forward, pivoting round one of the front corners. The unit swings round like the spoke of a turning wheel and completes the move facing a different direction. During the Remaining Moves sub- phase, wheels are measured as follows:
 
@@ -438,33 +433,21 @@ When a unit is wheeling, you measure the distance moved by the outside corner of
 
 === MANOEUVRES
 
-*There are three types of manoeuvres to choose from: turn, redress the ranks and reform.*
-
-During its movement, a unit may perform a single manoeuvre.
+*There are two specific manoeuvres that enable a unit to change direction or rearrange its ranks: wheel and reform.*
 
 As with a normal move, a unit cannot carry out a manoeuvre if doing so would ends its move within 1" of another unit.
 
 In addition, none of the models in the unit may move more than twice their Movement rate as a result of a manoeuvre (i.e. models with Movement 4 can move up to 8").
 
-#namecost("TURN", "")
-
-To execute a turn, the whole unit pivots on the spot in any direction of your choice. This uses a quarter of its Movement characteristic.
-
-#namecost("REDRESS THE RANKS", "")
-
-Units can redress the ranks by moving models to or from their rear ranks to decrease or increase the number of models in their front rank. A unit may use half of its Movement characteristic in order to deduct up to five models from its front rank, or to add up to five models to its front rank.
-
-The models in the remaining ranks are then rearranged to match the number of models in the front rank and maintain a correct formation.
-
 #namecost("REFORM", "")
 
-Reforming allows a unit to sacrifice its entire movement in order to both pivot about its centre, and to redress its ranks and files as required to either change its formation, or to adopt a different formation.
+Keeping the centre point of the unit the same, arrange the unit into a new formation of as many ranks as you please, facing whichever direction you wish. Remember that none of the models in the unit can move more than twice their Movement rate.
 
-A unit that reforms may not fire missile weapons in the Shooting phase.
+A reform prevents the unit from moving any further that turn, and also stops it from firing missile weapons in the Shooting phase.
 
 #diagram("/assets/figures/rulebook/img-0457.jpg", 1.0)
 
-#note[_A unit can either turn (A), redress the ranks (B), or reform (C)._]
+#note[_When a unit reforms, it can change its number of ranks or files (A), the direction it is facing (B), or both (C)._]
 
 == THE MOVEMENT PHASE SEQUENCE
 
@@ -479,14 +462,8 @@ A unit that reforms may not fire missile weapons in the Shooting phase.
 Below can be found a summary chart of various types of Movement rules found throughout the game.
 
 #chart((("Movement Type:", "Distance Moved:"), ("Normal", "Movement"), ("Moving backwards or
-sideways", "Movement / 2"), ("Marching", "Movement x 2"), ("Charging (Movement 5
-and below)", "Movement + 2D6
-(choose highest)"), ("Charging (Movement 6
-and above)", "Movement + 2D6"), ("Failed Charge
-(Movement 5 and
-below)", "2D6 (choose highest)"), ("Failed Charge
-(Movement 6 and
-above)", "2D6"), ("Fleeing", "Movement + D6"), ("Pursuing", "Movement + D6")))
+sideways", "Movement / 2"), ("Marching", "Movement x 2"), ("Charging", "Movement + 2D6
+(choose highest)"), ("Failed Charge", "2D6 (choose highest)"), ("Fleeing", "2D6"), ("Pursuing", "2D6")))
 
 == 1. START OF PHASE
 
@@ -506,7 +483,7 @@ Once the charge reaction has been resolved, you can nominate another of your uni
 
 Charging is the only way for a unit to engage the enemy in close combat. It is up to the player if they wish to declare a charge or not, unless specified.
 
-To declare a charge you must indicate which of your units is charging, and which enemy unit it is going to charge. You must always measure the distance between the charger and the potential target before declaring the charge to determine if the unit is in range or not.
+To declare a charge you must indicate which of your units is charging, and which enemy unit it is going to charge. You're always allowed to measure the distance between the charger and the potential target before declaring the charge, as this might well affect your decision whether or not to declare a charge.
 
 When you declare a charge, one or more of the models in your unit must be able to trace a line of sight to the enemy unit, and the target must lie at least partially within the charging unit's front arc.
 
@@ -522,7 +499,7 @@ To make such a judgement, you'll need to know how a charge move is completed, wh
 
 *An enemy unit that has had a charge declared against it must perform a charge reaction. Once the charge reaction is complete, the charging player can declare a charge with another unit, until they have declared all the charges they wish to.*
 
-As your opponent declares a charge, you can declare a charge reaction for your charged unit. There are four types of charge reaction: Hold, Stand & Shoot, Counter-charge and Flee.
+As your opponent declares a charge, you can declare a charge reaction for your charged unit. There are three types of charge reaction: Hold, Stand & Shoot and Flee.
 
 Note that a unit that is already engaged in close combat is not allowed to make any charge reaction besides Hold.
 
@@ -536,21 +513,13 @@ A unit will normally elect to Hold if it has no missile weapons. Units that are 
 
 *If a unit elects to perform a Stand & Shoot reaction it fires any missile weapons it has against the charging foe. A Stand & Shoot reaction can only be declared if the unit has missile weapons of some kind.*
 
-A Stand & Shoot reaction can only be declared if the distance to the enemy is greater than the charging unit's minimum charge range.
+A Stand & Shoot reaction can only be declared if the range to the enemy is greater than the charging unit's Move characteristic.
 
 If a Stand & Shoot charge reaction is declared, the unit makes a normal, although out of sequence, shooting attack against the charging unit (see the Shooting chapter for more details on shooting attacks).
 
-To resolve a Stand & Shoot reaction, first roll the charging unit’s charge distance (see Resolve Charges). If the charging unit has enough Movement to enter the maximum range of the holding unit’s weapons, resolve the shooting attacks for each weapon as if the charging unit had just entered that weapon’s range. If the charge fails before reaching that range, the Stand & Shoot reaction for that weapon has no effect.
+Once the shooting attack, and any Panic test caused by it (detailed in the Panic chapter), have been resolved, the unit is treated as having declared a Hold reaction. A Stand & Shoot reaction can even be declared against an enemy unit that starts its charge outside the firing unit's maximum range – the shooting is resolved normally before the charging unit moves. It is always assumed the enemy is just within maximum range of the shooting unit's shortest-ranged weapon, even if the charge fails for whatever reason.
 
-#namecost("COUNTER-CHARGE", "")
-
-*If a unit Counter-charges, it rushes forward to meet the attacker head-on.*
-
-A unit that is charged to their front may attempt to Counter-Charge the enemy if the distance to the enemy is greater than the charging unit's minimum charge range, and the unit did not fail any charge the turn before.
-
-This is done by taking a Leadership test; if failed the charged unit must choose to Hold. If passed, the unit moves D6" directly towards the enemy unit, wheeling as needed.
-
-Both units are considered to have charged during this turn. If the counter-charging unit cannot complete its move for any reason, it does not count as charging and loses any associated bonuses for it.
+In most cases, there is no downside to a Stand & Shoot over simply holding.
 
 #namecost("FLEE", "")
 
@@ -562,7 +531,7 @@ If a unit chooses a Flee reaction, for whatever reason, use the following proced
 
 - Immediately turn the unit about its centre so that it is facing directly away from the centre of the charging enemy unit (ignore other units or impassable terrain). This turn is 'free' and does not reduce the distance the unit will flee.
 
-- After turning, the unit flees the sum of their Movement + D6 in the direction it is facing, as described under Move Fleeing Units in the Compulsory Moves sub-phase.
+- After turning, the unit flees 2D6" in the direction it is facing, as described under Move Fleeing Units in the Compulsory Moves sub-phase.
 
 It should be noted that a Flee reaction does not guarantee escape from oncoming chargers. If the fleeing unit rolls poorly and the chargers roll well, the fleeing unit might yet be caught, as we will discuss later.
 
@@ -590,8 +559,6 @@ A unit might well be called upon to make several charge reactions over the cours
 
 A unit can only Stand & Shoot once in a Charge sub- phase. This is not to say that the Stand & Shoot must be used against the first charging unit – the charged unit can opt to Hold against the first charge and Stand and Shoot against the second charge. It could even then elect to Flee in reaction to a third charge if it wished.
 
-A unit that declares a Counter-charge reaction cannot make any additional charge reactions besides Hold that turn. A unit may only make one actual Counter-charge move once per turn. If the counter-charging unit gets charged by more than one unit, it counts as counter- charging all units to its front.
-
 A unit that declares a Flee charge reaction cannot make any additional charge reactions that turn. A unit may only make one actual Flee move once per turn.
 
 === RESOLVE CHARGE
@@ -604,15 +571,11 @@ Work through the charges one at a time, in any order decided by the player whose
 
 *If the charge range is equal to or greater than the distance to the enemy unit, the charge is successful. If the charge range is less than the distance to the enemy, the charge is failed.*
 
-The charge range of a unit is the sum of its Movement value and 2D6 (choose the highest result) if the unit has Movement 5 or less, or its Movement value and 2D6 if the unit has Movement 6 or more.
+The charge range of a unit is based on its Movement value. A unit's charge range is the sum of its Movement value and a 2D6 roll (where you pick the highest score rolled) in inches.
 
-#note[_For example, a unit with Movement 4 rolls a 2 and 5 for its charge distance, meaning it can charge up to 9" (4+5) this turn. A unit with Movement 8 rolling the same result can charge up to 15" (8+2+5)._]
+#note[_For example, a unit with Movement 4 rolls a 2 and 5 for its charge distance, meaning it can charge up to 9" (4+5) this turn._]
 
 With the unit's charge range established, measure the distance between the charging unit and its target unit at their closest points in an uninterrupted line between them. If the distance is greater than the charge range, then the charging unit realises that if has insufficient momentum to reach the enemy and instead makes what we call a failed charge. If the distance is less than or equal to the charge range, then the charging unit has reached the enemy and makes a successful charge.
-
-#namecost("DISORDERED CHARGE", "")
-
-In certain situations, a unit’s charge may become disordered, most commonly due to various types of terrain. A unit that makes a disordered charge is not subject to any rules that only apply when a unit charges.
 
 #namecost("FAILED CHARGE", "")
 
@@ -664,7 +627,7 @@ If a charging unit straddles two zones, then the unit is considered to be in the
 
 #note[_4\. In this case it is hard to tell where the majority of the front rank lies, so it is best to roll a dice to decide between a flank and rear charge._]
 
-In some cases, the enemy unit might have to close the door with the chargers instead. In this situation, the charging unit counts as making a disordered charge against that unit. If no amount of finagling can allow the unit to avoid the obstacle, the charge fails.
+In some cases, the enemy unit might have to close the door with the chargers instead. If no amount of finagling can allow the unit to avoid the obstacle, the charge fails.
 
 There is one important principle that you should always keep in mind when charging: under no circumstances can a unit use its charge move to move into contact with an enemy it has not declared a charge against.
 
@@ -674,11 +637,11 @@ Sometimes a charging unit can move into contact with its target, but cannot clos
 
 #diagram("/assets/figures/rulebook/img-0470.jpg", 0.999)
 
-#note[_1\. The red unit declares a charge. 2. It wheels to maximise and avoid terrain. 3. It moves into contact with the enemy. 4. The charging unit cannot close the door, because a rock is in the way, so the blue unit does instead. This causes the red unit to make a disordered charge._]
+#note[_1\. The red unit declares a charge. 2. It wheels to maximise and avoid terrain. 3. It moves into contact with the enemy. 4. The charging unit cannot close the door, because a rock is in the way, so the blue unit does instead._]
 
 #namecost("CHARGING A FLEEING ENEMY", "")
 
-If, for whatever reason, one or more units complete a charge against a fleeing enemy, move the charging unit(s) into contact with the fleeing enemy as described earlier. The fleeing unit then suffers one Wound with no saves of any kind allowed for each point of Unit Strength the charging unit(s) has. If any models survive, the charging unit then stops 1" behind the remains of the unit.
+If, for whatever reason, one or more units complete a charge against a fleeing enemy, move the charging unit(s) into contact with the fleeing enemy as described earlier. The fleeing unit then suffers two Wounds with no saves of any kind allowed for each point of Unit Strength the charging unit(s) has. For example, a unit with Unit Strength 10 will inflict 20 Wounds on the enemy unit. If any models survive, the charging unit then stops 1" behind the remains of the unit.
 
 A charging unit that completely destroys a unit of fleeing troops in this way are allowed to attempt a reform by passing a Leadership test. If the test is failed, they do not have the chance to reform. If the test is passed, the unit immediately makes a reform manoeuvre. In either case, the unit cannot move further during this Movement phase.
 
@@ -714,7 +677,7 @@ All compulsory movement is carried out after charges have been resolved, but bef
 
 During the Compulsory Moves sub-phase, the player picks any one of their fleeing units and tests to rally it (as explained below). They then proceed to the next fleeing unit and attempt to rally it, and so on, in any order they wish, until all units that are able to make a rally attempt have done so.
 
-If the unit started to flee in this turn it cannot attempt to rally the same turn. Units cannot attempt to rally if enemy units are within 6", unless those units are fleeing, engaged in combat or have less than Unit Strength 10.
+If the unit started to flee in this turn it cannot attempt to rally the same turn.
 
 A unit attempts to rally by taking a Leadership test. If the fleeing unit has been reduced in size to a quarter (25%) or less of the number of models with which it began the game, its Leadership value is halved (after any other modifiers, special rules or abilities are applied, rounded up).
 
@@ -722,9 +685,9 @@ If the Rally test is failed the unit continues to flee. If the Rally test is suc
 
 === MOVE FLEEING UNITS
 
-*Any units that do not rally must immediately flee the sum of their Movement + D6" in the direction they are facing. Every model that flees through an enemy unit or impassable terrain risk taking damage.*
+*Any units that do not rally must immediately flee 2D6" in the direction they are facing. Every model that flees through an enemy unit or impassable terrain risk taking damage.*
 
-Fleeing troops ignore obstacles of any kind as they retreat. Fleeing troops move through other units (friend or foe) and impassable terrain. If the flee move would result in the fleeing unit ending up 'on top' of or within 1" of another unit, then it carries on fleeing straight forward until it is 1" past the obstruction, and will then halt.
+Fleeing troops ignore obstacles of any kind as they retreat. Fleeing troops move through other units (friend or foe) and impassable terrain. If the flee move would result in the fleeing unit ending up 'on top' of or within 1" of another unit or impassable terrain, then it carries on fleeing straight forward until it is 1" past the obstruction, and will then halt.
 
 Each fleeing model must pass a Dangerous Terrain test for each area of impassable terrain that it flees through. More information on Dangerous Terrain tests and Impassable Terrain can be found in the Battlefield Terrain chapter.
 
@@ -760,21 +723,21 @@ Units may not mix forward, backward and/or sideways movement as part of the same
 
 === MARCHING
 
-*Troops can move at double speed. If they start their move within 6" of an enemy, they must pass a Leadership test to do so.*
+*Troops can move at double speed. If they start their move within 8" of an enemy, they must pass a Leadership test to do so.*
 
-Marching troops move at twice their normal Movement rate. A unit on the march is not permitted to perform any manoeuvres, move sidewards or backwards.
+Marching troops move at twice their normal Movement rate. A unit on the march is not permitted to reform, as this would disrupt its movement, nor is it allowed to move backwards or to the side. It can wheel as normal, as you might imagine a column of troops would in order to follow a road, for example.
 
-It is also worth noting that a unit that has marched in the Movement phase cannot shoot missile weapons during the Shooting phase unless specified.
+It is also worth noting that a unit that has marched in the Movement phase cannot shoot missile weapons during the Shooting phase.
 
 #namecost("NEARBY ENEMIES", "")
 
-If you wish a unit to march when an enemy unit is within 6", it will first have to take a Leadership test. If the test is passed, the unit marches as ordered. If the test is failed, the unit will only be able to move normally. Units do not need to test to march if the enemy units are fleeing, engaged in combat or have less than Unit Strength 10.
+If you wish a unit to march when a non-fleeing enemy unit is within 8", it will first have to take a Leadership test. If the test is passed, the unit disregards the nearby foe and marches as ordered. If the test is failed, the unit will only be able to move normally. Note that if a unit attempts this test and fails, it is still treated as having marched, even if its controlling player then elects not to have the unit move at all.
 
 === LONE MODELS AND MOVEMENT
 
 *Units that consist of a single model are mostly moved the same as other units.*
 
-They move, wheel and march just like a larger unit. The one exception is that a single model (except chariots, see the Troop Types chapter) can pivot on the spot as many times as it wishes over the course of its move. It can do so without penalty and so pivoting does not prevent models from marching, or even from shooting later in the turn.
+They move, wheel and march just like a larger unit. The one exception is that a single model (except chariots, see the Troop Types chapter) can pivot on the spot as many times as it wishes over the course of its move. It can do so without penalty and so pivoting does not prevent models from marching, or even from shooting later in the turn, although a lone model that pivots on the spot does count as moving for the purposes of shooting and so on.
 
 On some occasions, notably when charging, a lone model has to perform a wheel (when charging, a lone model must follow the normal charge rules, which do not allow pivots, only one wheel whilst moving, and another to 'close the door'). In this case, wheel from one of the front corners as you would for other units.
 
@@ -810,7 +773,7 @@ A higher-level Wizard will know more spells than a lower-level Wizard. Similarly
 
 #namecost("SPELLS", "")
 
-*Each Wizard may choose a number of spells equal to their level.*
+*Each Wizard may choose a number of spells equal to their level plus 1 (in addition to any Signature Spells).*
 
 When you chose your army, you must also select which Lore of Magic each of your Wizards is going to use. What lores are available to each Wizard is specified in their Army Book. It could either be one the eight Winds of Magic at the end of this book (known as the Lore of Fire, Metal, Life, Beasts, Heavens, Light, Shadow and Death), or a unique lore available only to the army in question.
 
@@ -819,6 +782,8 @@ Before you start deployment, you need to determine which spells any Wizards in y
 The spells a Wizard knows are determined by their Wizard Level and consulting the Lore of Magic in question. This is done openly before you start deployment, so both you and your opponent will be aware of the spells each Wizard has chosen. If your army includes more than one Wizard, you can choose the order in which you choose their spells.
 
 Regardless of the Lore of Magic your Wizard has chosen to use, you will notice that the spells are numbered between Level 1 and Level 4, with Level 1 generally being easier to cast, and Level 4 being more powerful and more difficult to cast. Wizards may only choose spells of their own Level or lower.
+
+Note: In older books, the spells are ranked 1\-6. In this case, the Wizard may choose spells equal to their Wizard level plus 2.
 
 Ordinarily, each spell can only be chosen once in the same army. If you have more than one Wizard using the same Lore, you must choose different spells for them. The only exceptions are:
 
@@ -832,7 +797,7 @@ Ordinarily, each spell can only be chosen once in the same army. If you have mor
 
 Most Lores of Magic have Signature spells. Regardless of a Wizard's Level, they always know the Signature spell of a lore in addition to any other spells they have chosen – even if another Wizard in the same army already knows the Signature spell.
 
-Note that a Wizard may only have one Signature spell. If a Wizard can take spells from multiple lores, you must choose which lore you pick that Signature Spells from.
+If a Wizard can take spells from multiple lores, they may at most have two different Signature Spells in total. You may choose which lore you pick those Signature Spells from as normal.
 
 Note that Wizards that do not get to choose their spells, either due to knowing only a few specific spells or having them as Bound Spells, do not get the Signature spell from the Lore(s) they are using.
 
@@ -840,19 +805,19 @@ Note that Wizards that do not get to choose their spells, either due to knowing 
 
 Most Lores of Magic have something called a 'lore attribute'. This is essentially a grouping of one or more special rules that are applied to certain spells for that lore. A Lore Attribute might give certain spells an extra effect against a particular troop type, or alter the way a spell behaves. Regardless of the detail, a Lore Attribute only has an effect on spells from its own lore.
 
+#namecost("AREA OF EFFECT SPELLS", "")
+
+Some spells affect all units within a certain range of the Wizard. Note that such spells only affect the units as long as they remain within that range of the Wizard.
+
 #namecost("LOSING WIZARD LEVELS", "")
 
-If a Wizard loses one or more Wizard levels, they instantly forget a single spell for each Wizard level lost, starting with their highest-level spells. If they know multiple spells of the same spell level, randomly choose which spell is lost unless specified. A model can lose Wizard levels granted by a magic item. If a Wizard has had their level reduced to 0 they no longer counts as a Wizard and cannot attempt to channel Power and Dispel dice. They can no longer cast any spells or use Arcane Items, except for any Bound spells they might still have.
+If a Wizard loses one or more Wizard levels, they instantly forget a single spell for each Wizard level lost, starting with their highest-level spells. If they know multiple spells of the same spell level, randomly choose which spell is lost unless specified. A model can lose Wizard levels granted by a magic item. Bound Spells cannot be forgotten if a Wizard loses a Wizard level. If a model has loses a Wizard level and has a selection of "normal" and bound spells, do not include the bound spells when randomising which are forgotten. If a Wizard has had their level reduced to 0 they no longer counts as a Wizard and cannot attempt to channel Power and Dispel dice. They can no longer cast any spells, except for any Bound spells they might still have.
 
 == SPELL TYPES
 
 Some spells have a type that enforces additional casting restrictions, or waives others. There are seven distinct types of spells: augment, conveyance, direct damage, hex, magical vortex, magic missile and summoning. Some unique spells do not have a type – their text will contain any casting restrictions that apply.
 
-Most spells target a single unit. However, there are two exceptions – aura and area spells.
-
-*Aura* spells affect all units within a radius equal to the spell’s range, measured from the Wizard. If a unit is no longer within range, it immediately loses the effect. Aura spells always affect units engaged in combat, regardless of spell type.
-
-*Area* spells target a point on the battlefield within the spell’s range. Most area spells use one of the templates described earlier in the book. For round templates, the centre must be placed within the spell’s range. After placement, the small round template scatters D3", while the large round template scatters D6". For the line and flame template, the spell itself describes how they are placed.
+Note that all damage from spells counts as non-physical Magical Attacks (as described in the Special Rules section).
 
 #namecost("AUGMENT SPELLS", "")
 
@@ -883,12 +848,12 @@ A unit cannot be affected by the same conveyance spell more than once per turn. 
 The following applies to *direct damage* spells:
 
 - The target must be an enemy unit.
-- The target does not have to be within the Wizard's forward arc (unless specified).
+- The target must lie within the Wizard's forward arc (unless specified).
 - The Wizard does not need line of sight to their target.
 - The target must be within the spell's range.
-- Wizards cannot target spells at units engaged in close combat (unless specified).
+- Wizards cannot target spells at units engaged in close combat.
 
-Sometimes a direct damage spell will use a template to determine which models are hit. When this happens, the template cannot be initially placed in such a way that it touches friendly units or enemy units that are in close combat. Ranged direct damage spells that use a template have to target an enemy unit by placing the template over the target enemy unit. When targeting a unit with a small or large round template, the hole in the centre must be placed over an enemy model.
+Sometimes a direct damage spell will use a template to determine which models are hit. When this happens, the template cannot be placed in such a way that it touches friendly units or enemy units that are in close combat – this is not to say that the template won't scatter onto friends later, depending on the spell. Ranged direct damage spells that use a template have to target an enemy unit by placing the template over the target enemy unit. When targeting a unit with a small or large round template, the hole in the centre must be placed over an enemy model, but only the hole of the template must be within range.
 
 #namecost("HEX SPELLS", "")
 
@@ -900,6 +865,8 @@ The following applies to *hexes*:
 - The target must be within the spell's range.
 - Wizards can target spells at units engaged in close combat.
 
+Note that bonuses and penalties from hex, augment and other spells are cumulative, but normally cannot take any characteristics above 10 or below 1 unless specified.
+
 #namecost("MAGICAL VORTEXES", "")
 
 The following applies to *magical vortexes*:
@@ -909,9 +876,9 @@ The following applies to *magical vortexes*:
 - They may not be used in such a way that they affect any friendly models or models engaged in close combat when initially placed.
 - Models cannot choose to voluntarily move into/through a magical vortex.
 
-A magical vortex uses one of the round templates, which is placed in base contact with the caster and with its centre within the caster's front arc. The player then nominates the direction the magical vortex will move. When initially cast, it moves 12+D6".
+A magical vortex uses one of the round templates, which is placed in base contact with the caster and with its centre within the caster's front arc. The player then nominates the direction the magical vortex will move. When initially cast, it moves 12+D6". In subsequent turns, the magical vortex travels in a random direction and moves 2D6". If a double is rolled, the magical vortex is removed after completing its movement and resolving any damage.
 
-Unlike most other spells and other gaming effects that use templates in Warhammer, magical vortexes remain on the battlefield (unless they move off it). At the end of every subsequent Magic phase, each magical vortex travels in a random direction and moves 2D6". If a double is rolled, the magical vortex is removed after completing its movement and resolving any damage.
+Unlike most other spells and other gaming effects that use templates in Warhammer, magical vortexes remain on the battlefield (unless they move off it). At the end of every subsequent Magic phase, each magical vortex moves in the direction and distance stated in the spell.
 
 If a magical vortex ever ends its move over a unit, place it 1" beyond the unit in the direction it was moving. If this is also over a unit it should be placed 1" beyond that unit, repeating the process until it is no longer touching any models. When this happens, models between where the magical vortex ended its move and where the template is placed are not affected by the spell.
 
@@ -933,6 +900,7 @@ The following applies to *magic missiles*:
 
 The following applies to *summoning* spells:
 
+- They do not have a target.
 - They do not have to be within the Wizard's forward arc.
 - The Wizard does not need line of sight.
 - Summoning spells always target a point on the battlefield unless specified.
@@ -946,11 +914,11 @@ Summoned terrain features can be placed within 1" of or on top of other units, s
 
 #namecost("Summoning Units", "")
 
-When placing a summoned unit, it must be wholly at least 1" away from other units. It can be placed facing any direction and in any legal formation. Unless specified, this unit does not have any upgrades or command models, and the unit does not count as having moved this turn. Summoned units do not award victory points under any circumstances.
+When placing a summoned unit, it must be wholly at least 1" away from impassable terrain and other units. It can be placed facing any direction and in any legal formation. Unless specified, this unit does not have any upgrades or command models, and the unit does not count as having moved this turn. Summoned units do not award victory points under any circumstances.
 
 #namecost("Summoning Models", "")
 
-Some spells can summon models into already existing units. This is done in a strict order. First, any slain command groups models are resurrected in an order of your choosing, displacing rank-and-file models as required. Then rank-and-file models with multiple Wounds are healed to their starting value. Lastly, rank and file models are summoned. The unit formation must be legal after all models are added. If any models cannot be added for any reason, those models are wasted. Any models that are summoned into an existing unit retain any equipment, rules and/or bonuses as the rest of the unit.
+Some augment spells can summon models into already existing units. This is done in a strict order. First, any slain command groups models are resurrected in an order of your choosing, displacing rank-and-file models as required. Then rank-and-file models with multiple Wounds are healed to their starting value. Lastly, rank and file models are summoned. The unit formation must be legal after all models are added. If any models cannot be added for any reason, those models are wasted. Any models that are summoned into an existing unit retain any equipment, rules and/or bonuses as the rest of the unit.
 
 == THE MAGIC PHASE SEQUENCE
 
@@ -1004,7 +972,7 @@ To cast a spell, a Wizard nominates one of their spells to cast, and declares th
 
 === CHOOSE NUMBER OF POWER DICE
 
-Once the Wizard, spell and target have been chosen, the player then declares how many power dice from their pool the Wizard will use in their attempt to cast the spell. At least one dice must be taken from the power pool. The number of dice each Wizard can use to cast each spell is equal to their Wizard Level plus 2. So, a Level 3 Wizard could use a maximum of 5 dice on each spell.
+Once the Wizard, spell and target have been chosen, the player then declares how many power dice from their pool the Wizard will use in their attempt to cast the spell. At least one dice must be taken from the power pool. The number of dice each Wizard can use to cast each spell is equal to their Wizard Level plus 1. So, a Level 3 Wizard could use a maximum of 4 dice on each spell.
 
 === CASTING VALUE
 
@@ -1025,6 +993,12 @@ When casting a spell, there are many sources of casting bonuses that add to the 
 The most common casting bonus is given by the Wizard itself, and is equal to the Wizard's level divided by half. So a Level 1 and 2 Wizard gains a +1 bonus, whereas a Level 3 and 4 Wizard gains a +2 bonus.
 
 Other casting bonuses can come from magic items, special rules, units or terrain. Note that for whatever reason, no casting attempt may have more than a +5 casting bonus in total.
+
+=== OVERCAST SPELLS
+
+Some spells allow the Wizard the option to extending the effective range, amount of damage caused or area of effect. Where this is an option, it is clearly stated in the spell's effect, as is the extra casting cost required to achieve the additional effect.
+
+If a player wishes to cast the overcast version of a spell, this needs to be stated before rolling the dice. Otherwise, a Wizard is assumed to be casting the standard version of the spell.
 
 === BROKEN CONCENTRATION
 
@@ -1071,11 +1045,15 @@ model underneath the template suffers a
 Strength 10 hit (including the Wizard – they
 do not benefit from Look Out, Sir! in this
 case)."), ("10", "Daemonic Possession: The caster suffers one
-Strength 10 hit and loses a Wizard level."), ("11", "Dimensional Cascade: Centre the large
+Strength 10 hit and loses a Wizard level and
+their highest level spell. If the caster reaches
+Level 0, he stops counting as a Wizard for all
+purposes and therefore will not be able to use
+any arcane magic items he is carrying (see the
+Magic Items section)."), ("11", "Dimensional Cascade: Centre the large
 round template over the Wizard – every
 model underneath the template (including the
-Wizard – they do not benefit from Look Out,
-Sir! in this case) suffers a Strength 10 hit."), ("12+", "Damned by Chaos: The Wizard is
+Wizard) suffers a Strength 10 hit."), ("12+", "Damned by Chaos: The Wizard is
 annihilated and immediately removed as a
 casualty, regardless of any protective magic
 item or special rule they might have.")))
@@ -1084,7 +1062,7 @@ item or special rule they might have.")))
 
 *If the Wizard was able to cast their spell the opposing player now has a chance to prevent the spell's effects by attempting to dispel it.*
 
-In order to attempt a dispel, the dispelling player first nominates one of their Wizards to make the dispel attempt. Unlike spells, dispels never require the Wizard to see either the target or the caster. For a Wizard to be able to dispel an enemy spell, they need to be within 24" of the model casting it. Wizards cannot try to dispel spells if they are fleeing.
+In order to attempt a dispel, the dispelling player first nominates one of their Wizards to make the dispel attempt. Unlike spells, dispels never require the Wizard to see either the target or the caster – you can simply nominate any friendly Wizard on the battlefield. Wizards cannot try to dispel spells if they are fleeing or not on the battlefield.
 
 If the dispelling player does not have an eligible Wizard to attempt a dispel their army can attempt to dispel the spell instead.
 
@@ -1094,7 +1072,7 @@ When dispelling, a Wizard can use any number of dispel dice. Once the Wizard has
 
 === DISPEL VALUE
 
-*The dispelling player can attempt to dispel each enemy spell once during each Magic phase, provided they have enough power.*
+*For a dispel to succeed, the total of the dice rolled, must equal or beat the spell's casting result.*
 
 The number of dice chosen are taken from the player's dispel pool and rolled. The results are added together, to give a dispel result, exactly as if he were casting a spell.
 
@@ -1136,14 +1114,14 @@ Most spells are cast instantly and their effect is worked out at once. In this c
 
 Spells marked 'remains in play' stay in effect indefinitely when cast. They only come to an end when the target is slain, or else the caster is slain (or loses the spell for any reason), chooses to end the spell (which they can do at the start of any Magic phase) or leaves the battlefield. The Wizard can continue to cast other spells, but not the same remains in play spell in subsequent turns.
 
-If they are not dispelled immediately when they are cast, remains in play spells can be dispelled at any time during any subsequent Magic phase, using dispel dice as normal, or dice from the power pool as if they were dispel dice if it is your turn. Wizards need to be within 24" of the spell or its target in order to be able to dispel a remains in play spell in this manner.
+If they are not dispelled immediately when they are cast, remains in play spells can be dispelled right before the end of any subsequent Magic phase, using dispel dice as normal, or dice from the power pool as if they were dispel dice if it is your turn. You may nominate any friendly Wizard to attempt to dispel this, regardless of range.
 
-A Wizard does not need to beat the original casting dice roll if attempting a dispel in subsequent turns, but rather the minimum casting value listed in the spell's description.
+A Wizard does not need to beat the original casting dice roll if attempting a dispel in subsequent turns, but rather the minimum casting value listed in the spell's description. If you are dispelling a boosted remains in play spell, you will need to beat the basic casting value of the spell (not the boosted casting value).
 
 #namecost("SPELLS LASTING MORE THAN ONE", "")
 #namecost("TURN", "")
 
-Some spells do not specifically remain in play, but have effects that last one or more turns. Once in play, such spells cannot be dispelled, and remain in effect even if the caster forgets the spell, is slain or leaves the battlefield, unless the spell description specifies otherwise.
+Some spells do not specifically remain in play, but have effects that last one or more turns. Once in play, such spells cannot be dispelled, and remain in effect even if the caster is slain or leaves the battlefield, unless the spell description specifies otherwise.
 
 === DUPLICATE SPELLS
 
@@ -1155,15 +1133,15 @@ You may come upon a situation where the same spell is known by more than one Wiz
 
 Wizards can cast spells in any order, and a player is free to switch between Wizards at any time provided that they do not do so until the casting of the current spell has been resolved.
 
-Remember that, unless specified otherwise, each Wizard can only attempt to cast each spell only once per turn. When the casting player has finished all their casting and dispelling attempts, either because they have run out of power dice or have no remaining or useful spells to cast the Magic phase ends, and the Shooting phase begins.
+Remember that, unless specified otherwise, each Wizard can only attempt to cast each spell only once per turn. When the casting player has finished all their casting and dispelling attempts, either because they have run out of power dice or have no remaining or useful spells to cast (or if all their Wizards have had their concentration broken by failing to cast a spell) the Magic phase ends, and the Shooting phase begins.
 
 == BOUND SPELLS
 
-Some magic items and units have the ability to use a form of magic called a 'Bound Spell'. Bound spells can be used even if the bearer has broken their concentration or is not a Wizard at all. Possessing a Bound Spell does not make a model a Wizard – it just have an item that can cast a spell.
+Some magic items and certain models have the ability to use a form of magic called a 'Bound Spell'. Bound spells can be used even if the bearer has broken their concentration or is not a Wizard at all. Possessing a Bound Spell does not make a character a Wizard – they just have an item that can cast a spell.
 
-A Bound Spell is cast just like an ordinary spell – using dice from the power pool (the model may do so even if it is not a Wizard).
+A Bound Spell is cast just like an ordinary spell – using dice from the power pool (the model may do so even if it is not a Wizard). The required casting value is equal to the Bound Spell's power level.
 
-Whenever you attempt to cast a Bound Spell from a Magic Item, you may add one free Power dice to the casting roll. Bound Spells may use a number of power dice equal to the spell's level plus 1 (Signature spells may use two dice). Bound Spells that are not already tied to a spell from a Lore of Magic have their spell level and casting value listed in the description.
+Whenever you attempt to cast a Bound Spell from a Magic Item (but not 'innate' Bound Spells), you may add one free Power dice to the casting roll. Note that you must always use at least one dice from the power pool when casting Bound Spells. You may use a maximum of two dice when casting Bound Spells from items (including the free dice mentioned above), and three dice when casting innate Bound Spells. Bound Spells are often tied into a spell from a magic lore. Where this is the case and there is a choice of casting levels, the Bound Spell is always the easier 'unboosted' version with the lower casting level.
 
 Bound spells do not benefit from any casting bonuses or penalties the model might have.
 
@@ -1171,7 +1149,11 @@ If a Bound Spell is from a Lore of Magic with a Lore Attribute, the successful c
 
 Failing to cast a Bound Spell does not break a Wizard's concentration.
 
-If a Miscast is rolled while casting a Bound Spell, the item cannot be used again during the game. Do not roll on the Miscast table.
+What happens when a Bound Spell is miscast depends on the nature of the Bound Spell.
+
+- If the Bound Spell is contained within a magic item of some kind, the item crumbles to dust and cannot be used again during the game. Do not roll on the Miscast table.
+
+- If the Bound Spell is an 'innate' ability, then the model simply cannot cast further Bound Spells during this phase. Do not roll on the Miscast table.
 
 Bound Spells are dispelled exactly as other spells – the dispelling Wizard must equal or beat the casting result for a successful dispel.
 
@@ -1205,7 +1187,7 @@ Then proceed to the next unit that is shooting and continue as above until you h
 
 A model may not shoot in the following scenarios:
 
-- They marched or reformed in the preceding Movement phase.
+- They marched in the preceding Movement phase.
 - They rallied or declared a charge.
 - They are fighting in close combat.
 - They are fleeing.
@@ -1213,7 +1195,7 @@ A model may not shoot in the following scenarios:
 
 #namecost("WHAT IS A MISSILE ATTACK?", "")
 
-A missile attack is any attack that is performed from a distance, including shots from weapons, but also template weapons as well as magic missiles (but not direct damage spells or magical vortexes).
+A missile attack is any attack that is performed from a distance during the Shooting phase, including shots from weapons, but also template weapons as well as magic missiles (but not direct damage spells or magical vortexes).
 
 == 2. CHOOSE A TARGET
 
@@ -1223,13 +1205,15 @@ Now you've chosen the unit that will make the shooting attack, you need to choos
 
 === FIRE IN TWO RANKS
 
-All units in the game may fire with their first two ranks. Models further back than the second rank cannot shoot unless specified, regardless of the Line of Sight value of the target.
+The rules given above allow front rank models to shoot, but we also want to allow models in the second rank to shoot (they take aim over crouched or stooping fellows in the front rank). Therefore, models in the second rank can use the line of sight and forward arc of the model directly in front of them for the purposes of all shooting attacks (including stand and shoot reactions). In simple terms, this allows units to fire in two ranks.
+
+Models further back than the second rank of a unit are assumed to have their line of sight blocked by models further forward, and so will not normally be able to shoot, regardless of the Line of Sight value of the target.
 
 === CHECK THE TARGET IS IN RANGE
 
 All missile weapons have a maximum range that indicates the furthest distance they can shoot. A detailed summary of shooting weapons and their ranges can be found in the Weapons & Armour chapter.
 
-A model can normally only shoot at a target if it lies within the maximum range of the weapon it is shooting with.
+A model can normally only shoot at a target if it lies within the maximum range of the weapon it is shooting with. The one exception to this is when a unit Stands and Shoots – here we assume that the charging enemy has entered the weapons' range before the unit shoots.
 
 === WE CANNOT ALL FIRE
 
@@ -1267,30 +1251,26 @@ Each dice that rolls a number equal to or greater than the value required has sc
 
 #namecost("7+ TO HIT", "")
 
-If the required To Hit score is 7 or more, it is still possible to hit the target. As it is impossible to roll a 7 or better on a D6, you will first need to roll a 6. Then, for each shot scoring a 6, you need to roll a further score as shown on the chart below. So, for example, in order to score an 8, you must first roll a 6 followed by a 5 or better.
+If the required To Hit score is 7 or more, it is still possible to hit the target. As it is impossible to roll a 7 or better on a D6, you will first need to roll a 6. Then, for each shot scoring a 6, you need to roll a further score as shown on the chart below. So, for example, in order to score an 8, you must first roll a 6 followed by a 5 or better. If you require a score of 10 or more then it is impossible to hit the intended target – the shots are lost.
 
-#chart((("To Hit Score", "Requirement to Hit:"), ("7", "6 followed by a 2+"), ("8", "6 followed by a 3+"), ("9", "6 followed by a 4+"), ("10+", "6 followed by a 5+")))
+#chart((("To Hit Score", "Requirement to Hit:"), ("7", "6 followed by a 4+"), ("8", "6 followed by a 5+"), ("9", "6 followed by a 6"), ("10+", "Impossible!")))
 #chartlabel("BALLISTIC SKILL OF 6+")
 
-Troops with a high BS have a To Hit score of 1, 0 or even a negative number (as shown above). If shooting modifiers result in a required score of 1 or less, the model has an increased change to hit the target. If the model first fails To Hit, they may re-roll the result as shown on the chart below:
+Troops with a high BS have a To Hit score of 1, 0 or even a negative number (as shown above). If shooting modifiers result in a required score of 1 or less, the model has an increased change to hit the target. If the model first rolls a 1 To Hit, they may re-roll the result as shown on the chart below:
 
 *Ballistic Skill Requirement to Hit on re-roll: 6* 6 *7* 5+ *8* 4+ *9* 3+ *10* 2+
 
 === SHOOTING MODIFIERS
 
-Shooting modifiers are applied to the dice rolls before they are compared to the score needed to hit, making the shot either easier or more difficult. The shooting modifiers are cumulative (except when noted otherwise).
+Shooting modifiers are applied to the dice rolls before they are compared to the score needed to hit, making the shot more difficult, and therefore less likely to succeed. The shooting modifiers are cumulative (except when noted otherwise).
 
 #namecost("MOVING AND SHOOTING", "")
 
 Models that moved for any reason (including rallying, reforming, pivoting on the spot or special rule that forces them to move as a compulsory action) during this turn suffer a \-1 to Hit modifier. Lone Models can pivot on the spot and fire in the same turn without suffering this penalty.
 
-#namecost("LONG RANGE", "")
-
-Any shots taken at an enemy that are at long range suffer a \-1 to Hit modifier. This is described for each weapon in the Weapons & Armour chapter.
-
 #namecost("STAND & SHOOT", "")
 
-Models that are making a Stand & Shoot reaction suffer a \-1 to Hit modifier, but ignore penalties from long range.
+Models that are making a Stand & Shoot reaction suffer a \-1 to Hit modifier.
 
 #namecost("LONE MODEL", "")
 
@@ -1301,8 +1281,6 @@ Any shots taken at a Lone Model with Unit Strength 2 or less suffer a \-1 to Hit
 If the majority of the models in the target unit are within Line of Sight, but behind models from another unit (friend or enemy) or terrain with half or more as high Line of Sight value as them, then an additional To Hit modifier is applied.
 
 For example, a unit where the majority of the models have a Line of Sight value of 1 in front of a unit where the majority of the models have a Line of Sight value of 2 will provide cover. However, the same unit will not provide cover to a unit whose majority of models have a Line of Sight value of 3 or higher. This works the other way around as well, so a model with a Line of Sight value of 3 will ignore the cover otherwise gained by a model with a Line of Sight value of 2 behind a model with a Line of Sight value of 1.
-
-Models with a Line of Sight value of 0 does not offer any cover to anything with a higher Line of Sight value.
 
 Cover will be classed as either soft or hard cover – see below. It is common for some models in the firing unit to have something in the way, and for others to have a clear shot. Where this happens, simply resolve the two sets of shots (and thus the two sets of To Hit modifiers) separately.
 
@@ -1322,9 +1300,7 @@ There are multiple special rules that affect a model's shooting modifier. These 
 
 Some unusual attacks (most commonly those made by magic missiles, but also many special rules) hit automatically. Where this is the case, it is exactly how it sounds – do not roll for the attack, it instead automatically causes the number of hits stated within the wording.
 
-In the boxes where there are two values listed, this means that in order to successfully score a Wound, you must first roll a 6, followed by another D6. In situations where the roll might have a modifier to it, this primarily affects the second roll before the first. For example, a Strength 2 Attack with a +1 modifier treats Toughness 5 as only requiring to roll a 6+ To Wound, rather than a 6+ followed by a 2+.
-
-When a unit has multiple toughness values you use the value of the majority or in the case of a tie, the best tied value, unless specified otherwise.
+When a unit has multiple toughness values or armour saves you use the value of the majority or in the case of a tie, the best tied value, unless specified otherwise.
 
 #namecost("Resolving Unusual Attacks", "")
 
@@ -1338,10 +1314,10 @@ The only exceptions are hits caused by close combat attacks – these are discus
 
 To determine whether a hit causes a wound, compare the weapon's Strength (not the Strength of the firer) with the target's Toughness characteristic. Each weapon has a Strength value, given in that weapon's description in the Weapon & Armour chapter.
 
-Pick up all the dice that have hit, and roll them again. Then, consult the To Wound chart, cross-referencing the weapon's Strength (S) with the target's Toughness (T). The number indicated is the minimum score on a D6 needed to convert the hit into a wound. Any dice that equal or beat the score shown on the chart have successfully scored a wound. A To Wound roll of a 1 on a D6 always fails, regardless of any dice modifiers.
+Pick up all the dice that have hit, and roll them again. Then, consult the To Wound chart, cross-referencing the weapon's Strength (S) with the target's Toughness (T). The number indicated is the minimum score on a D6 needed to convert the hit into a wound. Any dice that equal or beat the score shown on the chart have successfully scored a wound. A To Wound roll of a 1 on a D6 always fails and a roll of 6 always succeeds, regardless of any dice modifiers.
 
 #chartlabel("TARGET'S TOUGHNESS")
-#chart((("", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"), ("1", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+", "6+/6+", "n/a", "n/a"), ("2", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+", "6+/6+", "n/a"), ("3", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+", "6+/6+"), ("4", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+"), ("5", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+"), ("6", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+"), ("7", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+"), ("8", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+"), ("9", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+"), ("10", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+")))
+#chart((("", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"), ("1", "4+", "5+", "6+", "6+", "6+", "6+", "6+", "6+", "6+", "6+"), ("2", "3+", "4+", "5+", "6+", "6+", "6+", "6+", "6+", "6+", "6+"), ("3", "2+", "3+", "4+", "5+", "6+", "6+", "6+", "6+", "6+", "6+"), ("4", "2+", "2+", "3+", "4+", "5+", "6+", "6+", "6+", "6+", "6+"), ("5", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+", "6+", "6+"), ("6", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+", "6+"), ("7", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+"), ("8", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+"), ("9", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+"), ("10", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+")))
 #chartlabel("ATTACKER'S STRENGTH")
 
 == 5. SAVING THROWS
@@ -1356,9 +1332,9 @@ All saves from various equipment or special rules are cumulative, so you can com
 
 For example, a model with a 6+ save (or +1) that adds a piece of equipment that gives a 5+ save (or +2), will have a total of a 4+ save (or +3).
 
-Note that a save of any kind can never be better than 2+. This does not prevent a model having items or special rules that would take the save even lower, it simply caps the saving throw at 2+.
+Note that a save of any kind can never be better than 1+. This does not prevent a model having items or special rules that would take the save even lower, it simply caps the saving throw at 1+. Also, remember that a roll of 1 is always a failure.
 
-#chart((("Save modifier:", "Save:"), ("+1", "6+"), ("+2", "5+"), ("+3", "4+"), ("+4", "3+"), ("+5", "2+")))
+#chart((("Save modifier:", "Save:"), ("+1", "6+"), ("+2", "5+"), ("+3", "4+"), ("+4", "3+"), ("+5", "2+"), ("+6", "1+")))
 
 === NEGATIVE ARMOUR SAVE MODIFIERS
 
@@ -1441,7 +1417,7 @@ The player whose turn it is nominates a close combat involving one or more of th
 
 == 1. FIGHT A ROUND OF CLOSE COMBAT
 
-Just as all eligible units (i.e. those in base contact with the enemy) must fight in close combat, similarly all models that are able to must fight. Models cannot elect not to strike, nor can they normally be prevented from doing so.
+Just as all eligible units (i.e. those in base contact with the enemy) must fight in close combat, similarly all models in base contact with an enemy must fight. Models cannot elect not to strike, nor can they normally be prevented from doing so.
 
 #namecost("FIRST ROUND OF CLOSE COMBAT", "")
 
@@ -1451,17 +1427,17 @@ There are multiple rules in the game that refer to something having an effect "i
 
 *Models can fight if they are in base contact with an enemy model when it is their chance to attack, even if the models' bases only touch at the corner.*
 
-Normally, each model can only attack enemy models in base contact. However, a minimum of five models in the front rank may always attack, as long as the unit is in base contact with any model of the enemy unit in that arc. This is what is referred to as the fighting rank.
+Normally, a warrior can only strike blows against an enemy model in base contact. The most common exception is if they are making a supporting attack.
 
-If a model has more than one Attack and finds itself in base contact with two or more enemies with different characteristic profiles, it must choose which one to attack when its turn to strike comes (before any dice are rolled). If the model is not in direct base contact, it can only direct its attacks against normal rank and file models in the enemy unit.
+However, you may always direct attacks against normal rank and file models, as long as the model is in base contact with any model of the enemy unit (including characters and command group models).
+
+If a model has more than one Attack and finds itself in base contact with two or more enemies with different characteristic profiles, it must choose which one to attack when its turn to strike comes (before any dice are rolled).
 
 #diagram("/assets/figures/rulebook/img-0493.jpg", 0.463)
 
 #note[_Models in base contact with an enemy, even just corner-to-corner, can attack (marked white). These two blue models are in contact with both a cavalry and an infantry model, so can choose to direct their attacks at either unit._]
 
 #diagram("/assets/figures/rulebook/img-0494.jpg", 0.463)
-
-#note[_All five models in the fighting rank may attack, even though only four red models are in base contact with the two blue models._]
 
 #namecost("SUPPORTING ATTACKS", "")
 
@@ -1471,7 +1447,7 @@ A model can make a supporting attack if it is in the second rank and directly be
 
 The number of maximum supporting attacks each model can make is dependent on their troop type, as explained in in the Troop Types chapter.
 
-Supporting attacks are made against models in base contact with the front rank model that is being fought 'through'.
+Supporting attacks are made against models in base contact with the front rank model that is being fought 'through'. If the front rank model is in base contact with two or more enemies with different profiles, the attacking player can only direct the supporting attacks against normal rank and file models in the unit. This means they cannot target specific models like characters, handlers or other unique models, unless those are the only options available.
 
 === HOW MANY ATTACKS?
 
@@ -1535,12 +1511,10 @@ Not all hits are going to harm your enemy – some bounce off tough hide, while 
 
 Consult the To Wound chart, cross-referencing the attacker's Strength with the defender's Toughness. Both values appear on the profiles of the creatures that are fighting. The chart indicates the minimum score required on a D6 to cause a wound. In most cases, you use the Strength on the attacker's profile regardless of what weapon they are using. However, some close combat weapons give the attacker a Strength bonus (see the Weapons chapter).
 
-Remember to roll dice separately for models with different Strength values. Sometimes modifiers apply to these rolls, but a natural dice score of 1 always fails.
-
-In the boxes where there are two values listed, this means that in order to successfully score a Wound, you must first roll a 6, followed by another D6. In situations where the roll might have a modifier to it, this primarily affects the second roll before the first. For example, a Strength 2 Attack with a +1 modifier treats Toughness 5 as only requiring to roll a 6+ To Wound, rather than a 6+ followed by a 2+.
+Remember to roll dice separately for models with different Strength values. Sometimes modifiers apply to these rolls, but a natural dice score of 6 always succeeds and a natural dice score of 1 always fails.
 
 #chartlabel("TARGET'S TOUGHNESS")
-#chart((("", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"), ("1", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+", "6+/6+", "n/a", "n/a"), ("2", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+", "6+/6+", "n/a"), ("3", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+", "6+/6+"), ("4", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+"), ("5", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+"), ("6", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+"), ("7", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+"), ("8", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+"), ("9", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+"), ("10", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+")))
+#chart((("", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"), ("1", "4+", "5+", "6+", "6+", "6+", "6+", "6+", "6+", "6+", "6+"), ("2", "3+", "4+", "5+", "6+", "6+", "6+", "6+", "6+", "6+", "6+"), ("3", "2+", "3+", "4+", "5+", "6+", "6+", "6+", "6+", "6+", "6+"), ("4", "2+", "2+", "3+", "4+", "5+", "6+", "6+", "6+", "6+", "6+"), ("5", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+", "6+", "6+"), ("6", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+", "6+"), ("7", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+"), ("8", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+"), ("9", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+"), ("10", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+")))
 #chartlabel("ATTACKER'S STRENGTH")
 
 === TAKE SAVING THROWS
@@ -1583,7 +1557,7 @@ If your unit charged this turn, it receives +1 combat result. This is cumulative
 
 #namecost("EXTRA RANKS", "")
 
-*\+1 combat result for each extra complete rank of models, to a maximum of +3. Units that have charged the same turn are limited to a maximum of +2.*
+*\+1 combat result for each extra complete rank of models, to a maximum of +3.*
 
 If your unit's formation is in a complete rank, you can claim a bonus of +1 combat result for each extra complete rank behind the fighting rank, at the end of the fight, up to a maximum of +3. Note that this bonus can also be claimed for an incomplete rear rank, as long as there are enough models in it. This number of models is specified in the troop types chapter.
 
@@ -1633,11 +1607,11 @@ If one or more of your units are fighting the enemy in the rear, you receive +2 
 
 If you are charging or fighting from a higher position than your enemy, for example, your troops are occupying the crest of a hill or charged down from it the same turn, you receive +1 combat result. In the case of a fight involving multiple units, the side that has the fighting rank in the highest position gets the bonus.
 
-#namecost("CHALLENGE", "")
+#namecost("OVERKILL", "")
 
-*\+1 combat result if a challenge was refused by your enemy.*
+*\+1 combat result per excess wound caused in a challenge, to a maximum of +3.*
 
-In addition, if a character fighting in a challenge kills their opponent and scores more wounds than their enemy has remaining, then each excess wound scores +1 combat result, up to a maximum of +3.
+If a character fighting in a challenge kills their opponent and scores more wounds than their enemy has remaining, then each excess wound scores +1 combat result, up to a maximum of +3.
 
 Challenges are a special type of close combat performed only by characters, and are covered in more detail in the characters chapter.
 
@@ -1673,7 +1647,7 @@ Note that in case the penalty to the losing unit's Leadership is equal to or gre
 
 *If a defeated unit has a higher number of complete ranks after the first than all individual enemy units in base contact, it takes its Break test on its unmodified Leadership.*
 
-Disrupted units cannot be Steadfast.
+Disrupted units and Skirmishers (see Special Rules chapter) cannot be Steadfast.
 
 Steadfast units always take Break tests on their own Leadership characteristic, ignoring any negative close combat resolution modifiers.
 
@@ -1715,7 +1689,7 @@ In some cases, most likely because a unit previously engaged in combat has broke
 
 === RESTRAIN OR PURSUE
 
-*The victorious unit can choose to pursue or restrain pursuit. A fleeing and pursuing unit both move the sum of their Movement + D6".*
+*The victorious unit can choose to pursue or restrain pursuit. A fleeing and pursuing unit both move 2D6".*
 
 If the losing unit failed its Break test, it must flee, but the winning unit can choose to either pursue the fleeing unit or restrain.
 
@@ -1725,7 +1699,7 @@ If you wish your unit to restrain pursuit, it must first take a Leadership test.
 
 *If one or more pursuing unit rolls equal to or higher than the fleeing unit, parts of the fleeing unit is destroyed.*
 
-If the victorious unit's pursuit roll is equal to or greater than the Flee roll scored by the fleeing enemy unit, the fleeing unit suffers one Wound with no saves of any kind allowed for each point of Unit Strength the charging unit(s) has, just as when charging a fleeing enemy. If any models survive, the pursuing unit then stops 1" behind the remains of the fleeing unit, just as if they had charged a fleeing enemy. If no models survive, see the "Move Pursuers" section below.
+If the victorious unit's pursuit roll is equal to or greater than the Flee roll scored by the fleeing enemy unit, the fleeing unit suffers two Wounds with no saves of any kind allowed for each point of Unit Strength the charging unit(s) has, just as when charging a fleeing enemy. If any models survive, the pursuing unit then stops 1" behind the remains of the fleeing unit, just as if they had charged a fleeing enemy. If no models survive, see the "Move Pursuers" section below.
 
 === MOVE FLEEING UNIT
 
@@ -1786,7 +1760,7 @@ Even if the charged unit was already fleeing, it still cannot take any charge re
 
 #namecost("OVERRUN!", "")
 
-*If the victorious unit charged into combat and the enemy was wiped out, it can move the sum of their Movement + D6" inches straight forward.*
+*If the victorious unit charged into combat and the enemy was wiped out, it can move 2D6 inches straight forward.*
 
 If a unit charges into combat and, by the end of that round of close combat, all its enemies have been wiped out as the result of the combat or combat result (rather than the pursuit) the unit can choose to make a pursuit move, even with nobody left alive to pursue. This is an Overrun move.
 
@@ -1830,6 +1804,10 @@ Note that if a unit is Disrupted from any source, it may not count its rank bonu
 
 #note[_The Goblins have a total combat resolution score of 2 against the Halberdiers. The Halberdiers have a total combat resolution score of 9 against the Goblins. Normally the Goblins would have lost the combat by 7. However, as the overall combat was lost by just 2, the Goblins must take a Break test suffering only a \-2 Leadership Modifier._]
 
+#namecost("Steadfast", "")
+
+Units on the losing side are Steadfast as per the normal rules as long as the combined Unit Strength of all friendly units is higher than that of the combined Unit Strength of all enemy units in the close combat. Note that currently Disrupted units do not contribute to the overall Unit Strength for those units that can be Steadfast.
+
 #diagram("/assets/figures/rulebook/img-0518.jpg", 0.463)
 #diagram("/assets/figures/rulebook/img-0519.jpg", 0.463)
 
@@ -1871,7 +1849,7 @@ Once all flee moves have been resolved, resolve any pursue moves one at a time. 
 
 Occasionally, a situation can arise when one or more units are no longer in base contact with the enemy, but at least part of the enemy unit is still alive. This normally occurs when an enemy has been charged in the rear – as casualties come from the rear rank first, this would in theory leave the attackers stranded from their foe. Clearly this is wrong, just as warriors on a real battlefield would push on to continue the fight, and would not stop fighting if the enemy was standing a few paces away, so must warriors on the miniature battlefield.
 
-Whenever a unit becomes stranded in this manner, the winning unit is immediately nudged (by as small an amount as possible) to bring it back into contact with the foe. This move cannot be used to alter the facing the attacker is in base contact with, nor is it an opportunity to change the attacker's formation or charge a unit not engaged in the fight. If the winning unit cannot be moved in this manner, then the losing unit is moved instead.
+Whenever a unit becomes stranded in this manner, the attacking unit is immediately nudged (by as small an amount as possible) to bring it back into contact with the foe. This move cannot be used to alter the facing the attacker is in base contact with, nor is it an opportunity to change the attacker's formation or charge a unit not engaged in the fight. If the attacker cannot be moved in this manner, then the defending unit is moved instead.
 
 === NO MORE FOES
 
@@ -1903,7 +1881,7 @@ Assuming a unit is not subject to the circumstances described above, the most co
 
 This test will most commonly be taken as a result of shooting attacks or damage caused by enemy spells, but can also be triggered by other factors that cause casualties, such as miscasts, misfires, Dangerous Terrain tests or other special rules. Rather than having a series of very specific triggers for a Panic test, we use this as a 'catch-all' to cover units that suffer high casualties for any reason.
 
-If a unit fails its charge and suffers Heavy Casualties from a Stand & Shoot reaction, it must take a Panic test after completing its Movement.
+A Heavy Casualties Panic test must also be taken (immediately) by a charging unit if its enemies Stand & Shoot and inflict 25% or more casualties in Unit Strength. Where this happens, it can sometimes result in the charging unit panicking while it is still technically out of range of the enemy unit's missile weapons.
 
 #namecost("NEARBY FRIEND ANNIHILATED", "")
 
@@ -1986,7 +1964,7 @@ In addition, models with this special rule can march, claim rank bonus and be st
 
 A model with a Breath Weapon can use it to make a special attack once per shooting or close combat phase. A model with two or more different Breath Weapons must choose which one they want to use. The form that this special attack takes depends on whether or not the creature is in close combat. In the event that a model has more than one Breath Weapon attack, it is permitted to attempt to use only one in a single turn.
 
-However, after each Breath Weapon has been used the first time, roll a D6 before attempting to use it again in later rounds. On 4+, it may be used as normal. On a 1- 3, the model is literally out of breath, and cannot use its Breath Weapon this round. It may choose to attack normally in close combat instead. This does not apply to temporary Breath Weapons from magic items or spells.
+However, after each Breath Weapon has been used the first time, roll a D6 before attempting to use it again in later rounds. On 4+, it may be used as normal. On a 1- 3, the model is literally out of breath, and cannot use its Breath Weapon this round. It may choose to attack normally in close combat instead.
 
 Note that Breath Weapons are not physical attacks, and certain models may be Immune to the effects of some Breath Weapons.
 
@@ -2002,15 +1980,11 @@ To perform the attack, place the flame template so that it lies entirely within 
 
 #namecost("Breath Weapon Close Combat Attack", "")
 
-If the model with this special rule is in close combat, it can use the Breath Weapon instead of using its normal attacks. A model that makes a breath weapon attack in this way inflicts 2D6 automatic hits (resolved like shooting) on a single enemy unit in base contact – if there is more than one enemy unit in base contact with the model, the controlling player chooses which enemy unit suffers the hits. As with breath weapon attacks made in the Shooting phase, the Strength and any special effects of the creature's Breath Weapon will be covered in its rules, any other special rules do not apply.
+If the model with this special rule is in close combat, it can use the Breath Weapon instead of using its normal attacks. A model that makes a breath weapon attack in this way inflicts 2D6 automatic hits (resolved like shooting) on a single enemy unit in base contact – if there is more than one enemy unit in base contact with the model, the controlling player chooses which enemy unit suffers the hits. Note that no single model in the target unit may be Hit more than once from the same breath weapon attack – any excess hits are ignored. As with breath weapon attacks made in the Shooting phase, the Strength and any special effects of the creature's Breath Weapon will be covered in its rules, any other special rules do not apply. Wounds caused by a Breath Weapon in close combat count towards combat resolution.
 
 === COLD-BLOODED
 
-Whenever a unit where the majority of the models have this special rule takes a Psychology or Break test, it rolls an additional dice and discards the highest result.
-
-=== CUMBERSOME
-
-Models or weapons with the Cumbersome special rule cannot be used to Stand and Shoot.
+Whenever a model with this special rule takes a Leadership test, it rolls an additional dice and discards the highest result.
 
 === DEVASTATING CHARGE
 
@@ -2020,15 +1994,11 @@ Models with this special rule have +1 Attack during a turn in which they charge 
 
 Models with this rule gain an invulnerable save against attacks in their front arc (including templates, Stomps and Impact Hits) as indicated in the brackets. This is cumulative with other sources of Dodge. This cannot be used against Magical Attacks that Hit automatically (such as spells or certain special rules), or that have the Always Strikes First special rule, nor can it be used if the model is subject to the Always Strikes Last special rule.
 
-=== DISCIPLINED
-
-Whenever a unit where the majority of the models have this special rule takes a Leadership test that is not a Psychology or Break test, it rolls an additional dice and discards the highest result.
-
 === ETHEREAL
 
 Ethereal creatures treat all terrain as Open Terrain for the purposes of movement. They may not finish their movement inside Impassable Terrain. They are also never slowed by any special rule, spell or item that would otherwise reduce their movement or stop them from moving completely.
 
-Models with this rule have the Magical Attacks, Magical Ward (3+) and Unstable special rules (described later in this chapter).
+Models with this special rule have both the Magical Attacks and Unstable special rules (described later in this chapter). Ethereal models have an invulnerable save (2+) against mundane attacks. However, they only have an invulnerable save (5+) against magical attacks. Ethereal creatures block Line of Sight normally and cannot see through anything that would block the Line of Sight of normal units.
 
 Characters that are not themselves Ethereal are not permitted to join units that are (even if they become temporarily Ethereal for some reason).
 
@@ -2041,8 +2011,6 @@ For every Core unit with the Expendable special rule in your army, you are requi
 === FEAR
 
 A unit containing one or more Fear-causing models gains +1 to its Combat Resolution score. If the Unit Strength of all Fear-causing models is double or more that of the total Unit Strength of all enemy units in base contact, the Combat Resolution score is increased by +2. Note that the bonus from Fear is otherwise not cumulative for having multiple units with the Fear special rule involved in the same combat.
-
-If a model has the Fear special rule from two or more different sources (such as a combination of different special rules, spells or magic items), it instead gains the Terror special rule (described later).
 
 If the majority of the models in a unit cause Fear, they also gain the Immunity (Fear) special rule (described later), and thus the Combat Resolution bonus of their Fear-causing enemies is ignored for that unit.
 
@@ -2068,7 +2036,7 @@ If a model has the Frenzy special rule from two or more different sources (such 
 
 #namecost("Berserk Rage", "")
 
-A unit that includes one or more Frenzied models can never choose Flee as a Charge Reaction, and must pass a Leadership test if it wishes to choose a charge reaction other than Counter-charge. If this test is failed, the unit must declare a Counter-charge instead as per the normal rules for it.
+A unit that includes one or more Frenzied models can only choose Hold or Stand & Shoot as a charge reaction.
 
 If, during the Charge sub-phase, a unit that includes one or more Frenzied models does not declare a charge, then it must do so unless a Leadership test is passed. If the Leadership test is failed, the Frenzied unit must declare a charge against the nearest viable enemy.
 
@@ -2122,23 +2090,13 @@ Models that are Immune to all three above effects have the Immunity (Psychology)
 
 === IMPACT HITS
 
-The number of Impact Hits caused is shown in brackets after the special rule. If a unit contains more than one model that inflicts a random amount of Impact Hits (such as D6), always roll separately for each model.
+The number of Impact Hits caused is shown in brackets after the special rule. If a model is granted two sets of Impact Hits, normally because its troop type and special rules both bestow Impact Hits, use the highest set, rather than a total, before rolling. If a unit contains more than one model that inflicts a random amount of Impact Hits (such as D6), always roll separately for each model.
 
 Impact Hits are only made on the turn the model makes a successful charge into close combat, and only against the unit the model has charged. Impact Hits are resolved at the very beginning of the close combat, before challenges are issued and attacks of any other kind are made. They hit a unit in base contact and are randomised as Automatic Hits. If the model is in base contact with more than one unit, distribute the Impact Hits between them as evenly as possible. If the model with Impact Hits is not in base contact with the enemy, no Impact Hits are inflicted.
 
-Impact Hits roll to wound using the Strength of the model making the Impact Hits. Any armour saves taken are done using the close combat value of the armour.
+Impact Hits roll to wound using the Strength of the model making the Impact Hits. Any armour saves taken are done using the close combat value of the armour, and Parry saves may not be taken (see Weapons and Armour chapter). Any Wounds caused by Impact Hits are counted towards combat resolution.
 
 Unless specified, any special rules or bonuses that apply to the model’s normal attacks do not apply to its Impact Hits.
-
-=== IMPALE
-
-A mount with this special rule has the Mighty Blow (1) special rule in any turn that it charges.
-
-=== INDEPENDENT
-
-A character with this special rule cannot join a unit without this special rule. A unit with this special rule cannot be joined by a character without this special rule.
-
-In addition, they may never use the Inspiring Presence or Hold Your Ground special rules. Note that Characters, ridden models and Mixed Units that still have their Handlers ignore this special rule, unless specified.
 
 === INSPIRING PRESENCE
 
@@ -2174,15 +2132,17 @@ Lightning Attacks have the Ignores Armour Saves special rule against all armour 
 
 Unless otherwise stated, a model with this special rule has both Lightning shooting and close combat attacks (though any spells cast by the model or special attacks are unaffected).
 
+=== LONER
+
+A character with this special rule cannot be your Army General and cannot join a unit without this special rule. A unit with this special rule cannot be joined by a character without this special rule.
+
 === LOREMASTER
 
 A Wizard with the Loremaster special rule knows all the available spells from their chosen Lore (limited by their Wizard level as normal). The lore in question is normally given in brackets as part of the Loremaster special rule. If a model knows spells from multiple Lores, then Loremaster only applies to one of the Lores normally available to them (player's choice).
 
 === MAGICAL ATTACKS
 
-Models with this special rule inflict a \-1 penalty to Magical Wards. Unless otherwise stated, a model with this special rule has both Magical shooting and close combat attacks (though any special attacks are unaffected).
-
-All attacks made by spells and magic items are Magical Attacks. Shots fired from magical items are also considered to be Magical Attacks, unless their description specifically states otherwise. Hits inflicted by rolls on the Miscast table are treated as Magical Attacks. Note that spells are never considered to be physical attacks.
+All attacks made by spells and magic items are considered to be Magical Attacks, as are all attacks that are specifically noted as being Magical Attacks. Shots fired from magical items are also considered to be Magical Attacks, unless their description specifically states otherwise. Hits inflicted by rolls on the Miscast table are treated as Magical Attacks. Note that spells are never considered to be physical attacks.
 
 === MAGICAL WARD
 
@@ -2190,17 +2150,11 @@ Models with this rule gain an invulnerable save as indicated in the brackets.
 
 === MAGIC RESISTANCE
 
-Enemy spells that target a unit containing one or more models with Magic Resistance suffer a casting penalty equal to the number as indicated in the brackets. So, Magic Resistance (1) would give a \-1 casting penalty, Magic Resistance (2) would give a \-2 casting penalty, and Magic Resistance (3) would give a \-3 casting penalty, and so on.
-
-This casting penalty also applies to aura and area spells, if the model would be within the aura's range or under the area's effect when initially cast.
+Enemy spells directly targeting a model (not including templates that are placed on top of it) with Magic Resistance suffers a casting penalty equal to the number shown in brackets after the Magic Resistance special rule. So, Magic Resistance (1) would give a \-1 penalty to the casting roll, Magic Resistance (2) would give a \-2 penalty to the casting roll, and Magic Resistance (3) would give a \-3 penalty to the casting roll, and so on.
 
 In addition, models with Magic resistance gain an invulnerable save against all spells based on the number in the brackets. So, Magic Resistance (1) would give a 6+ invulnerable save, Magic Resistance (2) would give a 5+ invulnerable save, and Magic Resistance (3) would give a 4+ invulnerable save, and so on. Note that Magic resistance does not offer protection against Miscasts.
 
-Note that this special rule is not cumulative. If two or more models in a unit have this special rule, use the highest modifier.
-
-=== MARCH & SHOOT
-
-Models or weapons with this special rule can shoot even if they marched this turn.
+If a character with Magic Resistance joins a unit, all models in the unit benefit from the Magic Resistance as long as they are part of the unit. If a model or unit has two sets of Magic Resistance, the two combine to a maximum of Magic Resistance (3), unless specified.
 
 === MIGHTY BLOW
 
@@ -2218,11 +2172,11 @@ As long as the unit (but not the handlers) have a Unit Strength of 5 or more, an
 
 === MOVE OR FIRE
 
-A model or weapon with the Move or Fire special rule cannot fire a weapon or be fired (respectively) in the Shooting phase if the model moved earlier in the turn, including rallying, reforming and pivoting on the spot. This even applies if the model in question was forced to move as the result of a spell or other such compulsory action.
+A model or weapon with the Move or Fire special rule cannot be fired in the Shooting phase if the model moved earlier in the turn, including rallying, reforming and pivoting on the spot (except for Lone Models, who can pivot and fire in the same turn). This even applies if the model in question was forced to move as the result of a spell or other such compulsory action.
 
 === MULTIPLE SHOTS
 
-A weapon with this special rule enables its wielder to fire several shots at a time, rather than a single shot. The number of shots the weapon can fire is normally given as part of its description in the brackets. Such weapons can either fire once without penalty, or as many times as indicated in their rules with a \-1 To Hit penalty (in addition to any other modifiers To Hit).
+A weapon with this special rule enables its wielder to fire several shots at a time, rather than a single shot. The number of shots the weapon can fire is normally given as part of its description in the brackets. Such weapons can either fire once without penalty, or as many times as indicated in their rules with a \-1 To Hit penalty (in addition to any other modifiers To Hit). War Machines with this special rule do not suffer \-1 To Hit for firing Multiple Shots.
 
 All models in the unit (excluding characters) must fire either single or Multiple Shots – the player cannot choose to fire single shots with some and Multiple Shots with others.
 
@@ -2240,7 +2194,7 @@ Models with this rule have an armour save value equal to the number in the brack
 
 === PARRY
 
-Models with this rule gain an invulnerable save in close combat as indicated in the brackets. This is cumulative with other sources of Parry. It cannot be used against attacks made against the model's flank or rear, nor can it be used against attacks that Hit automatically, attacks that are made at +3 Strength over the model's own Strength value.
+Models with this rule gain an invulnerable save in close combat as indicated in the brackets. This is cumulative with other sources of Parry. It cannot be used against attacks made against the model's flank or rear, nor can it be used against attacks that Hit automatically, attacks that are made at +3 Strength over the model's own Strength value, nor can it be used by mounted models, unless specified.
 
 === POISONED ATTACKS
 
@@ -2248,17 +2202,17 @@ A model with the Poisoned Attacks special rule gets a +1 modifier to its To Woun
 
 Unless otherwise stated, a model with this special rule has both Poisoned shooting and close combat attacks (though any spells cast by the model or special attacks are unaffected).
 
-If a model has the Poisoned Attacks special rule from two or more different sources (such as a combination of different special rules, spells or magic items), it may also re-roll failed To Wound rolls.
+If a model has the Poisoned Attacks special rule from two or more different sources (such as a combination of different special rules, spells or magic items), it automatically Wounds on a To Hit roll of 6 in addition to its original effect.
 
 === PONDEROUS
 
-Weapons with this rule suffer an additional \-1 To Hit penalty if they move and shoot in the same turn, and when choosing Stand & Shoot as a charge reaction.
+Weapons with this rule suffer an additional \-1 To Hit penalty if they move and shoot in the same turn.
 
-=== QUICK SHOT
+=== QUICK TO FIRE
 
-Models or weapons with this special rule ignore penalties for Moving & Shooting (unless they also March). In addition, they can always Stand & Shoot or Fire & Flee (see Formation Special rules), even if that enemy would normally be too close for such a charge reaction to be declared.
+Models or weapons with this special rule do not suffer the usual \-1 To Hit penalty for moving and shooting. In addition, Quick to Fire weapons can always be used to Stand and Shoot against a charging enemy, even if that enemy would normally be too close for such a charge reaction to be declared.
 
-Furthermore, Quick Shot may be used once per turn when declaring a charge, immediately after rolling for your charge distance. If the charging unit has enough Movement to enter the maximum range of its missile weapons, resolve the shooting attacks for each weapon as if the charging unit had just entered that weapon’s range. If the enemy unit chose to Stand & Shoot or Fire & Flee, both units will fire at the same time. Any shots fired in this manner suffer a \-1 To Hit penalty, but ignore penalties to long range. This may cause a Panic test following the rules for Heavy Casualties as normal.
+Furthermore, Quick to Fire weapons may be used once per turn when declaring a charge (unless they are also Move or Fire), immediately after the enemy unit has declared their charge reaction (but before moving any units). If the enemy unit chose to Stand & Shoot or Fire & Flee, both units will fire at the same time. Quick to Fire weapons can be used this way even if the unit starts its charge outside their weapons' maximum range – the shooting is resolved normally assuming the enemy is just within maximum range of the shooting unit's shortest-ranged weapon. If the charge fails, for whatever reason, we assume that the chargers closed to within the weapons' maximum range first. Any shots fired in this manner suffer a \-1 To Hit penalty.
 
 === RANDOM ATTACKS
 
@@ -2268,15 +2222,15 @@ Models with the Random Attacks special rule do not have a normal number for thei
 
 Models with the Random Movement special rule do not have a normal Movement characteristic, but rather a dice roll, such as D6, 2D6 or 3D6 (as indicated in the brackets). This is the distance they use for all their movement (regardless of other special rules). Note that certain Random Movement rolls can result in the model having a Movement value higher than 10 – this is an exception to the usual maximum.
 
-Models with Random Movement cannot declare charges, can only choose Hold as a charge reaction, and must always move in the Compulsory Moves sub- phase. When the model moves, first pivot it about its centre to face the direction in which you wish it to travel. Then, roll the dice shown in the Random Movement brackets. Finally, move the model directly forwards a number of inches equal to the total rolled by the dice. No other pivots can be made.
+Models with Random Movement cannot declare charges, and must always move in the Compulsory Moves sub- phase. When the model moves, first pivot it about its centre to face the direction in which you wish it to travel. Then, roll the dice shown in the Random Movement brackets. Finally, move the model directly forwards a number of inches equal to the total rolled by the dice. No other pivots can be made.
 
 There's a chance that the model's peculiar movement will cause it to come into contact with an enemy, so measure the distance in a straight line before the model is moved. If the move is found to take the unit’s front arc into contact with an enemy, then it counts as charging, and this is resolved using the normal rules for charges and using the distance rolled as its charge range. Charge reactions cannot be declared against enemies with the Random Movement special rule.
 
 If the random move brings the unit to within 1" of a friendly unit or Impassable Terrain, it stops immediately and cannot move further during that Movement phase.
 
-A Random Move counts as a ‘normal’ move for triggering a Dangerous Terrain test, unless the model is making a charge, pursuit or flee move, in which case it counts as a move of the appropriate type.
+If two or more models in a unit have the Random Movement special rule, pivot the unit about its centre, then roll the dice only once to determine how far the unit moves. If models in the unit have a different Random Movement value, use the slowest for the entire unit.
 
-A character with this special rule cannot join a unit without this special rule. A unit with this special rule cannot be joined by a character without this special rule. If a character in the unit has a different Random Movement value, use the slowest for the entire unit.
+A Random Move counts as a ‘normal’ move for triggering a Dangerous Terrain test, unless the model is making a charge, pursuit or flee move, in which case it counts as a move of the appropriate type.
 
 === RAPID FIRE
 
@@ -2288,7 +2242,11 @@ A model with the Regeneration special rule gains an invulnerable save (indicated
 
 === REQUIRES TWO HANDS
 
-If a weapon has this rule, it is not possible for a model to use a shield or buckler alongside it in close combat (although a shield can still be used against wounds caused by shooting or magic). In addition, missile weapons with this special rule cannot use Quick Shot when charging.
+If a weapon has this rule, it is not possible for a model to use a shield or buckler alongside it in close combat (although a shield can still be used against wounds caused by shooting or magic).
+
+=== SLOW TO FIRE
+
+Weapons with the Slow to Fire special rule cannot be used to Stand and Shoot.
 
 === SNIPER
 
@@ -2296,44 +2254,33 @@ A model with the Sniper special rule can make a special Sniper shot instead of s
 
 === STOMP
 
-A model with this special rule can make a Stomp in addition to its other close combat attacks (including Breath Weapons). A Stomp has the Always Strikes Last special rule and inflicts a number of automatic hits as indicated in the brackets. These are resolved at the model's Strength against a single enemy unit that consists of models with a Line of Sight value of 1 or less. If the model is a Monster, it may also Stomp models with a Line of Sight value of 3 or less.
+A model with this special rule can make a Stomp in addition to its other close combat attacks (including Breath Weapons). A Stomp has the Always Strikes Last special rule and inflicts a number of automatic hits as indicated in the brackets. These are resolved at the model's Strength against a single enemy unit that consists of models with a Line of Sight value of 1 or less. If the model is a Monster, it may also Stomp models with a Line of Sight value of 2 or less.
 
 Unless specified, any special rules or bonuses that apply to the model’s normal attacks do not apply to its Stomp.
 
 === STRIDER
 
-Models with the Strider special rule are rare – normally, they will have a subset of Strider, such as Hill, Forest, Marshland or River Strider and the rule only applies in terrain of the specified type. Models with the Strider rule treat that piece of terrain as Open Ground, meaning they ignore any combat and movement penalties or Dangerous Terrain tests otherwise caused by it.
+Models with the Strider special rule are rare – normally, they will have a subset of Strider, such as Hill, Forest, Marshland or River Strider and the rule only applies in terrain of the specified type. Models with the Strider rule treat that piece of terrain as Open Ground for the purposes of Movement, meaning they ignore any Movement penalties or Dangerous Terrain tests otherwise caused by it. Note that they still follow the rules for that terrain type in terms of combat.
 
 === STUBBORN
 
 A unit is considered Stubborn if the majority of the models in a unit have this special rule. A Stubborn unit is always Steadfast, whether or not they have more ranks than their enemy or are disrupted.
 
-If a model has the Stubborn special rule from two or more different sources (such as a combination of different special rules, spells or magic items), it may also re-roll failed Break tests.
-
 === STUPIDITY
 
-Provided that they are not engaged in close combat, a unit that contains one or more models with the Stupidity special rule must roll a D6 at the start of its Compulsory Movement sub-phase and consult the table below to see what effect it has until the start of your next turn:
+Provided that they are not engaged in close combat, a unit that contains one or more models with the Stupidity special rule must take a Leadership test at the start of its Movement phase. If the test is passed, the unit will act normally this turn.
 
-#chart((("D6", "Result"), ("1", "Me Head Hurts: The model and any unit
-they are with must move directly forwards
-using the Random Movement (D6) special
-rule, can only choose Hold as a charge
-reaction and cannot use combat reform. In
-addition, the model gains the Immunity
-(Psychology) special rule, may not cast spells
-or channel dice, shoot or use any other
-optional special rules. Note that in case only
-a mount has Stupidity, the rider is not
-affected by the penalties to shooting, casting
-or channelling."), ("2-3", "Unfocused: The model suffers a -1 penalty to
-its Weapon Skill, Ballistic Skill, Leadership,
-casting and dispelling, and only channel dice
-on the roll of a 6. This does not affect any
-riders if only the mount has Stupidity."), ("4-6", "Clear-headed: The model acts as normal.")))
+If the test is failed, it moves directly forwards using the Random Movement (D6) special rule in the Compulsory Movement sub-phase. The Stupid unit cannot take any further action that turn, so cannot declare charges or make a shooting attack. However, a unit that has failed a Stupidity test can still be forced to move, or perform any other action, by a spell, or other special rule/magic item.
+
+Until they pass the Stupidity test again, models that have failed their Stupidity test have the Immunity (Psychology) and Random Movement (D6) special rule, except that they can only move directly forwards. They cannot choose to do a combat reform or choose any other charge reaction except Hold. In addition, Wizards cannot attempt to cast/dispel or channel power dice or dispel dice.
 
 === SWIFTSTRIDE
 
-When charging, fleeing and pursuing, units entirely made of models with the Swiftstride special rule may re-roll 1's when determining the result of the distance they move.
+When charging, units entirely made of models with the Swiftstride special rule and Movement 7 or higher roll 3D6, discard the lowest result, and add the result to their Movement value. When fleeing or pursuing, they roll 3D6, and discard the lowest result.
+
+When charging, units entirely made of models with the Swiftstride special rule and Movement 6 or lower roll 2D6, and add the result to their Movement value. When fleeing or pursuing, they roll 2D6.
+
+#chart((("", "Swiftstride M6 or lower", "Swiftstride M7 or more"), ("Charging", "Movement + 2D6", "Movement + 3D6 (discard the lowest)"), ("Failed Charge", "2D6", "3D6 (discard the lowest)"), ("Fleeing/Pursuing", "2D6", "3D6 (discard the lowest)")))
 
 === TERROR
 
@@ -2355,13 +2302,13 @@ Characters that are Unbreakable may only join units that are also Unbreakable, a
 
 Unstable units are Unbreakable, and suffer one extra Wound for every point they have lost the round of combat by, with no saves of any kind permitted against these wounds. If an Unstable unit would normally be eligible to be Steadfast, they instead suffer 1 less Wound than they would normally do.
 
-If an Unstable unit also contains Unstable characters, the controlling player first allocates wounds to the unit, then divides any remaining wounds (if any) as equally as possible amongst the characters.
+Unlike Unbreakable units, Unstable characters may join Unstable units. If an Unstable unit also contains Unstable characters, the controlling player first allocates wounds to the unit, then divides any remaining wounds (if any) as equally as possible amongst the characters.
 
 === VOLLEY FIRE
 
-Weapons with this rule allow a unit to fire with all ranks that are within range in the Shooting Phase, rather than only the first two ranks.
+Weapons with this rule allow the unit to fire with all ranks within range in the Shooting Phase, rather than just the first two. However, if they do so, all models in the third and subsequent ranks suffer \-1 To Hit.
 
-A unit cannot use Volley Fire if the target is within the weapon’s effective range, if the unit moved earlier in the turn, or when making a Stand and Shoot charge reaction.
+A unit cannot Volley Fire if the target is within half the weapon’s maximum range.
 
 === WEAPON TEAM
 
@@ -2389,11 +2336,11 @@ If both players' armies contain Scouts, players should roll off. The players the
 
 === VANGUARD
 
-When starting deployment, all units that choose to Vanguard must be deployed first. The players take it in turns to place their vanguards until they are finished. After this, all other units may be deployed as normal.
+After both sides have deployed all their other forces (including Scouts), but before the roll to see who gets the first turn is made, units containing only models with the Vanguard special rule can immediately make a move up to 6" (12" in case they move using the Swiftstride special rule) regardless of their Movement value (they cannot march and are affected by terrain as normal). This cannot be used to move the Vanguard troops within 12" of the enemy. A Vanguard move does not count as moving for the purpose of shooting in the first turn.
 
-Models with this special rule may deploy up to a distance equal to their Movement characteristic (or 2D6" in case they have Random Movement) beyond their deployment zone. However, this cannot be used to deploy a unit within 12" of the enemy. Units that deploy this way cannot declare a charge in the first turn if their army goes first.
+If both players' armies contain Vanguard troops, players should roll off. The players then alternate moving their Vanguard units one at a time, starting with the player who won the roll-off.
 
-Note that a character may only join a unit deploying with the Vanguard special rule if they also have the same rule.
+Units that have made a Vanguard move cannot declare a charge in the first turn if their army goes first.
 
 == FORMATION SPECIAL RULES
 
@@ -2405,19 +2352,21 @@ Fast Cavalry have the following rules:
 
 Fast Cavalry automatically have the Vanguard deployment special rule.
 
-#namecost("Swift Manoeuvre", "")
+#namecost("Free Reform", "")
 
-Fast Cavalry may turn without losing any movement, redress the ranks for a quarter of their movement and reform for half their movement. In addition, they may perform two manoeuvres during their move (even while marching), and still shoot after reforming.
+Unless it charges, a Fast Cavalry unit is allowed to reform twice during its move without losing any Movement; once before they move, and at the end of their move. The unit may do this even if it marches, provided that no model ends up moving a number of inches higher than double its Movement value.
 
 #namecost("Fire & Flee", "")
 
-A unit of Fast Cavalry armed with missile weapons that chooses Flee as a Charge Reaction can choose to fire their weapons first (unless they are within the enemy's minimum charge range or Ponderous). If it chooses to do so, the unit will first fire upon the target. After this, the unit makes a flee move.
-
-Any shots fired in this manner suffer a \-1 To Hit penalty. This may cause a Panic test following the rules for Heavy Casualties as normal.
+A unit of Fast Cavalry armed with missile weapons that chooses Flee as a Charge Reaction can choose to fire their weapons first. If it chooses to do so, the unit will first fire upon the target following the rules for Stand & Shoot (this also counts as moving and shooting for the purposes of shooting modifiers). After this, the unit makes a flee move. However, it may not use its Swiftstride special rule if it does so.
 
 #namecost("Feigned Flight", "")
 
-A unit of Fast Cavalry that chooses Flee or Fire & Flee as a charge reaction does not cause Panic from fleeing through friendly units and may re-roll failed Rally tests in its next Compulsory Movement Phase (unless it is forced to Flee again from another source). In addition, it is then also free to move during the remaining moves part of the Movement phase. The unit is also free to shoot as normal (but always counts as having moved).
+A unit of Fast Cavalry that chooses Flee or Fire & Flee as a charge reaction does not cause Panic from fleeing through friendly units and may re-roll failed Rally tests in its next Compulsory Movement Phase (unless it is forced to Flee again from another source). In addition, it is then also free to move during the remaining moves part of the Movement phase. The unit is also free to shoot as normal (but always counts as having moved). Note that if the flee move of the Fast Cavalry does not take them beyond the charge reach of their enemies, the unit suffers casualties as normal.
+
+#namecost("Fire on the March", "")
+
+Fast Cavalry can shoot even if they marched or reformed earlier in the turn. However, the normal \-1 To Hit penalty for moving and shooting still applies.
 
 #namecost("Characters", "")
 
@@ -2425,28 +2374,26 @@ A Character that joins a unit of Fast Cavalry gains the Fast Cavalry special rul
 
 #namecost("Armour Saves", "")
 
-Units containing one or more models with an unmodified close combat armour save better than 5+ cannot use Fire & Flee or Feigned Flight. If the armour save is better than 4+, the unit cannot use the Fast Cavalry rule at all.
+Units containing one or more models with an unmodified close combat armour save better than 4+ cannot use the Fast Cavalry rule.
 
 === SKIRMISHERS
 
 Skirmishers have the following rules:
 
-#namecost("Loose Formation", "")
+#namecost("Skirmish Formation", "")
 
 Skirmishers are deployed in a 'loose' formation, where the models are not placed in base contact, but are positioned roughly 1/2" apart. The models in the unit must still face the same direction and the unit will still have a front, two flanks and a rear.
 
-All shots aimed at a unit of two or more Skirmisher models with an individual Unit Strength of 2 or less suffer an additional \-1 To Hit penalty.
+This dispersed formation allows Skirmishers to move and shoot with greater freedom than other troop types. All Skirmishers in a unit do not count as blocking each other's Line of Sight (note that they still count as blocking Line of Sight for other units). As long as you can draw a Line of Sight from the front rank to the target, the second and subsequent ranks may fire too.
 
 #diagram("/assets/figures/rulebook/img-0541.jpg", 0.463)
-#namecost("Skirmishers & Combat", "")
+#namecost("Skirmishers & Charging", "")
 
 If skirmishers declare a charge (or a charge reaction that does not involve fleeing) they tighten their loose formation into a 'normal' formation after the charge distance is rolled and the chargers are moved. This happens 'for free' at the moment both units move into base contact. The unit immediately forms up in base contact around the centremost model in the front rank (the Skirmishers' controlling player can choose which if the front rank has an even number of models) that is also in base contact with the enemy.
 
 The number of ranks, files and the formation's facing do not alter as the Skirmishers tighten up – all that happens is that models that were previously spaced out are now in base contact with one another. This has the effect of rendering the Skirmishers' loose formation into a regular shape so that other units can fight them in the normal way.
 
 If the Skirmishers are not in base contact with an enemy in the Remaining Moves sub-phase, the controlling player must move them apart so that they readopt their loose formation.
-
-Skirmishers gain no bonus from their ranks (such as rank bonus or Steadfast) in the first round of close combat.
 
 #diagram("/assets/figures/rulebook/img-0544.jpg", 0.463)
 
@@ -2456,35 +2403,33 @@ Skirmishers gain no bonus from their ranks (such as rank bonus or Steadfast) in 
 
 Skirmishers have the Vanguard deployment special rule.
 
-#namecost("Swift Manoeuvre", "")
+#namecost("Free Reform", "")
 
-Skirmishers may turn without losing any movement, redress the ranks for a quarter of their movement and reform for half their movement. In addition, they may perform two manoeuvres during their move (even while marching), and still shoot after reforming.
-
-#namecost("Fire & Flee", "")
-
-A unit of Skirmishers armed with missile weapons that chooses Flee as a Charge Reaction can choose to fire their weapons first (unless they are within the enemy's minimum charge range or Ponderous). If it chooses to do so, the unit will first fire upon the target. After this, the unit makes a flee move.
-
-Any shots fired in this manner suffer a \-1 To Hit penalty. This may cause a Panic test following the rules for Heavy Casualties as normal.
+A unit of Skirmishers moves, wheels, marches and charges just like other troops. However, unless it charges, a skirmishing unit is allowed to reform twice during its move; once before they move, and at the end of their move. The unit may do this even if it marches, provided that no model ends up moving a number of inches higher than double its Movement value.
 
 #namecost("Feigned Flight", "")
 
-A unit of Skirmishers that chooses Flee or Fire & Flee as a charge reaction does not cause Panic from fleeing through friendly units and may re-roll failed Rally tests in its next Compulsory Movement Phase (unless it is forced to Flee again from another source). In addition, it is then also free to move during the remaining moves part of the Movement phase. The unit is also free to shoot as normal (but always counts as having moved).
+A unit of Skirmishers that chooses Flee as a charge reaction does not cause Panic from fleeing through friendly units and may re-roll failed Rally tests in its next Compulsory Movement Phase (unless it is forced to Flee again from another source). In addition, it is then also free to move during the remaining moves part of the Movement phase. The unit is also free to shoot as normal (but always counts as having moved). Note that if the flee move of the Skirmishers do not take them beyond the charge reach of their enemies, the unit suffers casualties as normal.
+
+#namecost("Fire on the March", "")
+
+Skirmishers can shoot even if they marched or reformed earlier in the turn. However, the normal \-1 To Hit penalty for moving and shooting still applies.
+
+#namecost("Light Troops", "")
+
+All shots aimed at a unit of two or more Skirmisher models with an individual Unit Strength of 2 or less suffer an additional \-1 To Hit penalty. However, Skirmishers always count as having zero ranks, and therefore cannot claim a rank bonus or be Steadfast (unless they are also Stubborn).
 
 #namecost("Characters", "")
 
 A Character model that joins a unit of Skirmishers gains the Skirmishers special rule as long as they stay with the unit. Characters may only join Skirmishers with the same troop type (explained in the troop types chapter) as them.
 
-#namecost("Armour Saves", "")
-
-Units containing one or more models with an unmodified close combat armour save better than 5+ cannot use Fire & Flee or Feigned Flight. If the armour save is better than 4+, the unit cannot use the Skirmishers rule at all.
-
 === FLY
 
-Units made up entirely of models that can Fly can choose to either use their normal Movement, or instead choose to Fly (including when using Vanguard). The distance the model can fly is listed in the brackets. Any modifiers to the model's Movement also affects its Fly move.
+Flying models follow the rules for Swiftstride. Units made up entirely of models that can Fly can move or charge normally on the ground, using their Movement value, or instead choose to Fly. The distance the model can fly is listed in the brackets.
 
 A unit that flies can move over other units and terrain as it does so, treating the entire move as taking place over open ground. It may not finish the move on top of another unit or in Impassable Terrain. Models that Fly can make a flying charge over intervening units and terrain as long as they can draw Line of Sight to their target as normal. Flying units may march as normal.
 
-In addition, flying units containing two or more models follow the following rules for Skirmishers: Loose Formation, Skirmishers & Combat, Swift Manoeuvre.
+In addition, flying units containing two or more models follow the following rules for Skirmishers: Skirmish Formation, Skirmishers & Charging, Free Reform, Fire on the March, Light Troops.
 
 = TROOP TYPES
 
@@ -2504,7 +2449,7 @@ The values listed in this chapter are the default for each troop type. However, 
 
 #namecost("MODELS AND BASE SIZES", "")
 
-Each model should be mounted on a base to determine the width and depth of the unit. Each troop type has different generally approved base sizes, which are listed in each army book. War machines however, may choose to either be mounted on a base, or be placed on the board as is.
+Each model should be mounted on a base to determine the width and depth of the unit. Each troop type has different generally approved base sizes, which are listed in each army book.
 
 In some cases, you might be using a model that requires a larger base than described. This is completely fine, as long as you try to keep it as close as possible to the normal approved base sizes. However, you may never have a base size that is smaller than the approved base sizes listed.
 
@@ -2528,23 +2473,44 @@ Infantry have a Unit Strength of 1.
 
 Infantry have a Line of Sight value of 1.
 
+== LARGE INFANTRY
+
+The following rules apply to Large Infantry:
+
+#namecost("RANKS", "")
+
+A unit of Large Infantry is required to be four or more models wide in order to have a complete rank.
+
+#namecost("SUPPORTING ATTACKS", "")
+
+A Large Infantry model may make up to two supporting attacks.
+
+#namecost("UNIT STRENGTH", "")
+
+Large Infantry have a Unit Strength of 1.
+
+#namecost("LINE OF SIGHT", "")
+
+Large Infantry have a Line of Sight value of 1.
+
 == MONSTROUS INFANTRY
 
 The following rules apply to Monstrous Infantry:
 
 #namecost("RANKS", "")
 
-A unit of Monstrous Infantry is required to be three or more models wide in order to have a complete rank. In addition, their fighting rank is three models rather than five.
+A unit of Monstrous Infantry is required to be three or more models wide in order to have a complete rank.
 
 #namecost("SUPPORTING ATTACKS", "")
 
-A Monstrous Infantry model may make up to three supporting attacks.
+A Monstrous Infantry model may make up to two supporting attacks.
 
 #namecost("SPECIAL RULES", "")
 
 Monstrous Infantry are subject to the following special rules:
 
 - Fear
+- Swiftstride
 
 #namecost("UNIT STRENGTH", "")
 
@@ -2574,9 +2540,9 @@ If the rider and the mount both have armour saves or invulnerable saves these ma
 
 Any equipment or magic items the model might otherwise have only apply to the rider, not the mount (unless specified).
 
-Unless specified, any effect that would modify the model's characteristics or their dice rolls affect both the rider and mount.
+Unless specified, any effect that would modify the model's characteristics affect both the rider and mount.
 
-In some cases, you may find Cavalry models that do not have a split profile. The model counts as mounted for the purpose of using certain weapons, as described in the Weapons and Armour chapter.
+In some cases, you may find Cavalry models that do not have a split profile. In this case, treat the model as single entity that may make up to two supporting attacks. The model also counts as mounted for the purpose of using certain weapons, as described in the Weapons and Armour chapter, but counts as a model on foot for the purposes of using Parry.
 
 #namecost("RANKS", "")
 
@@ -2584,11 +2550,16 @@ A unit of Cavalry is required to be five or more models wide in order to have a 
 
 #namecost("SUPPORTING ATTACKS", "")
 
-A Cavalry model can make one supporting attack from the rider. Mounts are not allowed to make supporting attacks. Cavalry without a split profile can make up to one supporting attack.
+A Cavalry model can make one supporting attack from the rider, and one from the mount. Cavalry without a split profile can make up to two supporting attacks.
 
 #namecost("SPECIAL RULES", "")
 
 Cavalry are subject to the following special rules:
+
+- Impact Hits (1)
+- Swiftstride
+
+Note that the Impact Hits are resolved at the Strength of the mount, not the rider.
 
 Any special rules listed for Cavalry units only apply to the rider, unless they specifically mention the mount. There are, however, a few exceptions. If either the rider or the mount has one of the following special rules, then the whole model has it:
 
@@ -2600,7 +2571,6 @@ Any special rules listed for Cavalry units only apply to the rider, unless they 
 - Fear
 - Fly (\*)
 - Immunity (\*)
-- Regeneration (\*)
 - Scouts
 - Stupidity
 - Stubborn
@@ -2609,7 +2579,7 @@ Any special rules listed for Cavalry units only apply to the rider, unless they 
 
 #namecost("TERRAIN", "")
 
-Cavalry have to take Dangerous Terrain tests if they march, charge, flee or pursue over anything other than open ground or hills – see Battlefield Terrain for more details.
+Cavalry have to take Dangerous Terrain tests if they move, march, charge, flee or pursue over anything other than open ground or hills – see Battlefield Terrain for more details.
 
 #namecost("UNIT STRENGTH", "")
 
@@ -2625,17 +2595,19 @@ All the Cavalry rules apply to Monstrous Cavalry. In addition, the following rul
 
 #namecost("RANKS", "")
 
-A unit of Monstrous Cavalry is required to be three or more models wide in order to have a complete rank. In addition, their fighting rank is three models rather than five.
+A unit of Monstrous Cavalry is required to be three or more models wide in order to have a complete rank.
 
 #namecost("SUPPORTING ATTACKS", "")
 
-A Monstrous Cavalry model can make one supporting attack from the rider. Mounts are not allowed to make supporting attacks. Monstrous Cavalry without a split profile can make up to three supporting attacks.
+A Monstrous Cavalry model can make one supporting attack from the rider, and two from the mount. Monstrous Cavalry without a split profile can make up to three supporting attacks.
 
 #namecost("SPECIAL RULES", "")
 
 Monstrous Cavalry are subject to the following special rules:
 
 - Fear
+- Impact Hits (1)
+- Swiftstride
 
 #namecost("UNIT STRENGTH", "")
 
@@ -2653,8 +2625,6 @@ The following rules apply to Swarms:
 
 A unit of Swarms is required to be three or more models wide in order to have a complete rank.
 
-In addition, their fighting rank is three models rather than five.
-
 #namecost("SUPPORTING ATTACKS", "")
 
 A Swarm model may make up to five supporting attacks.
@@ -2664,11 +2634,10 @@ A Swarm model may make up to five supporting attacks.
 Swarms are subject to the following special rules:
 
 - Expendable
-- Independent
+- Skirmishers
 - Unstable
-- Vanguard
 
-Any Swarm base that is hit by a template attack suffers Multiple Wounds (D6) rather than 1.
+Other models can fire through them at targets behind them with no To Hit penalty. However, any Swarm base that is hit by a template attack suffers Multiple Wounds (D6) rather than 1.
 
 #namecost("UNIT STRENGTH", "")
 
@@ -2695,7 +2664,7 @@ A War Beast model may make up to one supporting attack.
 War Beasts are subject to the following special rules:
 
 - Expendable
-- Independent
+- Swiftstride
 - Vanguard
 
 #namecost("CHARACTER MOUNT", "")
@@ -2716,18 +2685,18 @@ The following rules apply to Monstrous Beasts:
 
 #namecost("RANKS", "")
 
-A unit of Monstrous Beasts is required to be three or more models wide in order to have a complete rank. In addition, their fighting rank is three models rather than five.
+A unit of Monstrous Beasts is required to be three or more models wide in order to have a complete rank.
 
 #namecost("SUPPORTING ATTACKS", "")
 
-A Monstrous Beast model may make up to three supporting attacks.
+A Monstrous Beast model may make up to two supporting attacks.
 
 #namecost("SPECIAL RULES", "")
 
 Monstrous Beasts are subject to the following special rules:
 
 - Fear
-- Independent
+- Swiftstride
 
 #namecost("CHARACTER MOUNT", "")
 
@@ -2749,8 +2718,8 @@ The following rules apply to Monstrous Creatures:
 
 Monstrous Creatures are subject to the following special rules:
 
-- Independent
 - Stomp (D3)
+- Swiftstride
 - Terror
 
 #namecost("CHARACTER MOUNT", "")
@@ -2773,23 +2742,17 @@ The following rules apply to Monsters:
 
 Monsters are subject to the following special rules:
 
-- Independent
 - Stomp (D6)
+- Swiftstride
 - Terror
 
 #namecost("SPLIT PROFILE", "")
 
-Ridden Monsters follow all the Split Profile rules for Cavalry. The riders can shoot and cast magic missiles in 360° around them, rather than only firing at targets within their front arc. However; any artillery weapons can only fire in the model's forward arc as normal, unless specified. Any crew member that chooses to fire an artillery weapon cannot fire their own weapon in the same turn.
-
-#namecost("ARMOUR SAVES", "")
-
-Many Monsters have an armour save detailed in their army list entry, which is combined with any armour the riders might have.
+Ridden Monsters follow all the Split Profile rules for Cavalry. However, they may only have an armour save of a total of 2+ instead of the normal 1+. The riders can fire in 360° around them, rather than only firing at targets within their front arc. This only applies to any missile weapons carried by the crew themselves; any missile weapons mounted on the Monster itself can only fire in the model's forward arc as normal. Any crew member that chooses to fire the mounted weapon cannot fire their own weapon in the same turn.
 
 #namecost("CHARACTER MOUNT", "")
 
 Some Characters can ride Monsters. If a character has a ridden Monster, the whole model is treated as having the troop type Monster and thus follows all the rules for both characters and Monster models including the Split Profile rules above. A character on a ridden Monster cannot join other units.
-
-If the Monster includes any riders in addition to the character, their armour saves are ignored when calculating the overall armour save of the model – only the character's own armour save is used.
 
 #namecost("UNIT STRENGTH", "")
 
@@ -2811,7 +2774,9 @@ When moving, the chariot model always uses its own Movement characteristic. Howe
 
 Unlike cavalry, chariot mounts can only fight enemies to the front.
 
-The riders can shoot and cast magic missiles in 360° around them, rather than only firing at targets within their front arc. However; any artillery weapons can only fire in the model's forward arc as normal, unless specified. Any crew member that chooses to fire an artillery weapon cannot fire their own weapon in the same turn.
+The Wounds and Toughness of the crew and the creatures are never used – hits are resolved against the chariot's Wounds and Toughness. It is the crew's Weapon Skill that is used for the purposes of the enemy rolling to hit, just as with cavalry.
+
+Any missile weapons use the Ballistic Skill of the crew when making Shooting attacks. The crew can fire in 360° around them, rather than only firing at targets within their front arc. This only applies to any missile weapons carried by the crew themselves; any missile weapons mounted on the chariot itself can only fire in the model's forward arc as normal. Any crew member that chooses to fire the mounted weapon cannot fire their own weapon in the same turn.
 
 #namecost("ARMOUR SAVES", "")
 
@@ -2823,7 +2788,7 @@ Some characters can ride chariots. If a character has taken a chariot as a mount
 
 #namecost("RANKS", "")
 
-A unit of Chariots is required to be three or more models wide in order to have a complete rank. In addition, their fighting rank is three models rather than five.
+A unit of Chariots is required to be three or more models wide in order to have a complete rank.
 
 #namecost("SUPPORTING ATTACKS", "")
 
@@ -2834,6 +2799,7 @@ Chariots cannot make supporting attacks. However, Chariots in the second rank ad
 Chariots are subject to the following special rules:
 
 - Impact Hits (D6)
+- Swiftstride
 
 Some chariots are equipped with scythes which add +1 Impact Hits. This will be specified in their entry.
 
@@ -2841,7 +2807,7 @@ Just as with cavalry, we assume that special rules that apply to the mounts do n
 
 #namecost("TERRAIN", "")
 
-Chariots have to take Dangerous Terrain tests if they march, charge, flee or pursue over anything other than open ground or hills – see Battlefield Terrain for more details.
+Chariots have to take Dangerous Terrain tests if they move, march, charge, flee or pursue over anything other than open ground or hills – see Battlefield Terrain for more details.
 
 #namecost("UNIT STRENGTH", "")
 
@@ -2859,11 +2825,11 @@ The following rules apply to Shrines:
 
 All the Split Profile rules for Cavalry rules apply to Shrines. In addition, the following rules apply:
 
-Unlike most other units, a shrine may join other units of Infantry (except Skirmishers) following the rules for Characters and Units in the characters chapter. However, they may choose in which rank they wish to be placed, rather than being required to being in the front rank.
+Unlike most other units, a shrine may join other units of Infantry (except Skirmishers) following the rules for Characters and Units in the characters chapter.
 
-When moving, the shrine model uses its own Movement characteristic.
+When moving, the shrine model uses its own Movement characteristic. The crew and the creatures pulling the Shrine use their own Weapon Skill, Strength, Initiative and Attacks characteristics when they attack. Each can attack any opponent that the shrine model is in base contact with. If the crew models have missile weapons, they use their own Ballistic Skill when making Shooting attacks.
 
-The riders can shoot and cast magic missiles in 360° around them, rather than only firing at targets within their front arc.
+The Wounds and Toughness of the crew and the creatures are never used – hits are resolved against the shrine's Wounds and Toughness. It is the crew's Weapon Skill that is used for the purposes of the enemy rolling to hit, just as with cavalry.
 
 #namecost("ARMOUR SAVES", "")
 
@@ -2875,7 +2841,7 @@ Some characters can be mounted upon shrines. If a character has taken a shrine a
 
 #namecost("TERRAIN", "")
 
-Shrines have to take Dangerous Terrain tests if they march, charge, flee or pursue over anything other than open ground or hills.
+Shrines have to take Dangerous Terrain tests if they move, march, charge, flee or pursue over anything other than open ground or hills.
 
 #namecost("UNIT STRENGTH", "")
 
@@ -2891,9 +2857,8 @@ The following rules apply to War Machines:
 
 #namecost("SPECIAL RULES", "")
 
-War Machines are subject to the following special rules:
+War Machines are subject to the following special rule:
 
-- Cumbersome
 - Move or Fire
 
 Unless specified, any special rules a war machine might have apply to both the war machine and the crew. For further information on war machines, see the War Machines chapter.
@@ -2920,7 +2885,7 @@ Any Characteristic tests are resolved against the characteristics value of the c
 
 #namecost("THE CREW", "")
 
-A war machine unit comprises the machine itself, plus its crew. As the crew aren't really a combat unit, per se, we ignore them for most gaming purposes, treating the war machine itself as the extent of the unit. Once all the crew have been removed, the war machine itself is removed from play. Similarly, if the war machine is removed as a casualty, all remaining crew are also removed. All crew should be placed within 1" of the war machine.
+A war machine unit comprises the machine itself, plus its crew. As the crew aren't really a combat unit, per se, we ignore them for most gaming purposes, treating the war machine itself as the extent of the unit. When the war machine suffers a wound, remove a crew model. Once all the crew have been removed, the war machine itself is removed from play. Similarly, if the war machine is removed as a casualty, all remaining crew are also removed. The crew are used only to indicate the remaining number of Wounds and the number of attacks the war machine can make in close combat, so players should simply arrange their crew in a pleasingly aesthetic fashion within 1" of the war machine.
 
 The crew cannot be charged, attacked or otherwise affected separately from their war machine – if they are found to be blocking movement or line of sight, the controlling player simply alters their position, just as you would for any other battlefield marker or counter.
 
@@ -2950,7 +2915,7 @@ When firing a war machine's weapon, ranges are measured from the muzzle of the g
 
 Line of sight is always taken from the chosen firing point (i.e. its muzzle or crossbar, in the same way as for its range). Unlike other lone models, pivoting the war machine during the Movement phase counts as moving for war machines, and thus they cannot fire in turns they do so. Before you fire the war machine, pivot it to face your chosen target in the Shooting phase so the war machine faces it directly in a straight line – note that the target must be within the war machine's forward arc as normal.
 
-For war machine weapons that require Ballistic Skill, use the highest Ballistic Skill amongst the crew to resolve the shot.
+For war machine weapons that require Ballistic Skill, use the highest Ballistic Skill amongst the crew to resolve the shot. Unless specified, War Machines do not suffer To Hit penalties for Moving and Shooting or firing Multiple Shots.
 
 #diagram("/assets/figures/rulebook/img-0555.jpg", 0.463)
 
@@ -2960,9 +2925,9 @@ For war machine weapons that require Ballistic Skill, use the highest Ballistic 
 
 Enemies charging a War Machine lose all charge bonuses (including bonus from special rules).
 
-At the start of the Close Combat phase, before any blows are struck, the player whose unit(s) are attacking the war machine must choose models worth up to Unit Strength 10 who will fight in the combat. This is regardless of the number of units that are fighting the war machine. Note that you may always allocate a minimum of one model to fight, regardless of their actual Unit Size.
+At the start of the Close Combat phase, before any blows are struck, the player whose unit(s) are attacking the war machine must choose models worth up to Unit Strength 6 who will fight in the combat. This is regardless of the number of units that are fighting the war machine. Note that you may always allocate a minimum of one model to fight, regardless of their actual Unit Size.
 
-All models chosen for the fight are considered to be in base contact with the war machine. Models that are in base contact with other enemies cannot be chosen to attack the war machine. If a war machine has crew with two or more different profiles, you must choose how you wish you allocate your attacks against them.
+All models chosen for the fight are considered to be in base contact with the war machine. Models that are in base contact with other enemies cannot be chosen to attack the war machine.
 
 The combat is otherwise resolved normally. In particular, casualties are taken from the 'back' of the unit as normal. All surviving crew models fight as normal using their Weapon Skill, Strength, Initiative and Attacks. Enemy models strike against the crew normally, resolving their attacks against the crew's Weapon Skill and Toughness. The crew can then take any saves they might have.
 
@@ -2976,7 +2941,7 @@ If a war machine fails a Panic or Terror test, it does not flee, but it cannot s
 
 All physical models in a unit should as much as possible be armed with the same weapon and armour type for ease of distinguishing their armament. Some variation is acceptable, but it should be clear to the opponent what sort of equipment a unit has. In case it might not be apparent at first glance, this should be clearly declared upon deploying the unit.
 
-If a model has more than one weapon, they must choose which weapon they want to use before resolving their attack. A model cannot choose to use two different weapons in the same shooting phase or close combat unless clearly specified. However, if the model has multiple crew or riders (like chariots or ridden monsters), each crew or rider may use one weapon each as normal. Whichever weapon they select must then be used for the entire close combat, unless the weapon they are using is somehow destroyed.
+If a model has more than one weapon, they must choose which weapon they want to use at the start of the shooting phase or close combat. A model cannot choose to use two different weapons in the same shooting phase or close combat unless clearly specified. However, if the model has multiple crew or riders (like chariots or ridden monsters), each crew or rider may use one weapon each as normal. Whichever weapon they select must then be used for the entire close combat, unless the weapon they are using is somehow destroyed.
 
 === WEAPON PROFILES
 
@@ -2984,15 +2949,13 @@ Each weapon confers a number of abilities onto the warrior wielding it. This wil
 
 Each weapon has its own characteristic profile. There are three sections to a weapon's profile: Range, Strength and Special Rules.
 
-*Range:* The range tells you at what distance the weapon can be used. If a weapon's range is 'combat' then it can only be used in close combat. If the range is a number of some kind, it is a missile weapon.
-
-Missile weapons typically have two ranges, such as 16/24". The first number represents the weapon's effective range and the second its maximum range. Shots fired beyond the weapon's effective range count as long range. Profiles that only have one range listed ignore penalties for long range.
+*Range:* The range tells you at what distance the weapon can be used. If a weapon's range is 'combat' then it can only be used in close combat. If the range is a number of some kind, it is a missile weapon and the number is its maximum range.
 
 Artillery weapons instead often have a minimum range, such as 12\-48". This means that the weapon cannot target units closer than 12", and must pick a target between 12\-48" instead.
 
 *Strength:* A weapon's Strength can take three forms. If the Strength is shown as a modifier, for example +1, then this is the modifier the weapon applies to the wielding model's Strength when attacking. If a weapon's Strength is shown as 'as user' then attacks made with the weapon use the wielder's own Strength. Alternatively, if a weapon has a fixed Strength, then all attacks made with that weapon use the Strength value shown – the wielder's Strength is ignored.
 
-*Special Rules:* Many weapons confer special abilities on the attacks made by the wielder, which are explained in the weapon profile. Note that any characteristics bonuses or penalties from weapons normally apply when the model actually attacks – they cannot be used for characteristic tests or spell effects etc. When a weapon does not say when the characteristic bonus applies, then it only applies when striking, or being struck, in close combat.
+*Special Rules:* Many weapons confer special abilities on the attacks made by the wielder, which are explained in the weapon profile. Any bonuses applied from a model's equipment only has an effect in the phases they are actually used. Note that any characteristics bonuses or penalties from weapons normally apply when the model actually attacks – they cannot be used for characteristic tests or spell effects etc. When a weapon does not say when the characteristic bonus applies, then it only applies when striking, or being struck, in close combat.
 
 == CLOSE COMBAT WEAPONS
 #namecost("HAND WEAPON", "")
@@ -3008,7 +2971,7 @@ Artillery weapons instead often have a minimum range, such as 12\-48". This mean
 #namecost("POLEARM", "")
 #minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user +1", "Requires Two Hands"))
 
-#note[_A model with a polearm gains +1 Initiative in the first round of close combat._]
+#note[_A model with a polearm gains +1 Initiative._]
 
 #namecost("GREAT WEAPON", "")
 #minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user +1", "Mighty Blow (1), Requires Two Hands"))
@@ -3018,18 +2981,18 @@ Artillery weapons instead often have a minimum range, such as 12\-48". This mean
 #namecost("FLAIL", "")
 #minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "Mighty Blow (2), Requires Two Hands"))
 #namecost("SPEAR", "")
-#minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "Fight in Extra Ranks (1), Mighty Blow (1)*, Requires Two Hands*"))
+#minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "+1 Initiative, Fight in Extra Ranks (1), Mighty Blow (1)*"))
 
-#note[_Model on foot only. A model with a spear gains +1 Initiative in the first round of close combat._]
+#note[_Model on foot only. In turns in which the model is charged to its front, it receives an additional +1 to its Initiative._]
 
-#note[_\*Only applies in turns the model is charged to its front, chose either Hold or Stand & Shoot as a charge reaction and the model chooses to use Requires Two Hands. Mighty Blow does not apply towards Infantry, Swarms and Shrines._]
+#note[_\*Only applies in turns the model is charged to its front. Mighty Blow does not apply towards Infantry, Large Infantry, Swarms and Shrines._]
 
 #namecost("PIKE", "")
-#minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "Fight in Extra Ranks (3), Mighty Blow (1)*, Requires Two Hands"))
+#minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "+2 Initiative, Fight in Extra Ranks (3), Mighty Blow (1)*, Requires Two Hands"))
 
-#note[_Model on foot only. A model with a pike gains +2 Initiative in the first round of close combat._]
+#note[_Model on foot only. In turns in which the model is charged to its front, it receives an additional +1 to its Initiative._]
 
-#note[_\*Only applies in turns the model is charged to its front and chose either Hold or Stand & Shoot as a charge reaction. Mighty Blow does not apply towards Infantry, Swarms and Shrines._]
+#note[_\*Only applies in turns the model is charged to its front. Mighty Blow does not apply towards Infantry, Large Infantry, Swarms and Shrines._]
 
 #namecost("LIGHT LANCE", "")
 #minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "Mighty Blow (1)*"))
@@ -3043,49 +3006,58 @@ Artillery weapons instead often have a minimum range, such as 12\-48". This mean
 
 == MISSILE WEAPONS
 #namecost("SHORTBOW", "")
-#minitable(("Range", "Strength", "Special Rules"), ("16/24\"", "3", "March & Shoot, Multiple Shots (2)*, Volley Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("18\"", "3", "Multiple Shots (2)*, Volley Fire"))
 
-\*_Only applies in turns the model has not marched. Cannot be used as a charge reaction._
+\*_Only applies in turns the model has not moved. Cannot be used as a charge reaction._
+
+#namecost("BOW", "")
+#minitable(("Range", "Strength", "Special Rules"), ("24\"", "3", "Multiple Shots (2)*, Volley Fire"))
+
+\*_Only applies in turns the model has not moved. Cannot be used as a charge reaction._
 
 #namecost("LONGBOW", "")
-#minitable(("Range", "Strength", "Special Rules"), ("24/36\"", "3", "Multiple Shots (2)*, Volley Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("30\"", "3", "Multiple Shots (2)*, Volley Fire"))
+
+\*_Only applies in turns the model has not moved. Cannot be used as a charge reaction._
+
+#namecost("WARBOW", "")
+#minitable(("Range", "Strength", "Special Rules"), ("30\"", "4", "Multiple Shots (2)*, Volley Fire"))
 
 \*_Only applies in turns the model has not moved. Cannot be used as a charge reaction._
 
 #namecost("GREATBOW", "")
-#minitable(("Range", "Strength", "Special Rules"), ("28/42\"", "As user +1", "Multiple Shots (2)*, Volley Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("36\"", "5", "Multiple Shots (2)*, Volley Fire"))
 
 \*_Only applies in turns the model has not moved. Cannot be used as a charge reaction._
 
 #namecost("CROSSBOW", "")
-#minitable(("Range", "Strength", "Special Rules"), ("24/36\"", "4", "Ponderous"))
+#minitable(("Range", "Strength", "Special Rules"), ("30\"", "4", "Ponderous"))
 #namecost("HANDGUN", "")
-#minitable(("Range", "Strength", "Special Rules"), ("12/24\"", "5", "Ponderous"))
+#minitable(("Range", "Strength", "Special Rules"), ("24\"", "4", "Armour Piercing (1), Ponderous"))
 #namecost("SLING", "")
-#minitable(("Range", "Strength", "Special Rules"), ("15/30\"", "3", "Armour Piercing (1), Volley Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("18\"", "3", "Armour Piercing (1), Multiple Shots (2)*"))
+
+#note[_\*Only applies in turns the model has not moved. Cannot be used to Stand and Shoot._]
 #namecost("JAVELINS", "")
-#minitable(("Range", "Strength", "Special Rules"), ("10/15\"", "As user", "Armour Piercing (1), March & Shoot, Quick Shot"))
+#minitable(("Range", "Strength", "Special Rules"), ("12\"", "As user", "Armour Piercing (1), Quick to Fire, Volley Fire"))
 #namecost("BLOWPIPE", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/12\"", "2", "March & Shoot, Multiple Shots (3), Poisoned Attacks"))
+#minitable(("Range", "Strength", "Special Rules"), ("12\"", "1", "Multiple Shots (2), Poisoned Attacks, Quick to Fire, Rapid Fire"))
 #namecost("PISTOL", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/12\"", "5", "Multiple Shots (2)*, Quick Shot"))
+#minitable(("Range", "Strength", "Special Rules"), ("12\"", "4", "Armour Piercing (1), Multiple Shots (2)*, Quick to Fire"))
+
+#note[_In close combat, a pistol counts as an additional hand weapon that does not give the model the Parry special rule._]
 
 #note[_\*Requires a brace of pistols._]
 
 #namecost("BLUNDERBUSS", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/12\"", "4", "Multiple Shots (3), Rapid Fire, Quick Shot"))
+#minitable(("Range", "Strength", "Special Rules"), ("12\"", "3", "Armour Piercing (1), Multiple Shots (3), Quick to Fire, Rapid Fire"))
 
-#note[_Blunderbusses do not suffer a penalty To Hit for using Stand & Shoot as a charge reaction._]
-
-#namecost("GRENADES", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/9\"", "4", "Armour Piercing (1), March & Shoot, Quick Shot"))
-
-#note[_Each Hit from a grenade is multiplied into D3 Hits._]
+#note[_Blunderbusses do not suffer any penalties To Hit for Stand & Shoot._]
 
 #namecost("THROWING WEAPONS", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/9\"", "As user", "March & Shoot, Multiple Shots (2), Quick Shot"))
+#minitable(("Range", "Strength", "Special Rules"), ("8\"", "As user", "Multiple Shots (2), Quick to Fire"))
 #namecost("THROWING AXES", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/9\"", "As user +1", "March & Shoot, Quick Shot"))
+#minitable(("Range", "Strength", "Special Rules"), ("6\"", "As user +1", "Quick to Fire"))
 
 == ARMOUR
 
@@ -3121,13 +3093,13 @@ Below you will find rules for the most common types of artillery pieces in the g
 There are two different kinds of bolt thrower profiles, representing regular bolt throwers and repeater bolt throwers. Repeater bolt throwers can always choose to fire like regular bolt throwers if they wish.
 
 #namecost("BOLT THROWER", "")
-#minitable(("Range", "Strength", "Special Rules"), ("32/48\"", "6", "Armour Piercing (1), Cumbersome, Multiple Wounds (D3)"))
+#minitable(("Range", "Strength", "Special Rules"), ("48\"", "6", "Armour Piercing (1), Multiple Wounds (D3), Slow to Fire"))
 #namecost("REPEATER BOLT THROWER", "")
 #diagram("/assets/figures/rulebook/img-0565.jpg", 0.463)
 
 #note[_Up to four models can be killed by the shot of this bolt thrower. The Strength that each rank is hit at is shown next to it._]
 
-#minitable(("Range", "Strength", "Special Rules"), ("32/48\"", "4", "Armour Piercing (1), Cumbersome, Multiple Shots (6), Rapid Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("48\"", "4", "Armour Piercing (1), Multiple Shots (6), Rapid Fire, Slow to Fire"))
 #namecost("Firing a Bolt Thrower", "")
 
 To fire a bolt thrower, select a target according to the normal rules for shooting. Roll to hit using the crew's Ballistic Skill, just as you would for a normal missile weapon.
@@ -3136,17 +3108,25 @@ To fire a bolt thrower, select a target according to the normal rules for shooti
 
 If the target is a unit of five or more ranked-up models, the bolt will always strike a regular trooper (as opposed to a character in the unit) in the unit's first rank if the bolt thrower is in the unit's front arc, or the last rank if the bolt thrower is in the unit's rear arc. If the bolt thrower is in the target unit's flank, the target's files count as ranks for the purposes of resolving the shot.
 
-If the shot hits, resolve damage against the target using the bolt thrower's full Strength of 6. The bolt then hits one of the warriors in the rank behind with \-1 Strength (normally Strength 5). A model in the next rank is hit at \-2 Strength (normally Strength 4) and so on, until the unit runs out of ranks or the hit is reduced to Strength 0.
+If the shot hits, resolve damage against the target using the bolt thrower's full Strength of 6. The bolt then hits one of the warriors in the rank behind with \-1 Strength (normally Strength 5). A model in the next rank is hit at \-2 Strength (normally Strength 4) and so on, until the unit runs out of ranks.
+
+If the rank hit by the bolt is made entirely of characters, or if the total number of rank and file models in the unit is less than five, it will be necessary to randomise which model in the rank is hit.
 
 Note that repeating bolts do not pierce ranks.
 
 #note[_As the bolt thrower is in their flank arc, up to five models can be killed by its shot. The bolt thrower can see the cavalry unit, and so it can fire against them (with the hard cover modifier). If it hits, it will skewer the flank of the unit, as shown in the diagram, as it is in the knights' flank arc._]
 
 === CANNONS
-#minitable(("Range", "Strength", "Special Rules"), ("12-60\"", "10", "Cumbersome, Multiple Wounds (D6/D3)"))
+
+There are two different kinds of cannon profiles, representing the differing size and power of various cannons.
+
+#namecost("CANNON", "")
+#minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "10", "Multiple Wounds (D6/D3), Slow to Fire"))
+#namecost("GREAT CANNON", "")
+#minitable(("Range", "Strength", "Special Rules"), ("12-60\"", "10", "Multiple Wounds (D6), Slow to Fire"))
 #namecost("Firing a Cannon", "")
 
-To fire a cannon, first pivot to face the target following the normal rules for war machines. Then, nominate a model or building within the cannon's line of sight.
+To fire a cannon, first pivot to face the target following the normal rules for war machines. Then, nominate a model or building within the cannon's line of sight, outside of its minimum range and within its maximum range.
 
 When you have chosen your target, place a small marker over the centre of your target as a reminder of where the shot is intended to land.
 
@@ -3183,17 +3163,17 @@ The bounce of the cannonball is determined using the line template. On most occa
 
 #namecost("Direct Hit", "")
 
-Damage is resolved differently depending on whether or not the cannon ball hits a model directly or not. Normal Cannons have both the Multiple Wounds (D6) and (D3) special rules. It inflicts D6 Wounds only if the cannon ball lands directly on a model (that is, where the marker is placed after the first artillery and scatter dice are rolled), models hit by the bounce only suffer D3 Wounds. If a cannon only has one value of Multiple Wounds listed, it causes that damage on both direct hits and the bounce.
+Damage is resolved differently depending on whether or not the cannon ball hits a model directly or not. Normal Cannons have both the Multiple Wounds (D6) and (D3) special rules. It inflicts D6 Wounds only if the cannon ball lands directly on a model (that is, where the marker is placed after the first artillery and scatter dice are rolled), models hit by the bounce only suffer D3 Wounds. Great Cannons on the other hand, inflicts D6 Wounds on both direct hits and the bounce.
 
 #diagram("/assets/figures/rulebook/img-0569.jpg", 0.999)
 
-#note[_Initial position The cannonball lands right on target. The following bounce goes through all three ranks of the unit, scoring 3 hits. Initial position The cannonball strikes the large model and then go through the unit behind it._]
+#note[_Initial position The cannonball lands right on target. The following bounce goes through all three ranks of the unit, scoring 3 hits. Initial position The cannonball strikes the large model, but does not kill it, so the shot does not go through the unit behind._]
 
 #namecost("GRAPESHOT", "")
 
 Instead of firing normal shot, cannon crew can opt to fire grapeshot using the following profile:
 
-#minitable(("Range", "Strength", "Special Rules"), ("12\"", "5", "Cumbersome, Rapid Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("12\"", "5", "Armour Piercing (1), Slow to Fire"))
 #namecost("Firing Grapeshot", "")
 
 To fire grapeshot, select a target according to the normal rules for shooting. With the target chosen, roll an artillery dice and a D6 to find out how many shots are fired. If the artillery dice result is a misfire, roll a D6 on the Black Powder War Machine Misfire chart to find out what has gone wrong.
@@ -3201,7 +3181,7 @@ To fire grapeshot, select a target according to the normal rules for shooting. W
 Assuming that a misfire did not occur, roll to hit the target with a number of shots equal to the number rolled on the artillery dice plus the D6, resolving any successful hits using the grapeshot profile.
 
 === FIRE THROWERS
-#minitable(("Range", "Strength", "Special Rules"), ("-", "4", "Cumbersome, Flaming Attacks"))
+#minitable(("Range", "Strength", "Special Rules"), ("-", "5", "Flaming Attacks, Slow to Fire"))
 #namecost("Firing a Fire Thrower", "")
 
 Place the teardrop-shaped template with its narrow end touching the fire thrower barrel and the large end aimed at any enemy model or building in line of sight. Roll the artillery dice and move the template directly forward the number of inches indicated. Some fire throwers might also have a range value. In this case, place the template with its narrow end anywhere within this range, measured from the fire thrower barrel as normal.
@@ -3211,10 +3191,10 @@ All models underneath the template are hit automatically. A unit suffering any c
 If a misfire is rolled, roll immediately on the Black Powder Misfire chart.
 
 === ORGAN GUNS
-#minitable(("Range", "Strength", "Special Rules"), ("12/24\"", "5", "Cumbersome, Multiple Shots (Artillery Dice + 3D6), Rapid Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("24\"", "5", "Armour Piercing (1), Multiple Shots (Artillery Dice + D6), Rapid Fire, Slow to Fire"))
 #namecost("Firing an Organ Gun", "")
 
-To fire an organ gun, select a target according to the normal rules for shooting. Roll 3D6 and the Artillery Dice; the result is the number of shots fired. Roll to hit using the crew's Ballistic Skill, just as you would for a normal missile weapon.
+To fire an organ gun, select a target according to the normal rules for shooting. Roll a D6 and the Artillery Dice; the result is the number of shots fired. Roll to hit using the crew's Ballistic Skill, just as you would for a normal missile weapon.
 
 If a misfire is rolled, roll immediately on the Black Powder Misfire chart.
 
@@ -3223,23 +3203,23 @@ If a misfire is rolled, roll immediately on the Black Powder Misfire chart.
 There are three different kinds of trajectory weapon profiles, representing stone throwers, mortars and rocket launchers.
 
 #namecost("STONE THROWER", "")
-#minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "4(8)", "Cumbersome, Multiple Wounds (D3),"))
+#minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "4(8)", "Multiple Wounds (D3), Slow to Fire"))
 
 Stone throwers use the small round template by default.
 
 #namecost("MORTAR", "")
-#minitable(("Range", "Strength", "Special Rules"), ("12-60\"", "3(6)", "Armour Piercing (1), Cumbersome, Multiple Wounds (D3)"))
+#minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "3(6)", "Armour Piercing (1), Multiple Wounds (D3), Slow to Fire"))
 
 Mortars use the large round template by default.
 
 #namecost("ROCKET LAUNCHER", "")
-#minitable(("Range", "Strength", "Special Rules"), ("12-60\"", "4", "Cumbersome, Flaming Attacks"))
+#minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "4", "Flaming Attacks, Slow to Fire"))
 
-Rocket launchers use the large round template by default. They always count as firing indirectly (see next page).
+Rocket launchers use the large round template by default.
 
 #namecost("Firing a Trajectory Weapon", "")
 
-Nominate a model or building within the model's line of sight (ignoring other models within the same unit). Then, take the round template and place it with the centre directly over the target.
+Nominate a model or building within the model's line of sight (ignoring other models within the same unit), outside of its minimum range and within its maximum range. Then, take the round template and place it with the centre directly over the target.
 
 The template cannot be initially placed over friendly models, or enemy models from a unit that is engaged in combat.
 
@@ -3284,8 +3264,6 @@ If an arrow is rolled on the scatter dice, resolve the scatter as normal. If how
 
 Other than the aforementioned inaccuracy of the scatter, an indirect shot from a trajectory weapon is treated exactly according to the rules given for normal shots given above.
 
-Note that a trajectory weapon that moves and fires the same turn is always considered to fire indirectly.
-
 = COMMAND GROUPS
 
 #namecost("FIELDING COMMAND GROUPS", "")
@@ -3308,7 +3286,13 @@ When no rank-and-file models remain, the controlling player chooses the order in
 
 #namecost("LEADERS", "")
 
-A unit that is accompanied by a Leader may re-roll failed Leadership tests when Counter-charging, Redirecting a Charge, Reforming from Defeat after losing a round of close combat, and Restraining from Pursuit.
+A unit that is accompanied by a Leader may re-roll failed Leadership tests in the following scenarios:
+
+- March when within 8" of enemy units.
+- Redirecting a Charge.
+- Reforming from Defeat after losing a round of close combat.
+- Restraining from Pursuit.
+- Swift Reform (see Musicians below).
 
 Some Leaders also have the option to take specialised equipment. If this is the case, it is clearly stated in their entry in each separate army book. Note that when resolving attacks against a Leader, treat them as being armed as the rest of the unit.
 
@@ -3320,7 +3304,15 @@ If a unit includes a Standard Bearer, it adds +1 to its combat result.
 
 The side that has a Musician in its front rank of one or more of its units wins any drawn close combat by 1, unless the opposing side has a Musician also, in which case they cancel each other out.
 
-A unit that is accompanied by a Musician may re-roll failed Leadership tests when attempting to march within 6" of enemy units and rallying. Fast Cavalry and Skirmishers that have fled using Feigned Flight automatically rally.
+If a fleeing unit has a Musician, it may re-roll its Leadership test whenever it attempts to rally. Fast Cavalry and Skirmishers that have fled using Feigned Flight automatically rally.
+
+A unit that is not fleeing and not engaged in combat can attempt to make a swift reform during the Remaining Moves sub-phase if it has a Musician, by taking a Leadership test. If the test is passed, the unit immediately makes a swift reform – if failed, the unit makes a normal reform instead, with all the penalties that apply. A swift reform is treated exactly like a reform manoeuvre with the following exceptions:
+
+- A unit performing a swift reform may not change their formation by decreasing or increasing their ranks. The unit may only turn on the spot by pivoting like a lone model.
+
+- A unit that has made a swift reform can immediately make a full normal move, even though a reform would normally prevent it from doing so. Note that a unit that carries out a swift reform cannot march.
+
+- A unit that has made a swift reform can still shoot, although it will count as moving, whether or not it moves further after the reform has been completed. This means that it will suffer the \-1 modifier for moving and firing, and will not be able to shoot Move or Fire weapons.
 
 = CHARACTERS
 
@@ -3328,9 +3320,9 @@ Characters are a special type of unit that can either operate on their own or jo
 
 == CHARACTERS AND UNITS
 
-Most characters are allowed to join certain types of units over the course of the battle. A character is normally permitted to join units made up of Infantry, Cavalry, Monstrous Infantry, Monstrous Beasts or Monstrous Cavalry. However, a character is not allowed to join a unit made up of a troop type with a higher Unit Strength than their own troop type, unless specified.
+Most characters are allowed to join certain types of units over the course of the battle. A character is normally permitted to join units made up of Infantry, Large Infantry, Cavalry, Monstrous Infantry, Monstrous Beasts or Monstrous Cavalry. Characters can also join other characters belonging to one of the troop types listed above, thus forming a unit entirely made of characters. However, a character is not allowed to join a unit made up of a troop type with a higher Unit Strength than their own troop type, unless specified.
 
-Unless otherwise stated, a character cannot join other Lone Models, a unit of flyers (unless they are also a flyer of the same troop type), a unit of Chariots (unless they are also a Chariot), a unit of Monstrous Creatures (unless they are also a Monstrous Creature), a unit of Swarms or a War Machine. A character that is itself a Chariot, War Machine, Monstrous Creature or Monster cannot join other units, unless specified. A character cannot join a unit that is already engaged in close combat or is fleeing.
+Unless otherwise stated, a character cannot join a unit of Monstrous Creatures, Monsters, a unit of flyers (unless they are also a flyer of the same troop type), a unit of Chariots (unless they are also a Chariot), a unit of Swarms or a War Machine. Similarly, a character that is itself a Chariot, War Machine, Monstrous Creature or Monster cannot join other units (with the exceptions mentioned above). A character cannot join a unit that is already engaged in close combat or is fleeing.
 
 #namecost("JOINING A UNIT", "")
 
@@ -3410,7 +3402,7 @@ As already mentioned, Leadership tests are always taken using the highest value 
 
 #namecost("SPECIAL RULES", "")
 
-Unless otherwise noted in the text of the rule itself, a special rule applying only to a character does not apply to the unit, and vice versa. On the other hand, many spells and magic items bestow special rules and other effects on units. In this case, everyone (including the character) in the combined unit will be affected. If a character has a special rule or magic item that affects any unit they join, that effect only applies to the unit for as long as the character remains part of it.
+Unless otherwise noted in the text of the rule itself, a special rule applying only to a character does not apply to the unit, and vice versa. On the other hand, many spells and magic items bestow special rules and other effects on units. In this case, everyone (including the character) in the combined unit will be affected.
 
 === LEAVING A UNIT
 
@@ -3501,7 +3493,7 @@ Open terrain is the most prevalent type of battlefield terrain and thus the 'def
 
 Impassable terrain covers such things as mountains, buildings, lava pits, steep cliffs etc.
 
-Units cannot voluntarily deploy in, enter, move or cross through impassable terrain – they must go around. Remember that units can flee through impassable terrain, although they will have to take Dangerous Terrain tests if they do so. Impassable terrain has a Line of Sight value of 5, unless otherwise specified.
+Units cannot voluntarily deploy in, enter, move or cross through impassable terrain – they must go around. Remember that units can flee through impassable terrain, although they will have to take Dangerous Terrain tests if they do so. Impassable terrain has a Line of Sight value of 5.
 
 == DANGEROUS TERRAIN
 
@@ -3511,33 +3503,11 @@ When a model marches, charges, flees, overruns or pursues into or through an are
 
 Cavalry, Monstrous Cavalry, Chariots and Shrines treat all terrain other than open ground as being Dangerous Terrain, as described above. A Chariot or Shrine that fails a Dangerous Terrain test suffers D6 Wounds instead of 1.
 
-#namecost("DEADLY TERRAIN", "")
-
-Models moving through Deadly Terrain must always take Dangerous Terrain tests, even when making normal moves.
-
-When a model marches, charges, flees, overruns or pursues into or through an area of Deadly Terrain, it fails the test on a roll of 1\-2 rather than 1.
-
-Cavalry, Monstrous Cavalry, Chariots and Shrines treat what is normally Dangerous Terrain as being Deadly Terrain.
-
 == HILLS
 
 A hill has a Line of Sight value of 2 for each 'level' it has. Models standing on top of a hill level add this to their Line of Sight value.
 
-A unit with the majority of its models fighting uphill does not gain any bonus from ranks.
-
-Below is a selection of different hills that you can choose to include in your games:
-
-#namecost("ESCARPMENT", "")
-
-The rocky side of an escarpment counts as impassable terrain to all units with a Line of Sight value lower than 4.
-
-#namecost("ROCKY HILL", "")
-
-Any unit at least partially on top of a rocky hill suffer a \-1 penalty to their Movement value.
-
-#namecost("ROLLING HILL", "")
-
-Rolling hills counts as open ground.
+Below is a different hill that you can choose to include in your games:
 
 #namecost("SCREE SLOPE", "")
 
@@ -3545,9 +3515,7 @@ Models charging, marching, fleeing, pursuing or overrunning up, down or through 
 
 == MARSHLAND
 
-If a unit is at least partially within marshland, it suffers a \-1 penalty to its Movement value. Marshland is Dangerous Terrain for all units, other than those with the Skirmish special rule.
-
-A unit with the majority of its models fighting in marshland does not gain any bonus from ranks.
+If a unit is at least partially within marshland, it suffers a \-1 penalty to its Movement value. Marshland is Dangerous Terrain for all units, other than those with the Skirmish special rule. Cavalry, Monstrous Cavalry, Chariots and Shrines that enter marshland fail their Dangerous Terrain tests on a 1 or 2, rather than a 1.
 
 Below is a selection of different marshlands that you can choose to include in your games:
 
@@ -3557,7 +3525,7 @@ Any unit with the majority of its models within the mere has Regeneration (6+).
 
 #namecost("KHEMRIAN QUICKSAND", "")
 
-Models moving through Khemrian Quicksand treat it as Deadly Terrain.
+Models moving through Khemrian Quicksand will suffer an additional \-1 penalty to their Dangerous Terrain tests.
 
 #namecost("MIST-WREATHED SWAMP", "")
 
@@ -3565,7 +3533,7 @@ If the majority of a unit's models are wholly within a mist-wreathed swamp, the 
 
 == FORESTS
 
-A forest has a Line of Sight value of 5. Models in or behind forests cannot see or be seen through it if there is more than 3" of forest between them and the enemy. If it is less than 3", they can see and be seen through it for all purposes, as long as you can draw a Line of Sight to them as normal. The ‘base’ of the forest is otherwise not considered to block line of sight.
+A forest has a Line of Sight value of 5. Models in or behind forests cannot see or be seen through it if there is more than 5" of forest between them and the enemy. If it is less than 5", they can see and be seen through it for all purposes, as long as you can draw a Line of Sight to them as normal. The ‘base’ of the forest is otherwise not considered to block line of sight.
 
 Models with the Fly special rule that begin or end a flying move in a forest, must take a Dangerous Terrain test.
 
@@ -3601,7 +3569,7 @@ Roll for any unit at least partially within the Wildwood at the end of the Movem
 
 == RIVERS
 
-Models in rivers and streams halve their movement value (rounding up) while moving through them. A unit that is at least partially in a river does not gain any bonus from ranks.
+It is impossible to march through a river. Movement is otherwise unaffected. A unit that is at least partially in a river does not gain any bonus from ranks.
 
 Most rivers have at least one place at which they can be crossed, such as a bridge or a ford. Such crossing points should normally be treated as open terrain, but only if the unit attempting to use the crossing point is in a narrow enough formation to fit across, otherwise treat the entire unit as being in the river. The width of the bridge or ford should be determined upon placing the terrain feature.
 
@@ -3617,7 +3585,7 @@ Necrotic ooze counts as Dangerous Terrain for all models. Additionally, a unit t
 
 #namecost("RAGING TORRENT", "")
 
-A raging torrent is Deadly Terrain.
+A raging torrent is Dangerous Terrain that causes models to fail their Dangerous Terrain test on a 1\-2 instead of just 1's.
 
 #namecost("RIVER OF BLOOD", "")
 
@@ -3625,11 +3593,13 @@ A unit that moves or charges through a River of Blood is counted as causing Fear
 
 #namecost("RIVER OF LIGHT", "")
 
-When a unit enters a River of Light, it is immediately the target of a randomly chosen Level 1 Light Magic spell (see the Lores of Magic). The spell is automatically cast and cannot be dispelled.
+When a unit enters a River of Light, it is immediately the target of a randomly chosen Light Magic spell (see the Lores of Magic). The spell is automatically cast and cannot be dispelled. If the spell has a choice of different casting values, it is assumed to be cast at the lower value.
 
 == OBSTACLES
 
 This category covers all long and narrow terrain types, such as fences, walls and hedges.
+
+If a Cavalry, Monstrous Cavalry, Chariot or Shrine model marches, charges, flees, pursues or overruns over an obstacle, or charges an enemy on the other side of an obstacle, it must take a Dangerous Terrain test.
 
 Obstacles do not otherwise impede movement. If a unit ends its move with some of its ranks or files on different sides of the obstacle, simply place the models appropriately on both sides of the obstacle – the unit suffers no ill-effects.
 
@@ -3649,13 +3619,13 @@ To represent the formidable defensive position offered by the obstacle, any mode
 
 If the charged unit is not in contact with the obstacle, treat it just as you would for the purposes of movement. If there isn't room for a rank of charging models to fit between the obstacle and the charged unit, it is perfectly acceptable to remove the obstacle whilst the combat goes on (put it back again as soon as possible).
 
-Models charging a unit behind an obstacle counts as making a disordered charge.
+Models attacking a unit behind an obstacle lose all charging bonuses. This means, for instance, that they do not receive the normal +1 combat result, gain no bonuses for lances and similar weapons, and do not make Impact Hits.
 
 Below is a selection of different obstacles that you can choose to include in your games:
 
 #namecost("BLAZING BARRICADE", "")
 
-Blazing barricades grant soft cover to units behind them. If a unit completes a charge against a defended blazing barricade, it immediately suffers one Strength 4 Hit with the Flaming Attack special rule on each of its models in contact with the obstacle.
+Blazing barricades grant soft cover to units behind them. If a unit completes a charge against a defended blazing barricade, it immediately suffers one Strength 4 Hit on each of its models in contact with the obstacle.
 
 #namecost("BLESSED BULWARK", "")
 
@@ -3681,7 +3651,7 @@ Below is a selection of different obstacles that you can choose to include in yo
 
 #namecost("ALTAR OF KHAINE", "")
 
-All units within 6" of an Altar of Khaine have the Frenzy special rule.
+All units within 6" of an Altar of Khaine are subject to the rules for Frenzy – as soon as a unit moves out of range, the Frenzy is lost. If a unit is already subject to Frenzy, they gain +2 Attacks instead, but must re-roll the Leadership to restrain themselves from charging.
 
 #namecost("ANVIL OF VAUL", "")
 
@@ -3701,7 +3671,7 @@ Night Goblin units within 6" of a Bad Moon Loonshrine automatically add D6 addit
 
 #namecost("CHARNEL PIT", "")
 
-All units within 6" of a Charnel Pit suffer a \-1 penalty to their Leadership, unless they have Immunity (Psychology). Undead units within 6" of the Charnel Pit have the Regeneration (6+) special rule.
+All units within 6" of a Charnel Pit suffer a \-1 penalty to their Leadership. Undead units within 6" of the Charnel Pit have the Regeneration (6+) special rule.
 
 #namecost("ELVEN WAYSTONE", "")
 
@@ -3709,7 +3679,7 @@ Any Wizard within 6" of an Elven Waystone adds +1 to their channelling attempts.
 
 #namecost("FECULENT GNARLMAW", "")
 
-Models within 6" of the Feculent Gnarlmaw at the start of end of their Movement must pass a Toughness test or suffer a Wound which Ignores Armour Saves. This has no effect on followers of Nurgle or Clan Pestilens.
+Models within 6" of the Feculent Gnarlmaw must pass a Toughness test or suffer a Wound which Ignores Armour Saves. This has no effect on followers of Nurgle or Clan Pestilens.
 
 #namecost("GNAWHOLE", "")
 
@@ -3733,7 +3703,7 @@ At the start of each player turn, roll a dice for every unit within 6" of the Si
 
 #namecost("SORCEROUS PORTAL", "")
 
-At the start of the Magic phase, after power and dispel dice have been generated, but before spells are cast, the sorcerous portal casts a spell with a 12" range that causes D6 Strength 4 Hits. The spell does not need line of sight, always targets the closest unit (regardless of range, if the unit is in combat and so on), is automatically cast and cannot be dispelled.
+At the start of the Magic phase, after power and dispel dice have been generated, but before spells are cast, the sorcerous portal casts a magic missile with a 12" range that causes D6 Strength 4 Hits. The spell does not need line of sight, always targets the closest unit (regardless of range, if the unit is in combat and so on), is automatically cast and cannot be dispelled. If the spell has a choice of casting values, it is assumed to be cast at the lower value.
 
 #namecost("TEMPLE OF SKULLS", "")
 
@@ -3775,7 +3745,7 @@ A character on or within 6" a Dreadfire Portal can roll a D6 at the end of their
 
 #namecost("DREADSTONE BLIGHT", "")
 
-A character on or within 6" a Dreadstone Blight can declare they are making a sacrifice at the end of their Remaining Moves sub-phase if they are not in combat. The character suffers a Wound with no saves allowed, but can re-roll all failed rolls To Hit and To Wound (not including mounts) for the rest of the game.
+A character on or within 6" a Dreadstone Blight can declare they are making a sacrifice at the end of their Remaining Moves sub-phase if they are not in combat. The character suffers a Wound with no saves allowed, but can re-roll all failed rolls To Hit and To Wound (not including mounts) until the start of their next turn.
 
 #namecost("DWARF BREWHOUSE", "")
 
@@ -3815,7 +3785,7 @@ Units within 6" of the Tower of Blood have the Hatred special rule. Units from t
 
 #namecost("WIZARD'S TOWER", "")
 
-A Wizard who is within 3" of the tower at the start of the Magic phase gain the Loremaster special rule for that phase.
+A Wizard who is within 3" of the tower at the start of the Magic phase gain the Loremaster special rule for that phase. If more than one Wizard is within 3", randomly choose which one has control of the tower at the start of each Magic phase.
 
 == BUILDINGS
 
@@ -3833,7 +3803,7 @@ For the most part, buildings act as impassable terrain. That said, units are all
 
 #namecost("GARRISONING A BUILDING", "")
 
-A unit can enter and garrison an unoccupied building if it can move into base contact with the building during the Movement phase. Unless differently specified, only infantry, war beasts and swarms can garrison a building. War machines can be deployed in buildings, but only if there is space to deploy the model on the top floor. Units cannot garrison a building in the same turn in which they have made a reform.
+A unit can enter and garrison an unoccupied building if it can move into base contact with the building during the Movement phase. Unless differently specified, only infantry, war beasts and swarms can garrison a building. War machines can be deployed in buildings, but only if there is space to deploy the model on the top floor. Units cannot garrison a building in the same turn in which they have marched or made a reform.
 
 It is perfectly acceptable to place a representative model from the unit in, on or next to the building to remind you that the unit is inside (standard bearers are ideal), and place the rest of the unit aside from the battlefield.
 
@@ -3843,7 +3813,7 @@ Each building can hold a single unit of any size and any characters that have jo
 
 #namecost("ABANDONING A BUILDING", "")
 
-A garrison unit can exit a building in their Remaining Moves sub-phase, though not in the same turn that it garrisoned the structure. Place the unit in any desired legal formation, with at least one model of the rear rank 1" away from the building and no model within 1" of the building. Note that no model may be placed more than double their movement value away from the building. The unit may not march in a turn that it exits
+A garrison unit can exit a building in their Remaining Moves sub-phase, though not in the same turn that it garrisoned the structure. Place the unit in any desired legal formation, with at least one model of the rear rank 1" away from the building and no model within 1" of the building. Note that no model may be placed more than double their movement value away from the building. The unit may not move any further in a turn that it exits
 
 a building. This is the only way a garrison can voluntarily leave a building – it cannot charge out of a building, for example.
 
@@ -3883,13 +3853,13 @@ Troop types that cannot garrison buildings may still assault them (except chario
 
 #namecost("CHARGE REACTIONS", "")
 
-A garrison unit can only choose to Hold or Stand and Shoot. If normally forced to Flee for any reason, they will instead choose to Hold.
+A garrison unit can only choose to Hold or Stand and Shoot, it cannot choose to Flee! – it would take far longer for the garrison to exit the building than for the enemy to flow around the sides and run the garrison down. Even a failed Terror test will not exhort a garrison to Flee! – it is better to face a mind-numbing peril with four solid walls around you! Accordingly, a garrison that fails its Terror test does not flee as normal, but is forced to Hold.
 
 #namecost("FIGHTING THE ASSAULT", "")
 
 An assault isn't resolved in the same manner as a regular combat, as the two units involved are not in base contact with one another. Rather, we assume that a swirling melee takes place around the building's door, windows and other entryways, with the best fighters from either side pushing their way forwards into the fray.
 
-Models assaulting a building count as making a disordered charge.
+Models assaulting or defending a building lose all charging bonuses. This means, for instance, that they do not receive the normal +1 combat result or Initiative, gain no charge bonuses from weapons (like spears, lances and pikes), and do not make Impact Hits.
 
 #namecost("Who Can Strike?", "")
 
@@ -3965,7 +3935,7 @@ Always make sure to make it clear to your opponent what unit is which, and what 
 
 #namecost("THE ARMY GENERAL", "")
 
-*An army must always include at least one character to be its Army General.*
+*An army must always include at least one Lord or Hero character to be its Army General.*
 
 The Army General has the Inspiring Presence (12) special rule.
 
@@ -3973,7 +3943,7 @@ Some books might have several characters that must be the Army General. In this 
 
 #namecost("THE BATTLE STANDARD BEARER", "")
 
-*An army may include a character to be its Battle Standard Bearer.*
+*An army may include a Hero character to be its Battle Standard Bearer.*
 
 Every army may have a Battle Standard Bearer. This is option is explained in each Warhammer Armies book. Some books might have the option for several characters to the Battle Standard Bearer. In this case, only one of them may be nominated.
 
@@ -3983,17 +3953,25 @@ The Battle Standard Bearer has the Hold Your Ground (12) special rule.
 
 If a Battle Standard Bearer is in a unit and Refuses a Challenge it is subsequently moved to the rear of its unit and loses the Hold Your Ground special rule until the end of the turn.
 
-Like a normal standard, a Battle Standard adds +1 combat resolution.
+Like a normal standard, a Battle Standard adds +1 combat resolution in a close combat if it is in a friendly unit.
 
 Unlike normal standards, the Battle Standard is lost if the bearer is slain – other models cannot pick it up, even if they are in the same unit.
+
+#namecost("MINIMUM UNITS", "")
+
+*An army must always include at least one Core, Special or Rare unit per 500 points played in addition to any Lords and Heroes.*
+
+An army must contain at least one Core, Special or Rare unit for every 500 points played. So, at 750 points you need two units, at 1250 points you need three units, at 2500 points you need 5 units and so on.
+
+#chart((("Points Level:", "Units needed:"), ("0-500", "1"), ("501-1000", "2"), ("1001-1500", "3"), ("1501-2000", "4"), ("2001-2500", "5"), ("Each +500", "+1")))
 
 #namecost("UNIT CATEGORIES", "")
 
 Each army list divides the forces available into several categories. In a standard game, players are limited as to how many of their points can be spent from any particular category.
 
-#namecost("CHARACTERS", "")
+#namecost("LORDS & HEROES", "")
 
-You can spend up to 35% of your points on Characters.
+You can spend up to 25% of your points on Lords and/or 35% on Heroes, but no more than 35% in total over both categories.
 
 #namecost("CHARACTER MOUNTS", "")
 
@@ -4017,7 +3995,7 @@ You can spend up to 25% of your points on Rare units.
 
 #namecost("WIZARDS AND SPELL LORES", "")
 
-Some characters are Wizards, and have access to one or more spell lores.
+Some Lords and Heroes are Wizards, and have access to one or more spell lores.
 
 Although you will not choose the spells that your Wizards know until you start to play your game you do need to make a note in your army roster of which spell lore each of your Wizards will use. The spells themselves are chosen after you know which army you will be facing, but before rolling to choose sides to deploy on.
 
@@ -4029,10 +4007,6 @@ Special characters are exceptional individuals but, more importantly for our arm
 
 Some units are incredibly rare to the point where there is a set limit on the number of them you can include in your army. Where this is the case, they will be listed as something like 0\-1 or 0\-2 etc. This means you may at most have a number of these units in your army equal to the number given in the army list, unless specified.
 
-#namecost("COST LIMIT", "")
-
-No single character or unit in your army may cost more than 25% of your total points.
-
 #namecost("DUPLICATE CHOICES", "")
 
 There is a limit on how many duplicates of each Special and Rare unit you can include in your army. This limit does not apply to the total number of Special and Rare units overall. Note that this limit applies to the basic unit type and is not dependent on the size of the unit or optional equipment. If a character has a Monstrous Creature, Monster, Chariot, Shrine or War Machine mount that is available as a Special or Rare choice, then these will also count towards the limit of duplicate choices.
@@ -4043,9 +4017,9 @@ There is a limit on how many duplicates of each Special and Rare unit you can in
 
 #namecost("UNIT SIZES", "")
 
-In each army book is listed a unit size for each entry that consists of more than one model, such as 10\-30. In this case, 10 is the minimum of models that must be included in that unit, and 30 is the maximum number. The listed points cost is multiplied by each model.
+In each army book is listed a unit size for each entry that consists of more than one model. This is the minimum number of models that must be included in that unit, and the listed points cost is multiplied by each model. Some units also have a maximum limit of models per unit; this is specified in the unit entry in question.
 
-In the case of Mixed Units, the listed unit size does not include any handlers. The number of Handlers is always specified separately.
+Some units consist of two types of models; these always specify the number of models of each type that is part of the unit.
 
 #namecost("EQUIPMENT", "")
 
@@ -4063,7 +4037,7 @@ While games of Warhammer typically take place between two people, there is nothi
 
 Alternatively, if both players agree, you could choose to pick your force from two different armies. Ideally this should be done by both sides so that each player is given an equal chance to build an allied force.
 
-Regardless of the number of players, each army must have their own Army General.
+Regardless of the number of players, each army must have their own General and Battle Standard Bearer.
 
 === ALLIANCE & ALIGNMENT
 
@@ -4194,7 +4168,7 @@ Each enemy unit that has been destroyed or has fled off the table is worth a num
 
 #namecost("WOUNDED", "")
 
-Each character or other lone models that has half or less of their starting number wounds remaining at the end of the battle is worth a number of victory points equal to 50% of the number of points it cost to include the unit in the army.
+Each character or monster that has half or less of their starting number wounds remaining at the end of the battle is worth a number of victory points equal to 50% of the number of points it cost to include the unit in the army.
 
 #namecost("THE KING IS DEAD", "")
 
@@ -4264,7 +4238,7 @@ Players then take it in turn to place units on the table, using the alternating 
 
 #namecost("FIRST TURN", "")
 
-Roll off after deployment to see which player takes the first turn.
+Roll off after deployment to see which player takes the first turn. The player that finished deploying their army first adds +1 to their roll as per the normal rules.
 
 #namecost("GAME LENGTH", "")
 
@@ -4340,7 +4314,7 @@ Players take it in turn to place units on the table, using the alternating unit 
 
 #namecost("FIRST TURN", "")
 
-Roll off after deployment to see which player receives the first turn.
+Roll off after deployment to see which player receives the first turn. The player that finished deploying their army first adds +1 to their roll as per the normal rules.
 
 #namecost("GAME LENGTH", "")
 
@@ -4373,7 +4347,7 @@ Units may be placed anywhere in their half of the table that is more than 9" fro
 
 #namecost("FIRST TURN", "")
 
-Roll off after deployment to see which player receives the first turn.
+Roll off after deployment to see which player receives the first turn. The player that finished deploying their army first adds +1 to their roll as per the normal rules.
 
 #namecost("GAME LENGTH", "")
 
@@ -4471,44 +4445,56 @@ Each Warhammer Armies book describes in detail the many different kinds of magic
 
 In addition to any specific restrictions noted in the relevant Warhammer Armies book, there are rules that govern the selection of all magic items, regardless of the bearer's allegiance. These can be summarised as follows:
 
-=== UNIQUE & COMMON
+=== UNIQUE
 
-Magic items are considered to be unique – you can only have one of each in your army. However, any magic item marked with an asterisk (\*) is considered to be common, and thus can be taken in multiples in your army.
+Magic items are considered to be unique – you can only have one of each in your army unless otherwise stated in the magic item's rules.
 
 === BALANCE OF POWER
 
-Each model can normally only carry one of each type of magic item. Magic items are divided into six categories: Magic Weapons, Magic Armour, Talismans, Enchanted Items, Arcane Items and Magic Standards. A model can only ever choose one item from each category, unless specified.
+Usually, only characters can carry magic items. Each model can normally only carry one of each type of magic item. Magic items are divided into six categories: Magic Weapons, Magic Armour, Talismans, Enchanted Items, Arcane Items and Magic Standards. A model can only ever choose one item from each category, unless specified. The only exceptions to this rule are some special characters, who might well have two magical weapons, for example.
 
 #magic-item-section("weapon", first: true, intro: [
 Unless otherwise stated, a magic weapon is treated as a hand weapon (replacing the model's regular hand weapon), and follows the rules for such. This means that a magic weapon can be used with both an additional hand weapon or shield/buckler following their normal rules. In the case of non-magical additional hand weapons, the +1 Attack does not benefit from any special rules from the magic weapon.
 
-In order for a model to be able to choose a particular piece of weapon (such as great weapon, polearm or two hand weapons) they must be able to pick this as a mundane option or have it as part of their default equipment, unless it is specified. Note that magic weapons that count as normal hand weapons may be taken by any model that can choose magic weapons.
+In order for a model to be able to choose a particular piece of weapon (such as great weapon, polearm or two hand weapons) they must be able to pick this as a mundane option or have it as part of their default equipment. Note that magic weapons that count as normal hand weapons may be taken by any model that can choose magic weapons.
 
 A character that has a magic close combat weapon cannot use any other close combat weapons. If a character has more than one magic weapon, they must choose which one to use at the start of the combat (unless a rule specifies that both can be used at the same time) – the chosen weapon must be used for the duration of the combat.
 ])[
+#magic-weapon("DRAGON BLADE", 70)[Any successful To Hit rolls in close combat with this sword are multiplied into 2 Hits.]
+
 #magic-weapon("GIANT BLADE", 45)[The wielder gains +3 Strength.]
 
 #magic-weapon("SWORD OF BLOODSHED", 45)[The wielder gains +3 Attacks.]
 
-#magic-weapon("SWORD OF POWER", 30)[The wielder gains +2 Strength.]
+#magic-weapon("DRAGON SLAYING SWORD", 40)[The wielder gains the Heroic Killing Blow special rule.]
+
+#magic-weapon("FENCER'S BLADES", 30, type: "Two hand weapons")[The bearer has Weapon Skill 10.]
+
+#magic-weapon("OGRE BLADE", 30)[The wielder gains +2 Strength.]
 
 #magic-weapon("SWORD OF STRIFE", 30)[The wielder gains +2 Attacks.]
 
+#magic-weapon("SWORD OF ANTI-HEROES", 30)[The wielder gains +1 Strength and +1 Attack for every enemy character in base contact with them or their unit. These bonuses are calculated at the start of each round of close combat and last until its end.]
+
+#magic-weapon("OBSIDIAN BLADE", 25)[The wielder gains the Ignores Armour Saves special rule.]
+
 #magic-weapon("SWORD OF SWIFT SLAYING", 25)[The wielder gains the Always Strikes First special rule.]
+
+#magic-weapon("SWORD OF FORTITUDE", 20)[The character, and any unit they are with, gains the Immunity (Psychology) special rule.]
 
 #magic-weapon("PARRYING BLADE", 20)[The wielder gains the Parry (5+) special rule.]
 
 #magic-weapon("BLADE OF SEA GOLD", 15)[The wielder gains the Armour Piercing (3) special rule.]
 
-#magic-weapon("OGRE BLADE", 15)[The wielder gains the Multiple Wounds (D3) special rule.]
+#magic-weapon("BONE BLADE", 15)[The wielder gains the Multiple Wounds (D3) special rule.]
 
 #magic-weapon("HEADSMAN'S AXE", 15)[The wielder gains the Killing Blow special rule.]
 
-#magic-weapon("SWORD OF STRIKING", 15, common: true)[The wielder gains +1 To Hit.]
+#magic-weapon("SWORD OF STRIKING", 15)[The wielder gains +1 To Hit.]
 
-#magic-weapon("SWORD OF MIGHT", 15, common: true)[The wielder gains +1 Strength.]
+#magic-weapon("SWORD OF MIGHT", 15)[The wielder gains +1 Strength.]
 
-#magic-weapon("SWORD OF BATTLE", 15, common: true)[The wielder gains +1 Attack.]
+#magic-weapon("SWORD OF BATTLE", 15)[The wielder gains +1 Attack.]
 
 #magic-weapon("SHRIEKING BLADE", 15)[The wielder gains the Fear special rule.]
 
@@ -4516,141 +4502,177 @@ A character that has a magic close combat weapon cannot use any other close comb
 
 #magic-weapon("BLADE OF SLICING", 10)[The wielder gains the Armour Piercing (2) special rule.]
 
+#magic-weapon("RELIC SWORD", 10)[Attacks made with the Relic Sword will always wound on a 3+, unless they would normally need a lower result.]
+
 #magic-weapon("VENOM SWORD", 10)[The wielder gains the Poisoned Attacks special rule.]
 
-#magic-weapon("BITING BLADE", 5, common: true)[The wielder gains the Armour Piercing (1) special rule.]
+#magic-weapon("BITING BLADE", 5)[The wielder gains the Armour Piercing (1) special rule.]
 
-#magic-weapon("BURNING BLADE", 5, common: true)[The wielder gains the Flaming Attacks special rule.]
+#magic-weapon("BURNING BLADE", 5)[The wielder gains the Flaming Attacks special rule.]
+
+#magic-weapon("TORMENTOR SWORD", 5)[A monster or character that suffers an unsaved wound from the Tormentor Sword has the Stupidity special rule for the rest of the game.]
+
+#magic-weapon("WARRIOR BANE", 5)[A monster or character that suffers unsaved wounds from Warrior Bane permanently loses one Attack for each unsaved wound (to a minimum of 1 Attack).]
 ]
 
 #magic-item-section("armour", intro: [
 Except where otherwise stated, magical suits of armour (light, medium or heavy) and bucklers/shields follow the same rules as mundane ones, but keep in mind that a model can only have one suit of armour and one buckler/shield, so if you give a model a magical suit of armour or a magical shield, it replaces any mundane equivalent already worn by the model.
 
-In order for a model to be able to choose a particular piece of armour (such as heavy armour or a shield) they must be able to pick this as a mundane option or have it as part of their default equipment.
+In order for a model to be able to choose a particular piece of armour (such as heavy armour or a shield) they must be able to pick this (or another armour that gives a better save value) as a mundane option or have it as part of their default equipment.
 
 Magic armours that are not specified as suits or shields (such as helmets, gauntlets and so on) can always be worn by models that are allowed to wear any non- magical armour.
 ])[
-#magic-armour("ARMOUR OF DESTINY", 60, type: "Heavy armour")[The wearer gains the Magical Ward (4+) special rule.]
-
-#magic-armour("ARMOUR OF RESILIENCE", 40, type: "Heavy armour")[The wearer gains +1 Toughness.]
-
-#magic-armour("ARMOUR OF SILVERED STEEL", 40, type: "Heavy armour")[The wearer gains a 2+ armour save.]
+#magic-armour("ARMOUR OF DESTINY", 50, type: "Heavy armour")[The wearer gains the Magical Ward (4+) special rule.]
 
 #magic-armour("ARMOUR OF FORTUNE", 35, type: "Medium armour")[The wearer gains the Magical Ward (5+) special rule.]
 
-#magic-armour("TRICKSTER'S HELM", 30, only: "Infantry, Monstrous Infantry or Cavalry")[The helmet gives the wearer a 6+ armour save. Any successful roll To Wound made against the wearer of the Trickster's Helm must be re-rolled.]
+#magic-armour("TRICKSTER'S HELM", 30, only: "Model on foot")[The helmet gives the wearer a 6+ armour save. Any successful roll To Wound made against the wearer of the Trickster's Helm must be re-rolled.]
+
+#magic-armour("ARMOUR OF RESILIENCE", 25, type: "Heavy armour")[The wearer gains +1 Toughness.]
+
+#magic-armour("ARMOUR OF SILVERED STEEL", 25, type: "Heavy armour")[The wearer gains a 2+ armour save that cannot be improved by any means.]
 
 #magic-armour("GLITTERING SCALES", 25, type: "Light armour")[Enemy models suffer \-1 To Hit the wearer in close combat.]
 
-#magic-armour("SEAMLESS ARMOUR", 25, type: "Medium armour")[This armour ignores negative modifiers to its save, meaning it cannot be reduced below 5+.]
-
-#magic-armour("ALLEVIATING ARMOUR", 20, type: "Medium armour")[The bearer gains the Regeneration (6+) special rule.]
-
-#magic-armour("GAMBLER'S ARMOUR", 20, type: "Light armour")[The wearer gains the Magical Ward (6+) special rule.]
-
 #magic-armour("BEDAZZLING HELM", 20)[The helmet gives the wearer a 6+ armour save. Enemy models targeting the wearer in close combat must re- roll 6's To Hit against them.]
+
+#magic-armour("SHIELD OF PTOLOS", 20, type: "Shield")[The bearer has a 1+ armour save against shooting attacks.]
+
+#magic-armour("HELM OF DISCORD", 20)[The helmet gives the wearer a 6+ armour save. In addition, at the start of each Close Combat phase, choose an enemy character in base contact with the bearer or their unit. That character must immediately take a Leadership test. If the test is failed, the victim cannot make attacks and is hit automatically in this round of close combat.]
+
+#magic-armour("GAMBLER'S ARMOUR", 15, type: "Light armour")[The wearer gains the Magical Ward (6+) special rule.]
 
 #magic-armour("SHIELD OF THE WARRIOR TRUE", 15, type: "Shield")[The bearer gains the Magical Ward (5+) special rule against missile attacks.]
 
+#magic-armour("SPELLSHIELD", 15, type: "Shield")[The bearer gains the Magic Resistance (1) special rule.]
+
 #magic-armour("DRAGONHELM", 10)[The helmet gives the wearer a 6+ armour save and the Immunity (Flaming Attacks) special rule.]
 
-#magic-armour("ENCHANTED SHIELD", 10, type: "Shield", common: true)[The bearer gains an additional +1 to their armour save against attacks to the front arc.]
+#magic-armour("ENCHANTED SHIELD", 10, type: "Shield")[The bearer gains +2 to their armour save, rather than the +1 that a normal shield would give.]
 
-#magic-armour("CHARMED SHIELD", 5, type: "Shield", one-use: true, common: true)[The first hit suffered by the bearer is ignored on a roll of 2+.]
+#magic-armour("CHARMED SHIELD", 5, type: "Shield", one-use: true)[The first hit suffered by the bearer is ignored on a roll of 2+.]
 ]
 
 #magic-item-section("talisman", intro: [
 The Talismans category includes items that offer protection for the bearer.
 ])[
-#talisman("TALISMAN OF PRESERVATION", 40)[The bearer gains the Magical Ward (4+) special rule.]
+#talisman("TALISMAN OF PRESERVATION", 45)[The bearer gains the Magical Ward (4+) special rule.]
 
 #talisman("OBSIDIAN LODESTONE", 30)[The bearer and any unit they join gain the Magic Resistance (3) special rule.]
 
-#talisman("TALISMAN OF ENDURANCE", 25)[The bearer gains the Magical Ward (5+) special rule.]
+#talisman("TALISMAN OF ENDURANCE", 30)[The bearer gains the Magical Ward (5+) special rule.]
+
+#talisman("DAWNSTONE", 25, only: "Model on foot")[The bearer may re-roll failed armour saves.]
 
 #talisman("OBSIDIAN AMULET", 20)[The bearer and any unit they join gain the Magic Resistance (2) special rule.]
 
-#talisman("DAWNSTONE", 15, only: "Infantry, Monstrous Infantry or Cavalry", common: true)[The bearer may re-roll 1's when taking armour saves.]
+#talisman("TALISMAN OF PROTECTION", 15)[The bearer gains the Magical Ward (6+) special rule.]
 
-#talisman("OPAL AMULET", 15, one-use: true, common: true)[The bearer gains the Magical Ward (2+) special rule against the first unsaved wound suffered by the bearer.]
+#talisman("OPAL AMULET", 15, one-use: true)[The bearer gains the Magical Ward (2+) special rule against the first unsaved wound suffered by the bearer.]
 
-#talisman("OBSIDIAN TRINKET", 10, common: true)[The bearer and any unit they join gain the Magic Resistance (1) special rule.]
+#talisman("OBSIDIAN TRINKET", 10)[The bearer and any unit they join gain the Magic Resistance (1) special rule.]
 
-#talisman("SEED OF REBIRTH", 10, common: true)[The bearer gains the Regeneration (6+) special rule.]
+#talisman("SEED OF REBIRTH", 10)[The bearer gains the Regeneration (6+) special rule.]
 
-#talisman("TALISMAN OF PROTECTION", 10, common: true)[The bearer gains the Magical Ward (6+) special rule.]
+#talisman("DRAGONBANE GEM", 5)[The bearer gains the Immunity (Flaming Attacks) special rule.]
 
-#talisman("LUCKY TRINKET", 5, one-use: true, common: true)[The bearer may re-roll a single failed armour or invulnerable save.]
+#talisman("LUCKY TRINKET", 5, one-use: true)[The bearer may re-roll a single failed armour or invulnerable save.]
+
+#talisman("PIDGEON PLUCKER PENDANT", 5)[The bearer gains the Magical Ward (4+) special rule against wounds caused in close combat by models that have the Fly special rule.]
 ]
 
 #magic-item-section("arcane", intro: [
-Only a character with a Wizard level can carry Arcane Items. Unlike other magic item types, Wizards may take several Arcane Items, chosen from the categories below. A Wizard may not take more than one item from the same category.
+Arcane items are items that enhance a Wizard's magical powers in some fashion. Only a character with a Wizard level can carry Arcane Items. Characters with no sensitivity to magical essences and mysteries will either find an Arcane Item useless and inert, or have their brains sucked out through their ears should they try to use it.
 
-*Staffs* cover things like wands, staves, rods and sceptres, and usually provide bonuses to casting or dispelling.
-
-*Charms* include scrolls, stones and gems, and provide temporary effects with a limited number of uses.
-
-*Relics* include tomes, cloaks, rings and familiars, and provide magical abilities or utility effects.
+Unlike other magic items, Wizards that are Lords can take up to two Arcane Items. If they do so, one of their Arcane Items must be marked as "One use only". Note that they may not take two "One use only" items.
 ])[
-#arcane-item("WAND OF THE WINDS", 40, type: "Staff")[The bearer of this item may re-roll one D3 when determining the Winds of Magic in each Magic phase.]
+#arcane-item("DESTROY MAGIC SCROLL", 35, one-use: true)[When an enemy cast a spell, the bearer may immediately counter its effects by using this item instead of attempting to dispel the spell by using dispel dice. This gives them 6 free dispel dice to attempt to dispel the spell, which cannot be combined with any other dispel dice (Ultimate Power applies as normal). In addition, roll a D6. On a 4+, the spell is destroyed and the enemy caster loses access to the spell for the rest of the game (note that this has no effect on Innate Bound spells).]
 
-#arcane-item("DESTROY MAGIC SCROLL", 35, type: "Charm", one-use: true)[When an enemy cast a spell, the bearer may immediately counter its effects by using this item instead of attempting to dispel the spell by using dispel dice. This gives them 6 free dispel dice to attempt to dispel the spell, which cannot be combined with any other dispel dice (Ultimate Power applies as normal). In addition, roll a D6. On a 4+, the spell is destroyed and the enemy caster loses access to the spell for the rest of the game.]
+#arcane-item("FEEDBACK SCROLL", 35, one-use: true)[When an enemy spell has been cast, the bearer can use this item instead of attempting to dispel the spell. The spell is cast as normal, but, after the spell has been resolved, roll a dice for every dice used to cast the spell. The casting Wizard suffer 1 Wound which Ignores Armour Saves for every result of 5+ rolled.]
 
-#arcane-item("FEEDBACK SCROLL", 35, type: "Charm", one-use: true)[When an enemy spell has been cast, the bearer can use this item instead of attempting to dispel the spell. The spell is cast as normal, but, after the spell has been resolved, roll a dice for every dice used to cast the spell. The casting Wizard suffer 1 Wound which Ignores Armour Saves for every result of 5+ rolled.]
+#arcane-item("SIVEJIR'S HEX SCROLL", 35, one-use: true)[When an enemy spell has been cast, the bearer can use this item instead of attempting to dispel the spell. The spell is cast as normal, but a portion of the spell's energy is transformed and redirected at the caster. The enemy Wizard can resist the spell's effects by rolling equal to or under their Wizard level on a D6. If failed, the Wizard cannot channel or cast spells, all of their magic items and mundane equipment (armour, weapons, etc.) temporarily stop working and all of their characteristics are reduced to 1 (except for their Wounds, which are unaffected). Their controlling player can roll a D6 at the start of each of their subsequent Magic phases; the spell dissipates on a roll of 4+ and the Wizard returns to their normal form.]
 
-#arcane-item("DISPEL SCROLL", 25, type: "Charm", one-use: true)[When an enemy spell has been cast, the bearer can use it instead of attempting to dispel the spell by using dispel dice. This gives them 6 free dispel dice to attempt to dispel the spell, which cannot be combined with any other dispel dice (Ultimate Power applies as normal). This may also be used to dispel spells that Remains in Play.]
+#arcane-item("BOOK OF ASHUR", 30)[The bearer gains the Loremaster special rule.]
 
-#arcane-item("SCROLL OF LEACHING", 25, type: "Charm", one-use: true)[When an enemy spell has been cast, the bearer can use this item instead of attempting to dispel the spell. The spell is cast as normal, but, after the spell has been resolved, the bearer of the scroll adds a number of dispel dice to his pool equal to the number of dice used to cast the spell.]
+#arcane-item("ROD OF POWER", 30)[At the end of each Magic phase (yours and the enemy's), you can save up to three unused power/dispel dice from the pool and store them in the rod. At the beginning of each successive Magic phase (yours and the enemy's), roll a dice. If the result is equal or higher to the number of dice stored, add them to the power/dispel dice pool; if the result is lower than the number of dice stored, they are lost.]
 
-#arcane-item("POWER FAMILIAR", 25, type: "Relic")[The Familiar adds one Power Dice in each of your Magic phases.]
+#arcane-item("DISPEL SCROLL", 25, one-use: true)[When an enemy spell has been cast, the bearer can use it instead of attempting to dispel the spell by using dispel dice. This gives them 6 free dispel dice to attempt to dispel the spell, which cannot be combined with any other dispel dice (Ultimate Power applies as normal). This may also be used to dispel spells that Remains in Play.]
 
-#arcane-item("WAND OF JADE", 25, type: "Staff")[The bearer gains +6" casting range to their spells (excluding auras).]
+#arcane-item("SCROLL OF LEACHING", 25, one-use: true)[When an enemy spell has been cast, the bearer can use this item instead of attempting to dispel the spell. The spell is cast as normal, but, after the spell has been resolved, the bearer of the scroll adds a number of dispel dice to his pool equal to the number of dice used to cast the spell.]
 
-#arcane-item("WAND OF JET", 25, type: "Staff")[The bearer gains +6" dispel range.]
+#arcane-item("THE MYSTIC SHIELD OF BRAG", 25, one-use: true)[The Mystic Shield of Brag may be used against any enemy spell that directly targets any friendly unit. The enemy spell has no effect.]
 
-#arcane-item("CHANNELLING STAFF", 20, type: "Staff")[The bearer rolls one additional dice whenever they attempt to channel power or dispel dice.]
+#arcane-item("POWER FAMILIAR", 25)[The Familiar adds one Power Dice in each of your Magic phases.]
 
-#arcane-item("FORBIDDEN ROD", 20, type: "Staff", one-use: true)[The Forbidden Rod adds +D6 dice to the power pool at the start of the caster's own Magic phase. However, it also inflicts 1 Wound which Ignores Armour Saves on the bearer.]
+#arcane-item("CHANNELLING STAFF", 20)[The bearer rolls one additional dice whenever they attempt to channel power or dispel dice.]
 
-#arcane-item("WAND OF ONYX", 20, type: "Staff")[The bearer gains a +1 casting bonus.]
+#arcane-item("MYSTIC MAZE", 20, one-use: true)[The Mystic Maze may be used against any enemy spell that directly targets any friendly unit. Roll 3D6 measured from the centre of the unit; this is the distance the spell scatters in a random direction. Should the spell end up on another unit, this unit will become the target of the spell; otherwise the spell has no effect.]
 
-#arcane-item("SCEPTRE OF STABILITY", 20, type: "Staff")[The bearer gains a +1 dispel bonus.]
+#arcane-item("SCEPTRE OF STABILITY", 20)[The bearer gains a +1 dispel bonus.]
 
-#arcane-item("ARCANE FAMILIAR", 15, type: "Relic", common: true)[The bearer can choose one Signature spell as an additional spell from any of the eight Winds of Magic in this book, even if they normally cannot choose that lore.]
+#arcane-item("WAND OF JET", 20)[The bearer gains a +1 casting bonus.]
 
-#arcane-item("EARTHING ROD", 15, type: "Staff", one-use: true, common: true)[If the bearer suffers a miscast, they do not add the number of power dice used to the result.]
+#arcane-item("ARCANE FAMILIAR", 15)[The bearer can choose one Signature spell as an additional spell from any of the eight Winds of Magic in this book, even if they normally cannot choose that lore.]
 
-#arcane-item("POWER SCROLL", 15, type: "Charm", one-use: true, common: true)[This item can be used before the bearer makes a casting attempt. During that casting attempt, any roll of a double (except 1's) counts as a 6 for the purpose of resolving Ultimate Power.]
+#arcane-item("EARTHING ROD", 15, one-use: true)[If the bearer suffers a miscast, they do not add the number of power dice used to the result.]
 
-#arcane-item("LUCKSTONE", 10, type: "Charm", one-use: true, common: true)[The bearer can re-roll all of the dice rolled to cast or dispel a spell. This can effectively cancel a miscast result, and cause Ultimate Power or a miscast.]
+#arcane-item("FORBIDDEN ROD", 15, one-use: true)[The Forbidden Rod adds +D6 dice to the power pool at the start of the caster's own Magic phase. However, it also inflicts 1 Wound which Ignores Armour Saves on the bearer.]
 
-#arcane-item("POWER STONE", 10, type: "Charm", one-use: true, common: true)[The bearer can declare that they are using the power stone immediately before casting a spell. If they do so, +D3 dice are added to the power dice that they are going to roll (you still need to roll at least one dice from the power pool). This allows a Wizard to use more than they are normally allowed to.]
+#arcane-item("HYPNOTIC EYE SCROLL", 15, one-use: true)[The Hypnotic Eye Scroll can be used whenever an enemy Wizard successfully casts a spell instead of attempting to dispel. The casting Wizard must pass a Leadership test; if failed, you may choose the target of the spell just as if you had cast the spell yourself. If no target can be chosen, the spell has no effect. Note that the spell is still cast from the original Wizard as normal.]
 
-#arcane-item("SCROLL OF SHIELDING", 10, type: "Charm", one-use: true, common: true)[This item can be used when an enemy attempts to cast a spell targeting one of your units within dispel range. The target is granted Magic Resistance (3) against the spell.]
+#arcane-item("POWER SCROLL", 15, one-use: true)[This item can be used before the bearer makes a casting attempt. During that casting attempt, any roll of a double (except 1's) counts as a 6 for the purpose of resolving Ultimate Power.]
 
-#arcane-item("SPELL FAMILIAR", 10, type: "Relic", common: true)[The bearer knows one additional spell from those normally allowed to them.]
+#arcane-item("THE GEM OF TARANTO", 10, one-use: true)[The Gem of Taranto can be used whenever you successfully dispel an enemy spell (except Summoning or Innate Bound Spells). The bearer of the Gem will be able to cast the spell themselves (limited by their Wizard level as normal) for the remainder of the game, even if it is from a lore not normally available to them.]
+
+#arcane-item("LUCKSTONE", 10, one-use: true)[The bearer can re-roll all of the dice rolled to cast or dispel a spell. This can effectively cancel a miscast result, and cause Ultimate Power or a miscast.]
+
+#arcane-item("POWER STONE", 10, one-use: true)[The bearer can declare that they are using the power stone immediately before casting a spell. If they do so, +D3 dice are added to the power dice that they are going to roll (you still need to roll at least one dice from the power pool).]
+
+#arcane-item("SCROLL OF SHIELDING", 10, one-use: true)[When an enemy spell has been cast, the bearer can use this item instead of attempting to dispel the spell. The spell is cast as normal, but the target of the spell is granted Magic Resistance (3) against the spell.]
+
+#arcane-item("SPELL FAMILIAR", 10)[The bearer knows one additional spell from those normally allowed to them.]
+
+#arcane-item("TRICKSTER'S SHARD", 10, one-use: true)[Declare you are using this item at the start of one of your Magic phases. For the duration of the phase, when one of the bearer's spells is dispelled by an enemy Wizard, roll a D6. On a 4+, that Wizard suffers a Wound which Ignores Armour Saves.]
+
+#arcane-item("WIZARD'S STAFF", 10)[The Wizard's Staff allows the bearer to use one more dice than they are normally allowed to when casting a spell (eg, a Wizard that can normally use up to two dice to cast spells will be able to use up to three dice).]
 ]
 
 #magic-item-section("enchanted", intro: [
 The Enchanted Items category includes items that typically offer a utility ability for either the bearer or any unit they are with.
 ])[
-#enchanted-item("RUBY RING OF RUIN", 35, bound: true)[The Ruby Ring of Ruin contains the _Fireball_ spell from the Lore of Fire.]
+#enchanted-item("FOZZRIK'S FOLDING FORTRESS", 100)[After deployment zones have been agreed, but before the armies have been deployed, place a watchtower building no more than 10x10 cm in base size and a maximum of 3 floors in your deployment zone to represent the Folding Fortress. This is treated as a standard building. If you do not have a suitable building to place, you cannot use Fozzrik's Folding Fortress.]
 
-#enchanted-item("BOOTS OF FLIGHT", 20, only: "Infantry")[The Boots of Flight give the wearer the Movement 10 and the Strider special rule.]
+#enchanted-item("WIZARDING HAT", 50)[The wearer is treated as being a Level 2 Wizard who can use a randomly chosen spell lore from any of the eight Winds of Magic at the start of the game. However, they also have the Stupidity special rule. Note that they may not choose any Arcane Items.]
 
-#enchanted-item("CROWN OF COMMAND", 20)[The Crown of Command gives the bearer and any unit they join the Disciplined special rule for as long as the bearer remains with the unit.]
+#enchanted-item("CROWN OF COMMAND", 40)[The Crown of Command gives the bearer and any unit they join the Stubborn special rule for as long as the bearer remains with the unit.]
 
-#enchanted-item("HEALING POTION", 15, one-use: true, common: true)[The Healing Potion can be drunk at the start of the controlling player's turn. The model immediately recovers D3 Wounds (ignoring any additional Wounds from mounts) up to their starting value.]
+#enchanted-item("RUBY RING OF RUIN", 35, bound: (power: 4))[The Ruby Ring of Ruin contains the _Fireball_ spell from the Lore of Fire.]
 
-#enchanted-item("POTION OF STRENGTH", 10, one-use: true, common: true)[The Potion of Strength can be used at the start of any phase. The character gains +D3 Strength until the end of the turn.]
+#enchanted-item("LIFESTONE OF ASHRAAZ", 30, one-use: true)[The Lifestone of Ashraaz can be used at the start of any Close Combat phase. The bearer can swap their current number of Wounds with the current number of Wounds of any one enemy model in base contact. The effect lasts the remainder of the game.]
 
-#enchanted-item("POTION OF TOUGHNESS", 10, one-use: true, common: true)[The Potion of Toughness can be used at the start of any phase. The character gains +D3 Toughness until the end of the turn.]
+#enchanted-item("ORB OF THUNDER", 30, bound: (power: 4))[Remains in play. The Orb of Thunder contains a *hex* spell that effects all models with the Fly special rule. When cast, no models may use their Fly special rule and must move on the ground at their normal Movement rate.]
 
-#enchanted-item("POTION OF SPEED", 10, one-use: true, common: true)[The Potion of Speed can be used at the start of any phase. The character gains +D3 Attacks until the end of the turn.]
+#enchanted-item("ARABYAN CARPET", 25, only: "Infantry model on foot")[The owner of this magical carpet has the Fly (10) special rule. However, they cannot join units.]
 
-#enchanted-item("POTION OF FOOLHARDINESS", 5, one-use: true, common: true)[The Potion of Foolhardiness can be drunk at the start of any phase. The character gains the Frenzy special rule until the end of the turn.]
+#enchanted-item("THE TERRIFYING MASK OF EEE!", 25)[The wearer of this mask causes Terror. However, other models can never use their Leadership.]
 
-#enchanted-item("WARRIOR FAMILIAR", 5, common: true)[The model gains an additional Strength 3 Attack. This does not benefit from any weapon, item or special rule used by the character. You may still take another Enchanted Item in addition to the Warrior Familiar, and it also does not count against the maximum points limit of magic items normally allowed for the character.]
+#enchanted-item("THE OTHER TRICKSTER'S SHARD", 25)[The bearer, and all units in base contact with them (friend and foe) must re-roll successful invulnerable saves.]
+
+#enchanted-item("BOOTS OF FLIGHT", 20, only: "Model on foot")[The Boots of Flight give the wearer Movement 10 as well as the Strider and Swiftstride special rules.]
+
+#enchanted-item("HEALING POTION", 15, one-use: true)[The Healing Potion can be drunk at the start of the controlling player's turn. The model immediately recovers D3 Wounds (ignoring any additional Wounds from mounts) up to their starting value.]
+
+#enchanted-item("IRONCURSE ICON", 10)[The character, and any unit they are with, gains the Magical Ward (6+) special rule against artillery weapons.]
+
+#enchanted-item("POTION OF STRENGTH", 10, one-use: true)[The Potion of Strength can be used at the start of any phase. The character gains +D3 Strength until the end of the turn.]
+
+#enchanted-item("POTION OF TOUGHNESS", 10, one-use: true)[The Potion of Toughness can be used at the start of any phase. The character gains +D3 Toughness until the end of the turn.]
+
+#enchanted-item("POTION OF SPEED", 10, one-use: true)[The Potion of Speed can be used at the start of any phase. The character gains +D3 Attacks until the end of the turn.]
+
+#enchanted-item("POTION OF FOOLHARDINESS", 5, one-use: true)[The Potion of Foolhardiness can be drunk at the start of any phase. The character gains the Frenzy special rule until the end of the turn.]
+
+#enchanted-item("WARRIOR FAMILIAR", 5)[The model gains an additional Strength 3 Attack. This does not benefit from any weapon, item or special rule used by the character. You may still take another Enchanted Item in addition to the Warrior Familiar, and it also does not count against the maximum points limit of magic items normally allowed for the character.]
 ]
 
 #magic-item-section("standard", intro: [
@@ -4658,38 +4680,56 @@ Some units are allowed to carry magic banners, as detailed in their army list en
 
 Standards can only be carried by a standard bearer, as shown in the army list in the relevant Warhammer Armies book.
 ])[
-#magic-standard("BANNER OF DEFIANCE", 25)[A unit with this standard gains the Stubborn special rule.]
+#magic-standard("BATTLE BANNER", 70)[A unit with this standard gains a +D6 Combat Resolution bonus (roll each time it is used).]
 
-#magic-standard("BANNER OF IRON RESOLVE", 25)[A unit with this standard gains the Immunity (Psychology) special rule.]
+#magic-standard("BANNER OF MIGHT", 55)[A unit with this standard gains +1 To Hit in the first round of close combat.]
 
-#magic-standard("RAMPAGER'S STANDARD", 25)[A unit with this standard can re-roll its charge distance dice.]
+#magic-standard("BANNER OF DEFIANCE", 40)[A unit with this standard gains the Stubborn special rule.]
+
+#magic-standard("WAILING BANNER", 40)[A unit with this standard gains the Terror special rule.]
+
+#magic-standard("RAMPAGER'S STANDARD", 35)[A unit with this standard can re-roll its charge distance dice.]
+
+#magic-standard("BANNER OF IRON RESOLVE", 30)[A unit with this standard gains the Immunity (Psychology) special rule.]
+
+#magic-standard("RAZOR STANDARD", 30)[A unit with this standard gains the Armour Piercing (1) special rule.]
+
+#magic-standard("STANDARD OF SHIELDING", 25)[A unit with this standard gains the Magical Ward (6+) special rule against missile attacks.]
 
 #magic-standard("BANNER OF SWIFTNESS", 25)[A unit with this standard gains the Swiftstride special rule.]
 
-#magic-standard("RAZOR STANDARD", 25)[A unit with this standard gains the Armour Piercing (1) special rule.]
+#magic-standard("DREAD BANNER", 20)[A unit with this standard causes Fear.]
 
-#magic-standard("RANGER'S STANDARD", 20)[A unit with this standard gains the Strider special rule.]
+#magic-standard("STANDARD OF ARCANE WARDING", 20)[A unit with this standard gains the Magic Resistance (2) special rule.]
 
-#magic-standard("BANNER OF ETERNAL FLAME", 15)[A unit with this standard gains the Magical Attacks and Flaming Attacks special rules.]
+#magic-standard("WAR BANNER", 20)[A unit with this standard adds +1 to combat resolution.]
+
+#magic-standard("BANNER OF VALOUR", 15)[A unit with this standard gains the Immunity (Panic) special rule.]
 
 #magic-standard("STANDARD OF DISCIPLINE", 15)[A unit with this standard has +1 Leadership, but cannot use the Inspiring Presence special rule. If a model with this special rule joins this unit, other units using their Inspiring Presence do not benefit from the +1 Leadership.]
 
-#magic-standard("STANDARD OF SHIELDING", 15)[A unit with this standard gains the Magical Ward (6+) special rule against missile attacks.]
+#magic-standard("BANNER OF COURAGE", 10)[A unit with this standard re-roll failed Break tests.]
 
-#magic-standard("WAR BANNER", 15, common: true)[A unit with this standard adds +1 to combat resolution.]
+#magic-standard("BANNER OF ETERNAL FLAME", 10)[A unit with this standard gains the Magical Attacks and Flaming Attacks special rules.]
 
-#magic-standard("LICHBONE PENNANT", 10, common: true)[A unit with this standard gains the Magic Resistance (1) special rule.]
+#magic-standard("LICHBONE PENNANT", 10)[A unit with this standard gains the Magic Resistance (1) special rule.]
 
-#magic-standard("GLEAMING PENNANT", 5, one-use: true, common: true)[A unit with this standard can re-roll one failed Leadership test.]
+#magic-standard("RANGER'S STANDARD", 10)[A unit with this standard gains the Strider special rule. If the unit is riding a mount, the mount benefit from the Strider special rule as well.]
+
+#magic-standard("BANNER OF DUTY", 5)[A unit with this standard automatically pass any Rally tests.]
+
+#magic-standard("GLEAMING PENNANT", 5, one-use: true)[A unit with this standard can re-roll its first failed Leadership test.]
+
+#magic-standard("SCARECROW BANNER", 5)[A unit with this standard causes Terror in models with the Fly special rule.]
 ]
 
 #lore("THE LORE OF FIRE")[
 
-#spell("KINDLEFLAME", "Lore Attribute")[All of the spells in the Lore of Fire are Flaming Attacks. In addition, if a spell from the Lore of Fire inflicts hits on an enemy unit that has already been hit by a spell from the Lore of Fire in the same Magic phase (even if the spell was cast by a different Wizard) the spell inflicts an additional D3 Strength 4 hits on the unit.]
+#spell("KINDLEFLAME", "Lore Attribute")[All of the spells in the Lore of Fire are Flaming Attacks. In addition, if a spell from the Lore of Fire inflicts hits on an enemy unit that has already been hit by a spell from the Lore of Fire in the same Magic phase (even if the spell was cast by a different Wizard) the spell inflicts an additional D6 Strength 4 hits on the unit.]
 
 #spell("FIREBALL", "Signature Spell", cast: "6+")[_Fireball_ is a *magic missile* with a range of 30" that causes D6 Strength 4 hits.]
 
-#spell("CASCADING FIRE-CLOAK", 1, cast: "5+")[Remains in play. _Cascading Fire-Cloak_ is an *augment* spell with a range of 18". Each enemy unit in base contact with the target unit suffers 2D6 Strength 4 hits at the end of each Magic phase.]
+#spell("CASCADING FIRE-CLOAK", 1, cast: "5+")[Remains in play. _Cascading Fire-Cloak_ is an *augment* spell with a range of 18". Each enemy unit in base contact with the target unit immediately suffers 2D6 Strength 4 hits at the end of each Magic phase.]
 
 #spell("BREATHE FIRE", 1, cast: "6+")[_Breathe Fire_ is a *direct damage* spell. The caster makes a Breath Weapon attack. This may be cast in close combat, following the normal rules for Breath Weapons. All models Hit suffer a Strength 4 hit.]
 
@@ -4699,7 +4739,7 @@ Standards can only be carried by a standard bearer, as shown in the army list in
 
 #spell("SWELTERING HEAT", 2, cast: "7+")[Remains in play. _Sweltering Heat_ is a *hex* spell with a range of 24". Whenever the target charges, pursues or flees, it rolls an extra D6 and discards the highest result. While the spell is active, it suffers D6 Strength 3 hits at the end of each Magic phase.]
 
-#spell("THE BURNING HEAD", 2, cast: "9+")[_The Burning Head_ is a *direct damage area* spell that uses the line template. Place it 12" in length, with its starting point anywhere within 18" from the caster's front arc. Each model in the way suffers a Strength 4 hit. A unit that suffers one or more casualties from the spell must take a Panic test.]
+#spell("THE BURNING HEAD", 2, cast: "9+")[_The Burning Head_ is a *direct damage area* spell that uses the line template. Place it 12" in length, with its starting point anywhere within 18" from the caster. Each model in the way suffers a Strength 4 hit. A unit that suffers one or more casualties from the spell must take a Panic test.]
 
 #spell("FIERY BLAST", 3, cast: "9+")[_Fiery Blast_ is a *direct damage area* spell with a range of 24" that uses the small round template. All models under the template suffer a Strength 4 hit.]
 
@@ -4725,19 +4765,19 @@ Standards can only be carried by a standard bearer, as shown in the army list in
 
 #spell("PLAGUE OF RUST", 1, cast: "6+")[_Plague of Rust_ is a *hex* with a range of 24". The target's armour save (excluding Natural Armour) is lowered by one point for the rest of the game. Plague of Rust can be repeatedly cast on the same target, reducing its armour save by a further \-1 each time.]
 
-#spell("COMMANDMENT OF BRASS", 2, cast: "7+")[_Commandment of Brass_ is a *hex* with a range of 24". If the target is a War Machine or a Chariot, they cannot move (unless it fails a break test) until the start of the caster's next Magic phase. If the target has an artillery weapon it cannot use this until the start of the caster's next Magic phase.]
+#spell("COMMANDMENT OF BRASS", 2, cast: "7+")[_Commandment of Brass_ is a *hex* with a range of 24". If the target is a War Machine or a Chariot, they cannot move (unless it fails a break test) until the start of the caster's next Magic phase. If the target has an Artillery weapon and/or is a War Machine it cannot shoot until the start of the caster's next Magic phase.]
 
 #spell("SILVER ARROWS OF ARHA", 2, cast: "7+")[_Silver Arrows of Arha_ is a *magic missile* with a range of 24" and causes 2D6 Strength 3 hits with the Armour Piercing (1) special rule.]
 
 #spell("ENCHANTED BLADES OF AIBAN", 2, cast: "8+")[_Enchanted Blades of Aiban_ is an *augment* spell with a range of 18". The target unit (except mounts) gains +1 To Hit, Armour Piercing (1) and the Magical Attacks special rules with all shooting and close combat attacks until the start of the caster's next Magic phase.]
 
-#spell("GEHENNA'S GOLDEN HOUNDS", 3, cast: "8+")[_Gehenna's Golden Hounds_ is a *direct damage* spell with a range of 12" that targets a single enemy model (even a character in a unit). The target suffers D6 Strength 4 hits.]
+#spell("GEHENNA'S GOLDEN HOUNDS", 3, cast: "8+")[_Gehenna's Golden Hounds_ is a *direct damage* spell with a range of 12" that targets a single enemy model (even a character in a unit). The target suffers D6 Strength 4 hits ("Look Out, Sir!" cannot be used).]
 
 #spell("TRANSMUTATION OF LEAD", 3, cast: "9+")[_Transmutation of Lead_ is a *hex* with a range of 24". The target suffers \-1 To Hit in close combat and with missile weapons, \-1 Movement and \-1 Initiative until the start of the caster's next Magic phase.]
 
 #spell("THE GILDED CAGE", 3, cast: "11+")[_The Gilded Cage_ is a *hex* with a range of 24" that can be cast on an unengaged unit. Until the start of the caster's next Magic phase, the target gains the Unbreakable special rule, cannot move and is treated as impassable terrain for the purpose of movement.]
 
-#spell("METEORIC IRONCLAD", 4, cast: "13+")[_Meteoric Ironclad_ is an *augment* spell with a range of 18". The target unit gains the Magical Ward (4+) special rule until the start of the caster's next Magic phase.]
+#spell("METEORIC IRONCLAD", 4, cast: "15+")[_Meteoric Ironclad_ is an *augment* spell with a range of 18". The target unit gains the Magical Ward (4+) special rule until the start of the caster's next Magic phase.]
 
 #spell("QUICKSILVER SWORDS", 4, cast: "13+")[_Quicksilver Swords_ is an *augment* spell with a range of 18". The target unit gains the Ignores Armour Saves and Magical Attacks special rules until the start of the caster's next Magic phase.]
 
@@ -4759,7 +4799,7 @@ Standards can only be carried by a standard bearer, as shown in the army list in
 
 #spell("LEAF FALL", 2, cast: "7+")[_Leaf Fall_ is an *augment aura* spell with a range of 6". All missile attacks targeting the affected units suffer a \-1 To Hit penalty until the start of the caster's next Magic phase.]
 
-#spell("GIFT OF LIFE", 2, cast: "8+")[_Gift of Life_ is an *augment* spell with a range of 18" that can be cast on a single model. The target instantly recovers D3 Wounds suffered earlier in the battle.]
+#spell("VERDANT APOTHEOSIS", 2, cast: "8+")[_Verdant Apotheosis_ is an *augment* spell with a range of 18" that can be cast on a single model. The target instantly recovers D3 Wounds suffered earlier in the battle.]
 
 #spell("THRONE OF VINES", 3, cast: "8+")[
 Remains in play. _Throne of Vines_ is an *augment* spell cast upon the Wizard. While the spell is in effect, the Wizard's castings of the following spells have the benefits given below instead of their normal values (it does not change the effects of spells that have already been cast):
@@ -4769,7 +4809,7 @@ Remains in play. _Throne of Vines_ is an *augment* spell cast upon the Wizard. W
 - Awakening of the Wood Hits causes Strength 5 hits.
 - Flesh to Stone grants +2 Toughness.
 - The Cloak of Dain ignores the first D6 hits.
-- Gift of Life restores D3+1 Wounds.
+- Verdant Apotheosis restores D3+1 Wounds.
 - Barkskin grants Natural Armour (4+).
 - Regrowth restores 2D6 Wound's worth of models.
 ]
@@ -4786,7 +4826,7 @@ Remains in play. _Throne of Vines_ is an *augment* spell cast upon the Wizard. W
 ]
 #lore("THE LORE OF BEASTS")[
 
-#spell("WILDHEART", "Lore Attribute")[A Wizard casting a spell from the Lore of Beasts gains +1 to cast if the target(s) contains one or more War Beast, Cavalry, Monstrous Beast, Monstrous Cavalry, Monstrous Creature, Monster, Chariot (Chariots that are not drawn are not included), Swarm, or Beastman.]
+#spell("WILDHEART", "Lore Attribute")[A Wizard casting a spell from the Lore of Beasts gains +1 to cast if the target(s) contains one or more War Beast, Cavalry, Monstrous Beast, Monstrous Cavalry, Monstrous Creature, Monster, Chariot (Chariots that are not drawn are not included), Swarm (Animal) or Beastman.]
 
 #spell("WYSSAN'S WILDFORM", "Signature Spell", cast: "5+")[_Wyssan's Wildform_ is an *augment* spell with a range of 18". The target unit may re-roll failed rolls To Wound in close combat until the start of the caster's next Magic phase.]
 
@@ -4800,13 +4840,13 @@ Remains in play. _Throne of Vines_ is an *augment* spell cast upon the Wizard. W
 
 #spell("HUNTER'S MOONS", 2, cast: "7+")[Hunter's Moons is an *augment aura* spell with a range of 12". All affected units gain the Swiftstride special rule and may re-roll any failed charge or pursuit roll until the start of the caster's next Magic phase.]
 
-#spell("THE VENGEFUL HOOD", 2, cast: "8+")[_The Vengeful Hood_ is an *augment* spell with a range of 18". The target gains the Magical Ward (6+) special rule in close combat until the start of the caster's next Magic phase. For each successful Magical Ward save roll of 6, the attacking model/unit suffers a Wound themselves which Ignores Armour Saves.]
+#spell("THE VENGEFUL HOOD", 2, cast: "8+")[_The Vengeful Hood_ is an *augment* spell with a range of 18". The target gains the Magical Ward (6+) special rule in close combat until the start of the caster's next Magic phase. For each successful Magical Ward save roll of 6, the attacking model/unit suffers a Wound themselves (saves taken as normal using the Strength of the attacking model).]
 
-#spell("THE CURSE OF ANRAHEIR", 3, cast: "9+")[_The Curse of Anraheir_ is a *hex* spell with a range of 30". The target unit suffers a \-1 penalty to its To Hit rolls with both missile and close combat attacks until the start of the caster's next Magic phase. In addition, the unit treats all terrain (other than Impassable Terrain) as Dangerous Terrain. Models already in Dangerous Terrain counts it as Deadly Terrain.]
+#spell("THE CURSE OF ANRAHEIR", 3, cast: "9+")[_The Curse of Anraheir_ is a *hex* spell with a range of 30". The target unit suffers a \-1 penalty to its To Hit rolls with both missile and close combat attacks until the start of the caster's next Magic phase. In addition, the unit treats all terrain (other than Impassable Terrain) as Dangerous Terrain. Tests in terrain that is already Dangerous Terrain will fail the tests on a 1 or 2, rather than a 1.]
 
-#spell("THE SAVAGE BEAST OF HORROS", 3, cast: "10+")[_The Savage Beast of Horros_ is an *augment* spell with a range of 18" that is cast on a Character, Monstrous Creature or Monster, which can be the Wizard itself. The target model gains +3 Strength and +3 Attacks until the start of the caster's next Magic phase. If a Character is mounted, you must choose if the rider or the mount is affected by the spell. For other ridden Monsters, the riders are never affected.]
+#spell("THE SAVAGE BEAST OF HORROS", 3, cast: "10+")[_The Savage Beast of Horros_ is an *augment* spell with a range of 18" that is cast on a Character, Monstrous Creature or Monster, which can be the Wizard itself. The target model (but not any mount) gains +3 Strength and +3 Attacks until the start of the caster's next Magic phase.]
 
-#spell("THE BEAST COWERS", 3, cast: "11+")[_The Beast Cowers_ is a *hex* spell with a range of 24". If the target contains any models mentioned in Wildheart, those models suffer \-1 to their Attack characteristic in close combat (only mounts are affected in the case of ridden models) and cannot voluntarily move until the start of the caster's next Magic phase.]
+#spell("THE BEAST COWERS", 3, cast: "11+")[_The Beast Cowers_ is a *hex* spell with a range of 24". If the target contains any models mentioned in Wildheart, those models suffer \-1 to their Attack characteristic in close combat (only mounts are affected in the case of ridden models) and cannot declare charges or pursue until the start of the caster's next Magic phase.]
 
 #spell("THE AMBER SPEAR", 4, cast: "12+")[_The Amber Spear_ is a *magic missile* with a range of 30". It inflicts a single Strength 7 hit with the Ignores Armour Saves and Multiple Wounds (D6) special rules that penetrates ranks in the same manner as a shot from a bolt thrower.]
 
@@ -4822,17 +4862,17 @@ Remains in play. _Throne of Vines_ is an *augment* spell cast upon the Wizard. W
 
 #spell("AZURE BLADES", 1, cast: "5+")[Remains in play. _Azure Blades_ is an *augment* spell with a range of 18". Any enemy unit in base contact with the target suffers 3D6 Strength 3 hits at the end of each Magic phase.]
 
-#spell("STAR TIDES EBB", 1, cast: "5+")[_Star Tides Ebb_ is a *hex area* spell with a range of 24". Until the start of the caster's next magic phase, all spell casting attempts within this range that are not from the Lore of Heavens suffer a \-2 casting penalty.]
+#spell("STAR TIDES EBB", 1, cast: "5+")[_Star Tides Ebb_ is an *augment* spell that is cast on the Wizard itself. Until the start of the caster's next magic phase, all spells that are not from the Lore of Heavens suffer a \-2 penalty to cast within 24" of the Wizard.]
 
 #spell("CERULEAN SHIELD", 1, cast: "6+")[_Cerulean Shield_ is an *augment* spell with a range of 18". The target gains the Magical Ward (4+) special rule against non-magical missile attacks until the start of the caster's next Magic phase.]
 
 #spell("SIGN OF AMUL", 2, cast: "6+")[_Sign of Amul_ is an *augment* spell that targets the Wizard itself. You may re-roll any one of your dice until the start of the caster's next magic phase. This bonus is lost if the Wizard is slain before the re-roll is used.]
 
-#spell("CRYSTAL PRISON", 2, cast: "8+")[Remains in Play. _Crystal Prison_ is a *hex* spell with a range of 24". Choose a single enemy character, even in a unit. While the spell is in effect, the target cannot be harmed by any means and is Unbreakable. However, they also cannot move, shoot, fight in close combat or cast spells. If they are in a unit, the unit may still break and flee as normal, while the target remains in combat.]
+#spell("CRYSTAL PRISON", 2, cast: "7+")[Remains in Play. _Crystal Prison_ is a *hex* spell with a range of 24". Choose a single enemy character, even in a unit. While the spell is in effect, the target cannot be harmed by any means and is Unbreakable. However, they also cannot move, shoot, fight in close combat or cast spells. If they are in a unit, the unit may still break and flee as normal, while the target remains in combat.]
 
 #spell("PORTENT OF DOOM", 2, cast: "8+")[_Portent of Doom_ is a *hex* spell with a range of 24". The target must re-roll all 6's when rolling To Hit, To Wound and armour saves until the start of the caster's next Magic phase.]
 
-#spell("THE SAPPHIRE ARCH", 3, cast: "8+")[_The Sapphire Arch_ is a *conveyance* spell with a range of 24". The target is immediately picked up and removed from the battlefield. The unit will then emerge anywhere on the table at the start of your next Magic phase, just like a summoning spell.]
+#spell("THE SAPPHIRE ARCH", 3, cast: "8+")[_The Sapphire Arch_ is a *conveyance* spell with a range of 24". The target is immediately picked up and removed from the battlefield. The next time a friendly Wizard casts this spell, the unit may emerge anywhere on the table, just like a summoning spell. If the unit has not emerged by the end of the game, it is removed as casualties.]
 
 #spell("STORM OF CRONOS", 3, cast: "9+")[_Storm of Cronos_ is a *direct damage* spell that targets all enemy units within 18" of the Wizard's front arc. Each target suffers D6 Strength 4 hits.]
 
@@ -4840,7 +4880,7 @@ Remains in play. _Throne of Vines_ is an *augment* spell cast upon the Wizard. W
 
 #spell("COMET OF CASANDORA", 4, cast: "12+")[_Comet of Casandora_ is a *summoning area* spell with a range of 36". Place a suitable marker over the target. Once cast, the comet cannot be dispelled. For as long as the spell lasts, the player rolls a D6 at the start of each player's following Magic phase. On a score of 1\-3 nothing happens, but place another marker on the first. On the score of a 4\-6 the comet strikes the spot. All units from either side that are within 2D6" of the marker take 2D6 Strength 4 Hits. Add the number of markers on the comet to the distance, hits and Strength. After the comet has struck, the markers are removed and the spell ends.]
 
-#spell("CHAIN LIGHTNING", 4, cast: "13+")[_Chain Lightning_ is a *direct damage* spell with a range of 24" that causes D6 Strength 5 hits with the Lightning Attacks special rule. Once the damage has been resolved, roll a D6; on a 2+, another enemy unit within 6" of the initial target also suffers D6 hits. Keep rolling for further enemies within 6" of the previous unit. Every time a new unit is struck the requirement increases by +1, so you require to roll a 3+ the second time, a 4+ the third time and so on. Proceed to keep rolling a D6 until you fail (a 6 always succeeds) or there are no more viable targets. A unit can only be the target of Chain Lightning once per Magic phase.]
+#spell("CHAIN LIGHTNING", 4, cast: "13+")[_Chain Lightning_ is a *direct damage* spell with a range of 24" that causes D6 Strength 5 hits with the Lightning Attacks special rule. Once the damage has been resolved, roll a D6; on a 2+, another enemy unit within 6" of the initial target also suffers D6 hits. Keep rolling for further enemies within 6" of the previous unit. Every time a new unit is struck the requirement increases by +1, so you require to roll a 3+ the second time, a 4+ the third time and so on. Proceed to keep rolling a D6 until you fail or there are no more viable targets. A unit can only be the target of Chain Lightning once per Magic phase.]
 
 #spell("THORSEN'S THUNDERSTORM", 4, cast: "15+")[Remains in play. _Thorsen's Thunderstorm_ is a *magical vortex* that uses the small round template. Any model touched by the template at any point during its move suffer a Strength 4 hit with the Lightning Attacks special rule.]
 ]
@@ -4876,7 +4916,7 @@ Remains in play. _Throne of Vines_ is an *augment* spell cast upon the Wizard. W
 ]
 #lore("THE LORE OF SHADOW")[
 
-#spell("STEED OF SHADOWS", "Lore Attribute")[After a spell from the Lore of Shadow is successfully cast and resolved, the caster can choose to immediately make a normal move using the Fly special rule as if it were the Remaining Moves sub-phase. The Fly move is equal to 10 minus the model's Line of Sight value.]
+#spell("STEED OF SHADOWS", "Lore Attribute")[After a spell from the Lore of Shadow is successfully cast and resolved, the caster can choose to immediately make a normal move using the Fly (10) special rule as if it were the Remaining Moves sub-phase.]
 
 #spell("MELKOTH'S MYSTIFYING MIASMA", "Signature Spell", cast: "5+")[_Melkoth's Mystifying Miasma_ is a *hex* spell with a range of 24". The target unit's Weapon Skill, Ballistic Skill, Initiative or Movement (you choose which) is reduced by D3 (to a minimum of 1) until the start of the caster's next Magic phase.]
 
@@ -4890,45 +4930,45 @@ Remains in play. _Throne of Vines_ is an *augment* spell cast upon the Wizard. W
 
 #spell("THE WITHERING", 2, cast: "7+")[Remains in play. _The Withering_ is a *hex* spell with a range of 24". While the spell is in effect, all models in the target unit have their Toughness reduced by 1 (to a minimum of 1).]
 
-#spell("THE DANCE OF DESPAIR", 2, cast: "8+")[Remains in play. _The Dance of Despair_ is a *hex* spell with a range of 24". While the spell is in effect, the target must move straight forward using the Random Movement (2D6) special rule.]
+#spell("THE DANCE OF DESPAIR", 2, cast: "7+")[Remains in play. _The Dance of Despair_ is a *hex* spell with a range of 24". While the spell is in effect, the target must move straight forward using the Random Movement (2D6) special rule.]
 
-#spell("CROWN OF TAIDRON", 3, cast: "9+")[_Crown of Taidron_ is a *direct damage aura* spell with a range of 12". Each affected unit suffers D6 Strength 4 Hits.]
+#spell("CROWN OF TAIDRON", 3, cast: "9+")[_Crown of Taidron_ is a *hex aura* spell with a range of 12". Each affected unit suffers D6 Strength 4 Hits.]
 
 #spell("UNSEEN LURKER", 3, cast: "10+")[_Unseen Lurker_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, units can only draw Line of Sight to the target if they are within 8", though the unit still blocks Line of Sight as normal.]
 
 #spell("BRIDGE OF SHADOWS", 3, cast: "12+")[_Bridge of Shadows_ is a *conveyance* spell with a range of 12". The target is immediately picked up and may be moved to any position on the battlefield within 18" of their original position, just like a summoning spell.]
 
-#spell("OKKAM'S MINDRAZOR", 4, cast: "12+")[_Okkam's Mindrazor_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, the target unit (except mounts) gain the Magical Attacks special rule and use their Leadership instead of Strength when rolling To Wound with all close combat attacks (any Strength bonuses from weapons are ignored). Armour saves are taken and modified by the Attack's actual Strength value.]
+#spell("OKKAM'S MINDRAZOR", 4, cast: "12+")[_Okkam's Mindrazor_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, the target unit (except mounts) use their Leadership instead of Strength when rolling To Wound with all close combat attacks (any Strength bonuses from weapons are ignored). Armour saves are taken and modified by the Attack's actual Strength value.]
 
-#spell("THE PENUMBRAL PENDULUM", 4, cast: "13+")[_The Penumbral Pendulum_ is a *direct damage area* spell that uses the line template. Place it 18" in length, directly away from the caster's front arc. Each model in the way suffers a Strength 10 Hit with the Multiple Wounds (D3) special rule.]
+#spell("THE PENUMBRAL PENDULUM", 4, cast: "13+")[_The Penumbral Pendulum_ is a *direct damage area* spell that uses the line template. Place it 18" in length, directly away from the caster. Each model in the way suffers a Strength 10 Hit with the Multiple Wounds (D3) special rule.]
 
 #spell("PIT OF SHADES", 4, cast: "15+")[_Pit of Shades_ is a *direct damage area* spell with a range of 24" that uses the small round template. All models under the template must roll a D6 per Wound on their profile – for each roll of a 4+ they suffer a Wound which Ignores Armour Saves and Regeneration.]
 ]
 #lore("THE LORE OF DEATH")[
 
-#spell("LIFE LEECHING", "Lore Attribute")[When a Lore of Death spell is successfully cast, roll a D6 for each unsaved wound caused by the spell this turn. For each 6+ rolled on these additional dice, the Wizard immediately adds a dice to their army's power pool (to a maximum of +3 dice per spell).]
+#spell("LIFE LEECHING", "Lore Attribute")[When a Lore of Death spell is successfully cast, roll a D6 for each unsaved wound caused by the spell. For each 6+ rolled on these additional dice, the Wizard immediately adds a dice to their army's power pool (to a maximum of +3 dice per spell).]
 
 #spell("DARK HAND OF DEATH", "Signature Spell", cast: "6+")[_Dark Hand of Death_ is a *magic missile* with a range of 18" that causes D6 Strength 3 hits with the Ignores Armour Saves special rule.]
 
-#spell("DEATH DEALER", 1, cast: "5+")[_Death Dealer_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, the target unit gains the Fear special rule. In addition, any model in the target unit that is slain in close combat may immediately make an additional Attack, even if they have already attacked this turn.]
+#spell("DEATH DEALER", 1, cast: "5+")[_Death Dealer_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, any model that is slain in close combat may immediately make an additional Attack, even if they have already attacked this turn.]
 
 #spell("THE CARESS OF LANIPH", 1, cast: "6+")[_The Caress of Laniph_ is a *direct damage* spell with a range of 12" that targets a single enemy model (even a character in a unit). The target must take D6 Strength tests. Each failed Strength test causes a Wound which Ignores Armour Saves.]
 
-#spell("SPIRIT LEECH", 1, cast: "7+")[_Spirit Leech_ is a *hex* spell with a range of 18" that targets a single enemy Monstrous Creature, Monster or character (even in a unit). Both caster and target roll a D6 and add their respective Leadership values. For each point the caster scores higher, the target suffers a \-1 penalty to their Strength and Toughness (to a minimum of 1) for the remainder of the battle.]
+#spell("SPIRIT LEECH", 1, cast: "6+")[_Spirit Leech_ is a *hex* spell with a range of 18" that targets a single enemy Monstrous Creature, Monster or character (even in a unit). Both caster and target roll a D6 and add their respective Leadership values. If the caster scores higher, the target suffers a \-1 penalty to their Strength and Toughness for the remainder of the battle.]
 
 #spell("THE CHOKING FOE", 2, cast: "8+")[Remains in play. _The Choking Foe_ is a *hex* spell with a range of 24". At the end of each Magic phase, the target must take a Leadership test, suffering a Wound which Ignores Armour Saves for every point by which the test is failed. Each subsequent test has a \-1 penalty which is cumulative, so the third test has a \-2 penalty, and so on.]
 
 #spell("WIND OF DEATH", 2, cast: "8+")[_Wind of Death_ is a *magic missile* with a range of 18" that causes 2D6 Strength 4 hits.]
 
-#spell("DRAIN LIFE", 2, cast: "9+")[_Drain Life_ is a *direct damage aura* spell with a range of 12". Each affected unit suffers D6 Strength 2 Hits with the Ignores Armour Saves special rule. For every unsaved To Wound roll of 6, the caster may restore 1 Wound lost earlier during the game.]
+#spell("DRAIN LIFE", 2, cast: "9+")[_Drain Life_ is a *hex aura* spell with a range of 12". Each affected unit suffers D6 Strength 2 Hits with the Ignores Armour Saves special rule. For every unsaved To Wound roll of 6, the caster may restore 1 Wound lost earlier during the game.]
 
-#spell("SCYTHE OF SHYISH", 3, cast: "9+")[_Scythe of Shyish_ is a *direct damage* spell with range of 18". Each model in the unit's front rank suffers a Strength 5 Hit ("Look Out Sir!" may still be used).]
+#spell("SCYTHE OF SHYISH", 3, cast: "9+")[_Scythe of Shyish_ is a *direct damage* spell with range of 12". Each model in the unit's front rank suffers a Strength 5 Hit ("Look Out Sir!" may still be used).]
 
 #spell("DOOM AND DARKNESS", 3, cast: "10+")[Remains in play. _Doom and Darkness_ is a *hex* spell with a range of 24". The target suffers a \-3 penalty to its Leadership.]
 
-#spell("ASHES AND DUST", 3, cast: "11+")[_Ashes and Dust_ is a *direct damage area* spell with a range of 18" that uses the small round template. All models under the template must roll a D6 per Wound on their profile – for each roll of a 4+ they suffer a Wound which Ignores Armour Saves and Regeneration.]
+#spell("ASHES AND DUST", 3, cast: "11+")[_Ashes and Dust_ is a *direct damage area* spell with a range of 18" that uses the small round template. All models under the template suffer a Strength 3 hit with the Ignores Armour Saves special rule.]
 
-#spell("THE FATE OF BJUNA", 4, cast: "12+")[Remains in Play. _The Fate of Bjuna_ is a *direct damage* spell with a range of 12" that targets a single enemy model (even a character in a unit). While the spell is in effect, the target suffers a number of hits equal to the model's current number of Wounds at the end of each of Magic phase. Each hit Wound on a 4+ with the Ignores Armour Saves special rule.]
+#spell("THE FATE OF BJUNA", 4, cast: "12+")[_The Fate of Bjuna_ is a *direct damage* spell with a range of 12" that targets a single enemy model (even a character in a unit). The target suffers a number of hits equal to the model's current number of Wounds. Each hit Wound on a 4+ with the Ignores Armour Saves special rule.]
 
 #spell("SOULBLIGHT", 4, cast: "12+")[_Soulblight_ is a *hex* spell with a range of 24". The target has \-1 Strength and \-1 Toughness (to a minimum of 1) until the start of the caster's next Magic phase.]
 
