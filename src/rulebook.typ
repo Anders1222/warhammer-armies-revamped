@@ -4759,7 +4759,7 @@ Standards can only be carried by a standard bearer, as shown in the army list in
 
 #spell("LEAF FALL", 2, cast: "7+")[_Leaf Fall_ is an *augment aura* spell with a range of 6". All missile attacks targeting the affected units suffer a \-1 To Hit penalty until the start of the caster's next Magic phase.]
 
-#spell("GIFT OF LIFE", 2, cast: "8+")[_Gift of Life_ is an *augment* spell with a range of 18" that can be cast on a single model. The target instantly recovers D3 Wounds suffered earlier in the battle.]
+#spell("VERDANT APOTHEOSIS", 2, cast: "8+")[_Verdant Apotheosis_ is an *augment* spell with a range of 18" that can be cast on a single model. The target instantly recovers D3 Wounds suffered earlier in the battle.]
 
 #spell("THRONE OF VINES", 3, cast: "8+")[
 Remains in play. _Throne of Vines_ is an *augment* spell cast upon the Wizard. While the spell is in effect, the Wizard's castings of the following spells have the benefits given below instead of their normal values (it does not change the effects of spells that have already been cast):
@@ -4769,7 +4769,7 @@ Remains in play. _Throne of Vines_ is an *augment* spell cast upon the Wizard. W
 - Awakening of the Wood Hits causes Strength 5 hits.
 - Flesh to Stone grants +2 Toughness.
 - The Cloak of Dain ignores the first D6 hits.
-- Gift of Life restores D3+1 Wounds.
+- Verdant Apotheosis restores D3+1 Wounds.
 - Barkskin grants Natural Armour (4+).
 - Regrowth restores 2D6 Wound's worth of models.
 ]
