@@ -1205,7 +1205,7 @@ Then proceed to the next unit that is shooting and continue as above until you h
 
 A model may not shoot in the following scenarios:
 
-- They marched or reformed in the preceding Movement phase.
+- They marched in the preceding Movement phase.
 - They rallied or declared a charge.
 - They are fighting in close combat.
 - They are fleeing.
@@ -1213,7 +1213,7 @@ A model may not shoot in the following scenarios:
 
 #namecost("WHAT IS A MISSILE ATTACK?", "")
 
-A missile attack is any attack that is performed from a distance, including shots from weapons, but also template weapons as well as magic missiles (but not direct damage spells or magical vortexes).
+A missile attack is any attack that is performed from a distance during the Shooting phase, including shots from weapons, but also template weapons as well as magic missiles (but not direct damage spells or magical vortexes).
 
 == 2. CHOOSE A TARGET
 
@@ -1223,13 +1223,15 @@ Now you've chosen the unit that will make the shooting attack, you need to choos
 
 === FIRE IN TWO RANKS
 
-All units in the game may fire with their first two ranks. Models further back than the second rank cannot shoot unless specified, regardless of the Line of Sight value of the target.
+The rules given above allow front rank models to shoot, but we also want to allow models in the second rank to shoot (they take aim over crouched or stooping fellows in the front rank). Therefore, models in the second rank can use the line of sight and forward arc of the model directly in front of them for the purposes of all shooting attacks (including stand and shoot reactions). In simple terms, this allows units to fire in two ranks.
+
+Models further back than the second rank of a unit are assumed to have their line of sight blocked by models further forward, and so will not normally be able to shoot, regardless of the Line of Sight value of the target.
 
 === CHECK THE TARGET IS IN RANGE
 
 All missile weapons have a maximum range that indicates the furthest distance they can shoot. A detailed summary of shooting weapons and their ranges can be found in the Weapons & Armour chapter.
 
-A model can normally only shoot at a target if it lies within the maximum range of the weapon it is shooting with.
+A model can normally only shoot at a target if it lies within the maximum range of the weapon it is shooting with. The one exception to this is when a unit Stands and Shoots – here we assume that the charging enemy has entered the weapons' range before the unit shoots.
 
 === WE CANNOT ALL FIRE
 
@@ -1267,30 +1269,26 @@ Each dice that rolls a number equal to or greater than the value required has sc
 
 #namecost("7+ TO HIT", "")
 
-If the required To Hit score is 7 or more, it is still possible to hit the target. As it is impossible to roll a 7 or better on a D6, you will first need to roll a 6. Then, for each shot scoring a 6, you need to roll a further score as shown on the chart below. So, for example, in order to score an 8, you must first roll a 6 followed by a 5 or better.
+If the required To Hit score is 7 or more, it is still possible to hit the target. As it is impossible to roll a 7 or better on a D6, you will first need to roll a 6. Then, for each shot scoring a 6, you need to roll a further score as shown on the chart below. So, for example, in order to score an 8, you must first roll a 6 followed by a 5 or better. If you require a score of 10 or more then it is impossible to hit the intended target – the shots are lost.
 
-#chart((("To Hit Score", "Requirement to Hit:"), ("7", "6 followed by a 2+"), ("8", "6 followed by a 3+"), ("9", "6 followed by a 4+"), ("10+", "6 followed by a 5+")))
+#chart((("To Hit Score", "Requirement to Hit:"), ("7", "6 followed by a 4+"), ("8", "6 followed by a 5+"), ("9", "6 followed by a 6"), ("10+", "Impossible!")))
 #chartlabel("BALLISTIC SKILL OF 6+")
 
-Troops with a high BS have a To Hit score of 1, 0 or even a negative number (as shown above). If shooting modifiers result in a required score of 1 or less, the model has an increased change to hit the target. If the model first fails To Hit, they may re-roll the result as shown on the chart below:
+Troops with a high BS have a To Hit score of 1, 0 or even a negative number (as shown above). If shooting modifiers result in a required score of 1 or less, the model has an increased change to hit the target. If the model first rolls a 1 To Hit, they may re-roll the result as shown on the chart below:
 
 *Ballistic Skill Requirement to Hit on re-roll: 6* 6 *7* 5+ *8* 4+ *9* 3+ *10* 2+
 
 === SHOOTING MODIFIERS
 
-Shooting modifiers are applied to the dice rolls before they are compared to the score needed to hit, making the shot either easier or more difficult. The shooting modifiers are cumulative (except when noted otherwise).
+Shooting modifiers are applied to the dice rolls before they are compared to the score needed to hit, making the shot more difficult, and therefore less likely to succeed. The shooting modifiers are cumulative (except when noted otherwise).
 
 #namecost("MOVING AND SHOOTING", "")
 
 Models that moved for any reason (including rallying, reforming, pivoting on the spot or special rule that forces them to move as a compulsory action) during this turn suffer a \-1 to Hit modifier. Lone Models can pivot on the spot and fire in the same turn without suffering this penalty.
 
-#namecost("LONG RANGE", "")
-
-Any shots taken at an enemy that are at long range suffer a \-1 to Hit modifier. This is described for each weapon in the Weapons & Armour chapter.
-
 #namecost("STAND & SHOOT", "")
 
-Models that are making a Stand & Shoot reaction suffer a \-1 to Hit modifier, but ignore penalties from long range.
+Models that are making a Stand & Shoot reaction suffer a \-1 to Hit modifier.
 
 #namecost("LONE MODEL", "")
 
@@ -1301,8 +1299,6 @@ Any shots taken at a Lone Model with Unit Strength 2 or less suffer a \-1 to Hit
 If the majority of the models in the target unit are within Line of Sight, but behind models from another unit (friend or enemy) or terrain with half or more as high Line of Sight value as them, then an additional To Hit modifier is applied.
 
 For example, a unit where the majority of the models have a Line of Sight value of 1 in front of a unit where the majority of the models have a Line of Sight value of 2 will provide cover. However, the same unit will not provide cover to a unit whose majority of models have a Line of Sight value of 3 or higher. This works the other way around as well, so a model with a Line of Sight value of 3 will ignore the cover otherwise gained by a model with a Line of Sight value of 2 behind a model with a Line of Sight value of 1.
-
-Models with a Line of Sight value of 0 does not offer any cover to anything with a higher Line of Sight value.
 
 Cover will be classed as either soft or hard cover – see below. It is common for some models in the firing unit to have something in the way, and for others to have a clear shot. Where this happens, simply resolve the two sets of shots (and thus the two sets of To Hit modifiers) separately.
 
@@ -1322,9 +1318,7 @@ There are multiple special rules that affect a model's shooting modifier. These 
 
 Some unusual attacks (most commonly those made by magic missiles, but also many special rules) hit automatically. Where this is the case, it is exactly how it sounds – do not roll for the attack, it instead automatically causes the number of hits stated within the wording.
 
-In the boxes where there are two values listed, this means that in order to successfully score a Wound, you must first roll a 6, followed by another D6. In situations where the roll might have a modifier to it, this primarily affects the second roll before the first. For example, a Strength 2 Attack with a +1 modifier treats Toughness 5 as only requiring to roll a 6+ To Wound, rather than a 6+ followed by a 2+.
-
-When a unit has multiple toughness values you use the value of the majority or in the case of a tie, the best tied value, unless specified otherwise.
+When a unit has multiple toughness values or armour saves you use the value of the majority or in the case of a tie, the best tied value, unless specified otherwise.
 
 #namecost("Resolving Unusual Attacks", "")
 
@@ -1338,10 +1332,10 @@ The only exceptions are hits caused by close combat attacks – these are discus
 
 To determine whether a hit causes a wound, compare the weapon's Strength (not the Strength of the firer) with the target's Toughness characteristic. Each weapon has a Strength value, given in that weapon's description in the Weapon & Armour chapter.
 
-Pick up all the dice that have hit, and roll them again. Then, consult the To Wound chart, cross-referencing the weapon's Strength (S) with the target's Toughness (T). The number indicated is the minimum score on a D6 needed to convert the hit into a wound. Any dice that equal or beat the score shown on the chart have successfully scored a wound. A To Wound roll of a 1 on a D6 always fails, regardless of any dice modifiers.
+Pick up all the dice that have hit, and roll them again. Then, consult the To Wound chart, cross-referencing the weapon's Strength (S) with the target's Toughness (T). The number indicated is the minimum score on a D6 needed to convert the hit into a wound. Any dice that equal or beat the score shown on the chart have successfully scored a wound. A To Wound roll of a 1 on a D6 always fails and a roll of 6 always succeeds, regardless of any dice modifiers.
 
 #chartlabel("TARGET'S TOUGHNESS")
-#chart((("", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"), ("1", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+", "6+/6+", "n/a", "n/a"), ("2", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+", "6+/6+", "n/a"), ("3", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+", "6+/6+"), ("4", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+"), ("5", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+"), ("6", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+"), ("7", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+"), ("8", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+"), ("9", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+"), ("10", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+")))
+#chart((("", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"), ("1", "4+", "5+", "6+", "6+", "6+", "6+", "6+", "6+", "6+", "6+"), ("2", "3+", "4+", "5+", "6+", "6+", "6+", "6+", "6+", "6+", "6+"), ("3", "2+", "3+", "4+", "5+", "6+", "6+", "6+", "6+", "6+", "6+"), ("4", "2+", "2+", "3+", "4+", "5+", "6+", "6+", "6+", "6+", "6+"), ("5", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+", "6+", "6+"), ("6", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+", "6+"), ("7", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+"), ("8", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+"), ("9", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+"), ("10", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+")))
 #chartlabel("ATTACKER'S STRENGTH")
 
 == 5. SAVING THROWS
@@ -1356,9 +1350,9 @@ All saves from various equipment or special rules are cumulative, so you can com
 
 For example, a model with a 6+ save (or +1) that adds a piece of equipment that gives a 5+ save (or +2), will have a total of a 4+ save (or +3).
 
-Note that a save of any kind can never be better than 2+. This does not prevent a model having items or special rules that would take the save even lower, it simply caps the saving throw at 2+.
+Note that a save of any kind can never be better than 1+. This does not prevent a model having items or special rules that would take the save even lower, it simply caps the saving throw at 1+. Also, remember that a roll of 1 is always a failure.
 
-#chart((("Save modifier:", "Save:"), ("+1", "6+"), ("+2", "5+"), ("+3", "4+"), ("+4", "3+"), ("+5", "2+")))
+#chart((("Save modifier:", "Save:"), ("+1", "6+"), ("+2", "5+"), ("+3", "4+"), ("+4", "3+"), ("+5", "2+"), ("+6", "1+")))
 
 === NEGATIVE ARMOUR SAVE MODIFIERS
 
