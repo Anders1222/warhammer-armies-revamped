@@ -4786,7 +4786,7 @@ Remains in play. _Throne of Vines_ is an *augment* spell cast upon the Wizard. W
 ]
 #lore("THE LORE OF BEASTS")[
 
-#spell("WILDHEART", "Lore Attribute")[A Wizard casting a spell from the Lore of Beasts gains +1 to cast if the target(s) contains one or more War Beast, Cavalry, Monstrous Beast, Monstrous Cavalry, Monstrous Creature, Monster, Chariot (Chariots that are not drawn are not included), Swarm, or Beastman.]
+#spell("WILDHEART", "Lore Attribute")[A Wizard casting a spell from the Lore of Beasts gains +1 to cast if the target(s) contains one or more War Beast, Cavalry, Monstrous Beast, Monstrous Cavalry, Monstrous Creature, Monster, Chariot (Chariots that are not drawn are not included), Swarm (Animal) or Beastman.]
 
 #spell("WYSSAN'S WILDFORM", "Signature Spell", cast: "5+")[_Wyssan's Wildform_ is an *augment* spell with a range of 18". The target unit may re-roll failed rolls To Wound in close combat until the start of the caster's next Magic phase.]
 
@@ -4800,13 +4800,13 @@ Remains in play. _Throne of Vines_ is an *augment* spell cast upon the Wizard. W
 
 #spell("HUNTER'S MOONS", 2, cast: "7+")[Hunter's Moons is an *augment aura* spell with a range of 12". All affected units gain the Swiftstride special rule and may re-roll any failed charge or pursuit roll until the start of the caster's next Magic phase.]
 
-#spell("THE VENGEFUL HOOD", 2, cast: "8+")[_The Vengeful Hood_ is an *augment* spell with a range of 18". The target gains the Magical Ward (6+) special rule in close combat until the start of the caster's next Magic phase. For each successful Magical Ward save roll of 6, the attacking model/unit suffers a Wound themselves which Ignores Armour Saves.]
+#spell("THE VENGEFUL HOOD", 2, cast: "8+")[_The Vengeful Hood_ is an *augment* spell with a range of 18". The target gains the Magical Ward (6+) special rule in close combat until the start of the caster's next Magic phase. For each successful Magical Ward save roll of 6, the attacking model/unit suffers a Wound themselves (saves taken as normal using the Strength of the attacking model).]
 
-#spell("THE CURSE OF ANRAHEIR", 3, cast: "9+")[_The Curse of Anraheir_ is a *hex* spell with a range of 30". The target unit suffers a \-1 penalty to its To Hit rolls with both missile and close combat attacks until the start of the caster's next Magic phase. In addition, the unit treats all terrain (other than Impassable Terrain) as Dangerous Terrain. Models already in Dangerous Terrain counts it as Deadly Terrain.]
+#spell("THE CURSE OF ANRAHEIR", 3, cast: "9+")[_The Curse of Anraheir_ is a *hex* spell with a range of 30". The target unit suffers a \-1 penalty to its To Hit rolls with both missile and close combat attacks until the start of the caster's next Magic phase. In addition, the unit treats all terrain (other than Impassable Terrain) as Dangerous Terrain. Tests in terrain that is already Dangerous Terrain will fail the tests on a 1 or 2, rather than a 1.]
 
-#spell("THE SAVAGE BEAST OF HORROS", 3, cast: "10+")[_The Savage Beast of Horros_ is an *augment* spell with a range of 18" that is cast on a Character, Monstrous Creature or Monster, which can be the Wizard itself. The target model gains +3 Strength and +3 Attacks until the start of the caster's next Magic phase. If a Character is mounted, you must choose if the rider or the mount is affected by the spell. For other ridden Monsters, the riders are never affected.]
+#spell("THE SAVAGE BEAST OF HORROS", 3, cast: "10+")[_The Savage Beast of Horros_ is an *augment* spell with a range of 18" that is cast on a Character, Monstrous Creature or Monster, which can be the Wizard itself. The target model (but not any mount) gains +3 Strength and +3 Attacks until the start of the caster's next Magic phase.]
 
-#spell("THE BEAST COWERS", 3, cast: "11+")[_The Beast Cowers_ is a *hex* spell with a range of 24". If the target contains any models mentioned in Wildheart, those models suffer \-1 to their Attack characteristic in close combat (only mounts are affected in the case of ridden models) and cannot voluntarily move until the start of the caster's next Magic phase.]
+#spell("THE BEAST COWERS", 3, cast: "11+")[_The Beast Cowers_ is a *hex* spell with a range of 24". If the target contains any models mentioned in Wildheart, those models suffer \-1 to their Attack characteristic in close combat (only mounts are affected in the case of ridden models) and cannot declare charges or pursue until the start of the caster's next Magic phase.]
 
 #spell("THE AMBER SPEAR", 4, cast: "12+")[_The Amber Spear_ is a *magic missile* with a range of 30". It inflicts a single Strength 7 hit with the Ignores Armour Saves and Multiple Wounds (D6) special rules that penetrates ranks in the same manner as a shot from a bolt thrower.]
 
