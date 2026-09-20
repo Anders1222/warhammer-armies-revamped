@@ -2976,7 +2976,7 @@ If a war machine fails a Panic or Terror test, it does not flee, but it cannot s
 
 All physical models in a unit should as much as possible be armed with the same weapon and armour type for ease of distinguishing their armament. Some variation is acceptable, but it should be clear to the opponent what sort of equipment a unit has. In case it might not be apparent at first glance, this should be clearly declared upon deploying the unit.
 
-If a model has more than one weapon, they must choose which weapon they want to use before resolving their attack. A model cannot choose to use two different weapons in the same shooting phase or close combat unless clearly specified. However, if the model has multiple crew or riders (like chariots or ridden monsters), each crew or rider may use one weapon each as normal. Whichever weapon they select must then be used for the entire close combat, unless the weapon they are using is somehow destroyed.
+If a model has more than one weapon, they must choose which weapon they want to use at the start of the shooting phase or close combat. A model cannot choose to use two different weapons in the same shooting phase or close combat unless clearly specified. However, if the model has multiple crew or riders (like chariots or ridden monsters), each crew or rider may use one weapon each as normal. Whichever weapon they select must then be used for the entire close combat, unless the weapon they are using is somehow destroyed.
 
 === WEAPON PROFILES
 
@@ -2984,15 +2984,13 @@ Each weapon confers a number of abilities onto the warrior wielding it. This wil
 
 Each weapon has its own characteristic profile. There are three sections to a weapon's profile: Range, Strength and Special Rules.
 
-*Range:* The range tells you at what distance the weapon can be used. If a weapon's range is 'combat' then it can only be used in close combat. If the range is a number of some kind, it is a missile weapon.
-
-Missile weapons typically have two ranges, such as 16/24". The first number represents the weapon's effective range and the second its maximum range. Shots fired beyond the weapon's effective range count as long range. Profiles that only have one range listed ignore penalties for long range.
+*Range:* The range tells you at what distance the weapon can be used. If a weapon's range is 'combat' then it can only be used in close combat. If the range is a number of some kind, it is a missile weapon and the number is its maximum range.
 
 Artillery weapons instead often have a minimum range, such as 12\-48". This means that the weapon cannot target units closer than 12", and must pick a target between 12\-48" instead.
 
 *Strength:* A weapon's Strength can take three forms. If the Strength is shown as a modifier, for example +1, then this is the modifier the weapon applies to the wielding model's Strength when attacking. If a weapon's Strength is shown as 'as user' then attacks made with the weapon use the wielder's own Strength. Alternatively, if a weapon has a fixed Strength, then all attacks made with that weapon use the Strength value shown – the wielder's Strength is ignored.
 
-*Special Rules:* Many weapons confer special abilities on the attacks made by the wielder, which are explained in the weapon profile. Note that any characteristics bonuses or penalties from weapons normally apply when the model actually attacks – they cannot be used for characteristic tests or spell effects etc. When a weapon does not say when the characteristic bonus applies, then it only applies when striking, or being struck, in close combat.
+*Special Rules:* Many weapons confer special abilities on the attacks made by the wielder, which are explained in the weapon profile. Any bonuses applied from a model's equipment only has an effect in the phases they are actually used. Note that any characteristics bonuses or penalties from weapons normally apply when the model actually attacks – they cannot be used for characteristic tests or spell effects etc. When a weapon does not say when the characteristic bonus applies, then it only applies when striking, or being struck, in close combat.
 
 == CLOSE COMBAT WEAPONS
 #namecost("HAND WEAPON", "")
@@ -3008,7 +3006,7 @@ Artillery weapons instead often have a minimum range, such as 12\-48". This mean
 #namecost("POLEARM", "")
 #minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user +1", "Requires Two Hands"))
 
-#note[_A model with a polearm gains +1 Initiative in the first round of close combat._]
+#note[_A model with a polearm gains +1 Initiative._]
 
 #namecost("GREAT WEAPON", "")
 #minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user +1", "Mighty Blow (1), Requires Two Hands"))
@@ -3018,18 +3016,18 @@ Artillery weapons instead often have a minimum range, such as 12\-48". This mean
 #namecost("FLAIL", "")
 #minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "Mighty Blow (2), Requires Two Hands"))
 #namecost("SPEAR", "")
-#minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "Fight in Extra Ranks (1), Mighty Blow (1)*, Requires Two Hands*"))
+#minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "+1 Initiative, Fight in Extra Ranks (1), Mighty Blow (1)*"))
 
-#note[_Model on foot only. A model with a spear gains +1 Initiative in the first round of close combat._]
+#note[_Model on foot only. In turns in which the model is charged to its front, it receives an additional +1 to its Initiative._]
 
-#note[_\*Only applies in turns the model is charged to its front, chose either Hold or Stand & Shoot as a charge reaction and the model chooses to use Requires Two Hands. Mighty Blow does not apply towards Infantry, Swarms and Shrines._]
+#note[_\*Only applies in turns the model is charged to its front. Mighty Blow does not apply towards Infantry, Large Infantry, Swarms and Shrines._]
 
 #namecost("PIKE", "")
-#minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "Fight in Extra Ranks (3), Mighty Blow (1)*, Requires Two Hands"))
+#minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "+2 Initiative, Fight in Extra Ranks (3), Mighty Blow (1)*, Requires Two Hands"))
 
-#note[_Model on foot only. A model with a pike gains +2 Initiative in the first round of close combat._]
+#note[_Model on foot only. In turns in which the model is charged to its front, it receives an additional +1 to its Initiative._]
 
-#note[_\*Only applies in turns the model is charged to its front and chose either Hold or Stand & Shoot as a charge reaction. Mighty Blow does not apply towards Infantry, Swarms and Shrines._]
+#note[_\*Only applies in turns the model is charged to its front. Mighty Blow does not apply towards Infantry, Large Infantry, Swarms and Shrines._]
 
 #namecost("LIGHT LANCE", "")
 #minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "Mighty Blow (1)*"))
@@ -3043,49 +3041,58 @@ Artillery weapons instead often have a minimum range, such as 12\-48". This mean
 
 == MISSILE WEAPONS
 #namecost("SHORTBOW", "")
-#minitable(("Range", "Strength", "Special Rules"), ("16/24\"", "3", "March & Shoot, Multiple Shots (2)*, Volley Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("18\"", "3", "Multiple Shots (2)*, Volley Fire"))
 
-\*_Only applies in turns the model has not marched. Cannot be used as a charge reaction._
+\*_Only applies in turns the model has not moved. Cannot be used as a charge reaction._
+
+#namecost("BOW", "")
+#minitable(("Range", "Strength", "Special Rules"), ("24\"", "3", "Multiple Shots (2)*, Volley Fire"))
+
+\*_Only applies in turns the model has not moved. Cannot be used as a charge reaction._
 
 #namecost("LONGBOW", "")
-#minitable(("Range", "Strength", "Special Rules"), ("24/36\"", "3", "Multiple Shots (2)*, Volley Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("30\"", "3", "Multiple Shots (2)*, Volley Fire"))
+
+\*_Only applies in turns the model has not moved. Cannot be used as a charge reaction._
+
+#namecost("WARBOW", "")
+#minitable(("Range", "Strength", "Special Rules"), ("30\"", "4", "Multiple Shots (2)*, Volley Fire"))
 
 \*_Only applies in turns the model has not moved. Cannot be used as a charge reaction._
 
 #namecost("GREATBOW", "")
-#minitable(("Range", "Strength", "Special Rules"), ("28/42\"", "As user +1", "Multiple Shots (2)*, Volley Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("36\"", "5", "Multiple Shots (2)*, Volley Fire"))
 
 \*_Only applies in turns the model has not moved. Cannot be used as a charge reaction._
 
 #namecost("CROSSBOW", "")
-#minitable(("Range", "Strength", "Special Rules"), ("24/36\"", "4", "Ponderous"))
+#minitable(("Range", "Strength", "Special Rules"), ("30\"", "4", "Ponderous"))
 #namecost("HANDGUN", "")
-#minitable(("Range", "Strength", "Special Rules"), ("12/24\"", "5", "Ponderous"))
+#minitable(("Range", "Strength", "Special Rules"), ("24\"", "4", "Armour Piercing (1), Ponderous"))
 #namecost("SLING", "")
-#minitable(("Range", "Strength", "Special Rules"), ("15/30\"", "3", "Armour Piercing (1), Volley Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("18\"", "3", "Armour Piercing (1), Multiple Shots (2)*"))
+
+#note[_\*Only applies in turns the model has not moved. Cannot be used to Stand and Shoot._]
 #namecost("JAVELINS", "")
-#minitable(("Range", "Strength", "Special Rules"), ("10/15\"", "As user", "Armour Piercing (1), March & Shoot, Quick Shot"))
+#minitable(("Range", "Strength", "Special Rules"), ("12\"", "As user", "Armour Piercing (1), Quick to Fire, Volley Fire"))
 #namecost("BLOWPIPE", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/12\"", "2", "March & Shoot, Multiple Shots (3), Poisoned Attacks"))
+#minitable(("Range", "Strength", "Special Rules"), ("12\"", "1", "Multiple Shots (2), Poisoned Attacks, Quick to Fire, Rapid Fire"))
 #namecost("PISTOL", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/12\"", "5", "Multiple Shots (2)*, Quick Shot"))
+#minitable(("Range", "Strength", "Special Rules"), ("12\"", "4", "Armour Piercing (1), Multiple Shots (2)*, Quick to Fire"))
+
+#note[_In close combat, a pistol counts as an additional hand weapon that does not give the model the Parry special rule._]
 
 #note[_\*Requires a brace of pistols._]
 
 #namecost("BLUNDERBUSS", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/12\"", "4", "Multiple Shots (3), Rapid Fire, Quick Shot"))
+#minitable(("Range", "Strength", "Special Rules"), ("12\"", "3", "Armour Piercing (1), Multiple Shots (3), Quick to Fire, Rapid Fire"))
 
-#note[_Blunderbusses do not suffer a penalty To Hit for using Stand & Shoot as a charge reaction._]
-
-#namecost("GRENADES", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/9\"", "4", "Armour Piercing (1), March & Shoot, Quick Shot"))
-
-#note[_Each Hit from a grenade is multiplied into D3 Hits._]
+#note[_Blunderbusses do not suffer any penalties To Hit for Stand & Shoot._]
 
 #namecost("THROWING WEAPONS", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/9\"", "As user", "March & Shoot, Multiple Shots (2), Quick Shot"))
+#minitable(("Range", "Strength", "Special Rules"), ("8\"", "As user", "Multiple Shots (2), Quick to Fire"))
 #namecost("THROWING AXES", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/9\"", "As user +1", "March & Shoot, Quick Shot"))
+#minitable(("Range", "Strength", "Special Rules"), ("6\"", "As user +1", "Quick to Fire"))
 
 == ARMOUR
 
@@ -3121,13 +3128,13 @@ Below you will find rules for the most common types of artillery pieces in the g
 There are two different kinds of bolt thrower profiles, representing regular bolt throwers and repeater bolt throwers. Repeater bolt throwers can always choose to fire like regular bolt throwers if they wish.
 
 #namecost("BOLT THROWER", "")
-#minitable(("Range", "Strength", "Special Rules"), ("32/48\"", "6", "Armour Piercing (1), Cumbersome, Multiple Wounds (D3)"))
+#minitable(("Range", "Strength", "Special Rules"), ("48\"", "6", "Armour Piercing (1), Multiple Wounds (D3), Slow to Fire"))
 #namecost("REPEATER BOLT THROWER", "")
 #diagram("/assets/figures/rulebook/img-0565.jpg", 0.463)
 
 #note[_Up to four models can be killed by the shot of this bolt thrower. The Strength that each rank is hit at is shown next to it._]
 
-#minitable(("Range", "Strength", "Special Rules"), ("32/48\"", "4", "Armour Piercing (1), Cumbersome, Multiple Shots (6), Rapid Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("48\"", "4", "Armour Piercing (1), Multiple Shots (6), Rapid Fire, Slow to Fire"))
 #namecost("Firing a Bolt Thrower", "")
 
 To fire a bolt thrower, select a target according to the normal rules for shooting. Roll to hit using the crew's Ballistic Skill, just as you would for a normal missile weapon.
@@ -3136,17 +3143,25 @@ To fire a bolt thrower, select a target according to the normal rules for shooti
 
 If the target is a unit of five or more ranked-up models, the bolt will always strike a regular trooper (as opposed to a character in the unit) in the unit's first rank if the bolt thrower is in the unit's front arc, or the last rank if the bolt thrower is in the unit's rear arc. If the bolt thrower is in the target unit's flank, the target's files count as ranks for the purposes of resolving the shot.
 
-If the shot hits, resolve damage against the target using the bolt thrower's full Strength of 6. The bolt then hits one of the warriors in the rank behind with \-1 Strength (normally Strength 5). A model in the next rank is hit at \-2 Strength (normally Strength 4) and so on, until the unit runs out of ranks or the hit is reduced to Strength 0.
+If the shot hits, resolve damage against the target using the bolt thrower's full Strength of 6. The bolt then hits one of the warriors in the rank behind with \-1 Strength (normally Strength 5). A model in the next rank is hit at \-2 Strength (normally Strength 4) and so on, until the unit runs out of ranks.
+
+If the rank hit by the bolt is made entirely of characters, or if the total number of rank and file models in the unit is less than five, it will be necessary to randomise which model in the rank is hit.
 
 Note that repeating bolts do not pierce ranks.
 
 #note[_As the bolt thrower is in their flank arc, up to five models can be killed by its shot. The bolt thrower can see the cavalry unit, and so it can fire against them (with the hard cover modifier). If it hits, it will skewer the flank of the unit, as shown in the diagram, as it is in the knights' flank arc._]
 
 === CANNONS
-#minitable(("Range", "Strength", "Special Rules"), ("12-60\"", "10", "Cumbersome, Multiple Wounds (D6/D3)"))
+
+There are two different kinds of cannon profiles, representing the differing size and power of various cannons.
+
+#namecost("CANNON", "")
+#minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "10", "Multiple Wounds (D6/D3), Slow to Fire"))
+#namecost("GREAT CANNON", "")
+#minitable(("Range", "Strength", "Special Rules"), ("12-60\"", "10", "Multiple Wounds (D6), Slow to Fire"))
 #namecost("Firing a Cannon", "")
 
-To fire a cannon, first pivot to face the target following the normal rules for war machines. Then, nominate a model or building within the cannon's line of sight.
+To fire a cannon, first pivot to face the target following the normal rules for war machines. Then, nominate a model or building within the cannon's line of sight, outside of its minimum range and within its maximum range.
 
 When you have chosen your target, place a small marker over the centre of your target as a reminder of where the shot is intended to land.
 
@@ -3183,17 +3198,17 @@ The bounce of the cannonball is determined using the line template. On most occa
 
 #namecost("Direct Hit", "")
 
-Damage is resolved differently depending on whether or not the cannon ball hits a model directly or not. Normal Cannons have both the Multiple Wounds (D6) and (D3) special rules. It inflicts D6 Wounds only if the cannon ball lands directly on a model (that is, where the marker is placed after the first artillery and scatter dice are rolled), models hit by the bounce only suffer D3 Wounds. If a cannon only has one value of Multiple Wounds listed, it causes that damage on both direct hits and the bounce.
+Damage is resolved differently depending on whether or not the cannon ball hits a model directly or not. Normal Cannons have both the Multiple Wounds (D6) and (D3) special rules. It inflicts D6 Wounds only if the cannon ball lands directly on a model (that is, where the marker is placed after the first artillery and scatter dice are rolled), models hit by the bounce only suffer D3 Wounds. Great Cannons on the other hand, inflicts D6 Wounds on both direct hits and the bounce.
 
 #diagram("/assets/figures/rulebook/img-0569.jpg", 0.999)
 
-#note[_Initial position The cannonball lands right on target. The following bounce goes through all three ranks of the unit, scoring 3 hits. Initial position The cannonball strikes the large model and then go through the unit behind it._]
+#note[_Initial position The cannonball lands right on target. The following bounce goes through all three ranks of the unit, scoring 3 hits. Initial position The cannonball strikes the large model, but does not kill it, so the shot does not go through the unit behind._]
 
 #namecost("GRAPESHOT", "")
 
 Instead of firing normal shot, cannon crew can opt to fire grapeshot using the following profile:
 
-#minitable(("Range", "Strength", "Special Rules"), ("12\"", "5", "Cumbersome, Rapid Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("12\"", "5", "Armour Piercing (1), Slow to Fire"))
 #namecost("Firing Grapeshot", "")
 
 To fire grapeshot, select a target according to the normal rules for shooting. With the target chosen, roll an artillery dice and a D6 to find out how many shots are fired. If the artillery dice result is a misfire, roll a D6 on the Black Powder War Machine Misfire chart to find out what has gone wrong.
@@ -3201,7 +3216,7 @@ To fire grapeshot, select a target according to the normal rules for shooting. W
 Assuming that a misfire did not occur, roll to hit the target with a number of shots equal to the number rolled on the artillery dice plus the D6, resolving any successful hits using the grapeshot profile.
 
 === FIRE THROWERS
-#minitable(("Range", "Strength", "Special Rules"), ("-", "4", "Cumbersome, Flaming Attacks"))
+#minitable(("Range", "Strength", "Special Rules"), ("-", "5", "Flaming Attacks, Slow to Fire"))
 #namecost("Firing a Fire Thrower", "")
 
 Place the teardrop-shaped template with its narrow end touching the fire thrower barrel and the large end aimed at any enemy model or building in line of sight. Roll the artillery dice and move the template directly forward the number of inches indicated. Some fire throwers might also have a range value. In this case, place the template with its narrow end anywhere within this range, measured from the fire thrower barrel as normal.
@@ -3211,10 +3226,10 @@ All models underneath the template are hit automatically. A unit suffering any c
 If a misfire is rolled, roll immediately on the Black Powder Misfire chart.
 
 === ORGAN GUNS
-#minitable(("Range", "Strength", "Special Rules"), ("12/24\"", "5", "Cumbersome, Multiple Shots (Artillery Dice + 3D6), Rapid Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("24\"", "5", "Armour Piercing (1), Multiple Shots (Artillery Dice + D6), Rapid Fire, Slow to Fire"))
 #namecost("Firing an Organ Gun", "")
 
-To fire an organ gun, select a target according to the normal rules for shooting. Roll 3D6 and the Artillery Dice; the result is the number of shots fired. Roll to hit using the crew's Ballistic Skill, just as you would for a normal missile weapon.
+To fire an organ gun, select a target according to the normal rules for shooting. Roll a D6 and the Artillery Dice; the result is the number of shots fired. Roll to hit using the crew's Ballistic Skill, just as you would for a normal missile weapon.
 
 If a misfire is rolled, roll immediately on the Black Powder Misfire chart.
 
@@ -3223,23 +3238,23 @@ If a misfire is rolled, roll immediately on the Black Powder Misfire chart.
 There are three different kinds of trajectory weapon profiles, representing stone throwers, mortars and rocket launchers.
 
 #namecost("STONE THROWER", "")
-#minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "4(8)", "Cumbersome, Multiple Wounds (D3),"))
+#minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "4(8)", "Multiple Wounds (D3), Slow to Fire"))
 
 Stone throwers use the small round template by default.
 
 #namecost("MORTAR", "")
-#minitable(("Range", "Strength", "Special Rules"), ("12-60\"", "3(6)", "Armour Piercing (1), Cumbersome, Multiple Wounds (D3)"))
+#minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "3(6)", "Armour Piercing (1), Multiple Wounds (D3), Slow to Fire"))
 
 Mortars use the large round template by default.
 
 #namecost("ROCKET LAUNCHER", "")
-#minitable(("Range", "Strength", "Special Rules"), ("12-60\"", "4", "Cumbersome, Flaming Attacks"))
+#minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "4", "Flaming Attacks, Slow to Fire"))
 
-Rocket launchers use the large round template by default. They always count as firing indirectly (see next page).
+Rocket launchers use the large round template by default.
 
 #namecost("Firing a Trajectory Weapon", "")
 
-Nominate a model or building within the model's line of sight (ignoring other models within the same unit). Then, take the round template and place it with the centre directly over the target.
+Nominate a model or building within the model's line of sight (ignoring other models within the same unit), outside of its minimum range and within its maximum range. Then, take the round template and place it with the centre directly over the target.
 
 The template cannot be initially placed over friendly models, or enemy models from a unit that is engaged in combat.
 
@@ -3283,8 +3298,6 @@ If you wish to fire indirectly, declare that you will do so before taking the we
 If an arrow is rolled on the scatter dice, resolve the scatter as normal. If however, you roll a Hit! on the scatter dice, the shot does not land on target but merely scatters less – how much less depends greatly on the skill of the crew. The distance travelled is equal to the score shown on the artillery dice minus the crew's Ballistic Skill characteristic (to a minimum of 0).
 
 Other than the aforementioned inaccuracy of the scatter, an indirect shot from a trajectory weapon is treated exactly according to the rules given for normal shots given above.
-
-Note that a trajectory weapon that moves and fires the same turn is always considered to fire indirectly.
 
 = COMMAND GROUPS
 
