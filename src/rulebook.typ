@@ -4906,29 +4906,29 @@ Remains in play. _Throne of Vines_ is an *augment* spell cast upon the Wizard. W
 ]
 #lore("THE LORE OF DEATH")[
 
-#spell("LIFE LEECHING", "Lore Attribute")[When a Lore of Death spell is successfully cast, roll a D6 for each unsaved wound caused by the spell this turn. For each 6+ rolled on these additional dice, the Wizard immediately adds a dice to their army's power pool (to a maximum of +3 dice per spell).]
+#spell("LIFE LEECHING", "Lore Attribute")[When a Lore of Death spell is successfully cast, roll a D6 for each unsaved wound caused by the spell. For each 6+ rolled on these additional dice, the Wizard immediately adds a dice to their army's power pool (to a maximum of +3 dice per spell).]
 
 #spell("DARK HAND OF DEATH", "Signature Spell", cast: "6+")[_Dark Hand of Death_ is a *magic missile* with a range of 18" that causes D6 Strength 3 hits with the Ignores Armour Saves special rule.]
 
-#spell("DEATH DEALER", 1, cast: "5+")[_Death Dealer_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, the target unit gains the Fear special rule. In addition, any model in the target unit that is slain in close combat may immediately make an additional Attack, even if they have already attacked this turn.]
+#spell("DEATH DEALER", 1, cast: "5+")[_Death Dealer_ is an *augment* spell with a range of 18". Until the start of the caster's next Magic phase, any model that is slain in close combat may immediately make an additional Attack, even if they have already attacked this turn.]
 
 #spell("THE CARESS OF LANIPH", 1, cast: "6+")[_The Caress of Laniph_ is a *direct damage* spell with a range of 12" that targets a single enemy model (even a character in a unit). The target must take D6 Strength tests. Each failed Strength test causes a Wound which Ignores Armour Saves.]
 
-#spell("SPIRIT LEECH", 1, cast: "7+")[_Spirit Leech_ is a *hex* spell with a range of 18" that targets a single enemy Monstrous Creature, Monster or character (even in a unit). Both caster and target roll a D6 and add their respective Leadership values. For each point the caster scores higher, the target suffers a \-1 penalty to their Strength and Toughness (to a minimum of 1) for the remainder of the battle.]
+#spell("SPIRIT LEECH", 1, cast: "6+")[_Spirit Leech_ is a *hex* spell with a range of 18" that targets a single enemy Monstrous Creature, Monster or character (even in a unit). Both caster and target roll a D6 and add their respective Leadership values. If the caster scores higher, the target suffers a \-1 penalty to their Strength and Toughness for the remainder of the battle.]
 
 #spell("THE CHOKING FOE", 2, cast: "8+")[Remains in play. _The Choking Foe_ is a *hex* spell with a range of 24". At the end of each Magic phase, the target must take a Leadership test, suffering a Wound which Ignores Armour Saves for every point by which the test is failed. Each subsequent test has a \-1 penalty which is cumulative, so the third test has a \-2 penalty, and so on.]
 
 #spell("WIND OF DEATH", 2, cast: "8+")[_Wind of Death_ is a *magic missile* with a range of 18" that causes 2D6 Strength 4 hits.]
 
-#spell("DRAIN LIFE", 2, cast: "9+")[_Drain Life_ is a *direct damage aura* spell with a range of 12". Each affected unit suffers D6 Strength 2 Hits with the Ignores Armour Saves special rule. For every unsaved To Wound roll of 6, the caster may restore 1 Wound lost earlier during the game.]
+#spell("DRAIN LIFE", 2, cast: "9+")[_Drain Life_ is a *hex aura* spell with a range of 12". Each affected unit suffers D6 Strength 2 Hits with the Ignores Armour Saves special rule. For every unsaved To Wound roll of 6, the caster may restore 1 Wound lost earlier during the game.]
 
-#spell("SCYTHE OF SHYISH", 3, cast: "9+")[_Scythe of Shyish_ is a *direct damage* spell with range of 18". Each model in the unit's front rank suffers a Strength 5 Hit ("Look Out Sir!" may still be used).]
+#spell("SCYTHE OF SHYISH", 3, cast: "9+")[_Scythe of Shyish_ is a *direct damage* spell with range of 12". Each model in the unit's front rank suffers a Strength 5 Hit ("Look Out Sir!" may still be used).]
 
 #spell("DOOM AND DARKNESS", 3, cast: "10+")[Remains in play. _Doom and Darkness_ is a *hex* spell with a range of 24". The target suffers a \-3 penalty to its Leadership.]
 
-#spell("ASHES AND DUST", 3, cast: "11+")[_Ashes and Dust_ is a *direct damage area* spell with a range of 18" that uses the small round template. All models under the template must roll a D6 per Wound on their profile – for each roll of a 4+ they suffer a Wound which Ignores Armour Saves and Regeneration.]
+#spell("ASHES AND DUST", 3, cast: "11+")[_Ashes and Dust_ is a *direct damage area* spell with a range of 18" that uses the small round template. All models under the template suffer a Strength 3 hit with the Ignores Armour Saves special rule.]
 
-#spell("THE FATE OF BJUNA", 4, cast: "12+")[Remains in Play. _The Fate of Bjuna_ is a *direct damage* spell with a range of 12" that targets a single enemy model (even a character in a unit). While the spell is in effect, the target suffers a number of hits equal to the model's current number of Wounds at the end of each of Magic phase. Each hit Wound on a 4+ with the Ignores Armour Saves special rule.]
+#spell("THE FATE OF BJUNA", 4, cast: "12+")[_The Fate of Bjuna_ is a *direct damage* spell with a range of 12" that targets a single enemy model (even a character in a unit). The target suffers a number of hits equal to the model's current number of Wounds. Each hit Wound on a 4+ with the Ignores Armour Saves special rule.]
 
 #spell("SOULBLIGHT", 4, cast: "12+")[_Soulblight_ is a *hex* spell with a range of 24". The target has \-1 Strength and \-1 Toughness (to a minimum of 1) until the start of the caster's next Magic phase.]
 
