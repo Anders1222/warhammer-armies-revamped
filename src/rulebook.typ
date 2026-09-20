@@ -4725,19 +4725,19 @@ Standards can only be carried by a standard bearer, as shown in the army list in
 
 #spell("PLAGUE OF RUST", 1, cast: "6+")[_Plague of Rust_ is a *hex* with a range of 24". The target's armour save (excluding Natural Armour) is lowered by one point for the rest of the game. Plague of Rust can be repeatedly cast on the same target, reducing its armour save by a further \-1 each time.]
 
-#spell("COMMANDMENT OF BRASS", 2, cast: "7+")[_Commandment of Brass_ is a *hex* with a range of 24". If the target is a War Machine or a Chariot, they cannot move (unless it fails a break test) until the start of the caster's next Magic phase. If the target has an artillery weapon it cannot use this until the start of the caster's next Magic phase.]
+#spell("COMMANDMENT OF BRASS", 2, cast: "7+")[_Commandment of Brass_ is a *hex* with a range of 24". If the target is a War Machine or a Chariot, they cannot move (unless it fails a break test) until the start of the caster's next Magic phase. If the target has an Artillery weapon and/or is a War Machine it cannot shoot until the start of the caster's next Magic phase.]
 
 #spell("SILVER ARROWS OF ARHA", 2, cast: "7+")[_Silver Arrows of Arha_ is a *magic missile* with a range of 24" and causes 2D6 Strength 3 hits with the Armour Piercing (1) special rule.]
 
 #spell("ENCHANTED BLADES OF AIBAN", 2, cast: "8+")[_Enchanted Blades of Aiban_ is an *augment* spell with a range of 18". The target unit (except mounts) gains +1 To Hit, Armour Piercing (1) and the Magical Attacks special rules with all shooting and close combat attacks until the start of the caster's next Magic phase.]
 
-#spell("GEHENNA'S GOLDEN HOUNDS", 3, cast: "8+")[_Gehenna's Golden Hounds_ is a *direct damage* spell with a range of 12" that targets a single enemy model (even a character in a unit). The target suffers D6 Strength 4 hits.]
+#spell("GEHENNA'S GOLDEN HOUNDS", 3, cast: "8+")[_Gehenna's Golden Hounds_ is a *direct damage* spell with a range of 12" that targets a single enemy model (even a character in a unit). The target suffers D6 Strength 4 hits ("Look Out, Sir!" cannot be used).]
 
 #spell("TRANSMUTATION OF LEAD", 3, cast: "9+")[_Transmutation of Lead_ is a *hex* with a range of 24". The target suffers \-1 To Hit in close combat and with missile weapons, \-1 Movement and \-1 Initiative until the start of the caster's next Magic phase.]
 
 #spell("THE GILDED CAGE", 3, cast: "11+")[_The Gilded Cage_ is a *hex* with a range of 24" that can be cast on an unengaged unit. Until the start of the caster's next Magic phase, the target gains the Unbreakable special rule, cannot move and is treated as impassable terrain for the purpose of movement.]
 
-#spell("METEORIC IRONCLAD", 4, cast: "13+")[_Meteoric Ironclad_ is an *augment* spell with a range of 18". The target unit gains the Magical Ward (4+) special rule until the start of the caster's next Magic phase.]
+#spell("METEORIC IRONCLAD", 4, cast: "15+")[_Meteoric Ironclad_ is an *augment* spell with a range of 18". The target unit gains the Magical Ward (4+) special rule until the start of the caster's next Magic phase.]
 
 #spell("QUICKSILVER SWORDS", 4, cast: "13+")[_Quicksilver Swords_ is an *augment* spell with a range of 18". The target unit gains the Ignores Armour Saves and Magical Attacks special rules until the start of the caster's next Magic phase.]
 
