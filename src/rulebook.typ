@@ -4685,11 +4685,11 @@ Standards can only be carried by a standard bearer, as shown in the army list in
 
 #lore("THE LORE OF FIRE")[
 
-#spell("KINDLEFLAME", "Lore Attribute")[All of the spells in the Lore of Fire are Flaming Attacks. In addition, if a spell from the Lore of Fire inflicts hits on an enemy unit that has already been hit by a spell from the Lore of Fire in the same Magic phase (even if the spell was cast by a different Wizard) the spell inflicts an additional D3 Strength 4 hits on the unit.]
+#spell("KINDLEFLAME", "Lore Attribute")[All of the spells in the Lore of Fire are Flaming Attacks. In addition, if a spell from the Lore of Fire inflicts hits on an enemy unit that has already been hit by a spell from the Lore of Fire in the same Magic phase (even if the spell was cast by a different Wizard) the spell inflicts an additional D6 Strength 4 hits on the unit.]
 
 #spell("FIREBALL", "Signature Spell", cast: "6+")[_Fireball_ is a *magic missile* with a range of 30" that causes D6 Strength 4 hits.]
 
-#spell("CASCADING FIRE-CLOAK", 1, cast: "5+")[Remains in play. _Cascading Fire-Cloak_ is an *augment* spell with a range of 18". Each enemy unit in base contact with the target unit suffers 2D6 Strength 4 hits at the end of each Magic phase.]
+#spell("CASCADING FIRE-CLOAK", 1, cast: "5+")[Remains in play. _Cascading Fire-Cloak_ is an *augment* spell with a range of 18". Each enemy unit in base contact with the target unit immediately suffers 2D6 Strength 4 hits at the end of each Magic phase.]
 
 #spell("BREATHE FIRE", 1, cast: "6+")[_Breathe Fire_ is a *direct damage* spell. The caster makes a Breath Weapon attack. This may be cast in close combat, following the normal rules for Breath Weapons. All models Hit suffer a Strength 4 hit.]
 
@@ -4699,7 +4699,7 @@ Standards can only be carried by a standard bearer, as shown in the army list in
 
 #spell("SWELTERING HEAT", 2, cast: "7+")[Remains in play. _Sweltering Heat_ is a *hex* spell with a range of 24". Whenever the target charges, pursues or flees, it rolls an extra D6 and discards the highest result. While the spell is active, it suffers D6 Strength 3 hits at the end of each Magic phase.]
 
-#spell("THE BURNING HEAD", 2, cast: "9+")[_The Burning Head_ is a *direct damage area* spell that uses the line template. Place it 12" in length, with its starting point anywhere within 18" from the caster's front arc. Each model in the way suffers a Strength 4 hit. A unit that suffers one or more casualties from the spell must take a Panic test.]
+#spell("THE BURNING HEAD", 2, cast: "9+")[_The Burning Head_ is a *direct damage area* spell that uses the line template. Place it 12" in length, with its starting point anywhere within 18" from the caster. Each model in the way suffers a Strength 4 hit. A unit that suffers one or more casualties from the spell must take a Panic test.]
 
 #spell("FIERY BLAST", 3, cast: "9+")[_Fiery Blast_ is a *direct damage area* spell with a range of 24" that uses the small round template. All models under the template suffer a Strength 4 hit.]
 
