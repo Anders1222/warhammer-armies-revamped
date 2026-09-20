@@ -4822,17 +4822,17 @@ Remains in play. _Throne of Vines_ is an *augment* spell cast upon the Wizard. W
 
 #spell("AZURE BLADES", 1, cast: "5+")[Remains in play. _Azure Blades_ is an *augment* spell with a range of 18". Any enemy unit in base contact with the target suffers 3D6 Strength 3 hits at the end of each Magic phase.]
 
-#spell("STAR TIDES EBB", 1, cast: "5+")[_Star Tides Ebb_ is a *hex area* spell with a range of 24". Until the start of the caster's next magic phase, all spell casting attempts within this range that are not from the Lore of Heavens suffer a \-2 casting penalty.]
+#spell("STAR TIDES EBB", 1, cast: "5+")[_Star Tides Ebb_ is an *augment* spell that is cast on the Wizard itself. Until the start of the caster's next magic phase, all spells that are not from the Lore of Heavens suffer a \-2 penalty to cast within 24" of the Wizard.]
 
 #spell("CERULEAN SHIELD", 1, cast: "6+")[_Cerulean Shield_ is an *augment* spell with a range of 18". The target gains the Magical Ward (4+) special rule against non-magical missile attacks until the start of the caster's next Magic phase.]
 
 #spell("SIGN OF AMUL", 2, cast: "6+")[_Sign of Amul_ is an *augment* spell that targets the Wizard itself. You may re-roll any one of your dice until the start of the caster's next magic phase. This bonus is lost if the Wizard is slain before the re-roll is used.]
 
-#spell("CRYSTAL PRISON", 2, cast: "8+")[Remains in Play. _Crystal Prison_ is a *hex* spell with a range of 24". Choose a single enemy character, even in a unit. While the spell is in effect, the target cannot be harmed by any means and is Unbreakable. However, they also cannot move, shoot, fight in close combat or cast spells. If they are in a unit, the unit may still break and flee as normal, while the target remains in combat.]
+#spell("CRYSTAL PRISON", 2, cast: "7+")[Remains in Play. _Crystal Prison_ is a *hex* spell with a range of 24". Choose a single enemy character, even in a unit. While the spell is in effect, the target cannot be harmed by any means and is Unbreakable. However, they also cannot move, shoot, fight in close combat or cast spells. If they are in a unit, the unit may still break and flee as normal, while the target remains in combat.]
 
 #spell("PORTENT OF DOOM", 2, cast: "8+")[_Portent of Doom_ is a *hex* spell with a range of 24". The target must re-roll all 6's when rolling To Hit, To Wound and armour saves until the start of the caster's next Magic phase.]
 
-#spell("THE SAPPHIRE ARCH", 3, cast: "8+")[_The Sapphire Arch_ is a *conveyance* spell with a range of 24". The target is immediately picked up and removed from the battlefield. The unit will then emerge anywhere on the table at the start of your next Magic phase, just like a summoning spell.]
+#spell("THE SAPPHIRE ARCH", 3, cast: "8+")[_The Sapphire Arch_ is a *conveyance* spell with a range of 24". The target is immediately picked up and removed from the battlefield. The next time a friendly Wizard casts this spell, the unit may emerge anywhere on the table, just like a summoning spell. If the unit has not emerged by the end of the game, it is removed as casualties.]
 
 #spell("STORM OF CRONOS", 3, cast: "9+")[_Storm of Cronos_ is a *direct damage* spell that targets all enemy units within 18" of the Wizard's front arc. Each target suffers D6 Strength 4 hits.]
 
@@ -4840,7 +4840,7 @@ Remains in play. _Throne of Vines_ is an *augment* spell cast upon the Wizard. W
 
 #spell("COMET OF CASANDORA", 4, cast: "12+")[_Comet of Casandora_ is a *summoning area* spell with a range of 36". Place a suitable marker over the target. Once cast, the comet cannot be dispelled. For as long as the spell lasts, the player rolls a D6 at the start of each player's following Magic phase. On a score of 1\-3 nothing happens, but place another marker on the first. On the score of a 4\-6 the comet strikes the spot. All units from either side that are within 2D6" of the marker take 2D6 Strength 4 Hits. Add the number of markers on the comet to the distance, hits and Strength. After the comet has struck, the markers are removed and the spell ends.]
 
-#spell("CHAIN LIGHTNING", 4, cast: "13+")[_Chain Lightning_ is a *direct damage* spell with a range of 24" that causes D6 Strength 5 hits with the Lightning Attacks special rule. Once the damage has been resolved, roll a D6; on a 2+, another enemy unit within 6" of the initial target also suffers D6 hits. Keep rolling for further enemies within 6" of the previous unit. Every time a new unit is struck the requirement increases by +1, so you require to roll a 3+ the second time, a 4+ the third time and so on. Proceed to keep rolling a D6 until you fail (a 6 always succeeds) or there are no more viable targets. A unit can only be the target of Chain Lightning once per Magic phase.]
+#spell("CHAIN LIGHTNING", 4, cast: "13+")[_Chain Lightning_ is a *direct damage* spell with a range of 24" that causes D6 Strength 5 hits with the Lightning Attacks special rule. Once the damage has been resolved, roll a D6; on a 2+, another enemy unit within 6" of the initial target also suffers D6 hits. Keep rolling for further enemies within 6" of the previous unit. Every time a new unit is struck the requirement increases by +1, so you require to roll a 3+ the second time, a 4+ the third time and so on. Proceed to keep rolling a D6 until you fail or there are no more viable targets. A unit can only be the target of Chain Lightning once per Magic phase.]
 
 #spell("THORSEN'S THUNDERSTORM", 4, cast: "15+")[Remains in play. _Thorsen's Thunderstorm_ is a *magical vortex* that uses the small round template. Any model touched by the template at any point during its move suffer a Strength 4 hit with the Lightning Attacks special rule.]
 ]
