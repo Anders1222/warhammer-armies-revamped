@@ -4471,44 +4471,56 @@ Each Warhammer Armies book describes in detail the many different kinds of magic
 
 In addition to any specific restrictions noted in the relevant Warhammer Armies book, there are rules that govern the selection of all magic items, regardless of the bearer's allegiance. These can be summarised as follows:
 
-=== UNIQUE & COMMON
+=== UNIQUE
 
-Magic items are considered to be unique – you can only have one of each in your army. However, any magic item marked with an asterisk (\*) is considered to be common, and thus can be taken in multiples in your army.
+Magic items are considered to be unique – you can only have one of each in your army unless otherwise stated in the magic item's rules.
 
 === BALANCE OF POWER
 
-Each model can normally only carry one of each type of magic item. Magic items are divided into six categories: Magic Weapons, Magic Armour, Talismans, Enchanted Items, Arcane Items and Magic Standards. A model can only ever choose one item from each category, unless specified.
+Usually, only characters can carry magic items. Each model can normally only carry one of each type of magic item. Magic items are divided into six categories: Magic Weapons, Magic Armour, Talismans, Enchanted Items, Arcane Items and Magic Standards. A model can only ever choose one item from each category, unless specified. The only exceptions to this rule are some special characters, who might well have two magical weapons, for example.
 
 #magic-item-section("weapon", first: true, intro: [
 Unless otherwise stated, a magic weapon is treated as a hand weapon (replacing the model's regular hand weapon), and follows the rules for such. This means that a magic weapon can be used with both an additional hand weapon or shield/buckler following their normal rules. In the case of non-magical additional hand weapons, the +1 Attack does not benefit from any special rules from the magic weapon.
 
-In order for a model to be able to choose a particular piece of weapon (such as great weapon, polearm or two hand weapons) they must be able to pick this as a mundane option or have it as part of their default equipment, unless it is specified. Note that magic weapons that count as normal hand weapons may be taken by any model that can choose magic weapons.
+In order for a model to be able to choose a particular piece of weapon (such as great weapon, polearm or two hand weapons) they must be able to pick this as a mundane option or have it as part of their default equipment. Note that magic weapons that count as normal hand weapons may be taken by any model that can choose magic weapons.
 
 A character that has a magic close combat weapon cannot use any other close combat weapons. If a character has more than one magic weapon, they must choose which one to use at the start of the combat (unless a rule specifies that both can be used at the same time) – the chosen weapon must be used for the duration of the combat.
 ])[
+#magic-weapon("DRAGON BLADE", 70)[Any successful To Hit rolls in close combat with this sword are multiplied into 2 Hits.]
+
 #magic-weapon("GIANT BLADE", 45)[The wielder gains +3 Strength.]
 
 #magic-weapon("SWORD OF BLOODSHED", 45)[The wielder gains +3 Attacks.]
 
-#magic-weapon("SWORD OF POWER", 30)[The wielder gains +2 Strength.]
+#magic-weapon("DRAGON SLAYING SWORD", 40)[The wielder gains the Heroic Killing Blow special rule.]
+
+#magic-weapon("FENCER'S BLADES", 30, type: "Two hand weapons")[The bearer has Weapon Skill 10.]
+
+#magic-weapon("OGRE BLADE", 30)[The wielder gains +2 Strength.]
 
 #magic-weapon("SWORD OF STRIFE", 30)[The wielder gains +2 Attacks.]
 
+#magic-weapon("SWORD OF ANTI-HEROES", 30)[The wielder gains +1 Strength and +1 Attack for every enemy character in base contact with them or their unit. These bonuses are calculated at the start of each round of close combat and last until its end.]
+
+#magic-weapon("OBSIDIAN BLADE", 25)[The wielder gains the Ignores Armour Saves special rule.]
+
 #magic-weapon("SWORD OF SWIFT SLAYING", 25)[The wielder gains the Always Strikes First special rule.]
+
+#magic-weapon("SWORD OF FORTITUDE", 20)[The character, and any unit they are with, gains the Immunity (Psychology) special rule.]
 
 #magic-weapon("PARRYING BLADE", 20)[The wielder gains the Parry (5+) special rule.]
 
 #magic-weapon("BLADE OF SEA GOLD", 15)[The wielder gains the Armour Piercing (3) special rule.]
 
-#magic-weapon("OGRE BLADE", 15)[The wielder gains the Multiple Wounds (D3) special rule.]
+#magic-weapon("BONE BLADE", 15)[The wielder gains the Multiple Wounds (D3) special rule.]
 
 #magic-weapon("HEADSMAN'S AXE", 15)[The wielder gains the Killing Blow special rule.]
 
-#magic-weapon("SWORD OF STRIKING", 15, common: true)[The wielder gains +1 To Hit.]
+#magic-weapon("SWORD OF STRIKING", 15)[The wielder gains +1 To Hit.]
 
-#magic-weapon("SWORD OF MIGHT", 15, common: true)[The wielder gains +1 Strength.]
+#magic-weapon("SWORD OF MIGHT", 15)[The wielder gains +1 Strength.]
 
-#magic-weapon("SWORD OF BATTLE", 15, common: true)[The wielder gains +1 Attack.]
+#magic-weapon("SWORD OF BATTLE", 15)[The wielder gains +1 Attack.]
 
 #magic-weapon("SHRIEKING BLADE", 15)[The wielder gains the Fear special rule.]
 
@@ -4516,141 +4528,177 @@ A character that has a magic close combat weapon cannot use any other close comb
 
 #magic-weapon("BLADE OF SLICING", 10)[The wielder gains the Armour Piercing (2) special rule.]
 
+#magic-weapon("RELIC SWORD", 10)[Attacks made with the Relic Sword will always wound on a 3+, unless they would normally need a lower result.]
+
 #magic-weapon("VENOM SWORD", 10)[The wielder gains the Poisoned Attacks special rule.]
 
-#magic-weapon("BITING BLADE", 5, common: true)[The wielder gains the Armour Piercing (1) special rule.]
+#magic-weapon("BITING BLADE", 5)[The wielder gains the Armour Piercing (1) special rule.]
 
-#magic-weapon("BURNING BLADE", 5, common: true)[The wielder gains the Flaming Attacks special rule.]
+#magic-weapon("BURNING BLADE", 5)[The wielder gains the Flaming Attacks special rule.]
+
+#magic-weapon("TORMENTOR SWORD", 5)[A monster or character that suffers an unsaved wound from the Tormentor Sword has the Stupidity special rule for the rest of the game.]
+
+#magic-weapon("WARRIOR BANE", 5)[A monster or character that suffers unsaved wounds from Warrior Bane permanently loses one Attack for each unsaved wound (to a minimum of 1 Attack).]
 ]
 
 #magic-item-section("armour", intro: [
 Except where otherwise stated, magical suits of armour (light, medium or heavy) and bucklers/shields follow the same rules as mundane ones, but keep in mind that a model can only have one suit of armour and one buckler/shield, so if you give a model a magical suit of armour or a magical shield, it replaces any mundane equivalent already worn by the model.
 
-In order for a model to be able to choose a particular piece of armour (such as heavy armour or a shield) they must be able to pick this as a mundane option or have it as part of their default equipment.
+In order for a model to be able to choose a particular piece of armour (such as heavy armour or a shield) they must be able to pick this (or another armour that gives a better save value) as a mundane option or have it as part of their default equipment.
 
 Magic armours that are not specified as suits or shields (such as helmets, gauntlets and so on) can always be worn by models that are allowed to wear any non- magical armour.
 ])[
-#magic-armour("ARMOUR OF DESTINY", 60, type: "Heavy armour")[The wearer gains the Magical Ward (4+) special rule.]
-
-#magic-armour("ARMOUR OF RESILIENCE", 40, type: "Heavy armour")[The wearer gains +1 Toughness.]
-
-#magic-armour("ARMOUR OF SILVERED STEEL", 40, type: "Heavy armour")[The wearer gains a 2+ armour save.]
+#magic-armour("ARMOUR OF DESTINY", 50, type: "Heavy armour")[The wearer gains the Magical Ward (4+) special rule.]
 
 #magic-armour("ARMOUR OF FORTUNE", 35, type: "Medium armour")[The wearer gains the Magical Ward (5+) special rule.]
 
-#magic-armour("TRICKSTER'S HELM", 30, only: "Infantry, Monstrous Infantry or Cavalry")[The helmet gives the wearer a 6+ armour save. Any successful roll To Wound made against the wearer of the Trickster's Helm must be re-rolled.]
+#magic-armour("TRICKSTER'S HELM", 30, only: "Model on foot")[The helmet gives the wearer a 6+ armour save. Any successful roll To Wound made against the wearer of the Trickster's Helm must be re-rolled.]
+
+#magic-armour("ARMOUR OF RESILIENCE", 25, type: "Heavy armour")[The wearer gains +1 Toughness.]
+
+#magic-armour("ARMOUR OF SILVERED STEEL", 25, type: "Heavy armour")[The wearer gains a 2+ armour save that cannot be improved by any means.]
 
 #magic-armour("GLITTERING SCALES", 25, type: "Light armour")[Enemy models suffer \-1 To Hit the wearer in close combat.]
 
-#magic-armour("SEAMLESS ARMOUR", 25, type: "Medium armour")[This armour ignores negative modifiers to its save, meaning it cannot be reduced below 5+.]
-
-#magic-armour("ALLEVIATING ARMOUR", 20, type: "Medium armour")[The bearer gains the Regeneration (6+) special rule.]
-
-#magic-armour("GAMBLER'S ARMOUR", 20, type: "Light armour")[The wearer gains the Magical Ward (6+) special rule.]
-
 #magic-armour("BEDAZZLING HELM", 20)[The helmet gives the wearer a 6+ armour save. Enemy models targeting the wearer in close combat must re- roll 6's To Hit against them.]
+
+#magic-armour("SHIELD OF PTOLOS", 20, type: "Shield")[The bearer has a 1+ armour save against shooting attacks.]
+
+#magic-armour("HELM OF DISCORD", 20)[The helmet gives the wearer a 6+ armour save. In addition, at the start of each Close Combat phase, choose an enemy character in base contact with the bearer or their unit. That character must immediately take a Leadership test. If the test is failed, the victim cannot make attacks and is hit automatically in this round of close combat.]
+
+#magic-armour("GAMBLER'S ARMOUR", 15, type: "Light armour")[The wearer gains the Magical Ward (6+) special rule.]
 
 #magic-armour("SHIELD OF THE WARRIOR TRUE", 15, type: "Shield")[The bearer gains the Magical Ward (5+) special rule against missile attacks.]
 
+#magic-armour("SPELLSHIELD", 15, type: "Shield")[The bearer gains the Magic Resistance (1) special rule.]
+
 #magic-armour("DRAGONHELM", 10)[The helmet gives the wearer a 6+ armour save and the Immunity (Flaming Attacks) special rule.]
 
-#magic-armour("ENCHANTED SHIELD", 10, type: "Shield", common: true)[The bearer gains an additional +1 to their armour save against attacks to the front arc.]
+#magic-armour("ENCHANTED SHIELD", 10, type: "Shield")[The bearer gains +2 to their armour save, rather than the +1 that a normal shield would give.]
 
-#magic-armour("CHARMED SHIELD", 5, type: "Shield", one-use: true, common: true)[The first hit suffered by the bearer is ignored on a roll of 2+.]
+#magic-armour("CHARMED SHIELD", 5, type: "Shield", one-use: true)[The first hit suffered by the bearer is ignored on a roll of 2+.]
 ]
 
 #magic-item-section("talisman", intro: [
 The Talismans category includes items that offer protection for the bearer.
 ])[
-#talisman("TALISMAN OF PRESERVATION", 40)[The bearer gains the Magical Ward (4+) special rule.]
+#talisman("TALISMAN OF PRESERVATION", 45)[The bearer gains the Magical Ward (4+) special rule.]
 
 #talisman("OBSIDIAN LODESTONE", 30)[The bearer and any unit they join gain the Magic Resistance (3) special rule.]
 
-#talisman("TALISMAN OF ENDURANCE", 25)[The bearer gains the Magical Ward (5+) special rule.]
+#talisman("TALISMAN OF ENDURANCE", 30)[The bearer gains the Magical Ward (5+) special rule.]
+
+#talisman("DAWNSTONE", 25, only: "Model on foot")[The bearer may re-roll failed armour saves.]
 
 #talisman("OBSIDIAN AMULET", 20)[The bearer and any unit they join gain the Magic Resistance (2) special rule.]
 
-#talisman("DAWNSTONE", 15, only: "Infantry, Monstrous Infantry or Cavalry", common: true)[The bearer may re-roll 1's when taking armour saves.]
+#talisman("TALISMAN OF PROTECTION", 15)[The bearer gains the Magical Ward (6+) special rule.]
 
-#talisman("OPAL AMULET", 15, one-use: true, common: true)[The bearer gains the Magical Ward (2+) special rule against the first unsaved wound suffered by the bearer.]
+#talisman("OPAL AMULET", 15, one-use: true)[The bearer gains the Magical Ward (2+) special rule against the first unsaved wound suffered by the bearer.]
 
-#talisman("OBSIDIAN TRINKET", 10, common: true)[The bearer and any unit they join gain the Magic Resistance (1) special rule.]
+#talisman("OBSIDIAN TRINKET", 10)[The bearer and any unit they join gain the Magic Resistance (1) special rule.]
 
-#talisman("SEED OF REBIRTH", 10, common: true)[The bearer gains the Regeneration (6+) special rule.]
+#talisman("SEED OF REBIRTH", 10)[The bearer gains the Regeneration (6+) special rule.]
 
-#talisman("TALISMAN OF PROTECTION", 10, common: true)[The bearer gains the Magical Ward (6+) special rule.]
+#talisman("DRAGONBANE GEM", 5)[The bearer gains the Immunity (Flaming Attacks) special rule.]
 
-#talisman("LUCKY TRINKET", 5, one-use: true, common: true)[The bearer may re-roll a single failed armour or invulnerable save.]
+#talisman("LUCKY TRINKET", 5, one-use: true)[The bearer may re-roll a single failed armour or invulnerable save.]
+
+#talisman("PIDGEON PLUCKER PENDANT", 5)[The bearer gains the Magical Ward (4+) special rule against wounds caused in close combat by models that have the Fly special rule.]
 ]
 
 #magic-item-section("arcane", intro: [
-Only a character with a Wizard level can carry Arcane Items. Unlike other magic item types, Wizards may take several Arcane Items, chosen from the categories below. A Wizard may not take more than one item from the same category.
+Arcane items are items that enhance a Wizard's magical powers in some fashion. Only a character with a Wizard level can carry Arcane Items. Characters with no sensitivity to magical essences and mysteries will either find an Arcane Item useless and inert, or have their brains sucked out through their ears should they try to use it.
 
-*Staffs* cover things like wands, staves, rods and sceptres, and usually provide bonuses to casting or dispelling.
-
-*Charms* include scrolls, stones and gems, and provide temporary effects with a limited number of uses.
-
-*Relics* include tomes, cloaks, rings and familiars, and provide magical abilities or utility effects.
+Unlike other magic items, Wizards that are Lords can take up to two Arcane Items. If they do so, one of their Arcane Items must be marked as "One use only". Note that they may not take two "One use only" items.
 ])[
-#arcane-item("WAND OF THE WINDS", 40, type: "Staff")[The bearer of this item may re-roll one D3 when determining the Winds of Magic in each Magic phase.]
+#arcane-item("DESTROY MAGIC SCROLL", 35, one-use: true)[When an enemy cast a spell, the bearer may immediately counter its effects by using this item instead of attempting to dispel the spell by using dispel dice. This gives them 6 free dispel dice to attempt to dispel the spell, which cannot be combined with any other dispel dice (Ultimate Power applies as normal). In addition, roll a D6. On a 4+, the spell is destroyed and the enemy caster loses access to the spell for the rest of the game (note that this has no effect on Innate Bound spells).]
 
-#arcane-item("DESTROY MAGIC SCROLL", 35, type: "Charm", one-use: true)[When an enemy cast a spell, the bearer may immediately counter its effects by using this item instead of attempting to dispel the spell by using dispel dice. This gives them 6 free dispel dice to attempt to dispel the spell, which cannot be combined with any other dispel dice (Ultimate Power applies as normal). In addition, roll a D6. On a 4+, the spell is destroyed and the enemy caster loses access to the spell for the rest of the game.]
+#arcane-item("FEEDBACK SCROLL", 35, one-use: true)[When an enemy spell has been cast, the bearer can use this item instead of attempting to dispel the spell. The spell is cast as normal, but, after the spell has been resolved, roll a dice for every dice used to cast the spell. The casting Wizard suffer 1 Wound which Ignores Armour Saves for every result of 5+ rolled.]
 
-#arcane-item("FEEDBACK SCROLL", 35, type: "Charm", one-use: true)[When an enemy spell has been cast, the bearer can use this item instead of attempting to dispel the spell. The spell is cast as normal, but, after the spell has been resolved, roll a dice for every dice used to cast the spell. The casting Wizard suffer 1 Wound which Ignores Armour Saves for every result of 5+ rolled.]
+#arcane-item("SIVEJIR'S HEX SCROLL", 35, one-use: true)[When an enemy spell has been cast, the bearer can use this item instead of attempting to dispel the spell. The spell is cast as normal, but a portion of the spell's energy is transformed and redirected at the caster. The enemy Wizard can resist the spell's effects by rolling equal to or under their Wizard level on a D6. If failed, the Wizard cannot channel or cast spells, all of their magic items and mundane equipment (armour, weapons, etc.) temporarily stop working and all of their characteristics are reduced to 1 (except for their Wounds, which are unaffected). Their controlling player can roll a D6 at the start of each of their subsequent Magic phases; the spell dissipates on a roll of 4+ and the Wizard returns to their normal form.]
 
-#arcane-item("DISPEL SCROLL", 25, type: "Charm", one-use: true)[When an enemy spell has been cast, the bearer can use it instead of attempting to dispel the spell by using dispel dice. This gives them 6 free dispel dice to attempt to dispel the spell, which cannot be combined with any other dispel dice (Ultimate Power applies as normal). This may also be used to dispel spells that Remains in Play.]
+#arcane-item("BOOK OF ASHUR", 30)[The bearer gains the Loremaster special rule.]
 
-#arcane-item("SCROLL OF LEACHING", 25, type: "Charm", one-use: true)[When an enemy spell has been cast, the bearer can use this item instead of attempting to dispel the spell. The spell is cast as normal, but, after the spell has been resolved, the bearer of the scroll adds a number of dispel dice to his pool equal to the number of dice used to cast the spell.]
+#arcane-item("ROD OF POWER", 30)[At the end of each Magic phase (yours and the enemy's), you can save up to three unused power/dispel dice from the pool and store them in the rod. At the beginning of each successive Magic phase (yours and the enemy's), roll a dice. If the result is equal or higher to the number of dice stored, add them to the power/dispel dice pool; if the result is lower than the number of dice stored, they are lost.]
 
-#arcane-item("POWER FAMILIAR", 25, type: "Relic")[The Familiar adds one Power Dice in each of your Magic phases.]
+#arcane-item("DISPEL SCROLL", 25, one-use: true)[When an enemy spell has been cast, the bearer can use it instead of attempting to dispel the spell by using dispel dice. This gives them 6 free dispel dice to attempt to dispel the spell, which cannot be combined with any other dispel dice (Ultimate Power applies as normal). This may also be used to dispel spells that Remains in Play.]
 
-#arcane-item("WAND OF JADE", 25, type: "Staff")[The bearer gains +6" casting range to their spells (excluding auras).]
+#arcane-item("SCROLL OF LEACHING", 25, one-use: true)[When an enemy spell has been cast, the bearer can use this item instead of attempting to dispel the spell. The spell is cast as normal, but, after the spell has been resolved, the bearer of the scroll adds a number of dispel dice to his pool equal to the number of dice used to cast the spell.]
 
-#arcane-item("WAND OF JET", 25, type: "Staff")[The bearer gains +6" dispel range.]
+#arcane-item("THE MYSTIC SHIELD OF BRAG", 25, one-use: true)[The Mystic Shield of Brag may be used against any enemy spell that directly targets any friendly unit. The enemy spell has no effect.]
 
-#arcane-item("CHANNELLING STAFF", 20, type: "Staff")[The bearer rolls one additional dice whenever they attempt to channel power or dispel dice.]
+#arcane-item("POWER FAMILIAR", 25)[The Familiar adds one Power Dice in each of your Magic phases.]
 
-#arcane-item("FORBIDDEN ROD", 20, type: "Staff", one-use: true)[The Forbidden Rod adds +D6 dice to the power pool at the start of the caster's own Magic phase. However, it also inflicts 1 Wound which Ignores Armour Saves on the bearer.]
+#arcane-item("CHANNELLING STAFF", 20)[The bearer rolls one additional dice whenever they attempt to channel power or dispel dice.]
 
-#arcane-item("WAND OF ONYX", 20, type: "Staff")[The bearer gains a +1 casting bonus.]
+#arcane-item("MYSTIC MAZE", 20, one-use: true)[The Mystic Maze may be used against any enemy spell that directly targets any friendly unit. Roll 3D6 measured from the centre of the unit; this is the distance the spell scatters in a random direction. Should the spell end up on another unit, this unit will become the target of the spell; otherwise the spell has no effect.]
 
-#arcane-item("SCEPTRE OF STABILITY", 20, type: "Staff")[The bearer gains a +1 dispel bonus.]
+#arcane-item("SCEPTRE OF STABILITY", 20)[The bearer gains a +1 dispel bonus.]
 
-#arcane-item("ARCANE FAMILIAR", 15, type: "Relic", common: true)[The bearer can choose one Signature spell as an additional spell from any of the eight Winds of Magic in this book, even if they normally cannot choose that lore.]
+#arcane-item("WAND OF JET", 20)[The bearer gains a +1 casting bonus.]
 
-#arcane-item("EARTHING ROD", 15, type: "Staff", one-use: true, common: true)[If the bearer suffers a miscast, they do not add the number of power dice used to the result.]
+#arcane-item("ARCANE FAMILIAR", 15)[The bearer can choose one Signature spell as an additional spell from any of the eight Winds of Magic in this book, even if they normally cannot choose that lore.]
 
-#arcane-item("POWER SCROLL", 15, type: "Charm", one-use: true, common: true)[This item can be used before the bearer makes a casting attempt. During that casting attempt, any roll of a double (except 1's) counts as a 6 for the purpose of resolving Ultimate Power.]
+#arcane-item("EARTHING ROD", 15, one-use: true)[If the bearer suffers a miscast, they do not add the number of power dice used to the result.]
 
-#arcane-item("LUCKSTONE", 10, type: "Charm", one-use: true, common: true)[The bearer can re-roll all of the dice rolled to cast or dispel a spell. This can effectively cancel a miscast result, and cause Ultimate Power or a miscast.]
+#arcane-item("FORBIDDEN ROD", 15, one-use: true)[The Forbidden Rod adds +D6 dice to the power pool at the start of the caster's own Magic phase. However, it also inflicts 1 Wound which Ignores Armour Saves on the bearer.]
 
-#arcane-item("POWER STONE", 10, type: "Charm", one-use: true, common: true)[The bearer can declare that they are using the power stone immediately before casting a spell. If they do so, +D3 dice are added to the power dice that they are going to roll (you still need to roll at least one dice from the power pool). This allows a Wizard to use more than they are normally allowed to.]
+#arcane-item("HYPNOTIC EYE SCROLL", 15, one-use: true)[The Hypnotic Eye Scroll can be used whenever an enemy Wizard successfully casts a spell instead of attempting to dispel. The casting Wizard must pass a Leadership test; if failed, you may choose the target of the spell just as if you had cast the spell yourself. If no target can be chosen, the spell has no effect. Note that the spell is still cast from the original Wizard as normal.]
 
-#arcane-item("SCROLL OF SHIELDING", 10, type: "Charm", one-use: true, common: true)[This item can be used when an enemy attempts to cast a spell targeting one of your units within dispel range. The target is granted Magic Resistance (3) against the spell.]
+#arcane-item("POWER SCROLL", 15, one-use: true)[This item can be used before the bearer makes a casting attempt. During that casting attempt, any roll of a double (except 1's) counts as a 6 for the purpose of resolving Ultimate Power.]
 
-#arcane-item("SPELL FAMILIAR", 10, type: "Relic", common: true)[The bearer knows one additional spell from those normally allowed to them.]
+#arcane-item("THE GEM OF TARANTO", 10, one-use: true)[The Gem of Taranto can be used whenever you successfully dispel an enemy spell (except Summoning or Innate Bound Spells). The bearer of the Gem will be able to cast the spell themselves (limited by their Wizard level as normal) for the remainder of the game, even if it is from a lore not normally available to them.]
+
+#arcane-item("LUCKSTONE", 10, one-use: true)[The bearer can re-roll all of the dice rolled to cast or dispel a spell. This can effectively cancel a miscast result, and cause Ultimate Power or a miscast.]
+
+#arcane-item("POWER STONE", 10, one-use: true)[The bearer can declare that they are using the power stone immediately before casting a spell. If they do so, +D3 dice are added to the power dice that they are going to roll (you still need to roll at least one dice from the power pool).]
+
+#arcane-item("SCROLL OF SHIELDING", 10, one-use: true)[When an enemy spell has been cast, the bearer can use this item instead of attempting to dispel the spell. The spell is cast as normal, but the target of the spell is granted Magic Resistance (3) against the spell.]
+
+#arcane-item("SPELL FAMILIAR", 10)[The bearer knows one additional spell from those normally allowed to them.]
+
+#arcane-item("TRICKSTER'S SHARD", 10, one-use: true)[Declare you are using this item at the start of one of your Magic phases. For the duration of the phase, when one of the bearer's spells is dispelled by an enemy Wizard, roll a D6. On a 4+, that Wizard suffers a Wound which Ignores Armour Saves.]
+
+#arcane-item("WIZARD'S STAFF", 10)[The Wizard's Staff allows the bearer to use one more dice than they are normally allowed to when casting a spell (eg, a Wizard that can normally use up to two dice to cast spells will be able to use up to three dice).]
 ]
 
 #magic-item-section("enchanted", intro: [
 The Enchanted Items category includes items that typically offer a utility ability for either the bearer or any unit they are with.
 ])[
-#enchanted-item("RUBY RING OF RUIN", 35, bound: true)[The Ruby Ring of Ruin contains the _Fireball_ spell from the Lore of Fire.]
+#enchanted-item("FOZZRIK'S FOLDING FORTRESS", 100)[After deployment zones have been agreed, but before the armies have been deployed, place a watchtower building no more than 10x10 cm in base size and a maximum of 3 floors in your deployment zone to represent the Folding Fortress. This is treated as a standard building. If you do not have a suitable building to place, you cannot use Fozzrik's Folding Fortress.]
 
-#enchanted-item("BOOTS OF FLIGHT", 20, only: "Infantry")[The Boots of Flight give the wearer the Movement 10 and the Strider special rule.]
+#enchanted-item("WIZARDING HAT", 50)[The wearer is treated as being a Level 2 Wizard who can use a randomly chosen spell lore from any of the eight Winds of Magic at the start of the game. However, they also have the Stupidity special rule. Note that they may not choose any Arcane Items.]
 
-#enchanted-item("CROWN OF COMMAND", 20)[The Crown of Command gives the bearer and any unit they join the Disciplined special rule for as long as the bearer remains with the unit.]
+#enchanted-item("CROWN OF COMMAND", 40)[The Crown of Command gives the bearer and any unit they join the Stubborn special rule for as long as the bearer remains with the unit.]
 
-#enchanted-item("HEALING POTION", 15, one-use: true, common: true)[The Healing Potion can be drunk at the start of the controlling player's turn. The model immediately recovers D3 Wounds (ignoring any additional Wounds from mounts) up to their starting value.]
+#enchanted-item("RUBY RING OF RUIN", 35, bound: (power: 4))[The Ruby Ring of Ruin contains the _Fireball_ spell from the Lore of Fire.]
 
-#enchanted-item("POTION OF STRENGTH", 10, one-use: true, common: true)[The Potion of Strength can be used at the start of any phase. The character gains +D3 Strength until the end of the turn.]
+#enchanted-item("LIFESTONE OF ASHRAAZ", 30, one-use: true)[The Lifestone of Ashraaz can be used at the start of any Close Combat phase. The bearer can swap their current number of Wounds with the current number of Wounds of any one enemy model in base contact. The effect lasts the remainder of the game.]
 
-#enchanted-item("POTION OF TOUGHNESS", 10, one-use: true, common: true)[The Potion of Toughness can be used at the start of any phase. The character gains +D3 Toughness until the end of the turn.]
+#enchanted-item("ORB OF THUNDER", 30, bound: (power: 4))[Remains in play. The Orb of Thunder contains a *hex* spell that effects all models with the Fly special rule. When cast, no models may use their Fly special rule and must move on the ground at their normal Movement rate.]
 
-#enchanted-item("POTION OF SPEED", 10, one-use: true, common: true)[The Potion of Speed can be used at the start of any phase. The character gains +D3 Attacks until the end of the turn.]
+#enchanted-item("ARABYAN CARPET", 25, only: "Infantry model on foot")[The owner of this magical carpet has the Fly (10) special rule. However, they cannot join units.]
 
-#enchanted-item("POTION OF FOOLHARDINESS", 5, one-use: true, common: true)[The Potion of Foolhardiness can be drunk at the start of any phase. The character gains the Frenzy special rule until the end of the turn.]
+#enchanted-item("THE TERRIFYING MASK OF EEE!", 25)[The wearer of this mask causes Terror. However, other models can never use their Leadership.]
 
-#enchanted-item("WARRIOR FAMILIAR", 5, common: true)[The model gains an additional Strength 3 Attack. This does not benefit from any weapon, item or special rule used by the character. You may still take another Enchanted Item in addition to the Warrior Familiar, and it also does not count against the maximum points limit of magic items normally allowed for the character.]
+#enchanted-item("THE OTHER TRICKSTER'S SHARD", 25)[The bearer, and all units in base contact with them (friend and foe) must re-roll successful invulnerable saves.]
+
+#enchanted-item("BOOTS OF FLIGHT", 20, only: "Model on foot")[The Boots of Flight give the wearer Movement 10 as well as the Strider and Swiftstride special rules.]
+
+#enchanted-item("HEALING POTION", 15, one-use: true)[The Healing Potion can be drunk at the start of the controlling player's turn. The model immediately recovers D3 Wounds (ignoring any additional Wounds from mounts) up to their starting value.]
+
+#enchanted-item("IRONCURSE ICON", 10)[The character, and any unit they are with, gains the Magical Ward (6+) special rule against artillery weapons.]
+
+#enchanted-item("POTION OF STRENGTH", 10, one-use: true)[The Potion of Strength can be used at the start of any phase. The character gains +D3 Strength until the end of the turn.]
+
+#enchanted-item("POTION OF TOUGHNESS", 10, one-use: true)[The Potion of Toughness can be used at the start of any phase. The character gains +D3 Toughness until the end of the turn.]
+
+#enchanted-item("POTION OF SPEED", 10, one-use: true)[The Potion of Speed can be used at the start of any phase. The character gains +D3 Attacks until the end of the turn.]
+
+#enchanted-item("POTION OF FOOLHARDINESS", 5, one-use: true)[The Potion of Foolhardiness can be drunk at the start of any phase. The character gains the Frenzy special rule until the end of the turn.]
+
+#enchanted-item("WARRIOR FAMILIAR", 5)[The model gains an additional Strength 3 Attack. This does not benefit from any weapon, item or special rule used by the character. You may still take another Enchanted Item in addition to the Warrior Familiar, and it also does not count against the maximum points limit of magic items normally allowed for the character.]
 ]
 
 #magic-item-section("standard", intro: [
@@ -4658,29 +4706,47 @@ Some units are allowed to carry magic banners, as detailed in their army list en
 
 Standards can only be carried by a standard bearer, as shown in the army list in the relevant Warhammer Armies book.
 ])[
-#magic-standard("BANNER OF DEFIANCE", 25)[A unit with this standard gains the Stubborn special rule.]
+#magic-standard("BATTLE BANNER", 70)[A unit with this standard gains a +D6 Combat Resolution bonus (roll each time it is used).]
 
-#magic-standard("BANNER OF IRON RESOLVE", 25)[A unit with this standard gains the Immunity (Psychology) special rule.]
+#magic-standard("BANNER OF MIGHT", 55)[A unit with this standard gains +1 To Hit in the first round of close combat.]
 
-#magic-standard("RAMPAGER'S STANDARD", 25)[A unit with this standard can re-roll its charge distance dice.]
+#magic-standard("BANNER OF DEFIANCE", 40)[A unit with this standard gains the Stubborn special rule.]
+
+#magic-standard("WAILING BANNER", 40)[A unit with this standard gains the Terror special rule.]
+
+#magic-standard("RAMPAGER'S STANDARD", 35)[A unit with this standard can re-roll its charge distance dice.]
+
+#magic-standard("BANNER OF IRON RESOLVE", 30)[A unit with this standard gains the Immunity (Psychology) special rule.]
+
+#magic-standard("RAZOR STANDARD", 30)[A unit with this standard gains the Armour Piercing (1) special rule.]
+
+#magic-standard("STANDARD OF SHIELDING", 25)[A unit with this standard gains the Magical Ward (6+) special rule against missile attacks.]
 
 #magic-standard("BANNER OF SWIFTNESS", 25)[A unit with this standard gains the Swiftstride special rule.]
 
-#magic-standard("RAZOR STANDARD", 25)[A unit with this standard gains the Armour Piercing (1) special rule.]
+#magic-standard("DREAD BANNER", 20)[A unit with this standard causes Fear.]
 
-#magic-standard("RANGER'S STANDARD", 20)[A unit with this standard gains the Strider special rule.]
+#magic-standard("STANDARD OF ARCANE WARDING", 20)[A unit with this standard gains the Magic Resistance (2) special rule.]
 
-#magic-standard("BANNER OF ETERNAL FLAME", 15)[A unit with this standard gains the Magical Attacks and Flaming Attacks special rules.]
+#magic-standard("WAR BANNER", 20)[A unit with this standard adds +1 to combat resolution.]
+
+#magic-standard("BANNER OF VALOUR", 15)[A unit with this standard gains the Immunity (Panic) special rule.]
 
 #magic-standard("STANDARD OF DISCIPLINE", 15)[A unit with this standard has +1 Leadership, but cannot use the Inspiring Presence special rule. If a model with this special rule joins this unit, other units using their Inspiring Presence do not benefit from the +1 Leadership.]
 
-#magic-standard("STANDARD OF SHIELDING", 15)[A unit with this standard gains the Magical Ward (6+) special rule against missile attacks.]
+#magic-standard("BANNER OF COURAGE", 10)[A unit with this standard re-roll failed Break tests.]
 
-#magic-standard("WAR BANNER", 15, common: true)[A unit with this standard adds +1 to combat resolution.]
+#magic-standard("BANNER OF ETERNAL FLAME", 10)[A unit with this standard gains the Magical Attacks and Flaming Attacks special rules.]
 
-#magic-standard("LICHBONE PENNANT", 10, common: true)[A unit with this standard gains the Magic Resistance (1) special rule.]
+#magic-standard("LICHBONE PENNANT", 10)[A unit with this standard gains the Magic Resistance (1) special rule.]
 
-#magic-standard("GLEAMING PENNANT", 5, one-use: true, common: true)[A unit with this standard can re-roll one failed Leadership test.]
+#magic-standard("RANGER'S STANDARD", 10)[A unit with this standard gains the Strider special rule. If the unit is riding a mount, the mount benefit from the Strider special rule as well.]
+
+#magic-standard("BANNER OF DUTY", 5)[A unit with this standard automatically pass any Rally tests.]
+
+#magic-standard("GLEAMING PENNANT", 5, one-use: true)[A unit with this standard can re-roll its first failed Leadership test.]
+
+#magic-standard("SCARECROW BANNER", 5)[A unit with this standard causes Terror in models with the Fly special rule.]
 ]
 
 #lore("THE LORE OF FIRE")[
