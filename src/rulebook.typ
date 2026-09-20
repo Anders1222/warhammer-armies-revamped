@@ -3328,9 +3328,9 @@ Characters are a special type of unit that can either operate on their own or jo
 
 == CHARACTERS AND UNITS
 
-Most characters are allowed to join certain types of units over the course of the battle. A character is normally permitted to join units made up of Infantry, Cavalry, Monstrous Infantry, Monstrous Beasts or Monstrous Cavalry. However, a character is not allowed to join a unit made up of a troop type with a higher Unit Strength than their own troop type, unless specified.
+Most characters are allowed to join certain types of units over the course of the battle. A character is normally permitted to join units made up of Infantry, Large Infantry, Cavalry, Monstrous Infantry, Monstrous Beasts or Monstrous Cavalry. Characters can also join other characters belonging to one of the troop types listed above, thus forming a unit entirely made of characters. However, a character is not allowed to join a unit made up of a troop type with a higher Unit Strength than their own troop type, unless specified.
 
-Unless otherwise stated, a character cannot join other Lone Models, a unit of flyers (unless they are also a flyer of the same troop type), a unit of Chariots (unless they are also a Chariot), a unit of Monstrous Creatures (unless they are also a Monstrous Creature), a unit of Swarms or a War Machine. A character that is itself a Chariot, War Machine, Monstrous Creature or Monster cannot join other units, unless specified. A character cannot join a unit that is already engaged in close combat or is fleeing.
+Unless otherwise stated, a character cannot join a unit of Monstrous Creatures, Monsters, a unit of flyers (unless they are also a flyer of the same troop type), a unit of Chariots (unless they are also a Chariot), a unit of Swarms or a War Machine. Similarly, a character that is itself a Chariot, War Machine, Monstrous Creature or Monster cannot join other units (with the exceptions mentioned above). A character cannot join a unit that is already engaged in close combat or is fleeing.
 
 #namecost("JOINING A UNIT", "")
 
@@ -3410,7 +3410,7 @@ As already mentioned, Leadership tests are always taken using the highest value 
 
 #namecost("SPECIAL RULES", "")
 
-Unless otherwise noted in the text of the rule itself, a special rule applying only to a character does not apply to the unit, and vice versa. On the other hand, many spells and magic items bestow special rules and other effects on units. In this case, everyone (including the character) in the combined unit will be affected. If a character has a special rule or magic item that affects any unit they join, that effect only applies to the unit for as long as the character remains part of it.
+Unless otherwise noted in the text of the rule itself, a special rule applying only to a character does not apply to the unit, and vice versa. On the other hand, many spells and magic items bestow special rules and other effects on units. In this case, everyone (including the character) in the combined unit will be affected.
 
 === LEAVING A UNIT
 
