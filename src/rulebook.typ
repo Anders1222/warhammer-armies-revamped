@@ -219,7 +219,7 @@ The models that make up your Warhammer army must be organised into 'units'. A un
 
 A unit consists of 1 or more models that are arranged in base contact with each other in formations of squares or rectangles. All models in a unit must face the same direction. In addition, all models in the unit must be arranged in a formation that consists of one or more horizontal lines, called ranks, and a number of vertical lines, called files. This is why we often refer to basic warriors as 'rank and file' troops.
 
-A unit may not have more ranks than they have files, e.g. if the unit is 5 models wide, it may at most have 5 ranks. The exception to this is if the unit is too wide to pass in between terrain or units; in these situations, the unit may temporary reform into a formation with more ranks than files for as long as it takes to pass the terrain or unit. After this, it must return to a legal formation again as soon as possible.
+A unit may not have more complete ranks than they have files, e.g. if the unit is 5 models wide, it may at most have 5 complete ranks. The exception to this is if the unit is too wide to pass in between terrain or units; in these situations, the unit may temporary reform into a formation with more ranks than files for as long as it takes to pass the terrain or unit. After this, it must return to a legal formation again as soon as possible.
 
 As far as possible there must be the same number of models in each rank. Where this is not possible it must be the rear rank that has fewer models, and models should always be placed as centrally as possible. Once formed into a unit, the models move and fight as a single entity for the rest of the battle.
 
@@ -272,7 +272,7 @@ There will likely be situations where you or your opponent will find yourself in
 
 However, once the dice has been rolled for any reason, or your opponent has made a countermove of any kind; players are not allowed to change their decision.
 
-Likewise, if a player has forgotten a rule that should have happened in a previous sub-phase; they are not allowed to go back and apply that rule later unless both players agree.
+Likewise, if a player has forgotten a rule that should have happened in a previous sub-phase; they are not allowed to go back and apply that rule later.
 
 However, players should be encouraged to remind each other about said rules if they are able to ensure the game is as fair as possible to both sides.
 
