@@ -1903,7 +1903,7 @@ Assuming a unit is not subject to the circumstances described above, the most co
 
 This test will most commonly be taken as a result of shooting attacks or damage caused by enemy spells, but can also be triggered by other factors that cause casualties, such as miscasts, misfires, Dangerous Terrain tests or other special rules. Rather than having a series of very specific triggers for a Panic test, we use this as a 'catch-all' to cover units that suffer high casualties for any reason.
 
-If a unit fails its charge and suffers Heavy Casualties from a Stand & Shoot reaction, it must take a Panic test after completing its Movement.
+A Heavy Casualties Panic test must also be taken (immediately) by a charging unit if its enemies Stand & Shoot and inflict 25% or more casualties in Unit Strength. Where this happens, it can sometimes result in the charging unit panicking while it is still technically out of range of the enemy unit's missile weapons.
 
 #namecost("NEARBY FRIEND ANNIHILATED", "")
 
