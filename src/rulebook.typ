@@ -4063,7 +4063,7 @@ While games of Warhammer typically take place between two people, there is nothi
 
 Alternatively, if both players agree, you could choose to pick your force from two different armies. Ideally this should be done by both sides so that each player is given an equal chance to build an allied force.
 
-Regardless of the number of players, each army must have their own Army General.
+Regardless of the number of players, each army must have their own General and Battle Standard Bearer.
 
 === ALLIANCE & ALIGNMENT
 
