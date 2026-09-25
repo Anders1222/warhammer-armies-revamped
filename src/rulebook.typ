@@ -3501,7 +3501,7 @@ Open terrain is the most prevalent type of battlefield terrain and thus the 'def
 
 Impassable terrain covers such things as mountains, buildings, lava pits, steep cliffs etc.
 
-Units cannot voluntarily deploy in, enter, move or cross through impassable terrain – they must go around. Remember that units can flee through impassable terrain, although they will have to take Dangerous Terrain tests if they do so. Impassable terrain has a Line of Sight value of 5, unless otherwise specified.
+Units cannot voluntarily deploy in, enter, move or cross through impassable terrain – they must go around. Remember that units can flee through impassable terrain, although they will have to take Dangerous Terrain tests if they do so. Impassable terrain has a Line of Sight value of 5.
 
 == DANGEROUS TERRAIN
 
@@ -3511,33 +3511,11 @@ When a model marches, charges, flees, overruns or pursues into or through an are
 
 Cavalry, Monstrous Cavalry, Chariots and Shrines treat all terrain other than open ground as being Dangerous Terrain, as described above. A Chariot or Shrine that fails a Dangerous Terrain test suffers D6 Wounds instead of 1.
 
-#namecost("DEADLY TERRAIN", "")
-
-Models moving through Deadly Terrain must always take Dangerous Terrain tests, even when making normal moves.
-
-When a model marches, charges, flees, overruns or pursues into or through an area of Deadly Terrain, it fails the test on a roll of 1\-2 rather than 1.
-
-Cavalry, Monstrous Cavalry, Chariots and Shrines treat what is normally Dangerous Terrain as being Deadly Terrain.
-
 == HILLS
 
 A hill has a Line of Sight value of 2 for each 'level' it has. Models standing on top of a hill level add this to their Line of Sight value.
 
-A unit with the majority of its models fighting uphill does not gain any bonus from ranks.
-
-Below is a selection of different hills that you can choose to include in your games:
-
-#namecost("ESCARPMENT", "")
-
-The rocky side of an escarpment counts as impassable terrain to all units with a Line of Sight value lower than 4.
-
-#namecost("ROCKY HILL", "")
-
-Any unit at least partially on top of a rocky hill suffer a \-1 penalty to their Movement value.
-
-#namecost("ROLLING HILL", "")
-
-Rolling hills counts as open ground.
+Below is a different hill that you can choose to include in your games:
 
 #namecost("SCREE SLOPE", "")
 
@@ -3545,9 +3523,7 @@ Models charging, marching, fleeing, pursuing or overrunning up, down or through 
 
 == MARSHLAND
 
-If a unit is at least partially within marshland, it suffers a \-1 penalty to its Movement value. Marshland is Dangerous Terrain for all units, other than those with the Skirmish special rule.
-
-A unit with the majority of its models fighting in marshland does not gain any bonus from ranks.
+If a unit is at least partially within marshland, it suffers a \-1 penalty to its Movement value. Marshland is Dangerous Terrain for all units, other than those with the Skirmish special rule. Cavalry, Monstrous Cavalry, Chariots and Shrines that enter marshland fail their Dangerous Terrain tests on a 1 or 2, rather than a 1.
 
 Below is a selection of different marshlands that you can choose to include in your games:
 
@@ -3557,7 +3533,7 @@ Any unit with the majority of its models within the mere has Regeneration (6+).
 
 #namecost("KHEMRIAN QUICKSAND", "")
 
-Models moving through Khemrian Quicksand treat it as Deadly Terrain.
+Models moving through Khemrian Quicksand will suffer an additional \-1 penalty to their Dangerous Terrain tests.
 
 #namecost("MIST-WREATHED SWAMP", "")
 
@@ -3565,7 +3541,7 @@ If the majority of a unit's models are wholly within a mist-wreathed swamp, the 
 
 == FORESTS
 
-A forest has a Line of Sight value of 5. Models in or behind forests cannot see or be seen through it if there is more than 3" of forest between them and the enemy. If it is less than 3", they can see and be seen through it for all purposes, as long as you can draw a Line of Sight to them as normal. The ‘base’ of the forest is otherwise not considered to block line of sight.
+A forest has a Line of Sight value of 5. Models in or behind forests cannot see or be seen through it if there is more than 5" of forest between them and the enemy. If it is less than 5", they can see and be seen through it for all purposes, as long as you can draw a Line of Sight to them as normal. The ‘base’ of the forest is otherwise not considered to block line of sight.
 
 Models with the Fly special rule that begin or end a flying move in a forest, must take a Dangerous Terrain test.
 
@@ -3601,7 +3577,7 @@ Roll for any unit at least partially within the Wildwood at the end of the Movem
 
 == RIVERS
 
-Models in rivers and streams halve their movement value (rounding up) while moving through them. A unit that is at least partially in a river does not gain any bonus from ranks.
+It is impossible to march through a river. Movement is otherwise unaffected. A unit that is at least partially in a river does not gain any bonus from ranks.
 
 Most rivers have at least one place at which they can be crossed, such as a bridge or a ford. Such crossing points should normally be treated as open terrain, but only if the unit attempting to use the crossing point is in a narrow enough formation to fit across, otherwise treat the entire unit as being in the river. The width of the bridge or ford should be determined upon placing the terrain feature.
 
@@ -3617,7 +3593,7 @@ Necrotic ooze counts as Dangerous Terrain for all models. Additionally, a unit t
 
 #namecost("RAGING TORRENT", "")
 
-A raging torrent is Deadly Terrain.
+A raging torrent is Dangerous Terrain that causes models to fail their Dangerous Terrain test on a 1\-2 instead of just 1's.
 
 #namecost("RIVER OF BLOOD", "")
 
@@ -3625,11 +3601,13 @@ A unit that moves or charges through a River of Blood is counted as causing Fear
 
 #namecost("RIVER OF LIGHT", "")
 
-When a unit enters a River of Light, it is immediately the target of a randomly chosen Level 1 Light Magic spell (see the Lores of Magic). The spell is automatically cast and cannot be dispelled.
+When a unit enters a River of Light, it is immediately the target of a randomly chosen Light Magic spell (see the Lores of Magic). The spell is automatically cast and cannot be dispelled. If the spell has a choice of different casting values, it is assumed to be cast at the lower value.
 
 == OBSTACLES
 
 This category covers all long and narrow terrain types, such as fences, walls and hedges.
+
+If a Cavalry, Monstrous Cavalry, Chariot or Shrine model marches, charges, flees, pursues or overruns over an obstacle, or charges an enemy on the other side of an obstacle, it must take a Dangerous Terrain test.
 
 Obstacles do not otherwise impede movement. If a unit ends its move with some of its ranks or files on different sides of the obstacle, simply place the models appropriately on both sides of the obstacle – the unit suffers no ill-effects.
 
@@ -3649,13 +3627,13 @@ To represent the formidable defensive position offered by the obstacle, any mode
 
 If the charged unit is not in contact with the obstacle, treat it just as you would for the purposes of movement. If there isn't room for a rank of charging models to fit between the obstacle and the charged unit, it is perfectly acceptable to remove the obstacle whilst the combat goes on (put it back again as soon as possible).
 
-Models charging a unit behind an obstacle counts as making a disordered charge.
+Models attacking a unit behind an obstacle lose all charging bonuses. This means, for instance, that they do not receive the normal +1 combat result, gain no bonuses for lances and similar weapons, and do not make Impact Hits.
 
 Below is a selection of different obstacles that you can choose to include in your games:
 
 #namecost("BLAZING BARRICADE", "")
 
-Blazing barricades grant soft cover to units behind them. If a unit completes a charge against a defended blazing barricade, it immediately suffers one Strength 4 Hit with the Flaming Attack special rule on each of its models in contact with the obstacle.
+Blazing barricades grant soft cover to units behind them. If a unit completes a charge against a defended blazing barricade, it immediately suffers one Strength 4 Hit on each of its models in contact with the obstacle.
 
 #namecost("BLESSED BULWARK", "")
 
@@ -3681,7 +3659,7 @@ Below is a selection of different obstacles that you can choose to include in yo
 
 #namecost("ALTAR OF KHAINE", "")
 
-All units within 6" of an Altar of Khaine have the Frenzy special rule.
+All units within 6" of an Altar of Khaine are subject to the rules for Frenzy – as soon as a unit moves out of range, the Frenzy is lost. If a unit is already subject to Frenzy, they gain +2 Attacks instead, but must re-roll the Leadership to restrain themselves from charging.
 
 #namecost("ANVIL OF VAUL", "")
 
@@ -3701,7 +3679,7 @@ Night Goblin units within 6" of a Bad Moon Loonshrine automatically add D6 addit
 
 #namecost("CHARNEL PIT", "")
 
-All units within 6" of a Charnel Pit suffer a \-1 penalty to their Leadership, unless they have Immunity (Psychology). Undead units within 6" of the Charnel Pit have the Regeneration (6+) special rule.
+All units within 6" of a Charnel Pit suffer a \-1 penalty to their Leadership. Undead units within 6" of the Charnel Pit have the Regeneration (6+) special rule.
 
 #namecost("ELVEN WAYSTONE", "")
 
@@ -3709,7 +3687,7 @@ Any Wizard within 6" of an Elven Waystone adds +1 to their channelling attempts.
 
 #namecost("FECULENT GNARLMAW", "")
 
-Models within 6" of the Feculent Gnarlmaw at the start of end of their Movement must pass a Toughness test or suffer a Wound which Ignores Armour Saves. This has no effect on followers of Nurgle or Clan Pestilens.
+Models within 6" of the Feculent Gnarlmaw must pass a Toughness test or suffer a Wound which Ignores Armour Saves. This has no effect on followers of Nurgle or Clan Pestilens.
 
 #namecost("GNAWHOLE", "")
 
@@ -3733,7 +3711,7 @@ At the start of each player turn, roll a dice for every unit within 6" of the Si
 
 #namecost("SORCEROUS PORTAL", "")
 
-At the start of the Magic phase, after power and dispel dice have been generated, but before spells are cast, the sorcerous portal casts a spell with a 12" range that causes D6 Strength 4 Hits. The spell does not need line of sight, always targets the closest unit (regardless of range, if the unit is in combat and so on), is automatically cast and cannot be dispelled.
+At the start of the Magic phase, after power and dispel dice have been generated, but before spells are cast, the sorcerous portal casts a magic missile with a 12" range that causes D6 Strength 4 Hits. The spell does not need line of sight, always targets the closest unit (regardless of range, if the unit is in combat and so on), is automatically cast and cannot be dispelled. If the spell has a choice of casting values, it is assumed to be cast at the lower value.
 
 #namecost("TEMPLE OF SKULLS", "")
 
@@ -3775,7 +3753,7 @@ A character on or within 6" a Dreadfire Portal can roll a D6 at the end of their
 
 #namecost("DREADSTONE BLIGHT", "")
 
-A character on or within 6" a Dreadstone Blight can declare they are making a sacrifice at the end of their Remaining Moves sub-phase if they are not in combat. The character suffers a Wound with no saves allowed, but can re-roll all failed rolls To Hit and To Wound (not including mounts) for the rest of the game.
+A character on or within 6" a Dreadstone Blight can declare they are making a sacrifice at the end of their Remaining Moves sub-phase if they are not in combat. The character suffers a Wound with no saves allowed, but can re-roll all failed rolls To Hit and To Wound (not including mounts) until the start of their next turn.
 
 #namecost("DWARF BREWHOUSE", "")
 
@@ -3815,7 +3793,7 @@ Units within 6" of the Tower of Blood have the Hatred special rule. Units from t
 
 #namecost("WIZARD'S TOWER", "")
 
-A Wizard who is within 3" of the tower at the start of the Magic phase gain the Loremaster special rule for that phase.
+A Wizard who is within 3" of the tower at the start of the Magic phase gain the Loremaster special rule for that phase. If more than one Wizard is within 3", randomly choose which one has control of the tower at the start of each Magic phase.
 
 == BUILDINGS
 
@@ -3833,7 +3811,7 @@ For the most part, buildings act as impassable terrain. That said, units are all
 
 #namecost("GARRISONING A BUILDING", "")
 
-A unit can enter and garrison an unoccupied building if it can move into base contact with the building during the Movement phase. Unless differently specified, only infantry, war beasts and swarms can garrison a building. War machines can be deployed in buildings, but only if there is space to deploy the model on the top floor. Units cannot garrison a building in the same turn in which they have made a reform.
+A unit can enter and garrison an unoccupied building if it can move into base contact with the building during the Movement phase. Unless differently specified, only infantry, war beasts and swarms can garrison a building. War machines can be deployed in buildings, but only if there is space to deploy the model on the top floor. Units cannot garrison a building in the same turn in which they have marched or made a reform.
 
 It is perfectly acceptable to place a representative model from the unit in, on or next to the building to remind you that the unit is inside (standard bearers are ideal), and place the rest of the unit aside from the battlefield.
 
@@ -3843,7 +3821,7 @@ Each building can hold a single unit of any size and any characters that have jo
 
 #namecost("ABANDONING A BUILDING", "")
 
-A garrison unit can exit a building in their Remaining Moves sub-phase, though not in the same turn that it garrisoned the structure. Place the unit in any desired legal formation, with at least one model of the rear rank 1" away from the building and no model within 1" of the building. Note that no model may be placed more than double their movement value away from the building. The unit may not march in a turn that it exits
+A garrison unit can exit a building in their Remaining Moves sub-phase, though not in the same turn that it garrisoned the structure. Place the unit in any desired legal formation, with at least one model of the rear rank 1" away from the building and no model within 1" of the building. Note that no model may be placed more than double their movement value away from the building. The unit may not move any further in a turn that it exits
 
 a building. This is the only way a garrison can voluntarily leave a building – it cannot charge out of a building, for example.
 
@@ -3883,13 +3861,13 @@ Troop types that cannot garrison buildings may still assault them (except chario
 
 #namecost("CHARGE REACTIONS", "")
 
-A garrison unit can only choose to Hold or Stand and Shoot. If normally forced to Flee for any reason, they will instead choose to Hold.
+A garrison unit can only choose to Hold or Stand and Shoot, it cannot choose to Flee! – it would take far longer for the garrison to exit the building than for the enemy to flow around the sides and run the garrison down. Even a failed Terror test will not exhort a garrison to Flee! – it is better to face a mind-numbing peril with four solid walls around you! Accordingly, a garrison that fails its Terror test does not flee as normal, but is forced to Hold.
 
 #namecost("FIGHTING THE ASSAULT", "")
 
 An assault isn't resolved in the same manner as a regular combat, as the two units involved are not in base contact with one another. Rather, we assume that a swirling melee takes place around the building's door, windows and other entryways, with the best fighters from either side pushing their way forwards into the fray.
 
-Models assaulting a building count as making a disordered charge.
+Models assaulting or defending a building lose all charging bonuses. This means, for instance, that they do not receive the normal +1 combat result or Initiative, gain no charge bonuses from weapons (like spears, lances and pikes), and do not make Impact Hits.
 
 #namecost("Who Can Strike?", "")
 
