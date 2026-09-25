@@ -3965,7 +3965,7 @@ Always make sure to make it clear to your opponent what unit is which, and what 
 
 #namecost("THE ARMY GENERAL", "")
 
-*An army must always include at least one character to be its Army General.*
+*An army must always include at least one Lord or Hero character to be its Army General.*
 
 The Army General has the Inspiring Presence (12) special rule.
 
@@ -3973,7 +3973,7 @@ Some books might have several characters that must be the Army General. In this 
 
 #namecost("THE BATTLE STANDARD BEARER", "")
 
-*An army may include a character to be its Battle Standard Bearer.*
+*An army may include a Hero character to be its Battle Standard Bearer.*
 
 Every army may have a Battle Standard Bearer. This is option is explained in each Warhammer Armies book. Some books might have the option for several characters to the Battle Standard Bearer. In this case, only one of them may be nominated.
 
@@ -3983,17 +3983,25 @@ The Battle Standard Bearer has the Hold Your Ground (12) special rule.
 
 If a Battle Standard Bearer is in a unit and Refuses a Challenge it is subsequently moved to the rear of its unit and loses the Hold Your Ground special rule until the end of the turn.
 
-Like a normal standard, a Battle Standard adds +1 combat resolution.
+Like a normal standard, a Battle Standard adds +1 combat resolution in a close combat if it is in a friendly unit.
 
 Unlike normal standards, the Battle Standard is lost if the bearer is slain – other models cannot pick it up, even if they are in the same unit.
+
+#namecost("MINIMUM UNITS", "")
+
+*An army must always include at least one Core, Special or Rare unit per 500 points played in addition to any Lords and Heroes.*
+
+An army must contain at least one Core, Special or Rare unit for every 500 points played. So, at 750 points you need two units, at 1250 points you need three units, at 2500 points you need 5 units and so on.
+
+#chart((("Points Level:", "Units needed:"), ("0-500", "1"), ("501-1000", "2"), ("1001-1500", "3"), ("1501-2000", "4"), ("2001-2500", "5"), ("Each +500", "+1")))
 
 #namecost("UNIT CATEGORIES", "")
 
 Each army list divides the forces available into several categories. In a standard game, players are limited as to how many of their points can be spent from any particular category.
 
-#namecost("CHARACTERS", "")
+#namecost("LORDS & HEROES", "")
 
-You can spend up to 35% of your points on Characters.
+You can spend up to 25% of your points on Lords and/or 35% on Heroes, but no more than 35% in total over both categories.
 
 #namecost("CHARACTER MOUNTS", "")
 
@@ -4017,7 +4025,7 @@ You can spend up to 25% of your points on Rare units.
 
 #namecost("WIZARDS AND SPELL LORES", "")
 
-Some characters are Wizards, and have access to one or more spell lores.
+Some Lords and Heroes are Wizards, and have access to one or more spell lores.
 
 Although you will not choose the spells that your Wizards know until you start to play your game you do need to make a note in your army roster of which spell lore each of your Wizards will use. The spells themselves are chosen after you know which army you will be facing, but before rolling to choose sides to deploy on.
 
@@ -4029,10 +4037,6 @@ Special characters are exceptional individuals but, more importantly for our arm
 
 Some units are incredibly rare to the point where there is a set limit on the number of them you can include in your army. Where this is the case, they will be listed as something like 0\-1 or 0\-2 etc. This means you may at most have a number of these units in your army equal to the number given in the army list, unless specified.
 
-#namecost("COST LIMIT", "")
-
-No single character or unit in your army may cost more than 25% of your total points.
-
 #namecost("DUPLICATE CHOICES", "")
 
 There is a limit on how many duplicates of each Special and Rare unit you can include in your army. This limit does not apply to the total number of Special and Rare units overall. Note that this limit applies to the basic unit type and is not dependent on the size of the unit or optional equipment. If a character has a Monstrous Creature, Monster, Chariot, Shrine or War Machine mount that is available as a Special or Rare choice, then these will also count towards the limit of duplicate choices.
@@ -4043,9 +4047,9 @@ There is a limit on how many duplicates of each Special and Rare unit you can in
 
 #namecost("UNIT SIZES", "")
 
-In each army book is listed a unit size for each entry that consists of more than one model, such as 10\-30. In this case, 10 is the minimum of models that must be included in that unit, and 30 is the maximum number. The listed points cost is multiplied by each model.
+In each army book is listed a unit size for each entry that consists of more than one model. This is the minimum number of models that must be included in that unit, and the listed points cost is multiplied by each model. Some units also have a maximum limit of models per unit; this is specified in the unit entry in question.
 
-In the case of Mixed Units, the listed unit size does not include any handlers. The number of Handlers is always specified separately.
+Some units consist of two types of models; these always specify the number of models of each type that is part of the unit.
 
 #namecost("EQUIPMENT", "")
 
