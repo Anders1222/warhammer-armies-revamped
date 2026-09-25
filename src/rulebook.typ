@@ -2920,7 +2920,7 @@ Any Characteristic tests are resolved against the characteristics value of the c
 
 #namecost("THE CREW", "")
 
-A war machine unit comprises the machine itself, plus its crew. As the crew aren't really a combat unit, per se, we ignore them for most gaming purposes, treating the war machine itself as the extent of the unit. Once all the crew have been removed, the war machine itself is removed from play. Similarly, if the war machine is removed as a casualty, all remaining crew are also removed. All crew should be placed within 1" of the war machine.
+A war machine unit comprises the machine itself, plus its crew. As the crew aren't really a combat unit, per se, we ignore them for most gaming purposes, treating the war machine itself as the extent of the unit. When the war machine suffers a wound, remove a crew model. Once all the crew have been removed, the war machine itself is removed from play. Similarly, if the war machine is removed as a casualty, all remaining crew are also removed. The crew are used only to indicate the remaining number of Wounds and the number of attacks the war machine can make in close combat, so players should simply arrange their crew in a pleasingly aesthetic fashion within 1" of the war machine.
 
 The crew cannot be charged, attacked or otherwise affected separately from their war machine – if they are found to be blocking movement or line of sight, the controlling player simply alters their position, just as you would for any other battlefield marker or counter.
 
@@ -2950,7 +2950,7 @@ When firing a war machine's weapon, ranges are measured from the muzzle of the g
 
 Line of sight is always taken from the chosen firing point (i.e. its muzzle or crossbar, in the same way as for its range). Unlike other lone models, pivoting the war machine during the Movement phase counts as moving for war machines, and thus they cannot fire in turns they do so. Before you fire the war machine, pivot it to face your chosen target in the Shooting phase so the war machine faces it directly in a straight line – note that the target must be within the war machine's forward arc as normal.
 
-For war machine weapons that require Ballistic Skill, use the highest Ballistic Skill amongst the crew to resolve the shot.
+For war machine weapons that require Ballistic Skill, use the highest Ballistic Skill amongst the crew to resolve the shot. Unless specified, War Machines do not suffer To Hit penalties for Moving and Shooting or firing Multiple Shots.
 
 #diagram("/assets/figures/rulebook/img-0555.jpg", 0.463)
 
@@ -2960,9 +2960,9 @@ For war machine weapons that require Ballistic Skill, use the highest Ballistic 
 
 Enemies charging a War Machine lose all charge bonuses (including bonus from special rules).
 
-At the start of the Close Combat phase, before any blows are struck, the player whose unit(s) are attacking the war machine must choose models worth up to Unit Strength 10 who will fight in the combat. This is regardless of the number of units that are fighting the war machine. Note that you may always allocate a minimum of one model to fight, regardless of their actual Unit Size.
+At the start of the Close Combat phase, before any blows are struck, the player whose unit(s) are attacking the war machine must choose models worth up to Unit Strength 6 who will fight in the combat. This is regardless of the number of units that are fighting the war machine. Note that you may always allocate a minimum of one model to fight, regardless of their actual Unit Size.
 
-All models chosen for the fight are considered to be in base contact with the war machine. Models that are in base contact with other enemies cannot be chosen to attack the war machine. If a war machine has crew with two or more different profiles, you must choose how you wish you allocate your attacks against them.
+All models chosen for the fight are considered to be in base contact with the war machine. Models that are in base contact with other enemies cannot be chosen to attack the war machine.
 
 The combat is otherwise resolved normally. In particular, casualties are taken from the 'back' of the unit as normal. All surviving crew models fight as normal using their Weapon Skill, Strength, Initiative and Attacks. Enemy models strike against the crew normally, resolving their attacks against the crew's Weapon Skill and Toughness. The crew can then take any saves they might have.
 
