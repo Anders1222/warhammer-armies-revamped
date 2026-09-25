@@ -3308,7 +3308,13 @@ When no rank-and-file models remain, the controlling player chooses the order in
 
 #namecost("LEADERS", "")
 
-A unit that is accompanied by a Leader may re-roll failed Leadership tests when Counter-charging, Redirecting a Charge, Reforming from Defeat after losing a round of close combat, and Restraining from Pursuit.
+A unit that is accompanied by a Leader may re-roll failed Leadership tests in the following scenarios:
+
+- March when within 8" of enemy units.
+- Redirecting a Charge.
+- Reforming from Defeat after losing a round of close combat.
+- Restraining from Pursuit.
+- Swift Reform (see Musicians below).
 
 Some Leaders also have the option to take specialised equipment. If this is the case, it is clearly stated in their entry in each separate army book. Note that when resolving attacks against a Leader, treat them as being armed as the rest of the unit.
 
@@ -3320,7 +3326,15 @@ If a unit includes a Standard Bearer, it adds +1 to its combat result.
 
 The side that has a Musician in its front rank of one or more of its units wins any drawn close combat by 1, unless the opposing side has a Musician also, in which case they cancel each other out.
 
-A unit that is accompanied by a Musician may re-roll failed Leadership tests when attempting to march within 6" of enemy units and rallying. Fast Cavalry and Skirmishers that have fled using Feigned Flight automatically rally.
+If a fleeing unit has a Musician, it may re-roll its Leadership test whenever it attempts to rally. Fast Cavalry and Skirmishers that have fled using Feigned Flight automatically rally.
+
+A unit that is not fleeing and not engaged in combat can attempt to make a swift reform during the Remaining Moves sub-phase if it has a Musician, by taking a Leadership test. If the test is passed, the unit immediately makes a swift reform – if failed, the unit makes a normal reform instead, with all the penalties that apply. A swift reform is treated exactly like a reform manoeuvre with the following exceptions:
+
+- A unit performing a swift reform may not change their formation by decreasing or increasing their ranks. The unit may only turn on the spot by pivoting like a lone model.
+
+- A unit that has made a swift reform can immediately make a full normal move, even though a reform would normally prevent it from doing so. Note that a unit that carries out a swift reform cannot march.
+
+- A unit that has made a swift reform can still shoot, although it will count as moving, whether or not it moves further after the reform has been completed. This means that it will suffer the \-1 modifier for moving and firing, and will not be able to shoot Move or Fire weapons.
 
 = CHARACTERS
 
