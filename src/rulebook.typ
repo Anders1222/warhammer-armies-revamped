@@ -4194,7 +4194,7 @@ Each enemy unit that has been destroyed or has fled off the table is worth a num
 
 #namecost("WOUNDED", "")
 
-Each character or other lone models that has half or less of their starting number wounds remaining at the end of the battle is worth a number of victory points equal to 50% of the number of points it cost to include the unit in the army.
+Each character or monster that has half or less of their starting number wounds remaining at the end of the battle is worth a number of victory points equal to 50% of the number of points it cost to include the unit in the army.
 
 #namecost("THE KING IS DEAD", "")
 
