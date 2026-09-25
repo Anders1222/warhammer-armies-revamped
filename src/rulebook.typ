@@ -414,19 +414,19 @@ In Warhammer, a normal move for any model, and therefore any unit of models, is 
 
 Individual models are not permitted to leave their units and so a unit effectively moves as a single entity. If, for whatever reason, there is more than one Move characteristic in the unit, then the entire unit is treated as having the same Move value as the slowest model.
 
+Models (and units) must move forward in a straight line, unless performing a manoeuvre, which we'll discuss in a moment.
+
 #diagram("/assets/figures/rulebook/img-0454.jpg", 0.463)
 
 #note[_When moving models, it is a common mistake to measure the distance from the front of the base and then place the model so the back of its base is on the far side of the tape measure. This is incorrect, as it adds the entire length of the model's base (or the unit's bases) to the distance moved. Always use a common measuring point – in this example, the front of the first rank._]
 
 #namecost("1\" APART", "")
 
-A unit is not allowed to end their move closer than 1" to another unit, friend or foe. If pivoting the unit on the spot would cause you to come into base contact with another unit, you must move your model back so that it is still 1" away from these after your pivot. If your model cannot be moved back because it is between two units, you should, if possible, move the other unit back so the pivot can be performed. Note that units that are engaged in close combat may never be moved back in this way. On the off chance that neither unit can be moved back, the pivot may not be made.
+A unit is not allowed to end their move closer than 1" to another unit, friend or foe, or impassable terrain (as described in the Battlefield Terrain chapter). If pivoting the unit on the spot would cause you to come into base contact with another unit or impassable terrain, you must move your model back so that it is still 1" away from these after your pivot. If your model cannot be moved back because it is between two units or pieces of impassable terrain, you should, if possible, move the other unit back so the pivot can be performed. Note that units that are engaged in close combat may never be moved back in this way. On the off chance that neither unit can be moved back, the pivot may not be made.
 
 This rule does not apply to charge moves, as the whole point of charging is to get a unit into base contact with an enemy. Occasionally, a unit will have approached to within 1" of a unit it did not charge as the result of moving into contact with a unit it did charge. This is perfectly acceptable, although players may wish to nudge the units further apart to maintain a suitable degree of clarity.
 
 #namecost("WHEEL", "")
-
-A model may always wheel as part of a normal move.
 
 When performing a wheel, the leading edge of the formation moves forward, pivoting round one of the front corners. The unit swings round like the spoke of a turning wheel and completes the move facing a different direction. During the Remaining Moves sub- phase, wheels are measured as follows:
 
@@ -438,33 +438,21 @@ When a unit is wheeling, you measure the distance moved by the outside corner of
 
 === MANOEUVRES
 
-*There are three types of manoeuvres to choose from: turn, redress the ranks and reform.*
-
-During its movement, a unit may perform a single manoeuvre.
+*There are two specific manoeuvres that enable a unit to change direction or rearrange its ranks: wheel and reform.*
 
 As with a normal move, a unit cannot carry out a manoeuvre if doing so would ends its move within 1" of another unit.
 
 In addition, none of the models in the unit may move more than twice their Movement rate as a result of a manoeuvre (i.e. models with Movement 4 can move up to 8").
 
-#namecost("TURN", "")
-
-To execute a turn, the whole unit pivots on the spot in any direction of your choice. This uses a quarter of its Movement characteristic.
-
-#namecost("REDRESS THE RANKS", "")
-
-Units can redress the ranks by moving models to or from their rear ranks to decrease or increase the number of models in their front rank. A unit may use half of its Movement characteristic in order to deduct up to five models from its front rank, or to add up to five models to its front rank.
-
-The models in the remaining ranks are then rearranged to match the number of models in the front rank and maintain a correct formation.
-
 #namecost("REFORM", "")
 
-Reforming allows a unit to sacrifice its entire movement in order to both pivot about its centre, and to redress its ranks and files as required to either change its formation, or to adopt a different formation.
+Keeping the centre point of the unit the same, arrange the unit into a new formation of as many ranks as you please, facing whichever direction you wish. Remember that none of the models in the unit can move more than twice their Movement rate.
 
-A unit that reforms may not fire missile weapons in the Shooting phase.
+A reform prevents the unit from moving any further that turn, and also stops it from firing missile weapons in the Shooting phase.
 
 #diagram("/assets/figures/rulebook/img-0457.jpg", 1.0)
 
-#note[_A unit can either turn (A), redress the ranks (B), or reform (C)._]
+#note[_When a unit reforms, it can change its number of ranks or files (A), the direction it is facing (B), or both (C)._]
 
 == THE MOVEMENT PHASE SEQUENCE
 
@@ -479,14 +467,8 @@ A unit that reforms may not fire missile weapons in the Shooting phase.
 Below can be found a summary chart of various types of Movement rules found throughout the game.
 
 #chart((("Movement Type:", "Distance Moved:"), ("Normal", "Movement"), ("Moving backwards or
-sideways", "Movement / 2"), ("Marching", "Movement x 2"), ("Charging (Movement 5
-and below)", "Movement + 2D6
-(choose highest)"), ("Charging (Movement 6
-and above)", "Movement + 2D6"), ("Failed Charge
-(Movement 5 and
-below)", "2D6 (choose highest)"), ("Failed Charge
-(Movement 6 and
-above)", "2D6"), ("Fleeing", "Movement + D6"), ("Pursuing", "Movement + D6")))
+sideways", "Movement / 2"), ("Marching", "Movement x 2"), ("Charging", "Movement + 2D6
+(choose highest)"), ("Failed Charge", "2D6 (choose highest)"), ("Fleeing", "2D6"), ("Pursuing", "2D6")))
 
 == 1. START OF PHASE
 
@@ -506,7 +488,7 @@ Once the charge reaction has been resolved, you can nominate another of your uni
 
 Charging is the only way for a unit to engage the enemy in close combat. It is up to the player if they wish to declare a charge or not, unless specified.
 
-To declare a charge you must indicate which of your units is charging, and which enemy unit it is going to charge. You must always measure the distance between the charger and the potential target before declaring the charge to determine if the unit is in range or not.
+To declare a charge you must indicate which of your units is charging, and which enemy unit it is going to charge. You're always allowed to measure the distance between the charger and the potential target before declaring the charge, as this might well affect your decision whether or not to declare a charge.
 
 When you declare a charge, one or more of the models in your unit must be able to trace a line of sight to the enemy unit, and the target must lie at least partially within the charging unit's front arc.
 
@@ -522,7 +504,7 @@ To make such a judgement, you'll need to know how a charge move is completed, wh
 
 *An enemy unit that has had a charge declared against it must perform a charge reaction. Once the charge reaction is complete, the charging player can declare a charge with another unit, until they have declared all the charges they wish to.*
 
-As your opponent declares a charge, you can declare a charge reaction for your charged unit. There are four types of charge reaction: Hold, Stand & Shoot, Counter-charge and Flee.
+As your opponent declares a charge, you can declare a charge reaction for your charged unit. There are three types of charge reaction: Hold, Stand & Shoot and Flee.
 
 Note that a unit that is already engaged in close combat is not allowed to make any charge reaction besides Hold.
 
@@ -536,21 +518,13 @@ A unit will normally elect to Hold if it has no missile weapons. Units that are 
 
 *If a unit elects to perform a Stand & Shoot reaction it fires any missile weapons it has against the charging foe. A Stand & Shoot reaction can only be declared if the unit has missile weapons of some kind.*
 
-A Stand & Shoot reaction can only be declared if the distance to the enemy is greater than the charging unit's minimum charge range.
+A Stand & Shoot reaction can only be declared if the range to the enemy is greater than the charging unit's Move characteristic.
 
 If a Stand & Shoot charge reaction is declared, the unit makes a normal, although out of sequence, shooting attack against the charging unit (see the Shooting chapter for more details on shooting attacks).
 
-To resolve a Stand & Shoot reaction, first roll the charging unit’s charge distance (see Resolve Charges). If the charging unit has enough Movement to enter the maximum range of the holding unit’s weapons, resolve the shooting attacks for each weapon as if the charging unit had just entered that weapon’s range. If the charge fails before reaching that range, the Stand & Shoot reaction for that weapon has no effect.
+Once the shooting attack, and any Panic test caused by it (detailed in the Panic chapter), have been resolved, the unit is treated as having declared a Hold reaction. A Stand & Shoot reaction can even be declared against an enemy unit that starts its charge outside the firing unit's maximum range – the shooting is resolved normally before the charging unit moves. It is always assumed the enemy is just within maximum range of the shooting unit's shortest-ranged weapon, even if the charge fails for whatever reason.
 
-#namecost("COUNTER-CHARGE", "")
-
-*If a unit Counter-charges, it rushes forward to meet the attacker head-on.*
-
-A unit that is charged to their front may attempt to Counter-Charge the enemy if the distance to the enemy is greater than the charging unit's minimum charge range, and the unit did not fail any charge the turn before.
-
-This is done by taking a Leadership test; if failed the charged unit must choose to Hold. If passed, the unit moves D6" directly towards the enemy unit, wheeling as needed.
-
-Both units are considered to have charged during this turn. If the counter-charging unit cannot complete its move for any reason, it does not count as charging and loses any associated bonuses for it.
+In most cases, there is no downside to a Stand & Shoot over simply holding.
 
 #namecost("FLEE", "")
 
@@ -562,7 +536,7 @@ If a unit chooses a Flee reaction, for whatever reason, use the following proced
 
 - Immediately turn the unit about its centre so that it is facing directly away from the centre of the charging enemy unit (ignore other units or impassable terrain). This turn is 'free' and does not reduce the distance the unit will flee.
 
-- After turning, the unit flees the sum of their Movement + D6 in the direction it is facing, as described under Move Fleeing Units in the Compulsory Moves sub-phase.
+- After turning, the unit flees 2D6" in the direction it is facing, as described under Move Fleeing Units in the Compulsory Moves sub-phase.
 
 It should be noted that a Flee reaction does not guarantee escape from oncoming chargers. If the fleeing unit rolls poorly and the chargers roll well, the fleeing unit might yet be caught, as we will discuss later.
 
@@ -590,8 +564,6 @@ A unit might well be called upon to make several charge reactions over the cours
 
 A unit can only Stand & Shoot once in a Charge sub- phase. This is not to say that the Stand & Shoot must be used against the first charging unit – the charged unit can opt to Hold against the first charge and Stand and Shoot against the second charge. It could even then elect to Flee in reaction to a third charge if it wished.
 
-A unit that declares a Counter-charge reaction cannot make any additional charge reactions besides Hold that turn. A unit may only make one actual Counter-charge move once per turn. If the counter-charging unit gets charged by more than one unit, it counts as counter- charging all units to its front.
-
 A unit that declares a Flee charge reaction cannot make any additional charge reactions that turn. A unit may only make one actual Flee move once per turn.
 
 === RESOLVE CHARGE
@@ -604,15 +576,11 @@ Work through the charges one at a time, in any order decided by the player whose
 
 *If the charge range is equal to or greater than the distance to the enemy unit, the charge is successful. If the charge range is less than the distance to the enemy, the charge is failed.*
 
-The charge range of a unit is the sum of its Movement value and 2D6 (choose the highest result) if the unit has Movement 5 or less, or its Movement value and 2D6 if the unit has Movement 6 or more.
+The charge range of a unit is based on its Movement value. A unit's charge range is the sum of its Movement value and a 2D6 roll (where you pick the highest score rolled) in inches.
 
-#note[_For example, a unit with Movement 4 rolls a 2 and 5 for its charge distance, meaning it can charge up to 9" (4+5) this turn. A unit with Movement 8 rolling the same result can charge up to 15" (8+2+5)._]
+#note[_For example, a unit with Movement 4 rolls a 2 and 5 for its charge distance, meaning it can charge up to 9" (4+5) this turn._]
 
 With the unit's charge range established, measure the distance between the charging unit and its target unit at their closest points in an uninterrupted line between them. If the distance is greater than the charge range, then the charging unit realises that if has insufficient momentum to reach the enemy and instead makes what we call a failed charge. If the distance is less than or equal to the charge range, then the charging unit has reached the enemy and makes a successful charge.
-
-#namecost("DISORDERED CHARGE", "")
-
-In certain situations, a unit’s charge may become disordered, most commonly due to various types of terrain. A unit that makes a disordered charge is not subject to any rules that only apply when a unit charges.
 
 #namecost("FAILED CHARGE", "")
 
@@ -664,7 +632,7 @@ If a charging unit straddles two zones, then the unit is considered to be in the
 
 #note[_4\. In this case it is hard to tell where the majority of the front rank lies, so it is best to roll a dice to decide between a flank and rear charge._]
 
-In some cases, the enemy unit might have to close the door with the chargers instead. In this situation, the charging unit counts as making a disordered charge against that unit. If no amount of finagling can allow the unit to avoid the obstacle, the charge fails.
+In some cases, the enemy unit might have to close the door with the chargers instead. If no amount of finagling can allow the unit to avoid the obstacle, the charge fails.
 
 There is one important principle that you should always keep in mind when charging: under no circumstances can a unit use its charge move to move into contact with an enemy it has not declared a charge against.
 
@@ -674,11 +642,11 @@ Sometimes a charging unit can move into contact with its target, but cannot clos
 
 #diagram("/assets/figures/rulebook/img-0470.jpg", 0.999)
 
-#note[_1\. The red unit declares a charge. 2. It wheels to maximise and avoid terrain. 3. It moves into contact with the enemy. 4. The charging unit cannot close the door, because a rock is in the way, so the blue unit does instead. This causes the red unit to make a disordered charge._]
+#note[_1\. The red unit declares a charge. 2. It wheels to maximise and avoid terrain. 3. It moves into contact with the enemy. 4. The charging unit cannot close the door, because a rock is in the way, so the blue unit does instead._]
 
 #namecost("CHARGING A FLEEING ENEMY", "")
 
-If, for whatever reason, one or more units complete a charge against a fleeing enemy, move the charging unit(s) into contact with the fleeing enemy as described earlier. The fleeing unit then suffers one Wound with no saves of any kind allowed for each point of Unit Strength the charging unit(s) has. If any models survive, the charging unit then stops 1" behind the remains of the unit.
+If, for whatever reason, one or more units complete a charge against a fleeing enemy, move the charging unit(s) into contact with the fleeing enemy as described earlier. The fleeing unit then suffers two Wounds with no saves of any kind allowed for each point of Unit Strength the charging unit(s) has. For example, a unit with Unit Strength 10 will inflict 20 Wounds on the enemy unit. If any models survive, the charging unit then stops 1" behind the remains of the unit.
 
 A charging unit that completely destroys a unit of fleeing troops in this way are allowed to attempt a reform by passing a Leadership test. If the test is failed, they do not have the chance to reform. If the test is passed, the unit immediately makes a reform manoeuvre. In either case, the unit cannot move further during this Movement phase.
 
@@ -714,7 +682,7 @@ All compulsory movement is carried out after charges have been resolved, but bef
 
 During the Compulsory Moves sub-phase, the player picks any one of their fleeing units and tests to rally it (as explained below). They then proceed to the next fleeing unit and attempt to rally it, and so on, in any order they wish, until all units that are able to make a rally attempt have done so.
 
-If the unit started to flee in this turn it cannot attempt to rally the same turn. Units cannot attempt to rally if enemy units are within 6", unless those units are fleeing, engaged in combat or have less than Unit Strength 10.
+If the unit started to flee in this turn it cannot attempt to rally the same turn.
 
 A unit attempts to rally by taking a Leadership test. If the fleeing unit has been reduced in size to a quarter (25%) or less of the number of models with which it began the game, its Leadership value is halved (after any other modifiers, special rules or abilities are applied, rounded up).
 
@@ -722,9 +690,9 @@ If the Rally test is failed the unit continues to flee. If the Rally test is suc
 
 === MOVE FLEEING UNITS
 
-*Any units that do not rally must immediately flee the sum of their Movement + D6" in the direction they are facing. Every model that flees through an enemy unit or impassable terrain risk taking damage.*
+*Any units that do not rally must immediately flee 2D6" in the direction they are facing. Every model that flees through an enemy unit or impassable terrain risk taking damage.*
 
-Fleeing troops ignore obstacles of any kind as they retreat. Fleeing troops move through other units (friend or foe) and impassable terrain. If the flee move would result in the fleeing unit ending up 'on top' of or within 1" of another unit, then it carries on fleeing straight forward until it is 1" past the obstruction, and will then halt.
+Fleeing troops ignore obstacles of any kind as they retreat. Fleeing troops move through other units (friend or foe) and impassable terrain. If the flee move would result in the fleeing unit ending up 'on top' of or within 1" of another unit or impassable terrain, then it carries on fleeing straight forward until it is 1" past the obstruction, and will then halt.
 
 Each fleeing model must pass a Dangerous Terrain test for each area of impassable terrain that it flees through. More information on Dangerous Terrain tests and Impassable Terrain can be found in the Battlefield Terrain chapter.
 
@@ -760,21 +728,21 @@ Units may not mix forward, backward and/or sideways movement as part of the same
 
 === MARCHING
 
-*Troops can move at double speed. If they start their move within 6" of an enemy, they must pass a Leadership test to do so.*
+*Troops can move at double speed. If they start their move within 8" of an enemy, they must pass a Leadership test to do so.*
 
-Marching troops move at twice their normal Movement rate. A unit on the march is not permitted to perform any manoeuvres, move sidewards or backwards.
+Marching troops move at twice their normal Movement rate. A unit on the march is not permitted to reform, as this would disrupt its movement, nor is it allowed to move backwards or to the side. It can wheel as normal, as you might imagine a column of troops would in order to follow a road, for example.
 
-It is also worth noting that a unit that has marched in the Movement phase cannot shoot missile weapons during the Shooting phase unless specified.
+It is also worth noting that a unit that has marched in the Movement phase cannot shoot missile weapons during the Shooting phase.
 
 #namecost("NEARBY ENEMIES", "")
 
-If you wish a unit to march when an enemy unit is within 6", it will first have to take a Leadership test. If the test is passed, the unit marches as ordered. If the test is failed, the unit will only be able to move normally. Units do not need to test to march if the enemy units are fleeing, engaged in combat or have less than Unit Strength 10.
+If you wish a unit to march when a non-fleeing enemy unit is within 8", it will first have to take a Leadership test. If the test is passed, the unit disregards the nearby foe and marches as ordered. If the test is failed, the unit will only be able to move normally. Note that if a unit attempts this test and fails, it is still treated as having marched, even if its controlling player then elects not to have the unit move at all.
 
 === LONE MODELS AND MOVEMENT
 
 *Units that consist of a single model are mostly moved the same as other units.*
 
-They move, wheel and march just like a larger unit. The one exception is that a single model (except chariots, see the Troop Types chapter) can pivot on the spot as many times as it wishes over the course of its move. It can do so without penalty and so pivoting does not prevent models from marching, or even from shooting later in the turn.
+They move, wheel and march just like a larger unit. The one exception is that a single model (except chariots, see the Troop Types chapter) can pivot on the spot as many times as it wishes over the course of its move. It can do so without penalty and so pivoting does not prevent models from marching, or even from shooting later in the turn, although a lone model that pivots on the spot does count as moving for the purposes of shooting and so on.
 
 On some occasions, notably when charging, a lone model has to perform a wheel (when charging, a lone model must follow the normal charge rules, which do not allow pivots, only one wheel whilst moving, and another to 'close the door'). In this case, wheel from one of the front corners as you would for other units.
 
