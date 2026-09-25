@@ -365,16 +365,11 @@ First, you must choose an army to play and a points value to use. In a pitched b
 
 === THE BATTLEFIELD
 
-The size of the battlefield depends on the size of the game played. A standard game of 2500 points is best played on a 6' x 4' table. Games below 1500 points are best played on a 4' x 4' table, and games above 3500 points are best played on an 8' x 4' table.
+The size of the battlefield depends on the size of the game played. A standard game of 2500 points is best played on a 6' x 4' table.
 
-Firstly, players take their turn to place terrain pieces on the tabletop. Unless both players agree to do otherwise, place the terrain you want to use according to the following rules:
+Firstly, place the terrain you want to use. Rules are not strict here, but a good guideline is placing one terrain piece for every 2' x 2' square of the table.
 
-- Place a minimum of one terrain piece for every 2' x 2' square of the table.
-- Keep a minimum distance of 6" between separate terrain pieces.
-- Multiple terrain pieces that fit together (such as a group of fences, trees, or buildings) counts as a single terrain piece, as long as they do not take up more than a 12" x 12" square of space combined.
-- Single terrain pieces may extend beyond 12" in size.
-
-Each player should clarify what type of terrain is placed upon deployment of said terrain.
+Players take their turn to place the terrain pieces on the tabletop. Once finished, both players should agree on what sort of terrain each piece is to clarify what certain rules they might have during the battle.
 
 === DEPLOYMENT
 
@@ -386,7 +381,7 @@ When deploying your units, place them at least 1" apart so it is made clear whic
 
 === STARTING THE BATTLE
 
-After deployment is finished, the players roll a dice to decide which player will begin. The player with the least amount of deployment drops adds +1 to their result. The player with the highest result then chooses if they want to go first or second. In case both players roll the same result, re-roll the dice until one player rolls higher.
+After deployment is finished, the players roll a dice to decide which player will begin. The player with the least amount of deployment drops adds +1 to their result. In case both players roll the same result, re-roll the dice until one player rolls higher.
 
 A standard game lasts 6 whole turns. A turn consists of the Movement, Magic, Shooting and Close Combat phase of both players. Once the 6 turns are finished, calculate the casualties and completed objectives for both armies to determine the winner. For more information on various battles, see the Scenarios chapter.
 
