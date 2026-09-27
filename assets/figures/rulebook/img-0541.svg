@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+<title id="title">Skirmisher facing</title>
+<desc id="desc">Warhammer Armies Revamped rules diagram. Blue and red bases distinguish the opposing forces; arrowheads show facing. Dashed outlines show previous positions.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#30291f"/></marker></defs>
+<rect x="3" y="3" width="594" height="594" fill="#f5f0e5" stroke="#b5a58a" stroke-width="1.5" rx="8"/>
+<line x1="20" y1="49" x2="580" y2="49" stroke="#b5a58a" stroke-width="1"/>
+<text x="300.0" y="31" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="18" text-anchor="middle" letter-spacing="2">SKIRMISHER FACING</text>
+<line x1="113" y1="221" x2="25" y2="133" stroke="#887b68" stroke-width="2" stroke-dasharray="8 7"/>
+<line x1="475" y1="221" x2="575" y2="121" stroke="#887b68" stroke-width="2" stroke-dasharray="8 7"/>
+<line x1="113" y1="423" x2="25" y2="511" stroke="#887b68" stroke-width="2" stroke-dasharray="8 7"/>
+<line x1="475" y1="423" x2="575" y2="523" stroke="#887b68" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="300.0" y="150" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="31" text-anchor="middle">Forward</text>
+<text x="300.0" y="510" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="31" text-anchor="middle">Rear</text>
+<text x="83" y="312.0" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="29" text-anchor="middle" transform="rotate(-90 83 312.0)">Flank</text>
+<text x="517" y="312.0" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="29" text-anchor="middle" transform="rotate(90 517 312.0)">Flank</text>
+<g transform="translate(113 221) rotate(0)">
+<rect x="0" y="0" width="34" height="34" fill="#5c8798" stroke="#30291f" stroke-width="1.3"/>
+<line x1="3" y1="31" x2="31" y2="31" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(17.0 17.0) rotate(0)">
+<path d="M -8.5 -7.48 L 0 -12.58 L 8.5 -7.48" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</g>
+<g transform="translate(193 221) rotate(0)">
+<rect x="0" y="0" width="34" height="34" fill="#5c8798" stroke="#30291f" stroke-width="1.3"/>
+<line x1="3" y1="31" x2="31" y2="31" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(17.0 17.0) rotate(0)">
+<path d="M -8.5 -7.48 L 0 -12.58 L 8.5 -7.48" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</g>
+<g transform="translate(273 221) rotate(0)">
+<rect x="0" y="0" width="34" height="34" fill="#5c8798" stroke="#30291f" stroke-width="1.3"/>
+<line x1="3" y1="31" x2="31" y2="31" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(17.0 17.0) rotate(0)">
+<path d="M -8.5 -7.48 L 0 -12.58 L 8.5 -7.48" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</g>
+<g transform="translate(353 221) rotate(0)">
+<rect x="0" y="0" width="34" height="34" fill="#5c8798" stroke="#30291f" stroke-width="1.3"/>
+<line x1="3" y1="31" x2="31" y2="31" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(17.0 17.0) rotate(0)">
+<path d="M -8.5 -7.48 L 0 -12.58 L 8.5 -7.48" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</g>
+<g transform="translate(433 221) rotate(0)">
+<rect x="0" y="0" width="34" height="34" fill="#5c8798" stroke="#30291f" stroke-width="1.3"/>
+<line x1="3" y1="31" x2="31" y2="31" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(17.0 17.0) rotate(0)">
+<path d="M -8.5 -7.48 L 0 -12.58 L 8.5 -7.48" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</g>
+<g transform="translate(113 301) rotate(0)">
+<rect x="0" y="0" width="34" height="34" fill="#5c8798" stroke="#30291f" stroke-width="1.3"/>
+<line x1="3" y1="31" x2="31" y2="31" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(17.0 17.0) rotate(0)">
+<path d="M -8.5 -7.48 L 0 -12.58 L 8.5 -7.48" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</g>
+<g transform="translate(193 301) rotate(0)">
+<rect x="0" y="0" width="34" height="34" fill="#5c8798" stroke="#30291f" stroke-width="1.3"/>
+<line x1="3" y1="31" x2="31" y2="31" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(17.0 17.0) rotate(0)">
+<path d="M -8.5 -7.48 L 0 -12.58 L 8.5 -7.48" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</g>
+<g transform="translate(273 301) rotate(0)">
+<rect x="0" y="0" width="34" height="34" fill="#5c8798" stroke="#30291f" stroke-width="1.3"/>
+<line x1="3" y1="31" x2="31" y2="31" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(17.0 17.0) rotate(0)">
+<path d="M -8.5 -7.48 L 0 -12.58 L 8.5 -7.48" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</g>
+<g transform="translate(353 301) rotate(0)">
+<rect x="0" y="0" width="34" height="34" fill="#5c8798" stroke="#30291f" stroke-width="1.3"/>
+<line x1="3" y1="31" x2="31" y2="31" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(17.0 17.0) rotate(0)">
+<path d="M -8.5 -7.48 L 0 -12.58 L 8.5 -7.48" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</g>
+<g transform="translate(433 301) rotate(0)">
+<rect x="0" y="0" width="34" height="34" fill="#5c8798" stroke="#30291f" stroke-width="1.3"/>
+<line x1="3" y1="31" x2="31" y2="31" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(17.0 17.0) rotate(0)">
+<path d="M -8.5 -7.48 L 0 -12.58 L 8.5 -7.48" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</g>
+<g transform="translate(113 381) rotate(0)">
+<rect x="0" y="0" width="34" height="34" fill="#5c8798" stroke="#30291f" stroke-width="1.3"/>
+<line x1="3" y1="31" x2="31" y2="31" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(17.0 17.0) rotate(0)">
+<path d="M -8.5 -7.48 L 0 -12.58 L 8.5 -7.48" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</g>
+<g transform="translate(193 381) rotate(0)">
+<rect x="0" y="0" width="34" height="34" fill="#5c8798" stroke="#30291f" stroke-width="1.3"/>
+<line x1="3" y1="31" x2="31" y2="31" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(17.0 17.0) rotate(0)">
+<path d="M -8.5 -7.48 L 0 -12.58 L 8.5 -7.48" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</g>
+<g transform="translate(273 381) rotate(0)">
+<rect x="0" y="0" width="34" height="34" fill="#5c8798" stroke="#30291f" stroke-width="1.3"/>
+<line x1="3" y1="31" x2="31" y2="31" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(17.0 17.0) rotate(0)">
+<path d="M -8.5 -7.48 L 0 -12.58 L 8.5 -7.48" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</g>
+<g transform="translate(353 381) rotate(0)">
+<rect x="0" y="0" width="34" height="34" fill="#5c8798" stroke="#30291f" stroke-width="1.3"/>
+<line x1="3" y1="31" x2="31" y2="31" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(17.0 17.0) rotate(0)">
+<path d="M -8.5 -7.48 L 0 -12.58 L 8.5 -7.48" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</g>
+<g transform="translate(433 381) rotate(0)">
+<rect x="0" y="0" width="34" height="34" fill="#5c8798" stroke="#30291f" stroke-width="1.3"/>
+<line x1="3" y1="31" x2="31" y2="31" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(17.0 17.0) rotate(0)">
+<path d="M -8.5 -7.48 L 0 -12.58 L 8.5 -7.48" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</g>
+</svg>
