@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+<title id="title">A breath weapon template</title>
+<desc id="desc">Warhammer Armies Revamped rules diagram. Blue and red bases distinguish the opposing forces; arrowheads show facing. Dashed outlines show previous positions.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#30291f"/></marker></defs>
+<rect x="3" y="3" width="594" height="594" fill="#f5f0e5" stroke="#b5a58a" stroke-width="1.5" rx="8"/>
+<line x1="20" y1="49" x2="580" y2="49" stroke="#b5a58a" stroke-width="1"/>
+<text x="300.0" y="31" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="18" text-anchor="middle" letter-spacing="2">A BREATH WEAPON TEMPLATE</text>
+<g transform="translate(61 235) rotate(0)">
+<rect x="0" y="0" width="172" height="90" fill="#5c8798" stroke="#30291f" stroke-width="1.3"/>
+<line x1="3" y1="87" x2="169" y2="87" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(86.0 45.0) rotate(90)">
+<path d="M -22.5 -19.8 L 0 -33.3 L 22.5 -19.8" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</g>
+<line x1="233" y1="235" x2="424" y2="53" stroke="#b5a58a" stroke-width="2" stroke-dasharray="9 8"/>
+<line x1="233" y1="325" x2="457" y2="573" stroke="#b5a58a" stroke-width="2" stroke-dasharray="9 8"/>
+<g transform="translate(405 335) rotate(0)">
+<rect x="0" y="0" width="32" height="32" fill="#984f56" stroke="#30291f" stroke-width="1.3"/>
+<line x1="3" y1="29" x2="29" y2="29" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(16.0 16.0) rotate(270)">
+<path d="M -8.0 -7.04 L 0 -11.84 L 8.0 -7.04" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<rect x="32" y="0" width="32" height="32" fill="#984f56" stroke="#30291f" stroke-width="1.3"/>
+<line x1="35" y1="29" x2="61" y2="29" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(48.0 16.0) rotate(270)">
+<path d="M -8.0 -7.04 L 0 -11.84 L 8.0 -7.04" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<rect x="64" y="0" width="32" height="32" fill="#984f56" stroke="#30291f" stroke-width="1.3"/>
+<line x1="67" y1="29" x2="93" y2="29" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(80.0 16.0) rotate(270)">
+<path d="M -8.0 -7.04 L 0 -11.84 L 8.0 -7.04" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<rect x="96" y="0" width="32" height="32" fill="#984f56" stroke="#30291f" stroke-width="1.3"/>
+<line x1="99" y1="29" x2="125" y2="29" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(112.0 16.0) rotate(270)">
+<path d="M -8.0 -7.04 L 0 -11.84 L 8.0 -7.04" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<rect x="0" y="32" width="32" height="32" fill="#984f56" stroke="#30291f" stroke-width="1.3"/>
+<line x1="3" y1="61" x2="29" y2="61" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(16.0 48.0) rotate(270)">
+<path d="M -8.0 -7.04 L 0 -11.84 L 8.0 -7.04" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<rect x="32" y="32" width="32" height="32" fill="#984f56" stroke="#30291f" stroke-width="1.3"/>
+<line x1="35" y1="61" x2="61" y2="61" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(48.0 48.0) rotate(270)">
+<path d="M -8.0 -7.04 L 0 -11.84 L 8.0 -7.04" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<rect x="64" y="32" width="32" height="32" fill="#984f56" stroke="#30291f" stroke-width="1.3"/>
+<line x1="67" y1="61" x2="93" y2="61" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(80.0 48.0) rotate(270)">
+<path d="M -8.0 -7.04 L 0 -11.84 L 8.0 -7.04" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<rect x="96" y="32" width="32" height="32" fill="#984f56" stroke="#30291f" stroke-width="1.3"/>
+<line x1="99" y1="61" x2="125" y2="61" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(112.0 48.0) rotate(270)">
+<path d="M -8.0 -7.04 L 0 -11.84 L 8.0 -7.04" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<rect x="0" y="64" width="32" height="32" fill="#984f56" stroke="#30291f" stroke-width="1.3"/>
+<line x1="3" y1="93" x2="29" y2="93" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(16.0 80.0) rotate(270)">
+<path d="M -8.0 -7.04 L 0 -11.84 L 8.0 -7.04" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<rect x="32" y="64" width="32" height="32" fill="#984f56" stroke="#30291f" stroke-width="1.3"/>
+<line x1="35" y1="93" x2="61" y2="93" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(48.0 80.0) rotate(270)">
+<path d="M -8.0 -7.04 L 0 -11.84 L 8.0 -7.04" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<rect x="64" y="64" width="32" height="32" fill="#984f56" stroke="#30291f" stroke-width="1.3"/>
+<line x1="67" y1="93" x2="93" y2="93" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(80.0 80.0) rotate(270)">
+<path d="M -8.0 -7.04 L 0 -11.84 L 8.0 -7.04" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<rect x="96" y="64" width="32" height="32" fill="#984f56" stroke="#30291f" stroke-width="1.3"/>
+<line x1="99" y1="93" x2="125" y2="93" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(112.0 80.0) rotate(270)">
+<path d="M -8.0 -7.04 L 0 -11.84 L 8.0 -7.04" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<rect x="0" y="96" width="32" height="32" fill="#984f56" stroke="#30291f" stroke-width="1.3"/>
+<line x1="3" y1="125" x2="29" y2="125" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(16.0 112.0) rotate(270)">
+<path d="M -8.0 -7.04 L 0 -11.84 L 8.0 -7.04" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<rect x="32" y="96" width="32" height="32" fill="#984f56" stroke="#30291f" stroke-width="1.3"/>
+<line x1="35" y1="125" x2="61" y2="125" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(48.0 112.0) rotate(270)">
+<path d="M -8.0 -7.04 L 0 -11.84 L 8.0 -7.04" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<rect x="64" y="96" width="32" height="32" fill="#984f56" stroke="#30291f" stroke-width="1.3"/>
+<line x1="67" y1="125" x2="93" y2="125" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(80.0 112.0) rotate(270)">
+<path d="M -8.0 -7.04 L 0 -11.84 L 8.0 -7.04" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<rect x="96" y="96" width="32" height="32" fill="#984f56" stroke="#30291f" stroke-width="1.3"/>
+<line x1="99" y1="125" x2="125" y2="125" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(112.0 112.0) rotate(270)">
+<path d="M -8.0 -7.04 L 0 -11.84 L 8.0 -7.04" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<rect x="0" y="128" width="32" height="32" fill="#984f56" stroke="#30291f" stroke-width="1.3"/>
+<line x1="3" y1="157" x2="29" y2="157" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(16.0 144.0) rotate(270)">
+<path d="M -8.0 -7.04 L 0 -11.84 L 8.0 -7.04" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<rect x="32" y="128" width="32" height="32" fill="#984f56" stroke="#30291f" stroke-width="1.3"/>
+<line x1="35" y1="157" x2="61" y2="157" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(48.0 144.0) rotate(270)">
+<path d="M -8.0 -7.04 L 0 -11.84 L 8.0 -7.04" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<rect x="64" y="128" width="32" height="32" fill="#984f56" stroke="#30291f" stroke-width="1.3"/>
+<line x1="67" y1="157" x2="93" y2="157" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(80.0 144.0) rotate(270)">
+<path d="M -8.0 -7.04 L 0 -11.84 L 8.0 -7.04" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<rect x="96" y="128" width="32" height="32" fill="#984f56" stroke="#30291f" stroke-width="1.3"/>
+<line x1="99" y1="157" x2="125" y2="157" stroke="#fffdf6" stroke-width="0.65"/>
+<g transform="translate(112.0 144.0) rotate(270)">
+<path d="M -8.0 -7.04 L 0 -11.84 L 8.0 -7.04" fill="none" stroke="#fffdf6" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+</g>
+<path d="M 233 280 L 473 334 C 499 335 499 419 466 430 C 444 430 410 430 405 414 Z" fill="#fffdf6" stroke="#30291f" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="410.5" y1="340.5" x2="431.5" y2="361.5" stroke="#30291f" stroke-width="3"/>
+<line x1="431.5" y1="340.5" x2="410.5" y2="361.5" stroke="#30291f" stroke-width="3"/>
+<line x1="442.5" y1="340.5" x2="463.5" y2="361.5" stroke="#30291f" stroke-width="3"/>
+<line x1="463.5" y1="340.5" x2="442.5" y2="361.5" stroke="#30291f" stroke-width="3"/>
+<line x1="474.5" y1="340.5" x2="495.5" y2="361.5" stroke="#30291f" stroke-width="3"/>
+<line x1="495.5" y1="340.5" x2="474.5" y2="361.5" stroke="#30291f" stroke-width="3"/>
+<line x1="410.5" y1="372.5" x2="431.5" y2="393.5" stroke="#30291f" stroke-width="3"/>
+<line x1="431.5" y1="372.5" x2="410.5" y2="393.5" stroke="#30291f" stroke-width="3"/>
+<line x1="442.5" y1="372.5" x2="463.5" y2="393.5" stroke="#30291f" stroke-width="3"/>
+<line x1="463.5" y1="372.5" x2="442.5" y2="393.5" stroke="#30291f" stroke-width="3"/>
+<line x1="474.5" y1="372.5" x2="495.5" y2="393.5" stroke="#30291f" stroke-width="3"/>
+<line x1="495.5" y1="372.5" x2="474.5" y2="393.5" stroke="#30291f" stroke-width="3"/>
+<line x1="410.5" y1="404.5" x2="431.5" y2="425.5" stroke="#30291f" stroke-width="3"/>
+<line x1="431.5" y1="404.5" x2="410.5" y2="425.5" stroke="#30291f" stroke-width="3"/>
+<line x1="442.5" y1="404.5" x2="463.5" y2="425.5" stroke="#30291f" stroke-width="3"/>
+<line x1="463.5" y1="404.5" x2="442.5" y2="425.5" stroke="#30291f" stroke-width="3"/>
+<line x1="474.5" y1="404.5" x2="495.5" y2="425.5" stroke="#30291f" stroke-width="3"/>
+<line x1="495.5" y1="404.5" x2="474.5" y2="425.5" stroke="#30291f" stroke-width="3"/>
+</svg>
