@@ -810,7 +810,7 @@ A higher-level Wizard will know more spells than a lower-level Wizard. Similarly
 
 #namecost("SPELLS", "")
 
-*Each Wizard may choose a number of spells equal to their level.*
+*Each Wizard may choose a number of spells equal to their level plus 1 (in addition to any Signature Spells).*
 
 When you chose your army, you must also select which Lore of Magic each of your Wizards is going to use. What lores are available to each Wizard is specified in their Army Book. It could either be one the eight Winds of Magic at the end of this book (known as the Lore of Fire, Metal, Life, Beasts, Heavens, Light, Shadow and Death), or a unique lore available only to the army in question.
 
@@ -819,6 +819,8 @@ Before you start deployment, you need to determine which spells any Wizards in y
 The spells a Wizard knows are determined by their Wizard Level and consulting the Lore of Magic in question. This is done openly before you start deployment, so both you and your opponent will be aware of the spells each Wizard has chosen. If your army includes more than one Wizard, you can choose the order in which you choose their spells.
 
 Regardless of the Lore of Magic your Wizard has chosen to use, you will notice that the spells are numbered between Level 1 and Level 4, with Level 1 generally being easier to cast, and Level 4 being more powerful and more difficult to cast. Wizards may only choose spells of their own Level or lower.
+
+Note: In older books, the spells are ranked 1\-6. In this case, the Wizard may choose spells equal to their Wizard level plus 2.
 
 Ordinarily, each spell can only be chosen once in the same army. If you have more than one Wizard using the same Lore, you must choose different spells for them. The only exceptions are:
 
@@ -832,7 +834,7 @@ Ordinarily, each spell can only be chosen once in the same army. If you have mor
 
 Most Lores of Magic have Signature spells. Regardless of a Wizard's Level, they always know the Signature spell of a lore in addition to any other spells they have chosen – even if another Wizard in the same army already knows the Signature spell.
 
-Note that a Wizard may only have one Signature spell. If a Wizard can take spells from multiple lores, you must choose which lore you pick that Signature Spells from.
+If a Wizard can take spells from multiple lores, they may at most have two different Signature Spells in total. You may choose which lore you pick those Signature Spells from as normal.
 
 Note that Wizards that do not get to choose their spells, either due to knowing only a few specific spells or having them as Bound Spells, do not get the Signature spell from the Lore(s) they are using.
 
@@ -840,19 +842,19 @@ Note that Wizards that do not get to choose their spells, either due to knowing 
 
 Most Lores of Magic have something called a 'lore attribute'. This is essentially a grouping of one or more special rules that are applied to certain spells for that lore. A Lore Attribute might give certain spells an extra effect against a particular troop type, or alter the way a spell behaves. Regardless of the detail, a Lore Attribute only has an effect on spells from its own lore.
 
+#namecost("AREA OF EFFECT SPELLS", "")
+
+Some spells affect all units within a certain range of the Wizard. Note that such spells only affect the units as long as they remain within that range of the Wizard.
+
 #namecost("LOSING WIZARD LEVELS", "")
 
-If a Wizard loses one or more Wizard levels, they instantly forget a single spell for each Wizard level lost, starting with their highest-level spells. If they know multiple spells of the same spell level, randomly choose which spell is lost unless specified. A model can lose Wizard levels granted by a magic item. If a Wizard has had their level reduced to 0 they no longer counts as a Wizard and cannot attempt to channel Power and Dispel dice. They can no longer cast any spells or use Arcane Items, except for any Bound spells they might still have.
+If a Wizard loses one or more Wizard levels, they instantly forget a single spell for each Wizard level lost, starting with their highest-level spells. If they know multiple spells of the same spell level, randomly choose which spell is lost unless specified. A model can lose Wizard levels granted by a magic item. Bound Spells cannot be forgotten if a Wizard loses a Wizard level. If a model has loses a Wizard level and has a selection of "normal" and bound spells, do not include the bound spells when randomising which are forgotten. If a Wizard has had their level reduced to 0 they no longer counts as a Wizard and cannot attempt to channel Power and Dispel dice. They can no longer cast any spells, except for any Bound spells they might still have.
 
 == SPELL TYPES
 
 Some spells have a type that enforces additional casting restrictions, or waives others. There are seven distinct types of spells: augment, conveyance, direct damage, hex, magical vortex, magic missile and summoning. Some unique spells do not have a type – their text will contain any casting restrictions that apply.
 
-Most spells target a single unit. However, there are two exceptions – aura and area spells.
-
-*Aura* spells affect all units within a radius equal to the spell’s range, measured from the Wizard. If a unit is no longer within range, it immediately loses the effect. Aura spells always affect units engaged in combat, regardless of spell type.
-
-*Area* spells target a point on the battlefield within the spell’s range. Most area spells use one of the templates described earlier in the book. For round templates, the centre must be placed within the spell’s range. After placement, the small round template scatters D3", while the large round template scatters D6". For the line and flame template, the spell itself describes how they are placed.
+Note that all damage from spells counts as non-physical Magical Attacks (as described in the Special Rules section).
 
 #namecost("AUGMENT SPELLS", "")
 
@@ -883,12 +885,12 @@ A unit cannot be affected by the same conveyance spell more than once per turn. 
 The following applies to *direct damage* spells:
 
 - The target must be an enemy unit.
-- The target does not have to be within the Wizard's forward arc (unless specified).
+- The target must lie within the Wizard's forward arc (unless specified).
 - The Wizard does not need line of sight to their target.
 - The target must be within the spell's range.
-- Wizards cannot target spells at units engaged in close combat (unless specified).
+- Wizards cannot target spells at units engaged in close combat.
 
-Sometimes a direct damage spell will use a template to determine which models are hit. When this happens, the template cannot be initially placed in such a way that it touches friendly units or enemy units that are in close combat. Ranged direct damage spells that use a template have to target an enemy unit by placing the template over the target enemy unit. When targeting a unit with a small or large round template, the hole in the centre must be placed over an enemy model.
+Sometimes a direct damage spell will use a template to determine which models are hit. When this happens, the template cannot be placed in such a way that it touches friendly units or enemy units that are in close combat – this is not to say that the template won't scatter onto friends later, depending on the spell. Ranged direct damage spells that use a template have to target an enemy unit by placing the template over the target enemy unit. When targeting a unit with a small or large round template, the hole in the centre must be placed over an enemy model, but only the hole of the template must be within range.
 
 #namecost("HEX SPELLS", "")
 
@@ -900,6 +902,8 @@ The following applies to *hexes*:
 - The target must be within the spell's range.
 - Wizards can target spells at units engaged in close combat.
 
+Note that bonuses and penalties from hex, augment and other spells are cumulative, but normally cannot take any characteristics above 10 or below 1 unless specified.
+
 #namecost("MAGICAL VORTEXES", "")
 
 The following applies to *magical vortexes*:
@@ -909,9 +913,9 @@ The following applies to *magical vortexes*:
 - They may not be used in such a way that they affect any friendly models or models engaged in close combat when initially placed.
 - Models cannot choose to voluntarily move into/through a magical vortex.
 
-A magical vortex uses one of the round templates, which is placed in base contact with the caster and with its centre within the caster's front arc. The player then nominates the direction the magical vortex will move. When initially cast, it moves 12+D6".
+A magical vortex uses one of the round templates, which is placed in base contact with the caster and with its centre within the caster's front arc. The player then nominates the direction the magical vortex will move. When initially cast, it moves 12+D6". In subsequent turns, the magical vortex travels in a random direction and moves 2D6". If a double is rolled, the magical vortex is removed after completing its movement and resolving any damage.
 
-Unlike most other spells and other gaming effects that use templates in Warhammer, magical vortexes remain on the battlefield (unless they move off it). At the end of every subsequent Magic phase, each magical vortex travels in a random direction and moves 2D6". If a double is rolled, the magical vortex is removed after completing its movement and resolving any damage.
+Unlike most other spells and other gaming effects that use templates in Warhammer, magical vortexes remain on the battlefield (unless they move off it). At the end of every subsequent Magic phase, each magical vortex moves in the direction and distance stated in the spell.
 
 If a magical vortex ever ends its move over a unit, place it 1" beyond the unit in the direction it was moving. If this is also over a unit it should be placed 1" beyond that unit, repeating the process until it is no longer touching any models. When this happens, models between where the magical vortex ended its move and where the template is placed are not affected by the spell.
 
@@ -933,6 +937,7 @@ The following applies to *magic missiles*:
 
 The following applies to *summoning* spells:
 
+- They do not have a target.
 - They do not have to be within the Wizard's forward arc.
 - The Wizard does not need line of sight.
 - Summoning spells always target a point on the battlefield unless specified.
@@ -946,11 +951,11 @@ Summoned terrain features can be placed within 1" of or on top of other units, s
 
 #namecost("Summoning Units", "")
 
-When placing a summoned unit, it must be wholly at least 1" away from other units. It can be placed facing any direction and in any legal formation. Unless specified, this unit does not have any upgrades or command models, and the unit does not count as having moved this turn. Summoned units do not award victory points under any circumstances.
+When placing a summoned unit, it must be wholly at least 1" away from impassable terrain and other units. It can be placed facing any direction and in any legal formation. Unless specified, this unit does not have any upgrades or command models, and the unit does not count as having moved this turn. Summoned units do not award victory points under any circumstances.
 
 #namecost("Summoning Models", "")
 
-Some spells can summon models into already existing units. This is done in a strict order. First, any slain command groups models are resurrected in an order of your choosing, displacing rank-and-file models as required. Then rank-and-file models with multiple Wounds are healed to their starting value. Lastly, rank and file models are summoned. The unit formation must be legal after all models are added. If any models cannot be added for any reason, those models are wasted. Any models that are summoned into an existing unit retain any equipment, rules and/or bonuses as the rest of the unit.
+Some augment spells can summon models into already existing units. This is done in a strict order. First, any slain command groups models are resurrected in an order of your choosing, displacing rank-and-file models as required. Then rank-and-file models with multiple Wounds are healed to their starting value. Lastly, rank and file models are summoned. The unit formation must be legal after all models are added. If any models cannot be added for any reason, those models are wasted. Any models that are summoned into an existing unit retain any equipment, rules and/or bonuses as the rest of the unit.
 
 == THE MAGIC PHASE SEQUENCE
 
@@ -1004,7 +1009,7 @@ To cast a spell, a Wizard nominates one of their spells to cast, and declares th
 
 === CHOOSE NUMBER OF POWER DICE
 
-Once the Wizard, spell and target have been chosen, the player then declares how many power dice from their pool the Wizard will use in their attempt to cast the spell. At least one dice must be taken from the power pool. The number of dice each Wizard can use to cast each spell is equal to their Wizard Level plus 2. So, a Level 3 Wizard could use a maximum of 5 dice on each spell.
+Once the Wizard, spell and target have been chosen, the player then declares how many power dice from their pool the Wizard will use in their attempt to cast the spell. At least one dice must be taken from the power pool. The number of dice each Wizard can use to cast each spell is equal to their Wizard Level plus 1. So, a Level 3 Wizard could use a maximum of 4 dice on each spell.
 
 === CASTING VALUE
 
@@ -1025,6 +1030,12 @@ When casting a spell, there are many sources of casting bonuses that add to the 
 The most common casting bonus is given by the Wizard itself, and is equal to the Wizard's level divided by half. So a Level 1 and 2 Wizard gains a +1 bonus, whereas a Level 3 and 4 Wizard gains a +2 bonus.
 
 Other casting bonuses can come from magic items, special rules, units or terrain. Note that for whatever reason, no casting attempt may have more than a +5 casting bonus in total.
+
+=== OVERCAST SPELLS
+
+Some spells allow the Wizard the option to extending the effective range, amount of damage caused or area of effect. Where this is an option, it is clearly stated in the spell's effect, as is the extra casting cost required to achieve the additional effect.
+
+If a player wishes to cast the overcast version of a spell, this needs to be stated before rolling the dice. Otherwise, a Wizard is assumed to be casting the standard version of the spell.
 
 === BROKEN CONCENTRATION
 
@@ -1071,11 +1082,15 @@ model underneath the template suffers a
 Strength 10 hit (including the Wizard – they
 do not benefit from Look Out, Sir! in this
 case)."), ("10", "Daemonic Possession: The caster suffers one
-Strength 10 hit and loses a Wizard level."), ("11", "Dimensional Cascade: Centre the large
+Strength 10 hit and loses a Wizard level and
+their highest level spell. If the caster reaches
+Level 0, he stops counting as a Wizard for all
+purposes and therefore will not be able to use
+any arcane magic items he is carrying (see the
+Magic Items section)."), ("11", "Dimensional Cascade: Centre the large
 round template over the Wizard – every
 model underneath the template (including the
-Wizard – they do not benefit from Look Out,
-Sir! in this case) suffers a Strength 10 hit."), ("12+", "Damned by Chaos: The Wizard is
+Wizard) suffers a Strength 10 hit."), ("12+", "Damned by Chaos: The Wizard is
 annihilated and immediately removed as a
 casualty, regardless of any protective magic
 item or special rule they might have.")))
@@ -1084,7 +1099,7 @@ item or special rule they might have.")))
 
 *If the Wizard was able to cast their spell the opposing player now has a chance to prevent the spell's effects by attempting to dispel it.*
 
-In order to attempt a dispel, the dispelling player first nominates one of their Wizards to make the dispel attempt. Unlike spells, dispels never require the Wizard to see either the target or the caster. For a Wizard to be able to dispel an enemy spell, they need to be within 24" of the model casting it. Wizards cannot try to dispel spells if they are fleeing.
+In order to attempt a dispel, the dispelling player first nominates one of their Wizards to make the dispel attempt. Unlike spells, dispels never require the Wizard to see either the target or the caster – you can simply nominate any friendly Wizard on the battlefield. Wizards cannot try to dispel spells if they are fleeing or not on the battlefield.
 
 If the dispelling player does not have an eligible Wizard to attempt a dispel their army can attempt to dispel the spell instead.
 
@@ -1094,7 +1109,7 @@ When dispelling, a Wizard can use any number of dispel dice. Once the Wizard has
 
 === DISPEL VALUE
 
-*The dispelling player can attempt to dispel each enemy spell once during each Magic phase, provided they have enough power.*
+*For a dispel to succeed, the total of the dice rolled, must equal or beat the spell's casting result.*
 
 The number of dice chosen are taken from the player's dispel pool and rolled. The results are added together, to give a dispel result, exactly as if he were casting a spell.
 
@@ -1136,14 +1151,14 @@ Most spells are cast instantly and their effect is worked out at once. In this c
 
 Spells marked 'remains in play' stay in effect indefinitely when cast. They only come to an end when the target is slain, or else the caster is slain (or loses the spell for any reason), chooses to end the spell (which they can do at the start of any Magic phase) or leaves the battlefield. The Wizard can continue to cast other spells, but not the same remains in play spell in subsequent turns.
 
-If they are not dispelled immediately when they are cast, remains in play spells can be dispelled at any time during any subsequent Magic phase, using dispel dice as normal, or dice from the power pool as if they were dispel dice if it is your turn. Wizards need to be within 24" of the spell or its target in order to be able to dispel a remains in play spell in this manner.
+If they are not dispelled immediately when they are cast, remains in play spells can be dispelled right before the end of any subsequent Magic phase, using dispel dice as normal, or dice from the power pool as if they were dispel dice if it is your turn. You may nominate any friendly Wizard to attempt to dispel this, regardless of range.
 
-A Wizard does not need to beat the original casting dice roll if attempting a dispel in subsequent turns, but rather the minimum casting value listed in the spell's description.
+A Wizard does not need to beat the original casting dice roll if attempting a dispel in subsequent turns, but rather the minimum casting value listed in the spell's description. If you are dispelling a boosted remains in play spell, you will need to beat the basic casting value of the spell (not the boosted casting value).
 
 #namecost("SPELLS LASTING MORE THAN ONE", "")
 #namecost("TURN", "")
 
-Some spells do not specifically remain in play, but have effects that last one or more turns. Once in play, such spells cannot be dispelled, and remain in effect even if the caster forgets the spell, is slain or leaves the battlefield, unless the spell description specifies otherwise.
+Some spells do not specifically remain in play, but have effects that last one or more turns. Once in play, such spells cannot be dispelled, and remain in effect even if the caster is slain or leaves the battlefield, unless the spell description specifies otherwise.
 
 === DUPLICATE SPELLS
 
@@ -1155,15 +1170,15 @@ You may come upon a situation where the same spell is known by more than one Wiz
 
 Wizards can cast spells in any order, and a player is free to switch between Wizards at any time provided that they do not do so until the casting of the current spell has been resolved.
 
-Remember that, unless specified otherwise, each Wizard can only attempt to cast each spell only once per turn. When the casting player has finished all their casting and dispelling attempts, either because they have run out of power dice or have no remaining or useful spells to cast the Magic phase ends, and the Shooting phase begins.
+Remember that, unless specified otherwise, each Wizard can only attempt to cast each spell only once per turn. When the casting player has finished all their casting and dispelling attempts, either because they have run out of power dice or have no remaining or useful spells to cast (or if all their Wizards have had their concentration broken by failing to cast a spell) the Magic phase ends, and the Shooting phase begins.
 
 == BOUND SPELLS
 
-Some magic items and units have the ability to use a form of magic called a 'Bound Spell'. Bound spells can be used even if the bearer has broken their concentration or is not a Wizard at all. Possessing a Bound Spell does not make a model a Wizard – it just have an item that can cast a spell.
+Some magic items and certain models have the ability to use a form of magic called a 'Bound Spell'. Bound spells can be used even if the bearer has broken their concentration or is not a Wizard at all. Possessing a Bound Spell does not make a character a Wizard – they just have an item that can cast a spell.
 
-A Bound Spell is cast just like an ordinary spell – using dice from the power pool (the model may do so even if it is not a Wizard).
+A Bound Spell is cast just like an ordinary spell – using dice from the power pool (the model may do so even if it is not a Wizard). The required casting value is equal to the Bound Spell's power level.
 
-Whenever you attempt to cast a Bound Spell from a Magic Item, you may add one free Power dice to the casting roll. Bound Spells may use a number of power dice equal to the spell's level plus 1 (Signature spells may use two dice). Bound Spells that are not already tied to a spell from a Lore of Magic have their spell level and casting value listed in the description.
+Whenever you attempt to cast a Bound Spell from a Magic Item (but not 'innate' Bound Spells), you may add one free Power dice to the casting roll. Note that you must always use at least one dice from the power pool when casting Bound Spells. You may use a maximum of two dice when casting Bound Spells from items (including the free dice mentioned above), and three dice when casting innate Bound Spells. Bound Spells are often tied into a spell from a magic lore. Where this is the case and there is a choice of casting levels, the Bound Spell is always the easier 'unboosted' version with the lower casting level.
 
 Bound spells do not benefit from any casting bonuses or penalties the model might have.
 
@@ -1171,7 +1186,11 @@ If a Bound Spell is from a Lore of Magic with a Lore Attribute, the successful c
 
 Failing to cast a Bound Spell does not break a Wizard's concentration.
 
-If a Miscast is rolled while casting a Bound Spell, the item cannot be used again during the game. Do not roll on the Miscast table.
+What happens when a Bound Spell is miscast depends on the nature of the Bound Spell.
+
+- If the Bound Spell is contained within a magic item of some kind, the item crumbles to dust and cannot be used again during the game. Do not roll on the Miscast table.
+
+- If the Bound Spell is an 'innate' ability, then the model simply cannot cast further Bound Spells during this phase. Do not roll on the Miscast table.
 
 Bound Spells are dispelled exactly as other spells – the dispelling Wizard must equal or beat the casting result for a successful dispel.
 
