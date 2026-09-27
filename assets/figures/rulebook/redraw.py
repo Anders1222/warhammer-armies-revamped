@@ -166,10 +166,10 @@ class Diagram:
             self.rect(-12,-52,24,6,INK,INK,1)
         self.end()
 
-    def save(self):
+    def save(self, directory=ROOT):
         self.parts.append('</svg>')
         name = f'img-{self.number:04}.svg'
-        (ROOT/name).write_text('\n'.join(self.parts)+'\n', encoding='utf-8')
+        (directory/name).write_text('\n'.join(self.parts)+'\n', encoding='utf-8')
         MANIFEST.append(dict(file=name,title=self.title,width=self.w,height=self.h))
 
 
