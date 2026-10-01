@@ -1,8 +1,13 @@
-"""Export the corpus as one JSON file for the army builder.
+"""Export the corpus as the army builder's per-army files.
 
-The army builder (Warhammer_Calculator_Edition) reads static JSON. This writes
-the whole edition into one file - the rulebook and every army book - so the
-builder loads one URL for the system and indexes the factions from it.
+The army builder (Warhammer_Calculator_Edition) reads static JSON, a game
+system as a folder: `manifest.json`, `composition.json`,
+`common-magic-items.json`, and per army `factions/{key}.json` and
+`factions/{key}-extras.json`. This builds the whole edition - the rulebook
+and every army book - as one formatVersion 2 bundle in memory, which the gate
+checks against the source, and writes the folder mapped from it
+(exporter/builder.py, docs/faction-files.md). The bundle itself is written
+only on request, with `--bundle`.
 
 Nothing here parses Typst source. Every record in a book - a unit, a magic
 item, an upgrade, a spell, a run-in head in a prose chapter - drops a
@@ -14,7 +19,8 @@ have no record form - an army's special rules, and the rulebook's prose - are
 exported from the chapter body the column code drops, cut at the heads the
 way `balanced-columns(whole: true)` cuts it.
 
-Shape, top down (docs/format.md has the full description and worked examples):
+The bundle's shape, top down (docs/format.md has the full description and
+worked examples):
 
   formatVersion             2
   system, version, source   the edition, the rulebook's version, the commit
@@ -55,17 +61,21 @@ the lines under NOTES). Anything else written as markup arrives as text,
 paragraphs on their own lines, a table one row per line with cells divided
 by " | ".
 
-    python export.py                       # build/war.json
-    python export.py --out path.json
+    python export.py                       # build/war/, the builder's folder
+    python export.py --out DIR             # into DIR, overwriting only its own files
+    python export.py --bundle path.json    # and the formatVersion 2 bundle
     python export.py --check               # export, then verify against src/ and out/
 
 `--check` is the gate: every unit, item, spell, upgrade and rule head the
-source declares is in the file, every string field is byte-identical to the
+source declares is in the bundle, every string field is byte-identical to the
 source, every printed option line is in `optionGroups` exactly once and is
 in the source, every word of exported text is a word on the rendered page,
-and the file conforms to schema/war.schema.json. It then prints the build
-report: groups and choices per faction, what stayed unclassified, unit
-sizes that did not parse, ids that needed a suffix.
+and the bundle conforms to schema/war.schema.json. Then the builder's files:
+each conforms to schema/builder.schema.json, every record and option line
+of the bundle is in them, and they pass the builder's own data tests. It
+then prints the build report: groups and choices per faction, what stayed
+unclassified, unit sizes that did not parse, ids that needed a suffix, and
+per army what the builder gets.
 """
 
 from __future__ import annotations
@@ -76,10 +86,11 @@ import os
 import re
 import subprocess
 import sys
-from collections import Counter
+from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
+from exporter import builder
 from exporter import schema as war_schema
 from exporter.composition import rulebook_composition, unit_constraints
 from exporter.ids import Ids, slug
@@ -93,6 +104,7 @@ ROOT = Path(__file__).parent
 TYPST = os.environ.get("TYPST", "typst")
 FORMAT_VERSION = 2
 SCHEMA = ROOT / "schema" / "war.schema.json"
+BUILDER_SCHEMA = ROOT / "schema" / "builder.schema.json"
 
 # Everything the export needs from a book, in document order: the headings,
 # so a record knows the chapter it is in, and every record's metadata.
@@ -951,8 +963,9 @@ TEXT_PARTS = ("rules", "items", "upgrades", "lores", "prose", "units",
               "weapons", "chapters")
 
 
-def check(data: dict, raw: dict[str, dict], report: dict) -> int:
-    """Verify the export against the source and the render. Returns failures."""
+def check(data: dict, raw: dict[str, dict], report: dict, files: dict[str, object]) -> int:
+    """Verify the export against the source and the render, and the builder's
+    files against the export. Returns failures."""
     failures = 0
 
     def fail(msg: str) -> None:
@@ -1108,9 +1121,200 @@ def check(data: dict, raw: dict[str, dict], report: dict) -> int:
         print(f"note: {sum(unresolved.values())} special-rule citations name no defined rule "
               f"({len(unresolved)} distinct); most common: "
               + ", ".join(f"{n} ({c})" for n, c in unresolved.most_common(8)))
+    layout_report = check_layout(data, files, fail)
     print_report(report)
+    print_layout_report(layout_report, len(files))
     print("check: " + ("ok" if failures == 0 else f"{failures} failures"))
     return failures
+
+
+# --- the gate: the builder's files ----------------------------------------------
+
+# The builder's test: a line that prices magic items must be read as an allowance.
+MAGIC_ITEMS_LINE = re.compile(r"Magic Items.*?\d+\s*points", re.I)
+
+LAYOUT_KINDS = {"manifest.json": "manifest", "composition.json": "composition",
+                "common-magic-items.json": "commonMagicItems"}
+
+
+def layout_kind(rel: str) -> str:
+    """The schema entry a file of the layout answers to."""
+    return LAYOUT_KINDS.get(rel) or ("extras" if rel.endswith("-extras.json") else "faction")
+
+
+def all_options(opts) -> list[dict]:
+    """Every option of a list, sub-options included, in order."""
+    return [x for o in opts or [] for x in [o] + all_options(o.get("subOptions"))]
+
+
+def all_groups(groups: list[dict]) -> list[dict]:
+    """Every formatVersion 2 group of a unit, nested ones included."""
+    return [x for g in groups
+            for x in [g] + [n for c in g["choices"] for n in all_groups(c.get("options", []))]]
+
+
+def allowance(unit: dict) -> int | None:
+    """A unit's magic-item budget as the builder resolves it, or None if it has none."""
+    mi = [o for o in unit["options"] or [] if o["type"] == "magic_items"]
+    if not mi:
+        return None
+    name = unit["name"].strip().casefold()
+    hit = (next((o for o in mi if (o["appliesTo"] or "").strip().casefold() == name), None)
+           or next((o for o in mi if o["appliesTo"] is None), None))
+    if hit is not None:
+        return hit["pointsLimit"] or 0
+    return min((o["pointsLimit"] for o in mi if o["pointsLimit"] is not None), default=0)
+
+
+def check_layout(data: dict, files: dict[str, object], fail) -> dict:
+    """Verify the builder's files against the bundle they were mapped from.
+
+    Returns what the build report says of them.
+    """
+    rep: dict = {"factions": {}, "sourceDuplicates": [], "remapped": []}
+
+    # 5. Every file conforms to its entry in the builder schema.
+    if BUILDER_SCHEMA.exists():
+        schema = war_schema.load(BUILDER_SCHEMA)
+        for rel, value in files.items():
+            ref = {**schema, "$ref": f"#/$defs/{layout_kind(rel)}"}
+            for e in war_schema.validate(value, ref):
+                fail(f"{rel}: schema: {e}")
+    else:
+        fail(f"schema: {BUILDER_SCHEMA.relative_to(ROOT)} is missing")
+
+    # 6. The system files: the manifest lists exactly the armies written.
+    manifest = files["manifest.json"]
+    units_files = {rel[len("factions/"):-len(".json")] for rel in files
+                   if rel.startswith("factions/") and not rel.endswith("-extras.json")}
+    if manifest["system"] != "war":
+        fail(f"manifest.json: system is {manifest['system']!r}, not 'war'")
+    if set(manifest["factions"]) != units_files:
+        fail(f"manifest.json: factions differ from the files written: "
+             f"{sorted(set(manifest['factions']) ^ units_files)!r}")
+    for key in units_files:
+        if f"factions/{key}-extras.json" not in files:
+            fail(f"factions/{key}-extras.json is not written")
+    if len(files["common-magic-items.json"]) != len(data["rulebook"]["items"]):
+        fail(f"common-magic-items.json: {len(files['common-magic-items.json'])} items, "
+             f"the rulebook has {len(data['rulebook']['items'])}")
+
+    for slug_, fac in sorted(data["factions"].items()):
+        key = builder.faction_key(slug_)
+        units = files.get(f"factions/{key}.json", {}).get("units", [])
+        extras = files.get(f"factions/{key}-extras.json", {})
+
+        # 7. Every entry yields its builder units in order: itself, or one per
+        # priced profile.
+        derived: list[tuple[dict, list[dict], bool]] = []
+        pos = 0
+        for unit in fac["units"]:
+            priced = builder.split_profiles(unit)
+            names = [p["name"] for p in priced] if priced else [unit["name"]]
+            got = units[pos:pos + len(names)]
+            pos += len(names)
+            if [u["name"] for u in got] != names:
+                fail(f"{key}: {unit['name']} yields {[u['name'] for u in got]!r}, not {names!r}")
+            derived.append((unit, got, priced is not None))
+        if pos != len(units):
+            fail(f"{key}: {len(units) - pos} builder units come from no entry")
+
+        # ... and every record of the faction is in the extras, by name.
+        for what, want, have in (
+                ("army rules", [r["name"] for r in fac["rules"]],
+                 [r["name"] for r in extras.get("armySpecialRules", [])]),
+                ("items", [i["name"] for i in fac["items"]],
+                 [i["name"] for i in extras.get("magicItems", [])]),
+                ("upgrades", [u["name"] for u in fac["upgrades"]],
+                 [u["name"] for us in extras.get("factionUpgrades", {}).values() for u in us]),
+                ("spells", [s["name"] for lo in fac["lores"] for s in lo["spells"]
+                            if s["level"] != "Lore Attribute"],
+                 [s["name"] for lo in extras.get("loresOfMagic", []) for s in lo["spells"]])):
+            missing = Counter(want) - Counter(have)
+            if missing:
+                fail(f"{key}: {sum(missing.values())} {what} not in the extras, e.g. "
+                     f"{list(missing)[:3]!r}")
+
+        # 8. Every printed option line reaches the builder: a group's line, or
+        # each of its choices' lines, is an option's raw in a unit of its entry.
+        for unit, got, _ in derived:
+            raws = {o["raw"] for u in got for o in all_options(u["options"])}
+            for g in all_groups(unit["optionGroups"]):
+                if g["raw"] not in raws and not all(c["raw"] in raws for c in g["choices"]):
+                    fail(f"{key}: {unit['name']} option line reaches no builder unit: "
+                         f"{g['raw'][:60]!r}")
+
+        families = extras.get("factionUpgrades", {})
+        for u in units:
+            opts = all_options(u["options"])
+            # 9. A faction upgrade names a family the extras define, once per unit.
+            named = Counter(o["factionUpgrade"] for o in opts if o["type"] == "faction_upgrade")
+            for fam, n in named.items():
+                if not families.get(fam):
+                    fail(f"{key}: {u['name']} offers {fam!r}, which the extras do not define")
+                if n > 1:
+                    fail(f"{key}: {u['name']} offers {fam!r} {n} times, which double-charges")
+            # 10. The builder's own data tests.
+            for o in opts:
+                if MAGIC_ITEMS_LINE.search(o["raw"]) and o["type"] not in ("magic_items",
+                                                                         "faction_upgrade"):
+                    fail(f"{key}: {u['name']} prices magic items on a {o['type']} option: "
+                         f"{o['raw'][:60]!r}")
+            budget = allowance(u)
+            if budget is not None and budget <= 0:
+                fail(f"{key}: {u['name']} resolves to no magic-item allowance")
+
+        # 11. A split must not give two units of a faction one name; the
+        # builder keys saved lists by it. A name the source repeats is reported.
+        by_name: dict[str, list[tuple[str, bool]]] = defaultdict(list)
+        for unit, got, split in derived:
+            for u in got:
+                by_name[u["name"].casefold()].append((u["name"], split))
+        for same in by_name.values():
+            if len(same) < 2:
+                continue
+            if any(split for _, split in same):
+                fail(f"{key}: the split gives {len(same)} units the name {same[0][0]!r}")
+            else:
+                rep["sourceDuplicates"].append(f"{key} {same[0][0]}")
+
+        rep["factions"][key] = {
+            "units": len(units), "split": sum(1 for _, _, s in derived if s),
+            "types": Counter(o["type"] for u in units for o in all_options(u["options"]))}
+        rep["remapped"] += [f"{key}/{u['name']}" for u in units
+                            if u["pointsCost"] is None and u["unitSize"] is None
+                            and u["category"] != "Character Mounts"]
+    return rep
+
+
+# The option types, as the report's columns head them.
+TYPE_COLUMNS = (("equipment", "equip"), ("command", "cmd"), ("mount", "mount"),
+                ("magic_items", "items"), ("magic_standard", "banner"),
+                ("battle_standard", "bsb"), ("wizard_upgrade", "wizard"),
+                ("faction_upgrade", "family"), ("upgrade", "upgr"))
+
+
+def print_layout_report(rep: dict, n_files: int) -> None:
+    """The build report's second half: what the builder gets of each army."""
+    print(f"builder: {len(rep['factions'])} factions, {n_files} files")
+    cols = " ".join(f"{label:>6}" for _, label in TYPE_COLUMNS)
+    print(f"  {'faction':<20} {'units':>5} {'split':>5} {cols}")
+    tot: Counter = Counter()
+    for key, r in sorted(rep["factions"].items()):
+        row = " ".join(f"{r['types'][t]:>6}" for t, _ in TYPE_COLUMNS)
+        print(f"  {key:<20} {r['units']:>5} {r['split']:>5} {row}")
+        tot.update({"units": r["units"], "split": r["split"]})
+        tot.update(r["types"])
+    row = " ".join(f"{tot[t]:>6}" for t, _ in TYPE_COLUMNS)
+    print(f"  {'total':<20} {tot['units']:>5} {tot['split']:>5} {row}")
+    dups = rep["sourceDuplicates"]
+    print(f"  unit names the source repeats: {len(dups)}"
+          + (" - " + ", ".join(dups) if dups else ""))
+    remapped = rep["remapped"]
+    print(f"  units the builder files as Character Mounts (no pointsCost, no unitSize): "
+          f"{len(remapped)}" + (" - " + ", ".join(remapped[:12]) if remapped else ""))
+    if len(remapped) > 12:
+        print(f"    .. and {len(remapped) - 12} more")
 
 
 def print_report(report: dict) -> None:
@@ -1145,22 +1349,37 @@ def cited(rules: str) -> list[str]:
     return [re.sub(r"\s*\([^)]*\)", "", p).strip().rstrip(".") for p in parts if p.strip()]
 
 
+def write_json(path: Path, value) -> int:
+    """One JSON file, as every file here is written. Returns its size in bytes."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    text = json.dumps(value, ensure_ascii=False, indent=1)
+    path.write_text(text, encoding="utf-8", newline="\n")
+    return len(text.encode("utf-8"))
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--out", type=Path, default=ROOT / "build" / "war.json")
+    ap.add_argument("--out", type=Path, default=ROOT / "build" / "war",
+                    help="the folder the builder's files are written into; nothing else in it "
+                         "is touched")
+    ap.add_argument("--bundle", type=Path,
+                    help="also write the formatVersion 2 bundle to this file")
     ap.add_argument("--check", action="store_true",
                     help="verify the export against src/ and the renders in out/")
     args = ap.parse_args()
 
     data, raw, report = export()
-    args.out.parent.mkdir(parents=True, exist_ok=True)
-    text = json.dumps(data, ensure_ascii=False, indent=1)
-    args.out.write_text(text, encoding="utf-8", newline="\n")
-    print(f"wrote {args.out} ({len(text.encode('utf-8')) / 1e6:.1f} MB, "
-          f"{len(data['factions'])} factions, formatVersion {data['formatVersion']})")
+    if args.bundle:
+        size = write_json(args.bundle, data)
+        print(f"wrote {args.bundle} ({size / 1e6:.1f} MB, "
+              f"{len(data['factions'])} factions, formatVersion {data['formatVersion']})")
+    files = builder.layout(data)
+    for rel, value in files.items():
+        write_json(args.out / rel, value)
+    print(f"wrote {args.out} ({len(data['factions'])} factions, {len(files)} files)")
     if args.check:
-        sys.exit(1 if check(data, raw, report) else 0)
+        sys.exit(1 if check(data, raw, report, files) else 0)
 
 
 if __name__ == "__main__":

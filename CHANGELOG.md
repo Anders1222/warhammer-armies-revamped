@@ -1,5 +1,45 @@
 # Changelog
 
+## The army builder's per-army files — 2026-10-01
+
+The export writes what the army builder reads: a game system as a folder of
+per-army files, not one bundle. The formatVersion 2 bundle stays what the
+export builds and the gate checks against the source, and every file the
+builder gets is mapped from it. `docs/faction-files.md` describes the
+layout and the mapping.
+
+Added:
+
+- `build/war/`, written by `python export.py` (or into `--out DIR`):
+  `manifest.json`, `composition.json`, `common-magic-items.json`, and
+  `factions/{key}.json` with `factions/{key}-extras.json` for each of the 30
+  armies. The Empire and the Orcs & Goblins take the builder's keys,
+  `the-empire` and `orcs-and-goblins`. The builder's own `core-rules.json`
+  and `troop-types.json` are left alone.
+- `exporter/builder.py`, the mapping: a generic character entry split into
+  one unit per priced profile with the options that apply to it, categories
+  and item categories in the builder's names, option groups as the builder's
+  typed options, at most one option per upgrade family in a unit, lores with
+  their attribute lifted out and integer levels and casting values, costs as
+  the builder's strings.
+- `schema/builder.schema.json`, one entry per kind of file, in the
+  builder's types.
+- Gate checks on the files: each conforms to its schema entry; every unit,
+  item, army rule, upgrade and spell of the bundle is in them; every printed
+  option line reaches an option; every upgrade family a unit names is defined
+  and named once; the builder's own data tests pass (magic-item lines are
+  allowances, every allowance resolves above 0); a split names no two units
+  alike.
+- The build report says, per army, the builder units, the entries split and
+  the options by type, the unit names the source repeats, and the units the
+  builder would file as Character Mounts.
+
+Changed:
+
+- The formatVersion 2 bundle is written only with `--bundle path.json`, and
+  is byte-identical to before. The release copy is
+  `python export.py --check --out ../Warhammer_Calculator_Edition/Warhammer/wwwroot/data/war`.
+
 ## war.json formatVersion 2 — 2026-09-15
 
 The army-builder bundle becomes self-describing, so the list builder needs

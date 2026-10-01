@@ -1,10 +1,14 @@
 # war.json, formatVersion 2
 
-`build/war.json` is the whole edition as one file for the army builder
-([Warhammer_Calculator_Edition](https://github.com/dkma26709/Warhammer_Calculator_Edition)).
-`python export.py` writes it from the Typst sources in `src/`; nothing edits
-it by hand. `python export.py --check` is the gate, and
-`schema/war.schema.json` is the JSON Schema the gate validates it against.
+The bundle is the whole edition as one record: what `python export.py`
+builds from the Typst sources in `src/` and checks against them. It is
+written to a file only on request, `python export.py --bundle path.json`.
+The army builder
+([Warhammer_Calculator_Edition](https://github.com/dkma26709/Warhammer_Calculator_Edition))
+does not read it: it reads the per-army files mapped from it, described in
+`docs/faction-files.md`. Nothing edits either by hand.
+`python export.py --check` is the gate, and `schema/war.schema.json` is the
+JSON Schema the gate validates the bundle against.
 
 formatVersion 2 keeps every formatVersion 1 field with its exact value and
 adds beside it what a list builder could not get from the printed lines:
