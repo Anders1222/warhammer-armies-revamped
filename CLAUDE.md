@@ -35,20 +35,25 @@ typst compile --ignore-system-fonts --root . src/lizardmen.typ out/lizardmen.pdf
 # #book-meta — CI walks render.json and compiles nothing that is not in it.
 python emit.py
 
-# Export the whole edition as one JSON file for the army builder
-# (dkma26709/Warhammer_Calculator_Edition), into build/war.json, formatVersion
-# 2 (docs/format.md). --check is its gate: every record the source declares is
-# in the file, every string field is byte-identical to the source, every
-# option line is in optionGroups exactly once, every line of exported text is
-# on the rendered page in out/ (so build first), and the file conforms to
-# schema/war.schema.json. It then prints the build report. Needs pymupdf.
+# Export the whole edition for the army builder
+# (dkma26709/Warhammer_Calculator_Edition) as the folder it reads a system
+# from, into build/war/: three system files and two per army
+# (docs/faction-files.md), mapped from the formatVersion 2 bundle
+# (docs/format.md), which --bundle path.json also writes. --check is its gate:
+# the bundle holds every record the source declares, string fields
+# byte-identical, every option line in optionGroups once, every line on the
+# rendered page in out/ (so build first), and conforms to
+# schema/war.schema.json; the builder's files hold all of it, conform to
+# schema/builder.schema.json and pass the builder's own data tests. It then
+# prints the build report. Needs pymupdf.
 python export.py --check
 
-# The bundle ships by copy, on a release, not from here: build/ is gitignored
-# and the builder commits its copy so its tests run against the file it ships.
-# The file's `source` field is the commit it came from. One command, so the
-# gate always runs before the file moves:
-python export.py --check --out ../Warhammer_Calculator_Edition/Warhammer/wwwroot/data/war/war.json
+# The files ship by copy, on a release, not from here: build/ is gitignored
+# and the builder commits its copy so its tests run against the files it
+# ships. --out overwrites only the files the export writes; the builder's own
+# core-rules.json and troop-types.json stay. One command, so the gate always
+# runs with the copy:
+python export.py --check --out ../Warhammer_Calculator_Edition/Warhammer/wwwroot/data/war
 
 # Import a new book (one-off, needs the source PDF; see "Never re-import").
 python extract/batch.py "path/to/Rules" "path/to/Warhammer - Lizardmen 3.0.pdf"
@@ -89,8 +94,9 @@ Four things read *out* of that, none write back into it:
 - **`extract/rule_nodes.py` / `item_nodes.py`** parse `src/rulebook.typ` into
   memory-graph nodes for an external consumer. They preserve hand-written
   `## Traps` sections across regeneration — don't clobber those.
-- **`export.py`** runs `typst eval` against every book and writes the edition
-  as one JSON file for the army builder. It parses no Typst: every record
+- **`export.py`** runs `typst eval` against every book, builds the edition
+  as one formatVersion 2 bundle in memory, and writes it for the army
+  builder as the builder's own per-army files. It parses no Typst: every record
   (`unit`, `magic-item`, `upgrade`, `spell`, a `namecost` head) drops a
   `<meta>` metadata element as it renders, and `balanced-columns` and
   `two-columns` drop their body, so the chapters with no record form (an
@@ -102,7 +108,11 @@ Four things read *out* of that, none write back into it:
   classifies each printed option line into a typed `optionGroups` entry by
   wording and vocabulary, `composition.py` reads CHOOSING YOUR ARMY and unit
   NOTES into data, `ids.py` mints the ids, `schema.py` validates against
-  `schema/war.schema.json`. Nothing there parses Typst either.
+  `schema/war.schema.json` and `schema/builder.schema.json`. `builder.py`
+  maps the bundle onto the builder's files: a generic character entry
+  split into one unit per priced profile, option groups into the builder's
+  option types, the builder's types throughout. Nothing there parses Typst
+  either.
 - **Ids are minted, not stored.** `exporter/ids.py` derives every id from
   the source names on each run — the slug of the printed name, then a
   numeric suffix where two names in one parent collide, by the order the
@@ -145,13 +155,13 @@ assumed:
 - Changed `#book-meta`, or added/removed/renamed a book → `python emit.py`, and
   commit the resulting `site/index.html` and `build/render.json`.
 - Changed a record's metadata in `template.typ`, `export.py`, anything under
-  `exporter/`, or `schema/war.schema.json` → `python export.py --check` after
-  the build, and confirm `check: ok`. Read the build report under it: a new
+  `exporter/`, or `schema/` → `python export.py --check` after the build,
+  and confirm `check: ok`. Read the build report under it: a new
   `unclassified` line or a jump in suffixed ids is a regression the gate does
   not fail on.
-- Renamed a unit, option, item or upgrade in a book → its id in
-  `build/war.json` changes with it. There is nothing to update here; the
-  builder reconciles the old id at release time.
+- Renamed a unit, option, item or upgrade in a book → its id in the bundle,
+  and its name in `build/war/`, change with it. There is nothing to update
+  here; the builder reconciles the old one at release time.
 - Changed anything under `extract/` → the gates need the source PDFs, which are
   not in the repo. If you don't have them, say so rather than reporting the
   change as verified.
