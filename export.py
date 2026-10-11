@@ -271,8 +271,12 @@ class Walker:
 
     def table(self, node: dict) -> None:
         self.flush()
-        # A cell is one text however many lines it wraps to.
-        cell = lambda x: " ".join(text_of(x).split())
+        # A cell is one text however many lines it wraps to, or the text its
+        # `cell` metadata holds where the page sets it otherwise: a weapon's
+        # special rules, one to a line, are the list the source writes.
+        def cell(x) -> str:
+            held = find_meta(x, "cell")
+            return " ".join((held["text"] if held else text_of(x)).split())
         cells: list[str] = []
         for c in node.get("children", []):
             f = c.get("func")

@@ -1033,8 +1033,22 @@
   table.hline(stroke: 0.9pt + hair),
 ))
 
+// A comma-separated list of rules as one rule to a line. Only a comma outside
+// brackets separates, so "Multiple Shots (2, Flaming)" would stay whole. The
+// cell keeps the list as written in an invisible `cell` metadata element for
+// the export, which cannot tell these breaks from the ones typed into prose.
+#let rule-lines(s) = {
+  let rules = ("",)
+  let depth = 0
+  for c in s.clusters() {
+    if c == "(" { depth += 1 } else if c == ")" { depth -= 1 }
+    if c == "," and depth == 0 { rules.push("") } else { rules.last() += c }
+  }
+  [#metadata((kind: "cell", text: s))#rules.map(str.trim).join(linebreak())]
+}
+
 // Weapon and war-machine profiles: prose in the final column, so only that one
-// takes the remaining width.
+// takes the remaining width. A SPECIAL RULES cell is set one rule to a line.
 #let minitable(cols, vals) = block(above: 0.55em, below: 0.8em, width: 100%, table(
   columns: cols.enumerate().map(((i, _)) => if i == cols.len() - 1 { 1fr } else { auto }),
   align: left + horizon,
@@ -1045,7 +1059,10 @@
   table.header(
     ..cols.map(c => text(size: 10pt, weight: "bold", tracking: 0.07em)[#upper(c)]),
   ),
-  ..vals,
+  ..vals.enumerate().map(((i, v)) => {
+    let col = cols.at(calc.rem(i, cols.len()))
+    if upper(col) == "SPECIAL RULES" and type(v) == str { rule-lines(v) } else { v }
+  }),
   table.hline(stroke: 0.5pt + hair),
 ))
 

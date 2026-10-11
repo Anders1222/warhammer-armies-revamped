@@ -71,7 +71,7 @@ Flail. At the start of each round of close combat, all enemy models in base cont
 A model with a Rat Hound upgrade can make an additional Weapon Skill 3, Strength 3, Initiative 3 Attack. However, on a To Hit roll of 1 from this attack, the Rat Hound will instead inflict an automatic hit on its owner.
 
 #namecost("RATLING PISTOL", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/12\"", "5", "Magical Attacks, Multiple Shots (3) Quick Shot, Rapid Fire, Unstable Ammunition"))
+#minitable(("Range", "Strength", "Special Rules"), ("6/12\"", "5", "Magical Attacks, Multiple Shots (3), Quick Shot, Rapid Fire, Unstable Ammunition"))
 #namecost("SCURRY AWAY", "")
 
 All models in the Skaven army roll an additional D6 and discard the lowest result when determining their flee distance.
