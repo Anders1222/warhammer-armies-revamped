@@ -388,7 +388,7 @@ When deploying your units, place them at least 1" apart so it is made clear whic
 
 After deployment is finished, the players roll a dice to decide which player will begin. The player with the least amount of deployment drops adds +1 to their result. The player with the highest result then chooses if they want to go first or second. In case both players roll the same result, re-roll the dice until one player rolls higher.
 
-A standard game lasts 6 whole turns. A turn consists of the Movement, Magic, Shooting and Close Combat phase of both players. Once the 6 turns are finished, calculate the casualties and completed objectives for both armies to determine the winner. For more information on various battles, see the Scenarios chapter.
+A standard game lasts 6 whole turns. A turn consists of the Movement, Magic, Shooting and Close Combat phase of both players. Once the 6 turns are finished, calculate the casualties and completed objectives for both armies to determine the winner.
 
 === THE TURN SEQUENCE
 
@@ -2381,7 +2381,7 @@ In addition, for every Core unit that deploys as Ambushers in your army, you are
 
 === SCOUTS
 
-Before starting deployment, a unit with the Scouts special rule can choose to not deploy at the start of the battle. Scouts are set up after all other units from both armies have been deployed, and do not count toward determining who finished deploying their army first. They can be set up either in their controlling player's deployment zone as normal, or anywhere on the battlefield. However, this cannot be used to deploy a unit within 12" of the enemy. Units that deploy this way cannot declare a charge in the first turn if their army goes first.
+Before starting deployment, a unit with the Scouts special rule can choose to not deploy at the start of the battle. Scouts are set up after all other units from both armies have been deployed, and do not count as deployment drops. They can be set up either in their controlling player's deployment zone as normal, or anywhere on the battlefield. However, this cannot be used to deploy a unit within 12" of the enemy. Units that deploy this way cannot declare a charge in the first turn if their army goes first.
 
 Note that a character may only join a unit deploying with the Scouts special rule if they also have the same rule.
 
@@ -4206,10 +4206,6 @@ You score an additional 25 victory points for every enemy standard bearer that w
 
 Note that if a standard bearer of any kind is killed by a shooting attack, spell or anything else outside of close combat, these extra victory points are not scored (the enemy is assumed to whisk their prized banner away before your troops can get hold of it).
 
-#namecost("SCENARIO SPECIAL RULES", "")
-
-Some scenarios use unique special rules that confer extra abilities, restrictions or effects onto your games. We group all such elements into the Scenario Special Rules section, where they can be fully explained.
-
 #namecost("WHAT'S IN A UNIT?", "")
 
 When we are talking about Victory Points scored for a unit, this includes the unit's basic cost as well as any upgrades bought for it like Command Group models, weapon/armour upgrades, mounts and Magic Items.
@@ -4225,241 +4221,6 @@ In order to calculate the result, sum up the final Victory Points of both player
 For example, in a 2500 points battle where Player 1 scores 1000 Victory Points vs Player 2's 1500 Victory Points gives a difference of 500 points. Dividing 2500 with 500 gives a result of 0.2 (20%), and thus Player 2 has won a Marginal Victory!
 
 If a player concedes, the opponent automatically scores a 'Massacre!'.
-
-= SCENARIOS
-
-The scenarios given on the following few pages represent pitched battles, where the armies are of roughly the same size and the situation gives neither side a particular advantage. They are each designed to give both sides an equal chance of winning, and have few, if any, scenario special rules.
-
-There are two ways that you can choose which pitched battle to use. The first is to pick randomly; by rolling on the Pitched battle table shown below:
-
-*D6 Pitched Battle 1* Battleline *2* Dawn Attack *3* Battle for the Pass *4* Blood and Glory *5* Meeting Engagement *6* The Watchtower
-
-The second method is to discuss the matter with your opponent and agree which battle you both want to fight. This gives the maximum amount of choice and ensures that you don't end up in a scenario that neither of you wants to play.
-
-Each pitched battle contains the information you need to get set up and playing, broken down into the following categories:
-
-- The Armies (this will normally be two armies of equal points value)
-- The Battlefield
-- Deployment
-- First Turn
-- Game Length, Victory Conditions
-- Scenario Special Rules
-
-This format governs all Warhammer scenarios – not just the ones found in this volume.
-
-== BATTLELINE
-#namecost("THE ARMIES", "")
-
-Each player chooses their force using the army list from a Warhammer Armies book, to an equal points value agreed before the game.
-
-#namecost("THE BATTLEFIELD", "")
-
-Set up terrain as described under the “Fighting a Battle” chapter.
-
-#namecost("DEPLOYMENT", "")
-
-Roll off to see which player picks the half of the table they will deploy in. The opponent will deploy in the other half.
-
-Players then take it in turn to place units on the table, using the alternating units method of deployment. Units may be placed anywhere in their deployment zone that is more than 12" from the centre line.
-
-#namecost("FIRST TURN", "")
-
-Roll off after deployment to see which player takes the first turn. The player that finished deploying their army first adds +1 to their roll as per the normal rules.
-
-#namecost("GAME LENGTH", "")
-
-The battle will last for six game turns, or until a time limit agreed by the players is reached, whichever comes first.
-
-#namecost("VICTORY CONDITIONS", "")
-
-Use victory points to determine the winner of the battle.
-
-#namecost("SCENARIO SPECIAL RULES", "")
-
-None.
-
-#diagram("/assets/figures/rulebook/img-0601.svg", 0.762)
-
-== DAWN ATTACK
-#namecost("THE ARMIES", "")
-
-Each player chooses their force using the army list from a Warhammer Armies book, to an equal points value agreed before the game.
-
-#namecost("THE BATTLEFIELD", "")
-
-Set up terrain as described under the "Fighting a Battle" chapter.
-
-#namecost("DEPLOYMENT", "")
-
-Roll off to see which player picks the half of the table they will deploy in. The opponent will deploy in the other half.
-
-The player that won the roll off must deploy their entire army first. Before deploying each unit, roll a dice and refer to the Deployment table to see where the unit must deploy.
-
-Units with the Scouts special rule do not roll on the table, and deploy using their own special rules after normal deployment is complete. Characters may either deploy on their own, rolling on the table like any other unit, or deploy as part of a unit they are allowed to join (state that the character will join the unit before rolling to see where the unit and character will deploy).
-
-Once the first player has deployed, their opponent must do likewise, rolling for each unit as described above.
-
-#namecost("DEPLOYMENT TABLE", "")
-
-*D6 Result: 1 Left Flank.* The entire unit must be placed in the player's half, more than 12" from the centre line, and within 18" of the narrow table edge on the player's left. *2 Right Flank.* The entire unit must be placed in the player's half, more than 12" from the centre line, and within 18" of the narrow table edge on the player's right. *3\-5 Centre.* The entire unit must be placed in the player's half, more than 12" from the centre line, and more than 18" from either narrow table edge. *6 Choose.* The entire unit must be placed in the player's half, anywhere more than 12" from the centre line.
-
-#namecost("FIRST TURN", "")
-
-After deployment, the player that set up second rolls a dice. On a roll of 6 they can choose who has the first turn. On a roll of 1\-5 the player that set up first chooses who has the first turn.
-
-#namecost("GAME LENGTH", "")
-
-The battle will last for six game turns, or until a time limit agreed by the players is reached, whichever comes first.
-
-#namecost("VICTORY CONDITIONS", "")
-
-Use victory points to determine the winner of the battle.
-
-#namecost("SCENARIO SPECIAL RULES", "")
-
-None.
-
-#diagram("/assets/figures/rulebook/img-0603.svg", 0.754)
-
-== BATTLE FOR THE PASS
-#namecost("THE ARMIES", "")
-
-Each player chooses their force using the army list from a Warhammer Armies book, to an equal points value agreed before the game.
-
-#namecost("THE BATTLEFIELD", "")
-
-Set up terrain as described under the “Fighting a Battle” chapter. It's worth keeping in mind when setting up the terrain that the battle will be fought down the length of the table, in a narrow pass with impassable mountains just off each of the long table edges.
-
-#namecost("DEPLOYMENT", "")
-
-Roll off to see which player picks the half of the table they want to deploy in. The opponent deploys in the other half. Note that in this pitched battle the game is fought down the length of the table rather than across its width, as shown on the deployment map below.
-
-Units may be placed anywhere in their half that is more than 12" from the centre line.
-
-Players take it in turn to place units on the table, using the alternating unit method of deployment.
-
-#namecost("FIRST TURN", "")
-
-Roll off after deployment to see which player receives the first turn. The player that finished deploying their army first adds +1 to their roll as per the normal rules.
-
-#namecost("GAME LENGTH", "")
-
-The battle will last for six game turns, or until a time limit agreed by the players is reached, whichever comes first.
-
-#namecost("VICTORY CONDITIONS", "")
-
-Use victory points to determine the winner of the battle.
-
-#namecost("SCENARIO SPECIAL RULES", "")
-
-*Bottleneck:* The long table edges count as impassable terrain. Following the normal rules, fleeing units can force a way through the impassable terrain and disappear from the table. Other units (including reinforcements) may not enter or leave via a long table edge unless they are Ethereal or a Flyer. This means that pursuing or overrunning units, other than Ethereals and Flyers, must stop 1" away from the long table edges.
-
-#diagram("/assets/figures/rulebook/img-0605.svg", 0.759)
-
-== BLOOD AND GLORY
-#namecost("THE ARMIES", "")
-
-Each player chooses their force using the army list from a Warhammer Armies book, to an equal points value agreed before the game.
-
-#namecost("THE BATTLEFIELD", "")
-
-Set up terrain as described under the "Fighting a Battle" chapter.
-
-#namecost("DEPLOYMENT", "")
-
-Roll off to see which player chooses the half of the table they will deploy in. The opponent will deploy in the other half. Players then take it in turns to place units on the table, using the alternating units method of deployment.
-
-Units may be placed anywhere in their half of the table that is more than 9" from the centre line, and more than 9" away from either narrow table edge.
-
-#namecost("FIRST TURN", "")
-
-Roll off after deployment to see which player receives the first turn. The player that finished deploying their army first adds +1 to their roll as per the normal rules.
-
-#namecost("GAME LENGTH", "")
-
-The game ends at the end of the 6th game turn or as soon as an army breaks. An army immediately breaks when its Fortitude is equal to or less than its Breaking Point (see below).
-
-#namecost("VICTORY CONDITIONS", "")
-
-The first army to break the enemy wins the battle (see above). If neither army has broken by the end of the game, or if both were to break simultaneously, use victory points to determine the winner.
-
-#namecost("SCENARIO SPECIAL RULES", "")
-
-*Breaking Point:* An army's breaking point is equal to one for every thousand points in the army, rounding any fractions up. So, an army of up to 1,000 points has a breaking point of one, an army worth 1,001 to 2,000 points has a breaking point of two, etc.
-
-*Fortitude:* Any army's fortitude is equal to the current number of standards in the army (including the battle standard), plus two for the General. Fleeing units and units that are only temporarily off-table still count.
-
-For example, a 2,000 point army (breaking point 2) has three unit standards, a battle standard, and a General, giving it a starting fortitude of six (3 + 1 + 2=6). It would break as soon as its fortitude was reduced to two.
-
-#diagram("/assets/figures/rulebook/img-0607.svg", 0.75)
-
-== MEETING ENGAGEMENT
-#namecost("THE ARMIES", "")
-
-Each player chooses their force using the army list from a Warhammer Armies book, to an equal points value agreed before the game.
-
-#namecost("THE BATTLEFIELD", "")
-
-Set up terrain as described under the “Fighting a Battle” chapter.
-
-#namecost("DEPLOYMENT", "")
-
-In this scenario the table is divided into two halves from corner to corner, as shown on the deployment map. The players roll off and the winner chooses the two opposite corners to be used and which half of the table each player will deploy in.
-
-The player that won the roll-off must deploy their entire army first. Before deploying the army, roll a dice for each separate unit, including each individual character and war machine. On a roll of 1 the unit must be held back as reserves (see the special rules for Reserves on the right). After all units have been rolled for, those that are not reserves can be deployed in their side's deployment zone, anywhere that is more than 6" away from the centre line.
-
-Once the first player had deployed, their opponent does likewise, in exactly the same manner.
-
-#namecost("FIRST TURN", "")
-
-After deployment, the player that set up second rolls a dice. On a roll of 6 they can choose who has the first turn. On a roll of 1\-5 the player that set up first chooses who has the first turn.
-
-#namecost("GAME LENGTH", "")
-
-The battle will last for six game turns, or until a time limit agreed by the players is reached, whichever comes first.
-
-#namecost("VICTORY CONDITIONS", "")
-
-Use victory points to determine the winner of the battle.
-
-#namecost("SCENARIO SPECIAL RULES", "")
-
-*Reserves:* Reserves are not deployed at the start of the battle. Instead they can enter play on any turn of their player's choosing, using the reinforcements rules. They may enter at any point on the long table edge of their deployment zone.
-
-#diagram("/assets/figures/rulebook/img-0609.svg", 0.762)
-
-== THE WATCHTOWER
-#namecost("THE ARMIES", "")
-
-Each player chooses their force using the army list from a Warhammer Armies book, to an equal points value agreed before the game.
-
-#namecost("THE BATTLEFIELD", "")
-
-Set up the watchtower as described below, and then set up any remaining terrain using the method described under the “Fighting a Battle” chapter. The watchtower counts as the first of the terrain pieces that must be set up.
-
-A building must be set up at the centre of the table. Any building model can be used, but a Warhammer Watchtower is ideal. If you don't have a building model, use any other terrain feature of your choice.
-
-#namecost("DEPLOYMENT", "")
-
-Roll off to see who controls the watchtower at the start of the battle. The player that controls the tower may deploy a single Core infantry unit of no more than 20 models in the tower if they wish to do so. The unit is not allowed to voluntarily leave the tower until after the first game turn of the battle has been completed. The opposing player then picks the half of the table they will deploy in. Players then take it in turn to place units on the table, starting with the player that doesn't control the watchtower, using the alternating units method of deployment. Units may be placed anywhere in their half that is more than 12" from the centre line.
-
-#namecost("FIRST TURN", "")
-
-The player that does not control the watchtower receives the first turn.
-
-#namecost("GAME LENGTH", "")
-
-Roll a D6 at the end of each game turn, starting with the end of game turn 4. Add the turn number to the dice roll. If the score is 10 or more, then the battle ends immediately. If the total is less than 10 then the battle continues for at least one more game turn.
-
-#namecost("VICTORY CONDITIONS", "")
-
-At the end of the battle, the side that controls the watchtower is the winner. The watchtower is controlled by calculating the amount of Unit Strength of all units within 6" of it that are not fleeing on each side. Any unit garrisoning Watchtower counts as double their Unit Strength (to a maximum of +20) for this purpose. The side with the highest Unit Strength is the winner. In the unlikely event that neither player can claim to control the watchtower, use victory points to determine the winner of the battle.
-
-#namecost("SCENARIO SPECIAL RULES", "")
-
-None.
-
-#diagram("/assets/figures/rulebook/img-0611.svg", 0.756)
 
 ]
 
