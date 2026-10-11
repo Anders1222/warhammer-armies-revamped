@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="606" viewBox="0 0 900 606" role="img" aria-labelledby="title desc">
+<title id="title">Dawn attack</title>
+<desc id="desc">Warhammer Armies Revamped rules diagram. Blue and red bases distinguish the opposing forces; arrowheads show facing. Dashed outlines show previous positions.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#30291f"/></marker></defs>
+<rect x="3" y="3" width="894" height="600" fill="#f5f0e5" stroke="#b5a58a" stroke-width="1.5" rx="8"/>
+<line x1="20" y1="49" x2="880" y2="49" stroke="#b5a58a" stroke-width="1"/>
+<text x="450.0" y="31" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="18" text-anchor="middle" letter-spacing="2">DAWN ATTACK</text>
+<g transform="translate(24 62)">
+<rect x="0" y="0" width="852" height="130" fill="#ebdcdb" stroke="none" stroke-width="1.8"/>
+<line x1="0" y1="130" x2="852" y2="130" stroke="#30291f" stroke-width="2" stroke-dasharray="8 7"/>
+<line x1="213" y1="0" x2="213" y2="130" stroke="#30291f" stroke-width="2" stroke-dasharray="8 7"/>
+<line x1="639" y1="0" x2="639" y2="130" stroke="#30291f" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="426.0" y="72" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="34" text-anchor="middle">Side A centre</text>
+<text x="106.5" y="46" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="26" text-anchor="middle">Side A</text>
+<text x="106.5" y="83" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="26" text-anchor="middle">Right flank</text>
+<text x="745.5" y="46" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="26" text-anchor="middle">Side A</text>
+<text x="745.5" y="83" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="26" text-anchor="middle">Left flank</text>
+<rect x="0" y="390" width="852" height="130" fill="#dce7e8" stroke="none" stroke-width="1.8"/>
+<line x1="0" y1="390" x2="852" y2="390" stroke="#30291f" stroke-width="2" stroke-dasharray="8 7"/>
+<line x1="213" y1="390" x2="213" y2="520" stroke="#30291f" stroke-width="2" stroke-dasharray="8 7"/>
+<line x1="639" y1="390" x2="639" y2="520" stroke="#30291f" stroke-width="2" stroke-dasharray="8 7"/>
+<text x="426.0" y="462" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="34" text-anchor="middle">Side B centre</text>
+<text x="106.5" y="436" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="26" text-anchor="middle">Side B</text>
+<text x="106.5" y="473" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="26" text-anchor="middle">Left flank</text>
+<text x="745.5" y="436" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="26" text-anchor="middle">Side B</text>
+<text x="745.5" y="473" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="26" text-anchor="middle">Right flank</text>
+<line x1="0" y1="260" x2="852" y2="260" stroke="#b5a58a" stroke-width="2" stroke-dasharray="24 16"/>
+<line x1="8" y1="159" x2="205" y2="159" stroke="#30291f" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="8.0" y1="152.0" x2="8.0" y2="166.0" stroke="#30291f" stroke-width="1.5"/>
+<line x1="205.0" y1="152.0" x2="205.0" y2="166.0" stroke="#30291f" stroke-width="1.5"/>
+<text x="106" y="191" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="30" text-anchor="middle">18″</text>
+<line x1="647" y1="159" x2="844" y2="159" stroke="#30291f" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="647.0" y1="152.0" x2="647.0" y2="166.0" stroke="#30291f" stroke-width="1.5"/>
+<line x1="844.0" y1="152.0" x2="844.0" y2="166.0" stroke="#30291f" stroke-width="1.5"/>
+<text x="745" y="191" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="30" text-anchor="middle">18″</text>
+<line x1="8" y1="365" x2="205" y2="365" stroke="#30291f" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="8.0" y1="358.0" x2="8.0" y2="372.0" stroke="#30291f" stroke-width="1.5"/>
+<line x1="205.0" y1="358.0" x2="205.0" y2="372.0" stroke="#30291f" stroke-width="1.5"/>
+<text x="106" y="351" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="30" text-anchor="middle">18″</text>
+<line x1="647" y1="365" x2="844" y2="365" stroke="#30291f" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="647.0" y1="358.0" x2="647.0" y2="372.0" stroke="#30291f" stroke-width="1.5"/>
+<line x1="844.0" y1="358.0" x2="844.0" y2="372.0" stroke="#30291f" stroke-width="1.5"/>
+<text x="745" y="351" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="30" text-anchor="middle">18″</text>
+<line x1="426" y1="134" x2="426" y2="256" stroke="#30291f" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="433.0" y1="134.0" x2="419.0" y2="134.0" stroke="#30291f" stroke-width="1.5"/>
+<line x1="433.0" y1="256.0" x2="419.0" y2="256.0" stroke="#30291f" stroke-width="1.5"/>
+<text x="479" y="209" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="30" text-anchor="middle">12″</text>
+<line x1="426" y1="264" x2="426" y2="386" stroke="#30291f" stroke-width="2" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<line x1="433.0" y1="264.0" x2="419.0" y2="264.0" stroke="#30291f" stroke-width="1.5"/>
+<line x1="433.0" y1="386.0" x2="419.0" y2="386.0" stroke="#30291f" stroke-width="1.5"/>
+<text x="479" y="336" fill="#30291f" font-family="Libertinus Serif, Georgia, serif" font-size="30" text-anchor="middle">12″</text>
+<rect x="0" y="0" width="852" height="520" fill="none" stroke="#30291f" stroke-width="2"/>
+</g>
+</svg>

@@ -615,7 +615,7 @@ NOTES:
   ],
 )
 
-#unit("CUTTHROATS",
+#unit("HOBGOBLIN CUTTHROATS",
   profiles: (
     (name: "Cutthroat", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 2, a: 1, ld: 6, points: 3.5),
   ),
@@ -635,7 +635,7 @@ NOTES:
   ],
 )
 
-#unit("ARCHERS",
+#unit("HOBGOBLIN ARCHERS",
   profiles: (
     (name: "Archer", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 1, i: 2, a: 1, ld: 6, points: 4.5),
   ),

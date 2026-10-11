@@ -1,0 +1,228 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://anders1222.github.io/warhammer-armies-revamped/schema/builder.schema.json",
+ "title": "Warhammer Armies Revamped, the army builder's per-army files",
+ "description": "The files `python export.py` writes into the builder's system folder, one $defs entry per kind of file: manifest, composition, commonMagicItems, faction, extras. docs/faction-files.md describes the mapping; `python export.py --check` validates every written file against its entry. The types are the builder's: a profile's points are a number or null, a magic item's or upgrade's points a string, a spell's level and casting value integers, a choice's perModel never null. Written to the keyword subset exporter/schema.py implements.",
+ "$defs": {
+  "text": {"type": ["string", "null"]},
+  "points": {"type": ["number", "null"]},
+  "key": {"type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"},
+
+  "manifest": {
+   "type": "object",
+   "required": ["system", "factions"],
+   "additionalProperties": false,
+   "properties": {
+    "system": {"const": "war"},
+    "factions": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/key"}}
+   }
+  },
+
+  "composition": {
+   "type": "object",
+   "required": ["system", "charactersCombinedMaxPercent", "singleUnitMaxPercent", "categories"],
+   "additionalProperties": false,
+   "properties": {
+    "system": {"const": "war"},
+    "charactersCombinedMaxPercent": {"type": "number", "minimum": 0.01, "maximum": 1},
+    "singleUnitMaxPercent": {"type": "number", "minimum": 0.01, "maximum": 1},
+    "categories": {
+     "type": "object",
+     "required": ["core", "special", "rare"],
+     "additionalProperties": false,
+     "properties": {
+      "core": {"$ref": "#/$defs/coreLimit"},
+      "special": {"$ref": "#/$defs/capLimit"},
+      "rare": {"$ref": "#/$defs/capLimit"},
+      "lords": {"$ref": "#/$defs/limit"},
+      "heroes": {"$ref": "#/$defs/limit"}
+     }
+    }
+   }
+  },
+  "limit": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "minPercent": {"type": "number", "minimum": 0, "maximum": 1},
+    "maxPercent": {"type": "number", "minimum": 0, "maximum": 1}
+   }
+  },
+  "coreLimit": {
+   "type": "object",
+   "required": ["minPercent"],
+   "additionalProperties": false,
+   "properties": {
+    "minPercent": {"type": "number", "minimum": 0, "maximum": 1},
+    "maxPercent": {"type": "number", "minimum": 0, "maximum": 1}
+   }
+  },
+  "capLimit": {
+   "type": "object",
+   "required": ["maxPercent"],
+   "additionalProperties": false,
+   "properties": {
+    "minPercent": {"type": "number", "minimum": 0, "maximum": 1},
+    "maxPercent": {"type": "number", "minimum": 0, "maximum": 1}
+   }
+  },
+
+  "commonMagicItems": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/magicItem"}},
+
+  "faction": {
+   "type": "object",
+   "required": ["factionName", "units"],
+   "additionalProperties": false,
+   "properties": {
+    "factionName": {"type": "string"},
+    "units": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/unit"}}
+   }
+  },
+  "unit": {
+   "type": "object",
+   "description": "A UnitEntry. Every key is present, null when the entry has none.",
+   "required": ["name", "category", "profiles", "troopType", "baseSize", "equipment", "magic",
+                "options", "specialRules", "upgrades", "notes", "unitSize", "crew", "mount",
+                "drawnBy", "pointsCost"],
+   "additionalProperties": false,
+   "properties": {
+    "name": {"type": "string"},
+    "category": {"enum": ["Lords", "Heroes", "Characters", "Named Characters", "Core", "Special",
+                          "Rare", "Character Mounts"]},
+    "profiles": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/profile"}},
+    "troopType": {"type": "string"},
+    "baseSize": {"$ref": "#/$defs/text"},
+    "equipment": {"$ref": "#/$defs/text"},
+    "magic": {"$ref": "#/$defs/text"},
+    "options": {"anyOf": [{"type": "null"},
+                          {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/option"}}]},
+    "specialRules": {"$ref": "#/$defs/text"},
+    "upgrades": {"$ref": "#/$defs/text"},
+    "notes": {"$ref": "#/$defs/text"},
+    "unitSize": {"$ref": "#/$defs/text"},
+    "crew": {"$ref": "#/$defs/text"},
+    "mount": {"$ref": "#/$defs/text"},
+    "drawnBy": {"$ref": "#/$defs/text"},
+    "pointsCost": {"$ref": "#/$defs/points"}
+   }
+  },
+  "profile": {
+   "type": "object",
+   "required": ["name", "M", "WS", "BS", "S", "T", "W", "I", "A", "Ld", "points"],
+   "additionalProperties": false,
+   "properties": {
+    "name": {"type": "string"},
+    "M": {"$ref": "#/$defs/stat"}, "WS": {"$ref": "#/$defs/stat"}, "BS": {"$ref": "#/$defs/stat"},
+    "S": {"$ref": "#/$defs/stat"}, "T": {"$ref": "#/$defs/stat"}, "W": {"$ref": "#/$defs/stat"},
+    "I": {"$ref": "#/$defs/stat"}, "A": {"$ref": "#/$defs/stat"}, "Ld": {"$ref": "#/$defs/stat"},
+    "points": {"$ref": "#/$defs/points"}
+   }
+  },
+  "stat": {"type": ["number", "string", "null"]},
+  "option": {
+   "type": "object",
+   "description": "A UnitOption. Which keys a type carries is in docs/faction-files.md.",
+   "required": ["type", "raw"],
+   "additionalProperties": false,
+   "properties": {
+    "type": {"enum": ["equipment", "command", "mount", "magic_items", "wizard_upgrade", "upgrade",
+                      "blessed_spawning", "faction_upgrade", "battle_standard", "magic_standard"]},
+    "action": {"enum": ["replace", "choose", "add"]},
+    "replaces": {"$ref": "#/$defs/text"},
+    "choices": {"type": "array", "items": {"$ref": "#/$defs/choice"}},
+    "role": {"enum": ["Leader", "Musician", "Standard Bearer"]},
+    "points": {"$ref": "#/$defs/points"},
+    "perModel": {"type": ["boolean", "null"]},
+    "pointsLimit": {"type": ["integer", "null"]},
+    "appliesTo": {"$ref": "#/$defs/text"},
+    "upgrade": {"$ref": "#/$defs/text"},
+    "factionUpgrade": {"type": ["string", "null"], "pattern": "^[a-z0-9]+(_[a-z0-9]+)*$"},
+    "raw": {"type": "string"},
+    "subOptions": {"anyOf": [{"type": "null"},
+                             {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/option"}}]}
+   }
+  },
+  "choice": {
+   "type": "object",
+   "required": ["name", "points", "perModel"],
+   "additionalProperties": false,
+   "properties": {
+    "name": {"type": "string"},
+    "points": {"$ref": "#/$defs/points"},
+    "perModel": {"type": "boolean"},
+    "replaces": {"$ref": "#/$defs/text"}
+   }
+  },
+
+  "extras": {
+   "type": "object",
+   "required": ["factionName", "armySpecialRules", "magicItems", "loresOfMagic", "factionUpgrades"],
+   "additionalProperties": false,
+   "properties": {
+    "factionName": {"type": "string"},
+    "armySpecialRules": {"type": "array", "items": {"$ref": "#/$defs/armyRule"}},
+    "magicItems": {"type": "array", "items": {"$ref": "#/$defs/magicItem"}},
+    "loresOfMagic": {"type": "array", "items": {"$ref": "#/$defs/lore"}},
+    "factionUpgrades": {
+     "type": "object",
+     "patternProperties": {
+      "^[a-z0-9]+(_[a-z0-9]+)*$": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/upgrade"}}
+     },
+     "additionalProperties": false
+    }
+   }
+  },
+  "armyRule": {
+   "type": "object",
+   "required": ["name", "description"],
+   "additionalProperties": false,
+   "properties": {"name": {"type": "string"}, "description": {"type": "string"}}
+  },
+  "magicItem": {
+   "type": "object",
+   "required": ["name", "points", "category", "description"],
+   "additionalProperties": false,
+   "properties": {
+    "name": {"type": "string"},
+    "points": {"type": "string"},
+    "category": {"enum": ["magic_weapon", "magic_armour", "talisman", "arcane_item", "enchanted_item",
+                          "magic_standard", "weapon_rune", "armour_rune", "talismanic_rune",
+                          "banner_rune", "engineering_rune"]},
+    "description": {"type": "string"},
+    "restriction": {"$ref": "#/$defs/text"}
+   }
+  },
+  "lore": {
+   "type": "object",
+   "required": ["name", "attribute", "spells"],
+   "additionalProperties": false,
+   "properties": {
+    "name": {"type": "string"},
+    "attribute": {"$ref": "#/$defs/text"},
+    "spells": {"type": "array", "items": {"$ref": "#/$defs/spell"}}
+   }
+  },
+  "spell": {
+   "type": "object",
+   "required": ["name", "level", "castValue", "description", "type"],
+   "additionalProperties": false,
+   "properties": {
+    "name": {"type": "string"},
+    "level": {"type": "integer", "minimum": 0},
+    "castValue": {"type": "integer", "minimum": 0},
+    "description": {"type": "string"},
+    "type": {"$ref": "#/$defs/text"}
+   }
+  },
+  "upgrade": {
+   "type": "object",
+   "required": ["name", "points", "description"],
+   "additionalProperties": false,
+   "properties": {
+    "name": {"type": "string"},
+    "points": {"type": "string"},
+    "description": {"type": "string"}
+   }
+  }
+ }
+}
