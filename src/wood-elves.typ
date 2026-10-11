@@ -235,7 +235,7 @@ A model with this rule can choose to make a single Tree Whack in place of making
 
 #magic-weapon("VAUL'S WRATH", 20, type: "Elven longbow")[This weapon has the following profile:
 
-#minitable(("Range", "Strength", "Special Rules"), ("24/36\"", "4", "Armour Piercing (1), Multiple Shots (2), Multiple Wounds (2) Volley Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("24/36\"", "4", "Armour Piercing (1), Multiple Shots (2), Multiple Wounds (2), Volley Fire"))
 ]
 
 #magic-weapon("SPEAR OF THE HUNT", 15, only: "Wild Hunter", type: "Light lance")[This item gives the wielder the Armour Piercing (1) special rule. In addition, they and any unit they are with may re-roll 1's for their charge distance.]
