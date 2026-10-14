@@ -83,8 +83,13 @@ def split_profiles(unit: dict) -> list[dict] | None:
 
 
 def text_field(key: str, value):
-    if value is None or isinstance(value, str):
+    if value is None:
         return value
+    if isinstance(value, str):
+        # Three books end a SPECIAL RULES line in a comma before the rules it
+        # defines (FLESH HOUNDS, CARADRYAN, NURGLITCH); the builder reads one as
+        # a list cut short.
+        return re.sub(r",\s*$", "", value) if key == "specialRules" else value
     if isinstance(value, list):
         if value and all(isinstance(v, dict) for v in value):
             if key == "specialRules":

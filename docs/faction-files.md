@@ -100,9 +100,11 @@ A category outside the table fails the gate.
   `null`.
 - The text fields - `troopType`, `baseSize`, `equipment`, `magic`,
   `specialRules`, `upgrades`, `notes`, `unitSize`, `crew`, `mount`, `drawnBy`
-  - are strings. A string stays as it is; a list of strings is joined one a
-  line; a list of named rules is the names joined with ", " for
-  `specialRules`, and `name: text` one a line for the others.
+  - are strings. A string stays as it is, except that `specialRules` drops
+  a trailing comma the book prints (the builder reads one as a list cut
+  short); a list of strings is joined one a line; a list of named rules is
+  the names joined with ", " for `specialRules`, and `name: text` one a line
+  for the others.
 - Nothing else is written: not the `*Body` companions, not `chapter`,
   `subtitle`, `solo`, `compact`, `id`, `section`, `tier`, `named`,
   `unitSizeParsed`, `equipmentList`, `specialRulesList`, the formatVersion 1

@@ -413,10 +413,7 @@ A model with Enchanted Charms has the Magical Ward (6+) and Magic Resistance (1)
   mount: "Jaguar (Feline)",
   base-size: "25x50",
   equipment: "Light lance",
-  special-rules: "Fast Cavalry, Forest Strider, Guerrilla Warfare, Mighty Blow (1) (Jaguar only), Sacrificial",
-  special-rules-body: [
-*Hunt*
-  ],
+  special-rules: "Fast Cavalry, Forest Strider, Guerrilla Warfare, Mighty Blow (1) (Jaguar only), Sacrificial Hunt",
   options: [
 - May replace light lances with one of the following:
   - Shortbows free
@@ -702,10 +699,7 @@ A model with Enchanted Charms has the Magical Ward (6+) and Magic Resistance (1)
 
 #minitable(("Range", "Strength", "Special Rules"), ("28/42\"", "5", "Cumbersome, Multiple Wounds (D3)"))
   ],
-  special-rules: "Cold-Blooded, Sacrificial Hunt, Immunity (Psychology), Impact Hits (D6+1), Natural",
-  special-rules-body: [
-*Armour (4+), Stubborn*
-  ],
+  special-rules: "Cold-Blooded, Sacrificial Hunt, Immunity (Psychology), Impact Hits (D6+1), Natural Armour (4+), Stubborn",
   upgrades: (
     rule("Gyroscope of Eternal Radiance")[Arcane Item. Bound spell (Level 3, cast on 9+). This is an *augment* spell with a range of 12". The target unit immediately makes a move with the Fly (10) special rule as if it were the Remaining Moves sub-phase.],
     rule("Sharpened Horns")[The Stegadon's its Impact Hits gains the Multiple Wounds (D3) special rule.],
@@ -846,10 +840,8 @@ A model with Enchanted Charms has the Magical Ward (6+) and Magic Resistance (1)
     rule("Lizard Bane")[Magic Weapon. Light lance. All attacks with this weapon always Hit on a 2+. Against Lizardmen, it always Wounds on at least a 3+.],
     rule("Lysippe's Horned Helmet")[Magic Armour. This helmet gives Lysippe a 6+ armour save. In addition, she becomes subject to Frenzy.],
   ),
-  special-rules: "Fast Cavalry, Forest Strider, Guerrilla Warfare, Hatred (Lizardmen), Mighty Blow (1)",
+  special-rules: "Fast Cavalry, Forest Strider, Guerrilla Warfare, Hatred (Lizardmen), Mighty Blow (1) (Blackfang only), Sacrificial Hunt",
   special-rules-body: [
-(Blackfang only)*, Sacrificial Hunt*
-
 - *Lysippe's War Cry:* Whenever Lysippe charges, she causes Fear. In addition, any unit charged suffers \-1 to their Weapon Skill and Ballistic Skill when being charged by her. This has no effect on models with Immunity (Fear).
   ],
 )

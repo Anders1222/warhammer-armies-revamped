@@ -676,10 +676,7 @@ When rolling To Wound, substitute the target's Toughness with its Initiative val
   ),
   troop-type: "Monstrous Creature (Undead)",
   base-size: "50x50 or 75x50",
-  special-rules: "Entombed Beneath the Sands, Indomitable, Killing Blow, Magic Resistance (1), Natural",
-  special-rules-body: [
-*Armour (5+), Poisoned Attacks, Undead*
-  ],
+  special-rules: "Entombed Beneath the Sands, Indomitable, Killing Blow, Magic Resistance (1), Natural Armour (5+), Poisoned Attacks, Undead",
 )
 
 #unit("BASTETHI",
@@ -814,10 +811,7 @@ When rolling To Wound, substitute the target's Toughness with its Initiative val
   base-size: "50x100 or 60x100",
   crew: "4 Tomb Guard Crew (Undead)",
   equipment: "Light lance (Tomb Guard Crew only), medium armour",
-  special-rules: "Indomitable, Killing Blow (Tomb Guard Crew only), Magical Attacks (Tomb Guard Crew",
-  special-rules-body: [
-only)*, Undead*
-  ],
+  special-rules: "Indomitable, Killing Blow (Tomb Guard Crew only), Magical Attacks (Tomb Guard Crew only), Undead",
   upgrades: (
     rule("Envenomed Sting")[All normal Attacks made by a Khemrian Warsphinx with this upgrade have the Poisoned Attacks special rule.],
     rule("Fiery Roar")[A Khemrian Warsphinx with this upgrade has a Strength 4 Breath Weapon with the Flaming Attacks special rule.],
@@ -1064,10 +1058,8 @@ He may choose spells from both Lores in any combination as he wishes.
   magic-items: (
     rule("The Flail of Skulls")[Magic Weapon. Flail. Attacks made with the Flail of Skulls have the Multiple Wounds (2) special rule.],
   ),
-  special-rules: "Flammable, Indomitable, Killing Blow, Magical Attacks, Sworn Bodyguard (see Tomb",
+  special-rules: "Flammable, Indomitable, Killing Blow, Magical Attacks, Sworn Bodyguard (see Tomb Herald), Undead",
   special-rules-body: [
-Herald)*, Undead*
-
 - *Herald of Despair:* Enemy units in base contact with Nekaph roll one additional dice when taking a Leadership test, discarding the lowest result. This has no effect on units with Immunity (Psychology).
 - *Settra's Champion:* If able to, Nekaph must always issue and accept challenges. When fighting in a challenge, Nekaph gains a 5+ invulnerable save and the Killing Blow special rule.
   ],
@@ -1109,10 +1101,8 @@ Herald)*, Undead*
   troop-type: "Infantry (Special Character, Undead)",
   base-size: "20x20 or 25x25",
   equipment: "Two hand weapons, light armour",
-  special-rules: "Flammable, Frenzy, Hatred, Stone Shaper (see Necrotect), Undead, Wrath of the Creator",
+  special-rules: "Flammable, Frenzy, Hatred, Stone Shaper (see Necrotect), Undead, Wrath of the Creator (see Necrotect)",
   special-rules-body: [
-(see Necrotect)
-
 - *Frantic Fervour:* Ramhotep confers the Frenzy special rule onto the unit he accompanies. While he remains in the unit, the unit can never lose its Frenzy.
 - *Master Artisan:* At the start of the game, select a single friendly unit of Monstrous Infantry, Monstrous Cavalry, Monstrous Beast or Monster. The models in this unit gain the Natural Armour (6+) special rule for the rest of the battle.
   ],

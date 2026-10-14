@@ -1555,10 +1555,8 @@ If you roll a misfire, the organ gun does not fire and the Steam Tank immediatel
     rule("Laurels of Victory")[Enchanted Item. Each unsaved Wound caused by Kurt Helborg is multiplied by 2 when calculating the combat result.],
     rule("Rod of Command")[Enchanted Item. One use only. The first time the character and his unit has to take a Break test, they automatically pass it.],
   ),
-  special-rules: "Immunity (Psychology), Master of Battle (see Masters of the Knightly Orders), Reiksguard",
+  special-rules: "Immunity (Psychology), Master of Battle (see Masters of the Knightly Orders), Reiksguard Knight",
   special-rules-body: [
-*Knight*
-
 - *The Emperor's Chosen:* If Kurt Helborg is included in your army, you must upgrade one unit of Reiksguard Knights to Inner Circle Knights. Kurt Helborg must join this unit, and may never leave it. The unit may re-roll failed Break tests for as long as he remains in it.
   ],
 )
@@ -1817,10 +1815,8 @@ Al-kahest Wounds any target on a 4+.
     rule("The Pale Scythe")[Magic Weapon. This weapon has the Killing Blow special rule and gives Elspeth von Draken a +1 dispel bonus.],
     rule("Death's Timekeeper")[Enchanted Item. Once per player turn, Elspeth von Draken can re-roll a single dice of your choice concerning her or the Carmine Dragon (this can include attacks, saving throws, magic dice and the Artillery dice used to determine the Carmine Dragon's Coruscating blast if desired). If this re-roll is not used, at the end of her player's turn Elspeth von Draken may recover a wound previously lost in the game.],
   ),
-  special-rules: "Fly (7) (Carmine Dragon only), Loremaster (Lore of Death), Natural Armour (3+) (Carmine",
+  special-rules: "Fly (7) (Carmine Dragon only), Loremaster (Lore of Death), Natural Armour (3+) (Carmine Dragon only)",
   special-rules-body: [
-Dragon only)
-
 - *Darkwalker:* Elspeth has Immunity (Psychology) and all To Wound rolls made against her suffer a \-1 penalty. However, she also suffers any extra effect that is listed as specifically damaging Undead.
 - *Coruscating Blast* (Carmine Dragon only)*:* This is a missile attack that uses the line template with the following profile:
 
@@ -1848,10 +1844,8 @@ This weapon has a Strength equivalent to 10 minus the target's Toughness.
     rule("Staff of Command")[Magic Weapon. As long as Volkmar the Grim is mounted upon the War Altar of Sigmar, all close combat attacks made with the Staff of Command are resolved at +2 Strength, at other times it gives +1 Strength.],
     rule("Jade Griffon")[Talisman. The Jade Griffon makes the bearer regain 1 Wound suffered earlier in the game at the start of each turn, up to their starting value.],
   ),
-  special-rules: "Battle Prayers of Sigmar (see Warrior Priests of Sigmar), Magic Resistance (1), Righteous",
+  special-rules: "Battle Prayers of Sigmar (see Warrior Priests of Sigmar), Magic Resistance (1), Righteous Fury (see Warrior Priests of Sigmar)",
   special-rules-body: [
-*Fury* (see Warrior Priests of Sigmar)
-
 - *Grand Theogonist:* Volkmar the Grim may re-roll failed Leadership tests when using Battle Prayers. In addition, if Volkmar is your Army General, Flagellants count as Core Units rather than Special Units.
   ],
   options: [
@@ -1873,10 +1867,8 @@ This weapon has a Strength equivalent to 10 minus the target's Toughness.
   magic-items: (
     rule("Hammer of Ensorcelled Iron")[Magic Weapon. Great weapon. This weapon allows the wielder to re-roll failed rolls To Wound.],
   ),
-  special-rules: "Battle Prayers of Sigmar (see Warrior Priests of Sigmar), Magical Ward (4+), Magic",
+  special-rules: "Battle Prayers of Sigmar (see Warrior Priests of Sigmar), Magical Ward (4+), Magic Resistance (1), Righteous Fury (see Warrior Priests of Sigmar)",
   special-rules-body: [
-*Resistance (1), Righteous Fury* (see Warrior Priests of Sigmar)
-
 - *Chosen of Sigmar:* Once per game, at the start of any Close Combat phase you may roll a D3; Luthor adds this number to his Weapon Skill, Strength, Toughness, and Attacks characteristics until the end of the turn.
 - *Fiery Demagogue:* In addition to his other Battle Prayers, Luthor Huss also knows the following:
   - *Unbending Righteousness:* Luthor Huss and his unit gain the Stubborn special rule until the start of your next turn.
@@ -1892,10 +1884,8 @@ This weapon has a Strength equivalent to 10 minus the target's Toughness.
   troop-type: "Infantry (Special Character, Human)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon, heavy armour",
-  special-rules: "Hold the Line (see Commanders), Immunity (Psychology), Inspiring Presence (6), Magical",
+  special-rules: "Hold the Line (see Commanders), Immunity (Psychology), Inspiring Presence (6), Magical Ward (5+), Magic Resistance (2), Righteous Fury (see Warrior Priests of Sigmar)",
   special-rules-body: [
-*Ward (5+), Magic Resistance (2), Righteous Fury* (see Warrior Priests of Sigmar)
-
 - *The Power of Sigmar:* In close combat Magnus may make a special Attack at Strength 10 with the Magical Attacks and Multiple Wounds (D3) special rules instead of his normal attacks.
   ],
   options: [
@@ -1966,10 +1956,8 @@ This weapon has a Strength equivalent to 10 minus the target's Toughness.
   magic-items: (
     rule("Beast Reaver")[Magic Weapon. This weapon gives the wielder +1 Strength and the Killing Blow special rule. In addition, they may re-roll all failed To Wound rolls against Beastmen.],
   ),
-  special-rules: "Hatred (Beastmen, Daemons of Chaos, Warriors of Chaos), Immunity (Psychology), Master",
+  special-rules: "Hatred (Beastmen, Daemons of Chaos, Warriors of Chaos), Immunity (Psychology), Master of Battle (see Masters of the Knightly Orders)",
   special-rules-body: [
-*of Battle* (see Masters of the Knightly Orders)
-
 - *Grand Master of the Knights Panther:* Harald Gemunsen has the Knight's Panther special rule. You may not take another Grand Master with this special rule if he is included in your army.
 - *Skilled Duellist:* Harald Gemunsen may re-roll failed To Hit rolls in challenges.
   ],
@@ -2029,10 +2017,8 @@ If the weapon hits, it inflicts one automatic Wound against Daemons, Undead or V
 
 - *Holy Relic:* Talisman. One use only. The Holy Relic allows Bertha and any unit she joins to automatically pass the first Leadership test they are required to make during the game.
   ],
-  special-rules: "Battle Prayers of Sigmar (see Warrior Priest of Sigmar), Immunity (Fear), Magic Resistance",
+  special-rules: "Battle Prayers of Sigmar (see Warrior Priest of Sigmar), Immunity (Fear), Magic Resistance (2), Righteous Fury (see Warrior Priest of Sigmar)",
   special-rules-body: [
-*(2), Righteous Fury* (see Warrior Priest of Sigmar)
-
 - *High Matriarch:* If Bertha Bestraufrung is included in your army, you must also include at least one unit of Sisters of Sigmar. Bertha Bestraufrung must join such a unit, and may not leave it. In addition, the unit becomes Stubborn while she remains with it.
 - *Sigmar's Handmaiden:* Bertha may re-roll failed Leadership tests when using Battle Prayers of Sigmar.
   ],

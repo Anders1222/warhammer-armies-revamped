@@ -816,10 +816,8 @@ another victim. Roll again on this table to see what happens.")))
   magic-items: (
     rule("Battle-Troll")[Magic Weapon. Attacks from this weapon Ignores Armour saves. In addition, it gives Erik a Magical Ward (4+).],
   ),
-  special-rules: "Blood Rage, Saga of the Eternal Warrior (see Sagas), Saga of the Fearless Leader (see",
+  special-rules: "Blood Rage, Saga of the Eternal Warrior (see Sagas), Saga of the Fearless Leader (see Sagas)",
   special-rules-body: [
-Sagas)
-
 - *Invocation of Thunder:* Once per game, at the beginning of any of your turns, Erik may call upon the Invocation of Thunder. The effects of the Invocation last until the start of the next Norse turn. All missile fire during this time suffers -l to hit. One enemy unit of your choice suffers D6 Strength 4 hits which Ignores Armour saves.
   ],
 )
@@ -922,10 +920,7 @@ Sagas)
     (name: "Jora", m: 4, ws: 5, bs: 4, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 85),
     (name: "Bjorn", m: 6, ws: 6, bs: 0, s: 5, t: 5, w: 4, i: 5, a: 4, ld: 8, points: 160),
   ),
-  troop-type: "Infantry (Special Character, Human – Jora), Monstrous Infantry (Special Character, Werecreature –",
-  troop-type-body: [
-Bjorn)
-  ],
+  troop-type: "Infantry (Special Character, Human – Jora), Monstrous Infantry (Special Character, Werecreature – Bjorn)",
   base-size: "20x20 or 25x25 (Jora), 40x40 or 50x50 (Bjorn)",
   equipment: "Light armour",
   magic-items: (

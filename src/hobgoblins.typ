@@ -711,10 +711,8 @@ Magical Ward (5+) special rules.")))
   ),
   troop-type: "Monster (Vermian)",
   base-size: "50x100 or 100x150",
-  special-rules: "Impact Hits (D6), Multiple Wounds (D3), Random Movement (2D6), Stubborn, Natural",
+  special-rules: "Impact Hits (D6), Multiple Wounds (D3), Random Movement (2D6), Stubborn, Natural Armour (4+).",
   special-rules-body: [
-*Armour (4+).*
-
 - *Death From Below:* The Dread Maw has the Ambushers special rule, with the following exception. When it enters the battle in the Remaining Moves sub-phase, it does not move onto the board as reinforcements in the normal way. Instead, when a Dread Maw enters the battle, place a small marker anywhere on the battlefield, but not in impassable terrain or within 1" of a deployed unit.
 
 Roll a scatter dice and an artillery dice. If you roll a Hit on the scatter dice, the marker stays in place. If you roll an arrow, move the marker the number, in inches, indicated by the artillery dice in the direction shown. If the marker is under a friendly unit, impassable terrain or a building, place it 1" away from the closest edge of the unit/terrain.
@@ -849,10 +847,7 @@ then choose another victim. Roll again on this table to see what the Giant does 
 
 #chart((("D6", "Result"), ("1", "Flame Arrows: All shots have the Flaming Attacks special rule."), ("2", "Bodkin Arrows: All shots have the Armour Piercing (1) special rule."), ("3", "Poisoned Arrows: All shots have the Poisoned Attacks special rule."), ("4", "Burst Arrows: All shots have the Multiple Wounds (D3) special rule."), ("5", "Storm Arrows: All shots have the Lightning Attacks special rule."), ("6", "Frost Arrows: All shots have the Ice Attacks special rule.")))
   ],
-  special-rules: "Backstabbers, Cowardly Despoilers, Ded Shooty, Sniper, Hiiyaaarrghh!, Inspiring Presence",
-  special-rules-body: [
-*(6), Quell Treachery*
-  ],
+  special-rules: "Backstabbers, Cowardly Despoilers, Ded Shooty, Sniper, Hiiyaaarrghh!, Inspiring Presence (6), Quell Treachery",
   options: [
 - May take Magic Items up to a total of 50 points
   ],

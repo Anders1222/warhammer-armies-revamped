@@ -346,10 +346,8 @@ this turn.")))
   troop-type: "Infantry (Character, Chaos Dwarf)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "A Sorcerer-Priest is a Level 1 Wizard. A Sorcerer-Prophet is a Level 3 Wizard. They use one of the following",
+  magic: "A Sorcerer-Priest is a Level 1 Wizard. A Sorcerer-Prophet is a Level 3 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
-Lores of Magic:
-
 - Death
 - Fire
 - Hashut
@@ -562,11 +560,11 @@ Lores of Magic:
   crew: "2 Altar Guards (Chaos Dwarf)",
   base-size: "20x20 or 25x25",
   equipment: "Great weapon, heavy armour",
-  special-rules: [
-- *Altar of Hashut*: A Sorcerer-Prophet with an Altar of Hashut gains the Magical Ward (4+) and Unbreakable special rules. In addition, their troop type changes to War Machine and they count as being part of the crew. Randomise any missile hits between the Sorcerer-Prophet and the crew. The Sorcerer-Prophet can never choose to leave the Altar during the game. If the Sorcerer-Prophet is killed, the whole Altar is also removed as a casualty.
-- *Blessing of Hashut:* A Sorcerer-Prophet on an Altar of Hashut add +12" to the range of their spells.
-- *Sacrifices to Hashut:* Once per Magic phase, the Sorcerer-Prophet may sacrifice one of the slaves chained to the Altar to Hashut before they attempt to cast a spell. Roll a D6 and add the result to the casting result of the spell. However, if a 1 is rolled, the Sorcerer-Prophet instead suffers a Wound with no saves of any kind possible.
-  ],
+  special-rules: (
+    rule("Altar of Hashut")[A Sorcerer-Prophet with an Altar of Hashut gains the Magical Ward (4+) and Unbreakable special rules. In addition, their troop type changes to War Machine and they count as being part of the crew. Randomise any missile hits between the Sorcerer-Prophet and the crew. The Sorcerer-Prophet can never choose to leave the Altar during the game. If the Sorcerer-Prophet is killed, the whole Altar is also removed as a casualty.],
+    rule("Blessing of Hashut")[A Sorcerer-Prophet on an Altar of Hashut add +12" to the range of their spells.],
+    rule("Sacrifices to Hashut")[Once per Magic phase, the Sorcerer-Prophet may sacrifice one of the slaves chained to the Altar to Hashut before they attempt to cast a spell. Roll a D6 and add the result to the casting result of the spell. However, if a 1 is rolled, the Sorcerer-Prophet instead suffers a Wound with no saves of any kind possible.],
+  ),
 )
 
 = CORE UNITS
@@ -1324,10 +1322,8 @@ Once on the ground, a Giant may get up in his following Movement phase, but may 
     rule("Hellshard Amulet")[Talisman. This item gives the wearer a Magical Ward (5+). In addition, for every failed Ward save the wielder suffers in close combat, a Strength 2 hit is automatically inflicted on the model that caused the Wound.],
     rule("Daemonspite Crucible")[Arcane Item. Relic. This item gives the bearer a +1 casting bonus. In addition, every time the bearer kills an enemy Wizard in close combat, the bonus increases by +1.],
   ),
-  special-rules: "Blackshard Armour, Blazing Body, Contempt, Flaming Attacks, Flaming Breath (see Bale",
+  special-rules: "Blackshard Armour, Blazing Body, Contempt, Flaming Attacks, Flaming Breath (see Bale Taurus), Fly (8), Fuelled by Fire (see Bale Taurus), Immunity (Flaming Attacks), Relentless, Resolute",
   special-rules-body: [
-Taurus)*, Fly (8), Fuelled by Fire* (see Bale Taurus)*, Immunity (Flaming Attacks), Relentless, Resolute*
-
 - *Dark Renown:* All friendly Chaos Dwarfs within 12" add +1 to their combat resolution result.
 - *The Ironsworn:* If Drazhoath the Ashen is included in your army, you may upgrade one unit of Infernal Guard to the Ironsworn for a cost of +2 points per model. This unit has Weapon Skill 5, as well as the Armour Piercing (1) and Magical Attacks special rules. The unit must be equipped with hand weapons and shields.
 - *Master of the Legion of Azgorh:* If Drazhoath the Ashen is your Army General, units of Infernal Guard (but not Ironsworn) may be taken as Core Units instead of Special Units.

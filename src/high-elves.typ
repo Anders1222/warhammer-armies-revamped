@@ -442,10 +442,7 @@ The bearer gains the Natural Armour (6+) special rule against missile attacks.
   troop-type: "Infantry (Character, High Elf)",
   base-size: "20x20 or 25x25",
   equipment: "Great weapon",
-  magic: "A Loremaster of Hoeth is a Level 3 Wizard. Instead of choosing spells normally, they always know the eight",
-  magic-body: [
-Signature Spells from the Winds of Magic.
-  ],
+  magic: "A Loremaster of Hoeth is a Level 3 Wizard. Instead of choosing spells normally, they always know the eight Signature Spells from the Winds of Magic.",
   special-rules: "Elven Grace, Lileath's Blessing, Martial Prowess, Swordmaster, Valour of Ages",
   options: [
 - May choose one of the following:
@@ -491,10 +488,8 @@ Signature Spells from the Winds of Magic.
   magic-items: (
     rule("Sunstaff")[Arcane Item. Staff. Bound Spell (Level 1, cast on 4+). This item contains an *augment* spell can be cast on the Wizard themselves. Until the start of their next Magic phase, the Wizard gains +1 Attack, +3 Strength, the Flaming Attacks special rule and always Hits on the roll of a 2+ in close combat.],
   ),
-  special-rules: "Elven Grace, Fiery Breath, Fly (7), Lileath's Blessing, Martial Prowess, Natural Armour",
+  special-rules: "Elven Grace, Fiery Breath, Fly (7), Lileath's Blessing, Martial Prowess, Natural Armour (3+), Valour of Ages",
   special-rules-body: [
-*(3+), Valour of Ages*
-
 - *Reckless:* When a Dragon Mage casts a spell, a 'free' Power dice is added to the casting attempt. This extra dice counts towards Ultimate Power and can cause a Miscast as normal, and allows the Dragon Mage to roll more dice than they are normally allowed to.
   ],
   options: [
@@ -985,10 +980,7 @@ Signature Spells from the Winds of Magic.
   mount: "Drake (Draconid)",
   base-size: "50x50, 50x75 or 50x100",
   equipment: "Heavy lance, dragon armour, shield",
-  special-rules: "Devastating Charge, Elven Grace, Fiery Breath, Fly (8), Martial Prowess, Natural Armour",
-  special-rules-body: [
-*(4+), Valour of Ages*
-  ],
+  special-rules: "Devastating Charge, Elven Grace, Fiery Breath, Fly (8), Martial Prowess, Natural Armour (4+), Valour of Ages",
 )
 
 #unit("MERWYRM",
@@ -1088,10 +1080,7 @@ At the end of the game, remove all Phoenix Reborn counters from the board – th
   troop-type: "Infantry (Special Character, High Elf)",
   base-size: "20x20 or 25x25",
   equipment: "Light armour",
-  magic: "Teclis is a Level 4 Wizard. He can either choose all of the spells in the Lore of High Magic, or one spell from",
-  magic-body: [
-each of the eight Winds of Magic.
-  ],
+  magic: "Teclis is a Level 4 Wizard. He can either choose all of the spells in the Lore of High Magic, or one spell from each of the eight Winds of Magic.",
   magic-items: (
     rule("Sword of Teclis")[Magic Weapon. All hits from the Sword of Teclis wound on a 2+, and Wounds caused by it Ignores Armour saves.],
     rule("Potion of Inner Strength")[Enchanted Item. One use only. This item can be used at the start of any turn. When Teclis does so, he will increase his Weapon Skill and Initiative to 6, and Strength, Toughness and Attacks to 3 for the remainder of the turn.],
@@ -1192,10 +1181,8 @@ She can choose all of her spells from the same lore, or from two or more of the 
   magic-items: (
     rule("The White Sword")[Magic Weapon. Great weapon. This weapon gives Eltharion the Killing Blow special rule.],
   ),
-  special-rules: "Bladelord (see Elven Honours), Hatred (Dark Elves, Orcs & Goblins), Immunity",
+  special-rules: "Bladelord (see Elven Honours), Hatred (Dark Elves, Orcs & Goblins), Immunity (Psychology), Martial Prowess, Valour of Ages",
   special-rules-body: [
-*(Psychology), Martial Prowess, Valour of Ages*
-
 - *The Dark Within:* Eltharion and any unit he joins is subject to the Berserk Rage part of the Frenzy special rule.
 - *Great Leap:* At the start of any round of combat, before attacks are allocated or challenges issued, Eltharion may be moved to a different position in any unit he is in. He may not use this to position himself out of combat or if he is already involved in a challenge.
 - *Impenetrable Defence:* Eltharion has the Dodge (5+) and Immunity (Killing Blow) special rules.
@@ -1248,10 +1235,8 @@ Any unit of Dark Elves that suffers one or more casualties from the Moonbow must
     rule("Armour of Caledor")[Magic Armour. Heavy armour. The Armour of Caledor grants the Immunity (Flaming Attacks) and Magical Ward (5+) special rules.],
     rule("Dragonhorn")[Enchanted Item. One use only. At the start of any of his own turns, Imrik may sound the Dragonhorn. This fills his army with pride, and all friendly High Elf units may re-roll any failed Rally and Psychology tests until the start of their next turn.],
   ),
-  special-rules: "Blood of Caledor (see Elven Honours), Fiery Breath, Fly (7), Martial Prowess, Natural",
+  special-rules: "Blood of Caledor (see Elven Honours), Fiery Breath, Fly (7), Martial Prowess, Natural Armour (2+), Valour of Ages",
   special-rules-body: [
-*Armour (2+), Valour of Ages*
-
 - *Dragon Kin:* No Draconids will fight Imrik. If they are in base contact with other models (and not in a challenge) then they fight them instead, otherwise they may do nothing. Their riders (if they have any) still fight as normal.
 - *The Fireborn:* If Imrik is your Army General, you may upgrade one unit of Dragon Princes of Caledor to The Fireborn for a cost of +2 points per model. This unit has the Flaming Attacks and Multiple Wounds (2) special rules.
 - *Loyal Bond:* Whenever Imrik suffers an unsaved Wound, Minaithnir will become subject to Hatred against the model or unit that inflicted the Wound for the remainder of the turn.
@@ -1313,10 +1298,7 @@ Any unit of Dark Elves that suffers one or more casualties from the Moonbow must
   ),
   troop-type: "Infantry (Special Character, High Elf)",
   base-size: "20x20 or 25x25",
-  magic: "Belannaer is a Level 3 Wizard. Instead of choosing spells normally, he always knows the eight Signature",
-  magic-body: [
-Spells from the Winds of Magic.
-  ],
+  magic: "Belannaer is a Level 3 Wizard. Instead of choosing spells normally, he always knows the eight Signature Spells from the Winds of Magic.",
   magic-items: [
 - *Blade of Bel-Korhadris*: Magic Weapon. Non-magical armour saves cannot be taken against Wounds caused by this weapon. In addition, once per battle, at the beginning of any close combat phase, Belannaer can choose to gain +D6 Attacks and the Flaming Attacks special rule that turn.
 - *Cloak of Stars*: Talisman. All shooting and close combat Attacks that strike Belannaer will be resolved at \-1 Strength (with a minimum of 1).
@@ -1376,10 +1358,8 @@ Spells from the Winds of Magic.
   magic-items: (
     rule("The Phoenix Blade")[Magic Weapon. Polearm. Close combat attacks made with the Phoenix Blade have the Flaming Attacks and Multiple Wounds (D3) special rules.],
   ),
-  special-rules: "Anointed of Asuryan (see Elven Honours), Elven Grace, Immunity (Psychology), Magic",
+  special-rules: "Anointed of Asuryan (see Elven Honours), Elven Grace, Immunity (Psychology), Magic Resistance (1), Martial Prowess, Valour of Ages,",
   special-rules-body: [
-*Resistance (1), Martial Prowess, Valour of Ages,*
-
 - *Mark of Asuryan:* If Caradryan is slain in close combat, the unit that killed him immediately suffers D3 Wounds which Ignores Armour Saves. If Caradryan is killed in a challenge, then only his opponent takes these Wounds – any excess Wounds caused by the Mark of Asuryan count towards overkill.
 - *Keepers of the Flame:* Unless Caradryan is mounted on Ashtari, he must be accompanied by a unit of Phoenix Guard chosen from the army list as normal. This unit has the Magical Attacks special rule. Caradryan may never choose to leave this unit.
   ],
@@ -1400,10 +1380,8 @@ Spells from the Winds of Magic.
   magic-items: (
     rule("Mathlann's Ire")[Magic Weapon. Spear. This weapon gives Ishaya Vess +1 Strength and the Armour Piercing (1) special rule. In addition, enemies must re-roll successful To Hit rolls against her in close combat.],
   ),
-  special-rules: "Elven Grace, Inspiring Presence (6), Lothern Sea Helm (see Elven Honours), Martial",
+  special-rules: "Elven Grace, Inspiring Presence (6), Lothern Sea Helm (see Elven Honours), Martial Prowess, Valour of Ages",
   special-rules-body: [
-*Prowess, Valour of Ages*
-
 - *Precision Strikes:* Any Lothern Sea Guard unit joined by Ishaya Vess gains the Armour Piercing (1) special rule.
   ],
 )

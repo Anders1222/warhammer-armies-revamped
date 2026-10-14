@@ -804,10 +804,8 @@ When fired upon an enemy unit, the shot strikes the models in D3 files rather th
   base-size: "50x100, 60x100 or 100x150",
   crew: "3 Crew (Human)",
   equipment: "Hand weapon, cannon",
-  special-rules: "Aquatic, Armour Piercing (1) (Turtigon only), Killing Blow (Turtigon only), Natural Armour",
+  special-rules: "Aquatic, Armour Piercing (1) (Turtigon only), Killing Blow (Turtigon only), Natural Armour (2+), Stubborn",
   special-rules-body: [
-*(2+), Stubborn*
-
 - *Cannon Misfire:* In case the cannon rolls a Misfire, the Turtigon suffer D3 Wounds which Ignores Armour Saves.
 - *Fiery Breath:* The Turtigon have a Strength 4 Breath Weapon with the Flaming Attacks special rule.
 - *Loss of Heads:* Once the Turtigon is reduced to 3 Wounds, its number of attacks drops to 2. In addition, the strength of the Turtigon's Breath Weapon is reduced to Strength 2.

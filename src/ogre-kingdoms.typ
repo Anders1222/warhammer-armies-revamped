@@ -399,10 +399,8 @@ One use only. A Butcher with a Scalp-Gnoblar may re- roll a single dice when att
   troop-type: "Monstrous Infantry (Character, Ogre)",
   base-size: "40x40",
   equipment: "Hand weapon",
-  magic: "A Butcher is a Level 1 Wizard. A Slaughtermaster is a Level 3 Wizard. They use one of the following Lores",
+  magic: "A Butcher is a Level 1 Wizard. A Slaughtermaster is a Level 3 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
-of Magic:
-
 - Beasts
 - Death
 - Great Maw
@@ -1233,10 +1231,8 @@ next turn."), ("5+", "Skrag gains +1 Attack.", "All Gorgers gain +1 Attack."), (
   base-size: "40x40",
   equipment: "Hand weapon",
   magic: "Groth Onefinger is a Level 4 Wizard who uses the Lore of the Great Maw.",
-  special-rules: "Immunity (Poisoned Attacks), Loremaster (Lore of the Great Maw), Mawseeker (see Big",
+  special-rules: "Immunity (Poisoned Attacks), Loremaster (Lore of the Great Maw), Mawseeker (see Big Names), Natural Armour (6+), Ogre Charge, Terror",
   special-rules-body: [
-Names)*, Natural Armour (6+), Ogre Charge, Terror*
-
 - *The First Butcher:* Once per turn, Groth may re-roll a dice when casting a spell or when trying to dispel an enemy spell.
 - *The Lazarghs:* Choose one unit of Ogre Bulls or Ironguts in an army including Groth. This unit causes Terror instead of Fear.
   ],
@@ -1261,10 +1257,8 @@ Names)*, Natural Armour (6+), Ogre Charge, Terror*
   magic-items: (
     rule("The Basalt Staff")[Magic Weapon. Morg’s close combat attacks have the Armour Piercing (1) special rule. In addition, the Staff contains the _Fireball_ spell from the Lore of Fire as a Bound Spell.],
   ),
-  special-rules: "Fire Breath (see Firebellies), Flaming Attacks, Immunity (Flaming Attacks), Natural",
+  special-rules: "Fire Breath (see Firebellies), Flaming Attacks, Immunity (Flaming Attacks), Natural Armour (6+), Ogre Charge",
   special-rules-body: [
-*Armour (6+), Ogre Charge*
-
 - *Avatar of the Fire Mouth:* When Morg suffers an unsaved wound in close combat, enemy models in base contact suffer a Strength 4 Hit with the Flaming Attacks special rule. When Morg is slain, center the small template above him. All models underneath the template suffer a Strength 4 hit with the Flaming Attacks special rule.
   ],
 )
@@ -1315,10 +1309,8 @@ Names)*, Natural Armour (6+), Ogre Charge, Terror*
   troop-type: "Monstrous Infantry (Special Character, Ogre)",
   base-size: "40x40",
   equipment: "Hand weapon, javelins, gut-plate",
-  special-rules: "Independent, Ogre Charge, Natural Armour (6+), Scouts, Their Master's Voice (see",
+  special-rules: "Independent, Ogre Charge, Natural Armour (6+), Scouts, Their Master's Voice (see Huntmaster)",
   special-rules-body: [
-Huntmaster)
-
 - *Hunt-father:* Jhared may re-roll To Hit and to Wound rolls of 1 against War Beasts, Monstrous Beasts, Monstrous Cavalry, Monstrous Creatures and Monsters with both missile attacks and in close combat. In addition, he ignores Terror caused by Monstrous Creatures and Monsters.
 - *Running with the Pack:* If Jhared deploys as part of a Sabretusk pack, then both he and the pack have the Vanguard special rule. In addition, the entire unit may re-roll failed charge distances.
   ],

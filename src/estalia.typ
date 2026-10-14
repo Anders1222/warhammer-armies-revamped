@@ -929,10 +929,8 @@ If the Picador(s) are killed before they have lit the bulls, the bulls simply wa
     rule("Blessed Cuirass")[Magic Armour. Heavy armour. The wearer gains the Fly (10) special rule and a Magical Ward (4+), which may be re-rolled.],
     rule("Light of Myrmidia")[Talisman. Enemies must re-roll successful To Hit rolls with missile weapons against Isabella.],
   ),
-  special-rules: "Battle Prayers of Myrmidia (see High Priest of Myrmidia), Blessing of Myrmidia (see High",
+  special-rules: "Battle Prayers of Myrmidia (see High Priest of Myrmidia), Blessing of Myrmidia (see High Priest of Myrmidia), Magical Attacks, Magic Resistance (1), Tactical Supremacy",
   special-rules-body: [
-Priest of Myrmidia)*, Magical Attacks, Magic Resistance (1), Tactical Supremacy*
-
 - *Living Saint:* Isabella and all friendly units within 12" may re-roll failed Psychology tests. In addition, Isabella may re-roll failed Leadership tests when using her Battle Prayers. Any Battle Prayers can target any friendly unit within 12" rather than just the unit she is with.
   ],
 )
@@ -1015,10 +1013,8 @@ Priest of Myrmidia)*, Magical Attacks, Magic Resistance (1), Tactical Supremacy*
   magic-items: (
     rule("Blades of the Duellist")[Magic Weapon. Two hand weapons. For every attack that misses Diego in close combat, he may immediately make an attack back at that model.],
   ),
-  special-rules: "Duelling Techniques (see Maestro), Face Me, You Coward! (see Maestro), Tactical",
+  special-rules: "Duelling Techniques (see Maestro), Face Me, You Coward! (see Maestro), Tactical Supremacy",
   special-rules-body: [
-*Supremacy*
-
 - *Avenger:* At the start of the game, choose one enemy character. Against this model, Diego Montoya has the Hatred special rule. In addition, the target must re-roll all successful To Wound rolls against him.
   ],
 )

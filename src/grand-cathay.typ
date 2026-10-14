@@ -341,10 +341,8 @@ A unit with this special rule may re-roll failed Panic tests caused by friendly 
   troop-type: "Infantry (Character, Human)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "A Dragon-Blooded Shugengan is a Level 3 Wizard. They must be chosen to be aligned with either Yin or Yang.",
+  magic: "A Dragon-Blooded Shugengan is a Level 3 Wizard. They must be chosen to be aligned with either Yin or Yang. A Yin Wizard uses one of the following Lores of Magic:",
   magic-body: [
-A Yin Wizard uses one of the following Lores of Magic:
-
 - Beasts
 - Death
 - Metal
@@ -391,10 +389,8 @@ In addition to their chosen lore, a Dragon-Blooded Shugengan may also replace an
   troop-type: "Infantry (Character, Human/Dragon)",
   base-size: "20x20 or 25x25 (Dragon Descendant), 50x100, 60x100 or 100x150 (Dragon Form)",
   equipment: "Hand weapon, light armour",
-  magic: "A Dragon Descendant is a Level 3 Wizard. They must be chosen to be aligned with either Yin or Yang.",
+  magic: "A Dragon Descendant is a Level 3 Wizard. They must be chosen to be aligned with either Yin or Yang. A Yin Wizard uses one of the following Lores of Magic:",
   magic-body: [
-A Yin Wizard uses one of the following Lores of Magic:
-
 - Beasts
 - Death
 - Metal
@@ -1316,10 +1312,8 @@ damage as normal."), ("4-6", "Dud. Only the model under the template's central h
   troop-type: "Infantry (Special Character, Human)",
   base-size: "40x40 or 50x50 (Miao Ying), 50x100, 60x100 or 100x150 (Dragon Form)",
   equipment: "Hand weapon, light armour",
-  magic: "Miao Ying is a Level 4 Wizard who uses spells from the Lore of Life. In addition, she may also replace any",
+  magic: "Miao Ying is a Level 4 Wizard who uses spells from the Lore of Life. In addition, she may also replace any number of spells from those lores with spells from the Lore of Yin. In addition, she knows the following spells:",
   magic-body: [
-number of spells from those lores with spells from the Lore of Yin. In addition, she knows the following spells:
-
 - *Wrath of the Storm:* Level 2, cast on 7+. _Wrath of the Storm_ is an *augment* spell with a range of 24". The target unit gains the Immunity (Psychology) and Magical Attacks special rules until the start of your next Magic phase.
 - *The Storm Dragon's Fury:* Level 3, cast on 10+. _The Storm Dragon's Fury_ is a *magic missile* with a range of 24" that causes 2D3 Strength 5 Hits with the Lightning Attacks special rule.
   ],
@@ -1345,20 +1339,16 @@ number of spells from those lores with spells from the Lore of Yin. In addition,
   troop-type: "Infantry (Special Character, Human)",
   base-size: "20x20 or 25x25 (Zhao Ming), 50x100, 60x100 or 100x150 (Dragon Form)",
   equipment: "Hand weapon, light armour",
-  magic: "Zhao Ming is a Level 4 Wizard who uses spells from Lore of Metal. In addition, he may also replace any",
+  magic: "Zhao Ming is a Level 4 Wizard who uses spells from Lore of Metal. In addition, he may also replace any number of spells from those lores with spells from the Lore of Yang. In addition, he knows the following spell:",
   magic-body: [
-number of spells from those lores with spells from the Lore of Yang. In addition, he knows the following spell:
-
 - *Master of Alchemy:* Level 1, cast on 6+. _Master of Alchemy_ is an *augment* spell with a range of 24". The target unit gains the Armour Piercing (1) and Magical Attacks special rules until the start of your next Magic phase.
   ],
   magic-items: (
     rule("Horns of Shang-Yang")[Magic Armour. The Horns of Shang-Yang gives the wearer a 6+ armour save and the Magic Resistance (2) special rule.],
     rule("The Burning Vambraces")[Talisman. The Burning Vambraces gives the wearer +1 Toughness.],
   ),
-  special-rules: "Celestial Forged Armour, Mastery of the Elemental Winds, Transformation of the Dragon",
+  special-rules: "Celestial Forged Armour, Mastery of the Elemental Winds, Transformation of the Dragon (see Dragon Descendant), Will of the Dragons, Yang",
   special-rules-body: [
-(see Dragon Descendant)*, Will of the Dragons, Yang*
-
 - *Hardened Scale:* While in Dragon Form, Zhao Ming may re-roll failed armour saves.
 - *Lord of Shang-Yang:* Zhao Ming must always be the Army General.
 - *Warding Iron:* Zhao Ming and any unit joined by him gains a Magical Ward (6+).
@@ -1374,18 +1364,13 @@ number of spells from those lores with spells from the Lore of Yang. In addition
   ),
   troop-type: "Infantry (Special Character, Human)",
   base-size: "20x20 or 25x25 (Yuan Bo), 50x100, 60x100 or 100x150 (Dragon Form)",
-  magic: "Yuan Bo is a Level 4 Wizard who uses spells from the Lore of Heavens and the Lore of Light. In addition, he",
-  magic-body: [
-may also replace any number of spells from those lores with spells from the Lore of Yin and/or Yang.
-  ],
+  magic: "Yuan Bo is a Level 4 Wizard who uses spells from the Lore of Heavens and the Lore of Light. In addition, he may also replace any number of spells from those lores with spells from the Lore of Yin and/or Yang.",
   magic-items: (
     rule("The Dragon's Fang")[Magic Weapon. The Dragon's Fang gives the wielder +1 Strength and the Armour Piercing (2) special rule.],
     rule("Armour of the Dragon's Gaze")[Magic Armour. Light armour. The Armour of the Dragon's Gaze gives the wearer a Magical Ward (6+). In addition, all friendly units within 6" gain the Immunity (Psychology) special rule.],
   ),
-  special-rules: "Celestial Forged Armour, Mastery of the Elemental Winds, Transformation of the Dragon",
+  special-rules: "Celestial Forged Armour, Mastery of the Elemental Winds, Transformation of the Dragon (see Dragon Descendant), Will of the Dragons, Yin & Yang",
   special-rules-body: [
-(see Dragon Descendant)*, Will of the Dragons, Yin & Yang*
-
 - *The Emperor's Executioner:* While fighting in a challenge, Yuan Bo gains the Heroic Killing Blow special rule.
 - *Lord of the Jade Court:* Yuan Bo must always be the Army General.
   ],
