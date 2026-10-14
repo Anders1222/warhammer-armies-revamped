@@ -1441,7 +1441,7 @@ The player whose turn it is nominates a close combat involving one or more of th
 
 == 1. FIGHT A ROUND OF CLOSE COMBAT
 
-Just as all eligible units (i.e. those in base contact with the enemy) must fight in close combat, similarly all models in base contact with an enemy must fight. Models cannot elect not to strike, nor can they normally be prevented from doing so.
+Just as all eligible units (i.e. those in base contact with the enemy) must fight in close combat, similarly all models that are able to must fight. Models cannot elect not to strike, nor can they normally be prevented from doing so.
 
 #namecost("FIRST ROUND OF CLOSE COMBAT", "")
 
@@ -1451,9 +1451,7 @@ There are multiple rules in the game that refer to something having an effect "i
 
 *Models can fight if they are in base contact with an enemy model when it is their chance to attack, even if the models' bases only touch at the corner.*
 
-Normally, a warrior can only strike blows against an enemy model in base contact. The most common exception is if they are making a supporting attack.
-
-However, you may always direct attacks against normal rank and file models, as long as the model is in base contact with any model of the enemy unit (including characters and command group models).
+Normally, each model can only attack enemy models in base contact. However, you may always direct attacks against normal rank and file models, as long as the model is in base contact with any model of the enemy unit (including characters and command group models).
 
 If a model has more than one Attack and finds itself in base contact with two or more enemies with different characteristic profiles, it must choose which one to attack when its turn to strike comes (before any dice are rolled).
 
@@ -1631,7 +1629,7 @@ If one or more of your units are fighting the enemy in the rear, you receive +2 
 
 If you are charging or fighting from a higher position than your enemy, for example, your troops are occupying the crest of a hill or charged down from it the same turn, you receive +1 combat result. In the case of a fight involving multiple units, the side that has the fighting rank in the highest position gets the bonus.
 
-#namecost("OVERKILL", "")
+#namecost("CHALLENGE", "")
 
 *\+1 combat result per excess wound caused in a challenge, to a maximum of +3.*
 
