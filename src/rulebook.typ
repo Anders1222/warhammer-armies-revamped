@@ -414,8 +414,6 @@ In Warhammer, a normal move for any model, and therefore any unit of models, is 
 
 Individual models are not permitted to leave their units and so a unit effectively moves as a single entity. If, for whatever reason, there is more than one Move characteristic in the unit, then the entire unit is treated as having the same Move value as the slowest model.
 
-Models (and units) must move forward in a straight line, unless performing a manoeuvre, which we'll discuss in a moment.
-
 #diagram("/assets/figures/rulebook/img-0454.jpg", 0.463)
 
 #note[_When moving models, it is a common mistake to measure the distance from the front of the base and then place the model so the back of its base is on the far side of the tape measure. This is incorrect, as it adds the entire length of the model's base (or the unit's bases) to the distance moved. Always use a common measuring point – in this example, the front of the first rank._]
@@ -427,6 +425,8 @@ A unit is not allowed to end their move closer than 1" to another unit, friend o
 This rule does not apply to charge moves, as the whole point of charging is to get a unit into base contact with an enemy. Occasionally, a unit will have approached to within 1" of a unit it did not charge as the result of moving into contact with a unit it did charge. This is perfectly acceptable, although players may wish to nudge the units further apart to maintain a suitable degree of clarity.
 
 #namecost("WHEEL", "")
+
+A model may always wheel as part of a normal move.
 
 When performing a wheel, the leading edge of the formation moves forward, pivoting round one of the front corners. The unit swings round like the spoke of a turning wheel and completes the move facing a different direction. During the Remaining Moves sub- phase, wheels are measured as follows:
 
@@ -446,7 +446,7 @@ In addition, none of the models in the unit may move more than twice their Movem
 
 #namecost("REFORM", "")
 
-Keeping the centre point of the unit the same, arrange the unit into a new formation of as many ranks as you please, facing whichever direction you wish. Remember that none of the models in the unit can move more than twice their Movement rate.
+Keeping the centre point of the unit the same, arrange the unit into a new formation of as many ranks as you please, facing whichever direction you wish.
 
 A reform prevents the unit from moving any further that turn, and also stops it from firing missile weapons in the Shooting phase.
 
@@ -488,7 +488,7 @@ Once the charge reaction has been resolved, you can nominate another of your uni
 
 Charging is the only way for a unit to engage the enemy in close combat. It is up to the player if they wish to declare a charge or not, unless specified.
 
-To declare a charge you must indicate which of your units is charging, and which enemy unit it is going to charge. You're always allowed to measure the distance between the charger and the potential target before declaring the charge, as this might well affect your decision whether or not to declare a charge.
+To declare a charge you must indicate which of your units is charging, and which enemy unit it is going to charge. You must always measure the distance between the charger and the potential target before declaring the charge to determine if the unit is in range or not.
 
 When you declare a charge, one or more of the models in your unit must be able to trace a line of sight to the enemy unit, and the target must lie at least partially within the charging unit's front arc.
 
@@ -523,8 +523,6 @@ A Stand & Shoot reaction can only be declared if the range to the enemy is great
 If a Stand & Shoot charge reaction is declared, the unit makes a normal, although out of sequence, shooting attack against the charging unit (see the Shooting chapter for more details on shooting attacks).
 
 Once the shooting attack, and any Panic test caused by it (detailed in the Panic chapter), have been resolved, the unit is treated as having declared a Hold reaction. A Stand & Shoot reaction can even be declared against an enemy unit that starts its charge outside the firing unit's maximum range – the shooting is resolved normally before the charging unit moves. It is always assumed the enemy is just within maximum range of the shooting unit's shortest-ranged weapon, even if the charge fails for whatever reason.
-
-In most cases, there is no downside to a Stand & Shoot over simply holding.
 
 #namecost("FLEE", "")
 
@@ -646,7 +644,7 @@ Sometimes a charging unit can move into contact with its target, but cannot clos
 
 #namecost("CHARGING A FLEEING ENEMY", "")
 
-If, for whatever reason, one or more units complete a charge against a fleeing enemy, move the charging unit(s) into contact with the fleeing enemy as described earlier. The fleeing unit then suffers two Wounds with no saves of any kind allowed for each point of Unit Strength the charging unit(s) has. For example, a unit with Unit Strength 10 will inflict 20 Wounds on the enemy unit. If any models survive, the charging unit then stops 1" behind the remains of the unit.
+If, for whatever reason, one or more units complete a charge against a fleeing enemy, move the charging unit(s) into contact with the fleeing enemy as described earlier. The fleeing unit then suffers two Wounds with no saves of any kind allowed for each point of Unit Strength the charging unit(s) has. If any models survive, the charging unit then stops 1" behind the remains of the unit.
 
 A charging unit that completely destroys a unit of fleeing troops in this way are allowed to attempt a reform by passing a Leadership test. If the test is failed, they do not have the chance to reform. If the test is passed, the unit immediately makes a reform manoeuvre. In either case, the unit cannot move further during this Movement phase.
 
@@ -730,9 +728,9 @@ Units may not mix forward, backward and/or sideways movement as part of the same
 
 *Troops can move at double speed. If they start their move within 8" of an enemy, they must pass a Leadership test to do so.*
 
-Marching troops move at twice their normal Movement rate. A unit on the march is not permitted to reform, as this would disrupt its movement, nor is it allowed to move backwards or to the side. It can wheel as normal, as you might imagine a column of troops would in order to follow a road, for example.
+Marching troops move at twice their normal Movement rate. A unit on the march is not permitted to reform, as this would disrupt its movement, nor is it allowed to move backwards or to the side.
 
-It is also worth noting that a unit that has marched in the Movement phase cannot shoot missile weapons during the Shooting phase.
+It is also worth noting that a unit that has marched in the Movement phase cannot shoot missile weapons during the Shooting phase unless specified.
 
 #namecost("NEARBY ENEMIES", "")
 
