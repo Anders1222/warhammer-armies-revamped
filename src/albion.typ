@@ -655,10 +655,7 @@ Rather than rolling to Hit using Ballistic Skill, the target must pass a Weapon 
   crew: "3 Crew (Human)",
   base-size: "50x100 or 100x150",
   equipment: "Light lance, javelins (Crew only)",
-  special-rules: "Immunity (Psychology), Impact Hits (D6+1), Natural Armour (4+), Stubborn, War Fury",
-  special-rules-body: [
-(Crew only)
-  ],
+  special-rules: "Immunity (Psychology), Impact Hits (D6+1), Natural Armour (4+), Stubborn, War Fury (Crew only)",
 )
 
 #unit("FENHULK",

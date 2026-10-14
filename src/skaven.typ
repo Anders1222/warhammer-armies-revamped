@@ -1546,10 +1546,7 @@ He may use a combination of spells from both Lores. In addition, he can choose t
     (name: "Boneripper", m: 6, ws: 3, bs: 1, s: 5, t: 5, w: 4, i: 1, a: 4, ld: 10, points: 160),
     (name: "Boneripper Mk II", m: 6, ws: 3, bs: 1, s: 6, t: 5, w: 5, i: 1, a: 5, ld: 10, points: 320),
   ),
-  troop-type: "Boneripper is Monstrous Infantry (Special Character, Skaven), Boneripper Mk II is a Monster",
-  troop-type-body: [
-(Special Character, Skaven).
-  ],
+  troop-type: "Boneripper is Monstrous Infantry (Special Character, Skaven), Boneripper Mk II is a Monster (Special Character, Skaven).",
   base-size: "40x40 or 50x50 (Boneripper), 100x50 or 100x60 (Boneripper Mk II)",
   equipment: "Warpfire Thrower",
   equipment-body: [
@@ -1771,10 +1768,8 @@ He may use a combination of spells from both Lores. In addition, he knows the _C
     rule("Creature-killer")[Magic Weapon. Things-catcher. The Creature-killer gives Throt the Heroic Killing Blow special rule.],
     rule("Whip of Domination")[Magic Weapon. Whip. This whip gives Throt +1 Attack. Any enemy unit that takes an unsaved wound from the Whip of Domination suffers a \-2 penalty to its Leadership for the remainder of the player turn.],
   ),
-  special-rules: "Fear, Leader of the Pack (see Master Mutators), Regeneration (4+), Scurry Away, Strength in",
+  special-rules: "Fear, Leader of the Pack (see Master Mutators), Regeneration (4+), Scurry Away, Strength in Numbers",
   special-rules-body: [
-*Numbers*
-
 - *Extra Arm:* Throt may use both his Magic Weapons in each round of Close Combat.
 - *Master Controller:* Throt has the Inspiring Presence (6) special rule for all Clan Moulder units.
 - *Ravening Hunger:* At the start of each of his turns, Throt must pass a Toughness test or start to eat one friendly model in base contact of your choosing. This model suffers 1 Wound with no saves allowed. If this is not possible, Throt will suffer 1 Wound with no saves allowed.
@@ -1810,10 +1805,8 @@ He may use a combination of spells from both Lores. In addition, he knows the _C
   ),
   troop-type: "Monstrous Infantry (Special Character, Skaven, Clan Moulder)",
   base-size: "40x40 or 50x50",
-  special-rules: "Armour Piercing (3), Leader of the Pack (see Master Mutators), Scurry Away, Strength in",
+  special-rules: "Armour Piercing (3), Leader of the Pack (see Master Mutators), Scurry Away, Strength in Numbers",
   special-rules-body: [
-*Numbers*
-
 - *Brain Transplant:* Ghoritch has the Frenzy special rule. If he ever loses his Frenzy, he will become subject to Stupidity for the rest of the game.
   ],
 )
@@ -1830,18 +1823,13 @@ He may use a combination of spells from both Lores. In addition, he knows the _C
   mount: "Pox (Rodent)",
   base-size: "40x40 or 50x50",
   equipment: "Plague Censer (Bilios only)",
-  magic: "Nurglitch is a Level 3 Wizard uses the Lore of Plague. In addition, he always knows the Plague spell from",
-  magic-body: [
-that lore.
-  ],
+  magic: "Nurglitch is a Level 3 Wizard uses the Lore of Plague. In addition, he always knows the Plague spell from that lore.",
   magic-items: (
     rule("Blade of Nurglitch")[Magic Weapon. Enemy models lose 1 point of Toughness from their profile for each Wound they suffer from this blade.],
     rule("Bubonic Sceptre")[Arcane Item. Staff. Bound Spell (Level 2, cast on 8+). The Bubonic Sceptre contains a *direct damage* spell with a range of 18". Roll a D6 for every model in the unit. For every roll of a 6, that unit suffers a wound with the Ignores Armour Saves special rule.],
   ),
-  special-rules: "Bringer of the Word (see Plaguelords), Frenzy, Hatred, Scurry Away, Skittering (see Great",
+  special-rules: "Bringer of the Word (see Plaguelords), Frenzy, Hatred, Scurry Away, Skittering (see Great Pox Rat), Strength in Numbers, Terror,",
   special-rules-body: [
-Pox Rat), *Strength in Numbers, Terror,*
-
 - *The Passion of the Putrid:* No friendly Clan Pestilens units will lose their Frenzy whilst Nurglitch is still alive.
 - *Scion of Corruption:* Nurglitch has a Magical Ward (5+). Neither Nurglitch nor any unit he joins will ever suffer wounds from spells cast from the Lore of Plague or Lore of Nurgle. Furthermore, they automatically pass the test for the effects of Plague Censers.
 - *The Grim Ague:* Any non-Clan Pestilens unit within 6" of Nurglitch suffer \-1 to their Weapon Skill. Furthermore, any such model in base contact with Nurglitch at the end of any round of close combat he is involved in automatically takes a Strength 4 hit with the Ignores Armour Saves special rule.
@@ -1897,10 +1885,7 @@ rule.")))
   troop-type: "Infantry (Special Character, Skaven, Clan Skryre)",
   base-size: "20x20 or 25x25",
   magic: "Ikit Claw is a Level 4 Wizard who uses the Lore of Ruin.",
-  equipment: "Warp-Blades, Supercharged Warp-Power Accumulator, Upgraded Warp-Energy Condenser (see",
-  equipment-body: [
-Warlock Engineers)
-  ],
+  equipment: "Warp-Blades, Supercharged Warp-Power Accumulator, Upgraded Warp-Energy Condenser (see Warlock Engineers)",
   magic-items: [
 - *Storm Daemon:* Magic Weapon. Polearm. Attacks with this weapon have the Lightning Attacks special rule. In addition, the Storm Daemon contains a Bound Spell (Level 4, cast on 12+). This is a *magic missile* with a range of 24" that causes an artillery dice worth of Strength 5 hits with the Lightning Attacks special rule. In the case of a misfire, no shots are fired, but instead, roll a D6 and consult the Storm Daemon Misfire Chart.
 

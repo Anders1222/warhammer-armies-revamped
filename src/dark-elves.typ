@@ -371,10 +371,8 @@ Lifetaker ignores all To Hit modifiers.
   troop-type: "Infantry (Character, Dark Elf)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "A Sorceress is a Level 1 Wizard. A Supreme Sorceress is a Level 3 Wizard. They use one of the following",
+  magic: "A Sorceress is a Level 1 Wizard. A Supreme Sorceress is a Level 3 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
-Lores of Magic:
-
 - Beasts
 - Dark
 - Death
@@ -502,10 +500,7 @@ Lores of Magic:
   troop-type: "Infantry (Character, Dark Elf)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  special-rules: "Dodge (5+), Hatred (High Elves), Hidden, Immunity (Psychology), Khainite, Murderous",
-  special-rules-body: [
-*Prowess, Poisoned Attacks, Scouts*
-  ],
+  special-rules: "Dodge (5+), Hatred (High Elves), Hidden, Immunity (Psychology), Khainite, Murderous Prowess, Poisoned Attacks, Scouts",
   options: [
 - May take an additional hand weapon +5 points
 - May choose one of the following:
@@ -978,10 +973,8 @@ If a Monstrous Creature or Monster is Hit by this weapon but survives, it must i
   troop-type: "Monstrous Beast (Dark Elf)",
   base-size: "40x40",
   equipment: "Polearm",
-  special-rules: "Elven Grace, Frenzy, Hatred (High Elves), Independent, Murderous Prowess, Natural",
+  special-rules: "Elven Grace, Frenzy, Hatred (High Elves), Independent, Murderous Prowess, Natural Armour (6+)",
   special-rules-body: [
-*Armour (6+)*
-
 - *Avert Your Gaze:* At the start of each Close Combat phase, before challenges are issued, enemy models in base contact with this model suffer a Strength 4 hit with the Ignores Armour Saves, Magical Attacks and Killing Blow special rules. When rolling To Wound, substitute the target's Toughness with its Initiative value.
 - *Bloodwrack Stare:* Bloodwrack Stare has the following profile:
 
@@ -1067,10 +1060,8 @@ When rolling To Wound, substitute the target's Toughness with its Initiative val
   crew: "1 Keeper of the Cauldron and 2 Guardians (Dark Elf)",
   base-size: "60x100",
   equipment: "Two hand weapons",
-  special-rules: "Elven Grace, Hatred (High Elves), Frenzy, Impact Hits (D3), Khainite, Murderous",
+  special-rules: "Elven Grace, Hatred (High Elves), Frenzy, Impact Hits (D3), Khainite, Murderous Prowess, Poisoned Attacks, Terror",
   special-rules-body: [
-*Prowess, Poisoned Attacks, Terror*
-
 - *Altar of Khaine:* The Cauldron of Blood has the Magical Ward (6+) special rule. In addition, any unit joined by it gains the Stubborn special rule.
 - *Blessings of Khaine:* At the start of each of your turns, choose one of the Blessings below. The effect applies to all friendly Dark Elves within 6" and lasts until the start of your next turn. A unit can only be affected by one Blessing at a time.
   - *Bloodshield of Khaine:* All affected units gain the Magical Ward (6+) special rule.
@@ -1092,10 +1083,8 @@ When rolling To Wound, substitute the target's Toughness with its Initiative val
   crew: "1 Bloodwrack Medusa and 2 Shrinekeepers (Dark Elf)",
   base-size: "60x100",
   equipment: "Polearm",
-  special-rules: "Elven Grace, Hatred (High Elves), Impact Hits (D3), Murderous Prowess, Natural Armour",
+  special-rules: "Elven Grace, Hatred (High Elves), Impact Hits (D3), Murderous Prowess, Natural Armour (6+), Terror",
   special-rules-body: [
-*(6+), Terror*
-
 - *Aura of Agony:* Enemy units within 6" suffer a \-1 penalty to their Weapon Skill, Initiative and Leadership (to a minimum of 1).
 - *Avert Your Gaze:* At the start of each Close Combat phase, before challenges are issued, enemy models in base contact with this model suffer a Strength 4 hit with the Ignores Armour Saves, Magical Attacks and Killing Blow special rules. When rolling To Wound, substitute the target's Toughness with its Initiative value.
 - *Bloodwrack Stare:* Bloodwrack Stare has the following profile:
@@ -1118,10 +1107,8 @@ When rolling To Wound, substitute the target's Toughness with its Initiative val
   handlers: "2 Beastmaster Apprentices (Dark Elf)",
   base-size: "50x100",
   equipment: "Two hand weapons (Beastmaster Apprentices only)",
-  special-rules: "Elven Grace (Beastmaster Apprentice only), Hatred (High Elves) (Beastmaster Apprentice",
+  special-rules: "Elven Grace (Beastmaster Apprentice only), Hatred (High Elves) (Beastmaster Apprentice only), Mixed Unit, Murderous Prowess (Beastmaster Apprentice only), Natural Armour (4+), Regeneration (4+)",
   special-rules-body: [
-only)*, Mixed Unit, Murderous Prowess* (Beastmaster Apprentice only)*, Natural Armour (4+), Regeneration (4+)*
-
 - *Loss of Heads:* For each unsaved Wound the War Hydra has lost during the battle, it loses one Attack.
   ],
   upgrades: [
@@ -1161,10 +1148,8 @@ only)*, Mixed Unit, Murderous Prowess* (Beastmaster Apprentice only)*, Natural A
   handlers: "2 Beastmaster Apprentices (Dark Elf)",
   base-size: "50x100",
   equipment: "Two hand weapons (Beastmaster Apprentices only)",
-  special-rules: "Aquatic, Elven Grace (Beastmaster Apprentice only), Hatred (High Elves) (Beastmaster",
+  special-rules: "Aquatic, Elven Grace (Beastmaster Apprentice only), Hatred (High Elves) (Beastmaster Apprentice only), Mixed Unit, Murderous Prowess (Beastmaster Apprentice only), Multiple Wounds (D3), Natural Armour (4+), Poisoned Attacks",
   special-rules-body: [
-Apprentice only)*, Mixed Unit, Murderous Prowess* (Beastmaster Apprentice only)*, Multiple Wounds (D3), Natural Armour (4+), Poisoned Attacks*
-
 - *Abyssal Howl:* Enemy units that are in base contact with a Kharibdyss must re-roll successful Leadership tests. This has no effect on models that have Immunity (Fear/Terror/Psychology).
 - *Feast of Bones:* Roll a D6 for each unsaved Wound caused by this model with its normal Attacks. On the roll of a 6+, the Kharibdyss immediately regains 1 Wound lost previously during the game.
   ],
@@ -1204,10 +1189,8 @@ Apprentice only)*, Mixed Unit, Murderous Prowess* (Beastmaster Apprentice only)*
     rule("Supreme Spellshield")[Magic Armour. Shield. This item grants Malekith the Magic Resistance (2) special rule. If Malekith is ever the target of an enemy spell that he successfully dispels, the caster's unit immediately suffers D6 magical Strength 6 hits.],
     rule("Circlet of Iron")[Arcane Item. Relic. Once per Magic phase, Malekith can use the Circlet of Iron to add a single bonus dice to any of his failed casting or dispel attempts. This bonus dice can contribute to Ultimate Power or Miscast as normal.],
   ),
-  special-rules: "Elven Grace, Fear, Eternal Hatred, Hekarti's Blessing, Immunity (Psychology), Murderous",
+  special-rules: "Elven Grace, Fear, Eternal Hatred, Hekarti's Blessing, Immunity (Psychology), Murderous Prowess",
   special-rules-body: [
-*Prowess*
-
 - *Absolute Power:* If you take Malekith, he must be your Army General. Malekith has the Inspiring Presence (6) special rule.
 - *Black Guard:* If your army includes Malekith, units of Black Guard are taken as Special Units instead of Rare units.
   ],
@@ -1319,10 +1302,8 @@ Apprentice only)*, Mixed Unit, Murderous Prowess* (Beastmaster Apprentice only)*
     rule("Whip of Agony")[Magic Weapon. The Whip of Agony gives Rakarth +1 Strength. In addition, Rakarth may make a special attack with the Always Strikes First rule. If this attack causes an unsaved Wound but does not kill the target, it is overcome with pain and must roll 6's to Hit in that round of close combat.],
     rule("Beast Armour of Clar Karond")[Magic Armour. Heavy armour. This armour allows Rakarth to re-roll failed armour saves.],
   ),
-  special-rules: "Beastslaver (see Beastmaster), Hatred (High Elves), Fly (7), Murderous Prowess, Natural",
+  special-rules: "Beastslaver (see Beastmaster), Hatred (High Elves), Fly (7), Murderous Prowess, Natural Armour (3+), Noxious Breath (see Black Dragon)",
   special-rules-body: [
-*Armour (3+)*, *Noxious Breath* (see Black Dragon)
-
 - *Beastlord:* Any friendly Monster within 12" of Rakarth treat him as having the Hold Your Ground! special rule. In addition, his Beastslaver special rule affects Bracchus.
 - *Ravagers of Rakarth:* If Rakarth is included in your army, you may upgrade any Scourgerunner Chariots to the Ravagers of Rakarth for a cost of +5 points per model. These models gain the Poisoned Attacks special rule.
   ],
@@ -1378,10 +1359,8 @@ Apprentice only)*, Mixed Unit, Murderous Prowess* (Beastmaster Apprentice only)*
   magic-items: (
     rule("The First Draich")[Magic Weapon. Great weapon. Tullaris' Killing Blow special rule takes effect on a 5+, rather than a 6.],
   ),
-  special-rules: "Elven Grace, Hatred (High Elves), Fear, Frenzy, Khainite, Killing Blow, Murderous",
+  special-rules: "Elven Grace, Hatred (High Elves), Fear, Frenzy, Khainite, Killing Blow, Murderous Prowess",
   special-rules-body: [
-*Prowess*
-
 - *Blades of the Blood Queen:* Tullaris must be accompanied by a unit of Har Ganeth Executioners chosen from the army list at a cost of +1 point per model. This unit has the Frenzy special rule. Tullaris may never choose to leave this unit.
 - *Khaine's Sacred Slaughterer:* Each time Tullaris inflicts a successful Killing Blow, he and his unit gain a +1 bonus to their combat resolution score, in addition to any wounds inflicted by him.
   ],
@@ -1400,10 +1379,8 @@ Apprentice only)*, Mixed Unit, Murderous Prowess* (Beastmaster Apprentice only)*
     rule("The Red Blades")[Magic Weapon. Two hand weapons. Any hits made by the Red Blades re-roll any failed To Wound roll.],
     rule("Helm of the Kraken")[Magic Armour. The Helm of the Kraken grants Lokhir Fellheart a 6+ armour save, +1 Toughness, as well as the Regeneration (6+) and Terror special rules.],
   ),
-  special-rules: "Ambushers, At them, you Curs! (see Black Ark Fleetmaster), Elven Grace, Hatred (High",
+  special-rules: "Ambushers, At them, you Curs! (see Black Ark Fleetmaster), Elven Grace, Hatred (High Elves), Murderous Prowess, Show no Weakness (see Black Ark Fleetmaster)",
   special-rules-body: [
-*Elves), Murderous Prowess, Show no Weakness* (see Black Ark Fleetmaster)
-
 - *Murderous Swashbuckler:* If Lokhir makes a successful Parry save, he may immediately make an additional Attack back against the model that struck the blow.
 - *Merciless Slaver:* If an enemy unit breaks from a close combat that includes Lokhir Fellheart, all units taking Panic tests as a result of that unit breaking suffer a \-1 penalty to their Leadership value for that test.
   ],
@@ -1423,10 +1400,8 @@ Apprentice only)*, Mixed Unit, Murderous Prowess* (Beastmaster Apprentice only)*
     rule("Potion of Diabolic Strength")[Enchanted Item. One use only. The Potion of Diabolic Strength can be drunk at the start of any player's Close Combat phase, after any Hidden models have revealed that they are hiding in a unit. Shadowblade gains +3 Strength until the end of the turn.],
   ),
   gifts-of-khaine: "Black Lotus, Dance of Doom, Dark Venom, Hand of Khaine, Manbane, Touch of Death",
-  special-rules: "Dodge (5+), Hatred (High Elves), Hidden, Immunity (Psychology), Khainite, Murderous",
+  special-rules: "Dodge (5+), Hatred (High Elves), Hidden, Immunity (Psychology), Khainite, Murderous Prowess, Poisoned Attacks, Scouts",
   special-rules-body: [
-*Prowess, Poisoned Attacks, Scouts*
-
 - *Master of Disguise:* Shadowblade can deploy using the Hidden special rule like an Assassin. If he does so, he can change which unit he is hiding in at the start of any Movement or Close Combat phase – keep a note of where Shadowblade is each time you change your mind. If an opponent has an ability that forces you to state that there are 'hidden' models within a unit, you only need to say that Shadowblade is hiding within a unit, but not which unit he is currently in.
   ],
 )

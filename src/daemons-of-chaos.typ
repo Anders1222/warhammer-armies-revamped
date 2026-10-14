@@ -883,10 +883,8 @@ A Daemon Prince who is a Daemon of Tzeentch, Nurgle or Slaanesh must use the Lor
   ),
   troop-type: "Infantry (Character, Daemon)",
   base-size: "25x25 or 30x30",
-  magic: "A Gaunt Summoner is a Level 3 Wizard who chooses spells from the Lore of Tzeentch. In addition, they",
+  magic: "A Gaunt Summoner is a Level 3 Wizard who chooses spells from the Lore of Tzeentch. In addition, they know the following spell:",
   magic-body: [
-know the following spell:
-
 - *Summon Daemons:* Level 3, cast on 8+. _Summon Daemons_ is a *summoning* spell with a range of 18" that can target units of Pink Horrors, Brimstone Horrors, Screamers or Flamers. The target unit immediately gains D6 Wounds worth of models.
   ],
   equipment: "Hand weapon",
@@ -1633,10 +1631,8 @@ Each Hit from a Death Head is multiplied into D6 Hits.
   drawn-by: "2 Screamers (Daemon)",
   base-size: "50x100",
   equipment: "Exalted Flames of Tzeentch (Exalted Flamer only), scythes",
-  special-rules: "Daemon of Tzeentch, Fly (8), Flaming Attacks (Exalted Flamer only), Multiple Wounds (2)",
+  special-rules: "Daemon of Tzeentch, Fly (8), Flaming Attacks (Exalted Flamer only), Multiple Wounds (2) (Screamers only)",
   special-rules-body: [
-(Screamers only)
-
 - *Exalted Fire of Tzeentch:* During the Shooting phase, the Exalted Flamer can shoot either Pink Fire or Blue Fire below. If a misfire is rolled when resolving Pink Fire or Blue Fire, the Exalted Flamer suffers D6 Strength D6 hits with the Flaming Attacks special rule.
   - *Blue Fire:* Blue Fire is an organ gun with the following profile:
 
@@ -2028,10 +2024,8 @@ In the event of a misfire, the shot has no effect.
   ),
   troop-type: "Monster (Special Character, Daemon)",
   base-size: "50x50 or 100x100",
-  magic: "Kairos Fateweaver is a Level 4 Wizard who uses spells from the Lore of Tzeentch. In addition, his left head",
+  magic: "Kairos Fateweaver is a Level 4 Wizard who uses spells from the Lore of Tzeentch. In addition, his left head may choose a total of four spells from the following Lores of Magic:",
   magic-body: [
-may choose a total of four spells from the following Lores of Magic:
-
 - Heavens
 - Life
 - Light

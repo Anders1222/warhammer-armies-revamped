@@ -503,10 +503,7 @@ In addition, a model with this special rule has the four Runes listed below. Unl
   troop-type: "Infantry (Character, Dwarf)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  special-rules: "Ancestral Grudge, Daemon Slayer (Daemon Slayer only), Deathblow, Dragon Slayer, Magic",
-  special-rules-body: [
-*Resistance (1), Relentless, Unbreakable*
-  ],
+  special-rules: "Ancestral Grudge, Daemon Slayer (Daemon Slayer only), Deathblow, Dragon Slayer, Magic Resistance (1), Relentless, Unbreakable",
   upgrades: (
     rule("Beast Slayer")[Each wound inflicted by the model counts double towards that round's Combat Resolution (excluding Wounds from Overkill in a challenge).],
     rule("Killing Blow")[The model gains the Killing Blow special rule.],
@@ -1237,10 +1234,8 @@ performed its Movement or Attacks.")))
     rule("The Dragon Crown of Karaz")[Talisman. The Dragon Crown of Karaz is inscribed with the Master Rune of Kingship.],
     rule("The Great Book of Grudges")[Enchanted Item. Thorgrim and any unit he joins gain the Hatred special rule.],
   ),
-  special-rules: "Ancestral Grudge, Gromril Armour, Magic Resistance (1), Relentless, Resolute, Royal",
+  special-rules: "Ancestral Grudge, Gromril Armour, Magic Resistance (1), Relentless, Resolute, Royal Clansmen (see Kings)",
   special-rules-body: [
-*Clansmen* (see Kings)
-
 - *High King:* Thorgrim must be the Army General. If he is slain, all friendly Dwarf models immediately gain the Frenzy special rule. In addition, one unit of Hammerers may be taken as a Special Unit instead of a Rare Unit.
 - *The Throne of Power:* The Throne of Power adds +4 to Thorgrim's Wounds (included in his profile), gives him Unit Strength 5 and Line of Sight 2. In addition, the Throne gives Thorgrim the Inspiring Presence (6) special rule. However, if Thorgrim joins a unit, he does not benefit from the "Look Out Sir!" rule.
   ],
@@ -1283,10 +1278,7 @@ performed its Movement or Attacks.")))
     rule("The Armour of the King of Karak Azul")[Magic Armour. Medium armour. The Armour of the King of Karak Azul is inscribed with one Rune of Fortitude and a Rune of Resistance.],
     rule("The Thunderhorn")[Enchanted Item. One use only. The Horn may be blown at the start of any enemy turn. All enemy units within 24" of Kazador must pass a Leadership test to able to declare charges this turn.],
   ),
-  special-rules: "Ancestral Grudge, Gromril Armour, Magic Resistance (1), Resolute, Relentless, Royal",
-  special-rules-body: [
-*Clansmen* (see Kings)
-  ],
+  special-rules: "Ancestral Grudge, Gromril Armour, Magic Resistance (1), Resolute, Relentless, Royal Clansmen (see Kings)",
 )
 
 #unit("BELEGAR IRONHAMMER",
@@ -1302,10 +1294,8 @@ performed its Movement or Attacks.")))
     rule("The Hammer of Angrund")[Magic Weapon. The Hammer of Angrund is inscribed with the Master Rune of Swiftness, and Attacks made with it receive a +1 bonus To Wound.],
     rule("Shield of Defiance")[Magic Armour. Shield. The Shield of Defiance is inscribed with three Runes of Warding and a Rune of Preservation.],
   ),
-  special-rules: "Ancestral Grudge, Gromril Armour, Magic Resistance (1), Relentless, Royal Clansmen (see",
+  special-rules: "Ancestral Grudge, Gromril Armour, Magic Resistance (1), Relentless, Royal Clansmen (see Kings), Stubborn",
   special-rules-body: [
-Kings)*, Stubborn*
-
 - *Revenge Incarnate:* Once per game, at the start of any Close Combat phase, Belegar can double his Attacks characteristic for the remainder of the turn.
   ],
 )
@@ -1443,10 +1433,7 @@ Thorek can re-roll a single dice on a failed attempt to Strike the Runes. If thi
 
 #minitable(("Range", "Strength", "Special Rules"), ("9/12\"", "5", "Dwarf-crafted, Quick Shot, Multiple Shots (3), Rapid Fire"))
   ],
-  special-rules: "Ancestral Grudge, Artillery Master (see Master Engineers), Entrenchment (see Master",
-  special-rules-body: [
-Engineers)*, Magic Resistance (1), Relentless, Resolute, "Stand Back Sir!"* (see Master Engineers)
-  ],
+  special-rules: "Ancestral Grudge, Artillery Master (see Master Engineers), Entrenchment (see Master Engineers), Magic Resistance (1), Relentless, Resolute, \"Stand Back Sir!\" (see Master Engineers)",
   options: [
 - Must take one of the following:
   - Burlok's Ingenious Offensive New-matic Integrated Constrictor Arm free

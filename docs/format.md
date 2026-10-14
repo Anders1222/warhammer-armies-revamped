@@ -60,8 +60,8 @@ and `subtitle`, `solo`, `compact` where the entry sets them. Added:
 | `named` | `true` under SPECIAL CHARACTERS |
 | `profiles[].id` | kebab-case, unique within the unit |
 | `unitSizeParsed` | `"15-45"` → `{"min": 15, "max": 45}`; `"10+"` → `{"min": 10, "max": null}`; `"1"` → `{"min": 1, "max": 1}`. Absent when `unitSize` is absent or does not parse; the build report lists the latter |
-| `equipmentList` | `equipment` split on commas outside brackets and trimmed; only when `equipment` is a string |
-| `specialRulesList` | the same for `specialRules` |
+| `equipmentList` | `equipment` split on commas outside brackets and trimmed; only when the source wrote `equipment` as a string, so not where it is written as markup and arrives as rendered text |
+| `specialRulesList` | the same for `specialRules`, only when the source wrote it as a string, read as the builder's parser reads it: a fragment opening in a lowercase letter continues the rule before it (`"At them, you Curs! (see Black Ark Fleetmaster)"` is one rule), and a trailing `.` or `,` comes off each rule. `specialRules` itself keeps the book's punctuation |
 | `optionGroups` | the typed view of `options`, below |
 
 ## optionGroups

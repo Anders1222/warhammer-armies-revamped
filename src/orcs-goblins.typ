@@ -643,10 +643,7 @@ special rule.")))
   troop-type: "Infantry (Character, Common Orc)",
   base-size: "25x25 or 30x30",
   equipment: "Hand weapon",
-  magic: "A Weirdboy is a Level 1 Wizard. A Weirdnob is a Level 3 Wizard. They choose spells from the Lore of da",
-  magic-body: [
-Big Waaagh!
-  ],
+  magic: "A Weirdboy is a Level 1 Wizard. A Weirdnob is a Level 3 Wizard. They choose spells from the Lore of da Big Waaagh!",
   special-rules: "Size Matters",
   upgrades: (
     rule("Savage Orc")[The model gains the Frenzy and Magical Ward (6+) special rules. This changes their Troop Type to Infantry (Character, Savage Orc). A Savage Orc Shaman can use spells from the Lore of da Big Waaagh! or da Savage Waaagh!],
@@ -716,10 +713,7 @@ Big Waaagh!
   troop-type: "Infantry (Character, Common Goblin)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "An Oddgit is a Level 1 Wizard. An Oddnob is a Level 3 Wizard. They choose spells from the Lore of da",
-  magic-body: [
-Little Waaagh!
-  ],
+  magic: "An Oddgit is a Level 1 Wizard. An Oddnob is a Level 3 Wizard. They choose spells from the Lore of da Little Waaagh!",
   special-rules: "Fear Elves",
   upgrades: (
     rule("Night Goblin")[The model gains the Hatred (Dwarfs) and Magic Mushrooms special rules. This changes their Troop Type to Infantry (Character, Night Goblin). A Night Goblin Shaman can use spells from the Lore of da Little Waaagh! or da Bad Moon.],
@@ -1150,10 +1144,8 @@ close combat this turn. This has no effect on units with Immunity (Psychology)."
   mount: "Giant Spider (Arachnid)",
   base-size: "25x50",
   equipment: "Hand weapon",
-  special-rules: "Animosity, Fast Cavalry, Fear Elves, Natural Armour (6+), Poisoned Attacks (Giant Spiders",
+  special-rules: "Animosity, Fast Cavalry, Fear Elves, Natural Armour (6+), Poisoned Attacks (Giant Spiders only), Wall-crawler",
   special-rules-body: [
-only)*, Wall-crawler*
-
 - *Creeping Assault:* Unlike other mounts, Giant Spiders are allowed to attack when assaulting buildings.
   ],
   options: [
@@ -1298,10 +1290,7 @@ only)*, Wall-crawler*
   drawn-by: "2 War Boars (Porcine)",
   base-size: "50x100",
   equipment: "Hand weapon, light armour",
-  special-rules: "Mighty Blow (1) (Orc only), Natural Armour (6+), Size Matters, Tusker Charge (War Boar",
-  special-rules-body: [
-only)
-  ],
+  special-rules: "Mighty Blow (1) (Orc only), Natural Armour (6+), Size Matters, Tusker Charge (War Boar only)",
   options: [
 - May take an additional Orc +5 points
 - May take light lances +2 points
@@ -1492,10 +1481,8 @@ only)
   handler: "Herder (Night Goblin)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  special-rules: "Hatred (Dwarfs) (Herder only), Immunity (Psychology), Mixed Unit, Random Movement",
+  special-rules: "Hatred (Dwarfs) (Herder only), Immunity (Psychology), Mixed Unit, Random Movement (3D6)",
   special-rules-body: [
-*(3D6)*
-
 - *Squigs Go Wild:* If the unit would flee, or if at any time there are only Squigs left alive in the unit with no Herders, all units within 2D6" (friend and foe) immediately take D6 Strength 5 hits. For every 5 Cave Squigs remaining when the Squigs Go Wild, add +1 to the number of hits caused. After damage is resolved, the Squig Herd is removed in its entirety.
   ],
   notes: [
@@ -1634,10 +1621,7 @@ only)
   mount: "Grunta (Porcine)",
   base-size: "50x75",
   equipment: "Hand weapon, medium armour",
-  special-rules: "Animosity, Mighty Blow (1), Natural Armour (6+), Size Matters, Tusker Charge (Grunta",
-  special-rules-body: [
-only)
-  ],
+  special-rules: "Animosity, Mighty Blow (1), Natural Armour (6+), Size Matters, Tusker Charge (Grunta only)",
   options: [
 - May take light lances +2 points/model
 - May take barding free
@@ -2005,10 +1989,8 @@ it.")))
     rule("Daemon Staff")[Arcane Item. The Daemon Staff gives Azhag +1 to cast spells.],
     rule("The Crown of Sorcery")[Enchanted Item. The crown makes Azhag a Level 2 Wizard who uses spells from the Lore of Death. In addition, Azhag suffers from Stupidity.],
   ),
-  special-rules: "Fly (8), Mighty Blow (1), Natural Armour (4+), Poisoned Attacks (Skullmuncha only), Size",
+  special-rules: "Fly (8), Mighty Blow (1), Natural Armour (4+), Poisoned Attacks (Skullmuncha only), Size Matters, Waaagh!",
   special-rules-body: [
-*Matters, Waaagh!*
-
 - *Get on Wiv it!* Azhag must be the Army General. Any unit within range of Azhag's Inspiring Presence that fails an Animosity test must immediately re-roll the dice.
   ],
 )
@@ -2024,10 +2006,7 @@ it.")))
   base-size: "25x25 or 30x30",
   equipment: "Medium armour",
   magic: "Gazbag is a Level 2 Wizard who uses the Lore of da Bad Moon.",
-  special-rules: "Hatred (Dwarfs) (Gazbag only), Magic Mushrooms (see Night Goblin Oddnobs), Mighty",
-  special-rules-body: [
-*Blow (1)* (Grumlok only)*, Size Matters, Waaagh!*
-  ],
+  special-rules: "Hatred (Dwarfs) (Gazbag only), Magic Mushrooms (see Night Goblin Oddnobs), Mighty Blow (1) (Grumlok only), Size Matters, Waaagh!",
   options: [
 - May take Magic Items up to a total of 100 points
   ],
@@ -2328,10 +2307,8 @@ it.")))
 
 #minitable(("Range", "Strength", "Special Rules"), ("6\"", "3", "Multiple Wounds (D3), Poisoned Attacks, Quick to Fire"))
   ],
-  special-rules: "Ambushers, Fear Elves, Hatred (The Empire), Poisoned Attacks (Giant Spider only), Wall-",
+  special-rules: "Ambushers, Fear Elves, Hatred (The Empire), Poisoned Attacks (Giant Spider only), Wall-crawler",
   special-rules-body: [
-*crawler*
-
 - *The Deff Creepers:* Snagla Grobspit must be accompanied by a unit of Forest Goblin Spider Riders chosen from the army list at a cost of +2 points per model. This unit has the Ambushers, Devastating Charge and Hatred (Empire) special rules. In addition, they cause Fear on any turn that they charge. Snagla Grobspit may never choose to leave this unit.
   ],
   options: [

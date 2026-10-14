@@ -544,10 +544,7 @@ Strength 5 hits.")))
   ),
   troop-type: "War Beast (Saurian)",
   base-size: "40x40",
-  special-rules: "Armour Piercing (1), Fear, Fly (9), Frenzy, Killing Blow, Toad Rage (see Ripperdactyl",
-  special-rules-body: [
-Riders)
-  ],
+  special-rules: "Armour Piercing (1), Fear, Fly (9), Frenzy, Killing Blow, Toad Rage (see Ripperdactyl Riders)",
 )
 
 #unit("AGGRADON",
@@ -839,10 +836,8 @@ A Slann who is in base contact with a model with the Guardians special rule is c
   mount: "Ripperdactyl (Saurian)",
   base-size: "40x40",
   equipment: "Light lance, shield",
-  special-rules: "Armour Piercing (1) (Ripperdactyl only), Cold-blooded, Fast Cavalry, Fear, Fly (9), Frenzy",
+  special-rules: "Armour Piercing (1) (Ripperdactyl only), Cold-blooded, Fast Cavalry, Fear, Fly (9), Frenzy (Ripperdactyl only), Killing Blow (Ripperdactyl only), Natural Armour (6+)",
   special-rules-body: [
-(Ripperdactyl only)*, Killing Blow* (Ripperdactyl only)*, Natural Armour (6+)*
-
 - *Toad Rage:* Before the game starts, but after Scouts have been deployed, a Lustrian blot toad marker can be placed for each unit of Ripperdactyl Riders in your army. A single blot toad marker can be placed on any enemy unit on the tabletop, this marker remains throughout the battle. When fighting in close combat against a unit with a blot toad marker, Ripperdactyls gain another level of Frenzy and the Hatred special rule.
   ],
   options: [
@@ -860,10 +855,8 @@ A Slann who is in base contact with a model with the Guardians special rule is c
   handler: "3 Skinks (Lizardman, Skink)",
   base-size: "40x40 or 50x50 (Salamander), 20x20 or 25x25 (Skink)",
   equipment: "Spear (Skinks only)",
-  special-rules: "Aquatic, Cold-blooded, Fear, Mixed Unit, Natural Armour (5+) (Salamander only), Natural",
+  special-rules: "Aquatic, Cold-blooded, Fear, Mixed Unit, Natural Armour (5+) (Salamander only), Natural Armour (6+) (Skink Handler only), Skirmishers.",
   special-rules-body: [
-*Armour (6+)* (Skink Handler only)*, Skirmishers.*
-
 - *Spout Flames:* Spout Flames shoots like a fire thrower with the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("n/a", "4", "Cumbersome, Flaming Attacks"))
@@ -881,10 +874,8 @@ If the artillery dice result is a misfire, no shots are fired and D3 Skink handl
   handler: "3 Skinks (Lizardman, Skink)",
   base-size: "40x40 or 50x50 (Razordon), 20x20 or 25x25 (Skink)",
   equipment: "Spear (Skinks only)",
-  special-rules: "Aquatic, Cold-blooded, Fear, Mixed Unit, Natural Armour (5+) (Razordon only), Natural",
+  special-rules: "Aquatic, Cold-blooded, Fear, Mixed Unit, Natural Armour (5+) (Razordon only), Natural Armour (6+) (Skink Handler only), Skirmishers.",
   special-rules-body: [
-*Armour (6+)* (Skink Handler only)*, Skirmishers.*
-
 - *Instinctive Defence:* If charged, a Razordon must Stand and Shoot if it is able to do so. However, when calculating the number of shots fired, the Razordon can re-roll the artillery dice. In addition, it gains the Quick to Fire special rule and does not suffer To Hit penalties for Stand and Shoot.
 - *Shoot Barbs:* Shoot Barbs shoots like an organ gun with the following profile:
 
@@ -927,10 +918,8 @@ If the artillery dice result is a misfire, no shots are fired and D3 Skink Handl
   handler: "3 Skinks (Lizardman, Skink)",
   base-size: "50x75 (Ancient Salamander), 20x20 or 25x25 (Skink)",
   equipment: "Spear (Skinks only)",
-  special-rules: "Aquatic, Armour Piercing (1) (Salamander only), Cold-blooded, Mixed Unit, Natural",
+  special-rules: "Aquatic, Armour Piercing (1) (Salamander only), Cold-blooded, Mixed Unit, Natural Armour (5+) (Salamander only), Natural Armour (6+) (Skink Handler only), Skirmishers.",
   special-rules-body: [
-*Armour (5+)* (Salamander only)*, Natural Armour (6+)* (Skink Handler only)*, Skirmishers.*
-
 - *Stream of Fire:* Stream of Fire is a fire thrower with the following profile:
 
 #minitable(("Range", "Strength", "Special Rules"), ("6\"", "5", "Cumbersome, Flaming Attacks"))
@@ -1028,10 +1017,7 @@ Skill (to a minimum of 1) until the start of the Bastiladon's next Magic phase."
   equipment-body: (
     rule("Power of the Ancients")[Arcane Item. Bound Spell. This item contains the _Fiery Blast_ spell from the Lore of Fire.],
   ),
-  special-rules: "Cold-blooded, Immunity (Psychology), Jungle Poisons, Natural",
-  special-rules-body: [
-*Armour (4+), Stubborn*
-  ],
+  special-rules: "Cold-blooded, Immunity (Psychology), Jungle Poisons, Natural Armour (4+), Stubborn",
   options: [
 - May take Firefly Frog Venom +6 points
   ],
@@ -1049,10 +1035,8 @@ Skill (to a minimum of 1) until the start of the Bastiladon's next Magic phase."
   equipment-body: (
     rule("Divining Rod")[Arcane Item. Staff. The model channels Power and Dispel dice as if they were a Level 1 Wizard.],
   ),
-  special-rules: "Aquatic, Arcane Vassal (see Skink Priests), Cold-blooded, Jungle Poisons, Poisoned Attacks",
+  special-rules: "Aquatic, Arcane Vassal (see Skink Priests), Cold-blooded, Jungle Poisons, Poisoned Attacks (Troglodon only), Predatory Fighter (Troglodon only), Natural Armour (4+)",
   special-rules-body: [
-(Troglodon only)*, Predatory Fighter* (Troglodon only)*, Natural Armour (4+)*
-
 - *Primeval Roar:* Once per battle, at the start of any friendly Close Combat phase, a Troglodon can unleash its Primeval Roar. This affects all friendly units within 12". All models with the Predatory Fighter special rule gain an additional Attack on any successful To Hit roll of a 5+ until the end of the phase.
 - *Spit Venom:* A Troglodon can spit its venom as a shooting attack with the following profile:
 
@@ -1066,10 +1050,8 @@ Skill (to a minimum of 1) until the start of the Bastiladon's next Magic phase."
   ),
   troop-type: "Monster (Ophidian)",
   base-size: "50x100 or 100x100",
-  magic: "A Coatl is a Level 2 Wizard that uses spells from the Lore of Heavens. In addition, they know the following",
+  magic: "A Coatl is a Level 2 Wizard that uses spells from the Lore of Heavens. In addition, they know the following spell:",
   magic-body: [
-spell:
-
 - *Guardian of the Sacred Places:* Level 1, cast on 5+. _Guardian of the Sacred Places_ is a special type of spell that targets a single forest within 12" of the caster. The target immediately moves up to 2D3" in a direction of your choice. A forest cannot move to within 1" of other terrain features.
   ],
   special-rules: "Cold-blooded, Fly (8), Magic Resistance (3), Natural Armour (4+)",
@@ -1150,10 +1132,8 @@ spell:
   ),
   troop-type: "Monstrous Infantry (Special Character, Lizardman, Slann)",
   base-size: "50x50, 60x60 or 75x75",
-  magic: "Lord Kroak is a Level 4 Wizard; however, he knows only one spell – The Deliverance of Itza. If this spell is",
+  magic: "Lord Kroak is a Level 4 Wizard; however, he knows only one spell – The Deliverance of Itza. If this spell is lost, forgotten, swapped or stolen by any means, Lord Kroak will immediately remember it again and, if applicable, the Wizard that swapped or stole it will immediately forget it.",
   magic-body: [
-lost, forgotten, swapped or stolen by any means, Lord Kroak will immediately remember it again and, if applicable, the Wizard that swapped or stole it will immediately forget it.
-
 #spell("THE DELIVERANCE OF ITZA", 4, cast: "12+")[_The Deliverance of Itza_ is a *direct damage* spell that targets all enemy units within 12" of the caster's front arc. Each target suffers 2D6 Strength 4 hits. If a target has the Daemonic, Undead or Vampiric special rules, it suffers 3D6 hits instead. Lord Kroak can choose to extend the range of this spell to 18"; if he does so, the casting value is increased to 18+. Alternatively, Lord Kroak can choose to extend the range of this spell to 24", in which case the casting value is increased to 24+.]
   ],
   magic-items: (
@@ -1238,10 +1218,8 @@ lost, forgotten, swapped or stolen by any means, Lord Kroak will immediately rem
     rule("The Eye of the Old Ones")[Enchanted Item. After deployment, but before Vanguard moves are made, if Tetto'eko is on the battlefield he can consult the Eye of the Old Ones. If he does so, D3 friendly units of your choice gain the Vanguard special rule.],
     rule("The Stellar Staff")[Arcane Item. Staff. Tetto'eko knows the _Comet of Casandora_ spell from the Lore of Heavens in addition to his other spells. If he successfully casts it, you may re-roll the dice at the start of each Magic phase to see if the comet arrives.],
   ),
-  special-rules: "Arcane Vassal, Cold-blooded, Loremaster (Lore of Heavens), Magical Ward (5+), Natural",
+  special-rules: "Arcane Vassal, Cold-blooded, Loremaster (Lore of Heavens), Magical Ward (5+), Natural Armour (6+)",
   special-rules-body: [
-*Armour (6+)*
-
 - *Herald of Cosmic Events:* Roll a D6 at the start of each friendly Magic phase. On a roll of 2\-6, Tetto'Eko's calculations are correct and the cosmic event occurs; all friendly Wizards within 12" must re-roll power dice rolls of a 1 this phase. However, on a roll of 1, the Chaos Moon has corrupted Tetto'eko's calculations and all friendly Wizards within 12" casting a spell must re-roll any of the power dice that roll a 6 this phase.
 - *The Palanquin of Constellations:* The Palanquin of Constellations gives Tetto'eko the Strider special rule. Additionally, while they have the troop type Infantry, he is never considered to be a ‘model on foot' for the purposes of spells, magic items and special rules. If Tetto'eko joins a unit Skink Cohorts whose front rank contains five or more models, he must be placed in the second rank, displacing other models if necessary. If the unit's front rank is ever reduced to four or fewer models, Tetto'eko must immediately move into the front rank (displacing models if necessary).
   ],
@@ -1283,10 +1261,8 @@ lost, forgotten, swapped or stolen by any means, Lord Kroak will immediately rem
     rule("The Mace of Ulumak")[Magic Weapon. The Mace allows Gor-Rok to re-roll all failed To Hit rolls. In addition, when striking with the Mace of Ulumak, Gor-Rok gains an additional Attack from his Predatory Fighter special rule on any successful To Hit roll of a 5 or 6.],
     rule("The Shield of Aeons")[Magic Armour. Shield. This shield gives Gor-Rok an additional 6+ armour save. In addition, any enemy model that makes a successful charge against Gor-Rok and ends the Movement phase in base contact with him must immediately take a Dangerous Terrain test with a \-1 penalty.],
   ),
-  special-rules: "Blessed Mark of the Old Ones (see Blessed Spawnings), Cold-blooded, Immunity",
+  special-rules: "Blessed Mark of the Old Ones (see Blessed Spawnings), Cold-blooded, Immunity (Psychology), Predatory Fighter, Natural Armour (5+), Stubborn",
   special-rules-body: [
-*(Psychology), Predatory Fighter, Natural Armour (5+), Stubborn*
-
 - *Resilient:* Any successful rolls To Wound roll against Gor-Rok must be re-rolled. In addition, Gor-Rok has the Immunity (Killing Blow) special rule.
   ],
 )
@@ -1342,10 +1318,8 @@ lost, forgotten, swapped or stolen by any means, Lord Kroak will immediately rem
 
 #minitable(("Range", "Strength", "Special Rules"), ("9/18\"", "2", "Firefly Frog Venom, March & Shoot, Multiple Shots (3), Multiple Wounds (D3), Poisoned Attacks, Quick Shot"))
   ],
-  special-rules: "Aquatic, Chameleon, Cold-blooded, Forest Strider, Hatred (Daemons of Chaos), Natural",
+  special-rules: "Aquatic, Chameleon, Cold-blooded, Forest Strider, Hatred (Daemons of Chaos), Natural Armour (6+), Scouts, Sniper",
   special-rules-body: [
-*Armour (6+), Scouts, Sniper*
-
 - *Master Predator:* If Oxyotl remained stationary in his preceding Movement phase, enemies cannot draw Line of Sight to him unless they are within 6", and all shots made from the Golden Blowpipe of P'Toohee may re- roll failed To Wound rolls. If an enemy unit would move through Oxyotl, simply move Oxyotl aside by the smallest amount possible to make room for the enemy unit.
   ],
   options: [

@@ -1081,10 +1081,8 @@ If the target unit contains one or more models mentioned in Ghostsight, you may 
   ),
   troop-type: "Monster (Chaos Beast)",
   base-size: "50x50",
-  special-rules: "Flammable, Forest Strider, Immunity (Psychology), Random Attacks (D6+2), Natural",
+  special-rules: "Flammable, Forest Strider, Immunity (Psychology), Random Attacks (D6+2), Natural Armour (3+), Stubborn",
   special-rules-body: [
-*Armour (3+), Stubborn*
-
 - *Constant Wailing:* Enemy units within 6" of this model suffer \-1 to their Leadership. This has no effect on units with the Immunity (Psychology) special rule.
 - *Flailing Appendages:* A Hag Tree counts as having no Flanks or Rear for the purposes of Combat Resolution.
 - *Regenerative Snacking:* For every model killed in close combat by the Hag Tree, roll a D6. On a 4+, the Hag Tree regains one wound previously lost in battle.

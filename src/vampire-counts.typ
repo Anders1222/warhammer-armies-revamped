@@ -1487,10 +1487,8 @@ and Flaming Attacks special rules."), ("4", "The Black Coach gains the Magic Res
   drawn-by: "1 Spirit Horde (Undead, Spirit)",
   base-size: "50x100",
   equipment: "Hand weapon",
-  special-rules: "Fly (7), Magical Attacks (Spirit Horde only), Magical Ward (4+), Random Attacks (2D6)",
+  special-rules: "Fly (7), Magical Attacks (Spirit Horde only), Magical Ward (4+), Random Attacks (2D6) (Spirit Horde only), Spectral Steeds, Terror, Vampiric",
   special-rules-body: [
-(Spirit Horde only)*, Spectral Steeds, Terror, Vampiric*
-
 - *Battle of Wills:* Immediately before the first model in an enemy unit rolls To Hit against the Coven Throne (either in close combat or shooting), the opponent must roll a D6 and add it to their unit's Leadership. Next, roll a D6 and add it to the Coven Throne's Leadership. To find the result of the Battle of Wills, subtract the enemy's total from the Coven Throne's total, and apply the result to the table below – the results last until the end of the turn.
 
 #chart((("Result:", "Effect:"), ("0 or less", "Back off, Devils!: No effect."), ("1-2", "Must... Resist...: The enemy is at -1 Weapon Skill and -l Ballistic Skill. Artillery weapons that
@@ -1521,10 +1519,8 @@ Affected units may not otherwise shoot or attack this turn.")))
   drawn-by: "1 Spirit Horde (Undead, Spirit)",
   base-size: "50x100",
   equipment: "Hand weapon",
-  special-rules: "Death Shriek, Fly (7), Magical Attacks (Spirit Horde only), Random Attacks (2D6) (Spirit",
+  special-rules: "Death Shriek, Fly (7), Magical Attacks (Spirit Horde only), Random Attacks (2D6) (Spirit Horde only), Regeneration (4+), Spectral Steeds, Terror, Undead",
   special-rules-body: [
-Horde only)*, Regeneration (4+), Spectral Steeds, Terror, Undead*
-
 - *The Reliquary:* At the start of each of your turns, roll 2D6 and add the current turn number. This is range of the reliquary's dark aura this turn in inches. All enemy units within range of the dark aura immediately take D6 hits, with a Strength equal to the current turn number, distributed as from shooting. Also, place a marker next to all friendly Undead units that were within range of the dark aura at the start of the turn. These units improve their Regeneration saves by one point until the start of their next turn, to a maximum of 4+. If they have no Regeneration save, they are treated as having the Regeneration (6+) special rule instead. Finally, if the 2D6 result was a double, then the fell energies prove too powerful; in addition to the usual effects, the Mortis Engine takes 1 Wound with no saves of any kind allowed. When the Mortis Engine suffers its last unsaved Wound, every unit within 12 plus the turn number in inches, friend or foe, must take 2D6 hits with a Strength equal to the current turn number. These hits are distributed as shooting.
   ],
   notes: [
@@ -1797,10 +1793,8 @@ In addition, she knows the following spell:
     rule("Bloodlance")[Magic Items. Heavy lance. In any turn in which Prince Vhordrai charges, he gains the Multiple Wounds (D3) special rule.],
   ),
   vampiric-powers: "Heart Piercing, Honour or Death, Red Fury",
-  special-rules: "Fly (7), Martial Honour (see Blood Dragons), Natural Armour (5+), The Red Thirst, Swarm",
+  special-rules: "Fly (7), Martial Honour (see Blood Dragons), Natural Armour (5+), The Red Thirst, Swarm of Flies (see Zombie Dragon), Vampiric",
   special-rules-body: [
-*of Flies* (see Zombie Dragon)*, Vampiric*
-
 - *Breath of Shyish:* Shordemaire has a Strength 3 Breath Weapon with the Ignores Armour Saves special rule.
 - *Fist of Abhorash:* All units of Blood Knights within 12" of Prince Vhordrai may re-roll failed charge distance rolls.
 - *Swarm of Flies:* Enemy units in base contact with a Zombie Dragon suffer \-1 to their Weapon Skill.

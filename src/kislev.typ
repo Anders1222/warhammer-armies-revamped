@@ -306,10 +306,8 @@ for the rest of the game.")))
   troop-type: "Infantry (Character, Human)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "A Frost Maiden is a Level 1 Wizard. An Ice Witch is a Level 3 Wizard. They use one of the following Lores",
+  magic: "A Frost Maiden is a Level 1 Wizard. An Ice Witch is a Level 3 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
-of Magic:
-
 - Ice
 - Tempest
   ],
@@ -770,10 +768,7 @@ of Magic:
   handler: "1 Bear Tamer (Human)",
   base-size: "40x40 or 50x50 or 50x75 (War Bears), 20x20 or 25x25 (Bear Tamer)",
   equipment: "Hand weapon (Bear Tamer only)",
-  special-rules: "By Our Blood, Fury of Ursun, Hatred (Chaos) (Bear Tamer only), Mixed Unit, Natural",
-  special-rules-body: [
-*Armour (6+)*
-  ],
+  special-rules: "By Our Blood, Fury of Ursun, Hatred (Chaos) (Bear Tamer only), Mixed Unit, Natural Armour (6+)",
   options: [
 - May take barding +3 points/model
   ],
@@ -987,10 +982,8 @@ If a misfire is rolled, consult the Black Powder Misfire Chart.
   magic-items: (
     rule("Brazier Mace of Ursun")[Magic Weapon. Flaming Attacks. For each Wound suffered during the game from his starting number of Wounds, Kostaltyn gains +1 Strength and the Armour Piercing (1) special rule.],
   ),
-  special-rules: "Battle Prayers of Ursun (see Patriarchs), By Our Blood, The Courage of Sacrifice (see",
+  special-rules: "Battle Prayers of Ursun (see Patriarchs), By Our Blood, The Courage of Sacrifice (see Patriarchs), Frenzy, Magic Resistance (1), Hatred (Chaos)",
   special-rules-body: [
-Patriarchs)*, Frenzy, Magic Resistance (1), Hatred (Chaos)*
-
 - *Blaze of Devotion:* Any unit joined by Kostaltyn gains the Flaming Attacks special rule and may re-roll failed Break tests.
 - *Ursun's Ward:* When Kostaltyn is down to two Wounds, he gains the Regeneration (5+) special rule. When he is down to one Wound, he gains the Regeneration (3+) special rule. Roll each To Wound roll against Kostaltyn separately.
   ],
@@ -1057,10 +1050,8 @@ Patriarchs)*, Frenzy, Magic Resistance (1), Hatred (Chaos)*
   troop-type: "Infantry (Special Character, Human)",
   base-size: "20x20 or 25x25 (Mother Ostankya), 50x100 or 60x100 or 100x150 (Chicken-Legged Hut)",
   equipment: "Hand weapon",
-  magic: "Mother Ostankya is a Level 4 Wizard who uses the Lore of the Hags. In addition to her other spells, she",
+  magic: "Mother Ostankya is a Level 4 Wizard who uses the Lore of the Hags. In addition to her other spells, she knows the following:",
   magic-body: [
-knows the following:
-
 - *Spirit Bear:* Level 4, Cast on 12+. _Spirit Bear_ is a *magic missile* with a range of 18" that causes 2D6 Strength 5 Hits.
   ],
   magic-items: [
@@ -1207,10 +1198,8 @@ knows the following:
   troop-type: "Infantry (Special Character, Human)",
   base-size: "20x20 or 25x25",
   equipment: "Great weapon, longbow, throwing axes",
-  special-rules: "By Our Blood, Hatred (Chaos), Heart Strike (see Ranger), Scouts, Trapper (see Sibyrian",
+  special-rules: "By Our Blood, Hatred (Chaos), Heart Strike (see Ranger), Scouts, Trapper (see Sibyrian Hunters)",
   special-rules-body: [
-Hunters)
-
 - *Hugely Resilient:* Whenever Ilja is reduced to 0 Wounds, roll a D6. On a 1\-3 he is killed as normal, but on a 4+ he completely ignores the damage and remains at 1 Wound. This rule has no effect against attacks that kill him outright.
 - *Strength of the Great Bear:* Ilja may forfeit his normal attacks in favour of doing a special attack. This attack has the Multiple Wounds (D6) and Ignores Armour Saves special rules.
   ],

@@ -45,10 +45,13 @@ worked examples):
   }
 
 formatVersion 2 added the ids, the typed `optionGroups` beside `options`, the
-parsed unit size and list forms, and `composition`. Every formatVersion 1
-field kept its value; the new data is in new fields beside it. Ids are
-minted from the source names on every run (exporter/ids.py), so a name
-corrected in the source changes its id.
+parsed unit size and list forms, and `composition`. The list forms split
+EQUIPMENT and SPECIAL RULES only where the source wrote them as a string; in
+`specialRulesList` a lowercase fragment continues the rule before it and a
+trailing "." or "," comes off. Every formatVersion 1 field kept its value;
+the new data is in new fields beside it. Ids are minted from the source
+names on every run (exporter/ids.py), so a name corrected in the source
+changes its id.
 
 A unit's fields keep the template's vocabulary in camelCase: `unit-size` is
 `unitSize`, and a companion `special-rules-body` is `specialRulesBody`. A
@@ -68,14 +71,15 @@ by " | ".
 
 `--check` is the gate: every unit, item, spell, upgrade and rule head the
 source declares is in the bundle, every string field is byte-identical to the
-source, every printed option line is in `optionGroups` exactly once and is
-in the source, every word of exported text is a word on the rendered page,
-and the bundle conforms to schema/war.schema.json. Then the builder's files:
-each conforms to schema/builder.schema.json, every record and option line
-of the bundle is in them, and they pass the builder's own data tests. It
-then prints the build report: groups and choices per faction, what stayed
-unclassified, unit sizes that did not parse, ids that needed a suffix, and
-per army what the builder gets.
+source and none is cut short (its line wrapped into its body, a special
+rule's bracket left open), every printed option line is in `optionGroups`
+exactly once and is in the source, every word of exported text is a word on
+the rendered page, and the bundle conforms to schema/war.schema.json. Then
+the builder's files: each conforms to schema/builder.schema.json, every
+record and option line of the bundle is in them, and they pass the builder's
+own data tests. It then prints the build report: groups and choices per
+faction, what stayed unclassified, unit sizes that did not parse, ids that
+needed a suffix, and per army what the builder gets.
 """
 
 from __future__ import annotations
@@ -516,6 +520,19 @@ def split_list(text: str) -> list[str]:
     return [p.strip() for p in re.split(r",\s*(?![^()]*\))", text) if p.strip()]
 
 
+def rule_list(text: str) -> list[str]:
+    """SPECIAL RULES as its rules, read as the builder's parser reads them: a
+    fragment opening in lowercase continues the rule before it ("At them, you
+    Curs!"), and a trailing "." or "," comes off."""
+    items: list[str] = []
+    for p in split_list(text):
+        if items and p[0].islower():
+            items[-1] += ", " + p
+        else:
+            items.append(p)
+    return [p.rstrip(" .,") for p in items]
+
+
 def rule_names_of(unit: dict) -> dict[str, str]:
     """The rules the unit defines itself, in any field of named records."""
     out: dict[str, str] = {}
@@ -536,9 +553,10 @@ class Vocab:
                      if w["name"].isupper() and not re.search(r"chart|firing|resolving", w["name"], re.I)}
 
 
-def enrich_unit(unit: dict, ids: Ids, vocab: Vocab, fac: dict, families, upgrade_names,
-                report: dict) -> None:
-    """The formatVersion 2 fields of a unit, added beside the record's own."""
+def enrich_unit(unit: dict, args: dict, ids: Ids, vocab: Vocab, fac: dict, families,
+                upgrade_names, report: dict) -> None:
+    """The formatVersion 2 fields of a unit, added beside the record's own.
+    `args` is the entry as the source wrote it."""
     unit["id"] = ids.assign(("units",), unit["name"])
     section, tier, named = SECTIONS.get(unit["category"], (None, None, False))
     unit["section"], unit["tier"], unit["named"] = section, tier, named
@@ -554,10 +572,12 @@ def enrich_unit(unit: dict, ids: Ids, vocab: Vocab, fac: dict, families, upgrade
             unit["unitSizeParsed"] = parsed
         else:
             report["unparsedSize"].append(f"{fac['id']}/{unit['name']}: {unit['unitSize']!r}")
-    if isinstance(unit.get("equipment"), str):
+    # Only a field the source wrote as a string: one written as markup arrives
+    # as rendered text, and the commas in its definitions are prose.
+    if isinstance(args.get("equipment"), str):
         unit["equipmentList"] = split_list(unit["equipment"])
-    if isinstance(unit.get("specialRules"), str):
-        unit["specialRulesList"] = split_list(unit["specialRules"])
+    if isinstance(args.get("special-rules"), str):
+        unit["specialRulesList"] = rule_list(unit["specialRules"])
     profiles = sorted(((r["name"], r["id"]) for r in unit["profiles"]), key=lambda p: -len(p[0]))
     ctx = Context(profiles=profiles,
                   rules=vocab.rules | {norm_rule(r["name"]) for r in fac["rules"]},
@@ -637,6 +657,7 @@ def build_faction(book: dict, ids: Ids, vocab: Vocab, report: dict) -> dict:
     fac: dict = {"id": meta["slug"], "name": meta["army"], "version": meta["version"],
                  "align": meta.get("align"), "rules": [], "items": [],
                  "upgrades": [], "lores": [], "prose": [], "units": []}
+    written: list[dict] = []   # each unit's arguments as the source wrote them
     chapter = ""
     section: str | None = None
     lore: dict | None = None
@@ -656,6 +677,7 @@ def build_faction(book: dict, ids: Ids, vocab: Vocab, report: dict) -> dict:
             # they are not units.
             if chapter.upper() != "CREDITS":
                 fac["units"].append(build_unit(ev, chapter))
+                written.append(ev["args"])
         elif kind == "magic-item":
             fac["items"].append(item_of(ev, chapter))
         elif kind == "upgrade":
@@ -679,8 +701,8 @@ def build_faction(book: dict, ids: Ids, vocab: Vocab, report: dict) -> dict:
         for rec in fac[table]:
             rec["id"] = ids.assign((table,), rec["name"])
     families, upgrade_names = family_patterns(fac["upgrades"])
-    for unit in fac["units"]:
-        enrich_unit(unit, ids, vocab, fac, families, upgrade_names, report)
+    for unit, args in zip(fac["units"], written):
+        enrich_unit(unit, args, ids, vocab, fac, families, upgrade_names, report)
     by_name = {u["name"].casefold(): u["id"] for u in fac["units"]}
     constraints = []
     for unit in fac["units"]:
@@ -1021,8 +1043,8 @@ def check(data: dict, raw: dict[str, dict], report: dict, files: dict[str, objec
             if want[k] != got[k]:
                 fail(f"{slug}: {k} source {want[k]} exported {got[k]}")
 
-        # 2. Every field written as a string is byte-identical to the source,
-        # and every profile row is the row the source wrote.
+        # 2. Every field written as a string is byte-identical to the source
+        # and not cut short, and every profile row is the row the source wrote.
         plain = unescape(src)
         plain_markup = unescape_markup(src)
         units = [e for e in raw[slug]["events"] if e.get("kind") == "unit"]
@@ -1036,6 +1058,23 @@ def check(data: dict, raw: dict[str, dict], report: dict, files: dict[str, objec
                     out = unit.get("subtitle") if key == "subtitle" else unit.get(camel(key))
                     if out != value:
                         fail(f"{slug}: {unit['name']} {key} exported as {out!r}")
+                # A string field's body opens on a list, a table or a record,
+                # never on a paragraph: that is the field's own line wrapped
+                # into it, and the export would hand on the line cut short.
+                body = ev["args"].get(key + "-body")
+                # WAR HOUNDS' unit size has a stray "v" under it, as Albion p.12 prints.
+                if (isinstance(value, str) and isinstance(body, dict) and key != "unit-size"
+                        and (blocks := blocks_of(body)) and blocks[0][0] == "p"):
+                    fail(f"{slug}: {unit['name']} {key}: the field's line wrapped into its "
+                         f"body: {blocks[0][1][:60]!r}")
+            for item in unit.get("specialRulesList", []):
+                depth = 0
+                for ch in item:
+                    depth += {"(": 1, ")": -1}.get(ch, 0)
+                    if depth < 0:
+                        break
+                if depth != 0:
+                    fail(f"{slug}: {unit['name']} special rule with unbalanced brackets: {item!r}")
             rows = [{k: v for k, v in r.items() if k != "id"} for r in unit["profiles"]]
             if [profile_row(r) for r in ev["args"].get("profiles", [])] != rows:
                 fail(f"{slug}: {unit['name']} profiles differ from source")

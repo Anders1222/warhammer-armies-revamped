@@ -342,10 +342,8 @@ At the start of each enemy turn, the transformed model must take a Leadership te
   troop-type: "Infantry (Character, Human)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "A Grail Damsel is a Level 1 Wizard. A Prophetess is a Level 3 Wizard. They use one of the following Lores",
+  magic: "A Grail Damsel is a Level 1 Wizard. A Prophetess is a Level 3 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
-of Magic:
-
 - Beasts
 - Heavens
 - Lady
@@ -1018,10 +1016,8 @@ If a misfire is rolled, roll on the Black Powder Misfire Chart as normal, but su
     rule("The Beast Mace of Bastonne")[Magic Weapon. The Beast Mace adds +2 to Bohemond’s Strength and has the Multiple Wounds (2) special rule.],
     rule("Bohemond's Shield")[Magic Armour. Shield. Should an enemy strike Bohemond with a Magic Weapon, roll a D6 for each hit. On a roll of 6, the enemy weapon is destroyed. Resolve enemy hits that are not destroyed by the shield in the normal way but once the weapon is broken all further hits from that weapon are ignored.],
   ),
-  special-rules: "Blessing of the Lady, The Grail Vow, Hatred (Beastmen, Goblins, Orcs, Skaven), Lance",
+  special-rules: "Blessing of the Lady, The Grail Vow, Hatred (Beastmen, Goblins, Orcs, Skaven), Lance Formation, Purebred Warhorse, Virtue of Heroism",
   special-rules-body: [
-*Formation, Purebred Warhorse, Virtue of Heroism*
-
 - *The Beastslayers of Bastonne:* If Bohemond the Beastslayer is included in your army, you may upgrade one unit of Foot Knights to the Beastslayers of Bastonne for a cost of +1 point per model. This unit gains the Multiple Wounds (2) special rule. The unit must be equipped with polearms.
   ],
 )
@@ -1112,10 +1108,7 @@ If a misfire is rolled, roll on the Black Powder Misfire Chart as normal, but su
     opt("May take a shield", "+2 points"),
     opt("May be mounted on a Warhorse", "+12 points"),
   ),
-  special-rules: "Blessing of the Lady, Lance Formation, Magic Resistance (3), The Knight’s Vow, Purebred",
-  special-rules-body: [
-*Warhorse, Terror*
-  ],
+  special-rules: "Blessing of the Lady, Lance Formation, Magic Resistance (3), The Knight’s Vow, Purebred Warhorse, Terror",
   order: ("troop-type", "base-size", "equipment", "magic-items", "options", "special-rules"),
 )
 

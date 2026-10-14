@@ -1604,10 +1604,8 @@ If the attacks hits, it inflicts 2D6 Hits.
   troop-type: "Infantry (Special Character, Human)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon, great weapon (Ulli only), light armour",
-  special-rules: "Devastating Charge (Ulli only), Dodge (6+) (Marquand only), Mercenaries, Parry (6+)",
+  special-rules: "Devastating Charge (Ulli only), Dodge (6+) (Marquand only), Mercenaries, Parry (6+) (Marquand only)",
   special-rules-body: [
-(Marquand only)
-
 - *A Fistful of Crowns:* Whenever Ulli and Marquand roll a natural 1 on the Mercenary Loyalty table, they have decided to switch sides, and will be under the control of your opponent from then on. If they are inside a unit, they will immediately leave it and should be placed 1" away from their former unit, in any direction of your opponent's choice.
 - *Inseparable:* Ulli and Marquand must remain with each other at all times, forming their own unit, though they may still join other units as normal.
   ],

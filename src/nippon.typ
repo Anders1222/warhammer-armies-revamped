@@ -249,10 +249,8 @@ The caster can choose to cast any spell through the candle rather than themselve
   troop-type: "Infantry (Character, Human)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "An Onmyoji is a Level 1 Wizard. A Master Onmyoji is a Level 3 Wizard. They use one of the following",
+  magic: "An Onmyoji is a Level 1 Wizard. A Master Onmyoji is a Level 3 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
-Lores of Magic:
-
 - Beasts
 - Fire
 - Death
@@ -891,10 +889,7 @@ Each Hit from a fire rocket is multiplied into D3 Hits.
   mount: "Kirin (Chimeric)",
   base-size: "25x50, 30x60, 40x40, 40x60",
   equipment: "Katana, medium armour",
-  special-rules: "Death Before Dishonour, Devastating Charge, Fear, Fly (9), Impale, Magical",
-  special-rules-body: [
-*Attacks* (Kirin only)*, Natural Armour (6+), Stubborn, Way of the Warrior*
-  ],
+  special-rules: "Death Before Dishonour, Devastating Charge, Fear, Fly (9), Impale, Magical Attacks (Kirin only), Natural Armour (6+), Stubborn, Way of the Warrior",
   options: [
 - May choose one of the following:
   - Light lances free
@@ -1272,10 +1267,7 @@ However, if a unit with an active Blessing flees for any reason, they immediatel
     rule("Biting Wind")[Magic Weapon. The wielder causes an automatic Strength 4 hit on all models in base contact in addition to his normal attacks. In addition, any model wounded, but not killed, loses all their attacks for the duration of the turn.],
     rule("Kage Mask")[Enchanted Item. This item gives Sarutori Hanzo the Fear special rule. In addition, it contains a Bound Spell (Level 1, cast on 3+). This is an *augment* spell that Sarutori Hanzo can cast on himself. He may immediately make a Fly move up 10", even if engaged in close combat, as if it were the Remaining Moves sub-phase.],
   ),
-  special-rules: "Dodge (4+), Fauntei Shi (see Shinobi), Hidden, Independent, Poisoned Attacks, Scouts, Mon",
-  special-rules-body: [
-*of the Hattiga Clan*
-  ],
+  special-rules: "Dodge (4+), Fauntei Shi (see Shinobi), Hidden, Independent, Poisoned Attacks, Scouts, Mon of the Hattiga Clan",
 )
 
 #unit("O-SAYUMI",

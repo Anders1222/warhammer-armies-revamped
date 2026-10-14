@@ -434,10 +434,8 @@ A model with this rule can choose to make a single Tree Whack in place of making
   troop-type: "Infantry (Character, Wood Elf)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "A Spellsinger is a Level 1 Wizard. A Spellweaver is a Level 3 Wizard. They use one of the following Lores",
+  magic: "A Spellsinger is a Level 1 Wizard. A Spellweaver is a Level 3 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
-of Magic:
-
 - Athel Loren
 - Beasts
 - Heavens
@@ -474,10 +472,7 @@ of Magic:
   - Great weapon +15 points
 - May take one Spite and/or Magic Items up to a total of 50 points
   ],
-  special-rules: "Blessings of the Ancients, Elven Grace, Forest Strider, Magical Ward (6+), Magic",
-  special-rules-body: [
-*Resistance (1), Shadow Dances of Loec*
-  ],
+  special-rules: "Blessings of the Ancients, Elven Grace, Forest Strider, Magical Ward (6+), Magic Resistance (1), Shadow Dances of Loec",
   order: ("troop-type", "base-size", "equipment", "magic", "options", "special-rules"),
 )
 
@@ -573,10 +568,7 @@ of Magic:
 - Athel Loren
 - Life
   ],
-  special-rules: "Blessings of the Ancients, Flammable, Forest Spirit, Natural Armour (3+), Stubborn, Tree",
-  special-rules-body: [
-*Whack*
-  ],
+  special-rules: "Blessings of the Ancients, Flammable, Forest Spirit, Natural Armour (3+), Stubborn, Tree Whack",
   upgrades: [
 - *Strangleroots:* Strangleroots have the following profile:
 
@@ -618,10 +610,7 @@ of Magic:
 - Athel Loren
 - Life
   ],
-  special-rules: "Blessings of the Ancients, Flammable, Forest Spirit, Hatred, Natural Armour (6+), Tree",
-  special-rules-body: [
-*Aspects*
-  ],
+  special-rules: "Blessings of the Ancients, Flammable, Forest Spirit, Hatred, Natural Armour (6+), Tree Aspects",
   options: [
 - May be upgraded to a Level 1 Wizard +35 points
 - May take a great weapon +15 points
@@ -1153,10 +1142,7 @@ by the Wood Elf player.")))
   mount: "Dragonspite (Insectoid, Forest Spirit)",
   base-size: "50x50 or 50x75",
   equipment: "Hand weapon, shields",
-  special-rules: "Devastating Charge, Fast Cavalry, Fly (9), Forest Spirit, Martial Memories, Natural",
-  special-rules-body: [
-*Armour (5+), Regeneration (5+)*
-  ],
+  special-rules: "Devastating Charge, Fast Cavalry, Fly (9), Forest Spirit, Martial Memories, Natural Armour (5+), Regeneration (5+)",
   options: [
 - May take light lances +2 points/model
 - May upgrade one Spiterider Revenant to a Leader +5 points
@@ -1265,10 +1251,8 @@ by the Wood Elf player.")))
     rule("The Berry Wine")[Enchanted Item. One use only. The wine can be drunk at the start of any phase. Ariel will immediately regain up to D3 Wounds previously lost during the battle.],
     rule("The Acorn of Ages")[Enchanted Item. One use only. At the start of the game, after the battlefield has been set up, but before deployment begins, place a forest, no more than 12" in diameter, on the battlefield. This forest can be placed anywhere at least 1" away from another terrain feature and the edge of the battle field. Once the forest have been placed, it scatters 2D6". If this scatter causes a forest to end up within 1" (or on top of) other terrain, or within 1" of the battle field edge, reduce or increase the scatter by the smallest amount necessary to avoid the obstruction. When this has been done, declare which type of forest you want it to be from those available in the Main Rulebook.],
   ),
-  special-rules: "Blessings of the Ancients, Fly (9), Forest Spirit, Loremaster (Lore of Athel Loren), Magic",
+  special-rules: "Blessings of the Ancients, Fly (9), Forest Spirit, Loremaster (Lore of Athel Loren), Magic Resistance (3)",
   special-rules-body: [
-*Resistance (3)*
-
 - *Aura of the Fey Queen:* All friendly units within 6" of Ariel have the Immunity (Panic) special rule.
 - *Earthbind:* Any units declaring a charge on Ariel count as moving through Dangerous Terrain for the duration of the turn. In addition, if Ariel flees from combat, any enemies attempting to pursue her roll an extra D6 when determining their pursuit distance and discard the highest result.
 - *Screech:* Ariel may use Screech when it would normally be her time to attack in close combat. This is a special attack that automatically Hits all enemy models in base contact at Strength 4 with the Ignores Armour special rule.
@@ -1447,10 +1431,8 @@ In close combat, the falcons give Skaw an additional 3 Attacks that are resolved
 
 If a target has Unit Strength 3 or less and is Hit, but not slain, then it is temporarily entangled and cannot move in their next Movement phase. Entangled enemies may be left behind, counting as casualties, or in the case of a Character, as if they had left the unit.
   ],
-  special-rules: "Animal Form (Gruarth only, see Alters), Elven Grace (Gruarth only), Forest Strider, Mixed",
+  special-rules: "Animal Form (Gruarth only, see Alters), Elven Grace (Gruarth only), Forest Strider, Mixed Unit, Natural Armour (6+), Skirmishers",
   special-rules-body: [
-*Unit, Natural Armour (6+), Skirmishers*
-
 - *Beastmaster:* Fang and Claw are War Beasts (Canine) and Gruarth is their Handler. If Gruath is slain, Fang and Claw become subject to Frenzy. If both Fang and Claw are slain, Gruarth becomes subject to Hatred.
   ],
 )
@@ -1532,10 +1514,8 @@ Any enemy units that suffer Wounds from any of these attacks suffer \-1 To Hit a
 - Life
 - Shadow
   ],
-  special-rules: "Blessings of the Ancients, Flammable, Forest Spirit, Natural Armour (6+), Spirit-walk (see",
+  special-rules: "Blessings of the Ancients, Flammable, Forest Spirit, Natural Armour (6+), Spirit-walk (see Tree-Revenants), Tree Aspects",
   special-rules-body: [
-Tree-Revenants)*, Tree Aspects*
-
 - *Eternal Rage:* Drycha has the Hatred special rule which applies in every round of close combat, not just the first.
 - *Fanatical Resolve:* If Drycha is reduced to 1 Wound, she gains the Frenzy special rule. She automatically loses Frenzy if she is healed back to her starting number of Wounds.
 - *Roused to Wrath:* You may choose up to D3 units with the Forest Spirit special rule to deploy as Ambushers. When these unit would normally enter the battlefield, instead place them so that all models in the unit are wholly within a forest, and at least 1" away from other units and impassable terrain. Units that cannot be deployed this way enter the board as normal Ambushers instead. This rule cannot be used if there are no forests on the battlefield when it is time to deploy your army.

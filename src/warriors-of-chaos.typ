@@ -1843,10 +1843,8 @@ another victim. Roll again on this table to see what happens.")))
 
 #minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "Always Strikes First"))
   ],
-  special-rules: "Daemon of Slaanesh (Steed of Slaanesh only), Fast Cavalry, Mark of Slaanesh, Poisoned",
+  special-rules: "Daemon of Slaanesh (Steed of Slaanesh only), Fast Cavalry, Mark of Slaanesh, Poisoned Attacks (Steed of Slaanesh only)",
   special-rules-body: [
-*Attacks* (Steed of Slaanesh only)
-
 - *Soul Hunters:* When a unit of Hellstriders of Slaanesh wins a round of close combat, they gain a bonus special rule for the remainder of the game according to the table below:
 
 #chart((("Rounds won", "Bonus"), ("1", "Fuelled by Pain: The unit gains +1 Attack (not including mounts)."), ("2", "Insensible to Agony: All successful To Wound rolls against the unit must be re-rolled."), ("3", "Intoxicating Delirium: The unit gains the Unbreakable special rule.")))
@@ -1906,9 +1904,7 @@ another victim. Roll again on this table to see what happens.")))
   mount: "Juggernaut of Khorne (Daemon)",
   base-size: "50x75",
   equipment: "Hand weapons, heavy armour, shield",
-  equipment-body: [
-#runin[SPECIAL RULES: ]*Chaos Armour, Daemon of Khorne* (Juggernaut only)#runin[, ]*Mark of Khorne, Natural Armour (6+), Will of Chaos*
-  ],
+  special-rules: "Chaos Armour, Daemon of Khorne (Juggernaut only), Mark of Khorne, Natural Armour (6+), Will of Chaos",
   options: [
 - May choose one of the following:
   - Ensorcelled Weapons +2 points/model
@@ -1952,10 +1948,7 @@ Unlike other random movement, an Unbound Slaughterbrute can move into base conta
   mount: "Rot Beast of Nurgle (Canine)",
   base-size: "50x75",
   equipment: "Hand weapon, heavy armour, shield",
-  special-rules: "Chaos Armour, Eye of the Gods, Mark of Nurgle (included in profile), Poisoned Attacks (Rot",
-  special-rules-body: [
-Beast only)*, Regeneration (5+), Will of Chaos*
-  ],
+  special-rules: "Chaos Armour, Eye of the Gods, Mark of Nurgle (included in profile), Poisoned Attacks (Rot Beast only), Regeneration (5+), Will of Chaos",
   options: [
 - May choose one of the following:
   - Ensorcelled weapons +2 points/model
@@ -1986,10 +1979,7 @@ Beast only)*, Regeneration (5+), Will of Chaos*
 
 Each Hit from a Death Head is multiplied into D6 Hits.
   ],
-  special-rules: "Chaos Armour, Daemon of Nurgle (Rot Fly only), Fly (6), Mark of Nurgle (included in",
-  special-rules-body: [
-profile)*, Poisoned Attacks* (Rot Fly only)*, Will of Chaos*
-  ],
+  special-rules: "Chaos Armour, Daemon of Nurgle (Rot Fly only), Fly (6), Mark of Nurgle (included in profile), Poisoned Attacks (Rot Fly only), Will of Chaos",
   options: [
 - May take Death Heads +5 points/model
 - May upgrade one Pusgoyle Blightlord to a Leader +5 points
@@ -2041,10 +2031,8 @@ profile)*, Poisoned Attacks* (Rot Fly only)*, Will of Chaos*
     rule("Fireglaive")[Polearm. Fireglaives have the Flaming Attacks and Magical Attacks special rules.],
   ),
   magic: "A unit of Fatemasters is a Level 1 Wizard that uses the Lore of Tzeentch.",
-  special-rules: "Chaos Armour, Daemon of Tzeentch (Disc of Tzeentch only), Fly (9), Mark of Tzeentch, Will",
+  special-rules: "Chaos Armour, Daemon of Tzeentch (Disc of Tzeentch only), Fly (9), Mark of Tzeentch, Will of Chaos",
   special-rules-body: [
-*of Chaos*
-
 - *Coven of Tzeentch:* Each time the unit casts a spell (or is targeted by a special rule that affects a Wizard), you must nominate one Fatemaster as the caster (or target) for the purposes of line of sight, range, etc. In the event of a Fatemaster unit rolling a miscast, do not roll on the Miscast table. Instead, the unit suffers D3 Wounds with no saves of any kind allowed.
 - *Masters of Fate:* Fatemasters, and any friendly units within 8" of them, may re-roll 1's when taking armour saves.
   ],
@@ -2349,10 +2337,8 @@ In addition, he knows the following spell:
     rule("Starcrusher")[Magic Weapon. Great weapon. Hits inflicted by Starcrusher have the Multiple Wounds (D3) special rule.],
     rule("Armour of the Storm")[Magic Armour. Heavy armour. If any enemy spell or missile attack with the Lightning Attacks special rule targets a unit within 12" of Kholek, the spell's effects are redirected toward Kholek instead.],
   ),
-  special-rules: "Immunity (Psychology), Impact Hits (D6), Natural Armour (4+), Storm Call (see Dragon",
+  special-rules: "Immunity (Psychology), Impact Hits (D6), Natural Armour (4+), Storm Call (see Dragon Ogre Shaggoth), Storm Rage (see Dragon Ogres)",
   special-rules-body: [
-Ogre Shaggoth), *Storm Rage* (see Dragon Ogres)
-
 - *Lord of the Storm:* During each of Kholek Suneater's Shooting phases, you may choose a single unengaged enemy unit that is within 24" of Kholek Suneater, and is in his front arc and line of sight, and roll a D6. On a roll of a 2\-6 a bolt of lightning hits the unit, inflicting D6 Strength 6 hits with the Lightning Attacks special rule. On the roll of a 1, the attack has no effect. Kholek Suneater may use this ability even if he is engaged in close combat.
   ],
   notes: [
@@ -2394,10 +2380,8 @@ Ogre Shaggoth), *Storm Rage* (see Dragon Ogres)
     rule("Daemonshield")[Magic Armour. Shield. Whilst an enemy model is in base contact with Valkia the Bloody, they reduce their Attacks by 1, to a minimum of 1.],
     rule("The Scarlet Armour")[Magic Armour. Heavy armour. Whilst an enemy model is in base contact with Valkia the Bloody they reduce their Strength by 1, to a minimum of 1.],
   ),
-  special-rules: "Chaos Armour, Eye of the Gods, Fear, Fly (10), Mark of Khorne, Magical Ward (5+), Will",
+  special-rules: "Chaos Armour, Eye of the Gods, Fear, Fly (10), Mark of Khorne, Magical Ward (5+), Will of Chaos",
   special-rules-body: [
-*of Chaos*
-
 - *Consort of the Blood God:* If Valkia the Bloody is required to roll on the Eye of the Gods table, do not roll any dice. Instead, she always gains +1 Strength.
 - *The Gaze of Khorne:* All friendly units with the Mark of Khorne within 12" of Valkia the Bloody re-roll failed Break tests. However, any friendly unit with the Mark of Khorne that flees whilst within 12" of Valkia the Bloody, for whatever reason, immediately suffers D6 Strength 6 hits.
   ],
@@ -2591,10 +2575,8 @@ If no eligible model is available or the possession attack fails, Tamurkhan is k
   magic-items: (
     rule("The Rotaxes")[Orghotts Daemonspew only. Magic Weapon. Two hand weapons. Close combat attacks made by the wielder have +2 Strength and the Poisoned Attacks special rule.],
   ),
-  special-rules: "Chaos Armour, Eye of the Gods, Mark of Nurgle (included in profile), Magical Ward (6+)",
+  special-rules: "Chaos Armour, Eye of the Gods, Mark of Nurgle (included in profile), Magical Ward (6+) (Orghotts Daemonspew only), Will of Chaos",
   special-rules-body: [
-(Orghotts Daemonspew only)*, Will of Chaos*
-
 - *Acid Ichor:* Whenever Orghotts Daemonspew suffers an unsaved Wound in close combat, the model that inflicted that hit must pass an Initiative test or suffer a Strength 4 hit. Wounds inflicted by Acid Ichor count towards the combat result.
 - *Bilespurter:* Bloab Rotspawned only. This is a stone thrower with the following profile:
 
@@ -2649,10 +2631,8 @@ In case a misfire is rolled, Bloab Rotspawned suffers 1 Wound with no saves allo
     rule("Sword of Filth")[Magic Weapon. Attacks with this sword may re-roll failed rolls To Wound and have the Armour Piercing (1) special rule.],
     rule("Icon of Decay")[Enchanted Item. This item gives the bearer the Devastating Charge special rule. In addition, enemy units in base contact suffer \-1 to their Weapon Skill.],
   ),
-  special-rules: "Chaos Armour, Eye of the Gods, Mark of Nurgle (included in profile), Poisoned Attacks",
+  special-rules: "Chaos Armour, Eye of the Gods, Mark of Nurgle (included in profile), Poisoned Attacks (Rotbeast only), Regeneration (5+), Will of Chaos",
   special-rules-body: [
-(Rotbeast only)*, Regeneration (5+), Will of Chaos*
-
 - *Corrupted Flesh:* All attacks (except those with the Flaming Attacks special rule) suffer \-1 To Wound Kayzk the Befouled.
   ],
 )
@@ -2667,10 +2647,8 @@ In case a misfire is rolled, Bloab Rotspawned suffers 1 Wound with no saves allo
   magic-items: (
     rule("Gatherer of Souls")[Magic Weapon. Flail. For every unsaved Wound caused by Valnir in close combat, he may increase his Attacks or Strength by 1 in the next round of close combat.],
   ),
-  special-rules: "Chaos Armour, Eye of the Gods, Fear, Hatred, Immunity (Psychology), Mark of Nurgle",
+  special-rules: "Chaos Armour, Eye of the Gods, Fear, Hatred, Immunity (Psychology), Mark of Nurgle (included in profile), Regeneration (4+), Will of Chaos",
   special-rules-body: [
-(included in profile)*, Regeneration (4+), Will of Chaos*
-
 - *Wind of Pestilence:* At the start of each round of close combat, all enemy units in base contact Valnir get infected by the deadly contagion of Valnir. Roll a D6 to see which ailment the unit(s) suffers.
 
 #chart((("D6", "Result"), ("1-3", "The Red Plague: The unit suffers D6 Strength 3 hits which Ignores Armour saves."), ("4-5", "Brain Fever: The unit suffers -2 to their Leadership until the start of the next round."), ("6", "Black Rot: All the members of the unit suffer a -1 Toughness penalty until the start of the next
@@ -2691,10 +2669,8 @@ round.")))
   magic-items: (
     rule("Pestilent Potions")[Enchanted Item. At the beginning of each Close Combat phase Festus may either drink his potions, in which case he will immediately regain a single lost Wound, or try to force them down the throat of a single enemy model in base contact. If he attempts the latter, both players roll a D6 and add their model's unmodified Strength to the result. If your opponent's total is higher, nothing happens. If Festus' total is equal or higher, his victim immediately suffers D3 Wounds which Ignores Armour saves. Any unsaved Wounds inflicted by Pestilent Potions count towards the combat result.],
   ),
-  special-rules: "Eye of the Gods, Mark of Nurgle (included in profile), Poisoned Attacks (including",
+  special-rules: "Eye of the Gods, Mark of Nurgle (included in profile), Poisoned Attacks (including Gathoblyt), Regeneration (4+), Will of Chaos",
   special-rules-body: [
-Gathoblyt)*, Regeneration (4+), Will of Chaos*
-
 - *Harbinger of Pestilence:* Whilst Festus the Leechlord is in a unit, all models in that unit have the Poisoned Attacks special rule.
 - *Healing Elixirs:* Whilst Festus the Leechlord is in a unit, all models in that unit have the Regeneration (6+) special rule.
 - *Dark Experiments:* When making a pursuit move, Festus and any unit he is with will only pursue D6". However, enemy units caught by Festus or his unit are worth double victory points.
