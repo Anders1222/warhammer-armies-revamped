@@ -4473,16 +4473,16 @@ In addition to any specific restrictions noted in the relevant Warhammer Armies 
 
 === UNIQUE
 
-Magic items are considered to be unique – you can only have one of each in your army unless otherwise stated in the magic item's rules.
+Magic items are considered to be unique – you can only have one of each in your army.
 
 === BALANCE OF POWER
 
-Usually, only characters can carry magic items. Each model can normally only carry one of each type of magic item. Magic items are divided into six categories: Magic Weapons, Magic Armour, Talismans, Enchanted Items, Arcane Items and Magic Standards. A model can only ever choose one item from each category, unless specified. The only exceptions to this rule are some special characters, who might well have two magical weapons, for example.
+Each model can normally only carry one of each type of magic item. Magic items are divided into six categories: Magic Weapons, Magic Armour, Talismans, Enchanted Items, Arcane Items and Magic Standards. A model can only ever choose one item from each category, unless specified.
 
 #magic-item-section("weapon", first: true, intro: [
 Unless otherwise stated, a magic weapon is treated as a hand weapon (replacing the model's regular hand weapon), and follows the rules for such. This means that a magic weapon can be used with both an additional hand weapon or shield/buckler following their normal rules. In the case of non-magical additional hand weapons, the +1 Attack does not benefit from any special rules from the magic weapon.
 
-In order for a model to be able to choose a particular piece of weapon (such as great weapon, polearm or two hand weapons) they must be able to pick this as a mundane option or have it as part of their default equipment. Note that magic weapons that count as normal hand weapons may be taken by any model that can choose magic weapons.
+In order for a model to be able to choose a particular piece of weapon (such as great weapon, polearm or two hand weapons) they must be able to pick this as a mundane option or have it as part of their default equipment, unless it is specified. Note that magic weapons that count as normal hand weapons may be taken by any model that can choose magic weapons.
 
 A character that has a magic close combat weapon cannot use any other close combat weapons. If a character has more than one magic weapon, they must choose which one to use at the start of the combat (unless a rule specifies that both can be used at the same time) – the chosen weapon must be used for the duration of the combat.
 ])[
@@ -4496,7 +4496,7 @@ A character that has a magic close combat weapon cannot use any other close comb
 
 #magic-weapon("FENCER'S BLADES", 30, type: "Two hand weapons")[The bearer has Weapon Skill 10.]
 
-#magic-weapon("OGRE BLADE", 30)[The wielder gains +2 Strength.]
+#magic-weapon("SWORD OF POWER", 30)[The wielder gains +2 Strength.]
 
 #magic-weapon("SWORD OF STRIFE", 30)[The wielder gains +2 Attacks.]
 
@@ -4512,7 +4512,7 @@ A character that has a magic close combat weapon cannot use any other close comb
 
 #magic-weapon("BLADE OF SEA GOLD", 15)[The wielder gains the Armour Piercing (3) special rule.]
 
-#magic-weapon("BONE BLADE", 15)[The wielder gains the Multiple Wounds (D3) special rule.]
+#magic-weapon("OGRE BLADE", 15)[The wielder gains the Multiple Wounds (D3) special rule.]
 
 #magic-weapon("HEADSMAN'S AXE", 15)[The wielder gains the Killing Blow special rule.]
 
@@ -4608,7 +4608,7 @@ The Talismans category includes items that offer protection for the bearer.
 ]
 
 #magic-item-section("arcane", intro: [
-Arcane items are items that enhance a Wizard's magical powers in some fashion. Only a character with a Wizard level can carry Arcane Items. Characters with no sensitivity to magical essences and mysteries will either find an Arcane Item useless and inert, or have their brains sucked out through their ears should they try to use it.
+Only a character with a Wizard level can carry Arcane Items.
 
 Unlike other magic items, Wizards that are Lords can take up to two Arcane Items. If they do so, one of their Arcane Items must be marked as "One use only". Note that they may not take two "One use only" items.
 ])[
@@ -4634,9 +4634,9 @@ Unlike other magic items, Wizards that are Lords can take up to two Arcane Items
 
 #arcane-item("MYSTIC MAZE", 20, one-use: true)[The Mystic Maze may be used against any enemy spell that directly targets any friendly unit. Roll 3D6 measured from the centre of the unit; this is the distance the spell scatters in a random direction. Should the spell end up on another unit, this unit will become the target of the spell; otherwise the spell has no effect.]
 
-#arcane-item("SCEPTRE OF STABILITY", 20)[The bearer gains a +1 dispel bonus.]
+#arcane-item("WAND OF ONYX", 20)[The bearer gains a +1 casting bonus.]
 
-#arcane-item("WAND OF JET", 20)[The bearer gains a +1 casting bonus.]
+#arcane-item("SCEPTRE OF STABILITY", 20)[The bearer gains a +1 dispel bonus.]
 
 #arcane-item("ARCANE FAMILIAR", 15)[The bearer can choose one Signature spell as an additional spell from any of the eight Winds of Magic in this book, even if they normally cannot choose that lore.]
 
