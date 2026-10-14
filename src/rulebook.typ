@@ -2504,7 +2504,7 @@ The values listed in this chapter are the default for each troop type. However, 
 
 #namecost("MODELS AND BASE SIZES", "")
 
-Each model should be mounted on a base to determine the width and depth of the unit. Each troop type has different generally approved base sizes, which are listed in each army book.
+Each model should be mounted on a base to determine the width and depth of the unit. Each troop type has different generally approved base sizes, which are listed in each army book. War machines however, may choose to either be mounted on a base, or be placed on the board as is.
 
 In some cases, you might be using a model that requires a larger base than described. This is completely fine, as long as you try to keep it as close as possible to the normal approved base sizes. However, you may never have a base size that is smaller than the approved base sizes listed.
 
@@ -2803,7 +2803,11 @@ Monsters are subject to the following special rules:
 
 #namecost("SPLIT PROFILE", "")
 
-Ridden Monsters follow all the Split Profile rules for Cavalry. However, they may only have an armour save of a total of 2+ instead of the normal 1+. The riders can fire in 360° around them, rather than only firing at targets within their front arc. This only applies to any missile weapons carried by the crew themselves; any missile weapons mounted on the Monster itself can only fire in the model's forward arc as normal. Any crew member that chooses to fire the mounted weapon cannot fire their own weapon in the same turn.
+Ridden Monsters follow all the Split Profile rules for Cavalry. The riders can fire in 360° around them, rather than only firing at targets within their front arc. This only applies to any missile weapons carried by the crew themselves; any missile weapons mounted on the Monster itself can only fire in the model's forward arc as normal. Any crew member that chooses to fire the mounted weapon cannot fire their own weapon in the same turn.
+
+#namecost("ARMOUR SAVES", "")
+
+Many Monsters have an armour save detailed in their army list entry, which is combined with any armour the riders might have.
 
 #namecost("CHARACTER MOUNT", "")
 
@@ -2831,7 +2835,7 @@ Unlike cavalry, chariot mounts can only fight enemies to the front.
 
 The Wounds and Toughness of the crew and the creatures are never used – hits are resolved against the chariot's Wounds and Toughness. It is the crew's Weapon Skill that is used for the purposes of the enemy rolling to hit, just as with cavalry.
 
-Any missile weapons use the Ballistic Skill of the crew when making Shooting attacks. The crew can fire in 360° around them, rather than only firing at targets within their front arc. This only applies to any missile weapons carried by the crew themselves; any missile weapons mounted on the chariot itself can only fire in the model's forward arc as normal. Any crew member that chooses to fire the mounted weapon cannot fire their own weapon in the same turn.
+The crew can fire in 360° around them, rather than only firing at targets within their front arc. This only applies to any missile weapons carried by the crew themselves; any missile weapons mounted on the chariot itself can only fire in the model's forward arc as normal. Any crew member that chooses to fire the mounted weapon cannot fire their own weapon in the same turn.
 
 #namecost("ARMOUR SAVES", "")
 
@@ -2882,7 +2886,7 @@ All the Split Profile rules for Cavalry rules apply to Shrines. In addition, the
 
 Unlike most other units, a shrine may join other units of Infantry (except Skirmishers) following the rules for Characters and Units in the characters chapter.
 
-When moving, the shrine model uses its own Movement characteristic. The crew and the creatures pulling the Shrine use their own Weapon Skill, Strength, Initiative and Attacks characteristics when they attack. Each can attack any opponent that the shrine model is in base contact with. If the crew models have missile weapons, they use their own Ballistic Skill when making Shooting attacks.
+When moving, the shrine model uses its own Movement characteristic.
 
 The Wounds and Toughness of the crew and the creatures are never used – hits are resolved against the shrine's Wounds and Toughness. It is the crew's Weapon Skill that is used for the purposes of the enemy rolling to hit, just as with cavalry.
 
@@ -2912,8 +2916,9 @@ The following rules apply to War Machines:
 
 #namecost("SPECIAL RULES", "")
 
-War Machines are subject to the following special rule:
+War Machines are subject to the following special rules:
 
+- Cumbersome
 - Move or Fire
 
 Unless specified, any special rules a war machine might have apply to both the war machine and the crew. For further information on war machines, see the War Machines chapter.
