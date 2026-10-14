@@ -3965,7 +3965,7 @@ Always make sure to make it clear to your opponent what unit is which, and what 
 
 #namecost("THE ARMY GENERAL", "")
 
-*An army must always include at least one Lord or Hero character to be its Army General.*
+*An army must always include at least one character to be its Army General.*
 
 The Army General has the Inspiring Presence (12) special rule.
 
@@ -3983,7 +3983,7 @@ The Battle Standard Bearer has the Hold Your Ground (12) special rule.
 
 If a Battle Standard Bearer is in a unit and Refuses a Challenge it is subsequently moved to the rear of its unit and loses the Hold Your Ground special rule until the end of the turn.
 
-Like a normal standard, a Battle Standard adds +1 combat resolution in a close combat if it is in a friendly unit.
+Like a normal standard, a Battle Standard adds +1 combat resolution.
 
 Unlike normal standards, the Battle Standard is lost if the bearer is slain – other models cannot pick it up, even if they are in the same unit.
 
@@ -4025,7 +4025,7 @@ You can spend up to 25% of your points on Rare units.
 
 #namecost("WIZARDS AND SPELL LORES", "")
 
-Some Lords and Heroes are Wizards, and have access to one or more spell lores.
+Some characters are Wizards, and have access to one or more spell lores.
 
 Although you will not choose the spells that your Wizards know until you start to play your game you do need to make a note in your army roster of which spell lore each of your Wizards will use. The spells themselves are chosen after you know which army you will be facing, but before rolling to choose sides to deploy on.
 
@@ -4049,7 +4049,7 @@ There is a limit on how many duplicates of each Special and Rare unit you can in
 
 In each army book is listed a unit size for each entry that consists of more than one model. This is the minimum number of models that must be included in that unit, and the listed points cost is multiplied by each model. Some units also have a maximum limit of models per unit; this is specified in the unit entry in question.
 
-Some units consist of two types of models; these always specify the number of models of each type that is part of the unit.
+In the case of Mixed Units, the listed unit size does not include any handlers. The number of Handlers is always specified separately.
 
 #namecost("EQUIPMENT", "")
 
