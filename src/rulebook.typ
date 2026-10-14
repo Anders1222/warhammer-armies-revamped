@@ -1205,7 +1205,7 @@ Then proceed to the next unit that is shooting and continue as above until you h
 
 A model may not shoot in the following scenarios:
 
-- They marched in the preceding Movement phase.
+- They marched or reformed in the preceding Movement phase.
 - They rallied or declared a charge.
 - They are fighting in close combat.
 - They are fleeing.
@@ -1231,7 +1231,7 @@ Models further back than the second rank of a unit are assumed to have their lin
 
 All missile weapons have a maximum range that indicates the furthest distance they can shoot. A detailed summary of shooting weapons and their ranges can be found in the Weapons & Armour chapter.
 
-A model can normally only shoot at a target if it lies within the maximum range of the weapon it is shooting with. The one exception to this is when a unit Stands and Shoots – here we assume that the charging enemy has entered the weapons' range before the unit shoots.
+A model can normally only shoot at a target if it lies within the maximum range of the weapon it is shooting with.
 
 === WE CANNOT ALL FIRE
 
@@ -1280,7 +1280,7 @@ Troops with a high BS have a To Hit score of 1, 0 or even a negative number (as 
 
 === SHOOTING MODIFIERS
 
-Shooting modifiers are applied to the dice rolls before they are compared to the score needed to hit, making the shot more difficult, and therefore less likely to succeed. The shooting modifiers are cumulative (except when noted otherwise).
+Shooting modifiers are applied to the dice rolls before they are compared to the score needed to hit, making the shot either easier or more difficult. The shooting modifiers are cumulative (except when noted otherwise).
 
 #namecost("MOVING AND SHOOTING", "")
 
@@ -1299,6 +1299,8 @@ Any shots taken at a Lone Model with Unit Strength 2 or less suffer a \-1 to Hit
 If the majority of the models in the target unit are within Line of Sight, but behind models from another unit (friend or enemy) or terrain with half or more as high Line of Sight value as them, then an additional To Hit modifier is applied.
 
 For example, a unit where the majority of the models have a Line of Sight value of 1 in front of a unit where the majority of the models have a Line of Sight value of 2 will provide cover. However, the same unit will not provide cover to a unit whose majority of models have a Line of Sight value of 3 or higher. This works the other way around as well, so a model with a Line of Sight value of 3 will ignore the cover otherwise gained by a model with a Line of Sight value of 2 behind a model with a Line of Sight value of 1.
+
+Models with a Line of Sight value of 0 does not offer any cover to anything with a higher Line of Sight value.
 
 Cover will be classed as either soft or hard cover – see below. It is common for some models in the firing unit to have something in the way, and for others to have a clear shot. Where this happens, simply resolve the two sets of shots (and thus the two sets of To Hit modifiers) separately.
 
