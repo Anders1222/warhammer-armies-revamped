@@ -1986,7 +1986,7 @@ In addition, models with this special rule can march, claim rank bonus and be st
 
 A model with a Breath Weapon can use it to make a special attack once per shooting or close combat phase. A model with two or more different Breath Weapons must choose which one they want to use. The form that this special attack takes depends on whether or not the creature is in close combat. In the event that a model has more than one Breath Weapon attack, it is permitted to attempt to use only one in a single turn.
 
-However, after each Breath Weapon has been used the first time, roll a D6 before attempting to use it again in later rounds. On 4+, it may be used as normal. On a 1- 3, the model is literally out of breath, and cannot use its Breath Weapon this round. It may choose to attack normally in close combat instead.
+However, after each Breath Weapon has been used the first time, roll a D6 before attempting to use it again in later rounds. On 4+, it may be used as normal. On a 1- 3, the model is literally out of breath, and cannot use its Breath Weapon this round. It may choose to attack normally in close combat instead. This does not apply to temporary Breath Weapons from magic items or spells.
 
 Note that Breath Weapons are not physical attacks, and certain models may be Immune to the effects of some Breath Weapons.
 
@@ -2002,7 +2002,7 @@ To perform the attack, place the flame template so that it lies entirely within 
 
 #namecost("Breath Weapon Close Combat Attack", "")
 
-If the model with this special rule is in close combat, it can use the Breath Weapon instead of using its normal attacks. A model that makes a breath weapon attack in this way inflicts 2D6 automatic hits (resolved like shooting) on a single enemy unit in base contact – if there is more than one enemy unit in base contact with the model, the controlling player chooses which enemy unit suffers the hits. Note that no single model in the target unit may be Hit more than once from the same breath weapon attack – any excess hits are ignored. As with breath weapon attacks made in the Shooting phase, the Strength and any special effects of the creature's Breath Weapon will be covered in its rules, any other special rules do not apply. Wounds caused by a Breath Weapon in close combat count towards combat resolution.
+If the model with this special rule is in close combat, it can use the Breath Weapon instead of using its normal attacks. A model that makes a breath weapon attack in this way inflicts 2D6 automatic hits (resolved like shooting) on a single enemy unit in base contact – if there is more than one enemy unit in base contact with the model, the controlling player chooses which enemy unit suffers the hits. As with breath weapon attacks made in the Shooting phase, the Strength and any special effects of the creature's Breath Weapon will be covered in its rules, any other special rules do not apply.
 
 === COLD-BLOODED
 
@@ -2016,11 +2016,15 @@ Models with this special rule have +1 Attack during a turn in which they charge 
 
 Models with this rule gain an invulnerable save against attacks in their front arc (including templates, Stomps and Impact Hits) as indicated in the brackets. This is cumulative with other sources of Dodge. This cannot be used against Magical Attacks that Hit automatically (such as spells or certain special rules), or that have the Always Strikes First special rule, nor can it be used if the model is subject to the Always Strikes Last special rule.
 
+=== DISCIPLINED
+
+Whenever a unit where the majority of the models have this special rule takes a Leadership test that is not a Psychology or Break test, it rolls an additional dice and discards the highest result.
+
 === ETHEREAL
 
 Ethereal creatures treat all terrain as Open Terrain for the purposes of movement. They may not finish their movement inside Impassable Terrain. They are also never slowed by any special rule, spell or item that would otherwise reduce their movement or stop them from moving completely.
 
-Models with this special rule have both the Magical Attacks and Unstable special rules (described later in this chapter). Ethereal models have an invulnerable save (2+) against mundane attacks. However, they only have an invulnerable save (5+) against magical attacks. Ethereal creatures block Line of Sight normally and cannot see through anything that would block the Line of Sight of normal units.
+Models with this rule have the Magical Attacks, Magical Ward (3+) and Unstable special rules (described later in this chapter).
 
 Characters that are not themselves Ethereal are not permitted to join units that are (even if they become temporarily Ethereal for some reason).
 
@@ -2033,6 +2037,8 @@ For every Core unit with the Expendable special rule in your army, you are requi
 === FEAR
 
 A unit containing one or more Fear-causing models gains +1 to its Combat Resolution score. If the Unit Strength of all Fear-causing models is double or more that of the total Unit Strength of all enemy units in base contact, the Combat Resolution score is increased by +2. Note that the bonus from Fear is otherwise not cumulative for having multiple units with the Fear special rule involved in the same combat.
+
+If a model has the Fear special rule from two or more different sources (such as a combination of different special rules, spells or magic items), it instead gains the Terror special rule (described later).
 
 If the majority of the models in a unit cause Fear, they also gain the Immunity (Fear) special rule (described later), and thus the Combat Resolution bonus of their Fear-causing enemies is ignored for that unit.
 
@@ -2058,7 +2064,7 @@ If a model has the Frenzy special rule from two or more different sources (such 
 
 #namecost("Berserk Rage", "")
 
-A unit that includes one or more Frenzied models can only choose Hold or Stand & Shoot as a charge reaction.
+A unit that includes one or more Frenzied models can never choose Flee as a Charge Reaction, and must pass a Leadership test if it wishes to choose a charge reaction other than Counter-charge. If this test is failed, the unit must declare a Counter-charge instead as per the normal rules for it.
 
 If, during the Charge sub-phase, a unit that includes one or more Frenzied models does not declare a charge, then it must do so unless a Leadership test is passed. If the Leadership test is failed, the Frenzied unit must declare a charge against the nearest viable enemy.
 
@@ -2112,13 +2118,23 @@ Models that are Immune to all three above effects have the Immunity (Psychology)
 
 === IMPACT HITS
 
-The number of Impact Hits caused is shown in brackets after the special rule. If a model is granted two sets of Impact Hits, normally because its troop type and special rules both bestow Impact Hits, use the highest set, rather than a total, before rolling. If a unit contains more than one model that inflicts a random amount of Impact Hits (such as D6), always roll separately for each model.
+The number of Impact Hits caused is shown in brackets after the special rule. If a unit contains more than one model that inflicts a random amount of Impact Hits (such as D6), always roll separately for each model.
 
 Impact Hits are only made on the turn the model makes a successful charge into close combat, and only against the unit the model has charged. Impact Hits are resolved at the very beginning of the close combat, before challenges are issued and attacks of any other kind are made. They hit a unit in base contact and are randomised as Automatic Hits. If the model is in base contact with more than one unit, distribute the Impact Hits between them as evenly as possible. If the model with Impact Hits is not in base contact with the enemy, no Impact Hits are inflicted.
 
 Impact Hits roll to wound using the Strength of the model making the Impact Hits. Any armour saves taken are done using the close combat value of the armour, and Parry saves may not be taken (see Weapons and Armour chapter). Any Wounds caused by Impact Hits are counted towards combat resolution.
 
 Unless specified, any special rules or bonuses that apply to the model’s normal attacks do not apply to its Impact Hits.
+
+=== IMPALE
+
+A mount with this special rule has the Mighty Blow (1) special rule in any turn that it charges.
+
+=== INDEPENDENT
+
+A character with this special rule cannot join a unit without this special rule. A unit with this special rule cannot be joined by a character without this special rule.
+
+In addition, they may never use the Inspiring Presence or Hold Your Ground special rules. Note that Characters, ridden models and Mixed Units that still have their Handlers ignore this special rule, unless specified.
 
 === INSPIRING PRESENCE
 
@@ -2153,10 +2169,6 @@ Heroic Killing Blow functions exactly like a normal Killing Blow, except it work
 Lightning Attacks have the Ignores Armour Saves special rule against all armour types except Natural Armour (explained later).
 
 Unless otherwise stated, a model with this special rule has both Lightning shooting and close combat attacks (though any spells cast by the model or special attacks are unaffected).
-
-=== LONER
-
-A character with this special rule cannot be your Army General and cannot join a unit without this special rule. A unit with this special rule cannot be joined by a character without this special rule.
 
 === LOREMASTER
 
