@@ -2990,7 +2990,7 @@ Artillery weapons instead often have a minimum range, such as 12\-48". This mean
 
 *Strength:* A weapon's Strength can take three forms. If the Strength is shown as a modifier, for example +1, then this is the modifier the weapon applies to the wielding model's Strength when attacking. If a weapon's Strength is shown as 'as user' then attacks made with the weapon use the wielder's own Strength. Alternatively, if a weapon has a fixed Strength, then all attacks made with that weapon use the Strength value shown – the wielder's Strength is ignored.
 
-*Special Rules:* Many weapons confer special abilities on the attacks made by the wielder, which are explained in the weapon profile. Any bonuses applied from a model's equipment only has an effect in the phases they are actually used. Note that any characteristics bonuses or penalties from weapons normally apply when the model actually attacks – they cannot be used for characteristic tests or spell effects etc. When a weapon does not say when the characteristic bonus applies, then it only applies when striking, or being struck, in close combat.
+*Special Rules:* Many weapons confer special abilities on the attacks made by the wielder, which are explained in the weapon profile. Note that any characteristics bonuses or penalties from weapons normally apply when the model actually attacks – they cannot be used for characteristic tests or spell effects etc. When a weapon does not say when the characteristic bonus applies, then it only applies when striking, or being struck, in close combat.
 
 == CLOSE COMBAT WEAPONS
 #namecost("HAND WEAPON", "")
@@ -3074,25 +3074,25 @@ Artillery weapons instead often have a minimum range, such as 12\-48". This mean
 
 #note[_\*Only applies in turns the model has not moved. Cannot be used to Stand and Shoot._]
 #namecost("JAVELINS", "")
-#minitable(("Range", "Strength", "Special Rules"), ("12\"", "As user", "Armour Piercing (1), Quick to Fire, Volley Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("12\"", "As user", "Armour Piercing (1), Quick Shot, Volley Fire"))
 #namecost("BLOWPIPE", "")
-#minitable(("Range", "Strength", "Special Rules"), ("12\"", "1", "Multiple Shots (2), Poisoned Attacks, Quick to Fire, Rapid Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("12\"", "1", "Multiple Shots (2), Poisoned Attacks, Quick Shot, Rapid Fire"))
 #namecost("PISTOL", "")
-#minitable(("Range", "Strength", "Special Rules"), ("12\"", "4", "Armour Piercing (1), Multiple Shots (2)*, Quick to Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("12\"", "4", "Armour Piercing (1), Multiple Shots (2)*, Quick Shot"))
 
 #note[_In close combat, a pistol counts as an additional hand weapon that does not give the model the Parry special rule._]
 
 #note[_\*Requires a brace of pistols._]
 
 #namecost("BLUNDERBUSS", "")
-#minitable(("Range", "Strength", "Special Rules"), ("12\"", "3", "Armour Piercing (1), Multiple Shots (3), Quick to Fire, Rapid Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("12\"", "3", "Armour Piercing (1), Multiple Shots (3), Rapid Fire, Quick Shot"))
 
-#note[_Blunderbusses do not suffer any penalties To Hit for Stand & Shoot._]
+#note[_Blunderbusses do not suffer a penalty To Hit for using Stand & Shoot as a charge reaction._]
 
 #namecost("THROWING WEAPONS", "")
-#minitable(("Range", "Strength", "Special Rules"), ("8\"", "As user", "Multiple Shots (2), Quick to Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("8\"", "As user", "Multiple Shots (2), Quick Shot"))
 #namecost("THROWING AXES", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6\"", "As user +1", "Quick to Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("6\"", "As user +1", "Quick Shot"))
 
 == ARMOUR
 
@@ -3128,13 +3128,13 @@ Below you will find rules for the most common types of artillery pieces in the g
 There are two different kinds of bolt thrower profiles, representing regular bolt throwers and repeater bolt throwers. Repeater bolt throwers can always choose to fire like regular bolt throwers if they wish.
 
 #namecost("BOLT THROWER", "")
-#minitable(("Range", "Strength", "Special Rules"), ("48\"", "6", "Armour Piercing (1), Multiple Wounds (D3), Slow to Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("48\"", "6", "Armour Piercing (1), Cumbersome, Multiple Wounds (D3)"))
 #namecost("REPEATER BOLT THROWER", "")
 #diagram("/assets/figures/rulebook/img-0565.jpg", 0.463)
 
 #note[_Up to four models can be killed by the shot of this bolt thrower. The Strength that each rank is hit at is shown next to it._]
 
-#minitable(("Range", "Strength", "Special Rules"), ("48\"", "4", "Armour Piercing (1), Multiple Shots (6), Rapid Fire, Slow to Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("48\"", "4", "Armour Piercing (1), Cumbersome, Multiple Shots (6), Rapid Fire"))
 #namecost("Firing a Bolt Thrower", "")
 
 To fire a bolt thrower, select a target according to the normal rules for shooting. Roll to hit using the crew's Ballistic Skill, just as you would for a normal missile weapon.
@@ -3156,12 +3156,12 @@ Note that repeating bolts do not pierce ranks.
 There are two different kinds of cannon profiles, representing the differing size and power of various cannons.
 
 #namecost("CANNON", "")
-#minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "10", "Multiple Wounds (D6/D3), Slow to Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "10", "Cumbersome, Multiple Wounds (D6/D3)"))
 #namecost("GREAT CANNON", "")
-#minitable(("Range", "Strength", "Special Rules"), ("12-60\"", "10", "Multiple Wounds (D6), Slow to Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("12-60\"", "10", "Cumbersome, Multiple Wounds (D6)"))
 #namecost("Firing a Cannon", "")
 
-To fire a cannon, first pivot to face the target following the normal rules for war machines. Then, nominate a model or building within the cannon's line of sight, outside of its minimum range and within its maximum range.
+To fire a cannon, first pivot to face the target following the normal rules for war machines. Then, nominate a model or building within the cannon's line of sight.
 
 When you have chosen your target, place a small marker over the centre of your target as a reminder of where the shot is intended to land.
 
@@ -3198,7 +3198,7 @@ The bounce of the cannonball is determined using the line template. On most occa
 
 #namecost("Direct Hit", "")
 
-Damage is resolved differently depending on whether or not the cannon ball hits a model directly or not. Normal Cannons have both the Multiple Wounds (D6) and (D3) special rules. It inflicts D6 Wounds only if the cannon ball lands directly on a model (that is, where the marker is placed after the first artillery and scatter dice are rolled), models hit by the bounce only suffer D3 Wounds. Great Cannons on the other hand, inflicts D6 Wounds on both direct hits and the bounce.
+Damage is resolved differently depending on whether or not the cannon ball hits a model directly or not. Normal Cannons have both the Multiple Wounds (D6) and (D3) special rules. It inflicts D6 Wounds only if the cannon ball lands directly on a model (that is, where the marker is placed after the first artillery and scatter dice are rolled), models hit by the bounce only suffer D3 Wounds. If a cannon only has one value of Multiple Wounds listed, it causes that damage on both direct hits and the bounce.
 
 #diagram("/assets/figures/rulebook/img-0569.jpg", 0.999)
 
@@ -3208,7 +3208,7 @@ Damage is resolved differently depending on whether or not the cannon ball hits 
 
 Instead of firing normal shot, cannon crew can opt to fire grapeshot using the following profile:
 
-#minitable(("Range", "Strength", "Special Rules"), ("12\"", "5", "Armour Piercing (1), Slow to Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("12\"", "5", "Armour Piercing (1), Cumbersome"))
 #namecost("Firing Grapeshot", "")
 
 To fire grapeshot, select a target according to the normal rules for shooting. With the target chosen, roll an artillery dice and a D6 to find out how many shots are fired. If the artillery dice result is a misfire, roll a D6 on the Black Powder War Machine Misfire chart to find out what has gone wrong.
@@ -3216,7 +3216,7 @@ To fire grapeshot, select a target according to the normal rules for shooting. W
 Assuming that a misfire did not occur, roll to hit the target with a number of shots equal to the number rolled on the artillery dice plus the D6, resolving any successful hits using the grapeshot profile.
 
 === FIRE THROWERS
-#minitable(("Range", "Strength", "Special Rules"), ("-", "5", "Flaming Attacks, Slow to Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("-", "5", "Cumbersome, Flaming Attacks"))
 #namecost("Firing a Fire Thrower", "")
 
 Place the teardrop-shaped template with its narrow end touching the fire thrower barrel and the large end aimed at any enemy model or building in line of sight. Roll the artillery dice and move the template directly forward the number of inches indicated. Some fire throwers might also have a range value. In this case, place the template with its narrow end anywhere within this range, measured from the fire thrower barrel as normal.
@@ -3226,7 +3226,7 @@ All models underneath the template are hit automatically. A unit suffering any c
 If a misfire is rolled, roll immediately on the Black Powder Misfire chart.
 
 === ORGAN GUNS
-#minitable(("Range", "Strength", "Special Rules"), ("24\"", "5", "Armour Piercing (1), Multiple Shots (Artillery Dice + D6), Rapid Fire, Slow to Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("24\"", "5", "Armour Piercing (1), Cumbersome, Multiple Shots (Artillery Dice + D6), Rapid Fire"))
 #namecost("Firing an Organ Gun", "")
 
 To fire an organ gun, select a target according to the normal rules for shooting. Roll a D6 and the Artillery Dice; the result is the number of shots fired. Roll to hit using the crew's Ballistic Skill, just as you would for a normal missile weapon.
@@ -3238,23 +3238,23 @@ If a misfire is rolled, roll immediately on the Black Powder Misfire chart.
 There are three different kinds of trajectory weapon profiles, representing stone throwers, mortars and rocket launchers.
 
 #namecost("STONE THROWER", "")
-#minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "4(8)", "Multiple Wounds (D3), Slow to Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "4(8)", "Cumbersome, Multiple Wounds (D3),"))
 
 Stone throwers use the small round template by default.
 
 #namecost("MORTAR", "")
-#minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "3(6)", "Armour Piercing (1), Multiple Wounds (D3), Slow to Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "3(6)", "Armour Piercing (1), Cumbersome, Multiple Wounds (D3)"))
 
 Mortars use the large round template by default.
 
 #namecost("ROCKET LAUNCHER", "")
-#minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "4", "Flaming Attacks, Slow to Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "4", "Cumbersome, Flaming Attacks"))
 
 Rocket launchers use the large round template by default.
 
 #namecost("Firing a Trajectory Weapon", "")
 
-Nominate a model or building within the model's line of sight (ignoring other models within the same unit), outside of its minimum range and within its maximum range. Then, take the round template and place it with the centre directly over the target.
+Nominate a model or building within the model's line of sight (ignoring other models within the same unit). Then, take the round template and place it with the centre directly over the target.
 
 The template cannot be initially placed over friendly models, or enemy models from a unit that is engaged in combat.
 
