@@ -820,8 +820,6 @@ The spells a Wizard knows are determined by their Wizard Level and consulting th
 
 Regardless of the Lore of Magic your Wizard has chosen to use, you will notice that the spells are numbered between Level 1 and Level 4, with Level 1 generally being easier to cast, and Level 4 being more powerful and more difficult to cast. Wizards may only choose spells of their own Level or lower.
 
-Note: In older books, the spells are ranked 1\-6. In this case, the Wizard may choose spells equal to their Wizard level plus 2.
-
 Ordinarily, each spell can only be chosen once in the same army. If you have more than one Wizard using the same Lore, you must choose different spells for them. The only exceptions are:
 
 - If a model has no choice over which spell(s) it knows, either because it is fixed by the model's rules, or because it has 'bought' a specific spell as part of army selection (such as Bound Spells, described later).
@@ -834,7 +832,7 @@ Ordinarily, each spell can only be chosen once in the same army. If you have mor
 
 Most Lores of Magic have Signature spells. Regardless of a Wizard's Level, they always know the Signature spell of a lore in addition to any other spells they have chosen – even if another Wizard in the same army already knows the Signature spell.
 
-If a Wizard can take spells from multiple lores, they may at most have two different Signature Spells in total. You may choose which lore you pick those Signature Spells from as normal.
+Note that a Wizard may only have one Signature spell. If a Wizard can take spells from multiple lores, you must choose which lore you pick that Signature Spells from.
 
 Note that Wizards that do not get to choose their spells, either due to knowing only a few specific spells or having them as Bound Spells, do not get the Signature spell from the Lore(s) they are using.
 
@@ -848,13 +846,17 @@ Some spells affect all units within a certain range of the Wizard. Note that suc
 
 #namecost("LOSING WIZARD LEVELS", "")
 
-If a Wizard loses one or more Wizard levels, they instantly forget a single spell for each Wizard level lost, starting with their highest-level spells. If they know multiple spells of the same spell level, randomly choose which spell is lost unless specified. A model can lose Wizard levels granted by a magic item. Bound Spells cannot be forgotten if a Wizard loses a Wizard level. If a model has loses a Wizard level and has a selection of "normal" and bound spells, do not include the bound spells when randomising which are forgotten. If a Wizard has had their level reduced to 0 they no longer counts as a Wizard and cannot attempt to channel Power and Dispel dice. They can no longer cast any spells, except for any Bound spells they might still have.
+If a Wizard loses one or more Wizard levels, they instantly forget a single spell for each Wizard level lost, starting with their highest-level spells. If they know multiple spells of the same spell level, randomly choose which spell is lost unless specified. A model can lose Wizard levels granted by a magic item. If a Wizard has had their level reduced to 0 they no longer counts as a Wizard and cannot attempt to channel Power and Dispel dice. They can no longer cast any spells or use Arcane Items, except for any Bound spells they might still have.
 
 == SPELL TYPES
 
 Some spells have a type that enforces additional casting restrictions, or waives others. There are seven distinct types of spells: augment, conveyance, direct damage, hex, magical vortex, magic missile and summoning. Some unique spells do not have a type – their text will contain any casting restrictions that apply.
 
-Note that all damage from spells counts as non-physical Magical Attacks (as described in the Special Rules section).
+Most spells target a single unit. However, there are two exceptions – aura and area spells.
+
+*Aura* spells affect all units within a radius equal to the spell’s range, measured from the Wizard. If a unit is no longer within range, it immediately loses the effect. Aura spells always affect units engaged in combat, regardless of spell type.
+
+*Area* spells target a point on the battlefield within the spell’s range. Most area spells use one of the templates described earlier in the book. For round templates, the centre must be placed within the spell’s range. After placement, the small round template scatters D3", while the large round template scatters D6". For the line and flame template, the spell itself describes how they are placed.
 
 #namecost("AUGMENT SPELLS", "")
 
@@ -901,8 +903,6 @@ The following applies to *hexes*:
 - The Wizard does not need line of sight to their target.
 - The target must be within the spell's range.
 - Wizards can target spells at units engaged in close combat.
-
-Note that bonuses and penalties from hex, augment and other spells are cumulative, but normally cannot take any characteristics above 10 or below 1 unless specified.
 
 #namecost("MAGICAL VORTEXES", "")
 
@@ -1031,12 +1031,6 @@ The most common casting bonus is given by the Wizard itself, and is equal to the
 
 Other casting bonuses can come from magic items, special rules, units or terrain. Note that for whatever reason, no casting attempt may have more than a +5 casting bonus in total.
 
-=== OVERCAST SPELLS
-
-Some spells allow the Wizard the option to extending the effective range, amount of damage caused or area of effect. Where this is an option, it is clearly stated in the spell's effect, as is the extra casting cost required to achieve the additional effect.
-
-If a player wishes to cast the overcast version of a spell, this needs to be stated before rolling the dice. Otherwise, a Wizard is assumed to be casting the standard version of the spell.
-
 === BROKEN CONCENTRATION
 
 If a spell is attempted to be cast using a single power dice from the Power Pool and that dice roll is a 1 or 2, not only is the spell not cast (regardless of any modifiers), but the Wizard is unable to cast spells for the rest of the Magic phase.
@@ -1109,7 +1103,7 @@ When dispelling, a Wizard can use any number of dispel dice. Once the Wizard has
 
 === DISPEL VALUE
 
-*For a dispel to succeed, the total of the dice rolled, must equal or beat the spell's casting result.*
+*The dispelling player can attempt to dispel each enemy spell once during each Magic phase, provided they have enough power.*
 
 The number of dice chosen are taken from the player's dispel pool and rolled. The results are added together, to give a dispel result, exactly as if he were casting a spell.
 
@@ -1170,7 +1164,7 @@ You may come upon a situation where the same spell is known by more than one Wiz
 
 Wizards can cast spells in any order, and a player is free to switch between Wizards at any time provided that they do not do so until the casting of the current spell has been resolved.
 
-Remember that, unless specified otherwise, each Wizard can only attempt to cast each spell only once per turn. When the casting player has finished all their casting and dispelling attempts, either because they have run out of power dice or have no remaining or useful spells to cast (or if all their Wizards have had their concentration broken by failing to cast a spell) the Magic phase ends, and the Shooting phase begins.
+Remember that, unless specified otherwise, each Wizard can only attempt to cast each spell only once per turn. When the casting player has finished all their casting and dispelling attempts, either because they have run out of power dice or have no remaining or useful spells to cast the Magic phase ends, and the Shooting phase begins.
 
 == BOUND SPELLS
 
