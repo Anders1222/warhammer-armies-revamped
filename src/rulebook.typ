@@ -2008,6 +2008,10 @@ If the model with this special rule is in close combat, it can use the Breath We
 
 Whenever a model with this special rule takes a Leadership test, it rolls an additional dice and discards the highest result.
 
+=== CUMBERSOME
+
+Models or weapons with the Cumbersome special rule cannot be used to Stand and Shoot.
+
 === DEVASTATING CHARGE
 
 Models with this special rule have +1 Attack during a turn in which they charge into combat.
@@ -2264,9 +2268,9 @@ There's a chance that the model's peculiar movement will cause it to come into c
 
 If the random move brings the unit to within 1" of a friendly unit or Impassable Terrain, it stops immediately and cannot move further during that Movement phase.
 
-If two or more models in a unit have the Random Movement special rule, pivot the unit about its centre, then roll the dice only once to determine how far the unit moves. If models in the unit have a different Random Movement value, use the slowest for the entire unit.
-
 A Random Move counts as a ‘normal’ move for triggering a Dangerous Terrain test, unless the model is making a charge, pursuit or flee move, in which case it counts as a move of the appropriate type.
+
+If two or more models in a unit have the Random Movement special rule, pivot the unit about its centre, then roll the dice only once to determine how far the unit moves. If models in the unit have a different Random Movement value, use the slowest for the entire unit.
 
 === RAPID FIRE
 
@@ -2280,10 +2284,6 @@ A model with the Regeneration special rule gains an invulnerable save (indicated
 
 If a weapon has this rule, it is not possible for a model to use a shield or buckler alongside it in close combat (although a shield can still be used against wounds caused by shooting or magic). In addition, missile weapons with this special rule cannot use Quick Shot when charging.
 
-=== SLOW TO FIRE
-
-Weapons with the Slow to Fire special rule cannot be used to Stand and Shoot.
-
 === SNIPER
 
 A model with the Sniper special rule can make a special Sniper shot instead of shooting normally (though it can be used in combination with the Multiple Shots rule as normal). A Sniper shot suffers an additional \-1 To Hit penalty, in addition to any other modifiers, but can be aimed with great precision. Unless making a Stand and Shoot Charge Reaction, a model making a Sniper shot can shoot at a different target from the one chosen by their unit. A hit from a Sniper shot is not distributed in the same manner as other shooting attacks. The Sniper can shoot at any model they can see, including characters within a unit. "Look Out, Sir!" cannot be used. Sniper cannot be used when firing weapons that use a template.
@@ -2296,7 +2296,7 @@ Unless specified, any special rules or bonuses that apply to the model’s norma
 
 === STRIDER
 
-Models with the Strider special rule are rare – normally, they will have a subset of Strider, such as Hill, Forest, Marshland or River Strider and the rule only applies in terrain of the specified type. Models with the Strider rule treat that piece of terrain as Open Ground for the purposes of Movement, meaning they ignore any Movement penalties or Dangerous Terrain tests otherwise caused by it. Note that they still follow the rules for that terrain type in terms of combat.
+Models with the Strider special rule are rare – normally, they will have a subset of Strider, such as Hill, Forest, Marshland or River Strider and the rule only applies in terrain of the specified type. Models with the Strider rule treat that piece of terrain as Open Ground for the purposes of Movement, meaning they ignore any Movement penalties or Dangerous Terrain tests otherwise caused by it.
 
 === STUBBORN
 
@@ -2338,11 +2338,11 @@ Characters that are Unbreakable may only join units that are also Unbreakable, a
 
 Unstable units are Unbreakable, and suffer one extra Wound for every point they have lost the round of combat by, with no saves of any kind permitted against these wounds. If an Unstable unit would normally be eligible to be Steadfast, they instead suffer 1 less Wound than they would normally do.
 
-Unlike Unbreakable units, Unstable characters may join Unstable units. If an Unstable unit also contains Unstable characters, the controlling player first allocates wounds to the unit, then divides any remaining wounds (if any) as equally as possible amongst the characters.
+If an Unstable unit also contains Unstable characters, the controlling player first allocates wounds to the unit, then divides any remaining wounds (if any) as equally as possible amongst the characters.
 
 === VOLLEY FIRE
 
-Weapons with this rule allow the unit to fire with all ranks within range in the Shooting Phase, rather than just the first two. However, if they do so, all models in the third and subsequent ranks suffer \-1 To Hit.
+Weapons with this rule allow a unit to fire with all ranks that are within range in the Shooting Phase, rather than only the first two ranks. However, if they do so, all models in the third and subsequent ranks suffer \-1 To Hit.
 
 A unit cannot Volley Fire if the target is within half the weapon’s maximum range.
 
@@ -2388,7 +2388,7 @@ Fast Cavalry have the following rules:
 
 Fast Cavalry automatically have the Vanguard deployment special rule.
 
-#namecost("Free Reform", "")
+#namecost("Swift Manoeuvre", "")
 
 Unless it charges, a Fast Cavalry unit is allowed to reform twice during its move without losing any Movement; once before they move, and at the end of their move. The unit may do this even if it marches, provided that no model ends up moving a number of inches higher than double its Movement value.
 
@@ -2398,11 +2398,11 @@ A unit of Fast Cavalry armed with missile weapons that chooses Flee as a Charge 
 
 #namecost("Feigned Flight", "")
 
-A unit of Fast Cavalry that chooses Flee or Fire & Flee as a charge reaction does not cause Panic from fleeing through friendly units and may re-roll failed Rally tests in its next Compulsory Movement Phase (unless it is forced to Flee again from another source). In addition, it is then also free to move during the remaining moves part of the Movement phase. The unit is also free to shoot as normal (but always counts as having moved). Note that if the flee move of the Fast Cavalry does not take them beyond the charge reach of their enemies, the unit suffers casualties as normal.
+A unit of Fast Cavalry that chooses Flee or Fire & Flee as a charge reaction does not cause Panic from fleeing through friendly units and may re-roll failed Rally tests in its next Compulsory Movement Phase (unless it is forced to Flee again from another source). In addition, it is then also free to move during the remaining moves part of the Movement phase. The unit is also free to shoot as normal (but always counts as having moved).
 
 #namecost("Fire on the March", "")
 
-Fast Cavalry can shoot even if they marched or reformed earlier in the turn. However, the normal \-1 To Hit penalty for moving and shooting still applies.
+Fast Cavalry can shoot even if they marched or reformed earlier in the turn.
 
 #namecost("Characters", "")
 
@@ -2416,14 +2416,14 @@ Units containing one or more models with an unmodified close combat armour save 
 
 Skirmishers have the following rules:
 
-#namecost("Skirmish Formation", "")
+#namecost("Loose Formation", "")
 
 Skirmishers are deployed in a 'loose' formation, where the models are not placed in base contact, but are positioned roughly 1/2" apart. The models in the unit must still face the same direction and the unit will still have a front, two flanks and a rear.
 
-This dispersed formation allows Skirmishers to move and shoot with greater freedom than other troop types. All Skirmishers in a unit do not count as blocking each other's Line of Sight (note that they still count as blocking Line of Sight for other units). As long as you can draw a Line of Sight from the front rank to the target, the second and subsequent ranks may fire too.
+All Skirmishers in a unit do not count as blocking each other's Line of Sight (note that they still count as blocking Line of Sight for other units). As long as you can draw a Line of Sight from the front rank to the target, the second and subsequent ranks may fire too.
 
 #diagram("/assets/figures/rulebook/img-0541.jpg", 0.463)
-#namecost("Skirmishers & Charging", "")
+#namecost("Skirmishers & Combat", "")
 
 If skirmishers declare a charge (or a charge reaction that does not involve fleeing) they tighten their loose formation into a 'normal' formation after the charge distance is rolled and the chargers are moved. This happens 'for free' at the moment both units move into base contact. The unit immediately forms up in base contact around the centremost model in the front rank (the Skirmishers' controlling player can choose which if the front rank has an even number of models) that is also in base contact with the enemy.
 
@@ -2439,17 +2439,17 @@ If the Skirmishers are not in base contact with an enemy in the Remaining Moves 
 
 Skirmishers have the Vanguard deployment special rule.
 
-#namecost("Free Reform", "")
+#namecost("Swift Manoeuvre", "")
 
 A unit of Skirmishers moves, wheels, marches and charges just like other troops. However, unless it charges, a skirmishing unit is allowed to reform twice during its move; once before they move, and at the end of their move. The unit may do this even if it marches, provided that no model ends up moving a number of inches higher than double its Movement value.
 
 #namecost("Feigned Flight", "")
 
-A unit of Skirmishers that chooses Flee as a charge reaction does not cause Panic from fleeing through friendly units and may re-roll failed Rally tests in its next Compulsory Movement Phase (unless it is forced to Flee again from another source). In addition, it is then also free to move during the remaining moves part of the Movement phase. The unit is also free to shoot as normal (but always counts as having moved). Note that if the flee move of the Skirmishers do not take them beyond the charge reach of their enemies, the unit suffers casualties as normal.
+A unit of Skirmishers that chooses Flee as a charge reaction does not cause Panic from fleeing through friendly units and may re-roll failed Rally tests in its next Compulsory Movement Phase (unless it is forced to Flee again from another source). In addition, it is then also free to move during the remaining moves part of the Movement phase. The unit is also free to shoot as normal (but always counts as having moved).
 
 #namecost("Fire on the March", "")
 
-Skirmishers can shoot even if they marched or reformed earlier in the turn. However, the normal \-1 To Hit penalty for moving and shooting still applies.
+Skirmishers can shoot even if they marched or reformed earlier in the turn.
 
 #namecost("Light Troops", "")
 
