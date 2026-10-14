@@ -890,9 +890,9 @@ The following applies to *direct damage* spells:
 - The target must lie within the Wizard's forward arc (unless specified).
 - The Wizard does not need line of sight to their target.
 - The target must be within the spell's range.
-- Wizards cannot target spells at units engaged in close combat.
+- Wizards cannot target spells at units engaged in close combat (unless specified).
 
-Sometimes a direct damage spell will use a template to determine which models are hit. When this happens, the template cannot be placed in such a way that it touches friendly units or enemy units that are in close combat – this is not to say that the template won't scatter onto friends later, depending on the spell. Ranged direct damage spells that use a template have to target an enemy unit by placing the template over the target enemy unit. When targeting a unit with a small or large round template, the hole in the centre must be placed over an enemy model, but only the hole of the template must be within range.
+Sometimes a direct damage spell will use a template to determine which models are hit. When this happens, the template cannot be initially placed in such a way that it touches friendly units or enemy units that are in close combat. Ranged direct damage spells that use a template have to target an enemy unit by placing the template over the target enemy unit. When targeting a unit with a small or large round template, the hole in the centre must be placed over an enemy model.
 
 #namecost("HEX SPELLS", "")
 
@@ -913,9 +913,9 @@ The following applies to *magical vortexes*:
 - They may not be used in such a way that they affect any friendly models or models engaged in close combat when initially placed.
 - Models cannot choose to voluntarily move into/through a magical vortex.
 
-A magical vortex uses one of the round templates, which is placed in base contact with the caster and with its centre within the caster's front arc. The player then nominates the direction the magical vortex will move. When initially cast, it moves 12+D6". In subsequent turns, the magical vortex travels in a random direction and moves 2D6". If a double is rolled, the magical vortex is removed after completing its movement and resolving any damage.
+A magical vortex uses one of the round templates, which is placed in base contact with the caster and with its centre within the caster's front arc. The player then nominates the direction the magical vortex will move. When initially cast, it moves 12+D6".
 
-Unlike most other spells and other gaming effects that use templates in Warhammer, magical vortexes remain on the battlefield (unless they move off it). At the end of every subsequent Magic phase, each magical vortex moves in the direction and distance stated in the spell.
+Unlike most other spells and other gaming effects that use templates in Warhammer, magical vortexes remain on the battlefield (unless they move off it). At the end of every subsequent Magic phase, each magical vortex travels in a random direction and moves 2D6". If a double is rolled, the magical vortex is removed after completing its movement and resolving any damage.
 
 If a magical vortex ever ends its move over a unit, place it 1" beyond the unit in the direction it was moving. If this is also over a unit it should be placed 1" beyond that unit, repeating the process until it is no longer touching any models. When this happens, models between where the magical vortex ended its move and where the template is placed are not affected by the spell.
 
@@ -937,7 +937,6 @@ The following applies to *magic missiles*:
 
 The following applies to *summoning* spells:
 
-- They do not have a target.
 - They do not have to be within the Wizard's forward arc.
 - The Wizard does not need line of sight.
 - Summoning spells always target a point on the battlefield unless specified.
@@ -955,7 +954,7 @@ When placing a summoned unit, it must be wholly at least 1" away from impassable
 
 #namecost("Summoning Models", "")
 
-Some augment spells can summon models into already existing units. This is done in a strict order. First, any slain command groups models are resurrected in an order of your choosing, displacing rank-and-file models as required. Then rank-and-file models with multiple Wounds are healed to their starting value. Lastly, rank and file models are summoned. The unit formation must be legal after all models are added. If any models cannot be added for any reason, those models are wasted. Any models that are summoned into an existing unit retain any equipment, rules and/or bonuses as the rest of the unit.
+Some spells can summon models into already existing units. This is done in a strict order. First, any slain command groups models are resurrected in an order of your choosing, displacing rank-and-file models as required. Then rank-and-file models with multiple Wounds are healed to their starting value. Lastly, rank and file models are summoned. The unit formation must be legal after all models are added. If any models cannot be added for any reason, those models are wasted. Any models that are summoned into an existing unit retain any equipment, rules and/or bonuses as the rest of the unit.
 
 == THE MAGIC PHASE SEQUENCE
 
@@ -1076,12 +1075,7 @@ model underneath the template suffers a
 Strength 10 hit (including the Wizard – they
 do not benefit from Look Out, Sir! in this
 case)."), ("10", "Daemonic Possession: The caster suffers one
-Strength 10 hit and loses a Wizard level and
-their highest level spell. If the caster reaches
-Level 0, he stops counting as a Wizard for all
-purposes and therefore will not be able to use
-any arcane magic items he is carrying (see the
-Magic Items section)."), ("11", "Dimensional Cascade: Centre the large
+Strength 10 hit and loses a Wizard level."), ("11", "Dimensional Cascade: Centre the large
 round template over the Wizard – every
 model underneath the template (including the
 Wizard) suffers a Strength 10 hit."), ("12+", "Damned by Chaos: The Wizard is
@@ -1147,12 +1141,12 @@ Spells marked 'remains in play' stay in effect indefinitely when cast. They only
 
 If they are not dispelled immediately when they are cast, remains in play spells can be dispelled right before the end of any subsequent Magic phase, using dispel dice as normal, or dice from the power pool as if they were dispel dice if it is your turn. You may nominate any friendly Wizard to attempt to dispel this, regardless of range.
 
-A Wizard does not need to beat the original casting dice roll if attempting a dispel in subsequent turns, but rather the minimum casting value listed in the spell's description. If you are dispelling a boosted remains in play spell, you will need to beat the basic casting value of the spell (not the boosted casting value).
+A Wizard does not need to beat the original casting dice roll if attempting a dispel in subsequent turns, but rather the minimum casting value listed in the spell's description.
 
 #namecost("SPELLS LASTING MORE THAN ONE", "")
 #namecost("TURN", "")
 
-Some spells do not specifically remain in play, but have effects that last one or more turns. Once in play, such spells cannot be dispelled, and remain in effect even if the caster is slain or leaves the battlefield, unless the spell description specifies otherwise.
+Some spells do not specifically remain in play, but have effects that last one or more turns. Once in play, such spells cannot be dispelled, and remain in effect even if the caster forgets the spell, is slain or leaves the battlefield, unless the spell description specifies otherwise.
 
 === DUPLICATE SPELLS
 
@@ -1168,11 +1162,11 @@ Remember that, unless specified otherwise, each Wizard can only attempt to cast 
 
 == BOUND SPELLS
 
-Some magic items and certain models have the ability to use a form of magic called a 'Bound Spell'. Bound spells can be used even if the bearer has broken their concentration or is not a Wizard at all. Possessing a Bound Spell does not make a character a Wizard – they just have an item that can cast a spell.
+Some magic items and units have the ability to use a form of magic called a 'Bound Spell'. Bound spells can be used even if the bearer has broken their concentration or is not a Wizard at all. Possessing a Bound Spell does not make a model a Wizard – it just have an item that can cast a spell.
 
 A Bound Spell is cast just like an ordinary spell – using dice from the power pool (the model may do so even if it is not a Wizard). The required casting value is equal to the Bound Spell's power level.
 
-Whenever you attempt to cast a Bound Spell from a Magic Item (but not 'innate' Bound Spells), you may add one free Power dice to the casting roll. Note that you must always use at least one dice from the power pool when casting Bound Spells. You may use a maximum of two dice when casting Bound Spells from items (including the free dice mentioned above), and three dice when casting innate Bound Spells. Bound Spells are often tied into a spell from a magic lore. Where this is the case and there is a choice of casting levels, the Bound Spell is always the easier 'unboosted' version with the lower casting level.
+Whenever you attempt to cast a Bound Spell from a Magic Item, you may add one free Power dice to the casting roll. You may use a maximum of two dice when casting Bound Spells from items (including the free dice mentioned above), and three dice when casting innate Bound Spells. Bound Spells that are not already tied to a spell from a Lore of Magic have their spell level and casting value listed in the description. Bound Spells are often tied into a spell from a magic lore. Where this is the case and there is a choice of casting levels, the Bound Spell is always the easier 'unboosted' version with the lower casting level.
 
 Bound spells do not benefit from any casting bonuses or penalties the model might have.
 
