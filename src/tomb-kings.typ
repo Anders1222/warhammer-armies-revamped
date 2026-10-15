@@ -486,7 +486,7 @@ In addition to the normal rules for the army battle standard, units of Undead wi
   equipment: "Hand weapon, javelins",
   special-rules: "Arrows of Asaph, Skirmishers, Undead",
   options: [
-- May take replace javelins with slings free
+- May replace javelins with slings free
 - May take shields +1 point/model
 - May upgrade one Skeleton Skirmisher to a Leader +5 points
 - May upgrade one Skeleton Skirmisher to a Musician +5 points

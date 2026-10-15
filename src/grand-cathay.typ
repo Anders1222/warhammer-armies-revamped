@@ -1001,7 +1001,7 @@ damage as normal."), ("4-6", "Dud. Only the model under the template's central h
   options: [
 - May choose one of the following:
   - Bucklers +3 points/model
-  - Addditional hand weapons +3 points/model
+  - Additional hand weapons +3 points/model
   - Great weapons +9 points/model
 - May take medium armour +6 points/model
 - May upgrade one Ogre to a Leader +5 points
