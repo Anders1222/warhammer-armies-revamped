@@ -388,7 +388,7 @@ def classify(ln: Line, ctx: Context, head: Kind | None = None) -> Kind:
     # "May replace javelins with slings", "May replace the Knight's Vow with
     # the Crusader's Vow": gear if it reads as gear, else a rule the book
     # defines, else gear anyway - what is replaced is equipment as a rule.
-    m = re.search(r"^(?:may\s+)?replace\s+(?:the\s+)?(?P<what>.+?)\s+with\s+(?:a|an|the)?\s*"
+    m = re.search(r"^(?:may\s+)?replace\s+(?:the\s+)?(?P<what>.+?)\s+with\s+(?:(?:a|an|the)\s+)?"
                   r"(?P<new>.+)$", core, re.I)
     if m and not is_menu(core):
         replaces, name = m.group("what"), m.group("new")
@@ -628,4 +628,14 @@ def raws_of_groups(groups: list[dict]) -> list[str]:
             if ch["raw"] != g["raw"]:
                 out.append(ch["raw"])
             out.extend(raws_of_groups(ch.get("options", [])))
+    return out
+
+
+def choices_of_groups(groups: list[dict]) -> list[dict]:
+    """Every choice the typed view holds, nested options included."""
+    out: list[dict] = []
+    for g in groups:
+        for ch in g["choices"]:
+            out.append(ch)
+            out.extend(choices_of_groups(ch.get("options", [])))
     return out

@@ -98,8 +98,8 @@ from exporter import builder
 from exporter import schema as war_schema
 from exporter.composition import rulebook_composition, unit_constraints
 from exporter.ids import Ids, slug
-from exporter.options import (Context, family_patterns, lines_of, norm_rule, option_groups,
-                              raws_of_groups)
+from exporter.options import (Context, choices_of_groups, family_patterns, lines_of, norm_rule,
+                              option_groups, raws_of_groups)
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -1092,6 +1092,12 @@ def check(data: dict, raw: dict[str, dict], report: dict, files: dict[str, objec
                 extra = list((v2 - v1).elements())[:3]
                 fail(f"{slug}: {unit['name']} optionGroups differ from options: "
                      f"lost {lost!r}, extra {extra!r}")
+            # Each choice's name is whole words of its own line, not a cut of one.
+            for ch in choices_of_groups(unit.get("optionGroups", [])):
+                name, raw_line = ch.get("name"), ch["raw"]
+                if name and not re.search(r"(?<!\w)" + re.escape(name) + r"(?!\w)", raw_line, re.I):
+                    fail(f"{slug}: {unit['name']} option name {name!r} is not in its line "
+                         f"{raw_line[:60]!r}")
             # OPTIONS that arrived as text (two entries) are rendered prose and
             # table rows, held to the page below, not to the source here.
             records = option_records(ev["args"].get("options"))

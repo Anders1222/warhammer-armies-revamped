@@ -795,7 +795,7 @@ Place the small round template with its centre anywhere within range. If the att
   options: [
 - May choose one of the following:
   - Bucklers +3 points/model
-  - Addditional hand weapons +3 points/model
+  - Additional hand weapons +3 points/model
   - Polearms +6 points/model
   - Ogre handguns +6 points/model
   - Ogre pistols +6 points/model

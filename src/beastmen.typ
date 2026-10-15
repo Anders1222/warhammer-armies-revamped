@@ -596,7 +596,7 @@ A Bray-Shaman or Great Bray-Shaman with the Mark of Tzeentch, Nurgle or Slaanesh
   equipment: "Hand weapon, shield",
   special-rules: "Forest Strider, Primal Fury, Unruly",
   options: [
-- May take replace shields with additional hand weapons free
+- May replace shields with additional hand weapons free
 - May take light armour +0.5 point/model
 - May upgrade one Gor to a Leader +5 points
 - May upgrade one Gor to a Musician +5 points
