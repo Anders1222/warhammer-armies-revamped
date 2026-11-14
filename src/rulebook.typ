@@ -2976,7 +2976,7 @@ If a war machine fails a Panic or Terror test, it does not flee, but it cannot s
 
 All physical models in a unit should as much as possible be armed with the same weapon and armour type for ease of distinguishing their armament. Some variation is acceptable, but it should be clear to the opponent what sort of equipment a unit has. In case it might not be apparent at first glance, this should be clearly declared upon deploying the unit.
 
-If a model has more than one weapon, they must choose which weapon they want to use at the start of the shooting phase or close combat. A model cannot choose to use two different weapons in the same shooting phase or close combat unless clearly specified. However, if the model has multiple crew or riders (like chariots or ridden monsters), each crew or rider may use one weapon each as normal. Whichever weapon they select must then be used for the entire close combat, unless the weapon they are using is somehow destroyed.
+If a model has more than one weapon, they must choose which weapon they want to use before resolving their attack. A model cannot choose to use two different weapons in the same shooting phase or close combat unless clearly specified. However, if the model has multiple crew or riders (like chariots or ridden monsters), each crew or rider may use one weapon each as normal. Whichever weapon they select must then be used for the entire close combat, unless the weapon they are using is somehow destroyed.
 
 === WEAPON PROFILES
 
@@ -2984,7 +2984,9 @@ Each weapon confers a number of abilities onto the warrior wielding it. This wil
 
 Each weapon has its own characteristic profile. There are three sections to a weapon's profile: Range, Strength and Special Rules.
 
-*Range:* The range tells you at what distance the weapon can be used. If a weapon's range is 'combat' then it can only be used in close combat. If the range is a number of some kind, it is a missile weapon and the number is its maximum range.
+*Range:* The range tells you at what distance the weapon can be used. If a weapon's range is 'combat' then it can only be used in close combat. If the range is a number of some kind, it is a missile weapon.
+
+Missile weapons typically have two ranges, such as 16/24". The first number represents the weapon's effective range and the second its maximum range. Shots fired beyond the weapon's effective range count as long range. Profiles that only have one range listed ignore penalties for long range.
 
 Artillery weapons instead often have a minimum range, such as 12\-48". This means that the weapon cannot target units closer than 12", and must pick a target between 12\-48" instead.
 
@@ -3248,9 +3250,9 @@ Stone throwers use the small round template by default.
 Mortars use the large round template by default.
 
 #namecost("ROCKET LAUNCHER", "")
-#minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "4", "Cumbersome, Flaming Attacks"))
+#minitable(("Range", "Strength", "Special Rules"), ("12-60\"", "4", "Cumbersome, Flaming Attacks"))
 
-Rocket launchers use the large round template by default.
+Rocket launchers use the large round template by default. They always count as firing indirectly (see next page).
 
 #namecost("Firing a Trajectory Weapon", "")
 
@@ -3298,6 +3300,8 @@ If you wish to fire indirectly, declare that you will do so before taking the we
 If an arrow is rolled on the scatter dice, resolve the scatter as normal. If however, you roll a Hit! on the scatter dice, the shot does not land on target but merely scatters less – how much less depends greatly on the skill of the crew. The distance travelled is equal to the score shown on the artillery dice minus the crew's Ballistic Skill characteristic (to a minimum of 0).
 
 Other than the aforementioned inaccuracy of the scatter, an indirect shot from a trajectory weapon is treated exactly according to the rules given for normal shots given above.
+
+Note that a trajectory weapon that moves and fires the same turn is always considered to fire indirectly.
 
 = COMMAND GROUPS
 
