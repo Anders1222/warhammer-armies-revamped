@@ -28,6 +28,10 @@
   "cover": "covers/dwarfs.png"
  },
  {
+  "id": "estalia",
+  "cover": "covers/estalia.png"
+ },
+ {
   "id": "grand-cathay",
   "cover": "covers/grand-cathay.png"
  },
