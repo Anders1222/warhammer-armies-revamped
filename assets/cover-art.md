@@ -1,6 +1,6 @@
 # Book cover illustrations
 
-Eighteen faction illustrations and one main rulebook illustration replace the books' extracted cover images.
+Nineteen faction illustrations and one main rulebook illustration replace the books' extracted cover images.
 
 - Files: `covers/<slug>.png`, shared by the Typst covers and the website cards.
 - Format: 1254 × 1254 PNG, RGBA, with the generated alpha channel preserved. Transparent areas contain no painted background.
@@ -31,5 +31,6 @@ The visual briefs below interpret the lore and visual references. The correspond
 | Vampire Counts | Sylvanian vampire lord, Grave Guard and bats | [Reference](https://warhammerism.com/the-old-world/factions/vampire-counts) | [Art / gallery](https://www.artstation.com/artwork/lN30o) |
 | Warriors of Chaos | Armored mortal champions, horned helms and eight-pointed star | [Reference](https://warhammerfantasy.fandom.com/wiki/Warriors_of_Chaos) | [Art / gallery](https://www.warhammerart.com/products/warriors-of-chaos) |
 | Wood Elves | Glade Lord, Treeman and Dryad | [Reference](https://warhammerfantasy.fandom.com/wiki/Athel_Loren) | [Art / gallery](https://whfb.lexicanum.com/wiki/Category%3AWood_Elves_images) |
+| Zombie Pirates | Vampire admiral, drowned gunner and haunted ship debris | [Reference](https://warhammerfantasy.fandom.com/wiki/Luthor_Harkon) | [Art / gallery](https://warhammerfantasy.fandom.com/wiki/Zombie_Pirates) |
 
 To validate after replacing an illustration, check its alpha channel, run `python build.py`, and inspect the first page of the affected PDF. Preserve the PNG alpha when copying or optimizing; flattening it would put a rectangle back behind the illustration.

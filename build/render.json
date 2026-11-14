@@ -74,5 +74,9 @@
  {
   "id": "wood-elves",
   "cover": "covers/wood-elves.png"
+ },
+ {
+  "id": "zombie-pirates",
+  "cover": "covers/zombie-pirates.png"
  }
 ]

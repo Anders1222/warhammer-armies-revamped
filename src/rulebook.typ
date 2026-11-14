@@ -4089,6 +4089,7 @@ Each Warhammer army belong to either the Forces of Order, Forces of Destruction 
 - _Skaven_
 - _Vampire Counts_
 - _Warriors of Chaos_
+- _Zombie Pirates of the Vampire Coast_
 
 *The Non-aligned Forces are:*
 
