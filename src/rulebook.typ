@@ -2180,9 +2180,7 @@ A Wizard with the Loremaster special rule knows all the available spells from th
 
 === MAGICAL ATTACKS
 
-Models with this special rule inflict a \-1 penalty to Magical Wards. Unless otherwise stated, a model with this special rule has both Magical shooting and close combat attacks (though any special attacks are unaffected).
-
-All attacks made by spells and magic items are Magical Attacks. Shots fired from magical items are also considered to be Magical Attacks, unless their description specifically states otherwise. Hits inflicted by rolls on the Miscast table are treated as Magical Attacks. Note that spells are never considered to be physical attacks.
+All attacks made by spells and magic items are considered to be Magical Attacks, as are all attacks that are specifically noted as being Magical Attacks. Shots fired from magical items are also considered to be Magical Attacks, unless their description specifically states otherwise. Hits inflicted by rolls on the Miscast table are treated as Magical Attacks. Note that spells are never considered to be physical attacks.
 
 === MAGICAL WARD
 
@@ -2196,7 +2194,7 @@ This casting penalty also applies to aura and area spells, if the model would be
 
 In addition, models with Magic resistance gain an invulnerable save against all spells based on the number in the brackets. So, Magic Resistance (1) would give a 6+ invulnerable save, Magic Resistance (2) would give a 5+ invulnerable save, and Magic Resistance (3) would give a 4+ invulnerable save, and so on. Note that Magic resistance does not offer protection against Miscasts.
 
-Note that this special rule is not cumulative. If two or more models in a unit have this special rule, use the highest modifier.
+If a character with Magic Resistance joins a unit, all models in the unit benefit from the Magic Resistance as long as they are part of the unit. If a model or unit has two sets of Magic Resistance, the two combine to a maximum of Magic Resistance (3), unless specified.
 
 === MARCH & SHOOT
 
@@ -2240,7 +2238,7 @@ Models with this rule have an armour save value equal to the number in the brack
 
 === PARRY
 
-Models with this rule gain an invulnerable save in close combat as indicated in the brackets. This is cumulative with other sources of Parry. It cannot be used against attacks made against the model's flank or rear, nor can it be used against attacks that Hit automatically, attacks that are made at +3 Strength over the model's own Strength value.
+Models with this rule gain an invulnerable save in close combat as indicated in the brackets. This is cumulative with other sources of Parry. It cannot be used against attacks made against the model's flank or rear, nor can it be used against attacks that Hit automatically, attacks that are made at +3 Strength over the model's own Strength value, nor can it be used by mounted models, unless specified.
 
 === POISONED ATTACKS
 
@@ -2248,7 +2246,7 @@ A model with the Poisoned Attacks special rule gets a +1 modifier to its To Woun
 
 Unless otherwise stated, a model with this special rule has both Poisoned shooting and close combat attacks (though any spells cast by the model or special attacks are unaffected).
 
-If a model has the Poisoned Attacks special rule from two or more different sources (such as a combination of different special rules, spells or magic items), it may also re-roll failed To Wound rolls.
+If a model has the Poisoned Attacks special rule from two or more different sources (such as a combination of different special rules, spells or magic items), it automatically Wounds on a To Hit roll of 6 in addition to its original effect.
 
 === PONDEROUS
 
@@ -2268,7 +2266,7 @@ Models with the Random Attacks special rule do not have a normal number for thei
 
 Models with the Random Movement special rule do not have a normal Movement characteristic, but rather a dice roll, such as D6, 2D6 or 3D6 (as indicated in the brackets). This is the distance they use for all their movement (regardless of other special rules). Note that certain Random Movement rolls can result in the model having a Movement value higher than 10 – this is an exception to the usual maximum.
 
-Models with Random Movement cannot declare charges, can only choose Hold as a charge reaction, and must always move in the Compulsory Moves sub- phase. When the model moves, first pivot it about its centre to face the direction in which you wish it to travel. Then, roll the dice shown in the Random Movement brackets. Finally, move the model directly forwards a number of inches equal to the total rolled by the dice. No other pivots can be made.
+Models with Random Movement cannot declare charges, and must always move in the Compulsory Moves sub- phase. When the model moves, first pivot it about its centre to face the direction in which you wish it to travel. Then, roll the dice shown in the Random Movement brackets. Finally, move the model directly forwards a number of inches equal to the total rolled by the dice. No other pivots can be made.
 
 There's a chance that the model's peculiar movement will cause it to come into contact with an enemy, so measure the distance in a straight line before the model is moved. If the move is found to take the unit’s front arc into contact with an enemy, then it counts as charging, and this is resolved using the normal rules for charges and using the distance rolled as its charge range. Charge reactions cannot be declared against enemies with the Random Movement special rule.
 
@@ -2276,7 +2274,7 @@ If the random move brings the unit to within 1" of a friendly unit or Impassable
 
 A Random Move counts as a ‘normal’ move for triggering a Dangerous Terrain test, unless the model is making a charge, pursuit or flee move, in which case it counts as a move of the appropriate type.
 
-A character with this special rule cannot join a unit without this special rule. A unit with this special rule cannot be joined by a character without this special rule. If a character in the unit has a different Random Movement value, use the slowest for the entire unit.
+If two or more models in a unit have the Random Movement special rule, pivot the unit about its centre, then roll the dice only once to determine how far the unit moves. If models in the unit have a different Random Movement value, use the slowest for the entire unit.
 
 === RAPID FIRE
 
@@ -2296,40 +2294,26 @@ A model with the Sniper special rule can make a special Sniper shot instead of s
 
 === STOMP
 
-A model with this special rule can make a Stomp in addition to its other close combat attacks (including Breath Weapons). A Stomp has the Always Strikes Last special rule and inflicts a number of automatic hits as indicated in the brackets. These are resolved at the model's Strength against a single enemy unit that consists of models with a Line of Sight value of 1 or less. If the model is a Monster, it may also Stomp models with a Line of Sight value of 3 or less.
+A model with this special rule can make a Stomp in addition to its other close combat attacks (including Breath Weapons). A Stomp has the Always Strikes Last special rule and inflicts a number of automatic hits as indicated in the brackets. These are resolved at the model's Strength against a single enemy unit that consists of models with a Line of Sight value of 1 or less. If the model is a Monster, it may also Stomp models with a Line of Sight value of 2 or less.
 
 Unless specified, any special rules or bonuses that apply to the model’s normal attacks do not apply to its Stomp.
 
 === STRIDER
 
-Models with the Strider special rule are rare – normally, they will have a subset of Strider, such as Hill, Forest, Marshland or River Strider and the rule only applies in terrain of the specified type. Models with the Strider rule treat that piece of terrain as Open Ground, meaning they ignore any combat and movement penalties or Dangerous Terrain tests otherwise caused by it.
+Models with the Strider special rule are rare – normally, they will have a subset of Strider, such as Hill, Forest, Marshland or River Strider and the rule only applies in terrain of the specified type. Models with the Strider rule treat that piece of terrain as Open Ground for the purposes of Movement, meaning they ignore any Movement penalties or Dangerous Terrain tests otherwise caused by it.
 
 === STUBBORN
 
 A unit is considered Stubborn if the majority of the models in a unit have this special rule. A Stubborn unit is always Steadfast, whether or not they have more ranks than their enemy or are disrupted.
 
-If a model has the Stubborn special rule from two or more different sources (such as a combination of different special rules, spells or magic items), it may also re-roll failed Break tests.
 
 === STUPIDITY
 
-Provided that they are not engaged in close combat, a unit that contains one or more models with the Stupidity special rule must roll a D6 at the start of its Compulsory Movement sub-phase and consult the table below to see what effect it has until the start of your next turn:
+Provided that they are not engaged in close combat, a unit that contains one or more models with the Stupidity special rule must take a Leadership test at the start of its Movement phase. If the test is passed, the unit will act normally this turn.
 
-#chart((("D6", "Result"), ("1", "Me Head Hurts: The model and any unit
-they are with must move directly forwards
-using the Random Movement (D6) special
-rule, can only choose Hold as a charge
-reaction and cannot use combat reform. In
-addition, the model gains the Immunity
-(Psychology) special rule, may not cast spells
-or channel dice, shoot or use any other
-optional special rules. Note that in case only
-a mount has Stupidity, the rider is not
-affected by the penalties to shooting, casting
-or channelling."), ("2-3", "Unfocused: The model suffers a -1 penalty to
-its Weapon Skill, Ballistic Skill, Leadership,
-casting and dispelling, and only channel dice
-on the roll of a 6. This does not affect any
-riders if only the mount has Stupidity."), ("4-6", "Clear-headed: The model acts as normal.")))
+If the test is failed, it moves directly forwards using the Random Movement (D6) special rule in the Compulsory Movement sub-phase. The Stupid unit cannot take any further action that turn, so cannot declare charges or make a shooting attack. However, a unit that has failed a Stupidity test can still be forced to move, or perform any other action, by a spell, or other special rule/magic item.
+
+Until they pass the Stupidity test again, models that have failed their Stupidity test have the Immunity (Psychology) and Random Movement (D6) special rule, except that they can only move directly forwards. They cannot choose to do a combat reform or choose any other charge reaction except Hold. In addition, Wizards cannot attempt to cast/dispel or channel power dice or dispel dice.
 
 === SWIFTSTRIDE
 
