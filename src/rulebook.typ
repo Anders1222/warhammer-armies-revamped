@@ -2198,10 +2198,6 @@ In addition, models with Magic resistance gain an invulnerable save against all 
 
 Note that this special rule is not cumulative. If two or more models in a unit have this special rule, use the highest modifier.
 
-=== MARCH & SHOOT
-
-Models or weapons with this special rule can shoot even if they marched this turn.
-
 === MIGHTY BLOW
 
 Models with this rule gain a Strength bonus to all their close combat attacks (including Impact Hits and Stomps) equal to the number in the brackets in the first round of close combat they are involved in. Note that any attack made with a weapon that gives Mighty Blow only applies to attacks made with the weapon itself. This rule is cumulative with other sources of Mighty Blow.
@@ -3043,17 +3039,27 @@ Artillery weapons instead often have a minimum range, such as 12\-48". This mean
 
 == MISSILE WEAPONS
 #namecost("SHORTBOW", "")
-#minitable(("Range", "Strength", "Special Rules"), ("16/24\"", "3", "March & Shoot, Multiple Shots (2)*, Volley Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("16/24\"", "3", "Multiple Shots (2)*, Volley Fire"))
 
-\*_Only applies in turns the model has not marched. Cannot be used as a charge reaction._
+\*_Only applies in turns the model has not moved. Cannot be used as a charge reaction._
+
+#namecost("BOW", "")
+#minitable(("Range", "Strength", "Special Rules"), ("24\"", "3", "Multiple Shots (2)*, Volley Fire"))
+
+\*_Only applies in turns the model has not moved. Cannot be used as a charge reaction._
 
 #namecost("LONGBOW", "")
 #minitable(("Range", "Strength", "Special Rules"), ("24/36\"", "3", "Multiple Shots (2)*, Volley Fire"))
 
 \*_Only applies in turns the model has not moved. Cannot be used as a charge reaction._
 
+#namecost("WARBOW", "")
+#minitable(("Range", "Strength", "Special Rules"), ("30\"", "4", "Multiple Shots (2)*, Volley Fire"))
+
+\*_Only applies in turns the model has not moved. Cannot be used as a charge reaction._
+
 #namecost("GREATBOW", "")
-#minitable(("Range", "Strength", "Special Rules"), ("28/42\"", "As user +1", "Multiple Shots (2)*, Volley Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("28/42\"", "5", "Multiple Shots (2)*, Volley Fire"))
 
 \*_Only applies in turns the model has not moved. Cannot be used as a charge reaction._
 
@@ -3062,13 +3068,17 @@ Artillery weapons instead often have a minimum range, such as 12\-48". This mean
 #namecost("HANDGUN", "")
 #minitable(("Range", "Strength", "Special Rules"), ("12/24\"", "5", "Ponderous"))
 #namecost("SLING", "")
-#minitable(("Range", "Strength", "Special Rules"), ("15/30\"", "3", "Armour Piercing (1), Volley Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("15/30\"", "3", "Armour Piercing (1), Multiple Shots (2)*"))
+
+#note[_\*Only applies in turns the model has not moved. Cannot be used to Stand and Shoot._]
 #namecost("JAVELINS", "")
-#minitable(("Range", "Strength", "Special Rules"), ("10/15\"", "As user", "Armour Piercing (1), March & Shoot, Quick Shot"))
+#minitable(("Range", "Strength", "Special Rules"), ("10/15\"", "As user", "Armour Piercing (1), Quick Shot, Volley Fire"))
 #namecost("BLOWPIPE", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/12\"", "2", "March & Shoot, Multiple Shots (3), Poisoned Attacks"))
+#minitable(("Range", "Strength", "Special Rules"), ("6/12\"", "1", "Multiple Shots (2), Poisoned Attacks, Quick Shot, Rapid Fire"))
 #namecost("PISTOL", "")
 #minitable(("Range", "Strength", "Special Rules"), ("6/12\"", "5", "Multiple Shots (2)*, Quick Shot"))
+
+#note[_In close combat, a pistol counts as an additional hand weapon that does not give the model the Parry special rule._]
 
 #note[_\*Requires a brace of pistols._]
 
@@ -3077,15 +3087,11 @@ Artillery weapons instead often have a minimum range, such as 12\-48". This mean
 
 #note[_Blunderbusses do not suffer a penalty To Hit for using Stand & Shoot as a charge reaction._]
 
-#namecost("GRENADES", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/9\"", "4", "Armour Piercing (1), March & Shoot, Quick Shot"))
-
-#note[_Each Hit from a grenade is multiplied into D3 Hits._]
 
 #namecost("THROWING WEAPONS", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/9\"", "As user", "March & Shoot, Multiple Shots (2), Quick Shot"))
+#minitable(("Range", "Strength", "Special Rules"), ("6/9\"", "As user", "Multiple Shots (2), Quick Shot"))
 #namecost("THROWING AXES", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/9\"", "As user +1", "March & Shoot, Quick Shot"))
+#minitable(("Range", "Strength", "Special Rules"), ("6/9\"", "As user +1", "Quick Shot"))
 
 == ARMOUR
 
