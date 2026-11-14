@@ -3136,14 +3136,22 @@ To fire a bolt thrower, select a target according to the normal rules for shooti
 
 If the target is a unit of five or more ranked-up models, the bolt will always strike a regular trooper (as opposed to a character in the unit) in the unit's first rank if the bolt thrower is in the unit's front arc, or the last rank if the bolt thrower is in the unit's rear arc. If the bolt thrower is in the target unit's flank, the target's files count as ranks for the purposes of resolving the shot.
 
-If the shot hits, resolve damage against the target using the bolt thrower's full Strength of 6. The bolt then hits one of the warriors in the rank behind with \-1 Strength (normally Strength 5). A model in the next rank is hit at \-2 Strength (normally Strength 4) and so on, until the unit runs out of ranks or the hit is reduced to Strength 0.
+If the shot hits, resolve damage against the target using the bolt thrower's full Strength of 6. The bolt then hits one of the warriors in the rank behind with \-1 Strength (normally Strength 5). A model in the next rank is hit at \-2 Strength (normally Strength 4) and so on, until the unit runs out of ranks.
+
+If the rank hit by the bolt is made entirely of characters, or if the total number of rank and file models in the unit is less than five, it will be necessary to randomise which model in the rank is hit.
 
 Note that repeating bolts do not pierce ranks.
 
 #note[_As the bolt thrower is in their flank arc, up to five models can be killed by its shot. The bolt thrower can see the cavalry unit, and so it can fire against them (with the hard cover modifier). If it hits, it will skewer the flank of the unit, as shown in the diagram, as it is in the knights' flank arc._]
 
 === CANNONS
-#minitable(("Range", "Strength", "Special Rules"), ("12-60\"", "10", "Cumbersome, Multiple Wounds (D6/D3)"))
+
+There are two different kinds of cannon profiles, representing the differing size and power of various cannons.
+
+#namecost("CANNON", "")
+#minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "10", "Cumbersome, Multiple Wounds (D6/D3)"))
+#namecost("GREAT CANNON", "")
+#minitable(("Range", "Strength", "Special Rules"), ("12-60\"", "10", "Cumbersome, Multiple Wounds (D6)"))
 #namecost("Firing a Cannon", "")
 
 To fire a cannon, first pivot to face the target following the normal rules for war machines. Then, nominate a model or building within the cannon's line of sight.
@@ -3187,13 +3195,13 @@ Damage is resolved differently depending on whether or not the cannon ball hits 
 
 #diagram("/assets/figures/rulebook/img-0569.svg", 0.999)
 
-#note[_Initial position The cannonball lands right on target. The following bounce goes through all three ranks of the unit, scoring 3 hits. Initial position The cannonball strikes the large model and then go through the unit behind it._]
+#note[_Initial position The cannonball lands right on target. The following bounce goes through all three ranks of the unit, scoring 3 hits. Initial position The cannonball strikes the large model, but does not kill it, so the shot does not go through the unit behind._]
 
 #namecost("GRAPESHOT", "")
 
 Instead of firing normal shot, cannon crew can opt to fire grapeshot using the following profile:
 
-#minitable(("Range", "Strength", "Special Rules"), ("12\"", "5", "Cumbersome, Rapid Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("12\"", "5", "Armour Piercing (1), Cumbersome"))
 #namecost("Firing Grapeshot", "")
 
 To fire grapeshot, select a target according to the normal rules for shooting. With the target chosen, roll an artillery dice and a D6 to find out how many shots are fired. If the artillery dice result is a misfire, roll a D6 on the Black Powder War Machine Misfire chart to find out what has gone wrong.
@@ -3201,7 +3209,7 @@ To fire grapeshot, select a target according to the normal rules for shooting. W
 Assuming that a misfire did not occur, roll to hit the target with a number of shots equal to the number rolled on the artillery dice plus the D6, resolving any successful hits using the grapeshot profile.
 
 === FIRE THROWERS
-#minitable(("Range", "Strength", "Special Rules"), ("-", "4", "Cumbersome, Flaming Attacks"))
+#minitable(("Range", "Strength", "Special Rules"), ("-", "5", "Cumbersome, Flaming Attacks"))
 #namecost("Firing a Fire Thrower", "")
 
 Place the teardrop-shaped template with its narrow end touching the fire thrower barrel and the large end aimed at any enemy model or building in line of sight. Roll the artillery dice and move the template directly forward the number of inches indicated. Some fire throwers might also have a range value. In this case, place the template with its narrow end anywhere within this range, measured from the fire thrower barrel as normal.
@@ -3211,10 +3219,10 @@ All models underneath the template are hit automatically. A unit suffering any c
 If a misfire is rolled, roll immediately on the Black Powder Misfire chart.
 
 === ORGAN GUNS
-#minitable(("Range", "Strength", "Special Rules"), ("12/24\"", "5", "Cumbersome, Multiple Shots (Artillery Dice + 3D6), Rapid Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("12/24\"", "5", "Armour Piercing (1), Cumbersome, Multiple Shots (Artillery Dice + D6), Rapid Fire"))
 #namecost("Firing an Organ Gun", "")
 
-To fire an organ gun, select a target according to the normal rules for shooting. Roll 3D6 and the Artillery Dice; the result is the number of shots fired. Roll to hit using the crew's Ballistic Skill, just as you would for a normal missile weapon.
+To fire an organ gun, select a target according to the normal rules for shooting. Roll a D6 and the Artillery Dice; the result is the number of shots fired. Roll to hit using the crew's Ballistic Skill, just as you would for a normal missile weapon.
 
 If a misfire is rolled, roll immediately on the Black Powder Misfire chart.
 
@@ -3228,7 +3236,7 @@ There are three different kinds of trajectory weapon profiles, representing ston
 Stone throwers use the small round template by default.
 
 #namecost("MORTAR", "")
-#minitable(("Range", "Strength", "Special Rules"), ("12-60\"", "3(6)", "Armour Piercing (1), Cumbersome, Multiple Wounds (D3)"))
+#minitable(("Range", "Strength", "Special Rules"), ("12-48\"", "3(6)", "Armour Piercing (1), Cumbersome, Multiple Wounds (D3)"))
 
 Mortars use the large round template by default.
 
