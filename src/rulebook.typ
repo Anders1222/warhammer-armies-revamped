@@ -810,7 +810,7 @@ A higher-level Wizard will know more spells than a lower-level Wizard. Similarly
 
 #namecost("SPELLS", "")
 
-*Each Wizard may choose a number of spells equal to their level.*
+*Each Wizard may choose a number of spells equal to their level plus 1 (in addition to any Signature Spells).*
 
 When you chose your army, you must also select which Lore of Magic each of your Wizards is going to use. What lores are available to each Wizard is specified in their Army Book. It could either be one the eight Winds of Magic at the end of this book (known as the Lore of Fire, Metal, Life, Beasts, Heavens, Light, Shadow and Death), or a unique lore available only to the army in question.
 
@@ -1004,7 +1004,7 @@ To cast a spell, a Wizard nominates one of their spells to cast, and declares th
 
 === CHOOSE NUMBER OF POWER DICE
 
-Once the Wizard, spell and target have been chosen, the player then declares how many power dice from their pool the Wizard will use in their attempt to cast the spell. At least one dice must be taken from the power pool. The number of dice each Wizard can use to cast each spell is equal to their Wizard Level plus 2. So, a Level 3 Wizard could use a maximum of 5 dice on each spell.
+Once the Wizard, spell and target have been chosen, the player then declares how many power dice from their pool the Wizard will use in their attempt to cast the spell. At least one dice must be taken from the power pool. The number of dice each Wizard can use to cast each spell is equal to their Wizard Level plus 1. So, a Level 3 Wizard could use a maximum of 4 dice on each spell.
 
 === CASTING VALUE
 
