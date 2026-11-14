@@ -3008,7 +3008,7 @@ Artillery weapons instead often have a minimum range, such as 12\-48". This mean
 #namecost("POLEARM", "")
 #minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user +1", "Requires Two Hands"))
 
-#note[_A model with a polearm gains +1 Initiative in the first round of close combat._]
+#note[_A model with a polearm gains +1 Initiative._]
 
 #namecost("GREAT WEAPON", "")
 #minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user +1", "Mighty Blow (1), Requires Two Hands"))
@@ -3018,18 +3018,18 @@ Artillery weapons instead often have a minimum range, such as 12\-48". This mean
 #namecost("FLAIL", "")
 #minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "Mighty Blow (2), Requires Two Hands"))
 #namecost("SPEAR", "")
-#minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "Fight in Extra Ranks (1), Mighty Blow (1)*, Requires Two Hands*"))
+#minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "+1 Initiative, Fight in Extra Ranks (1), Mighty Blow (1)*"))
 
-#note[_Model on foot only. A model with a spear gains +1 Initiative in the first round of close combat._]
+#note[_Model on foot only. In turns in which the model is charged to its front, it receives an additional +1 to its Initiative._]
 
-#note[_\*Only applies in turns the model is charged to its front, chose either Hold or Stand & Shoot as a charge reaction and the model chooses to use Requires Two Hands. Mighty Blow does not apply towards Infantry, Swarms and Shrines._]
+#note[_\*Only applies in turns the model is charged to its front. Mighty Blow does not apply towards Infantry, Swarms and Shrines._]
 
 #namecost("PIKE", "")
-#minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "Fight in Extra Ranks (3), Mighty Blow (1)*, Requires Two Hands"))
+#minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "+2 Initiative, Fight in Extra Ranks (3), Mighty Blow (1)*, Requires Two Hands"))
 
-#note[_Model on foot only. A model with a pike gains +2 Initiative in the first round of close combat._]
+#note[_Model on foot only. In turns in which the model is charged to its front, it receives an additional +1 to its Initiative._]
 
-#note[_\*Only applies in turns the model is charged to its front and chose either Hold or Stand & Shoot as a charge reaction. Mighty Blow does not apply towards Infantry, Swarms and Shrines._]
+#note[_\*Only applies in turns the model is charged to its front. Mighty Blow does not apply towards Infantry, Swarms and Shrines._]
 
 #namecost("LIGHT LANCE", "")
 #minitable(("Range", "Strength", "Special Rules"), ("Combat", "As user", "Mighty Blow (1)*"))
