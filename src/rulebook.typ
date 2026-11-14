@@ -1267,12 +1267,12 @@ Each dice that rolls a number equal to or greater than the value required has sc
 
 #namecost("7+ TO HIT", "")
 
-If the required To Hit score is 7 or more, it is still possible to hit the target. As it is impossible to roll a 7 or better on a D6, you will first need to roll a 6. Then, for each shot scoring a 6, you need to roll a further score as shown on the chart below. So, for example, in order to score an 8, you must first roll a 6 followed by a 5 or better.
+If the required To Hit score is 7 or more, it is still possible to hit the target. As it is impossible to roll a 7 or better on a D6, you will first need to roll a 6. Then, for each shot scoring a 6, you need to roll a further score as shown on the chart below. So, for example, in order to score an 8, you must first roll a 6 followed by a 5 or better. If you require a score of 10 or more then it is impossible to hit the intended target – the shots are lost.
 
-#chart((("To Hit Score", "Requirement to Hit:"), ("7", "6 followed by a 2+"), ("8", "6 followed by a 3+"), ("9", "6 followed by a 4+"), ("10+", "6 followed by a 5+")))
+#chart((("To Hit Score", "Requirement to Hit:"), ("7", "6 followed by a 4+"), ("8", "6 followed by a 5+"), ("9", "6 followed by a 6"), ("10+", "Impossible!")))
 #chartlabel("BALLISTIC SKILL OF 6+")
 
-Troops with a high BS have a To Hit score of 1, 0 or even a negative number (as shown above). If shooting modifiers result in a required score of 1 or less, the model has an increased change to hit the target. If the model first fails To Hit, they may re-roll the result as shown on the chart below:
+Troops with a high BS have a To Hit score of 1, 0 or even a negative number (as shown above). If shooting modifiers result in a required score of 1 or less, the model has an increased change to hit the target. If the model first rolls a 1 To Hit, they may re-roll the result as shown on the chart below:
 
 *Ballistic Skill Requirement to Hit on re-roll: 6* 6 *7* 5+ *8* 4+ *9* 3+ *10* 2+
 
@@ -1322,8 +1322,6 @@ There are multiple special rules that affect a model's shooting modifier. These 
 
 Some unusual attacks (most commonly those made by magic missiles, but also many special rules) hit automatically. Where this is the case, it is exactly how it sounds – do not roll for the attack, it instead automatically causes the number of hits stated within the wording.
 
-In the boxes where there are two values listed, this means that in order to successfully score a Wound, you must first roll a 6, followed by another D6. In situations where the roll might have a modifier to it, this primarily affects the second roll before the first. For example, a Strength 2 Attack with a +1 modifier treats Toughness 5 as only requiring to roll a 6+ To Wound, rather than a 6+ followed by a 2+.
-
 When a unit has multiple toughness values you use the value of the majority or in the case of a tie, the best tied value, unless specified otherwise.
 
 #namecost("Resolving Unusual Attacks", "")
@@ -1338,10 +1336,10 @@ The only exceptions are hits caused by close combat attacks – these are discus
 
 To determine whether a hit causes a wound, compare the weapon's Strength (not the Strength of the firer) with the target's Toughness characteristic. Each weapon has a Strength value, given in that weapon's description in the Weapon & Armour chapter.
 
-Pick up all the dice that have hit, and roll them again. Then, consult the To Wound chart, cross-referencing the weapon's Strength (S) with the target's Toughness (T). The number indicated is the minimum score on a D6 needed to convert the hit into a wound. Any dice that equal or beat the score shown on the chart have successfully scored a wound. A To Wound roll of a 1 on a D6 always fails, regardless of any dice modifiers.
+Pick up all the dice that have hit, and roll them again. Then, consult the To Wound chart, cross-referencing the weapon's Strength (S) with the target's Toughness (T). The number indicated is the minimum score on a D6 needed to convert the hit into a wound. Any dice that equal or beat the score shown on the chart have successfully scored a wound. A To Wound roll of a 1 on a D6 always fails and a roll of 6 always succeeds, regardless of any dice modifiers.
 
 #chartlabel("TARGET'S TOUGHNESS")
-#chart((("", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"), ("1", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+", "6+/6+", "n/a", "n/a"), ("2", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+", "6+/6+", "n/a"), ("3", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+", "6+/6+"), ("4", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+"), ("5", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+"), ("6", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+"), ("7", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+"), ("8", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+"), ("9", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+"), ("10", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+")))
+#chart((("", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"), ("1", "4+", "5+", "6+", "6+", "6+", "6+", "6+", "6+", "6+", "6+"), ("2", "3+", "4+", "5+", "6+", "6+", "6+", "6+", "6+", "6+", "6+"), ("3", "2+", "3+", "4+", "5+", "6+", "6+", "6+", "6+", "6+", "6+"), ("4", "2+", "2+", "3+", "4+", "5+", "6+", "6+", "6+", "6+", "6+"), ("5", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+", "6+", "6+"), ("6", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+", "6+"), ("7", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+"), ("8", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+"), ("9", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+"), ("10", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+")))
 #chartlabel("ATTACKER'S STRENGTH")
 
 == 5. SAVING THROWS
@@ -1356,9 +1354,9 @@ All saves from various equipment or special rules are cumulative, so you can com
 
 For example, a model with a 6+ save (or +1) that adds a piece of equipment that gives a 5+ save (or +2), will have a total of a 4+ save (or +3).
 
-Note that a save of any kind can never be better than 2+. This does not prevent a model having items or special rules that would take the save even lower, it simply caps the saving throw at 2+.
+Note that a save of any kind can never be better than 1+. This does not prevent a model having items or special rules that would take the save even lower, it simply caps the saving throw at 1+. Also, remember that a roll of 1 is always a failure.
 
-#chart((("Save modifier:", "Save:"), ("+1", "6+"), ("+2", "5+"), ("+3", "4+"), ("+4", "3+"), ("+5", "2+")))
+#chart((("Save modifier:", "Save:"), ("+1", "6+"), ("+2", "5+"), ("+3", "4+"), ("+4", "3+"), ("+5", "2+"), ("+6", "1+")))
 
 === NEGATIVE ARMOUR SAVE MODIFIERS
 
@@ -1535,12 +1533,10 @@ Not all hits are going to harm your enemy – some bounce off tough hide, while 
 
 Consult the To Wound chart, cross-referencing the attacker's Strength with the defender's Toughness. Both values appear on the profiles of the creatures that are fighting. The chart indicates the minimum score required on a D6 to cause a wound. In most cases, you use the Strength on the attacker's profile regardless of what weapon they are using. However, some close combat weapons give the attacker a Strength bonus (see the Weapons chapter).
 
-Remember to roll dice separately for models with different Strength values. Sometimes modifiers apply to these rolls, but a natural dice score of 1 always fails.
-
-In the boxes where there are two values listed, this means that in order to successfully score a Wound, you must first roll a 6, followed by another D6. In situations where the roll might have a modifier to it, this primarily affects the second roll before the first. For example, a Strength 2 Attack with a +1 modifier treats Toughness 5 as only requiring to roll a 6+ To Wound, rather than a 6+ followed by a 2+.
+Remember to roll dice separately for models with different Strength values. Sometimes modifiers apply to these rolls, but a natural dice score of 6 always succeeds and a natural dice score of 1 always fails.
 
 #chartlabel("TARGET'S TOUGHNESS")
-#chart((("", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"), ("1", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+", "6+/6+", "n/a", "n/a"), ("2", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+", "6+/6+", "n/a"), ("3", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+", "6+/6+"), ("4", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+", "6+/5+"), ("5", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+", "6+/4+"), ("6", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+", "6+/3+"), ("7", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+/2+"), ("8", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+"), ("9", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+"), ("10", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+")))
+#chart((("", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"), ("1", "4+", "5+", "6+", "6+", "6+", "6+", "6+", "6+", "6+", "6+"), ("2", "3+", "4+", "5+", "6+", "6+", "6+", "6+", "6+", "6+", "6+"), ("3", "2+", "3+", "4+", "5+", "6+", "6+", "6+", "6+", "6+", "6+"), ("4", "2+", "2+", "3+", "4+", "5+", "6+", "6+", "6+", "6+", "6+"), ("5", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+", "6+", "6+"), ("6", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+", "6+"), ("7", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+", "6+"), ("8", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+", "6+"), ("9", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+", "5+"), ("10", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "2+", "3+", "4+")))
 #chartlabel("ATTACKER'S STRENGTH")
 
 === TAKE SAVING THROWS
