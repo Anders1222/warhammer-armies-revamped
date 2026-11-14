@@ -5,8 +5,8 @@ The publish workflow walks build/render.json and compiles each id with
 `--ignore-system-fonts --root .`; this does the same thing on the machine in
 front of you, so a local render is the render that will publish. It is a
 script because a loop retyped from memory is exactly where one of the two
-flags goes missing, and because Typst compiles one book at a time: thirty-one
-books take a minute in a row and a fraction of that side by side.
+flags goes missing, and because Typst compiles one book at a time: nineteen
+books take most of a minute in a row and a fraction of that side by side.
 
     python build.py                    # every book, into out/
     python build.py skaven dwarfs      # two of them

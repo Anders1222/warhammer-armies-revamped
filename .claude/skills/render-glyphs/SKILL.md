@@ -43,7 +43,7 @@ byte-identity is what a check genuinely needs, pin it with
 
 ## How to read the result
 
-- `books whose layout moved: 0/31` and exit 0: not a glyph moved. The change
+- `books whose layout moved: 0/19` and exit 0: not a glyph moved. The change
   can be reported as invisible on paper.
 - A moved book prints either `N pages -> M` when the page count changed, or
   `K of N pages differ - p6, p7 …` with the first few page numbers (`-n`
