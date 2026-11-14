@@ -1,5 +1,9 @@
 [
  {
+  "id": "albion",
+  "cover": "covers/albion.png"
+ },
+ {
   "id": "beastmen",
   "cover": "covers/beastmen.png"
  },
