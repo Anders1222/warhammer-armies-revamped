@@ -1213,7 +1213,7 @@ A model may not shoot in the following scenarios:
 
 #namecost("WHAT IS A MISSILE ATTACK?", "")
 
-A missile attack is any attack that is performed from a distance during the Shooting phase, including shots from weapons, but also template weapons as well as magic missiles (but not direct damage spells or magical vortexes).
+A missile attack is any attack that is performed from a distance, including shots from weapons, but also template weapons as well as magic missiles (but not direct damage spells or magical vortexes).
 
 == 2. CHOOSE A TARGET
 
@@ -1223,9 +1223,7 @@ Now you've chosen the unit that will make the shooting attack, you need to choos
 
 === FIRE IN TWO RANKS
 
-The rules given above allow front rank models to shoot, but we also want to allow models in the second rank to shoot (they take aim over crouched or stooping fellows in the front rank). Therefore, models in the second rank can use the line of sight and forward arc of the model directly in front of them for the purposes of all shooting attacks (including stand and shoot reactions). In simple terms, this allows units to fire in two ranks.
-
-Models further back than the second rank of a unit are assumed to have their line of sight blocked by models further forward, and so will not normally be able to shoot, regardless of the Line of Sight value of the target.
+All units in the game may fire with their first two ranks. Models further back than the second rank cannot shoot unless specified, regardless of the Line of Sight value of the target.
 
 === CHECK THE TARGET IS IN RANGE
 
