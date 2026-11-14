@@ -32,6 +32,10 @@
   "cover": "covers/grand-cathay.png"
  },
  {
+  "id": "halflings",
+  "cover": "covers/halflings.png"
+ },
+ {
   "id": "high-elves",
   "cover": "covers/high-elves.png"
  },

@@ -1,6 +1,6 @@
 # Book cover illustrations
 
-Eighteen faction illustrations and one main rulebook illustration replace the books' extracted cover images.
+Nineteen faction illustrations and one main rulebook illustration replace the books' extracted cover images.
 
 - Files: `covers/<slug>.png`, shared by the Typst covers and the website cards.
 - Format: 1254 × 1254 PNG, RGBA, with the generated alpha channel preserved. Transparent areas contain no painted background.
@@ -22,6 +22,7 @@ The visual briefs below interpret the lore and visual references. The correspond
 | Dwarfs | Runic king, engineer, gromril and anvil | [Reference](https://whfb.lexicanum.com/mediawiki/index.php?mobileaction=toggle_view_desktop&title=Dwarf) | [Art / gallery](https://1d6chan.miraheze.org/wiki/Dwarfs_%28Warhammer_Fantasy%29) |
 | Empire | General, halberdier, cannon and comet imagery | [Reference](https://warhammerarmiesproject.blogspot.com/2023/05/showcase-gallery-empire.html) | [Art / gallery](https://warhammerarmiesproject.blogspot.com/2023/05/showcase-gallery-empire.html) |
 | Grand Cathay | Jade lamellar armor, dragon-blooded commander and Eastern dragon | [Reference](https://warhammerfantasy.fandom.com/wiki/Grand_Cathay) | [Art / gallery](https://www.warhammerart.com/products/grand-cathay) |
+| Halflings | Moot fieldwarden, master chef and hot pot | [Reference](https://2d4chan.org/wiki/The_Moot) | [Art / gallery](https://whfb.lexicanum.com/wiki/List_of_Halfling_miniatures) |
 | High Elves | Ulthuan prince, silver armor and phoenix | [Reference](https://www.warhammer-community.com/en-gb/articles/q4oh518o/lvo-preview-2025-the-resplendent-host-of-ulthuan/) | [Art / gallery](https://www.warhammer-community.com/en-gb/articles/q4oh518o/lvo-preview-2025-the-resplendent-host-of-ulthuan/) |
 | Lizardmen | Saurus Oldblood, Skink priest and Slann palanquin | [Reference](https://www.warhammer-community.com/en-gb/articles/w5gMcbcG/from-savages-to-spacefarers-who-are-the-slann-starmasters/) | [Art / gallery](https://professionalcasual.com/2024/06/24/lizardmen-stillmania-for-warhammer-the-old-world/) |
 | Ogre Kingdoms | Ogre Tyrant, iron gutplate and Gnoblar | [Reference](https://warhammerfantasy.fandom.com/wiki/Ogre_Tyrant) | [Art / gallery](https://whfb.lexicanum.com/wiki/Category%3AOgre_Kingdoms_images) |

@@ -4075,6 +4075,7 @@ Each Warhammer army belong to either the Forces of Order, Forces of Destruction 
 - _Cathay_
 - _Dwarfs_
 - _The Empire_
+- _Halflings_
 - _High Elves_
 - _Lizardmen_
 - _Wood Elves_
