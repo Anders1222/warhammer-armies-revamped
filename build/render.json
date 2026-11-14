@@ -36,6 +36,10 @@
   "cover": "covers/high-elves.png"
  },
  {
+  "id": "kislev",
+  "cover": "covers/kislev.png"
+ },
+ {
   "id": "lizardmen",
   "cover": "covers/lizardmen.png"
  },
