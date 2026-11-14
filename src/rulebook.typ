@@ -1284,13 +1284,10 @@ Shooting modifiers are applied to the dice rolls before they are compared to the
 
 Models that moved for any reason (including rallying, reforming, pivoting on the spot or special rule that forces them to move as a compulsory action) during this turn suffer a \-1 to Hit modifier. Lone Models can pivot on the spot and fire in the same turn without suffering this penalty.
 
-#namecost("LONG RANGE", "")
-
-Any shots taken at an enemy that are at long range suffer a \-1 to Hit modifier. This is described for each weapon in the Weapons & Armour chapter.
 
 #namecost("STAND & SHOOT", "")
 
-Models that are making a Stand & Shoot reaction suffer a \-1 to Hit modifier, but ignore penalties from long range.
+Models that are making a Stand & Shoot reaction suffer a \-1 to Hit modifier.
 
 #namecost("LONE MODEL", "")
 
@@ -2359,9 +2356,9 @@ If an Unstable unit also contains Unstable characters, the controlling player fi
 
 === VOLLEY FIRE
 
-Weapons with this rule allow a unit to fire with all ranks that are within range in the Shooting Phase, rather than only the first two ranks.
+Weapons with this rule allow a unit to fire with all ranks that are within range in the Shooting Phase, rather than only the first two ranks. However, if they do so, all models in the third and subsequent ranks suffer \-1 To Hit.
 
-A unit cannot use Volley Fire if the target is within the weapon’s effective range, if the unit moved earlier in the turn, or when making a Stand and Shoot charge reaction.
+A unit cannot Volley Fire if the target is within half the weapon’s maximum range.
 
 === WEAPON TEAM
 
@@ -2984,9 +2981,7 @@ Each weapon confers a number of abilities onto the warrior wielding it. This wil
 
 Each weapon has its own characteristic profile. There are three sections to a weapon's profile: Range, Strength and Special Rules.
 
-*Range:* The range tells you at what distance the weapon can be used. If a weapon's range is 'combat' then it can only be used in close combat. If the range is a number of some kind, it is a missile weapon.
-
-Missile weapons typically have two ranges, such as 16/24". The first number represents the weapon's effective range and the second its maximum range. Shots fired beyond the weapon's effective range count as long range. Profiles that only have one range listed ignore penalties for long range.
+*Range:* The range tells you at what distance the weapon can be used. If a weapon's range is 'combat' then it can only be used in close combat. If the range is a number of some kind, it is a missile weapon and the number is its maximum range.
 
 Artillery weapons instead often have a minimum range, such as 12\-48". This means that the weapon cannot target units closer than 12", and must pick a target between 12\-48" instead.
 
@@ -3043,37 +3038,37 @@ Artillery weapons instead often have a minimum range, such as 12\-48". This mean
 
 == MISSILE WEAPONS
 #namecost("SHORTBOW", "")
-#minitable(("Range", "Strength", "Special Rules"), ("16/24\"", "3", "March & Shoot, Multiple Shots (2)*, Volley Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("18\"", "3", "March & Shoot, Multiple Shots (2)*, Volley Fire"))
 
 \*_Only applies in turns the model has not marched. Cannot be used as a charge reaction._
 
 #namecost("LONGBOW", "")
-#minitable(("Range", "Strength", "Special Rules"), ("24/36\"", "3", "Multiple Shots (2)*, Volley Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("30\"", "3", "Multiple Shots (2)*, Volley Fire"))
 
 \*_Only applies in turns the model has not moved. Cannot be used as a charge reaction._
 
 #namecost("GREATBOW", "")
-#minitable(("Range", "Strength", "Special Rules"), ("28/42\"", "As user +1", "Multiple Shots (2)*, Volley Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("36\"", "As user +1", "Multiple Shots (2)*, Volley Fire"))
 
 \*_Only applies in turns the model has not moved. Cannot be used as a charge reaction._
 
 #namecost("CROSSBOW", "")
-#minitable(("Range", "Strength", "Special Rules"), ("24/36\"", "4", "Ponderous"))
+#minitable(("Range", "Strength", "Special Rules"), ("30\"", "4", "Ponderous"))
 #namecost("HANDGUN", "")
-#minitable(("Range", "Strength", "Special Rules"), ("12/24\"", "5", "Ponderous"))
+#minitable(("Range", "Strength", "Special Rules"), ("24\"", "4", "Armour Piercing (1), Ponderous"))
 #namecost("SLING", "")
-#minitable(("Range", "Strength", "Special Rules"), ("15/30\"", "3", "Armour Piercing (1), Volley Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("18\"", "3", "Armour Piercing (1), Volley Fire"))
 #namecost("JAVELINS", "")
-#minitable(("Range", "Strength", "Special Rules"), ("10/15\"", "As user", "Armour Piercing (1), March & Shoot, Quick Shot"))
+#minitable(("Range", "Strength", "Special Rules"), ("12\"", "As user", "Armour Piercing (1), March & Shoot, Quick Shot"))
 #namecost("BLOWPIPE", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/12\"", "2", "March & Shoot, Multiple Shots (3), Poisoned Attacks"))
+#minitable(("Range", "Strength", "Special Rules"), ("12\"", "2", "March & Shoot, Multiple Shots (3), Poisoned Attacks"))
 #namecost("PISTOL", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/12\"", "5", "Multiple Shots (2)*, Quick Shot"))
+#minitable(("Range", "Strength", "Special Rules"), ("12\"", "4", "Armour Piercing (1), Multiple Shots (2)*, Quick Shot"))
 
 #note[_\*Requires a brace of pistols._]
 
 #namecost("BLUNDERBUSS", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/12\"", "4", "Multiple Shots (3), Rapid Fire, Quick Shot"))
+#minitable(("Range", "Strength", "Special Rules"), ("12\"", "3", "Armour Piercing (1), Multiple Shots (3), Rapid Fire, Quick Shot"))
 
 #note[_Blunderbusses do not suffer a penalty To Hit for using Stand & Shoot as a charge reaction._]
 
@@ -3083,9 +3078,9 @@ Artillery weapons instead often have a minimum range, such as 12\-48". This mean
 #note[_Each Hit from a grenade is multiplied into D3 Hits._]
 
 #namecost("THROWING WEAPONS", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/9\"", "As user", "March & Shoot, Multiple Shots (2), Quick Shot"))
+#minitable(("Range", "Strength", "Special Rules"), ("8\"", "As user", "March & Shoot, Multiple Shots (2), Quick Shot"))
 #namecost("THROWING AXES", "")
-#minitable(("Range", "Strength", "Special Rules"), ("6/9\"", "As user +1", "March & Shoot, Quick Shot"))
+#minitable(("Range", "Strength", "Special Rules"), ("6\"", "As user +1", "March & Shoot, Quick Shot"))
 
 == ARMOUR
 
@@ -3121,13 +3116,13 @@ Below you will find rules for the most common types of artillery pieces in the g
 There are two different kinds of bolt thrower profiles, representing regular bolt throwers and repeater bolt throwers. Repeater bolt throwers can always choose to fire like regular bolt throwers if they wish.
 
 #namecost("BOLT THROWER", "")
-#minitable(("Range", "Strength", "Special Rules"), ("32/48\"", "6", "Armour Piercing (1), Cumbersome, Multiple Wounds (D3)"))
+#minitable(("Range", "Strength", "Special Rules"), ("48\"", "6", "Armour Piercing (1), Cumbersome, Multiple Wounds (D3)"))
 #namecost("REPEATER BOLT THROWER", "")
 #diagram("/assets/figures/rulebook/img-0565.svg", 0.463)
 
 #note[_Up to four models can be killed by the shot of this bolt thrower. The Strength that each rank is hit at is shown next to it._]
 
-#minitable(("Range", "Strength", "Special Rules"), ("32/48\"", "4", "Armour Piercing (1), Cumbersome, Multiple Shots (6), Rapid Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("48\"", "4", "Armour Piercing (1), Cumbersome, Multiple Shots (6), Rapid Fire"))
 #namecost("Firing a Bolt Thrower", "")
 
 To fire a bolt thrower, select a target according to the normal rules for shooting. Roll to hit using the crew's Ballistic Skill, just as you would for a normal missile weapon.
@@ -3211,7 +3206,7 @@ All models underneath the template are hit automatically. A unit suffering any c
 If a misfire is rolled, roll immediately on the Black Powder Misfire chart.
 
 === ORGAN GUNS
-#minitable(("Range", "Strength", "Special Rules"), ("12/24\"", "5", "Cumbersome, Multiple Shots (Artillery Dice + 3D6), Rapid Fire"))
+#minitable(("Range", "Strength", "Special Rules"), ("24\"", "5", "Cumbersome, Multiple Shots (Artillery Dice + 3D6), Rapid Fire"))
 #namecost("Firing an Organ Gun", "")
 
 To fire an organ gun, select a target according to the normal rules for shooting. Roll 3D6 and the Artillery Dice; the result is the number of shots fired. Roll to hit using the crew's Ballistic Skill, just as you would for a normal missile weapon.
