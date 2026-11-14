@@ -4071,6 +4071,7 @@ Each Warhammer army belong to either the Forces of Order, Forces of Destruction 
 
 *The Forces of Order are:*
 
+- _Amazons_
 - _Bretonnia_
 - _Cathay_
 - _Dwarfs_
