@@ -2528,44 +2528,23 @@ Infantry have a Unit Strength of 1.
 
 Infantry have a Line of Sight value of 1.
 
-== LARGE INFANTRY
-
-The following rules apply to Large Infantry:
-
-#namecost("RANKS", "")
-
-A unit of Large Infantry is required to be four or more models wide in order to have a complete rank.
-
-#namecost("SUPPORTING ATTACKS", "")
-
-A Large Infantry model may make up to two supporting attacks.
-
-#namecost("UNIT STRENGTH", "")
-
-Large Infantry have a Unit Strength of 1.
-
-#namecost("LINE OF SIGHT", "")
-
-Large Infantry have a Line of Sight value of 1.
-
 == MONSTROUS INFANTRY
 
 The following rules apply to Monstrous Infantry:
 
 #namecost("RANKS", "")
 
-A unit of Monstrous Infantry is required to be three or more models wide in order to have a complete rank.
+A unit of Monstrous Infantry is required to be three or more models wide in order to have a complete rank. In addition, their fighting rank is three models rather than five.
 
 #namecost("SUPPORTING ATTACKS", "")
 
-A Monstrous Infantry model may make up to two supporting attacks.
+A Monstrous Infantry model may make up to three supporting attacks.
 
 #namecost("SPECIAL RULES", "")
 
 Monstrous Infantry are subject to the following special rules:
 
 - Fear
-- Swiftstride
 
 #namecost("UNIT STRENGTH", "")
 
@@ -2595,9 +2574,9 @@ If the rider and the mount both have armour saves or invulnerable saves these ma
 
 Any equipment or magic items the model might otherwise have only apply to the rider, not the mount (unless specified).
 
-Unless specified, any effect that would modify the model's characteristics affect both the rider and mount.
+Unless specified, any effect that would modify the model's characteristics or their dice rolls affect both the rider and mount.
 
-In some cases, you may find Cavalry models that do not have a split profile. In this case, treat the model as single entity that may make up to two supporting attacks. The model also counts as mounted for the purpose of using certain weapons, as described in the Weapons and Armour chapter, but counts as a model on foot for the purposes of using Parry.
+In some cases, you may find Cavalry models that do not have a split profile. The model counts as mounted for the purpose of using certain weapons, as described in the Weapons and Armour chapter.
 
 #namecost("RANKS", "")
 
@@ -2634,7 +2613,7 @@ Any special rules listed for Cavalry units only apply to the rider, unless they 
 
 #namecost("TERRAIN", "")
 
-Cavalry have to take Dangerous Terrain tests if they move, march, charge, flee or pursue over anything other than open ground or hills – see Battlefield Terrain for more details.
+Cavalry have to take Dangerous Terrain tests if they march, charge, flee or pursue over anything other than open ground or hills – see Battlefield Terrain for more details.
 
 #namecost("UNIT STRENGTH", "")
 
@@ -2650,7 +2629,7 @@ All the Cavalry rules apply to Monstrous Cavalry. In addition, the following rul
 
 #namecost("RANKS", "")
 
-A unit of Monstrous Cavalry is required to be three or more models wide in order to have a complete rank.
+A unit of Monstrous Cavalry is required to be three or more models wide in order to have a complete rank. In addition, their fighting rank is three models rather than five.
 
 #namecost("SUPPORTING ATTACKS", "")
 
@@ -2680,6 +2659,8 @@ The following rules apply to Swarms:
 
 A unit of Swarms is required to be three or more models wide in order to have a complete rank.
 
+In addition, their fighting rank is three models rather than five.
+
 #namecost("SUPPORTING ATTACKS", "")
 
 A Swarm model may make up to five supporting attacks.
@@ -2689,10 +2670,11 @@ A Swarm model may make up to five supporting attacks.
 Swarms are subject to the following special rules:
 
 - Expendable
-- Skirmishers
+- Independent
 - Unstable
+- Vanguard
 
-Other models can fire through them at targets behind them with no To Hit penalty. However, any Swarm base that is hit by a template attack suffers Multiple Wounds (D6) rather than 1.
+Any Swarm base that is hit by a template attack suffers Multiple Wounds (D6) rather than 1.
 
 #namecost("UNIT STRENGTH", "")
 
@@ -2719,7 +2701,7 @@ A War Beast model may make up to one supporting attack.
 War Beasts are subject to the following special rules:
 
 - Expendable
-- Swiftstride
+- Independent
 - Vanguard
 
 #namecost("CHARACTER MOUNT", "")
@@ -2740,18 +2722,18 @@ The following rules apply to Monstrous Beasts:
 
 #namecost("RANKS", "")
 
-A unit of Monstrous Beasts is required to be three or more models wide in order to have a complete rank.
+A unit of Monstrous Beasts is required to be three or more models wide in order to have a complete rank. In addition, their fighting rank is three models rather than five.
 
 #namecost("SUPPORTING ATTACKS", "")
 
-A Monstrous Beast model may make up to two supporting attacks.
+A Monstrous Beast model may make up to three supporting attacks.
 
 #namecost("SPECIAL RULES", "")
 
 Monstrous Beasts are subject to the following special rules:
 
 - Fear
-- Swiftstride
+- Independent
 
 #namecost("CHARACTER MOUNT", "")
 
@@ -2773,8 +2755,8 @@ The following rules apply to Monstrous Creatures:
 
 Monstrous Creatures are subject to the following special rules:
 
+- Independent
 - Stomp (D3)
-- Swiftstride
 - Terror
 
 #namecost("CHARACTER MOUNT", "")
@@ -2797,13 +2779,13 @@ The following rules apply to Monsters:
 
 Monsters are subject to the following special rules:
 
+- Independent
 - Stomp (D6)
-- Swiftstride
 - Terror
 
 #namecost("SPLIT PROFILE", "")
 
-Ridden Monsters follow all the Split Profile rules for Cavalry. The riders can fire in 360° around them, rather than only firing at targets within their front arc. This only applies to any missile weapons carried by the crew themselves; any missile weapons mounted on the Monster itself can only fire in the model's forward arc as normal. Any crew member that chooses to fire the mounted weapon cannot fire their own weapon in the same turn.
+Ridden Monsters follow all the Split Profile rules for Cavalry. The riders can shoot and cast magic missiles in 360° around them, rather than only firing at targets within their front arc. However; any artillery weapons can only fire in the model's forward arc as normal, unless specified. Any crew member that chooses to fire an artillery weapon cannot fire their own weapon in the same turn.
 
 #namecost("ARMOUR SAVES", "")
 
@@ -2812,6 +2794,8 @@ Many Monsters have an armour save detailed in their army list entry, which is co
 #namecost("CHARACTER MOUNT", "")
 
 Some Characters can ride Monsters. If a character has a ridden Monster, the whole model is treated as having the troop type Monster and thus follows all the rules for both characters and Monster models including the Split Profile rules above. A character on a ridden Monster cannot join other units.
+
+If the Monster includes any riders in addition to the character, their armour saves are ignored when calculating the overall armour save of the model – only the character's own armour save is used.
 
 #namecost("UNIT STRENGTH", "")
 
@@ -2833,9 +2817,7 @@ When moving, the chariot model always uses its own Movement characteristic. Howe
 
 Unlike cavalry, chariot mounts can only fight enemies to the front.
 
-The Wounds and Toughness of the crew and the creatures are never used – hits are resolved against the chariot's Wounds and Toughness. It is the crew's Weapon Skill that is used for the purposes of the enemy rolling to hit, just as with cavalry.
-
-The crew can fire in 360° around them, rather than only firing at targets within their front arc. This only applies to any missile weapons carried by the crew themselves; any missile weapons mounted on the chariot itself can only fire in the model's forward arc as normal. Any crew member that chooses to fire the mounted weapon cannot fire their own weapon in the same turn.
+The riders can shoot and cast magic missiles in 360° around them, rather than only firing at targets within their front arc. However; any artillery weapons can only fire in the model's forward arc as normal, unless specified. Any crew member that chooses to fire an artillery weapon cannot fire their own weapon in the same turn.
 
 #namecost("ARMOUR SAVES", "")
 
@@ -2847,7 +2829,7 @@ Some characters can ride chariots. If a character has taken a chariot as a mount
 
 #namecost("RANKS", "")
 
-A unit of Chariots is required to be three or more models wide in order to have a complete rank.
+A unit of Chariots is required to be three or more models wide in order to have a complete rank. In addition, their fighting rank is three models rather than five.
 
 #namecost("SUPPORTING ATTACKS", "")
 
@@ -2858,7 +2840,6 @@ Chariots cannot make supporting attacks. However, Chariots in the second rank ad
 Chariots are subject to the following special rules:
 
 - Impact Hits (D6)
-- Swiftstride
 
 Some chariots are equipped with scythes which add +1 Impact Hits. This will be specified in their entry.
 
@@ -2866,7 +2847,7 @@ Just as with cavalry, we assume that special rules that apply to the mounts do n
 
 #namecost("TERRAIN", "")
 
-Chariots have to take Dangerous Terrain tests if they move, march, charge, flee or pursue over anything other than open ground or hills – see Battlefield Terrain for more details.
+Chariots have to take Dangerous Terrain tests if they march, charge, flee or pursue over anything other than open ground or hills – see Battlefield Terrain for more details.
 
 #namecost("UNIT STRENGTH", "")
 
@@ -2884,11 +2865,11 @@ The following rules apply to Shrines:
 
 All the Split Profile rules for Cavalry rules apply to Shrines. In addition, the following rules apply:
 
-Unlike most other units, a shrine may join other units of Infantry (except Skirmishers) following the rules for Characters and Units in the characters chapter.
+Unlike most other units, a shrine may join other units of Infantry (except Skirmishers) following the rules for Characters and Units in the characters chapter. However, they may choose in which rank they wish to be placed, rather than being required to being in the front rank.
 
 When moving, the shrine model uses its own Movement characteristic.
 
-The Wounds and Toughness of the crew and the creatures are never used – hits are resolved against the shrine's Wounds and Toughness. It is the crew's Weapon Skill that is used for the purposes of the enemy rolling to hit, just as with cavalry.
+The riders can shoot and cast magic missiles in 360° around them, rather than only firing at targets within their front arc.
 
 #namecost("ARMOUR SAVES", "")
 
@@ -2900,7 +2881,7 @@ Some characters can be mounted upon shrines. If a character has taken a shrine a
 
 #namecost("TERRAIN", "")
 
-Shrines have to take Dangerous Terrain tests if they move, march, charge, flee or pursue over anything other than open ground or hills.
+Shrines have to take Dangerous Terrain tests if they march, charge, flee or pursue over anything other than open ground or hills.
 
 #namecost("UNIT STRENGTH", "")
 
