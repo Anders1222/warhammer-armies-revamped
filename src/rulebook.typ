@@ -1579,7 +1579,7 @@ If your unit charged this turn, it receives +1 combat result. This is cumulative
 
 #namecost("EXTRA RANKS", "")
 
-*\+1 combat result for each extra complete rank of models, to a maximum of +3.*
+*\+1 combat result for each extra complete rank of models, to a maximum of +3. Units that have charged the same turn are limited to a maximum of +2.*
 
 If your unit's formation is in a complete rank, you can claim a bonus of +1 combat result for each extra complete rank behind the fighting rank, at the end of the fight, up to a maximum of +3. Note that this bonus can also be claimed for an incomplete rear rank, as long as there are enough models in it. This number of models is specified in the troop types chapter.
 
@@ -1631,9 +1631,9 @@ If you are charging or fighting from a higher position than your enemy, for exam
 
 #namecost("CHALLENGE", "")
 
-*\+1 combat result per excess wound caused in a challenge, to a maximum of +3.*
+*\+1 combat result if a challenge was refused by your enemy.*
 
-If a character fighting in a challenge kills their opponent and scores more wounds than their enemy has remaining, then each excess wound scores +1 combat result, up to a maximum of +3.
+In addition, if a character fighting in a challenge kills their opponent and scores more wounds than their enemy has remaining, then each excess wound scores +1 combat result, up to a maximum of +3.
 
 Challenges are a special type of close combat performed only by characters, and are covered in more detail in the characters chapter.
 
@@ -1669,7 +1669,7 @@ Note that in case the penalty to the losing unit's Leadership is equal to or gre
 
 *If a defeated unit has a higher number of complete ranks after the first than all individual enemy units in base contact, it takes its Break test on its unmodified Leadership.*
 
-Disrupted units and Skirmishers (see Special Rules chapter) cannot be Steadfast.
+Disrupted units cannot be Steadfast.
 
 Steadfast units always take Break tests on their own Leadership characteristic, ignoring any negative close combat resolution modifiers.
 
@@ -1721,7 +1721,7 @@ If you wish your unit to restrain pursuit, it must first take a Leadership test.
 
 *If one or more pursuing unit rolls equal to or higher than the fleeing unit, parts of the fleeing unit is destroyed.*
 
-If the victorious unit's pursuit roll is equal to or greater than the Flee roll scored by the fleeing enemy unit, the fleeing unit suffers two Wounds with no saves of any kind allowed for each point of Unit Strength the charging unit(s) has, just as when charging a fleeing enemy. If any models survive, the pursuing unit then stops 1" behind the remains of the fleeing unit, just as if they had charged a fleeing enemy. If no models survive, see the "Move Pursuers" section below.
+If the victorious unit's pursuit roll is equal to or greater than the Flee roll scored by the fleeing enemy unit, the fleeing unit suffers one Wound with no saves of any kind allowed for each point of Unit Strength the charging unit(s) has, just as when charging a fleeing enemy. If any models survive, the pursuing unit then stops 1" behind the remains of the fleeing unit, just as if they had charged a fleeing enemy. If no models survive, see the "Move Pursuers" section below.
 
 === MOVE FLEEING UNIT
 
@@ -1826,10 +1826,6 @@ Note that if a unit is Disrupted from any source, it may not count its rank bonu
 
 #note[_The Goblins have a total combat resolution score of 2 against the Halberdiers. The Halberdiers have a total combat resolution score of 9 against the Goblins. Normally the Goblins would have lost the combat by 7. However, as the overall combat was lost by just 2, the Goblins must take a Break test suffering only a \-2 Leadership Modifier._]
 
-#namecost("Steadfast", "")
-
-Units on the losing side are Steadfast as per the normal rules as long as the combined Unit Strength of all friendly units is higher than that of the combined Unit Strength of all enemy units in the close combat. Note that currently Disrupted units do not contribute to the overall Unit Strength for those units that can be Steadfast.
-
 #diagram("/assets/figures/rulebook/img-0518.jpg", 0.463)
 #diagram("/assets/figures/rulebook/img-0519.jpg", 0.463)
 
@@ -1871,7 +1867,7 @@ Once all flee moves have been resolved, resolve any pursue moves one at a time. 
 
 Occasionally, a situation can arise when one or more units are no longer in base contact with the enemy, but at least part of the enemy unit is still alive. This normally occurs when an enemy has been charged in the rear – as casualties come from the rear rank first, this would in theory leave the attackers stranded from their foe. Clearly this is wrong, just as warriors on a real battlefield would push on to continue the fight, and would not stop fighting if the enemy was standing a few paces away, so must warriors on the miniature battlefield.
 
-Whenever a unit becomes stranded in this manner, the attacking unit is immediately nudged (by as small an amount as possible) to bring it back into contact with the foe. This move cannot be used to alter the facing the attacker is in base contact with, nor is it an opportunity to change the attacker's formation or charge a unit not engaged in the fight. If the attacker cannot be moved in this manner, then the defending unit is moved instead.
+Whenever a unit becomes stranded in this manner, the winning unit is immediately nudged (by as small an amount as possible) to bring it back into contact with the foe. This move cannot be used to alter the facing the attacker is in base contact with, nor is it an opportunity to change the attacker's formation or charge a unit not engaged in the fight. If the winning unit cannot be moved in this manner, then the losing unit is moved instead.
 
 === NO MORE FOES
 
