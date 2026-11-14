@@ -4094,6 +4094,7 @@ Each Warhammer army belong to either the Forces of Order, Forces of Destruction 
 
 - _Dogs of War_
 - _Ogre Kingdoms_
+- _Pirates of Sartosa_
 - _Tomb Kings_
 
 === BOUND BY BLOOD

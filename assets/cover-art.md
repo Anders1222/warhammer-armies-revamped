@@ -1,6 +1,6 @@
 # Book cover illustrations
 
-Eighteen faction illustrations and one main rulebook illustration replace the books' extracted cover images.
+Nineteen faction illustrations and one main rulebook illustration replace the books' extracted cover images.
 
 - Files: `covers/<slug>.png`, shared by the Typst covers and the website cards.
 - Format: 1254 × 1254 PNG, RGBA, with the generated alpha channel preserved. Transparent areas contain no painted background.
@@ -26,6 +26,7 @@ The visual briefs below interpret the lore and visual references. The correspond
 | Lizardmen | Saurus Oldblood, Skink priest and Slann palanquin | [Reference](https://www.warhammer-community.com/en-gb/articles/w5gMcbcG/from-savages-to-spacefarers-who-are-the-slann-starmasters/) | [Art / gallery](https://professionalcasual.com/2024/06/24/lizardmen-stillmania-for-warhammer-the-old-world/) |
 | Ogre Kingdoms | Ogre Tyrant, iron gutplate and Gnoblar | [Reference](https://warhammerfantasy.fandom.com/wiki/Ogre_Tyrant) | [Art / gallery](https://whfb.lexicanum.com/wiki/Category%3AOgre_Kingdoms_images) |
 | Orcs & Goblins | Warboss, Night Goblin and squig | [Reference](https://en.wikipedia.org/wiki/Orcs_and_Goblins_%28Warhammer%29) | [Art / gallery](https://geofftaylor-artist.com/galleries/games-workshop/art/white-dwarf-250-empire-vs-orcs-and-goblins) |
+| Pirates of Sartosa | Living captain and buccaneer, cannon and treasure | [Reference](https://warhammerfantasy.fandom.com/wiki/Sartosa) | [Art / gallery](https://dandoombuggy.artstation.com/projects/4bv254?album_id=2302417) |
 | Skaven | Horned Grey Seer, Stormvermin and warpstone machinery | [Reference](https://warhammerfantasy.fandom.com/wiki/Skaven_Magic) | [Art / gallery](https://legionesminiatura.blogspot.com/2014/09/galeria-portadas-de-libros-de-ejercito.html) |
 | Tomb Kings | Nehekharan monarch, Tomb Guard and sandstone sphinx | [Reference](https://www.warhammer-community.com/en-gb/articles/LiiiU2fz/old-world-almanack-the-noble-history-of-the-tomb-kings-of-khemri/) | [Art / gallery](https://whfb.lexicanum.com/wiki/Category%3ATomb_Kings_images) |
 | Vampire Counts | Sylvanian vampire lord, Grave Guard and bats | [Reference](https://warhammerism.com/the-old-world/factions/vampire-counts) | [Art / gallery](https://www.artstation.com/artwork/lN30o) |

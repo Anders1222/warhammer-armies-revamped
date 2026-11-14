@@ -48,6 +48,10 @@
   "cover": "covers/orcs-goblins.png"
  },
  {
+  "id": "pirates-of-sartosa",
+  "cover": "covers/pirates-of-sartosa.png"
+ },
+ {
   "id": "skaven",
   "cover": "covers/skaven.png"
  },
