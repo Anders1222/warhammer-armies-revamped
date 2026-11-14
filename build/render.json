@@ -40,6 +40,10 @@
   "cover": "covers/lizardmen.png"
  },
  {
+  "id": "norsca",
+  "cover": "covers/norsca.png"
+ },
+ {
   "id": "ogre-kingdoms",
   "cover": "covers/ogre-kingdoms.png"
  },
