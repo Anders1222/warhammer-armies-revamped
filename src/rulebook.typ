@@ -708,7 +708,7 @@ If the Rally test is failed the unit continues to flee. If the Rally test is suc
 
 *Any units that do not rally must immediately flee 2D6" in the direction they are facing. Every model that flees through an enemy unit or impassable terrain risk taking damage.*
 
-Fleeing troops ignore obstacles of any kind as they retreat. Fleeing troops move through other units (friend or foe) and impassable terrain. If the flee move would result in the fleeing unit ending up 'on top' of or within 1" of another unit or impassable terrain, then it carries on fleeing straight forward until it is 1" past the obstruction, and will then halt.
+Fleeing troops ignore obstacles of any kind as they retreat. Fleeing troops move through other units (friend or foe) and impassable terrain. If the flee move would result in the fleeing unit ending up 'on top' of or within 1" of another unit, then it carries on fleeing straight forward until it is 1" past the obstruction, and will then halt.
 
 Each fleeing model must pass a Dangerous Terrain test for each area of impassable terrain that it flees through. More information on Dangerous Terrain tests and Impassable Terrain can be found in the Battlefield Terrain chapter.
 
