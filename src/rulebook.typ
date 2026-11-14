@@ -662,7 +662,7 @@ Sometimes a charging unit can move into contact with its target, but cannot clos
 
 #namecost("CHARGING A FLEEING ENEMY", "")
 
-If, for whatever reason, one or more units complete a charge against a fleeing enemy, move the charging unit(s) into contact with the fleeing enemy as described earlier. The fleeing unit then suffers two Wounds with no saves of any kind allowed for each point of Unit Strength the charging unit(s) has. If any models survive, the charging unit then stops 1" behind the remains of the unit.
+If, for whatever reason, one or more units complete a charge against a fleeing enemy, move the charging unit(s) into contact with the fleeing enemy as described earlier. The fleeing unit then suffers one Wound with no saves of any kind allowed for each point of Unit Strength the charging unit(s) has. If any models survive, the charging unit then stops 1" behind the remains of the unit.
 
 A charging unit that completely destroys a unit of fleeing troops in this way are allowed to attempt a reform by passing a Leadership test. If the test is failed, they do not have the chance to reform. If the test is passed, the unit immediately makes a reform manoeuvre. In either case, the unit cannot move further during this Movement phase.
 
