@@ -4071,19 +4071,12 @@ Each Warhammer army belong to either the Forces of Order, Forces of Destruction 
 
 *The Forces of Order are:*
 
-- _Albion_
-- _Amazons_
 - _Bretonnia_
 - _Cathay_
 - _Dwarfs_
 - _The Empire_
-- _Estalia_
-- _Halflings_
 - _High Elves_
-- _Kingdoms of Ind_
-- _Kislev_
 - _Lizardmen_
-- _Nippon_
 - _Wood Elves_
 
 *The Forces of Destruction are:*
@@ -4096,16 +4089,11 @@ Each Warhammer army belong to either the Forces of Order, Forces of Destruction 
 - _Skaven_
 - _Vampire Counts_
 - _Warriors of Chaos_
-- _Zombie Pirates of the Vampire Coast_
 
 *The Non-aligned Forces are:*
 
-- _Araby_
 - _Dogs of War_
-- _Hobgoblins_
-- _Norsca_
 - _Ogre Kingdoms_
-- _Pirates of Sartosa_
 - _Tomb Kings_
 
 === BOUND BY BLOOD
@@ -4166,7 +4154,7 @@ If the alliance contains one or more desperate allies, the power and dispel dice
 
 === FRAGILE ALLIANCES
 
-An alliance that includes Dark Elves, Hobgoblins or Skaven is automatically a fragile alliance.
+An alliance that includes Dark Elves or Skaven is automatically a fragile alliance.
 
 All relations in a fragile alliance start out normally, according to the various alignments. However, each player in a fragile alliance must roll a D6 at the start of their turn – on a roll of 1\-3, all of that player's alliances immediately become one step worse for the rest of the game (unless they're already desperate allies).
 

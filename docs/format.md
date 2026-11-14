@@ -100,7 +100,7 @@ A choice:
 | `name` | the thing offered, without the verb phrase or the price: "Great weapon", "Leader", "Warhorse" |
 | `points` | a number; `0` for "free"; `null` when the line prices nothing (a magic-item allowance) |
 | `perModel` | `true` for "/model" and "per model" |
-| `per` | what the price is per when it is not the model: "Crew", "Genie" |
+| `per` | what the price is per when it is not the model: "Crew", "Gnoblar" |
 | `raw` | the printed line, exactly |
 | `appliesTo` | a profile id from a bracketed restriction on the choice itself: "Griffon (General only)" |
 | `condition` | a bracketed qualifier on the choice that names no profile |
@@ -122,7 +122,7 @@ The kinds, the wording each comes from, and the fields it adds:
 | `magicItems` | "May take Magic Items up to a total of N points", also "Talismans up to …" | group `pointsLimit`; `itemTypes`, a list of `weapon`, `armour`, `talisman`, `arcane`, `enchanted`, `standard` when the line names categories, else `null`; `families` when the line also admits a faction upgrade family ("one Virtue and/or Magic Items") |
 | `battleStandard` | "may carry the Battle Standard" | group `points` |
 | `wizardLevel` | "May take an additional Wizard Level", "May be upgraded to a Level 2 Wizard" | choice `level` (the level reached, or `null`) and `levelDelta` (`1` for "an additional level") |
-| `factionUpgrade` | a family the book defines in an `upgrades` chapter: Knightly Orders, Virtues, Marks, Blessed Spawnings, Clan Mon, Quirks | group `family`, the chapter's id; `pointsLimit` when the line states one |
+| `factionUpgrade` | a family the book defines in an `upgrades` chapter: Knightly Orders, Virtues, Marks, Blessed Spawnings, Quirks | group `family`, the chapter's id; `pointsLimit` when the line states one |
 | `specialRule` | "May have the X special rule", "May be upgraded to Skirmishers", a menu of vows: X is a rule the rulebook or the book defines | group `rule` (the rule named, `null` for a menu of several), choice `rule`; choice `replaces` for "May replace the Knight's Vow with …" |
 | `upgrade` | any other priced toggle: "May take an additional crew", "May take Iron-hard Hooves", "May upgrade one Sister of Sigmar to an Augur" | choice `rule` when the unit's own UPGRADES field defines the thing |
 

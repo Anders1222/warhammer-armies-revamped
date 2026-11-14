@@ -42,7 +42,7 @@ on the page.
 
 ## How to read the result
 
-- `1 pages, 93 internal links, 31 books` then `OK: every link resolves, and
+- `1 pages, 57 internal links, 19 books` then `OK: every link resolves, and
   every book is reachable`, exit 0.
 - `N dead link(s):` lists `page -> target` for each; `N book(s) no page links
   to:` lists orphaned PDFs. Exit 1. A dead link usually means `emit.py` and

@@ -49,7 +49,7 @@ Needs `pymupdf` (Python 3.11+), as the other gates do.
 
 ## How to read the result
 
-- `books whose text moved: 0/31` and exit 0: no word was lost or gained. Say
+- `books whose text moved: 0/19` and exit 0: no word was lost or gained. Say
   so, and say how many books were compared.
 - A book that moved prints its letter count before and after and the first
   point of difference with a little context on each side. That fragment is

@@ -1,17 +1,5 @@
 [
  {
-  "id": "albion",
-  "cover": "covers/albion.png"
- },
- {
-  "id": "amazons",
-  "cover": "covers/amazons.png"
- },
- {
-  "id": "araby",
-  "cover": "covers/araby.png"
- },
- {
   "id": "beastmen",
   "cover": "covers/beastmen.png"
  },
@@ -40,44 +28,16 @@
   "cover": "covers/dwarfs.png"
  },
  {
-  "id": "estalia",
-  "cover": "covers/estalia.png"
- },
- {
   "id": "grand-cathay",
   "cover": "covers/grand-cathay.png"
- },
- {
-  "id": "halflings",
-  "cover": "covers/halflings.png"
  },
  {
   "id": "high-elves",
   "cover": "covers/high-elves.png"
  },
  {
-  "id": "hobgoblins",
-  "cover": "covers/hobgoblins.png"
- },
- {
-  "id": "kingdoms-of-ind",
-  "cover": "covers/kingdoms-of-ind.png"
- },
- {
-  "id": "kislev",
-  "cover": "covers/kislev.png"
- },
- {
   "id": "lizardmen",
   "cover": "covers/lizardmen.png"
- },
- {
-  "id": "nippon",
-  "cover": "covers/nippon.png"
- },
- {
-  "id": "norsca",
-  "cover": "covers/norsca.png"
  },
  {
   "id": "ogre-kingdoms",
@@ -86,10 +46,6 @@
  {
   "id": "orcs-goblins",
   "cover": "covers/orcs-goblins.png"
- },
- {
-  "id": "pirates-of-sartosa",
-  "cover": "covers/pirates-of-sartosa.png"
  },
  {
   "id": "skaven",
@@ -118,9 +74,5 @@
  {
   "id": "wood-elves",
   "cover": "covers/wood-elves.png"
- },
- {
-  "id": "zombie-pirates",
-  "cover": "covers/zombie-pirates.png"
  }
 ]

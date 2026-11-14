@@ -23,11 +23,11 @@ manifest.json
 composition.json
 common-magic-items.json
 factions/
-  albion.json
-  albion-extras.json
+  beastmen.json
+  beastmen-extras.json
   ...
-  zombie-pirates.json
-  zombie-pirates-extras.json
+  wood-elves.json
+  wood-elves-extras.json
 ```
 
 Every file is UTF-8 with LF line endings, `indent=1`, non-ASCII kept. The
@@ -69,9 +69,9 @@ entry is split**. A unit whose `section` is `characters`, that is not
 `named`, that does not have the Mixed Unit special rule, and that has two or
 more profiles with numeric `points` becomes one builder unit per priced
 profile, in profile order. (A Mixed Unit's priced profiles are models of one
-unit, not alternatives: Kingdoms of Ind's Beastmaster and his Tigers.) Each takes that profile's
-printed name; its `profiles` are that profile, then every profile whose
-points are not numeric (a mount, a crew) in source order; and its options
+unit, not alternatives.) Each takes that profile's printed name; its
+`profiles` are that profile, then every profile whose points are not numeric
+(a mount, a crew) in source order; and its options
 are only the groups, at every depth, whose `appliesTo` is `null` or that
 profile, and within them only the choices whose own `appliesTo` is `null` or
 that profile. A group left with no choices is dropped. Every other field is
@@ -115,7 +115,7 @@ A category outside the table fails the gate.
 `options` maps `optionGroups`, and is `null` when that yields nothing. A
 choice is `{name, points, perModel}`, with `replaces` when the choice has
 one; `points` is a number or `null`, and `perModel` is always a bool (a price
-per Crew or per Genie counts as `false`). A choice's nested groups map, the
+per Crew or per Gnoblar counts as `false`). A choice's nested groups map, the
 same way, into the option's `subOptions`; for equipment and mounts the
 nested groups of all the choices are joined. `subOptions` is `null` when
 empty, never `[]`, which the builder would render as nothing.
@@ -182,10 +182,8 @@ else as 0.
 too, but the builder owns them, and the export neither writes nor deletes
 them. The builder has to register the `war` system, and its `FactionKey`
 enum knows 15 armies: a manifest key outside it is skipped with a warning,
-so the other 15 WAR armies (Albion, Amazons, Araby, Chaos Dwarfs, Dogs of
-War, Estalia, Grand Cathay, Halflings, Hobgoblins, Kingdoms of Ind, Kislev,
-Nippon, Norsca, Pirates of Sartosa, Zombie Pirates) need members added on
-the builder's side.
+so the other 3 WAR armies (Chaos Dwarfs, Dogs of War, Grand Cathay) need
+members added on the builder's side.
 
 ## The gate
 
