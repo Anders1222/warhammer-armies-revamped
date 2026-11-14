@@ -610,9 +610,6 @@ The charge range of a unit is the sum of its Movement value and 2D6 (choose the 
 
 With the unit's charge range established, measure the distance between the charging unit and its target unit at their closest points in an uninterrupted line between them. If the distance is greater than the charge range, then the charging unit realises that if has insufficient momentum to reach the enemy and instead makes what we call a failed charge. If the distance is less than or equal to the charge range, then the charging unit has reached the enemy and makes a successful charge.
 
-#namecost("DISORDERED CHARGE", "")
-
-In certain situations, a unit’s charge may become disordered, most commonly due to various types of terrain. A unit that makes a disordered charge is not subject to any rules that only apply when a unit charges.
 
 #namecost("FAILED CHARGE", "")
 
@@ -664,7 +661,7 @@ If a charging unit straddles two zones, then the unit is considered to be in the
 
 #note[_4\. In this case it is hard to tell where the majority of the front rank lies, so it is best to roll a dice to decide between a flank and rear charge._]
 
-In some cases, the enemy unit might have to close the door with the chargers instead. In this situation, the charging unit counts as making a disordered charge against that unit. If no amount of finagling can allow the unit to avoid the obstacle, the charge fails.
+In some cases, the enemy unit might have to close the door with the chargers instead. If no amount of finagling can allow the unit to avoid the obstacle, the charge fails.
 
 There is one important principle that you should always keep in mind when charging: under no circumstances can a unit use its charge move to move into contact with an enemy it has not declared a charge against.
 
@@ -674,7 +671,7 @@ Sometimes a charging unit can move into contact with its target, but cannot clos
 
 #diagram("/assets/figures/rulebook/img-0470.svg", 0.999)
 
-#note[_1\. The red unit declares a charge. 2. It wheels to maximise and avoid terrain. 3. It moves into contact with the enemy. 4. The charging unit cannot close the door, because a rock is in the way, so the blue unit does instead. This causes the red unit to make a disordered charge._]
+#note[_1\. The red unit declares a charge. 2. It wheels to maximise and avoid terrain. 3. It moves into contact with the enemy. 4. The charging unit cannot close the door, because a rock is in the way, so the blue unit does instead._]
 
 #namecost("CHARGING A FLEEING ENEMY", "")
 
@@ -714,7 +711,7 @@ All compulsory movement is carried out after charges have been resolved, but bef
 
 During the Compulsory Moves sub-phase, the player picks any one of their fleeing units and tests to rally it (as explained below). They then proceed to the next fleeing unit and attempt to rally it, and so on, in any order they wish, until all units that are able to make a rally attempt have done so.
 
-If the unit started to flee in this turn it cannot attempt to rally the same turn. Units cannot attempt to rally if enemy units are within 6", unless those units are fleeing, engaged in combat or have less than Unit Strength 10.
+If the unit started to flee in this turn it cannot attempt to rally the same turn.
 
 A unit attempts to rally by taking a Leadership test. If the fleeing unit has been reduced in size to a quarter (25%) or less of the number of models with which it began the game, its Leadership value is halved (after any other modifiers, special rules or abilities are applied, rounded up).
 
@@ -1324,7 +1321,7 @@ Some unusual attacks (most commonly those made by magic missiles, but also many 
 
 In the boxes where there are two values listed, this means that in order to successfully score a Wound, you must first roll a 6, followed by another D6. In situations where the roll might have a modifier to it, this primarily affects the second roll before the first. For example, a Strength 2 Attack with a +1 modifier treats Toughness 5 as only requiring to roll a 6+ To Wound, rather than a 6+ followed by a 2+.
 
-When a unit has multiple toughness values you use the value of the majority or in the case of a tie, the best tied value, unless specified otherwise.
+When a unit has multiple toughness values or armour saves you use the value of the majority or in the case of a tie, the best tied value, unless specified otherwise.
 
 #namecost("Resolving Unusual Attacks", "")
 
@@ -2600,7 +2597,7 @@ Any special rules listed for Cavalry units only apply to the rider, unless they 
 - Fear
 - Fly (\*)
 - Immunity (\*)
-- Regeneration (\*)
+
 - Scouts
 - Stupidity
 - Stubborn
