@@ -420,7 +420,7 @@ Individual models are not permitted to leave their units and so a unit effective
 
 #namecost("1\" APART", "")
 
-A unit is not allowed to end their move closer than 1" to another unit, friend or foe, or impassable terrain (as described in the Battlefield Terrain chapter). If pivoting the unit on the spot would cause you to come into base contact with another unit or impassable terrain, you must move your model back so that it is still 1" away from these after your pivot. If your model cannot be moved back because it is between two units or pieces of impassable terrain, you should, if possible, move the other unit back so the pivot can be performed. Note that units that are engaged in close combat may never be moved back in this way. On the off chance that neither unit can be moved back, the pivot may not be made.
+A unit is not allowed to end their move closer than 1" to another unit, friend or foe. If pivoting the unit on the spot would cause you to come into base contact with another unit, you must move your model back so that it is still 1" away from these after your pivot. If your model cannot be moved back because it is between two units, you should, if possible, move the other unit back so the pivot can be performed. Note that units that are engaged in close combat may never be moved back in this way. On the off chance that neither unit can be moved back, the pivot may not be made.
 
 This rule does not apply to charge moves, as the whole point of charging is to get a unit into base contact with an enemy. Occasionally, a unit will have approached to within 1" of a unit it did not charge as the result of moving into contact with a unit it did charge. This is perfectly acceptable, although players may wish to nudge the units further apart to maintain a suitable degree of clarity.
 
@@ -438,21 +438,33 @@ When a unit is wheeling, you measure the distance moved by the outside corner of
 
 === MANOEUVRES
 
-*There are two specific manoeuvres that enable a unit to change direction or rearrange its ranks: wheel and reform.*
+*There are three types of manoeuvres to choose from: turn, redress the ranks and reform.*
+
+During its movement, a unit may perform a single manoeuvre.
 
 As with a normal move, a unit cannot carry out a manoeuvre if doing so would ends its move within 1" of another unit.
 
 In addition, none of the models in the unit may move more than twice their Movement rate as a result of a manoeuvre (i.e. models with Movement 4 can move up to 8").
 
+#namecost("TURN", "")
+
+To execute a turn, the whole unit pivots on the spot in any direction of your choice. This uses a quarter of its Movement characteristic.
+
+#namecost("REDRESS THE RANKS", "")
+
+Units can redress the ranks by moving models to or from their rear ranks to decrease or increase the number of models in their front rank. A unit may use half of its Movement characteristic in order to deduct up to five models from its front rank, or to add up to five models to its front rank.
+
+The models in the remaining ranks are then rearranged to match the number of models in the front rank and maintain a correct formation.
+
 #namecost("REFORM", "")
 
-Keeping the centre point of the unit the same, arrange the unit into a new formation of as many ranks as you please, facing whichever direction you wish.
+Reforming allows a unit to sacrifice its entire movement in order to both pivot about its centre, and to redress its ranks and files as required to either change its formation, or to adopt a different formation.
 
-A reform prevents the unit from moving any further that turn, and also stops it from firing missile weapons in the Shooting phase.
+A unit that reforms may not fire missile weapons in the Shooting phase.
 
 #diagram("/assets/figures/rulebook/img-0457.jpg", 1.0)
 
-#note[_When a unit reforms, it can change its number of ranks or files (A), the direction it is facing (B), or both (C)._]
+#note[_A unit can either turn (A), redress the ranks (B), or reform (C)._]
 
 == THE MOVEMENT PHASE SEQUENCE
 
@@ -467,8 +479,14 @@ A reform prevents the unit from moving any further that turn, and also stops it 
 Below can be found a summary chart of various types of Movement rules found throughout the game.
 
 #chart((("Movement Type:", "Distance Moved:"), ("Normal", "Movement"), ("Moving backwards or
-sideways", "Movement / 2"), ("Marching", "Movement x 2"), ("Charging", "Movement + 2D6
-(choose highest)"), ("Failed Charge", "2D6 (choose highest)"), ("Fleeing", "2D6"), ("Pursuing", "2D6")))
+sideways", "Movement / 2"), ("Marching", "Movement x 2"), ("Charging (Movement 5
+and below)", "Movement + 2D6
+(choose highest)"), ("Charging (Movement 6
+and above)", "Movement + 2D6"), ("Failed Charge
+(Movement 5 and
+below)", "2D6 (choose highest)"), ("Failed Charge
+(Movement 6 and
+above)", "2D6"), ("Fleeing", "Movement + D6"), ("Pursuing", "Movement + D6")))
 
 == 1. START OF PHASE
 
@@ -726,21 +744,21 @@ Units may not mix forward, backward and/or sideways movement as part of the same
 
 === MARCHING
 
-*Troops can move at double speed. If they start their move within 8" of an enemy, they must pass a Leadership test to do so.*
+*Troops can move at double speed. If they start their move within 6" of an enemy, they must pass a Leadership test to do so.*
 
-Marching troops move at twice their normal Movement rate. A unit on the march is not permitted to reform, as this would disrupt its movement, nor is it allowed to move backwards or to the side.
+Marching troops move at twice their normal Movement rate. A unit on the march is not permitted to perform any manoeuvres, move sidewards or backwards.
 
 It is also worth noting that a unit that has marched in the Movement phase cannot shoot missile weapons during the Shooting phase unless specified.
 
 #namecost("NEARBY ENEMIES", "")
 
-If you wish a unit to march when a non-fleeing enemy unit is within 8", it will first have to take a Leadership test. If the test is passed, the unit disregards the nearby foe and marches as ordered. If the test is failed, the unit will only be able to move normally. Note that if a unit attempts this test and fails, it is still treated as having marched, even if its controlling player then elects not to have the unit move at all.
+If you wish a unit to march when an enemy unit is within 6", it will first have to take a Leadership test. If the test is passed, the unit marches as ordered. If the test is failed, the unit will only be able to move normally. Units do not need to test to march if the enemy units are fleeing, engaged in combat or have less than Unit Strength 10.
 
 === LONE MODELS AND MOVEMENT
 
 *Units that consist of a single model are mostly moved the same as other units.*
 
-They move, wheel and march just like a larger unit. The one exception is that a single model (except chariots, see the Troop Types chapter) can pivot on the spot as many times as it wishes over the course of its move. It can do so without penalty and so pivoting does not prevent models from marching, or even from shooting later in the turn, although a lone model that pivots on the spot does count as moving for the purposes of shooting and so on.
+They move, wheel and march just like a larger unit. The one exception is that a single model (except chariots, see the Troop Types chapter) can pivot on the spot as many times as it wishes over the course of its move. It can do so without penalty and so pivoting does not prevent models from marching, or even from shooting later in the turn.
 
 On some occasions, notably when charging, a lone model has to perform a wheel (when charging, a lone model must follow the normal charge rules, which do not allow pivots, only one wheel whilst moving, and another to 'close the door'). In this case, wheel from one of the front corners as you would for other units.
 
