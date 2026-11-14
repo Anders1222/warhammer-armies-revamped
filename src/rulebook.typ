@@ -4093,6 +4093,7 @@ Each Warhammer army belong to either the Forces of Order, Forces of Destruction 
 *The Non-aligned Forces are:*
 
 - _Dogs of War_
+- _Hobgoblins_
 - _Ogre Kingdoms_
 - _Tomb Kings_
 
@@ -4154,7 +4155,7 @@ If the alliance contains one or more desperate allies, the power and dispel dice
 
 === FRAGILE ALLIANCES
 
-An alliance that includes Dark Elves or Skaven is automatically a fragile alliance.
+An alliance that includes Dark Elves, Hobgoblins or Skaven is automatically a fragile alliance.
 
 All relations in a fragile alliance start out normally, according to the various alignments. However, each player in a fragile alliance must roll a D6 at the start of their turn – on a roll of 1\-3, all of that player's alliances immediately become one step worse for the rest of the game (unless they're already desperate allies).
 

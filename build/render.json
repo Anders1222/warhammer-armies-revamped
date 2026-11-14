@@ -36,6 +36,10 @@
   "cover": "covers/high-elves.png"
  },
  {
+  "id": "hobgoblins",
+  "cover": "covers/hobgoblins.png"
+ },
+ {
   "id": "lizardmen",
   "cover": "covers/lizardmen.png"
  },

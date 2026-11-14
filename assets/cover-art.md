@@ -1,6 +1,6 @@
 # Book cover illustrations
 
-Eighteen faction illustrations and one main rulebook illustration replace the books' extracted cover images.
+Nineteen faction illustrations and one main rulebook illustration replace the books' extracted cover images.
 
 - Files: `covers/<slug>.png`, shared by the Typst covers and the website cards.
 - Format: 1254 × 1254 PNG, RGBA, with the generated alpha channel preserved. Transparent areas contain no painted background.
@@ -23,6 +23,7 @@ The visual briefs below interpret the lore and visual references. The correspond
 | Empire | General, halberdier, cannon and comet imagery | [Reference](https://warhammerarmiesproject.blogspot.com/2023/05/showcase-gallery-empire.html) | [Art / gallery](https://warhammerarmiesproject.blogspot.com/2023/05/showcase-gallery-empire.html) |
 | Grand Cathay | Jade lamellar armor, dragon-blooded commander and Eastern dragon | [Reference](https://warhammerfantasy.fandom.com/wiki/Grand_Cathay) | [Art / gallery](https://www.warhammerart.com/products/grand-cathay) |
 | High Elves | Ulthuan prince, silver armor and phoenix | [Reference](https://www.warhammer-community.com/en-gb/articles/q4oh518o/lvo-preview-2025-the-resplendent-host-of-ulthuan/) | [Art / gallery](https://www.warhammer-community.com/en-gb/articles/q4oh518o/lvo-preview-2025-the-resplendent-host-of-ulthuan/) |
+| Hobgoblins | Steppe khan, lamellar armor and giant wolf | [Reference](https://warhammerfantasy.fandom.com/wiki/Hobgoblin_Wolf_Raiders) | [Art / gallery](https://whfb.lexicanum.com/wiki/Category%3AHobgoblin_images) |
 | Lizardmen | Saurus Oldblood, Skink priest and Slann palanquin | [Reference](https://www.warhammer-community.com/en-gb/articles/w5gMcbcG/from-savages-to-spacefarers-who-are-the-slann-starmasters/) | [Art / gallery](https://professionalcasual.com/2024/06/24/lizardmen-stillmania-for-warhammer-the-old-world/) |
 | Ogre Kingdoms | Ogre Tyrant, iron gutplate and Gnoblar | [Reference](https://warhammerfantasy.fandom.com/wiki/Ogre_Tyrant) | [Art / gallery](https://whfb.lexicanum.com/wiki/Category%3AOgre_Kingdoms_images) |
 | Orcs & Goblins | Warboss, Night Goblin and squig | [Reference](https://en.wikipedia.org/wiki/Orcs_and_Goblins_%28Warhammer%29) | [Art / gallery](https://geofftaylor-artist.com/galleries/games-workshop/art/white-dwarf-250-empire-vs-orcs-and-goblins) |
