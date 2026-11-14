@@ -885,20 +885,19 @@ The unit carrying this standard never reduces its Thirst value.]
 )
 
 #unit("GREAT WYRM",
+  profiles: (
+    (name: "Great Wyrm", m: 6, ws: 4, bs: 0, s: 6, t: 6, w: 5, i: 3, a: 4, ld: 5, points: "-"),
+  ),
   before: [
 The byres are cut into the keep's own rock, and a drake that outgrows its byre
 has to have a new one cut. The ledger records the expense, which is the only
 reason anybody can say how many there are. The Dam never had a byre; she came
 with the mountain.
-
-#profile(
-  (name: "Great Wyrm", m: 6, ws: 4, bs: 0, s: 6, t: 6, w: 5, i: 3, a: 4, ld: 5, points: "-"),
-)
   ],
   troop-type: "Monster (Draconid)",
   base-size: "50x100 or 60x100",
   special-rules: "Fly (8), Natural Armour (4+)",
-  special-rules-body: [
+  after: [
 #note[_A wyrm is not a small dragon; it is a dragon that never learned to breathe and was never anything but an animal. The chassis here is the High Elf Sun Dragon's, which is Toughness 5 with 5 Wounds at Weapon Skill 5 and Leadership 7. This one trades the Weapon Skill and most of the Leadership for a point of Strength and a point of Toughness, gives up Fiery Breath entirely, and carries a worse armour tier than any dragon of Ulthuan. The difference between the two kinds is temperament and breath, and has never been size._]
   ],
 )
@@ -907,13 +906,12 @@ with the mountain.
 
 #unit("BLOOD KNIGHTS",
   first: true,
+  profiles: (
+    (name: "Blood Knight", m: 6, ws: 5, bs: 3, s: 5, t: 4, w: 1, i: 4, a: 1, ld: 8, points: 36),
+    (name: "Nightmare", m: 8, ws: 3, bs: 0, s: 4, t: 4, w: 1, i: 2, a: 1, ld: 3, points: ""),
+  ),
   before: [
 The knights of the household as the Ordo fields them, which is not as the Bloodlines remember them. Most of a man's power is the years he has had it, and these are the ones who took the blood this century.
-
-#profile(
-  (name: "Blood Knight", m: 6, ws: 5, bs: 3, s: 5, t: 4, w: 1, i: 4, a: 1, ld: 8, points: 36),
-  (name: "Nightmare", m: 8, ws: 3, bs: 0, s: 4, t: 4, w: 1, i: 2, a: 1, ld: 3, points: ""),
-)
   ],
   unit-size: "5-15",
   troop-type: "Cavalry (Vampire)",
@@ -931,12 +929,11 @@ The knights of the household as the Ordo fields them, which is not as the Bloodl
 )
 
 #unit("BLOOD GUARD",
+  profiles: (
+    (name: "Blood Guard", m: 6, ws: 5, bs: 3, s: 5, t: 4, w: 1, i: 4, a: 1, ld: 8, points: 22),
+  ),
   before: [
 The household on foot, who fight that way because the walls are behind them. The same offer, the same century, and no horse.
-
-#profile(
-  (name: "Blood Guard", m: 6, ws: 5, bs: 3, s: 5, t: 4, w: 1, i: 4, a: 1, ld: 8, points: 22),
-)
   ],
   unit-size: "10-30",
   troop-type: "Infantry (Vampire)",
@@ -950,7 +947,8 @@ The household on foot, who fight that way because the walls are behind them. The
 - May upgrade one Blood Guard to a Musician +5 points
 - May upgrade one Blood Guard to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
+  ],
+  after: [
 #note[_Two builds, and the swap is free. With the shield it is a 3+ save with Parry (6+) and it holds a line. Two hand weapons instead give +1 Attack behind a 4+ save, which is the whole of what it does on the attack. There is deliberately no two\-handed option: the Depth Guard can buy polearms for Strength and Initiative, and the Blood Guard cannot buy Strength at any price, which keeps it a household guard rather than a hammer._]
   ],
 )
@@ -1102,18 +1100,17 @@ The ones who have had it long enough for it to have finished with them. There is
 )
 
 #unit("VARGHEISTS",
+  profiles: (
+    (name: "Vargheist", m: 2, ws: 3, bs: 0, s: 5, t: 4, w: 3, i: 4, a: 3, ld: 5, points: 30),
+  ),
   before: [
 The large kind of the keep's own bats, horse-sized and ill-tempered, that the household puts where the fighting will be rather than asking it to arrive anywhere in a hurry. They are not the feral get of the Bloodlines that the rest of the world files under the name, and the order has never seen a reason to say so before the charge goes in.
-
-#profile(
-  (name: "Vargheist", m: 2, ws: 3, bs: 0, s: 5, t: 4, w: 3, i: 4, a: 3, ld: 5, points: 30),
-)
   ],
   unit-size: "3-9",
   troop-type: "Monstrous Beast (Chiropter)",
   base-size: "40x40",
   special-rules: "Fly (8)",
-  special-rules-body: [
+  after: [
 #note[_The parent book's Vargheist is Monstrous Infantry (Vampire) at 50: Frenzy, The Red Thirst, Vampiric, Weapon Skill 4, Leadership 7 and a walking pace of six. This is what is left when the Blood is taken out of the entry — the animal's Strength, Wounds and wings, a beast's Weapon Skill and Leadership, and a bat's gait, the family walking at one and two and living in the air. Monstrous Beasts carry Fear and Independent on their own account, and Not in the Tally already speaks to the second: the sky answers to Emmerich and nobody else. The working is in the design chapter._]
   ],
 )
@@ -1134,13 +1131,12 @@ The large kind of the keep's own bats, horse-sized and ill-tempered, that the ho
 
 #unit("BLOOD WYRMS",
   first: true,
+  profiles: (
+    (name: "Wyrm Knight", m: 6, ws: 6, bs: 3, s: 5, t: 4, w: 1, i: 5, a: 2, ld: 8, points: 85),
+    (name: "Blood Wyrm", m: 6, ws: 4, bs: 0, s: 5, t: 4, w: 4, i: 3, a: 3, ld: 4, points: ""),
+  ),
   before: [
 The Grand Master's own wing. Where a Blood Knight is given a horse, the knights of the inner circle are given something older, and the wyrms are alive.
-
-#profile(
-  (name: "Wyrm Knight", m: 6, ws: 6, bs: 3, s: 5, t: 4, w: 1, i: 5, a: 2, ld: 8, points: 85),
-  (name: "Blood Wyrm", m: 6, ws: 4, bs: 0, s: 5, t: 4, w: 4, i: 3, a: 3, ld: 4, points: ""),
-)
   ],
   unit-size: "3-6",
   troop-type: "Monstrous Cavalry (Vampire)",
@@ -1164,13 +1160,12 @@ _Two things follow from the troop type rather than from anything written here, a
 )
 
 #unit("ELDER WYRM",
+  profiles: (
+    (name: "Wyrm Knight", m: 6, ws: 6, bs: 3, s: 5, t: 4, w: 1, i: 5, a: 2, ld: 8, points: 210),
+    (name: "Elder Wyrm", m: 6, ws: 4, bs: 0, s: 6, t: 5, w: 4, i: 3, a: 4, ld: 5, points: ""),
+  ),
   before: [
 One of the Dam's oldest get, old before the Bloodlines were, and the knight who talked it into service rather than breaking it. The Dam herself is not this entry and never will be; she carries one man and appears in his.
-
-#profile(
-  (name: "Wyrm Knight", m: 6, ws: 6, bs: 3, s: 5, t: 4, w: 1, i: 5, a: 2, ld: 8, points: 210),
-  (name: "Elder Wyrm", m: 6, ws: 4, bs: 0, s: 6, t: 5, w: 4, i: 3, a: 4, ld: 5, points: ""),
-)
   ],
   troop-type: "Monstrous Creature (Vampire)",
   mount: "Elder Wyrm (Draconid)",
@@ -1186,12 +1181,11 @@ One of the Dam's oldest get, old before the Bloodlines were, and the knight who 
 )
 
 #unit("BLOOD HERALDS",
+  profiles: (
+    (name: "Blood Herald", m: 6, ws: 6, bs: 3, s: 5, t: 4, w: 1, i: 5, a: 2, ld: 8, points: 45),
+  ),
   before: [
 The Sworn the household puts in the air. A keep that arrives where it likes keeps no couriers, and an order that will not shoot has no other reach. So the shops that blacken the plate make wings as well. Only a knight the blood has finished with is measured for a set, which is why there are never many.
-
-#profile(
-  (name: "Blood Herald", m: 6, ws: 6, bs: 3, s: 5, t: 4, w: 1, i: 5, a: 2, ld: 8, points: 45),
-)
   ],
   unit-size: "3-6",
   troop-type: "Monstrous Infantry (Vampire)",
@@ -1204,7 +1198,8 @@ The Sworn the household puts in the air. A keep that arrives where it likes keep
 - May upgrade one Blood Herald to a Musician +5 points
 - May upgrade one Blood Herald to a Standard Bearer +10 points
   - May take a Magic Standard worth up to 50 points
-
+  ],
+  after: [
 #note[_Three Attacks behind a 4+ save, or two behind a 3+ with Parry (6+) if the shield goes back on. They are the Blood Guard's own two builds, lifted off the ground. Monstrous Infantry is the troop type, not a modelling convenience. A rank of it is three models wide rather than five, which is the only way a 40mm base ranks up at all. The Fear it carries meets the Fear on Vampiric to make Terror, by the reading the Blood Wyrms already rest on._
 
 _Forty-five is a Sworn Blood Guard at 27, plus Terror, plus what flight costs elsewhere in the corpus. A Nightmare is 15 and a Hellsteed 25; a Knight of the Realm is 25 and a Pegasus Knight 50. It sits under the Vargheist that the parent book prices at 50, which is the right way round. Better Weapon Skill, Initiative and Leadership, and a save, against one Wound where the beast has three. No entry in any of the thirty-one books is Monstrous Infantry with a single Wound. This one is, and that is the fair objection to it._]
@@ -1212,12 +1207,11 @@ _Forty-five is a Sworn Blood Guard at 27, plus Terror, plus what flight costs el
 )
 
 #unit("THE PORTER",
+  profiles: (
+    (name: "The Porter", m: 6, ws: 4, bs: 0, s: 6, t: 7, w: 6, i: 1, a: 5, ld: 10, points: 280),
+  ),
   before: [
 It stood in the gate of the foundation before there was a keep on it, and the gatehouse was built to fit it, because moving it was priced and declined. When the household rides out it comes down and walks with them, and nobody commands it. The men of the six duchies who have seen it in the line say the keep sent its door.
-
-#profile(
-  (name: "The Porter", m: 6, ws: 4, bs: 0, s: 6, t: 7, w: 6, i: 1, a: 5, ld: 10, points: 280),
-)
   ],
   troop-type: "Monster (Animated Construct)",
   base-size: "50x75, 60x100 or 100x150",
@@ -1258,13 +1252,12 @@ It stood in the gate of the foundation before there was a keep on it, and the ga
 #unit("EMMERICH",
   solo: true,
   first: true,
+  profiles: (
+    (name: "Emmerich", m: 6, ws: 8, bs: 3, s: 6, t: 5, w: 3, i: 7, a: 5, ld: 10, points: 370),
+    (name: "The Dam", m: 6, ws: 5, bs: 0, s: 7, t: 7, w: 6, i: 2, a: 5, ld: 6, points: 320),
+  ),
   before: [
 Marshal of the Ordo Draconis, and the lord the Order chapter is about. He may only be taken in an Ordo Draconis, and he is the only model in this book who may be given the Dam.
-
-#profile(
-  (name: "Emmerich", m: 6, ws: 8, bs: 3, s: 6, t: 5, w: 3, i: 7, a: 5, ld: 10, points: 370),
-  (name: "The Dam", m: 6, ws: 5, bs: 0, s: 7, t: 7, w: 6, i: 2, a: 5, ld: 6, points: 320),
-)
   ],
   troop-type: "Infantry (Special Character, Vampire, Blood Dragon)",
   mount: "The Dam (Draconid)",
@@ -1310,12 +1303,11 @@ _The Marshal is the book's own grammar for a general and is written the way four
 
 #unit("ANKHARA",
   solo: true,
+  profiles: (
+    (name: "Ankhara", m: 6, ws: 6, bs: 5, s: 4, t: 4, w: 2, i: 8, a: 3, ld: 9, points: 160),
+  ),
   before: [
 The Widow of Gisoreux. Sent three times to place herself in a household with no rooms to be placed in, and she has never once reported that the thing cannot be done.
-
-#profile(
-  (name: "Ankhara", m: 6, ws: 6, bs: 5, s: 4, t: 4, w: 2, i: 8, a: 3, ld: 9, points: 160),
-)
   ],
   troop-type: "Infantry (Special Character, Vampire, Lahmian)",
   base-size: "20x20 or 25x25",
