@@ -2006,7 +2006,7 @@ If the model with this special rule is in close combat, it can use the Breath We
 
 === COLD-BLOODED
 
-Whenever a unit where the majority of the models have this special rule takes a Psychology or Break test, it rolls an additional dice and discards the highest result.
+Whenever a model with this special rule takes a Leadership test, it rolls an additional dice and discards the highest result.
 
 === CUMBERSOME
 
@@ -2252,7 +2252,7 @@ If a model has the Poisoned Attacks special rule from two or more different sour
 
 === PONDEROUS
 
-Weapons with this rule suffer an additional \-1 To Hit penalty if they move and shoot in the same turn, and when choosing Stand & Shoot as a charge reaction.
+Weapons with this rule suffer an additional \-1 To Hit penalty if they move and shoot in the same turn.
 
 === QUICK SHOT
 
@@ -2418,6 +2418,10 @@ Any shots fired in this manner suffer a \-1 To Hit penalty. This may cause a Pan
 #namecost("Feigned Flight", "")
 
 A unit of Fast Cavalry that chooses Flee or Fire & Flee as a charge reaction does not cause Panic from fleeing through friendly units and may re-roll failed Rally tests in its next Compulsory Movement Phase (unless it is forced to Flee again from another source). In addition, it is then also free to move during the remaining moves part of the Movement phase. The unit is also free to shoot as normal (but always counts as having moved).
+
+#namecost("Fire on the March", "")
+
+Fast Cavalry can shoot even if they marched or reformed earlier in the turn.
 
 #namecost("Characters", "")
 
