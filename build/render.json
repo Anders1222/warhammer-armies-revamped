@@ -40,6 +40,10 @@
   "cover": "covers/lizardmen.png"
  },
  {
+  "id": "nippon",
+  "cover": "covers/nippon.png"
+ },
+ {
   "id": "ogre-kingdoms",
   "cover": "covers/ogre-kingdoms.png"
  },
