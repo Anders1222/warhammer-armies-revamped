@@ -522,7 +522,7 @@ To make such a judgement, you'll need to know how a charge move is completed, wh
 
 *An enemy unit that has had a charge declared against it must perform a charge reaction. Once the charge reaction is complete, the charging player can declare a charge with another unit, until they have declared all the charges they wish to.*
 
-As your opponent declares a charge, you can declare a charge reaction for your charged unit. There are four types of charge reaction: Hold, Stand & Shoot, Counter-charge and Flee.
+As your opponent declares a charge, you can declare a charge reaction for your charged unit. There are three types of charge reaction: Hold, Stand & Shoot and Flee.
 
 Note that a unit that is already engaged in close combat is not allowed to make any charge reaction besides Hold.
 
@@ -542,15 +542,6 @@ If a Stand & Shoot charge reaction is declared, the unit makes a normal, althoug
 
 To resolve a Stand & Shoot reaction, first roll the charging unit’s charge distance (see Resolve Charges). If the charging unit has enough Movement to enter the maximum range of the holding unit’s weapons, resolve the shooting attacks for each weapon as if the charging unit had just entered that weapon’s range. If the charge fails before reaching that range, the Stand & Shoot reaction for that weapon has no effect.
 
-#namecost("COUNTER-CHARGE", "")
-
-*If a unit Counter-charges, it rushes forward to meet the attacker head-on.*
-
-A unit that is charged to their front may attempt to Counter-Charge the enemy if the distance to the enemy is greater than the charging unit's minimum charge range, and the unit did not fail any charge the turn before.
-
-This is done by taking a Leadership test; if failed the charged unit must choose to Hold. If passed, the unit moves D6" directly towards the enemy unit, wheeling as needed.
-
-Both units are considered to have charged during this turn. If the counter-charging unit cannot complete its move for any reason, it does not count as charging and loses any associated bonuses for it.
 
 #namecost("FLEE", "")
 
@@ -590,7 +581,6 @@ A unit might well be called upon to make several charge reactions over the cours
 
 A unit can only Stand & Shoot once in a Charge sub- phase. This is not to say that the Stand & Shoot must be used against the first charging unit – the charged unit can opt to Hold against the first charge and Stand and Shoot against the second charge. It could even then elect to Flee in reaction to a third charge if it wished.
 
-A unit that declares a Counter-charge reaction cannot make any additional charge reactions besides Hold that turn. A unit may only make one actual Counter-charge move once per turn. If the counter-charging unit gets charged by more than one unit, it counts as counter- charging all units to its front.
 
 A unit that declares a Flee charge reaction cannot make any additional charge reactions that turn. A unit may only make one actual Flee move once per turn.
 
@@ -2068,7 +2058,7 @@ If a model has the Frenzy special rule from two or more different sources (such 
 
 #namecost("Berserk Rage", "")
 
-A unit that includes one or more Frenzied models can never choose Flee as a Charge Reaction, and must pass a Leadership test if it wishes to choose a charge reaction other than Counter-charge. If this test is failed, the unit must declare a Counter-charge instead as per the normal rules for it.
+A unit that includes one or more Frenzied models can only choose Hold or Stand & Shoot as a charge reaction.
 
 If, during the Charge sub-phase, a unit that includes one or more Frenzied models does not declare a charge, then it must do so unless a Leadership test is passed. If the Leadership test is failed, the Frenzied unit must declare a charge against the nearest viable enemy.
 
@@ -2584,11 +2574,15 @@ A unit of Cavalry is required to be five or more models wide in order to have a 
 
 #namecost("SUPPORTING ATTACKS", "")
 
-A Cavalry model can make one supporting attack from the rider. Mounts are not allowed to make supporting attacks. Cavalry without a split profile can make up to one supporting attack.
+A Cavalry model can make one supporting attack from the rider, and one from the mount. Cavalry without a split profile can make up to two supporting attacks.
 
 #namecost("SPECIAL RULES", "")
 
 Cavalry are subject to the following special rules:
+
+- Impact Hits (1)
+
+Note that the Impact Hits are resolved at the Strength of the mount, not the rider.
 
 Any special rules listed for Cavalry units only apply to the rider, unless they specifically mention the mount. There are, however, a few exceptions. If either the rider or the mount has one of the following special rules, then the whole model has it:
 
@@ -2629,13 +2623,14 @@ A unit of Monstrous Cavalry is required to be three or more models wide in order
 
 #namecost("SUPPORTING ATTACKS", "")
 
-A Monstrous Cavalry model can make one supporting attack from the rider. Mounts are not allowed to make supporting attacks. Monstrous Cavalry without a split profile can make up to three supporting attacks.
+A Monstrous Cavalry model can make one supporting attack from the rider, and two from the mount. Monstrous Cavalry without a split profile can make up to three supporting attacks.
 
 #namecost("SPECIAL RULES", "")
 
 Monstrous Cavalry are subject to the following special rules:
 
 - Fear
+- Impact Hits (1)
 
 #namecost("UNIT STRENGTH", "")
 
