@@ -4076,6 +4076,7 @@ Each Warhammer army belong to either the Forces of Order, Forces of Destruction 
 - _Dwarfs_
 - _The Empire_
 - _High Elves_
+- _Kingdoms of Ind_
 - _Lizardmen_
 - _Wood Elves_
 

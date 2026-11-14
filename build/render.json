@@ -36,6 +36,10 @@
   "cover": "covers/high-elves.png"
  },
  {
+  "id": "kingdoms-of-ind",
+  "cover": "covers/kingdoms-of-ind.png"
+ },
+ {
   "id": "lizardmen",
   "cover": "covers/lizardmen.png"
  },
