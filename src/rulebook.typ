@@ -479,14 +479,8 @@ A unit that reforms may not fire missile weapons in the Shooting phase.
 Below can be found a summary chart of various types of Movement rules found throughout the game.
 
 #chart((("Movement Type:", "Distance Moved:"), ("Normal", "Movement"), ("Moving backwards or
-sideways", "Movement / 2"), ("Marching", "Movement x 2"), ("Charging (Movement 5
-and below)", "Movement + 2D6
-(choose highest)"), ("Charging (Movement 6
-and above)", "Movement + 2D6"), ("Failed Charge
-(Movement 5 and
-below)", "2D6 (choose highest)"), ("Failed Charge
-(Movement 6 and
-above)", "2D6"), ("Fleeing", "Movement + D6"), ("Pursuing", "Movement + D6")))
+sideways", "Movement / 2"), ("Marching", "Movement x 2"), ("Charging", "Movement + 2D6
+(choose highest)"), ("Failed Charge", "2D6 (choose highest)"), ("Fleeing", "2D6"), ("Pursuing", "2D6")))
 
 == 1. START OF PHASE
 
@@ -536,11 +530,11 @@ A unit will normally elect to Hold if it has no missile weapons. Units that are 
 
 *If a unit elects to perform a Stand & Shoot reaction it fires any missile weapons it has against the charging foe. A Stand & Shoot reaction can only be declared if the unit has missile weapons of some kind.*
 
-A Stand & Shoot reaction can only be declared if the distance to the enemy is greater than the charging unit's minimum charge range.
+A Stand & Shoot reaction can only be declared if the range to the enemy is greater than the charging unit's Move characteristic.
 
 If a Stand & Shoot charge reaction is declared, the unit makes a normal, although out of sequence, shooting attack against the charging unit (see the Shooting chapter for more details on shooting attacks).
 
-To resolve a Stand & Shoot reaction, first roll the charging unit’s charge distance (see Resolve Charges). If the charging unit has enough Movement to enter the maximum range of the holding unit’s weapons, resolve the shooting attacks for each weapon as if the charging unit had just entered that weapon’s range. If the charge fails before reaching that range, the Stand & Shoot reaction for that weapon has no effect.
+Once the shooting attack, and any Panic test caused by it (detailed in the Panic chapter), have been resolved, the unit is treated as having declared a Hold reaction. A Stand & Shoot reaction can even be declared against an enemy unit that starts its charge outside the firing unit's maximum range – the shooting is resolved normally before the charging unit moves. It is always assumed the enemy is just within maximum range of the shooting unit's shortest-ranged weapon, even if the charge fails for whatever reason.
 
 #namecost("COUNTER-CHARGE", "")
 
@@ -562,7 +556,7 @@ If a unit chooses a Flee reaction, for whatever reason, use the following proced
 
 - Immediately turn the unit about its centre so that it is facing directly away from the centre of the charging enemy unit (ignore other units or impassable terrain). This turn is 'free' and does not reduce the distance the unit will flee.
 
-- After turning, the unit flees the sum of their Movement + D6 in the direction it is facing, as described under Move Fleeing Units in the Compulsory Moves sub-phase.
+- After turning, the unit flees 2D6" in the direction it is facing, as described under Move Fleeing Units in the Compulsory Moves sub-phase.
 
 It should be noted that a Flee reaction does not guarantee escape from oncoming chargers. If the fleeing unit rolls poorly and the chargers roll well, the fleeing unit might yet be caught, as we will discuss later.
 
@@ -604,9 +598,9 @@ Work through the charges one at a time, in any order decided by the player whose
 
 *If the charge range is equal to or greater than the distance to the enemy unit, the charge is successful. If the charge range is less than the distance to the enemy, the charge is failed.*
 
-The charge range of a unit is the sum of its Movement value and 2D6 (choose the highest result) if the unit has Movement 5 or less, or its Movement value and 2D6 if the unit has Movement 6 or more.
+The charge range of a unit is based on its Movement value. A unit's charge range is the sum of its Movement value and a 2D6 roll (where you pick the highest score rolled) in inches.
 
-#note[_For example, a unit with Movement 4 rolls a 2 and 5 for its charge distance, meaning it can charge up to 9" (4+5) this turn. A unit with Movement 8 rolling the same result can charge up to 15" (8+2+5)._]
+#note[_For example, a unit with Movement 4 rolls a 2 and 5 for its charge distance, meaning it can charge up to 9" (4+5) this turn._]
 
 With the unit's charge range established, measure the distance between the charging unit and its target unit at their closest points in an uninterrupted line between them. If the distance is greater than the charge range, then the charging unit realises that if has insufficient momentum to reach the enemy and instead makes what we call a failed charge. If the distance is less than or equal to the charge range, then the charging unit has reached the enemy and makes a successful charge.
 
@@ -722,7 +716,7 @@ If the Rally test is failed the unit continues to flee. If the Rally test is suc
 
 === MOVE FLEEING UNITS
 
-*Any units that do not rally must immediately flee the sum of their Movement + D6" in the direction they are facing. Every model that flees through an enemy unit or impassable terrain risk taking damage.*
+*Any units that do not rally must immediately flee 2D6" in the direction they are facing. Every model that flees through an enemy unit or impassable terrain risk taking damage.*
 
 Fleeing troops ignore obstacles of any kind as they retreat. Fleeing troops move through other units (friend or foe) and impassable terrain. If the flee move would result in the fleeing unit ending up 'on top' of or within 1" of another unit, then it carries on fleeing straight forward until it is 1" past the obstruction, and will then halt.
 
@@ -1715,7 +1709,7 @@ In some cases, most likely because a unit previously engaged in combat has broke
 
 === RESTRAIN OR PURSUE
 
-*The victorious unit can choose to pursue or restrain pursuit. A fleeing and pursuing unit both move the sum of their Movement + D6".*
+*The victorious unit can choose to pursue or restrain pursuit. A fleeing and pursuing unit both move 2D6".*
 
 If the losing unit failed its Break test, it must flee, but the winning unit can choose to either pursue the fleeing unit or restrain.
 
@@ -1786,7 +1780,7 @@ Even if the charged unit was already fleeing, it still cannot take any charge re
 
 #namecost("OVERRUN!", "")
 
-*If the victorious unit charged into combat and the enemy was wiped out, it can move the sum of their Movement + D6" inches straight forward.*
+*If the victorious unit charged into combat and the enemy was wiped out, it can move 2D6 inches straight forward.*
 
 If a unit charges into combat and, by the end of that round of close combat, all its enemies have been wiped out as the result of the combat or combat result (rather than the pursuit) the unit can choose to make a pursuit move, even with nobody left alive to pursue. This is an Overrun move.
 
@@ -2333,7 +2327,11 @@ riders if only the mount has Stupidity."), ("4-6", "Clear-headed: The model acts
 
 === SWIFTSTRIDE
 
-When charging, fleeing and pursuing, units entirely made of models with the Swiftstride special rule may re-roll 1's when determining the result of the distance they move.
+When charging, units entirely made of models with the Swiftstride special rule and Movement 7 or higher roll 3D6, discard the lowest result, and add the result to their Movement value. When fleeing or pursuing, they roll 3D6, and discard the lowest result.
+
+When charging, units entirely made of models with the Swiftstride special rule and Movement 6 or lower roll 2D6, and add the result to their Movement value. When fleeing or pursuing, they roll 2D6.
+
+#chart((("", "Swiftstride M6 or lower", "Swiftstride M7 or more"), ("Charging", "Movement + 2D6", "Movement + 3D6 (discard the lowest)"), ("Failed Charge", "2D6", "3D6 (discard the lowest)"), ("Fleeing/Pursuing", "2D6", "3D6 (discard the lowest)")))
 
 === TERROR
 
@@ -2411,9 +2409,7 @@ Fast Cavalry may turn without losing any movement, redress the ranks for a quart
 
 #namecost("Fire & Flee", "")
 
-A unit of Fast Cavalry armed with missile weapons that chooses Flee as a Charge Reaction can choose to fire their weapons first (unless they are within the enemy's minimum charge range or Ponderous). If it chooses to do so, the unit will first fire upon the target. After this, the unit makes a flee move.
-
-Any shots fired in this manner suffer a \-1 To Hit penalty. This may cause a Panic test following the rules for Heavy Casualties as normal.
+A unit of Fast Cavalry armed with missile weapons that chooses Flee as a Charge Reaction can choose to fire their weapons first. If it chooses to do so, the unit will first fire upon the target following the rules for Stand & Shoot (this also counts as moving and shooting for the purposes of shooting modifiers). After this, the unit makes a flee move. However, it may not use its Swiftstride special rule if it does so.
 
 #namecost("Feigned Flight", "")
 
@@ -2590,6 +2586,8 @@ A Cavalry model can make one supporting attack from the rider. Mounts are not al
 
 Cavalry are subject to the following special rules:
 
+- Swiftstride
+
 Any special rules listed for Cavalry units only apply to the rider, unless they specifically mention the mount. There are, however, a few exceptions. If either the rider or the mount has one of the following special rules, then the whole model has it:
 
 - Always Strikes Last
@@ -2636,6 +2634,7 @@ A Monstrous Cavalry model can make one supporting attack from the rider. Mounts 
 Monstrous Cavalry are subject to the following special rules:
 
 - Fear
+- Swiftstride
 
 #namecost("UNIT STRENGTH", "")
 
