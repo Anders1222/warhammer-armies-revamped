@@ -3991,9 +3991,9 @@ Unlike normal standards, the Battle Standard is lost if the bearer is slain – 
 
 Each army list divides the forces available into several categories. In a standard game, players are limited as to how many of their points can be spent from any particular category.
 
-#namecost("CHARACTERS", "")
+#namecost("LORDS & HEROES", "")
 
-You can spend up to 35% of your points on Characters.
+You can spend up to 25% of your points on Lords and/or 35% on Heroes, but no more than 35% in total over both categories.
 
 #namecost("CHARACTER MOUNTS", "")
 
