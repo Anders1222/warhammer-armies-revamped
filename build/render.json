@@ -1,5 +1,9 @@
 [
  {
+  "id": "araby",
+  "cover": "covers/araby.png"
+ },
+ {
   "id": "beastmen",
   "cover": "covers/beastmen.png"
  },

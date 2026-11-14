@@ -4092,6 +4092,7 @@ Each Warhammer army belong to either the Forces of Order, Forces of Destruction 
 
 *The Non-aligned Forces are:*
 
+- _Araby_
 - _Dogs of War_
 - _Ogre Kingdoms_
 - _Tomb Kings_

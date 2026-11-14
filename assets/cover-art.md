@@ -1,6 +1,6 @@
 # Book cover illustrations
 
-Eighteen faction illustrations and one main rulebook illustration replace the books' extracted cover images.
+Nineteen faction illustrations and one main rulebook illustration replace the books' extracted cover images.
 
 - Files: `covers/<slug>.png`, shared by the Typst covers and the website cards.
 - Format: 1254 × 1254 PNG, RGBA, with the generated alpha channel preserved. Transparent areas contain no painted background.
@@ -13,6 +13,7 @@ The visual briefs below interpret the lore and visual references. The correspond
 | Faction | Visual brief | Lore / faction reference | Visual reference |
 |---|---|---|---|
 | Main rulebook | Empire, Dwarf and High Elf defenders facing Chaos and an Orc beneath a dragon | Core rulebook and the faction references below | The existing faction cover collection; a new ensemble composition |
+| Araby | Desert commander, Arabian horse and djinn | [Reference](https://warhammerfantasy.fandom.com/wiki/Araby) | [Art / gallery](https://warhammerarmiesproject.blogspot.com/2015/10/) |
 | Beastmen | Goat-headed Beastlord, bray-shaman and herdstone | [Reference](https://www.warhammer-community.com/en-gb/articles/qlwqfahu/old-world-almanack-what-lurks-within-the-wildwood/) | [Art / gallery](https://www.warhammerart.com/products/beastmen) |
 | Bretonnia | Grail knight, heraldic caparison and sacred chalice | [Reference](https://www.warhammer-community.com/en-gb/articles/1iAtL8DL/old-world-almanack-discover-bretonnia-a-land-of-chivalry-and-honour/) | [Art / gallery](https://warhammerarmiesproject.blogspot.com/2015/10/) |
 | Chaos Dwarfs | Hashut, curled beard, tall hat, infernal guard and forge | [Reference](https://whfb.lexicanum.com/wiki/Chaos_Dwarfs) | [Art / gallery](https://matthancox.artstation.com/projects/lVb9y5) |
