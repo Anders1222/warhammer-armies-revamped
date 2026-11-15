@@ -444,13 +444,12 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
 #magic-standard("STANDARD OF EVERLASTING DEATH", 10)[The unit carrying this standard suffers one fewer Wound than they normally would due to the Unstable special rule.]
 ]
 
-= CHARACTERS
+= LORDS
 
-#unit("VON CARSTEINS",
+#unit("VON CARSTEIN COUNT",
   first: true,
   profiles: (
     (name: "Count", m: 6, ws: 7, bs: 5, s: 6, t: 5, w: 3, i: 7, a: 4, ld: 10, points: 190),
-    (name: "Scion", m: 6, ws: 6, bs: 5, s: 5, t: 4, w: 2, i: 6, a: 3, ld: 9, points: 80),
   ),
   troop-type: "Infantry (Character, Vampire, von Carstein)",
   base-size: "20x20 or 25x25",
@@ -466,7 +465,7 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
 - May be upgraded to one of the following:
   - Level 1 Wizard +35 points
   - Level 2 Wizard +70 points
-  - Level 3 Wizard (Count only) +105 points
+  - Level 3 Wizard +105 points
 - May choose one of the following:
   - Additional hand weapon +5 points
   - Heavy lance +10 points
@@ -479,26 +478,20 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
 - May be mounted on one of the following:
   - Nightmare +15 points
   - Hellsteed +25 points
-  - Abyssal Terror (Count only) +125 points
-  - Zombie Dragon (Count only) +245 points
-- One Scion may carry the Battle Standard +25 points
-- A Scion may take Vampiric Powers and/or Magic Items up to a total of 50 points
-- A Count may take Vampiric Powers and/or Magic Items up to a total of 100 points
-  ],
-  notes: [
-- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  - Abyssal Terror +125 points
+  - Zombie Dragon +245 points
+- May take Vampiric Powers and/or Magic Items up to a total of 100 points
   ],
 )
 
-#unit("NECRARCHS",
+#unit("NECRARCH MASTER",
   profiles: (
     (name: "Master", m: 6, ws: 5, bs: 3, s: 5, t: 5, w: 3, i: 6, a: 3, ld: 9, points: 245),
-    (name: "Acolyte", m: 6, ws: 4, bs: 3, s: 4, t: 4, w: 2, i: 5, a: 2, ld: 8, points: 70),
   ),
   troop-type: "Infantry (Character, Vampire, Necrarch)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "An Acolyte is a Level 1 Wizard. A Master is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic: "A Master is a Level 3 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
 - Death
 - Heavens
@@ -513,21 +506,15 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
 - May be mounted on one of the following:
   - Nightmare +15 points
   - Hellsteed +25 points
-  - Abyssal Terror (Master only) +125 points
-  - Zombie Dragon (Master only) +245 points
-- One Acolyte may carry the Battle Standard +25 points
-- An Acolyte may take Vampiric Powers and/or Magic Items up to a total of 50 points
-- A Master may take Vampiric Powers and/or Magic Items up to a total of 100 points
-  ],
-  notes: [
-- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  - Abyssal Terror +125 points
+  - Zombie Dragon +245 points
+- May take Vampiric Powers and/or Magic Items up to a total of 100 points
   ],
 )
 
-#unit("LAHMIANS",
+#unit("LAHMIAN LADY",
   profiles: (
     (name: "Lady", m: 6, ws: 6, bs: 5, s: 5, t: 5, w: 3, i: 8, a: 4, ld: 10, points: 175),
-    (name: "Courtesan", m: 6, ws: 5, bs: 5, s: 4, t: 4, w: 2, i: 7, a: 3, ld: 9, points: 70),
   ),
   troop-type: "Infantry (Character, Vampire, Lahmian)",
   base-size: "20x20 or 25x25",
@@ -542,7 +529,7 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
 - May be upgraded to one of the following:
   - Level 1 Wizard +35 points
   - Level 2 Wizard +70 points
-  - Level 3 Wizard (Lady only) +105 points
+  - Level 3 Wizard +105 points
 - May take an additional hand weapon +5 points
 - May take throwing weapons +6 points
 - May take a shortbow +4 points
@@ -551,21 +538,14 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
 - May be mounted on one of the following:
   - Nightmare +15 points
   - Hellsteed +25 points
-  - Coven Throne (Lady only, replacing one of the crew) +200 points
+  - Coven Throne (replacing one of the crew) +200 points
 - May take Vampiric Powers and/or Magic Items up to a total of 100 points
-- One Courtesan may carry the Battle Standard +25 points
-- A Courtesan may take Vampiric Powers and/or Magic Items up to a total of 50 points
-- A Lady may take Vampiric Powers and/or Magic Items up to a total of 100 points
-  ],
-  notes: [
-- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
   ],
 )
 
-#unit("BLOOD DRAGONS",
+#unit("BLOOD DRAGON LORD",
   profiles: (
     (name: "Lord", m: 6, ws: 8, bs: 3, s: 6, t: 5, w: 3, i: 7, a: 5, ld: 10, points: 215),
-    (name: "Kastellan", m: 6, ws: 7, bs: 3, s: 5, t: 4, w: 2, i: 6, a: 4, ld: 9, points: 100),
   ),
   troop-type: "Infantry (Character, Vampire, Blood Dragon)",
   base-size: "20x20 or 25x25",
@@ -583,7 +563,7 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
   options: [
 - May be upgraded to one of the following:
   - Level 1 Wizard +35 points
-  - Level 2 Wizard (Lord only) +70 points
+  - Level 2 Wizard +70 points
 - May choose one of the following:
   - Additional hand weapon +5 points
   - Heavy lance +10 points
@@ -595,19 +575,13 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
   - Hellsteed +25 points
   - Abyssal Terror +125 points
   - Zombie Dragon +245 points
-- One Kastellan may carry the Battle Standard +25 points
-- A Kastellan may take Vampiric Powers and/or Magic Items up to a total of 50 points
-- A Lord may take Vampiric Powers and/or Magic Items up to a total of 100 points
-  ],
-  notes: [
-- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+- May take Vampiric Powers and/or Magic Items up to a total of 100 points
   ],
 )
 
-#unit("STRIGOI",
+#unit("GHOUL KING",
   profiles: (
     (name: "Ghoul King", m: 6, ws: 6, bs: 3, s: 6, t: 6, w: 3, i: 7, a: 5, ld: 9, points: 220),
-    (name: "Ghoul Prince", m: 6, ws: 5, bs: 3, s: 5, t: 5, w: 2, i: 6, a: 4, ld: 8, points: 120),
   ),
   troop-type: "Infantry (Character, Vampire, Strigoi)",
   base-size: "20x20 or 25x25",
@@ -621,26 +595,20 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
   options: [
 - May be upgraded to one of the following:
   - Level 1 Wizard +35 points
-  - Level 2 Wizard (Ghoul King only) +70 points
-- May be mounted on a Terrorgheist (Ghoul King only) +225 points
-- One Ghoul Prince may carry the Battle Standard +25 points
-- A Ghoul Prince may take Vampiric Powers and/or Magic Items up to a total of 50 points
-- A Ghoul King may take Vampiric Powers and/or Magic Items up to a total of 100 points
-  ],
-  notes: [
-- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  - Level 2 Wizard +70 points
+- May be mounted on a Terrorgheist +225 points
+- May take Vampiric Powers and/or Magic Items up to a total of 100 points
   ],
 )
 
-#unit("NECROMANCERS",
+#unit("MASTER NECROMANCER",
   profiles: (
     (name: "Master Necromancer", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 3, i: 4, a: 2, ld: 8, points: 160),
-    (name: "Necromancer", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 3, a: 1, ld: 7, points: 65),
   ),
   troop-type: "Infantry (Character, Human)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "A Necromancer is a Level 1 Wizard. A Master Necromancer is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic: "A Master Necromancer is a Level 3 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
 - Death
 - Necromancy
@@ -652,9 +620,8 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
   - Nightmare +20 points
   - Hellsteed +25 points
   - Corpse Cart (replacing the Corpsemaster) +100 points
-  - Abyssal Terror (Master Necromancer only) +125 points
-- A Necromancer may take Magic Items up to a total of 50 points
-- A Master Necromancer may take Magic Items up to a total of 100 points
+  - Abyssal Terror +125 points
+- May take Magic Items up to a total of 100 points
   ],
 )
 
@@ -681,9 +648,222 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
   order: ("troop-type", "base-size", "magic", "equipment", "special-rules", "options"),
 )
 
-#unit("WIGHT LORDS",
+#unit("WIGHT KING",
   profiles: (
     (name: "Wight King", m: 4, ws: 6, bs: 3, s: 5, t: 5, w: 4, i: 4, a: 4, ld: 9, points: 140),
+  ),
+  troop-type: "Infantry (Character, Undead, Wight)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Killing Blow, Magical Attacks, Spectral Steeds, Undead",
+  options: [
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Heavy lance +10 points
+  - Great weapon +10 points
+- May choose one of the following:
+  - Medium armour +9 points
+  - Heavy armour +18 points
+- May take a shield +5 points
+- May be mounted on one of the following:
+  - Skeletal Steed +12 points
+  - Barrow Chariot +50 points
+- May take Magic Items up to a total of 100 points
+  ],
+)
+
+= HEROES
+
+#unit("VON CARSTEIN SCION",
+  first: true,
+  profiles: (
+    (name: "Scion", m: 6, ws: 6, bs: 5, s: 5, t: 4, w: 2, i: 6, a: 3, ld: 9, points: 80),
+  ),
+  troop-type: "Infantry (Character, Vampire, von Carstein)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "A von Carstein who is a Wizard uses one of the following Lores of Magic:",
+  magic-body: [
+- Death
+- Necromancy
+- Shadow
+  ],
+  special-rules: "The Red Thirst, Vampiric",
+  options: [
+- May be upgraded to one of the following:
+  - Level 1 Wizard +35 points
+  - Level 2 Wizard +70 points
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Heavy lance +10 points
+  - Polearm +10 points
+  - Great weapon +10 points
+- May choose one of the following:
+  - Light armour +3 points
+  - Medium armour +9 points
+  - Heavy armour +18 points
+- May be mounted on one of the following:
+  - Nightmare +15 points
+  - Hellsteed +25 points
+- One Scion may carry the Battle Standard +25 points
+- May take Vampiric Powers and/or Magic Items up to a total of 50 points
+  ],
+  notes: [
+- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  ],
+)
+
+#unit("NECRARCH ACOLYTE",
+  profiles: (
+    (name: "Acolyte", m: 6, ws: 4, bs: 3, s: 4, t: 4, w: 2, i: 5, a: 2, ld: 8, points: 70),
+  ),
+  troop-type: "Infantry (Character, Vampire, Necrarch)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "An Acolyte is a Level 1 Wizard. They use one of the following Lores of Magic:",
+  magic-body: [
+- Death
+- Heavens
+- Metal
+- Necromancy
+- Shadow
+  ],
+  special-rules: "The Red Thirst, Vampiric",
+  options: [
+- May take an additional Wizard Level +35 points
+- May be upgraded to a Master of the Dead +20 points
+- May be mounted on one of the following:
+  - Nightmare +15 points
+  - Hellsteed +25 points
+- One Acolyte may carry the Battle Standard +25 points
+- May take Vampiric Powers and/or Magic Items up to a total of 50 points
+  ],
+  notes: [
+- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  ],
+)
+
+#unit("LAHMIAN COURTESAN",
+  profiles: (
+    (name: "Courtesan", m: 6, ws: 5, bs: 5, s: 4, t: 4, w: 2, i: 7, a: 3, ld: 9, points: 70),
+  ),
+  troop-type: "Infantry (Character, Vampire, Lahmian)",
+  base-size: "20x20 or 25x25",
+  magic: "A Lahmian who is a Wizard uses one of the following Lores of Magic:",
+  magic-body: [
+- Death
+- Necromancy
+- Shadow
+  ],
+  special-rules: "Dodge (6+), The Red Thirst, Vampiric",
+  options: [
+- May be upgraded to one of the following:
+  - Level 1 Wizard +35 points
+  - Level 2 Wizard +70 points
+- May take an additional hand weapon +5 points
+- May take throwing weapons +6 points
+- May take a shortbow +4 points
+- May take light armour +3 points
+- May have Poisoned Attacks +10 points
+- May be mounted on one of the following:
+  - Nightmare +15 points
+  - Hellsteed +25 points
+- One Courtesan may carry the Battle Standard +25 points
+- May take Vampiric Powers and/or Magic Items up to a total of 50 points
+  ],
+  notes: [
+- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  ],
+)
+
+#unit("BLOOD DRAGON KASTELLAN",
+  profiles: (
+    (name: "Kastellan", m: 6, ws: 7, bs: 3, s: 5, t: 4, w: 2, i: 6, a: 4, ld: 9, points: 100),
+  ),
+  troop-type: "Infantry (Character, Vampire, Blood Dragon)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, heavy armour",
+  magic: "A Blood Dragon who is a Wizard uses one of the following Lores of Magic:",
+  magic-body: [
+- Death
+- Necromancy
+- Shadow
+  ],
+  special-rules: "The Red Thirst, Vampiric",
+  special-rules-body: (
+    rule("Martial Honour")[The Vampire must always issue and accept challenges when possible.],
+  ),
+  options: [
+- May be upgraded to one of the following:
+  - Level 1 Wizard +35 points
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Heavy lance +10 points
+  - Great weapon +10 points
+- May take heavy armour +18 points
+- May take a shield +5 points
+- May be mounted on one of the following:
+  - Nightmare +20 points
+  - Hellsteed +25 points
+  - Abyssal Terror +125 points
+  - Zombie Dragon +245 points
+- One Kastellan may carry the Battle Standard +25 points
+- May take Vampiric Powers and/or Magic Items up to a total of 50 points
+  ],
+  notes: [
+- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  ],
+)
+
+#unit("GHOUL PRINCE",
+  profiles: (
+    (name: "Ghoul Prince", m: 6, ws: 5, bs: 3, s: 5, t: 5, w: 2, i: 6, a: 4, ld: 8, points: 120),
+  ),
+  troop-type: "Infantry (Character, Vampire, Strigoi)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "A Strigoi who is a Wizard uses one of the following Lores of Magic:",
+  magic-body: [
+- Beasts
+- Necromancy
+  ],
+  special-rules: "Hatred, Natural Armour (6+), The Red Thirst, Vampiric",
+  options: [
+- May be upgraded to one of the following:
+  - Level 1 Wizard +35 points
+- One Ghoul Prince may carry the Battle Standard +25 points
+- May take Vampiric Powers and/or Magic Items up to a total of 50 points
+  ],
+  notes: [
+- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  ],
+)
+
+#unit("NECROMANCER",
+  profiles: (
+    (name: "Necromancer", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 3, a: 1, ld: 7, points: 65),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "A Necromancer is a Level 1 Wizard. They use one of the following Lores of Magic:",
+  magic-body: [
+- Death
+- Necromancy
+  ],
+  options: [
+- May take an additional Wizard Level +35 points
+- May be upgraded to a Master of the Dead +20 points
+- May be mounted on one of the following:
+  - Nightmare +20 points
+  - Hellsteed +25 points
+  - Corpse Cart (replacing the Corpsemaster) +100 points
+- May take Magic Items up to a total of 50 points
+  ],
+)
+
+#unit("WIGHT LORD",
+  profiles: (
     (name: "Wight Lord", m: 4, ws: 5, bs: 3, s: 5, t: 5, w: 3, i: 4, a: 3, ld: 8, points: 100),
   ),
   troop-type: "Infantry (Character, Undead, Wight)",
@@ -703,8 +883,7 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
   - Skeletal Steed +12 points
   - Barrow Chariot +50 points
 - One Wight Lord may carry the Battle Standard +25 points
-- A Wight Lord may take Magic Items up to a total of 50 points
-- A Wight King may take Magic Items up to a total of 100 points
+- May take Magic Items up to a total of 50 points
   ],
   notes: [
 - The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.

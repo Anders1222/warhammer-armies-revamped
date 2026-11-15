@@ -584,7 +584,7 @@ Cursed terrain features placed in this way must be positioned touching an existi
 #arcane-item("NINE-EYED TOME", 30, type: "Relic")[The bearer can re-roll one casting or dispel attempt each Magic phase.]
 ]
 
-= CHARACTERS
+= LORDS
 
 #unit("DAEMON PRINCE",
   first: true,
@@ -629,7 +629,98 @@ A Daemon Prince who is a Daemon of Tzeentch, Nurgle or Slaanesh must use the Lor
   ],
 )
 
+#unit("BLOODTHIRSTER",
+  profiles: (
+    (name: "Bloodthirster", m: 8, ws: 9, bs: 5, s: 6, t: 6, w: 6, i: 8, a: 6, ld: 9, points: 400),
+  ),
+  troop-type: "Monster (Character, Daemon)",
+  base-size: "50x50, 100x100 or 100x150",
+  equipment: "Two hand weapons, medium armour",
+  special-rules: "Daemon of Khorne, Fly (8), Killing Blow, Magic Resistance (1)",
+  options: [
+- May replace hand weapons with great weapon free
+- May take Daemonic Gifts and/or Magic Items up to a total of 100 points
+  ],
+)
+
+#unit("GREAT UNCLEAN ONE",
+  profiles: (
+    (name: "Great Unclean One", m: 6, ws: 6, bs: 3, s: 6, t: 7, w: 7, i: 4, a: 5, ld: 9, points: 400),
+  ),
+  troop-type: "Monster (Character, Daemon)",
+  base-size: "50x50, 100x100 or 100x150",
+  equipment: "Hand weapon",
+  magic: "A Great Unclean One is a Level 1 Wizard who chooses spells from the Lore of Nurgle.",
+  special-rules: "Daemon of Nurgle",
+  options: [
+- May be upgraded to one of the following:
+  - Level 2 Wizard +35 points
+  - Level 3 Wizard +70 points
+  - Level 4 Wizard +105 points
+- May take an additional hand weapon +20 points
+- May take Daemonic Gifts and/or Magic Items up to a total of 100 points
+  ],
+)
+
+#unit("KEEPER OF SECRETS",
+  profiles: (
+    (name: "Keeper of Secrets", m: 10, ws: 8, bs: 5, s: 6, t: 6, w: 6, i: 9, a: 6, ld: 9, points: 400),
+  ),
+  troop-type: "Monster (Character, Daemon)",
+  base-size: "50x50, 100x100 or 100x150",
+  equipment: "Hand weapon",
+  magic: "A Keeper of Secrets is a Level 1 Wizard who chooses spells from the Lore of Slaanesh.",
+  special-rules: "Daemon of Slaanesh",
+  options: [
+- May be upgraded to one of the following:
+  - Level 2 Wizard +35 points
+  - Level 3 Wizard +70 points
+  - Level 4 Wizard +105 points
+- May take a buckler +10 points
+- May take Daemonic Gifts and/or Magic Items up to a total of 100 points
+  ],
+)
+
+#unit("LORD OF CHANGE",
+  profiles: (
+    (name: "Lord of Change", m: 8, ws: 6, bs: 5, s: 6, t: 6, w: 6, i: 6, a: 5, ld: 9, points: 400),
+  ),
+  troop-type: "Monster (Character, Daemon)",
+  base-size: "50x50, 100x100 or 100x150",
+  equipment: "Hand weapon",
+  magic: "A Lord of Change is a Level 2 Wizard who chooses spells from the Lore of Tzeentch.",
+  special-rules: "Daemon of Tzeentch, Fly (8)",
+  options: [
+- May be upgraded to one of the following:
+  - Level 3 Wizard +35 points
+  - Level 4 Wizard +70 points
+- May take Daemonic Gifts and/or Magic Items up to a total of 100 points
+  ],
+)
+
+#unit("GAUNT SUMMONER",
+  profiles: (
+    (name: "Gaunt Summoner", m: 4, ws: 3, bs: 4, s: 4, t: 4, w: 3, i: 3, a: 2, ld: 8, points: 240),
+  ),
+  troop-type: "Infantry (Character, Daemon)",
+  base-size: "25x25 or 30x30",
+  magic: "A Gaunt Summoner is a Level 3 Wizard who chooses spells from the Lore of Tzeentch. In addition, they know the following spell:",
+  magic-body: [
+- *Summon Daemons:* Level 3, cast on 8+. _Summon Daemons_ is a *summoning* spell with a range of 18" that can target units of Pink Horrors, Brimstone Horrors, Screamers or Flamers. The target unit immediately gains D6 Wounds worth of models.
+  ],
+  equipment: "Hand weapon",
+  special-rules: "Daemon of Tzeentch",
+  options: [
+- May take an additional Wizard Level +35 points May be mounted on a Disc of Tzeentch +25 points
+- May take Daemonic Gifts and/or Magic Items up to a total of 100 points
+  ],
+  order: ("troop-type", "base-size", "magic", "equipment", "special-rules", "options"),
+)
+
+= HEROES
+
 #unit("EXALTED DAEMON",
+  first: true,
   profiles: (
     (name: "Exalted Daemon", m: 6, ws: 7, bs: 5, s: 5, t: 5, w: 4, i: 7, a: 4, ld: 8, points: 170),
   ),
@@ -673,20 +764,6 @@ A Daemon Prince who is a Daemon of Tzeentch, Nurgle or Slaanesh must use the Lor
   ],
 )
 
-#unit("BLOODTHIRSTER",
-  profiles: (
-    (name: "Bloodthirster", m: 8, ws: 9, bs: 5, s: 6, t: 6, w: 6, i: 8, a: 6, ld: 9, points: 400),
-  ),
-  troop-type: "Monster (Character, Daemon)",
-  base-size: "50x50, 100x100 or 100x150",
-  equipment: "Two hand weapons, medium armour",
-  special-rules: "Daemon of Khorne, Fly (8), Killing Blow, Magic Resistance (1)",
-  options: [
-- May replace hand weapons with great weapon free
-- May take Daemonic Gifts and/or Magic Items up to a total of 100 points
-  ],
-)
-
 #unit("BLOODMASTER",
   profiles: (
     (name: "Bloodmaster", m: 5, ws: 7, bs: 5, s: 5, t: 4, w: 2, i: 6, a: 3, ld: 8, points: 110),
@@ -706,25 +783,6 @@ A Daemon Prince who is a Daemon of Tzeentch, Nurgle or Slaanesh must use the Lor
   ],
   notes: [
 - A Battle Standard Bearer can have a magic banner with no points limit. However, a model carrying a magic standard can only carry other magic items up to a total of 25 points.
-  ],
-)
-
-#unit("GREAT UNCLEAN ONE",
-  profiles: (
-    (name: "Great Unclean One", m: 6, ws: 6, bs: 3, s: 6, t: 7, w: 7, i: 4, a: 5, ld: 9, points: 400),
-  ),
-  troop-type: "Monster (Character, Daemon)",
-  base-size: "50x50, 100x100 or 100x150",
-  equipment: "Hand weapon",
-  magic: "A Great Unclean One is a Level 1 Wizard who chooses spells from the Lore of Nurgle.",
-  special-rules: "Daemon of Nurgle",
-  options: [
-- May be upgraded to one of the following:
-  - Level 2 Wizard +35 points
-  - Level 3 Wizard +70 points
-  - Level 4 Wizard +105 points
-- May take an additional hand weapon +20 points
-- May take Daemonic Gifts and/or Magic Items up to a total of 100 points
   ],
 )
 
@@ -791,25 +849,6 @@ A Daemon Prince who is a Daemon of Tzeentch, Nurgle or Slaanesh must use the Lor
   ],
 )
 
-#unit("KEEPER OF SECRETS",
-  profiles: (
-    (name: "Keeper of Secrets", m: 10, ws: 8, bs: 5, s: 6, t: 6, w: 6, i: 9, a: 6, ld: 9, points: 400),
-  ),
-  troop-type: "Monster (Character, Daemon)",
-  base-size: "50x50, 100x100 or 100x150",
-  equipment: "Hand weapon",
-  magic: "A Keeper of Secrets is a Level 1 Wizard who chooses spells from the Lore of Slaanesh.",
-  special-rules: "Daemon of Slaanesh",
-  options: [
-- May be upgraded to one of the following:
-  - Level 2 Wizard +35 points
-  - Level 3 Wizard +70 points
-  - Level 4 Wizard +105 points
-- May take a buckler +10 points
-- May take Daemonic Gifts and/or Magic Items up to a total of 100 points
-  ],
-)
-
 #unit("VICELEADER",
   profiles: (
     (name: "Viceleader", m: 6, ws: 7, bs: 6, s: 4, t: 3, w: 2, i: 7, a: 4, ld: 8, points: 95),
@@ -858,42 +897,6 @@ A Daemon Prince who is a Daemon of Tzeentch, Nurgle or Slaanesh must use the Lor
   options: [
 - May take Daemonic Gifts and/or Magic Items up to a total of 50 points
   ],
-)
-
-#unit("LORD OF CHANGE",
-  profiles: (
-    (name: "Lord of Change", m: 8, ws: 6, bs: 5, s: 6, t: 6, w: 6, i: 6, a: 5, ld: 9, points: 400),
-  ),
-  troop-type: "Monster (Character, Daemon)",
-  base-size: "50x50, 100x100 or 100x150",
-  equipment: "Hand weapon",
-  magic: "A Lord of Change is a Level 2 Wizard who chooses spells from the Lore of Tzeentch.",
-  special-rules: "Daemon of Tzeentch, Fly (8)",
-  options: [
-- May be upgraded to one of the following:
-  - Level 3 Wizard +35 points
-  - Level 4 Wizard +70 points
-- May take Daemonic Gifts and/or Magic Items up to a total of 100 points
-  ],
-)
-
-#unit("GAUNT SUMMONER",
-  profiles: (
-    (name: "Gaunt Summoner", m: 4, ws: 3, bs: 4, s: 4, t: 4, w: 3, i: 3, a: 2, ld: 8, points: 240),
-  ),
-  troop-type: "Infantry (Character, Daemon)",
-  base-size: "25x25 or 30x30",
-  magic: "A Gaunt Summoner is a Level 3 Wizard who chooses spells from the Lore of Tzeentch. In addition, they know the following spell:",
-  magic-body: [
-- *Summon Daemons:* Level 3, cast on 8+. _Summon Daemons_ is a *summoning* spell with a range of 18" that can target units of Pink Horrors, Brimstone Horrors, Screamers or Flamers. The target unit immediately gains D6 Wounds worth of models.
-  ],
-  equipment: "Hand weapon",
-  special-rules: "Daemon of Tzeentch",
-  options: [
-- May take an additional Wizard Level +35 points May be mounted on a Disc of Tzeentch +25 points
-- May take Daemonic Gifts and/or Magic Items up to a total of 100 points
-  ],
-  order: ("troop-type", "base-size", "magic", "equipment", "special-rules", "options"),
 )
 
 #unit("CHANGECASTER",

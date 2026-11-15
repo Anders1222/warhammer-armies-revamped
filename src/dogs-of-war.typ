@@ -391,12 +391,82 @@ No saves are allowed against Wounds caused by this weapon.
 #magic-standard("PENNANT OF LOYALTY", 5)[The unit carrying this standard can re-roll the result on the Mercenaries table.]
 ]
 
-= CHARACTERS
+= LORDS
 
-#unit("MERCENARY COMMANDERS",
+#unit("MERCENARY GENERAL",
   first: true,
   profiles: (
     (name: "Mercenary General", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 90),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Mercenaries",
+  options: [
+- May choose one of the following:
+  - Spear free
+  - Additional hand weapon +5 points
+  - Oriental longsword +5 points
+  - Light lance +5 points
+  - Heavy lance +10 points
+  - Polearm +10 points
+  - Great weapon +15 points
+- May choose one of the following:
+  - Shortbow +4 points
+  - Pistol +5 points
+  - Crossbow +7 points
+  - Handgun +7 points
+  - Brace of pistols +8 points
+- May choose one of the following:
+  - Light armour +3 points
+  - Medium armour +9 points
+  - Heavy armour +18 points
+- May choose one of the following:
+  - Buckler +3 points
+  - Shield +5 points
+- May be mounted on one of the following:
+  - Warhorse +15 points
+  - Pegasus +25 points
+  - Griffon +125 points
+- May take Quirks of Character and/or Magic Items up to a total of 100 points
+  ],
+)
+
+#unit("HIRELING WIZARD LORD",
+  profiles: (
+    (name: "Hireling Wizard Lord", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 3, i: 4, a: 2, ld: 8, points: 160),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "A Hireling Wizard Lord is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic-body: [
+- Battle Magic
+- Beasts
+- Death
+- Heavens
+- Fire
+- Light
+- Life
+- Metal
+- Shadow
+  ],
+  special-rules: "Mercenaries",
+  options: [
+- May take an additional Wizard Level +35 points
+- May be mounted on one of the following:
+  - Warhorse +15 points
+  - Pegasus +25 points
+  - Griffon +125 points
+- May take Quirks of Character and/or Magic Items up to a total of 100 points
+  ],
+)
+
+= HEROES
+
+#unit("MERCENARY CAPTAIN",
+  first: true,
+  profiles: (
     (name: "Mercenary Captain", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 50),
   ),
   troop-type: "Infantry (Character, Human)",
@@ -428,21 +498,18 @@ No saves are allowed against Wounds caused by this weapon.
 - May be mounted on one of the following:
   - Warhorse +15 points
   - Pegasus +25 points
-  - Griffon (Mercenary General only) +125 points
-- A Mercenary Captain may take Quirks of Character and/or Magic Items up to a total of 50 points
-- A Mercenary General may take Quirks of Character and/or Magic Items up to a total of 100 points
+- May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],
 )
 
-#unit("HIRELING WIZARDS",
+#unit("HIRELING WIZARD",
   profiles: (
-    (name: "Hireling Wizard Lord", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 3, i: 4, a: 2, ld: 8, points: 160),
     (name: "Hireling Wizard", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 3, a: 1, ld: 7, points: 65),
   ),
   troop-type: "Infantry (Character, Human)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "A Hireling Wizard is a Level 1 Wizard. A Hireling Wizard Lord is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic: "A Hireling Wizard is a Level 1 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
 - Battle Magic
 - Beasts
@@ -460,9 +527,7 @@ No saves are allowed against Wounds caused by this weapon.
 - May be mounted on one of the following:
   - Warhorse +15 points
   - Pegasus +25 points
-  - Griffon (Hireling Wizard Lord only) +125 points
-- A Hireling Wizard may take Quirks of Character and/or Magic Items up to a total of 50 points
-- A Hireling Wizard Lord may take Quirks of Character and/or Magic Items up to a total of 100 points
+- May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],
 )
 

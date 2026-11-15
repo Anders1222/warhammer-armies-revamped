@@ -349,12 +349,79 @@ One use only. A Butcher with a Scalp-Gnoblar may re- roll a single dice when att
 #magic-standard("RAGBANNER", 15)[The unit carrying this standard has the Cold-blooded special rule when taking Panic tests.]
 ]
 
-= CHARACTERS
+= LORDS
 
-#unit("CHIEFTAINS",
+#unit("TYRANT",
   first: true,
   profiles: (
     (name: "Tyrant", m: 6, ws: 6, bs: 4, s: 5, t: 5, w: 5, i: 5, a: 6, ld: 9, points: 210),
+  ),
+  troop-type: "Monstrous Infantry (Character, Ogre)",
+  base-size: "40x40",
+  equipment: "Hand weapon, gut-plate",
+  special-rules: "Natural Armour (6+), Ogre Charge",
+  options: [
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Spear +5 points
+  - Light lance +5 points
+  - Ironfist +5 points
+  - Great weapon +10 points
+  - Polearm +10 points
+- May choose one of the following:
+  - Ogre pistol +8 points
+  - Brace of Ogre pistols +11 points
+- May take a gut-plate +5 points
+- May take light armour +10 points
+- May take up to 2 Name-Gnoblars +3 points/Gnoblar
+- May take up to 2 Sword-Gnoblars +3 points/Gnoblar
+- May take a Luck-Gnoblar +5 points
+- May be mounted on one of the following:
+  - Mournfang +40 points
+  - Grimhorn Rhinox +80 points
+  - Rhinox Chariot (replacing the crew) +90 points
+- May take Big Names and/or Magic Items up to a total of 100 points
+  ],
+  notes: [
+- A Tyrant or Bruiser mounted on a Rhinox Chariot loses the Natural Armour (6+) special rule.
+  ],
+)
+
+#unit("SLAUGHTERMASTER",
+  profiles: (
+    (name: "Slaughtermaster", m: 6, ws: 4, bs: 3, s: 4, t: 4, w: 5, i: 3, a: 4, ld: 8, points: 235),
+  ),
+  troop-type: "Monstrous Infantry (Character, Ogre)",
+  base-size: "40x40",
+  equipment: "Hand weapon",
+  magic: "A Slaughtermaster is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic-body: [
+- Beasts
+- Death
+- Great Maw
+- Heavens
+
+At least one of them must choose their spells from the Lore of the Great Maw.
+  ],
+  special-rules: "Natural Armour (6+), Ogre Charge, Immunity (Poisoned Attacks)",
+  options: [
+- May take an additional Wizard Level +35 points
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Great weapon +15 points
+- May take a gut-plate +5 points
+- May take up to 2 Scalp-Gnoblars +5 points/Gnoblar
+- May take up to 2 Tooth-Gnoblars +5 points/Gnoblar
+- May take a Great Mawpot +100 points
+- May take Magic Items up to a total of 100 points
+  ],
+)
+
+= HEROES
+
+#unit("BRUISER",
+  first: true,
+  profiles: (
     (name: "Bruiser", m: 6, ws: 5, bs: 4, s: 5, t: 5, w: 4, i: 4, a: 5, ld: 8, points: 150),
   ),
   troop-type: "Monstrous Infantry (Character, Ogre)",
@@ -382,8 +449,7 @@ One use only. A Butcher with a Scalp-Gnoblar may re- roll a single dice when att
   - Grimhorn Rhinox +80 points
   - Rhinox Chariot (replacing the crew) +90 points
 - One Bruiser may carry the Battle Standard +25 points
-- A Bruiser may take Big Names and/or Magic Items up to a total of 50 points
-- A Tyrant may take Big Names and/or Magic Items up to a total of 100 points
+- May take Big Names and/or Magic Items up to a total of 50 points
   ],
   notes: [
 - A Tyrant or Bruiser mounted on a Rhinox Chariot loses the Natural Armour (6+) special rule.
@@ -391,15 +457,14 @@ One use only. A Butcher with a Scalp-Gnoblar may re- roll a single dice when att
   ],
 )
 
-#unit("BUTCHERS",
+#unit("BUTCHER",
   profiles: (
-    (name: "Slaughtermaster", m: 6, ws: 4, bs: 3, s: 4, t: 4, w: 5, i: 3, a: 4, ld: 8, points: 235),
     (name: "Butcher", m: 6, ws: 3, bs: 2, s: 4, t: 4, w: 4, i: 2, a: 3, ld: 7, points: 110),
   ),
   troop-type: "Monstrous Infantry (Character, Ogre)",
   base-size: "40x40",
   equipment: "Hand weapon",
-  magic: "A Butcher is a Level 1 Wizard. A Slaughtermaster is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic: "A Butcher is a Level 1 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
 - Beasts
 - Death
@@ -417,9 +482,7 @@ At least one of them must choose their spells from the Lore of the Great Maw.
 - May take a gut-plate +5 points
 - May take up to 2 Scalp-Gnoblars +5 points/Gnoblar
 - May take up to 2 Tooth-Gnoblars +5 points/Gnoblar
-- May take a Great Mawpot (Slaughtermaster only) +100 points
-- A Butcher may take Magic Items up to a total of 50 points
-- A Slaughtermaster may take Magic Items up to a total of 100 points
+- May take Magic Items up to a total of 50 points
   ],
 )
 
