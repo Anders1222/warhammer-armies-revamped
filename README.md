@@ -18,7 +18,7 @@ it: Dwarfs should feel like Dwarfs, Skaven like Skaven.
 
 ## The books
 
-Thirty army books and the core rulebook, published as PDFs at
+Eighteen army books and the core rulebook, published as PDFs at
 [anders1222.github.io/warhammer-armies-revamped](https://anders1222.github.io/warhammer-armies-revamped/).
 
 Version 1.0 of every book is the Warhammer Armies Project text, re-typeset:

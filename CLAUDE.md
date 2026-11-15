@@ -150,7 +150,7 @@ There is no test suite, so verification is per-change and must be run, not
 assumed:
 
 - Changed a book or `template.typ` → `python build.py` and confirm exit 0. A
-  template change affects all 31 books, and the whole corpus takes seconds, so
+  template change affects all 19 books, and the whole corpus takes seconds, so
   build all of it rather than the one book you touched.
 - Changed `#book-meta`, or added/removed/renamed a book → `python emit.py`, and
   commit the resulting `site/index.html` and `build/render.json`.

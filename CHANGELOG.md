@@ -1,5 +1,28 @@
 # Changelog
 
+## Twelve armies leave the edition — 2026-11-14
+
+The edition supports eighteen armies and the rulebook, not thirty. Albion,
+Amazons, Araby, Estalia, Halflings, Hobgoblins, Kingdoms of Ind, Kislev,
+Nippon, Norsca, Pirates of Sartosa and Zombie Pirates leave the books, the
+site and the export, so `build/war/` writes the factions of 18 armies, not
+30. Each lives on as a draft PR that restores it.
+
+`--out` overwrites only the files the export writes, so a release copy
+leaves the twelve armies' faction files in the builder's data folder, to
+delete by hand. None of the twelve is in the builder's `FactionKey`, so the
+builder never loaded them.
+
+Removed:
+
+- The twelve books, `src/{slug}.typ`, with their covers,
+  `assets/covers/{slug}.png`, and Estalia's two figures,
+  `assets/figures/estalia/`.
+- Their entries in `assets/cover-art.md`, `assets/cover-gallery.html` and
+  `assets/cover-art-prompts.json`, and their cards on the site.
+- Their factions in the export: `factions/{key}.json` and
+  `factions/{key}-extras.json` for each, and their keys in `manifest.json`.
+
 ## The army builder's per-army files — 2026-10-01
 
 The export writes what the army builder reads: a game system as a folder of
