@@ -962,7 +962,7 @@ choose another victim. Roll again on this table to see what the Troll Hag does w
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Great weapon +15 points
+  - Great weapon +19 points
 - May take Magic Items up to a total of 50 points
   ],
 )

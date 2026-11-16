@@ -536,7 +536,7 @@ At least one of them must choose their spells from the Lore of the Great Maw.
 - May take an additional Wizard Level +35 points
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Great weapon +15 points
+  - Great weapon +11 points
 - May take a gut-plate +5 points
 - May take Magic Items up to a total of 50 points
   ],
@@ -578,12 +578,12 @@ At least one of them must choose their spells from the Lore of the Great Maw.
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Shield +5 points
-  - Great weapon +10 points
+  - Shield +3 points
+  - Great weapon +8 points
 - May choose one of the following:
   - Throwing weapons +3 points
   - Sling +5 points
-- May take light armour +3 points
+- May take light armour +2 points
 - May take Magic Items up to a total of 25 points
   ],
   notes: [

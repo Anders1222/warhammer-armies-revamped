@@ -619,10 +619,10 @@ In addition, a model with this special rule has the four Runes listed below. Unl
   - *Troll Brew:* The unit gains the Regeneration (6+) special rule.
   ],
   options: [
-- May take a great weapon +10 points
+- May take a great weapon +5 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
+  - Light armour +2 points
+  - Medium armour +6 points
 - May be mounted on a Beer Cart +25 points
 - May take Magic Items and/or Runic Items up to a total of 50 points
   ],
@@ -642,14 +642,14 @@ In addition, a model with this special rule has the four Runes listed below. Unl
 - *"Stand Back Sir!":* A model with this special rule that is within 3" of a war machine is allowed to take a "Look Out Sir!" roll just as if he was within 3" of a unit of five or more models of the same troop type as himself. If the roll is successful, the hit is resolved instead against the nearest friendly war machine.
   ],
   options: [
-- May take a great weapon +10 points
+- May take a great weapon +5 points
 - May choose any of the following:
   - Dwarfen pistol +5 points
   - Dwarfen brace of pistols +7 points
   - Dwarfen handgun +7 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
+  - Light armour +2 points
+  - Medium armour +6 points
 - May take Magic Items and/or Runic Items up to a total of 50 points
   ],
 )

@@ -753,7 +753,7 @@ This item can be used in addition to any other missile weapon the Master Enginee
   - Grenade launching blunderbuss +8 points
   - Hochland long rifle +15 points
 - May take pigeon bombs +15 points
-- May take light armour +3 points
+- May take light armour +2 points
 - May be mounted on a Mechanical Steed +20 points
 - May take Magic Items up to a total of 50 points
   ],

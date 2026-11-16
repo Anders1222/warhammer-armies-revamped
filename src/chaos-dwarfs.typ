@@ -492,8 +492,8 @@ this turn.")))
   - Fireglaive +9 points
 - May take Naptha Bombs +10 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
+  - Light armour +2 points
+  - Medium armour +6 points
 - May take Magic Items up to a total of 50 points
   ],
 )
@@ -511,9 +511,9 @@ this turn.")))
   - Additional hand weapon +4 points
   - Great weapon +12 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-- May take a shield +5 points
+  - Light armour +12 points
+  - Medium armour +28 points
+- May take a shield +7 points
 - May take Magic Items up to a total of 50 points
   ],
   notes: [
@@ -532,12 +532,12 @@ this turn.")))
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Light lance +5 points
+  - Light lance +4 points
 - May take a shortbow +4 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-- May take a shield +5 points
+  - Light armour +2 points
+  - Medium armour +6 points
+- May take a shield +3 points
 - May be mounted on a Giant Wolf +15 points
 - May take Magic Items up to a total of 25 points
   ],

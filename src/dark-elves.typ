@@ -515,8 +515,8 @@ Lifetaker ignores all To Hit modifiers.
 - May choose one of the following:
   - Additional hand weapon +5 points
   - Repeater handbow +5 points
-- May take light armour +3 points
-- May take a Sea Dragon Cloak +3 points
+- May take light armour +2 points
+- May take a Sea Dragon Cloak +2 points
 - May take Magic Items up to a total of 50 points
   ],
 )
@@ -536,9 +536,9 @@ Lifetaker ignores all To Hit modifiers.
 - May choose one of the following:
   - Spear free
   - Additional hand weapon +5 points
-  - Light lance +5 points
-- May take light armour +3 points
-- May take a Sea Dragon Cloak +3 points
+  - Light lance +3 points
+- May take light armour +2 points
+- May take a Sea Dragon Cloak +2 points
 - May be mounted on one of the following:
   - Scourgerunner Chariot (replacing one of the crew) +50 points
   - Manticore +150 points
@@ -564,8 +564,8 @@ Lifetaker ignores all To Hit modifiers.
   options: [
 - May take an additional hand weapon +5 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
+  - Light armour +2 points
+  - Medium armour +6 points
 - May take Magic Items and/or Gifts of Khaine up to a total of 50 points
   ],
 )
@@ -583,7 +583,7 @@ Lifetaker ignores all To Hit modifiers.
 - May choose one of the following:
   - Repeater handbow +5 points
   - Throwing weapons +5 points
-- May take light armour +3 points
+- May take light armour +2 points
 - May take Magic Items and/or Gifts of Khaine up to a total of 50 points
   ],
 )
@@ -604,9 +604,9 @@ Lifetaker ignores all To Hit modifiers.
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Buckler +5 points
+  - Buckler +3 points
   - Polearm +10 points
-- May take light armour +3 points
+- May take light armour +2 points
 - May take Magic Items up to a total of 50 points
   ],
   notes: [
@@ -633,8 +633,8 @@ Lifetaker ignores all To Hit modifiers.
   ),
   options: [
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
+  - Light armour +6 points
+  - Medium armour +15 points
 - May take Magic Items and/or Gifts of Khaine up to a total of 50 points
   ],
   notes: [

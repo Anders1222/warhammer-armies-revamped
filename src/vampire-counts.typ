@@ -876,8 +876,8 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
   - Heavy lance +8 points
   - Great weapon +8 points
 - May choose one of the following:
-  - Medium armour +7 points
-  - Heavy armour +14 points
+  - Medium armour +9 points
+  - Heavy armour +18 points
 - May take a shield +4 points
 - May be mounted on one of the following:
   - Skeletal Steed +12 points
@@ -905,7 +905,7 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
   options: [
 - May choose one of the following:
   - Additional hand weapon +2 points
-  - Great weapon +4 points
+  - Great weapon +3 points
 - May be mounted on a Skeletal Steed +12 points
 - May take Magic Items up to a total of 50 points
   ],
@@ -936,14 +936,14 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Polearm +10 points
-  - Great weapon +15 points
+  - Polearm +8 points
+  - Great weapon +11 points
 - May take a pistol +5 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-  - Heavy armour +18 points
-- May take a shield +2 points
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
+- May take a shield +1 points
 - May take Magic Items up to a total of 50 points
   ],
   notes: [
@@ -962,8 +962,8 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Polearm +10 points
-  - Great weapon +15 points
+  - Polearm +8 points
+  - Great weapon +11 points
 - One Crypt Ghast may carry the Battle Standard +25 points
 - May take Magic Items up to a total of 50 points
   ],

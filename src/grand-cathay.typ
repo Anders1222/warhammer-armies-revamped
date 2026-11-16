@@ -659,10 +659,10 @@ When transforming, they become a Monster (Draconid) with the Dragon Form profile
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Celestial blade +5 points
-  - Spear +5 points
-  - Polearm +10 points
-  - Great weapon +15 points
+  - Celestial blade +4 points
+  - Spear +4 points
+  - Polearm +8 points
+  - Great weapon +11 points
 - May take light armour +2 points
 - May take Magic Items up to a total of 50 points
   ],

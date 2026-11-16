@@ -532,7 +532,7 @@ Strength 5 hits.")))
   special-rules: "Aquatic, Cold-blooded, Predatory Fighter, Natural Armour (3+)",
   options: [
 - May replace great weapons with war gauntlets free
-- May take light armour +16 points
+- May take light armour +20 points
 - May take Blessed Spawnings and/or Magic Items up to a total of 50 points
   ],
   notes: [

@@ -894,9 +894,9 @@ A Sorcerer with a mark of chaos can choose:
   - Mark of Nurgle +20 points
   - Mark of Tzeentch +20 points
 - May choose one of the following:
-  - Light armour +6 points
-  - Medium armour +12 points
-  - Heavy armour +20 points
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
 - May be mounted on one of the following:
   - Warsteed +20 points
   - Steed of Slaanesh (Mark of Slaanesh only) +45 points
@@ -924,19 +924,19 @@ A Sorcerer with a mark of chaos can choose:
   - Mark of Tzeentch +20 points
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Spear +5 points
-  - Light lance +5 points
-  - Flail +10 points
-  - Polearm +10 points
-  - Great weapon +15 points
+  - Spear +4 points
+  - Light lance +4 points
+  - Flail +8 points
+  - Polearm +8 points
+  - Great weapon +11 points
 - May choose one of the following:
   - Shortbow +4 points
   - Throwing axes +4 points
   - Javelins +4 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-- May take a shield +5 points
+  - Light armour +2 points
+  - Medium armour +6 points
+- May take a shield +3 points
 - May be mounted on one of the following:
   - Warhorse +15 points
   - Marauder Chariot (replacing one of the crew) +70 points

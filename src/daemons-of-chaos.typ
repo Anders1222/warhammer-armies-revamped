@@ -748,8 +748,8 @@ A Daemon Prince who is a Daemon of Tzeentch, Nurgle or Slaanesh must use the Lor
   - Level 1 Wizard +35 points
   - Level 2 Wizard +70 points
 - May choose one of the following:
-  - Light armour +5 points
-  - Medium armour +15 points
+  - Light armour +4 points
+  - Medium armour +12 points
 - May have the Fly (8) special rule +25 points
 - May be upgraded to one of the following:
   - Daemon of Slaanesh +5 points
@@ -773,8 +773,8 @@ A Daemon Prince who is a Daemon of Tzeentch, Nurgle or Slaanesh must use the Lor
   equipment: "Hand weapon",
   special-rules: "Daemon of Khorne, Killing Blow, Natural Armour (6+)",
   options: [
-- May take a great weapon +5 points
-- May take light armour +3 points
+- May take a great weapon +4 points
+- May take light armour +4 points
 - May be mounted on one of the following:
   - Juggernaut +50 points
   - Blood Throne +150 points

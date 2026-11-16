@@ -593,7 +593,7 @@ The bearer gains the Natural Armour (6+) special rule against missile attacks.
     rule("Quicksilver Shot")[A Handmaiden and any unit of Sistern of Avelorn that they join gain the Quick Shot special rule, and can move and shoot without losing Multiple Shots.],
   ),
   options: [
-- May take light armour +3 points
+- May take light armour +2 points
 - One Handmaiden may carry the Battle Standard +25 points
 - May take Magic Items up to a total of 50 points
   ],

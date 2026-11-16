@@ -632,8 +632,8 @@ A Bray-Shaman or Great Bray-Shaman with the Mark of Tzeentch, Nurgle or Slaanesh
   - Throwing axes +2 points
 - May choose one of the following:
   - Light armour +3 points
-  - Medium armour +9 points
-- May take a shield +5 points
+  - Medium armour +4 points
+- May take a shield +3 points
 - May have the Ambushers special rule +5 points
 - May choose one of the following:
   - Mark of Khorne +15 points
@@ -658,12 +658,12 @@ A Bray-Shaman or Great Bray-Shaman with the Mark of Tzeentch, Nurgle or Slaanesh
   options: [
 - May choose one of the following:
   - Additional hand weapon +2 points
-  - Spear +2 points
+  - Spear +1 points
 - May choose one of the following:
   - Shortbow +3 points
   - Javelins +4 points
 - May take light armour +2 points
-- May take a shield +2 points
+- May take a shield +1 points
 - May take Mutations & Traits and/or Magic Items up to a total of 25 points
   ],
   notes: [
