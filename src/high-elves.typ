@@ -326,13 +326,12 @@ The bearer gains the Natural Armour (6+) special rule against missile attacks.
 #magic-standard("BANNER OF CONFIDENCE", 5)[The unit carrying this standard does not suffer \-1 To Hit when using Stand & Shoot as a charge reaction.]
 ]
 
-= CHARACTERS
+= LORDS
 
-#unit("COMMANDERS",
+#unit("PRINCE",
   first: true,
   profiles: (
     (name: "Prince", m: 5, ws: 7, bs: 7, s: 4, t: 3, w: 3, i: 8, a: 4, ld: 10, points: 125),
-    (name: "Noble", m: 5, ws: 6, bs: 6, s: 4, t: 3, w: 2, i: 7, a: 3, ld: 9, points: 55),
   ),
   troop-type: "Infantry (Character, High Elf)",
   base-size: "20x20 or 25x25",
@@ -359,26 +358,20 @@ The bearer gains the Natural Armour (6+) special rule against missile attacks.
   - Pegasus +25 points
   - Great Eagle +40 points
   - Tiranoc Chariot (replacing one of the crew) +70 points
-  - Griffon (Prince only) +125 points
-  - Moon Dragon (Prince only) +300 points
-- One Noble may carry the Battle Standard +25 points
-- A Noble may take one Elven Honour and Magic Items up to a total of 50 points
-- A Prince may take one Elven Honour and Magic Items up to a total of 100 points
-  ],
-  notes: [
-- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  - Griffon +125 points
+  - Moon Dragon +300 points
+- May take one Elven Honour and Magic Items up to a total of 100 points
   ],
 )
 
-#unit("MAGES",
+#unit("ARCH MAGE",
   profiles: (
     (name: "Arch Mage", m: 5, ws: 5, bs: 4, s: 3, t: 3, w: 3, i: 6, a: 2, ld: 9, points: 195),
-    (name: "Mage", m: 5, ws: 4, bs: 4, s: 3, t: 3, w: 2, i: 5, a: 1, ld: 8, points: 85),
   ),
   troop-type: "Infantry (Character, High Elf)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "A Mage is a Level 1 Wizard. An Arch Mage is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic: "An Arch Mage is a Level 3 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
 - Beasts
 - Death
@@ -399,9 +392,8 @@ The bearer gains the Natural Armour (6+) special rule against missile attacks.
   - Unicorn +25 points
   - Great Eagle +40 points
   - Tiranoc Chariot (replacing one of the crew) +70 points
-  - Moon Dragon (Arch Mage only) +300 points
-- A Mage may take Magic Items up to a total of 50 points
-- An Arch Mage may take Magic Items up to a total of 100 points
+  - Moon Dragon +300 points
+- May take Magic Items up to a total of 100 points
   ],
 )
 
@@ -453,9 +445,100 @@ The bearer gains the Natural Armour (6+) special rule against missile attacks.
   ],
 )
 
-#unit("PRIESTS OF MATHLANN",
+#unit("STORM WEAVER",
   profiles: (
     (name: "Storm Weaver", m: 5, ws: 5, bs: 4, s: 3, t: 3, w: 3, i: 6, a: 2, ld: 9, points: 120),
+  ),
+  troop-type: "Infantry (Character, High Elf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Elven Grace, Magic Resistance (1), Martial Prowess, Valour of Ages",
+  special-rules-body: [
+- *Eye of the Storm:* The model may re-roll failed Leadership tests for their Prayers as long as they are not engaged in close combat.
+- *Prayers of Mathlann:* A model with this special rule knows the three Prayers listed below. Unless fleeing, they may attempt to use one at the start of each of your turns by taking a Leadership test on their own unmodified Leadership. If passed, the prayer is answered and takes immediate effect. A friendly unit can only be under the effect of one Prayer at a time.
+  - *Armour of Mathlann:* The model and any unit they are with gain the Magical Ward (6+) special rule until the start of your next turn.
+  - *Mistress of the Deep:* Until the start of your next turn, any enemy unit attempting to charge the model or any unit they are with must pass a Leadership test with a \-2 modifier, otherwise the charge will automatically fail.
+  - *The Writhing Mists:* All missile attacks targeting the model or any unit they are with suffer a \-1 To Hit penalty until the start of your next turn.
+  ],
+  options: [
+- May take Magic Items up to a total of 100 points
+  ],
+)
+
+= HEROES
+
+#unit("NOBLE",
+  first: true,
+  profiles: (
+    (name: "Noble", m: 5, ws: 6, bs: 6, s: 4, t: 3, w: 2, i: 7, a: 3, ld: 9, points: 55),
+  ),
+  troop-type: "Infantry (Character, High Elf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Elven Grace, Martial Prowess, Valour of Ages",
+  options: [
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Spear +4 points
+  - Light lance +4 points
+  - Heavy lance +8 points
+  - Polearm +8 points
+  - Great weapon +11 points
+- May choose one of the following:
+  - Elven shortbow +6 points
+  - Elven longbow +7 points
+- May choose one of the following:
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
+- May take a shield +5 points
+- May be mounted on one of the following:
+  - Elven Steed +15 points
+  - Pegasus +25 points
+  - Great Eagle +40 points
+  - Tiranoc Chariot (replacing one of the crew) +70 points
+- One Noble may carry the Battle Standard +25 points
+- May take one Elven Honour and Magic Items up to a total of 50 points
+  ],
+  notes: [
+- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  ],
+)
+
+#unit("MAGE",
+  profiles: (
+    (name: "Mage", m: 5, ws: 4, bs: 4, s: 3, t: 3, w: 2, i: 5, a: 1, ld: 8, points: 85),
+  ),
+  troop-type: "Infantry (Character, High Elf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "A Mage is a Level 1 Wizard. They use one of the following Lores of Magic:",
+  magic-body: [
+- Beasts
+- Death
+- Heavens
+- High
+- Fire
+- Light
+- Life
+- Metal
+- Shadow
+  ],
+  special-rules: "Elven Grace, Lileath's Blessing, Martial Prowess, Valour of Ages",
+  options: [
+- May take an additional Wizard Level +35 points
+- May take light armour +2 points
+- May be mounted on one of the following:
+  - Elven Steed +15 points
+  - Unicorn +25 points
+  - Great Eagle +40 points
+  - Tiranoc Chariot (replacing one of the crew) +70 points
+- May take Magic Items up to a total of 50 points
+  ],
+)
+
+#unit("MIST WEAVER",
+  profiles: (
     (name: "Mist Weaver", m: 5, ws: 4, bs: 4, s: 3, t: 3, w: 2, i: 5, a: 1, ld: 8, points: 75),
   ),
   troop-type: "Infantry (Character, High Elf)",
@@ -470,8 +553,7 @@ The bearer gains the Natural Armour (6+) special rule against missile attacks.
   - *The Writhing Mists:* All missile attacks targeting the model or any unit they are with suffer a \-1 To Hit penalty until the start of your next turn.
   ],
   options: [
-- A Mist Weaver may take Magic Items up to a total of 50 points
-- A Storm Weaver may take Magic Items up to a total of 100 points
+- May take Magic Items up to a total of 50 points
   ],
 )
 
@@ -511,7 +593,7 @@ The bearer gains the Natural Armour (6+) special rule against missile attacks.
     rule("Quicksilver Shot")[A Handmaiden and any unit of Sistern of Avelorn that they join gain the Quick Shot special rule, and can move and shoot without losing Multiple Shots.],
   ),
   options: [
-- May take light armour +3 points
+- May take light armour +2 points
 - One Handmaiden may carry the Battle Standard +25 points
 - May take Magic Items up to a total of 50 points
   ],

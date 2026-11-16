@@ -297,7 +297,7 @@ Strength 5 hits.")))
 #magic-standard("SIGN OF SOTEK", 20, only: "Skinks")[The unit carrying this standard may re-roll failed rolls To Wound on any turn it charges.]
 ]
 
-= CHARACTERS
+= LORDS
 
 #unit("SLANN MAGE-PRIEST",
   first: true,
@@ -341,10 +341,9 @@ Strength 5 hits.")))
   ),
 )
 
-#unit("SAURUS LEADERS",
+#unit("OLDBLOOD",
   profiles: (
     (name: "Oldblood", m: 4, ws: 6, bs: 0, s: 5, t: 5, w: 3, i: 3, a: 5, ld: 8, points: 140),
-    (name: "Scar-Veteran", m: 4, ws: 5, bs: 0, s: 5, t: 5, w: 2, i: 3, a: 4, ld: 8, points: 90),
   ),
   troop-type: "Infantry (Character, Lizardman, Saurus)",
   base-size: "25x25 or 30x30",
@@ -363,21 +362,14 @@ Strength 5 hits.")))
   - Cold One +25 points
   - Horned One +30 points
   - Aggradon +65 points
-  - Carnosaur (Oldblood only) +175 points
+  - Carnosaur +175 points
 - May take Blessed Spawnings and/or Magic Items up to a total of 100 points
-- One Scar-Veteran may carry the Battle Standard +25 points
-- A Scar-Veteran may take Blessed Spawnings and/or Magic Items up to a total of 50 points
-- An Oldblood may take Blessed Spawnings and/or Magic Items up to a total of 100 points
-  ],
-  notes: [
-- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
   ],
 )
 
-#unit("SKINK CHIEFS",
+#unit("SKINK HIGH CHIEF",
   profiles: (
     (name: "High Chief", m: 6, ws: 5, bs: 6, s: 4, t: 3, w: 3, i: 7, a: 4, ld: 7, points: 70),
-    (name: "Chief", m: 6, ws: 4, bs: 5, s: 4, t: 3, w: 2, i: 6, a: 3, ld: 6, points: 35),
   ),
   troop-type: "Infantry (Character, Lizardman, Skink)",
   base-size: "20x20 or 25x25",
@@ -401,24 +393,22 @@ Strength 5 hits.")))
   - Horned One +30 points
   - Terradon +35 points
   - Ripperdactyl +40 points
-  - Stegadon (High Chief only, replacing one of the crew) +190 points
-- A Chief may take Blessed Spawnings and/or Magic Items up to a total of 50 points
-- A High Chief may take Blessed Spawnings and/or Magic Items up to a total of 100 points
+  - Stegadon (replacing one of the crew) +190 points
+- May take Blessed Spawnings and/or Magic Items up to a total of 100 points
   ],
   notes: [
 - A Skink High Chief mounted on a Stegadon loses their Natural Armour special rule.
   ],
 )
 
-#unit("SKINK PRIESTS",
+#unit("SKINK HIGH PRIEST",
   profiles: (
     (name: "High Priest", m: 6, ws: 3, bs: 3, s: 3, t: 2, w: 3, i: 5, a: 2, ld: 6, points: 165),
-    (name: "Priest", m: 6, ws: 2, bs: 3, s: 3, t: 2, w: 2, i: 4, a: 1, ld: 5, points: 60),
   ),
   troop-type: "Infantry (Character, Lizardman, Skink)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "A Priest is a Level 1 Wizard. A High Priest is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic: "A High Priest is a Level 3 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
 - Beasts
 - Heavens
@@ -431,17 +421,104 @@ Strength 5 hits.")))
     rule("Arcane Vassal")[A Slann Mage-Priest can choose to cast any magical missile or direct damage spell through a model with this special rule within 24". If they do so, measure the spell's range from the Arcane Vassal and use that model's forward arc and line of sight for the purposes of casting the spell. If using an Arcane Vassal, a Slann Mage-Priest can cast magic missiles, even if their own unit is engaged in close combat (provided that the Arcane Vassal's is not). If a spell cast through an Arcane Vassal is miscast, the result of the miscast is applied to the Slann Mage-Priest, but the Arcane Vassal suffers a Strength 3 hit.],
   ),
   options: [
-- A Skink Priest may be upgraded to Level 2 Wizard +35 points
 - May be mounted on one of the following:
   - Terradon +35 points
-  - Troglodon (High Priest only, replacing the Skink Oracle) +150 points
-  - Stegadon with an Engine of the Gods (High Priest, replacing one of the crew) +240 points
-  - Coatl (High Priest only) +270 points
-- A Priest may take Blessed Spawnings and/or Magic Items up to a total of 50 points
-- A High Priest may take Blessed Spawnings and/or Magic Items up to a total of 100 points
+  - Troglodon (replacing the Skink Oracle) +150 points
+  - Stegadon with an Engine of the Gods (replacing one of the crew) +240 points
+  - Coatl +270 points
+- May take Blessed Spawnings and/or Magic Items up to a total of 100 points
   ],
   notes: [
 - A Skink High Priest mounted on a Stegadon loses their Natural Armour special rule.
+  ],
+)
+
+= HEROES
+
+#unit("SCAR-VETERAN",
+  first: true,
+  profiles: (
+    (name: "Scar-Veteran", m: 4, ws: 5, bs: 0, s: 5, t: 5, w: 2, i: 3, a: 4, ld: 8, points: 90),
+  ),
+  troop-type: "Infantry (Character, Lizardman, Saurus)",
+  base-size: "25x25 or 30x30",
+  equipment: "Hand weapon",
+  special-rules: "Cold-blooded, Predatory Fighter, Natural Armour (5+)",
+  options: [
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Spear +4 points
+  - Light lance +4 points
+  - Polearm +8 points
+  - Great weapon +8 points
+- May take a shield +5 points
+- May take light armour +6 points
+- May be mounted on one of the following:
+  - Cold One +25 points
+  - Horned One +30 points
+  - Aggradon +65 points
+- One Scar-Veteran may carry the Battle Standard +25 points
+- May take Blessed Spawnings and/or Magic Items up to a total of 50 points
+  ],
+  notes: [
+- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  ],
+)
+
+#unit("SKINK CHIEF",
+  profiles: (
+    (name: "Chief", m: 6, ws: 4, bs: 5, s: 4, t: 3, w: 2, i: 6, a: 3, ld: 6, points: 35),
+  ),
+  troop-type: "Infantry (Character, Lizardman, Skink)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Aquatic, Cold-blooded, Natural Armour (6+)",
+  options: [
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Spear +4 points
+  - Light lance +4 points
+- May choose one of the following:
+  - Blowpipe +4 points
+  - Shortbow +4 points
+  - Sling +4 points
+  - Javelins +5 points
+- May take a shield +5 points
+- May take light armour +4 points
+- May take Firefly Frog Venom +5 points
+- May be mounted on one of the following:
+  - Raptadon +25 points
+  - Horned One +30 points
+  - Terradon +35 points
+  - Ripperdactyl +40 points
+- May take Blessed Spawnings and/or Magic Items up to a total of 50 points
+  ],
+)
+
+#unit("SKINK PRIEST",
+  profiles: (
+    (name: "Priest", m: 6, ws: 2, bs: 3, s: 3, t: 2, w: 2, i: 4, a: 1, ld: 5, points: 60),
+  ),
+  troop-type: "Infantry (Character, Lizardman, Skink)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "A Priest is a Level 1 Wizard. They use one of the following Lores of Magic:",
+  magic-body: [
+- Beasts
+- Heavens
+- Fire
+- Life
+- Light
+  ],
+  special-rules: "Aquatic, Cold-blooded, Natural Armour (6+)",
+  special-rules-body: (
+    rule("Arcane Vassal")[A Slann Mage-Priest can choose to cast any magical missile or direct damage spell through a model with this special rule within 24". If they do so, measure the spell's range from the Arcane Vassal and use that model's forward arc and line of sight for the purposes of casting the spell. If using an Arcane Vassal, a Slann Mage-Priest can cast magic missiles, even if their own unit is engaged in close combat (provided that the Arcane Vassal's is not). If a spell cast through an Arcane Vassal is miscast, the result of the miscast is applied to the Slann Mage-Priest, but the Arcane Vassal suffers a Strength 3 hit.],
+  ),
+  options: [
+- May be upgraded to Level 2 Wizard +35 points
+- May be mounted on one of the following:
+  - Terradon +35 points
+- May take Blessed Spawnings and/or Magic Items up to a total of 50 points
   ],
 )
 
@@ -455,7 +532,7 @@ Strength 5 hits.")))
   special-rules: "Aquatic, Cold-blooded, Predatory Fighter, Natural Armour (3+)",
   options: [
 - May replace great weapons with war gauntlets free
-- May take light armour +16 points
+- May take light armour +20 points
 - May take Blessed Spawnings and/or Magic Items up to a total of 50 points
   ],
   notes: [

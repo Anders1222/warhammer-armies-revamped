@@ -102,7 +102,7 @@ A choice:
 | `perModel` | `true` for "/model" and "per model" |
 | `per` | what the price is per when it is not the model: "Crew", "Gnoblar" |
 | `raw` | the printed line, exactly |
-| `appliesTo` | a profile id from a bracketed restriction on the choice itself: "Griffon (General only)" |
+| `appliesTo` | a profile id from a bracketed restriction on the choice itself: "May take Cleansing Flames (Flamespyre Phoenix only)" |
 | `condition` | a bracketed qualifier on the choice that names no profile |
 | `replaces` | what the choice replaces, from "May replace X with Y" |
 | `min`, `max` | for `select: "count"`, how many times the choice may be taken |
@@ -144,7 +144,7 @@ Group ids are derived from what the group is, not from the head line, since
 it offers; a single gear line is the gear (`shield`, `barding`); a command
 group is its role (`champion`, `musician`, `standard-bearer`); a magic-item
 allowance is `magic-items`, suffixed with the profile it applies to
-(`magic-items-captain`); a faction upgrade is its family; a special rule is
+where a line names one; a faction upgrade is its family; a special rule is
 the rule. A collision within the unit gets a numeric suffix (`equipment-2`).
 
 ## IDs
@@ -175,11 +175,13 @@ the gate holds to the page like any other text.
 ```json
 {
   "pointsCategories": {
-    "characters": { "maxPercent": 0.35 },
     "core": { "minPercent": 0.25, "maxPercent": null,
               "expendable": { "requiresOtherCore": 1 } },
     "special": { "maxPercent": 0.5 },
-    "rare": { "maxPercent": 0.25 }
+    "rare": { "maxPercent": 0.25 },
+    "lords": { "maxPercent": 0.25 },
+    "heroes": { "maxPercent": 0.35 },
+    "characters": { "maxPercent": 0.35 }
   },
   "singleUnitMaxPercent": 0.25,
   "general": { "required": true },
@@ -199,14 +201,17 @@ the gate holds to the page like any other text.
     "rare": { "bands": [ ... ], "beyond": { "everyPoints": 1000, "add": 1 } }
   },
   "sources": {
-    "pointsCategories.characters.maxPercent": "You can spend up to 35% of your points on Characters.",
+    "pointsCategories.lords.maxPercent": "You can spend up to 25% of your points on Lords and/or 35% on Heroes, but no more than 35% in total over both categories.",
+    "pointsCategories.heroes.maxPercent": "You can spend up to 25% of your points on Lords and/or 35% on Heroes, but no more than 35% in total over both categories.",
+    "pointsCategories.characters.maxPercent": "You can spend up to 25% of your points on Lords and/or 35% on Heroes, but no more than 35% in total over both categories.",
     "singleUnitMaxPercent": "No single character or unit in your army may cost more than 25% of your total points.",
     ...
   }
 }
 ```
 
-The rulebook has no lords/heroes split, so `lords` and `heroes` are absent.
+The rulebook's LORDS & HEROES sentence gives three caps: `lords` and
+`heroes` each, and `characters` for the two together.
 The duplicate limit is the chapter's chart, a band per points bracket with a
 rule for growth past the last band, since it is not a straight line (Rare
 stays at 1 up to 2,999 points).
@@ -338,17 +343,17 @@ The Empire's Halberdiers, complete. `options` is the formatVersion 1 view;
 
 ## Worked example: a character unit
 
-The Empire's Commanders: two profiles, so the lines that restrict themselves
-to one of them carry `appliesTo`. The formatVersion 1 `options` tree is the
-same nine lines as printed and is elided here after its first entry.
+The Empire's Captain, under HEROES: one priced profile, as every generic
+character has, so only the Battle Standard line, which names the Captain,
+carries `appliesTo`. The formatVersion 1 `options` tree is the same eight
+lines as printed and is elided here after its first entry.
 
 ```json
 {
- "name": "COMMANDERS",
- "chapter": "CHARACTERS",
- "category": "Characters",
+ "name": "CAPTAIN",
+ "chapter": "HEROES",
+ "category": "Heroes",
  "profiles": [
-  {"name": "General", "M": 4, "WS": 6, "BS": 5, "S": 4, "T": 4, "W": 3, "I": 6, "A": 4, "Ld": 9, "points": 95, "id": "general"},
   {"name": "Captain", "M": 4, "WS": 5, "BS": 5, "S": 4, "T": 4, "W": 2, "I": 5, "A": 3, "Ld": 8, "points": 55, "id": "captain"}
  ],
  "troopType": "Infantry (Character, Human)",
@@ -362,20 +367,20 @@ same nine lines as printed and is elided here after its first entry.
   {"raw": "May choose one of the following:", "text": "May choose one of the following:",
    "sub": [
     {"raw": "Additional hand weapon +5 points", "text": "Additional hand weapon", "cost": 5, "perModel": false},
-    {"raw": "Spear +5 points", "text": "Spear", "cost": 5, "perModel": false},
-    {"raw": "Light lance +5 points", "text": "Light lance", "cost": 5, "perModel": false},
-    {"raw": "Heavy lance +10 points", "text": "Heavy lance", "cost": 10, "perModel": false},
-    {"raw": "Polearm +10 points", "text": "Polearm", "cost": 10, "perModel": false},
-    {"raw": "Great weapon +15 points", "text": "Great weapon", "cost": 15, "perModel": false}
+    {"raw": "Spear +4 points", "text": "Spear", "cost": 4, "perModel": false},
+    {"raw": "Light lance +4 points", "text": "Light lance", "cost": 4, "perModel": false},
+    {"raw": "Heavy lance +8 points", "text": "Heavy lance", "cost": 8, "perModel": false},
+    {"raw": "Polearm +8 points", "text": "Polearm", "cost": 8, "perModel": false},
+    {"raw": "Great weapon +11 points", "text": "Great weapon", "cost": 11, "perModel": false}
    ]},
-  "... eight more lines, unchanged from formatVersion 1 ..."
+  "... seven more lines, unchanged from formatVersion 1 ..."
  ],
  "notes": [
   "The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have."
  ],
- "id": "commanders",
+ "id": "captain",
  "section": "characters",
- "tier": null,
+ "tier": "hero",
  "named": false,
  "equipmentList": ["Hand weapon"],
  "optionGroups": [
@@ -384,11 +389,11 @@ same nine lines as printed and is elided here after its first entry.
    "raw": "May choose one of the following:",
    "choices": [
     {"id": "additional-hand-weapon", "name": "Additional hand weapon", "points": 5, "perModel": false, "raw": "Additional hand weapon +5 points"},
-    {"id": "spear", "name": "Spear", "points": 5, "perModel": false, "raw": "Spear +5 points"},
-    {"id": "light-lance", "name": "Light lance", "points": 5, "perModel": false, "raw": "Light lance +5 points"},
-    {"id": "heavy-lance", "name": "Heavy lance", "points": 10, "perModel": false, "raw": "Heavy lance +10 points"},
-    {"id": "polearm", "name": "Polearm", "points": 10, "perModel": false, "raw": "Polearm +10 points"},
-    {"id": "great-weapon", "name": "Great weapon", "points": 15, "perModel": false, "raw": "Great weapon +15 points"}
+    {"id": "spear", "name": "Spear", "points": 4, "perModel": false, "raw": "Spear +4 points"},
+    {"id": "light-lance", "name": "Light lance", "points": 4, "perModel": false, "raw": "Light lance +4 points"},
+    {"id": "heavy-lance", "name": "Heavy lance", "points": 8, "perModel": false, "raw": "Heavy lance +8 points"},
+    {"id": "polearm", "name": "Polearm", "points": 8, "perModel": false, "raw": "Polearm +8 points"},
+    {"id": "great-weapon", "name": "Great weapon", "points": 11, "perModel": false, "raw": "Great weapon +11 points"}
    ]
   },
   {
@@ -407,9 +412,9 @@ same nine lines as printed and is elided here after its first entry.
    "id": "armour", "kind": "equipment", "select": "one", "min": 0, "max": 1, "appliesTo": null,
    "raw": "May choose one of the following:",
    "choices": [
-    {"id": "light-armour", "name": "Light armour", "points": 3, "perModel": false, "raw": "Light armour +3 points"},
-    {"id": "medium-armour", "name": "Medium armour", "points": 9, "perModel": false, "raw": "Medium armour +9 points"},
-    {"id": "heavy-armour", "name": "Heavy armour", "points": 18, "perModel": false, "raw": "Heavy armour +18 points"}
+    {"id": "light-armour", "name": "Light armour", "points": 2, "perModel": false, "raw": "Light armour +2 points"},
+    {"id": "medium-armour", "name": "Medium armour", "points": 6, "perModel": false, "raw": "Medium armour +6 points"},
+    {"id": "heavy-armour", "name": "Heavy armour", "points": 12, "perModel": false, "raw": "Heavy armour +12 points"}
    ]
   },
   {
@@ -419,21 +424,17 @@ same nine lines as printed and is elided here after its first entry.
   },
   {
    "id": "full-plate", "kind": "specialRule", "select": "any", "min": 0, "max": 1, "appliesTo": null,
-   "raw": "May be upgraded with the Full Plate special rule for +12 points.",
+   "raw": "May be upgraded with the Full Plate special rule for +8 points.",
    "rule": "Full Plate",
-   "choices": [{"id": "full-plate", "name": "Full Plate", "points": 12, "perModel": false,
-                "raw": "May be upgraded with the Full Plate special rule for +12 points.", "rule": "Full Plate"}]
+   "choices": [{"id": "full-plate", "name": "Full Plate", "points": 8, "perModel": false,
+                "raw": "May be upgraded with the Full Plate special rule for +8 points.", "rule": "Full Plate"}]
   },
   {
    "id": "mount", "kind": "mount", "select": "one", "min": 0, "max": 1, "appliesTo": null,
    "raw": "May be mounted on one of the following:",
    "choices": [
     {"id": "warhorse", "name": "Warhorse", "points": 15, "perModel": false, "raw": "Warhorse +15 points", "unitId": "warhorse"},
-    {"id": "pegasus", "name": "Pegasus", "points": 25, "perModel": false, "raw": "Pegasus +25 points", "unitId": "pegasus"},
-    {"id": "griffon", "name": "Griffon", "points": 125, "perModel": false, "raw": "Griffon (General only) +125 points",
-     "appliesTo": "general", "unitId": "griffon"},
-    {"id": "imperial-griffon", "name": "Imperial Griffon", "points": 175, "perModel": false, "raw": "Imperial Griffon (General only) +175 points",
-     "appliesTo": "general", "unitId": "imperial-griffon"}
+    {"id": "pegasus", "name": "Pegasus", "points": 25, "perModel": false, "raw": "Pegasus +25 points", "unitId": "pegasus"}
    ]
   },
   {
@@ -444,18 +445,11 @@ same nine lines as printed and is elided here after its first entry.
                 "raw": "One Captain may carry the Battle Standard +25 points"}]
   },
   {
-   "id": "magic-items-captain", "kind": "magicItems", "select": "any", "min": 0, "max": 1, "appliesTo": "captain",
-   "raw": "A Captain may take Magic Items up to a total of 50 points",
+   "id": "magic-items", "kind": "magicItems", "select": "any", "min": 0, "max": 1, "appliesTo": null,
+   "raw": "May take Magic Items up to a total of 50 points",
    "pointsLimit": 50, "itemTypes": null,
    "choices": [{"id": "magic-items", "name": "Magic Items", "points": null, "perModel": false,
-                "raw": "A Captain may take Magic Items up to a total of 50 points"}]
-  },
-  {
-   "id": "magic-items-general", "kind": "magicItems", "select": "any", "min": 0, "max": 1, "appliesTo": "general",
-   "raw": "A General may take Magic Items up to a total of 100 points",
-   "pointsLimit": 100, "itemTypes": null,
-   "choices": [{"id": "magic-items", "name": "Magic Items", "points": null, "perModel": false,
-                "raw": "A General may take Magic Items up to a total of 100 points"}]
+                "raw": "May take Magic Items up to a total of 50 points"}]
   }
  ]
 }

@@ -320,13 +320,12 @@ Lifetaker ignores all To Hit modifiers.
 #magic-standard("THE BLOOD BANNER", 25, only: "Cold One Knights")[The unit carrying this banner are not subject to Stupidity caused by Cold Ones.]
 ]
 
-= CHARACTERS
+= LORDS
 
-#unit("COMMANDERS",
+#unit("DREADLORD",
   first: true,
   profiles: (
     (name: "Dreadlord", m: 5, ws: 7, bs: 7, s: 4, t: 3, w: 3, i: 8, a: 4, ld: 10, points: 125),
-    (name: "Dreadmaster", m: 5, ws: 6, bs: 6, s: 4, t: 3, w: 2, i: 7, a: 3, ld: 9, points: 55),
   ),
   troop-type: "Infantry (Character, Dark Elf)",
   base-size: "20x20 or 25x25",
@@ -352,26 +351,20 @@ Lifetaker ignores all To Hit modifiers.
   - Cold One +20 points
   - Dark Pegasus +25 points
   - Cold One Chariot (replacing one of the crew) +100 points
-  - Manticore (Dreadlord only) +150 points
-  - Black Dragon (Dreadlord only) +300 points
-- One Dreadmaster may carry the Battle Standard +25 points
-- A Dreadmaster may take Magic Items up to a total of 50 points
-- A Dreadlord may take Magic Items up to a total of 100 points
-  ],
-  notes: [
-- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  - Manticore +150 points
+  - Black Dragon +300 points
+- May take Magic Items up to a total of 100 points
   ],
 )
 
-#unit("SORCERESSES",
+#unit("SUPREME SORCERESS",
   profiles: (
     (name: "Supreme Sorceress", m: 5, ws: 5, bs: 4, s: 3, t: 3, w: 3, i: 6, a: 2, ld: 9, points: 195),
-    (name: "Sorceress", m: 5, ws: 4, bs: 4, s: 3, t: 3, w: 2, i: 5, a: 1, ld: 8, points: 85),
   ),
   troop-type: "Infantry (Character, Dark Elf)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "A Sorceress is a Level 1 Wizard. A Supreme Sorceress is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic: "A Supreme Sorceress is a Level 3 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
 - Beasts
 - Dark
@@ -391,17 +384,15 @@ Lifetaker ignores all To Hit modifiers.
   - Dark Steed +15 points
   - Cold One +20 points
   - Dark Pegasus +25 points
-  - Manticore (Supreme Sorceress only) +150 points
-  - Black Dragon (Supreme Sorceress only) +300 points
-- A Sorceress may take Magic Items up to a total of 50 points
-- A Supreme Sorceress may take Magic Items up to a total of 100 points
+  - Manticore +150 points
+  - Black Dragon +300 points
+- May take Magic Items up to a total of 100 points
   ],
 )
 
-#unit("HAGS OF KHAINE",
+#unit("HAG QUEEN",
   profiles: (
     (name: "Hag Queen", m: 5, ws: 7, bs: 5, s: 4, t: 3, w: 3, i: 8, a: 4, ld: 10, points: 140),
-    (name: "Death Hag", m: 5, ws: 6, bs: 5, s: 4, t: 3, w: 2, i: 7, a: 3, ld: 9, points: 70),
   ),
   troop-type: "Infantry (Character, Dark Elf)",
   base-size: "20x20 or 25x25",
@@ -412,10 +403,96 @@ Lifetaker ignores all To Hit modifiers.
   - Additional hand weapon +5 points
   - Polearm +10 points
 - May take light armour +3 points
-- May be mounted on a Cauldron of Blood (Hag Queen only, replacing the Keeper of the Cauldron) +160 points
+- May be mounted on a Cauldron of Blood (replacing the Keeper of the Cauldron) +160 points
+- May take Magic Items and/or Gifts of Khaine up to a total of 100 points
+  ],
+)
+
+= HEROES
+
+#unit("DREADMASTER",
+  first: true,
+  profiles: (
+    (name: "Dreadmaster", m: 5, ws: 6, bs: 6, s: 4, t: 3, w: 2, i: 7, a: 3, ld: 9, points: 55),
+  ),
+  troop-type: "Infantry (Character, Dark Elf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Elven Grace, Hatred (High Elves), Murderous Prowess",
+  options: [
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Spear +4 points
+  - Light lance +4 points
+  - Heavy lance +8 points
+  - Polearm +8 points
+  - Great weapon +11 points
+- May take a Deathrain crossbow +7 points
+- May choose one of the following:
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
+- May take a shield +5 points
+- May take a Sea Dragon Cloak +2 points
+- May be mounted on one of the following:
+  - Dark Steed +15 points
+  - Cold One +20 points
+  - Dark Pegasus +25 points
+  - Cold One Chariot (replacing one of the crew) +100 points
+- One Dreadmaster may carry the Battle Standard +25 points
+- May take Magic Items up to a total of 50 points
+  ],
+  notes: [
+- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  ],
+)
+
+#unit("SORCERESS",
+  profiles: (
+    (name: "Sorceress", m: 5, ws: 4, bs: 4, s: 3, t: 3, w: 2, i: 5, a: 1, ld: 8, points: 85),
+  ),
+  troop-type: "Infantry (Character, Dark Elf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "A Sorceress is a Level 1 Wizard. They use one of the following Lores of Magic:",
+  magic-body: [
+- Beasts
+- Dark
+- Death
+- Heavens
+- Fire
+- Light
+- Life
+- Metal
+- Shadow
+  ],
+  special-rules: "Elven Grace, Hatred (High Elves), Hekarti's Blessing, Murderous Prowess",
+  options: [
+- May take an additional Wizard Level +35 points
+- May take light armour +2 points
+- May be mounted on one of the following:
+  - Dark Steed +15 points
+  - Cold One +20 points
+  - Dark Pegasus +25 points
+- May take Magic Items up to a total of 50 points
+  ],
+)
+
+#unit("DEATH HAG",
+  profiles: (
+    (name: "Death Hag", m: 5, ws: 6, bs: 5, s: 4, t: 3, w: 2, i: 7, a: 3, ld: 9, points: 70),
+  ),
+  troop-type: "Infantry (Character, Dark Elf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Elven Grace, Hatred (High Elves), Frenzy, Khainite, Murderous Prowess, Poisoned Attacks",
+  options: [
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Polearm +8 points
+- May take light armour +2 points
 - One Death Hag may carry the Battle Standard +25 points
-- A Death Hag may take Magic Items and/or Gifts of Khaine up to a total of 50 points
-- A Hag Queen may take Magic Items and/or Gifts of Khaine up to a total of 100 points
+- May take Magic Items and/or Gifts of Khaine up to a total of 50 points
   ],
   notes: [
 - The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
@@ -438,8 +515,8 @@ Lifetaker ignores all To Hit modifiers.
 - May choose one of the following:
   - Additional hand weapon +5 points
   - Repeater handbow +5 points
-- May take light armour +3 points
-- May take a Sea Dragon Cloak +3 points
+- May take light armour +2 points
+- May take a Sea Dragon Cloak +2 points
 - May take Magic Items up to a total of 50 points
   ],
 )
@@ -459,9 +536,9 @@ Lifetaker ignores all To Hit modifiers.
 - May choose one of the following:
   - Spear free
   - Additional hand weapon +5 points
-  - Light lance +5 points
-- May take light armour +3 points
-- May take a Sea Dragon Cloak +3 points
+  - Light lance +3 points
+- May take light armour +2 points
+- May take a Sea Dragon Cloak +2 points
 - May be mounted on one of the following:
   - Scourgerunner Chariot (replacing one of the crew) +50 points
   - Manticore +150 points
@@ -487,8 +564,8 @@ Lifetaker ignores all To Hit modifiers.
   options: [
 - May take an additional hand weapon +5 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
+  - Light armour +2 points
+  - Medium armour +6 points
 - May take Magic Items and/or Gifts of Khaine up to a total of 50 points
   ],
 )
@@ -506,7 +583,7 @@ Lifetaker ignores all To Hit modifiers.
 - May choose one of the following:
   - Repeater handbow +5 points
   - Throwing weapons +5 points
-- May take light armour +3 points
+- May take light armour +2 points
 - May take Magic Items and/or Gifts of Khaine up to a total of 50 points
   ],
 )
@@ -527,9 +604,9 @@ Lifetaker ignores all To Hit modifiers.
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Buckler +5 points
+  - Buckler +3 points
   - Polearm +10 points
-- May take light armour +3 points
+- May take light armour +2 points
 - May take Magic Items up to a total of 50 points
   ],
   notes: [
@@ -556,8 +633,8 @@ Lifetaker ignores all To Hit modifiers.
   ),
   options: [
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
+  - Light armour +6 points
+  - Medium armour +15 points
 - May take Magic Items and/or Gifts of Khaine up to a total of 50 points
   ],
   notes: [

@@ -392,13 +392,12 @@ Wolf Kin replace Flagellants for +3 points per model. They have Weapon Skill 4 a
 #magic-standard("BANNER OF MIDDENHEIM", 20)[The unit carrying this banner gains the Immunity (Terror) special rule.]
 ]
 
-= CHARACTERS
+= LORDS
 
-#unit("COMMANDERS",
+#unit("GENERAL",
   first: true,
   profiles: (
     (name: "General", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 95),
-    (name: "Captain", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 55),
   ),
   troop-type: "Infantry (Character, Human)",
   base-size: "20x20 or 25x25",
@@ -430,26 +429,20 @@ Wolf Kin replace Flagellants for +3 points per model. They have Weapon Skill 4 a
 - May be mounted on one of the following:
   - Warhorse +15 points
   - Pegasus +25 points
-  - Griffon (General only) +125 points
-  - Imperial Griffon (General only) +175 points
-- One Captain may carry the Battle Standard +25 points
-- A Captain may take Magic Items up to a total of 50 points
-- A General may take Magic Items up to a total of 100 points
-  ],
-  notes: [
-- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  - Griffon +125 points
+  - Imperial Griffon +175 points
+- May take Magic Items up to a total of 100 points
   ],
 )
 
-#unit("BATTLE WIZARDS",
+#unit("BATTLE WIZARD LORD",
   profiles: (
     (name: "Battle Wizard Lord", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 3, i: 4, a: 2, ld: 8, points: 160),
-    (name: "Battle Wizard", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 3, a: 1, ld: 7, points: 65),
   ),
   troop-type: "Infantry (Character, Human)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "A Battle Wizard is a Level 1 Wizard. A Battle Wizard Lord is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic: "A Battle Wizard Lord is a Level 3 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
 - Beasts
 - Death
@@ -469,15 +462,13 @@ Wolf Kin replace Flagellants for +3 points per model. They have Weapon Skill 4 a
   - Celestial Hurricanum (Heavens Battle Wizard Lord only, replacing one of the crew) +125 points
   - Griffon (Beast Battle Wizard Lord only) +125 points
   - Imperial Griffon (Beast Battle Wizard Lord only) +175 points
-- A Battle Wizard may take Magic Items up to a total of 50 points
-- A Battle Wizard Lord may take Magic Items up to a total of 100 points
+- May take Magic Items up to a total of 100 points
   ],
 )
 
-#unit("MASTERS OF THE KNIGHTLY ORDERS",
+#unit("GRAND MASTER",
   profiles: (
     (name: "Grand Master", m: 4, ws: 6, bs: 6, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 110),
-    (name: "Chapter Master", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 70),
   ),
   troop-type: "Infantry (Character, Human)",
   base-size: "20x20 or 25x25",
@@ -502,19 +493,13 @@ If a character with this special rule joins a unit of Knights, Foot Knights or D
   - Warhorse +15 points
   - Demigryph +40 points
 - May be upgraded to a Knightly Order no points limit
-- One Chapter Master may carry the Battle Standard +25 points
-- A Chapter Master may take Magic Items up to a total of 50 points
-- A Grand Master may take Magic Items up to a total of 100 points
-  ],
-  notes: [
-- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+- May take Magic Items up to a total of 100 points
   ],
 )
 
-#unit("WARRIOR PRIESTS OF SIGMAR",
+#unit("ARCH LECTOR",
   profiles: (
     (name: "Arch Lector", m: 4, ws: 5, bs: 3, s: 4, t: 4, w: 3, i: 5, a: 3, ld: 9, points: 130),
-    (name: "Warrior Priest", m: 4, ws: 4, bs: 3, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 8, points: 90),
   ),
   troop-type: "Infantry (Character, Human)",
   base-size: "20x20 or 25x25",
@@ -538,19 +523,17 @@ If a character with this special rule joins a unit of Knights, Foot Knights or D
 - May take a shield +5 points
 - May be mounted on one of the following:
   - Warhorse +15 points
-  - The War Altar of Sigmar (Arch Lector only) +150 points
-- A Warrior Priest may take Magic Items up to a total of 50 points
-- An Arch Lector may take Magic Items up to a total of 100 points
+  - The War Altar of Sigmar +150 points
+- May take Magic Items up to a total of 100 points
   ],
   notes: [
 - You may not have more than 2 Arch Lectors in your army.
   ],
 )
 
-#unit("WITCH HUNTERS",
+#unit("WITCH HUNTER GENERAL",
   profiles: (
     (name: "Witch Hunter General", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 3, i: 5, a: 3, ld: 9, points: 80),
-    (name: "Witch Hunter Captain", m: 4, ws: 4, bs: 4, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 8, points: 35),
   ),
   troop-type: "Infantry (Character, Human)",
   base-size: "20x20 or 25x25",
@@ -572,11 +555,174 @@ If a character with this special rule joins a unit of Knights, Foot Knights or D
   - Handgun +7 points
 - May take light armour +3 points
 - May be mounted on a Warhorse +15 points
-- A Witch Hunter Captain may take Magic Items up to a total of 50 points
-- A Witch Hunter General may take Magic Items up to a total of 100 points
+- May take Magic Items up to a total of 100 points
   ],
   notes: [
 - You may not have more than 3 Witch Hunter Generals in your army.
+  ],
+)
+
+= HEROES
+
+#unit("CAPTAIN",
+  first: true,
+  profiles: (
+    (name: "Captain", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 55),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: (
+    rule("Hold the Line")[If a model with this special rule is in a unit with the State Troops special rule, the unit has the Cold-blooded special rule when taking Break tests.],
+  ),
+  options: [
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Spear +4 points
+  - Light lance +4 points
+  - Heavy lance +8 points
+  - Polearm +8 points
+  - Great weapon +11 points
+- May choose one of the following:
+  - Pistol +5 points
+  - Longbow +6 points
+  - Crossbow +7 points
+  - Handgun +7 points
+  - Repeater pistol +7 points
+  - Repeater handgun +9 points
+- May choose one of the following:
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
+- May take a shield +5 points
+- May be upgraded with the Full Plate special rule for +8 points.
+- May be mounted on one of the following:
+  - Warhorse +15 points
+  - Pegasus +25 points
+- One Captain may carry the Battle Standard +25 points
+- May take Magic Items up to a total of 50 points
+  ],
+  notes: [
+- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  ],
+)
+
+#unit("BATTLE WIZARD",
+  profiles: (
+    (name: "Battle Wizard", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 3, a: 1, ld: 7, points: 65),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "A Battle Wizard is a Level 1 Wizard. They use one of the following Lores of Magic:",
+  magic-body: [
+- Beasts
+- Death
+- Heavens
+- Fire
+- Light
+- Life
+- Metal
+- Shadow
+  ],
+  options: [
+- May take an additional Wizard Level +35 points
+- May be mounted on one of the following:
+  - Warhorse +15 points
+  - Pegasus +25 points
+- May take Magic Items up to a total of 50 points
+  ],
+)
+
+#unit("CHAPTER MASTER",
+  profiles: (
+    (name: "Chapter Master", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 70),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Immunity (Psychology)",
+  special-rules-body: [
+- *Master of Battle*: You must include at least one unit of Knights with the same Troop Type if your army includes a character with this special rule. The character must join one of these units and may never leave it.
+
+If a character with this special rule joins a unit of Knights, Foot Knights or Demigryph Knights, the unit gains the Immunity (Psychology) special rule. In addition, for every character with this special rule that is included in your army, you may take one unit of Knights or Foot Knights as a Core Unit instead of a Special Unit.
+  ],
+  options: [
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Cavalry hammer +8 points
+  - Flail +8 points
+  - Heavy lance +8 points
+  - Polearm +8 points
+  - Great weapon +11 points
+- May take heavy armour +12 points
+- May take a shield +5 points
+- May be mounted on one of the following:
+  - Warhorse +15 points
+  - Demigryph +40 points
+- May be upgraded to a Knightly Order no points limit
+- One Chapter Master may carry the Battle Standard +25 points
+- May take Magic Items up to a total of 50 points
+  ],
+  notes: [
+- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  ],
+)
+
+#unit("WARRIOR PRIEST",
+  profiles: (
+    (name: "Warrior Priest", m: 4, ws: 4, bs: 3, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 8, points: 90),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Magical Attacks, Magic Resistance (1)",
+  special-rules-body: [
+- *Battle Prayers of Sigmar:* A model with this special rule knows the three Battle Prayers listed below. Unless fleeing, they may attempt to use one at the start of each of your turns by taking a Leadership test on their own unmodified Leadership. If passed, the prayer is answered and takes immediate effect. A friendly unit can only be under the effect of one Battle Prayer at a time.
+  - *Hammer of Sigmar:* The model and any unit they are with re-roll failed To Wound rolls in close combat until the start of your next turn.
+  - *Shield of Faith:* The model and any unit they are with gain the Magical Ward (5+) special rule in close combat until the start of your next turn.
+  - *Soulfire:* The model and any unit they are with gain the Flaming and Magical Attacks special rules until the start of your next turn. In addition, when cast, all enemy models in base contact with the Warrior Priest suffer a Strength 4 Hit with the Magical Attacks special rule. This is increased to Strength 5 for Daemons, Undead and Vampires.
+- *Righteous Fury*: The model and any unit they are currently in have the Hatred special rule.
+  ],
+  options: [
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Great weapon +7 points
+- May choose one of the following:
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
+- May take a shield +5 points
+- May be mounted on one of the following:
+  - Warhorse +15 points
+- May take Magic Items up to a total of 50 points
+  ],
+)
+
+#unit("WITCH HUNTER CAPTAIN",
+  profiles: (
+    (name: "Witch Hunter Captain", m: 4, ws: 4, bs: 4, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 8, points: 35),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, pistol",
+  special-rules: "Hatred (Chaos, Undead, Wizards), Magic Resistance (1)",
+  special-rules-body: (
+    rule("Accusation")[After deployment, but before the first turn begins, select a single model in your opponent's army. The Witch Hunter may re-roll all failed To Hit rolls against this model. Every hit they inflict on that model with close combat or shooting attacks also has the Killing Blow special rule. Finally, a Witch Hunter may also choose to shoot at the primary quarry as if they had the Sniper special rule.],
+    rule("Grim Resolve")[Witch Hunters, and any unit they are in, have the Immunity (Fear) special rule.],
+    rule("Tools of Judgement")[When attacking Daemons, Undead, Vampires or Wizards in close combat, a Witch Hunter has the Magical Attacks special rule and re-rolls failed rolls To Wound.],
+  ),
+  options: [
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Great weapon +7 points
+- May take a brace of pistols +4 points
+- May choose one of the following:
+  - Crossbow +6 points
+  - Handgun +6 points
+- May take light armour +2 points
+- May be mounted on a Warhorse +15 points
+- May take Magic Items up to a total of 50 points
   ],
 )
 
@@ -607,7 +753,7 @@ This item can be used in addition to any other missile weapon the Master Enginee
   - Grenade launching blunderbuss +8 points
   - Hochland long rifle +15 points
 - May take pigeon bombs +15 points
-- May take light armour +3 points
+- May take light armour +2 points
 - May be mounted on a Mechanical Steed +20 points
 - May take Magic Items up to a total of 50 points
   ],

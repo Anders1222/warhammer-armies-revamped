@@ -287,13 +287,12 @@ A unit with this special rule may re-roll failed Panic tests caused by friendly 
 #magic-standard("BANNER OF XEN WUN", 10)[Enemy units cannot choose to Stand & Shoot against the unit carrying this banner.]
 ]
 
-= CHARACTERS
+= LORDS
 
-#unit("CELESTIAL COMMANDERS",
+#unit("CELESTIAL GENERAL",
   first: true,
   profiles: (
     (name: "Celestial General", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 105),
-    (name: "Celestial Captain", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 60),
   ),
   troop-type: "Infantry (Character, Human)",
   base-size: "20x20 or 25x25",
@@ -323,14 +322,9 @@ A unit with this special rule may re-roll failed Panic tests caused by friendly 
   - Jade Longma +40 points
   - Great Spirit Longma +60 points
   - War Chariot (replacing one of the crew) +70 points
-  - Great Moon Bird (General/Yin only) +140 points
-  - Celestial Lion (General/Yang only) +145 points
-- One Celestial Captain may carry the Battle Standard +25 points
-- A Celestial Captain may take Magic Items up to a total of 50 points
-- A Celestial General may take Magic Items up to a total of 100 points
-  ],
-  notes: [
-- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  - Great Moon Bird (Yin only) +140 points
+  - Celestial Lion (Yang only) +145 points
+- May take Magic Items up to a total of 100 points
   ],
 )
 
@@ -423,50 +417,45 @@ When transforming, they become a Monster (Draconid) with the Dragon Form profile
   ],
 )
 
-#unit("ALCHEMISTS",
+#unit("GRAND ALCHEMIST",
   profiles: (
     (name: "Grand Alchemist", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 3, i: 4, a: 2, ld: 8, points: 160),
-    (name: "Alchemist", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 3, a: 1, ld: 7, points: 65),
   ),
   troop-type: "Infantry (Character, Human)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "An Alchemist is a Level 1 Wizard. A Grand Alchemist is a Level 3 Wizard. They use the Lore of Metal.",
+  magic: "A Grand Alchemist is a Level 3 Wizard. They use the Lore of Metal.",
   special-rules: "Mastery of the Elemental Winds, Will of the Dragons, Yin",
   options: [
 - May take an additional Wizard Level +35 points
 - May take light armour +3 points
 - May be mounted on a Warhorse +15 points
-- An Alchemist may take Magic Items up to a total of 50 points
-- A Grand Alchemist may take Magic Items up to a total of 100 points
+- May take Magic Items up to a total of 100 points
   ],
 )
 
-#unit("ASTROMANCERS",
+#unit("SUPREME ASTROMANCER",
   profiles: (
     (name: "Supreme Astromancer", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 3, i: 4, a: 2, ld: 8, points: 160),
-    (name: "Astromancer", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 3, a: 1, ld: 7, points: 65),
   ),
   troop-type: "Infantry (Character, Human)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "An Astromancer is a Level 1 Wizard. A Supreme Astromancer is a Level 3 Wizard. They use the Lore of Heavens.",
+  magic: "A Supreme Astromancer is a Level 3 Wizard. They use the Lore of Heavens.",
   special-rules: "Mastery of the Elemental Winds, Will of the Dragons, Yang",
   options: [
 - May take an additional Wizard Level +35 points
 - May take light armour +3 points
 - May be mounted on one of the following:
   - Warhorse +15 points
-  - Wu Xing War Compass (Supreme Astromancer, only replacing the Apprentice Astromancer) +120 points
-- An Astromancer may take Magic Items up to a total of 50 points
-- A Supreme Astromancer may take Magic Items up to a total of 100 points
+  - Wu Xing War Compass (replacing the Apprentice Astromancer) +120 points
+- May take Magic Items up to a total of 100 points
   ],
 )
 
-#unit("GATE MASTERS",
+#unit("GATE MASTER",
   profiles: (
     (name: "Gate Master", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 3, i: 5, a: 3, ld: 9, points: 70),
-    (name: "Gate Keeper", m: 4, ws: 4, bs: 4, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 8, points: 45),
   ),
   troop-type: "Infantry (Character, Human)",
   base-size: "20x20 or 25x25",
@@ -491,19 +480,13 @@ When transforming, they become a Monster (Draconid) with the Dragon Form profile
   - Medium armour +9 points
 - May take a shield +5 points
 - May be mounted on a Warhorse +15 points
-- One Gate Keeper may carry the Battle Standard +25 points
-- A Gate Keeper may take Magic Items up to a total of 50 points
-- A Gate Master may take Magic Items up to a total of 100 points
-  ],
-  notes: [
-- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+- May take Magic Items up to a total of 100 points
   ],
 )
 
-#unit("MAGISTRATES",
+#unit("LORD MAGISTRATE",
   profiles: (
     (name: "Lord Magistrate", m: 4, ws: 4, bs: 4, s: 4, t: 4, w: 3, i: 4, a: 2, ld: 9, points: 85),
-    (name: "Magistrate", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 3, a: 1, ld: 8, points: 50),
   ),
   troop-type: "Infantry (Character, Human)",
   base-size: "20x20 or 25x25",
@@ -521,8 +504,144 @@ When transforming, they become a Monster (Draconid) with the Dragon Form profile
 - May be mounted on one of the following
   - Warhorse +15 points
   - Sky Lantern (replacing one of the crew) +85 points
-- A Magistrate may take Magic Items up to a total of 50 points
-- A Lord Magistrate may take Magic Items up to a total of 100 points
+- May take Magic Items up to a total of 100 points
+  ],
+)
+
+= HEROES
+
+#unit("CELESTIAL CAPTAIN",
+  first: true,
+  profiles: (
+    (name: "Celestial Captain", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 60),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Celestial Forged Armour, Will of the Dragons, Yin/Yang",
+  options: [
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Celestial blade +4 points
+  - Spear +4 points
+  - Light lance +4 points
+  - Polearm +8 points
+  - Great weapon +11 points
+- May choose one of the following:
+  - Shortbow +4 points
+  - Repeater crossbow +5 points
+  - Longbow +6 points
+  - Crossbow +7 points
+  - Handgun +7 points
+  - Dragon fire pistol +9 points
+- May choose one of the following:
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
+- May be mounted on one of the following:
+  - Warhorse +14 points
+  - Jade Longma +40 points
+  - Great Spirit Longma +60 points
+  - War Chariot (replacing one of the crew) +70 points
+- One Celestial Captain may carry the Battle Standard +25 points
+- May take Magic Items up to a total of 50 points
+  ],
+  notes: [
+- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  ],
+)
+
+#unit("ALCHEMIST",
+  profiles: (
+    (name: "Alchemist", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 3, a: 1, ld: 7, points: 65),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "An Alchemist is a Level 1 Wizard. They use the Lore of Metal.",
+  special-rules: "Mastery of the Elemental Winds, Will of the Dragons, Yin",
+  options: [
+- May take an additional Wizard Level +35 points
+- May take light armour +2 points
+- May be mounted on a Warhorse +15 points
+- May take Magic Items up to a total of 50 points
+  ],
+)
+
+#unit("ASTROMANCER",
+  profiles: (
+    (name: "Astromancer", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 3, a: 1, ld: 7, points: 65),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "An Astromancer is a Level 1 Wizard. They use the Lore of Heavens.",
+  special-rules: "Mastery of the Elemental Winds, Will of the Dragons, Yang",
+  options: [
+- May take an additional Wizard Level +35 points
+- May take light armour +2 points
+- May be mounted on one of the following:
+  - Warhorse +15 points
+- May take Magic Items up to a total of 50 points
+  ],
+)
+
+#unit("GATE KEEPER",
+  profiles: (
+    (name: "Gate Keeper", m: 4, ws: 4, bs: 4, s: 4, t: 4, w: 2, i: 4, a: 2, ld: 8, points: 45),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Will of the Dragons, Yin/Yang",
+  special-rules-body: (
+    rule("Bastion's Defenders")[If a unit that is joined by a Gate Master gets charged in the flank or rear, they cannot be Disrupted, enemy units do not gain flank or rear bonuses against them, they do not lose Parry and can make supporting attacks in all directions.],
+    rule("Harmony of Stone & Steel")[A Gate Master and any unit they join gain the Disciplined special rule.],
+  ),
+  options: [
+- May choose one of the following:
+  - Spear +3 points
+  - Light lance +3 points
+  - Polearm +7 points
+- May choose one of the following:
+  - Shortbow +3 points
+  - Longbow +5 points
+  - Crossbow +6 points
+  - Repeater crossbow +5 points
+- May choose one of the following:
+  - Light armour +2 points
+  - Medium armour +6 points
+- May take a shield +5 points
+- May be mounted on a Warhorse +15 points
+- One Gate Keeper may carry the Battle Standard +25 points
+- May take Magic Items up to a total of 50 points
+  ],
+  notes: [
+- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  ],
+)
+
+#unit("MAGISTRATE",
+  profiles: (
+    (name: "Magistrate", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 3, a: 1, ld: 8, points: 50),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Inspiring Presence (6), Will of the Dragons, Yin/Yang",
+  special-rules-body: [
+- *Tactician:* Unless the Magistrate is fleeing, one friendly Human unit with the Yin and/or Yang special rule within 12" may be given one of the following bonuses at the start of each of your turns by passing a Leadership test. Each bonus lasts until the start of your next turn. A unit can only benefit from one of these bonuses at a time.
+  - *Inspired Assault:* The unit gains the Devastating Charge special rule.
+  - *Inspired Defence:* Enemy units charging this unit to the front lose all their charge bonuses.
+  - *Inspired Marksmanship:* The unit ignores all negative shooting modifiers not caused by spells or magic items.
+  ],
+  options: [
+- May take dragon fire bombs +9 points
+- May take light armour +2 points
+- May be mounted on one of the following
+  - Warhorse +15 points
+  - Sky Lantern (replacing one of the crew) +85 points
+- May take Magic Items up to a total of 50 points
   ],
 )
 
@@ -540,10 +659,10 @@ When transforming, they become a Monster (Draconid) with the Dragon Form profile
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Celestial blade +5 points
-  - Spear +5 points
-  - Polearm +10 points
-  - Great weapon +15 points
+  - Celestial blade +4 points
+  - Spear +4 points
+  - Polearm +8 points
+  - Great weapon +11 points
 - May take light armour +2 points
 - May take Magic Items up to a total of 50 points
   ],

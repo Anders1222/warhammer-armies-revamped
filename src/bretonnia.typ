@@ -294,13 +294,12 @@ At the start of each enemy turn, the transformed model must take a Leadership te
 #magic-standard("BANNERS OF CHALONS", 10)[Enemy units cannot choose Stand & Shoot as a charge reaction against the unit carrying the Banner of Chalons.]
 ]
 
-= CHARACTERS
+= LORDS
 
-#unit("LORDS",
+#unit("BARON",
   first: true,
   profiles: (
     (name: "Baron", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 100),
-    (name: "Paladin", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 60),
   ),
   troop-type: "Infantry (Character, Human)",
   base-size: "20x20 or 25x25",
@@ -318,31 +317,25 @@ At the start of each enemy turn, the transformed model must take a Leadership te
     opt("Warhorse", "+15 points"),
     opt("Pegasus", "+25 points"),
     opt("Royal Pegasus", "+40 points"),
-    opt("Royal Hippogryph (Baron only)", "+150 points"),
+    opt("Royal Hippogryph", "+150 points"),
   ),
     optgroup("May replace the Knights Vow with one of the following:",
     opt("The Crusader's Vow", "+15 points"),
     opt("The Questing Vow", "+15 points"),
     opt("The Grail Vow", "+45 points"),
   ),
-    opt("One Paladin may carry the Battle Standard", "+25 points"),
-    opt("A Paladin may take one Virtue and/or Magic Items up to a total of", "50 points"),
-    opt("A Baron may take one Virtue and/or Magic Items up to a total of", "100 points"),
+    opt("May take one Virtue and/or Magic Items up to a total of", "100 points"),
   ),
-  notes: [
-- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
-  ],
 )
 
-#unit("HANDMAIDENS OF THE LADY",
+#unit("PROPHETESS",
   profiles: (
     (name: "Prophetess", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 3, i: 4, a: 2, ld: 8, points: 170),
-    (name: "Grail Damsel", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 3, a: 1, ld: 7, points: 75),
   ),
   troop-type: "Infantry (Character, Human)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "A Grail Damsel is a Level 1 Wizard. A Prophetess is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic: "A Prophetess is a Level 3 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
 - Beasts
 - Heavens
@@ -356,10 +349,72 @@ At the start of each enemy turn, the transformed model must take a Leadership te
     optgroup("May be mounted on one of the following:",
     opt("Warhorse", "+15 points"),
     opt("Pegasus", "+25 points"),
-    opt("Unicorn (Prophetess only)", "+25 points"),
+    opt("Unicorn", "+25 points"),
   ),
-    opt("A Grail Damsel may take Magic Items up to a total of", "50 points"),
-    opt("A Prophetess may take Magic Items up to a total of", "100 points"),
+    opt("May take Magic Items up to a total of", "100 points"),
+  ),
+)
+
+= HEROES
+
+#unit("PALADIN",
+  first: true,
+  profiles: (
+    (name: "Paladin", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 60),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Blessing of the Lady, The Knight's Vow, Lance Formation",
+  options: (
+    optgroup("May choose one of the following:",
+    opt("Heavy lance", "+8 points"),
+    opt("Polearm (on foot only)", "+8 points"),
+    opt("Great weapon", "+11 points"),
+  ),
+    opt("May take heavy armour", "+12 points"),
+    opt("May take a shield", "+5 points"),
+    optgroup("May be mounted on one of the following:",
+    opt("Warhorse", "+15 points"),
+    opt("Pegasus", "+25 points"),
+    opt("Royal Pegasus", "+40 points"),
+  ),
+    optgroup("May replace the Knights Vow with one of the following:",
+    opt("The Crusader's Vow", "+15 points"),
+    opt("The Questing Vow", "+15 points"),
+    opt("The Grail Vow", "+45 points"),
+  ),
+    opt("One Paladin may carry the Battle Standard", "+25 points"),
+    opt("May take one Virtue and/or Magic Items up to a total of", "50 points"),
+  ),
+  notes: [
+- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  ],
+)
+
+#unit("GRAIL DAMSEL",
+  profiles: (
+    (name: "Grail Damsel", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 3, a: 1, ld: 7, points: 75),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "A Grail Damsel is a Level 1 Wizard. They use one of the following Lores of Magic:",
+  magic-body: [
+- Beasts
+- Heavens
+- Lady
+- Light
+- Life
+  ],
+  special-rules: "Blessing of the Lady, Magic Resistance (1)",
+  options: (
+    opt("May take an additional Wizard Level", "+35 points"),
+    optgroup("May be mounted on one of the following:",
+    opt("Warhorse", "+15 points"),
+    opt("Pegasus", "+25 points"),
+  ),
+    opt("May take Magic Items up to a total of", "50 points"),
   ),
 )
 
@@ -376,9 +431,9 @@ At the start of each enemy turn, the transformed model must take a Leadership te
   ),
   options: (
     optgroup("May choose one of the following:",
-    opt("Light lance", "+5 points"),
-    opt("Polearm (on foot only)", "+5 points"),
-    opt("Great weapon", "+10 points"),
+    opt("Light lance", "+3 points"),
+    opt("Polearm (on foot only)", "+3 points"),
+    opt("Great weapon", "+5 points"),
   ),
     optgroup("May choose one of the following:",
     opt("Shortbow", "+3 points"),
@@ -386,8 +441,8 @@ At the start of each enemy turn, the transformed model must take a Leadership te
     opt("Crossbow", "+6 points"),
   ),
     optgroup("May choose one of the following:",
-    opt("Light armour", "+5 points"),
-    opt("Medium armour", "+10 points"),
+    opt("Light armour", "+2 points"),
+    opt("Medium armour", "+6 points"),
   ),
     opt("May take a shield", "+5 points"),
     opt("May be mounted on a Horse", "+15 points"),
@@ -407,7 +462,7 @@ At the start of each enemy turn, the transformed model must take a Leadership te
   special-rules: "Independent, Scouts, Sniper",
   options: (
     opt("May take an additional hand weapon", "+5 points"),
-    opt("May take light armour", "+5 points"),
+    opt("May take light armour", "+2 points"),
   ),
   notes: [
 - A Faceless may never be the Army General.

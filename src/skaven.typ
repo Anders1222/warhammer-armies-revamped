@@ -419,10 +419,9 @@ They may use a combination of spells from both Lores. In addition, they can also
   ],
 )
 
-#unit("COMMANDERS",
+#unit("CLAWLORD",
   profiles: (
     (name: "Clawlord", m: 5, ws: 6, bs: 4, s: 4, t: 4, w: 3, i: 7, a: 4, ld: 7, points: 85),
-    (name: "Clawleader", m: 5, ws: 5, bs: 4, s: 4, t: 4, w: 2, i: 6, a: 3, ld: 6, points: 45),
   ),
   troop-type: "Infantry (Character, Skaven)",
   base-size: "20x20 or 25x25",
@@ -451,13 +450,8 @@ They may use a combination of spells from both Lores. In addition, they can also
   - War-litter +25 points
   - Gnaw-beast +35 points
   - Rat Ogre Bonebreaker +75 points
-  - Brood Horror (Clawlord only) +150 points
-- One Clawleader may carry the Battle Standard +25 points
-- A Clawleader may take Magic Items up to a total of 50 points
-- A Clawlord may take Magic Items up to a total of 100 points
-  ],
-  notes: [
-- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  - Brood Horror +150 points
+- May take Magic Items up to a total of 100 points
   ],
 )
 
@@ -514,10 +508,9 @@ They may use a combination of spells from both Lores.
   order: ("troop-type", "base-size", "magic-items", "magic", "special-rules", "upgrades", "options", "notes"),
 )
 
-#unit("ASSASSINS",
+#unit("MASTER ASSASSIN",
   profiles: (
     (name: "Master Assassin", m: 6, ws: 7, bs: 6, s: 4, t: 4, w: 3, i: 9, a: 4, ld: 8, points: 145),
-    (name: "Assassin", m: 6, ws: 6, bs: 5, s: 4, t: 4, w: 2, i: 8, a: 3, ld: 7, points: 100),
   ),
   troop-type: "Infantry (Character, Skaven, Clan Eshin)",
   base-size: "20x20 or 25x25",
@@ -532,32 +525,27 @@ They may use a combination of spells from both Lores.
   - Sling +7 points
 - May take a tail weapon +5 points
 - May take smoke bombs +5 points
-- An Assassin may take Magic Items up to a total of 50 points
-- A Master Assassin may take Magic Items up to a total of 100 points
+- May take Magic Items up to a total of 100 points
   ],
 )
 
-#unit("SORCERERS",
+#unit("SORCERER LORD",
   profiles: (
     (name: "Sorcerer Lord", m: 6, ws: 4, bs: 4, s: 3, t: 3, w: 3, i: 6, a: 2, ld: 6, points: 160),
-    (name: "Sorcerer", m: 6, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 5, a: 1, ld: 5, points: 65),
   ),
   troop-type: "Infantry (Character, Skaven, Clan Eshin)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "A Sorcerer is a Level 1 Wizard. A Sorcerer Lord is a Level 3 Wizard. They use the Lore of Stealth.",
+  magic: "A Sorcerer Lord is a Level 3 Wizard. They use the Lore of Stealth.",
   special-rules: "Poisoned Attacks, Scurry Away, Strength in Numbers, Verminous Valour",
   options: [
-- A Sorcerer may take an additional Wizard Level +35 points
-- A Sorcerer may take Magic Items up to a total of 50 points
-- A Sorcerer Lord may take Magic Items up to a total of 100 points
+- May take Magic Items up to a total of 100 points
   ],
 )
 
-#unit("MASTER MOULDERS",
+#unit("MASTER MUTATOR",
   profiles: (
     (name: "Master Mutator", m: 6, ws: 5, bs: 3, s: 4, t: 4, w: 3, i: 6, a: 3, ld: 7, points: 80),
-    (name: "Master Moulder", m: 6, ws: 4, bs: 3, s: 4, t: 4, w: 2, i: 5, a: 2, ld: 6, points: 30),
   ),
   troop-type: "Infantry (Character, Skaven, Clan Moulder)",
   base-size: "20x20 or 25x25",
@@ -583,21 +571,19 @@ They may use a combination of spells from both Lores.
   - Great Pox Rat +20 points
   - Gnaw-beast +36 points
   - Rat Ogre Bonebreaker +75 points
-  - Brood Horror (Master Mutator only) +150 points
-- A Master Moulder may take Magic Items up to a total of 50 points
-- A Master Mutator may take Magic Items up to a total of 100 points
+  - Brood Horror +150 points
+- May take Magic Items up to a total of 100 points
   ],
 )
 
-#unit("PLAGUE PRIESTS",
+#unit("PLAGUELORD",
   profiles: (
     (name: "Plaguelord", m: 5, ws: 5, bs: 3, s: 4, t: 5, w: 3, i: 6, a: 3, ld: 7, points: 165),
-    (name: "Plague Priest", m: 5, ws: 4, bs: 3, s: 4, t: 5, w: 2, i: 5, a: 2, ld: 6, points: 90),
   ),
   troop-type: "Infantry (Character, Skaven, Clan Pestilens)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "A Plague Priest is a Level 1 Wizard. A Plaguelord is a Level 2 Wizard. They use the Lore of Plague.",
+  magic: "A Plaguelord is a Level 2 Wizard. They use the Lore of Plague.",
   special-rules: "Frenzy, Scurry Away, Strength in Numbers",
   options: [
 - May choose one of the following:
@@ -607,16 +593,14 @@ They may use a combination of spells from both Lores.
   - Plague censer +20 points
 - May be mounted on one of the following:
   - Great Pox Rat +20 points
-  - Plague Furnace (Plaguelord only) +150 points
-- A Plague Priest may take Magic Items up to a total of 50 points
-- A Plaguelord may take Magic Items up to a total of 100 points
+  - Plague Furnace +150 points
+- May take Magic Items up to a total of 100 points
   ],
 )
 
-#unit("WARLOCK ENGINEERS",
+#unit("WARLOCK MASTER",
   profiles: (
     (name: "Warlock Master", m: 5, ws: 4, bs: 4, s: 3, t: 3, w: 3, i: 5, a: 2, ld: 6, points: 155),
-    (name: "Warlock Engineer", m: 5, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 4, a: 1, ld: 5, points: 60),
   ),
   troop-type: "Infantry (Character, Skaven, Clan Skryre)",
   base-size: "20x20 or 25x25",
@@ -653,8 +637,177 @@ They may use a combination of spells from both Lores.
   - Supercharged Warp-Power Accumulator +10 points
   - Upgraded Warp-Energy Condenser +15 points
 - May take light armour +3 points
-- A Warlock Engineer may take Magic Items up to a total of 50 points
-- A Warlock Master may take Magic Items up to a total of 100 points
+- May take Magic Items up to a total of 100 points
+  ],
+)
+
+= HEROES
+
+#unit("CLAWLEADER",
+  first: true,
+  profiles: (
+    (name: "Clawleader", m: 5, ws: 5, bs: 4, s: 4, t: 4, w: 2, i: 6, a: 3, ld: 6, points: 45),
+  ),
+  troop-type: "Infantry (Character, Skaven)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, medium armour",
+  special-rules: "Scurry Away, Strength in Numbers, Verminous Valour",
+  special-rules-body: (
+    rule("Clawguard")[You may upgrade one unit of Stormvermin with heavy armour for +1.5 points/model for each model with this special rule in your army.],
+  ),
+  options: [
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Polearm +8 points
+  - Great weapon +11 points
+- May choose one of the following:
+  - Warplock pistol +7 points
+  - Ratling pistol +7 points
+- May choose one of the following:
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
+- May take a shield +5 points
+- May take a tail weapon +5 points
+- May take a Rat Hound Bodyguard +3 points
+- May be mounted on one of the following:
+  - Great Pox Rat +20 points
+  - War-litter +25 points
+  - Gnaw-beast +35 points
+  - Rat Ogre Bonebreaker +75 points
+- One Clawleader may carry the Battle Standard +25 points
+- May take Magic Items up to a total of 50 points
+  ],
+  notes: [
+- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  ],
+)
+
+#unit("ASSASSIN",
+  profiles: (
+    (name: "Assassin", m: 6, ws: 6, bs: 5, s: 4, t: 4, w: 2, i: 8, a: 3, ld: 7, points: 100),
+  ),
+  troop-type: "Infantry (Character, Skaven, Clan Eshin)",
+  base-size: "20x20 or 25x25",
+  equipment: "Two hand weapons, throwing weapons",
+  special-rules: "Dodge (5+), Hidden, Poisoned Attacks, Scouts, Strength in Numbers, Scurry Away",
+  options: [
+- May choose one of the following:
+  - Blowpipe +5 points
+  - Sling +6 points
+- May take a tail weapon +5 points
+- May take smoke bombs +5 points
+- May take Magic Items up to a total of 50 points
+  ],
+)
+
+#unit("SORCERER",
+  profiles: (
+    (name: "Sorcerer", m: 6, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 5, a: 1, ld: 5, points: 65),
+  ),
+  troop-type: "Infantry (Character, Skaven, Clan Eshin)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "A Sorcerer is a Level 1 Wizard. They use the Lore of Stealth.",
+  special-rules: "Poisoned Attacks, Scurry Away, Strength in Numbers, Verminous Valour",
+  options: [
+- May take an additional Wizard Level +35 points
+- May take Magic Items up to a total of 50 points
+  ],
+)
+
+#unit("MASTER MOULDER",
+  profiles: (
+    (name: "Master Moulder", m: 6, ws: 4, bs: 3, s: 4, t: 4, w: 2, i: 5, a: 2, ld: 6, points: 30),
+  ),
+  troop-type: "Infantry (Character, Skaven, Clan Moulder)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, light armour",
+  equipment-body: (
+    rule("Shock-Prod")[Polearm. A Shock-Prod gives the wielder the Lightning Attacks special rule.],
+    rule("Things-Catcher")[Polearm. A Things-catcher gives the wielder the Killing Blow special rule.],
+  ),
+  special-rules: "Scurry Away, Strength in Numbers",
+  special-rules-body: (
+    rule("Leader of the Pack")[Models with this special rule that are on foot may join units of Giant Rats or Rat Ogres and act as their handlers following the Mixed Units special rule, or be deployed in the front rank if they wish. In addition, all friendly Clan Moulder units within 6" of a character with this special rule gain the Cold- blooded special rule.],
+  ),
+  options: [
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Whip +7 points
+  - Great weapon +10 points
+  - Things-catcher +13 points
+  - Shock-prod +17 points
+- May take a tail weapon +5 points
+- May take a Rat Hound Bodyguard +3 points
+- May be mounted on one of the following:
+  - Great Pox Rat +20 points
+  - Gnaw-beast +36 points
+  - Rat Ogre Bonebreaker +75 points
+- May take Magic Items up to a total of 50 points
+  ],
+)
+
+#unit("PLAGUE PRIEST",
+  profiles: (
+    (name: "Plague Priest", m: 5, ws: 4, bs: 3, s: 4, t: 5, w: 2, i: 5, a: 2, ld: 6, points: 90),
+  ),
+  troop-type: "Infantry (Character, Skaven, Clan Pestilens)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "A Plague Priest is a Level 1 Wizard. They use the Lore of Plague.",
+  special-rules: "Frenzy, Scurry Away, Strength in Numbers",
+  options: [
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Flail +7 points
+  - Great weapon +10 points
+  - Plague censer +13 points
+- May be mounted on one of the following:
+  - Great Pox Rat +20 points
+- May take Magic Items up to a total of 50 points
+  ],
+)
+
+#unit("WARLOCK ENGINEER",
+  profiles: (
+    (name: "Warlock Engineer", m: 5, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 4, a: 1, ld: 5, points: 60),
+  ),
+  troop-type: "Infantry (Character, Skaven, Clan Skryre)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  equipment-body: [
+- *Warpmusket:* A Warpmusket has the following profile:
+
+#minitable(("Range", "Strength", "Special Rules"), ("12/24\"", "5", "Armour Piercing (1), Magical Attacks, Ponderous, Unstable Ammunition"))
+
+- *Warpvolt Obliterator:* A Warpvolt Obliterator has the following profile:
+
+#minitable(("Range", "Strength", "Special Rules"), ("9/18\"", "5", "Lightning Attacks, Magical Attacks"))
+  ],
+  special-rules: "Scurry Away, Strength in Numbers, Verminous Valour",
+  upgrades: (
+    rule("Supercharged Warp-Power Accumulator")[A Supercharged Warp-Power Accumulator allows the bearer to cast spells with one more Power dice than they are normally allowed.],
+    rule("Upgraded Warp-Energy Condenser")[An Upgraded Warp-Energy Condenser gives the wearer a +1 bonus when channelling Power dice.],
+    rule("Warlock Optics")[A Warlock Engineer equipped with Warlock Optics gains +1 to their Ballistic Skill as well as the Sniper special rule.],
+    rule("Warp-Blades")[Warp-Blades give the bearer a +1 casting bonus when using the _Warp Lightning_ spell from the Lore of Ruin.],
+  ),
+  options: [
+- May take a polearm +3 points
+- May choose one of the following:
+  - Warplock Pistol +5 points
+  - Ratling Pistol +5 points
+  - Warpmusket +8 points
+  - Warpvolt Obliterator +14 points
+- May choose one of the following:
+  - Gas Mask +5 points
+  - Warlock Optics +15 points
+- May choose one of the following:
+  - Warp-Blades +5 points
+  - Supercharged Warp-Power Accumulator +10 points
+  - Upgraded Warp-Energy Condenser +15 points
+- May take light armour +2 points
+- May take Magic Items up to a total of 50 points
   ],
 )
 

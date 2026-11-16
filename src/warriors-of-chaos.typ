@@ -651,14 +651,12 @@ until the end of the turn.")))
 #magic-standard("GLAMOUR FETISH", 20)[All enemy units within 12" of the bearer of this standard suffer \-1 Leadership when taking Break tests.]
 ]
 
-= CHARACTERS
+= LORDS
 
-#unit("CHAMPIONS",
+#unit("WARLORD",
   first: true,
   profiles: (
     (name: "Warlord", m: 4, ws: 8, bs: 3, s: 5, t: 5, w: 3, i: 7, a: 5, ld: 9, points: 165),
-    (name: "Exalted Champion", m: 4, ws: 7, bs: 3, s: 5, t: 5, w: 2, i: 6, a: 4, ld: 8, points: 105),
-    (name: "Aspiring Champion", m: 4, ws: 6, bs: 3, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 55),
   ),
   troop-type: "Infantry (Character, Human)",
   base-size: "25x25 or 30x30",
@@ -683,37 +681,30 @@ until the end of the turn.")))
 - May take a shield +5 points
 - May be mounted on one of the following:
   - Warsteed +20 points
-  - Steed of Slaanesh (Warlord & Exalted Champion with Mark of Slaanesh only) +45 points
-  - Daemonic Steed (Warlord & Exalted Champion only) +55 points
-  - Rot Fly of Nurgle (Warlord & Exalted Champion with Mark of Nurgle only) +55 points
-  - Disc of Tzeentch (Warlord & Exalted Champion with Mark of Tzeentch only) +55 points
-  - Palanquin of Nurgle (Warlord & Exalted Champion with Mark of Nurgle only) +65 points
-  - Serpent of Slaanesh (Warlord & Exalted Champion with Mark of Slaanesh only) +65 points
-  - Juggernaut of Khorne (Warlord & Exalted Champion with Mark of Khorne only) +70 points
-  - Rot Beast of Nurgle (Warlord & Exalted Champion with Mark of Nurgle only) +70 points
+  - Steed of Slaanesh (Mark of Slaanesh only) +45 points
+  - Daemonic Steed +55 points
+  - Rot Fly of Nurgle (Mark of Nurgle only) +55 points
+  - Disc of Tzeentch (Mark of Tzeentch only) +55 points
+  - Palanquin of Nurgle (Mark of Nurgle only) +65 points
+  - Serpent of Slaanesh (Mark of Slaanesh only) +65 points
+  - Juggernaut of Khorne (Mark of Khorne only) +70 points
+  - Rot Beast of Nurgle (Mark of Nurgle only) +70 points
   - War Chariot (replacing one of the crew) +100 points
-  - Karkadrak (Warlord only) +150 points
-  - Manticore (Warlord only) +150 points
-  - Chaos Dragon (Warlord only) +330 points
-- One Aspiring Champion may carry the Battle Standard +25 points
-- An Aspiring Champion may take Gifts of the Gods and/or Magic Items up to a total of 50 points
-- An Exalted Champion may take Gifts of the Gods and/or Magic Items up to a total of 75 points
-- A Warlord may take Gifts of the Gods and/or Magic Items up to a total of 100 points
-  ],
-  notes: [
-- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  - Karkadrak +150 points
+  - Manticore +150 points
+  - Chaos Dragon +330 points
+- May take Gifts of the Gods and/or Magic Items up to a total of 100 points
   ],
 )
 
-#unit("SORCERERS",
+#unit("SOULFLAYER",
   profiles: (
     (name: "Soulflayer", m: 4, ws: 6, bs: 3, s: 4, t: 4, w: 3, i: 5, a: 2, ld: 8, points: 210),
-    (name: "Maledictor", m: 4, ws: 5, bs: 3, s: 4, t: 4, w: 2, i: 4, a: 1, ld: 8, points: 95),
   ),
   troop-type: "Infantry (Character, Human)",
   base-size: "25x25 or 30x30",
   equipment: "Hand weapon",
-  magic: "A Maledictor is a Level 1 Wizard. A Soulflayer is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic: "A Soulflayer is a Level 3 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
 - Beasts
 - Chaos
@@ -746,8 +737,8 @@ A Sorcerer with a mark of chaos can choose:
   - Disc of Tzeentch (Mark of Tzeentch only) +55 points
   - Palanquin of Nurgle (Mark of Nurgle only) +65 points
   - War Chariot (replacing one of the crew) +100 points
-  - Manticore (Soulflayer only) +150 points
-  - Chaos Dragon (Soulflayer only) +330 points
+  - Manticore +150 points
+  - Chaos Dragon +330 points
 - May take Gifts of the Gods and/or Magic Items up to a total of 100 points
   ],
 )
@@ -794,6 +785,129 @@ A Daemon Prince who is a Daemon of Tzeentch, Nurgle or Slaanesh must use the Lor
   ],
 )
 
+= HEROES
+
+#unit("EXALTED CHAMPION",
+  first: true,
+  profiles: (
+    (name: "Exalted Champion", m: 4, ws: 7, bs: 3, s: 5, t: 5, w: 2, i: 6, a: 4, ld: 8, points: 105),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "25x25 or 30x30",
+  equipment: "Hand weapon",
+  special-rules: "Chaos Armour, Eye of the Gods, Will of Chaos",
+  options: [
+- May choose one of the following:
+  - Mark of Slaanesh +10 points
+  - Mark of Khorne +15 points
+  - Mark of Nurgle +20 points
+  - Mark of Tzeentch +20 points
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Light lance +4 points
+  - Flail +8 points
+  - Heavy lance +8 points
+  - Polearm +8 points
+  - Great weapon +8 points
+- May choose one of the following:
+  - Medium armour +6 points
+  - Heavy armour +12 points
+- May take a shield +5 points
+- May be mounted on one of the following:
+  - Warsteed +20 points
+  - Steed of Slaanesh (Mark of Slaanesh only) +45 points
+  - Daemonic Steed +55 points
+  - Rot Fly of Nurgle (Mark of Nurgle only) +55 points
+  - Disc of Tzeentch (Mark of Tzeentch only) +55 points
+  - Palanquin of Nurgle (Mark of Nurgle only) +65 points
+  - Serpent of Slaanesh (Mark of Slaanesh only) +65 points
+  - Juggernaut of Khorne (Mark of Khorne only) +70 points
+  - Rot Beast of Nurgle (Mark of Nurgle only) +70 points
+  - War Chariot (replacing one of the crew) +100 points
+- May take Gifts of the Gods and/or Magic Items up to a total of 75 points
+  ],
+)
+
+#unit("ASPIRING CHAMPION",
+  profiles: (
+    (name: "Aspiring Champion", m: 4, ws: 6, bs: 3, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 55),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "25x25 or 30x30",
+  equipment: "Hand weapon",
+  special-rules: "Chaos Armour, Eye of the Gods, Will of Chaos",
+  options: [
+- May choose one of the following:
+  - Mark of Slaanesh +10 points
+  - Mark of Khorne +15 points
+  - Mark of Nurgle +20 points
+  - Mark of Tzeentch +20 points
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Light lance +3 points
+  - Flail +6 points
+  - Heavy lance +6 points
+  - Polearm +6 points
+  - Great weapon +6 points
+- May choose one of the following:
+  - Medium armour +6 points
+  - Heavy armour +12 points
+- May take a shield +5 points
+- May be mounted on one of the following:
+  - Warsteed +20 points
+  - War Chariot (replacing one of the crew) +100 points
+- One Aspiring Champion may carry the Battle Standard +25 points
+- May take Gifts of the Gods and/or Magic Items up to a total of 50 points
+  ],
+  notes: [
+- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  ],
+)
+
+#unit("MALEDICTOR",
+  profiles: (
+    (name: "Maledictor", m: 4, ws: 5, bs: 3, s: 4, t: 4, w: 2, i: 4, a: 1, ld: 8, points: 95),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "25x25 or 30x30",
+  equipment: "Hand weapon",
+  magic: "A Maledictor is a Level 1 Wizard. They use one of the following Lores of Magic:",
+  magic-body: [
+- Beasts
+- Chaos
+- Death
+- Fire
+- Heavens
+- Metal
+- Shadow
+
+A Sorcerer with a mark of chaos can choose:
+- Nurgle: Lore of Nurgle, Beasts, Death
+- Tzeentch: Lore of Tzeentch, Fire, Heavens
+- Slaanesh: Lore of Slaanesh, Shadow, Metal
+],
+  special-rules: "Chaos Armour, Eye of the Gods, Will of Chaos",
+  options: [
+- May take an additional Wizard Level +35 points
+- May choose one of the following:
+  - Mark of Slaanesh +5 points
+  - Mark of Nurgle +20 points
+  - Mark of Tzeentch +20 points
+- May choose one of the following:
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
+- May be mounted on one of the following:
+  - Warsteed +20 points
+  - Steed of Slaanesh (Mark of Slaanesh only) +45 points
+  - Daemonic Steed +55 points
+  - Disc of Tzeentch (Mark of Tzeentch only) +55 points
+  - Palanquin of Nurgle (Mark of Nurgle only) +65 points
+  - War Chariot (replacing one of the crew) +100 points
+- May take Gifts of the Gods and/or Magic Items up to a total of 100 points
+  ],
+)
+
 #unit("MARAUDER CHIEFTAIN",
   profiles: (
     (name: "Marauder Chieftain", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 55),
@@ -810,18 +924,18 @@ A Daemon Prince who is a Daemon of Tzeentch, Nurgle or Slaanesh must use the Lor
   - Mark of Tzeentch +20 points
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Spear +5 points
-  - Light lance +5 points
-  - Flail +10 points
-  - Polearm +10 points
-  - Great weapon +15 points
+  - Spear +4 points
+  - Light lance +4 points
+  - Flail +8 points
+  - Polearm +8 points
+  - Great weapon +11 points
 - May choose one of the following:
   - Shortbow +4 points
   - Throwing axes +4 points
   - Javelins +4 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
+  - Light armour +2 points
+  - Medium armour +6 points
 - May take a shield +5 points
 - May be mounted on one of the following:
   - Warhorse +15 points
@@ -1688,7 +1802,7 @@ another victim. Roll again on this table to see what happens.")))
   ],
 )
 
-= MARKED CHARACTERS
+= MARKED HEROES
 
 #unit("SLAUGHTERPRIEST OF KHORNE",
   first: true,

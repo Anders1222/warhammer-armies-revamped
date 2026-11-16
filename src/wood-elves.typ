@@ -380,13 +380,12 @@ A model with this rule can choose to make a single Tree Whack in place of making
 #magic-standard("BANNER OF MIDSUMMER'S EVE", 10)[The unit carrying this standard ignores To Hit penalties for shooting at enemies in cover.]
 ]
 
-= CHARACTERS
+= LORDS
 
-#unit("HIGHBORNS",
+#unit("GLADE LORD",
   first: true,
   profiles: (
     (name: "Glade Lord", m: 5, ws: 7, bs: 7, s: 4, t: 3, w: 3, i: 8, a: 4, ld: 10, points: 120),
-    (name: "Glade Captain", m: 5, ws: 6, bs: 6, s: 4, t: 3, w: 2, i: 7, a: 3, ld: 9, points: 55),
   ),
   troop-type: "Infantry (Character, Wood Elf)",
   base-size: "20x20 or 25x25",
@@ -416,25 +415,19 @@ A model with this rule can choose to make a single Tree Whack in place of making
   - Great Eagle +40 points
   - Great Stag +50 points
   - Meadow Chariot (replacing one of the crew) +70 points
-  - Forest Dragon (Glade Lord only) +325 points
-- One Glade Captain may carry the Battle Standard +25 points
-- A Glade Captain may take one Spite and/or Magic Items up to a total of 50 points
-- A Glade Lord may take one Spite and/or Magic Items up to a total of 100 points
-  ],
-  notes: [
-- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  - Forest Dragon +325 points
+- May take one Spite and/or Magic Items up to a total of 100 points
   ],
 )
 
-#unit("SPELLSINGERS",
+#unit("SPELLWEAVER",
   profiles: (
     (name: "Spellweaver", m: 5, ws: 5, bs: 4, s: 3, t: 3, w: 3, i: 6, a: 2, ld: 9, points: 195),
-    (name: "Spellsinger", m: 5, ws: 4, bs: 4, s: 3, t: 3, w: 2, i: 5, a: 1, ld: 8, points: 85),
   ),
   troop-type: "Infantry (Character, Wood Elf)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "A Spellsinger is a Level 1 Wizard. A Spellweaver is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic: "A Spellweaver is a Level 3 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
 - Athel Loren
 - Beasts
@@ -451,71 +444,7 @@ A model with this rule can choose to make a single Tree Whack in place of making
   - Warhawk +25 points
   - Unicorn +25 points
   - Great Eagle +40 points
-- A Spellsinger may take one Spite and/or Magic Items up to a total of 50 points
-- A Spellweaver take one Spite and/or Magic Items up to a total of 100 points
-  ],
-)
-
-#unit("SHADOWDANCER",
-  profiles: (
-    (name: "Shadowdancer", m: 5, ws: 8, bs: 6, s: 4, t: 3, w: 2, i: 8, a: 4, ld: 8, points: 100),
-  ),
-  troop-type: "Infantry (Character, Wood Elf)",
-  base-size: "20x20 or 25x25",
-  equipment: "Hand weapon",
-  magic: "A Shadowdancer who is a Wizard who chooses spells from the Lore of Shadow.",
-  options: [
-- May be upgraded to a Level 1 Wizard +35 points
-- May choose one of the following:
-  - Additional hand weapon +5 points
-  - Saerath +5 points
-  - Great weapon +15 points
-- May take one Spite and/or Magic Items up to a total of 50 points
-  ],
-  special-rules: "Blessings of the Ancients, Elven Grace, Forest Strider, Magical Ward (6+), Magic Resistance (1), Shadow Dances of Loec",
-  order: ("troop-type", "base-size", "equipment", "magic", "options", "special-rules"),
-)
-
-#unit("WILD HUNTER",
-  profiles: (
-    (name: "Wild Hunter", m: 5, ws: 6, bs: 6, s: 4, t: 3, w: 2, i: 7, a: 3, ld: 9, points: 110),
-    (name: "Elven Steed", m: 9, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 5, points: ""),
-  ),
-  troop-type: "Cavalry (Character, Wood Elf)",
-  base-size: "25x50 or 30x60",
-  mount: "Elven Steed (Equine)",
-  equipment: "Light lance",
-  special-rules: "Devastating Charge, Elven Grace, Forest Spirit, Frenzy",
-  options: [
-- May take a shield +5 points
-- May take light armour +3 points
-- May replace Elven Steed with one of the following:
-  - Steed of Kurnous +5 points
-  - Great Stag +25 points
-- May take one Spite and/or Magic Items up to a total of 50 points
-  ],
-  order: ("troop-type", "base-size", "mount", "equipment", "special-rules", "options"),
-)
-
-#unit("WAYSTALKER",
-  profiles: (
-    (name: "Waystalker", m: 5, ws: 6, bs: 7, s: 4, t: 3, w: 2, i: 7, a: 2, ld: 8, points: 90),
-  ),
-  troop-type: "Infantry (Character, Wood Elf)",
-  base-size: "20x20 or 25x25",
-  equipment: "Hand weapon, Elven shortbow",
-  special-rules: "Asrai Archery, Elven Grace, Forest Strider, Forest Stalker, Lethal Shot, Scouts, Sniper",
-  options: [
-- May take an additional hand weapon +3 points
-- May replace Elven shortbow with Elven longbow +2 points
-- May choose one of the following:
-  - Arcane Bodkins +1 point
-  - Moonfire Shot +1 point
-  - Hagbane Tips +2 points
-  - Starfire Shafts +2 points
-  - Swiftshiver Shards +2 points
-  - Trueflight Arrows +2 points
-- May take one Spite and/or Magic Items up to a total of 50 points
+- May take one Spite and/or Magic Items up to a total of 100 points
   ],
 )
 
@@ -578,6 +507,140 @@ A model with this rule can choose to make a single Tree Whack in place of making
 - May be upgraded to a Level 2 Wizard +35 points
 - May take Strangleroots +10 points
 - May take Spites up to a total of 100 points
+  ],
+)
+
+= HEROES
+
+#unit("GLADE CAPTAIN",
+  first: true,
+  profiles: (
+    (name: "Glade Captain", m: 5, ws: 6, bs: 6, s: 4, t: 3, w: 2, i: 7, a: 3, ld: 9, points: 55),
+  ),
+  troop-type: "Infantry (Character, Wood Elf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Asrai Archery, Elven Grace, Forest Strider",
+  options: [
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Spear +4 points
+  - Light lance +4 points
+  - Great weapon +11 points
+- May choose one of the following:
+  - Elven shortbow +5 points
+  - Elven longbow +7 points
+- May take light armour +2 points
+- May take a shield +5 points
+- May choose one of the following:
+  - Arcane Bodkins +1 point
+  - Moonfire Shot +1 point
+  - Starfire Shafts +1 point
+  - Hagbane Tips +2 points
+  - Swiftshiver Shards +2 points
+  - Trueflight Arrows +2 points
+- May be mounted on one of the following:
+  - Elven Steed +15 points
+  - Warhawk +25 points
+  - Great Eagle +40 points
+  - Great Stag +50 points
+  - Meadow Chariot (replacing one of the crew) +70 points
+- One Glade Captain may carry the Battle Standard +25 points
+- May take one Spite and/or Magic Items up to a total of 50 points
+  ],
+  notes: [
+- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  ],
+)
+
+#unit("SPELLSINGER",
+  profiles: (
+    (name: "Spellsinger", m: 5, ws: 4, bs: 4, s: 3, t: 3, w: 2, i: 5, a: 1, ld: 8, points: 85),
+  ),
+  troop-type: "Infantry (Character, Wood Elf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "A Spellsinger is a Level 1 Wizard. They use one of the following Lores of Magic:",
+  magic-body: [
+- Athel Loren
+- Beasts
+- Heavens
+- Light
+- Life
+- Shadow
+  ],
+  special-rules: "Blessings of the Ancients, Elven Grace, Forest Strider",
+  options: [
+- May take an additional Wizard Level +35 points
+- May be mounted on one of the following:
+  - Elven Steed +15 points
+  - Warhawk +25 points
+  - Unicorn +25 points
+  - Great Eagle +40 points
+- May take one Spite and/or Magic Items up to a total of 50 points
+  ],
+)
+
+#unit("SHADOWDANCER",
+  profiles: (
+    (name: "Shadowdancer", m: 5, ws: 8, bs: 6, s: 4, t: 3, w: 2, i: 8, a: 4, ld: 8, points: 100),
+  ),
+  troop-type: "Infantry (Character, Wood Elf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "A Shadowdancer who is a Wizard who chooses spells from the Lore of Shadow.",
+  options: [
+- May be upgraded to a Level 1 Wizard +35 points
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Saerath +5 points
+  - Great weapon +15 points
+- May take one Spite and/or Magic Items up to a total of 50 points
+  ],
+  special-rules: "Blessings of the Ancients, Elven Grace, Forest Strider, Magical Ward (6+), Magic Resistance (1), Shadow Dances of Loec",
+  order: ("troop-type", "base-size", "equipment", "magic", "options", "special-rules"),
+)
+
+#unit("WILD HUNTER",
+  profiles: (
+    (name: "Wild Hunter", m: 5, ws: 6, bs: 6, s: 4, t: 3, w: 2, i: 7, a: 3, ld: 9, points: 110),
+    (name: "Elven Steed", m: 9, ws: 3, bs: 0, s: 3, t: 3, w: 1, i: 4, a: 1, ld: 5, points: ""),
+  ),
+  troop-type: "Cavalry (Character, Wood Elf)",
+  base-size: "25x50 or 30x60",
+  mount: "Elven Steed (Equine)",
+  equipment: "Light lance",
+  special-rules: "Devastating Charge, Elven Grace, Forest Spirit, Frenzy",
+  options: [
+- May take a shield +5 points
+- May take light armour +2 points
+- May replace Elven Steed with one of the following:
+  - Steed of Kurnous +5 points
+  - Great Stag +25 points
+- May take one Spite and/or Magic Items up to a total of 50 points
+  ],
+  order: ("troop-type", "base-size", "mount", "equipment", "special-rules", "options"),
+)
+
+#unit("WAYSTALKER",
+  profiles: (
+    (name: "Waystalker", m: 5, ws: 6, bs: 7, s: 4, t: 3, w: 2, i: 7, a: 2, ld: 8, points: 90),
+  ),
+  troop-type: "Infantry (Character, Wood Elf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon, Elven shortbow",
+  special-rules: "Asrai Archery, Elven Grace, Forest Strider, Forest Stalker, Lethal Shot, Scouts, Sniper",
+  options: [
+- May take an additional hand weapon +3 points
+- May replace Elven shortbow with Elven longbow +2 points
+- May choose one of the following:
+  - Arcane Bodkins +1 point
+  - Moonfire Shot +1 point
+  - Hagbane Tips +2 points
+  - Starfire Shafts +2 points
+  - Swiftshiver Shards +2 points
+  - Trueflight Arrows +2 points
+- May take one Spite and/or Magic Items up to a total of 50 points
   ],
 )
 

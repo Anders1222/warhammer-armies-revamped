@@ -391,13 +391,12 @@ No saves are allowed against Wounds caused by this weapon.
 #magic-standard("PENNANT OF LOYALTY", 5)[The unit carrying this standard can re-roll the result on the Mercenaries table.]
 ]
 
-= CHARACTERS
+= LORDS
 
-#unit("MERCENARY COMMANDERS",
+#unit("MERCENARY GENERAL",
   first: true,
   profiles: (
     (name: "Mercenary General", m: 4, ws: 6, bs: 5, s: 4, t: 4, w: 3, i: 6, a: 4, ld: 9, points: 90),
-    (name: "Mercenary Captain", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 50),
   ),
   troop-type: "Infantry (Character, Human)",
   base-size: "20x20 or 25x25",
@@ -428,21 +427,19 @@ No saves are allowed against Wounds caused by this weapon.
 - May be mounted on one of the following:
   - Warhorse +15 points
   - Pegasus +25 points
-  - Griffon (Mercenary General only) +125 points
-- A Mercenary Captain may take Quirks of Character and/or Magic Items up to a total of 50 points
-- A Mercenary General may take Quirks of Character and/or Magic Items up to a total of 100 points
+  - Griffon +125 points
+- May take Quirks of Character and/or Magic Items up to a total of 100 points
   ],
 )
 
-#unit("HIRELING WIZARDS",
+#unit("HIRELING WIZARD LORD",
   profiles: (
     (name: "Hireling Wizard Lord", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 3, i: 4, a: 2, ld: 8, points: 160),
-    (name: "Hireling Wizard", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 3, a: 1, ld: 7, points: 65),
   ),
   troop-type: "Infantry (Character, Human)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "A Hireling Wizard is a Level 1 Wizard. A Hireling Wizard Lord is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic: "A Hireling Wizard Lord is a Level 3 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
 - Battle Magic
 - Beasts
@@ -460,9 +457,77 @@ No saves are allowed against Wounds caused by this weapon.
 - May be mounted on one of the following:
   - Warhorse +15 points
   - Pegasus +25 points
-  - Griffon (Hireling Wizard Lord only) +125 points
-- A Hireling Wizard may take Quirks of Character and/or Magic Items up to a total of 50 points
-- A Hireling Wizard Lord may take Quirks of Character and/or Magic Items up to a total of 100 points
+  - Griffon +125 points
+- May take Quirks of Character and/or Magic Items up to a total of 100 points
+  ],
+)
+
+= HEROES
+
+#unit("MERCENARY CAPTAIN",
+  first: true,
+  profiles: (
+    (name: "Mercenary Captain", m: 4, ws: 5, bs: 5, s: 4, t: 4, w: 2, i: 5, a: 3, ld: 8, points: 50),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Mercenaries",
+  options: [
+- May choose one of the following:
+  - Spear free
+  - Additional hand weapon +5 points
+  - Oriental longsword +4 points
+  - Light lance +4 points
+  - Heavy lance +8 points
+  - Polearm +8 points
+  - Great weapon +11 points
+- May choose one of the following:
+  - Shortbow +4 points
+  - Pistol +5 points
+  - Crossbow +7 points
+  - Handgun +7 points
+  - Brace of pistols +8 points
+- May choose one of the following:
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
+- May choose one of the following:
+  - Buckler +2 points
+  - Shield +5 points
+- May be mounted on one of the following:
+  - Warhorse +15 points
+  - Pegasus +25 points
+- May take Quirks of Character and/or Magic Items up to a total of 50 points
+  ],
+)
+
+#unit("HIRELING WIZARD",
+  profiles: (
+    (name: "Hireling Wizard", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 3, a: 1, ld: 7, points: 65),
+  ),
+  troop-type: "Infantry (Character, Human)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "A Hireling Wizard is a Level 1 Wizard. They use one of the following Lores of Magic:",
+  magic-body: [
+- Battle Magic
+- Beasts
+- Death
+- Heavens
+- Fire
+- Light
+- Life
+- Metal
+- Shadow
+  ],
+  special-rules: "Mercenaries",
+  options: [
+- May take an additional Wizard Level +35 points
+- May be mounted on one of the following:
+  - Warhorse +15 points
+  - Pegasus +25 points
+- May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],
 )
 
@@ -482,8 +547,8 @@ No saves are allowed against Wounds caused by this weapon.
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Polearm +5 points
-  - Great weapon +5 points
+  - Polearm +3 points
+  - Great weapon +3 points
 - May choose one of the following:
   - Shortbow +3 points
   - Pistol +4 points
@@ -491,11 +556,11 @@ No saves are allowed against Wounds caused by this weapon.
   - Handgun +6 points
   - Brace of pistols +7 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-  - Heavy armour +15 points
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
 - May choose one of the following:
-  - Buckler +3 points
+  - Buckler +2 points
   - Shield +5 points
 - May take a Money Lender +10 points
 - May take one of the following:
@@ -519,7 +584,7 @@ No saves are allowed against Wounds caused by this weapon.
   - Throwing weapons +5 points
   - Pistol +6 points
   - Crossbow +8 points
-- May take light armour +3 points
+- May take light armour +2 points
 - May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],
 )
@@ -535,14 +600,14 @@ No saves are allowed against Wounds caused by this weapon.
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Great weapon +15 points
+  - Great weapon +11 points
 - May choose one of the following:
   - Dwarfen pistol +5 points
   - Dwarfen crossbow +7 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-  - Heavy armour +18 points
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
 - May take a shield +5 points
 - May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],
@@ -559,15 +624,15 @@ No saves are allowed against Wounds caused by this weapon.
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Spear +5 points
-  - Great weapon +15 points
+  - Spear +4 points
+  - Great weapon +11 points
 - May choose one of the following:
   - Elven shortbow +6 points
   - Elven longbow +8 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-  - Heavy armour +18 points
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
 - May take a shield +5 points
 - May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],
@@ -588,15 +653,15 @@ No saves are allowed against Wounds caused by this weapon.
 - May choose one of the following:
   - Spear free
   - Additional hand weapon +5 points
-  - Flail +10 points
-  - Great weapon +15 points
+  - Flail +8 points
+  - Great weapon +11 points
 - May choose one of the following:
   - Throwing weapons +4 points
   - Shortbow +5 points
   - Sling +6 points
 - May take light armour +2 points
 - May choose one of the following:
-  - Buckler +3 points
+  - Buckler +2 points
   - Shield +5 points
 - May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],
@@ -614,12 +679,12 @@ No saves are allowed against Wounds caused by this weapon.
 - May choose one of the following:
   - Additional hand weapon +5 points
   - Spear +5 points
-  - Ironfist +5 points
+  - Ironfist +7 points
   - Great weapon +15 points
 - May choose one of the following:
   - Ogre pistol +6 points
   - Brace of Ogre pistols +9 points
-- May take light armour +12 points
+- May take light armour +8 points
 - May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],
 )
@@ -635,10 +700,10 @@ No saves are allowed against Wounds caused by this weapon.
   options: [
 - May choose any of the following:
   - Additional hand weapon +5 points
-  - Great weapon +15 points
+  - Great weapon +11 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
+  - Light armour +2 points
+  - Medium armour +6 points
 - May take a shield +5 points
 - May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],
@@ -660,11 +725,11 @@ No saves are allowed against Wounds caused by this weapon.
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Light lance +5 points
+  - Light lance +4 points
 - May take a shortbow +5 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
+  - Light armour +2 points
+  - Medium armour +6 points
 - May take a shield +5 points
 - May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],
