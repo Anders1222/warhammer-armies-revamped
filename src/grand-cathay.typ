@@ -611,7 +611,7 @@ When transforming, they become a Monster (Draconid) with the Dragon Form profile
 - May choose one of the following:
   - Light armour +2 points
   - Medium armour +6 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May be mounted on a Warhorse +15 points
 - One Gate Keeper may carry the Battle Standard +25 points
 - May take Magic Items up to a total of 50 points

@@ -347,7 +347,7 @@ In addition to the normal rules for the army battle standard, units of Undead wi
   - Polearm +8 points
   - Great weapon +11 points
 - May take light armour +3 points
-- May take a shield +4 points
+- May take a shield +5 points
 - May be mounted on one of the following:
   - Skeletal Steed +10 points
   - Necroserpent +40 points
@@ -399,7 +399,7 @@ In addition to the normal rules for the army battle standard, units of Undead wi
   - Polearm +8 points
   - Great weapon +11 points
 - May take light armour +2 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May be mounted on one of the following:
   - Skeletal Steed +10 points
   - Necroserpent +40 points

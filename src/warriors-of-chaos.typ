@@ -812,7 +812,7 @@ A Daemon Prince who is a Daemon of Tzeentch, Nurgle or Slaanesh must use the Lor
 - May choose one of the following:
   - Medium armour +6 points
   - Heavy armour +12 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May be mounted on one of the following:
   - Warsteed +20 points
   - Steed of Slaanesh (Mark of Slaanesh only) +45 points
@@ -852,7 +852,7 @@ A Daemon Prince who is a Daemon of Tzeentch, Nurgle or Slaanesh must use the Lor
 - May choose one of the following:
   - Medium armour +6 points
   - Heavy armour +12 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May be mounted on one of the following:
   - Warsteed +20 points
   - War Chariot (replacing one of the crew) +100 points
@@ -936,7 +936,7 @@ A Sorcerer with a mark of chaos can choose:
 - May choose one of the following:
   - Light armour +2 points
   - Medium armour +6 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May be mounted on one of the following:
   - Warhorse +15 points
   - Marauder Chariot (replacing one of the crew) +70 points

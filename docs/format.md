@@ -419,8 +419,8 @@ lines as printed and is elided here after its first entry.
   },
   {
    "id": "shield", "kind": "equipment", "select": "any", "min": 0, "max": 1, "appliesTo": null,
-   "raw": "May take a shield +3 points",
-   "choices": [{"id": "shield", "name": "shield", "points": 3, "perModel": false, "raw": "May take a shield +3 points"}]
+   "raw": "May take a shield +5 points",
+   "choices": [{"id": "shield", "name": "shield", "points": 5, "perModel": false, "raw": "May take a shield +5 points"}]
   },
   {
    "id": "full-plate", "kind": "specialRule", "select": "any", "min": 0, "max": 1, "appliesTo": null,

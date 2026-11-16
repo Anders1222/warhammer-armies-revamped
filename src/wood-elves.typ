@@ -531,7 +531,7 @@ A model with this rule can choose to make a single Tree Whack in place of making
   - Elven shortbow +5 points
   - Elven longbow +7 points
 - May take light armour +2 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May choose one of the following:
   - Arcane Bodkins +1 point
   - Moonfire Shot +1 point
@@ -612,7 +612,7 @@ A model with this rule can choose to make a single Tree Whack in place of making
   equipment: "Light lance",
   special-rules: "Devastating Charge, Elven Grace, Forest Spirit, Frenzy",
   options: [
-- May take a shield +3 points
+- May take a shield +5 points
 - May take light armour +2 points
 - May replace Elven Steed with one of the following:
   - Steed of Kurnous +5 points

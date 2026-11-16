@@ -578,7 +578,7 @@ At least one of them must choose their spells from the Lore of the Great Maw.
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Shield +3 points
+  - Shield +5 points
   - Great weapon +8 points
 - May choose one of the following:
   - Throwing weapons +3 points

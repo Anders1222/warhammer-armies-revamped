@@ -594,7 +594,7 @@ If a character with this special rule joins a unit of Knights, Foot Knights or D
   - Light armour +2 points
   - Medium armour +6 points
   - Heavy armour +12 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May be upgraded with the Full Plate special rule for +8 points.
 - May be mounted on one of the following:
   - Warhorse +15 points
@@ -656,7 +656,7 @@ If a character with this special rule joins a unit of Knights, Foot Knights or D
   - Polearm +8 points
   - Great weapon +11 points
 - May take heavy armour +12 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May be mounted on one of the following:
   - Warhorse +15 points
   - Demigryph +40 points
@@ -692,7 +692,7 @@ If a character with this special rule joins a unit of Knights, Foot Knights or D
   - Light armour +2 points
   - Medium armour +6 points
   - Heavy armour +12 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May be mounted on one of the following:
   - Warhorse +15 points
 - May take Magic Items up to a total of 50 points

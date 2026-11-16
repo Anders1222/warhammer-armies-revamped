@@ -491,7 +491,7 @@ The bearer gains the Natural Armour (6+) special rule against missile attacks.
   - Light armour +2 points
   - Medium armour +6 points
   - Heavy armour +12 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May be mounted on one of the following:
   - Elven Steed +15 points
   - Pegasus +25 points

@@ -543,7 +543,7 @@ In addition, a model with this special rule has the four Runes listed below. Unl
 - May choose one of the following:
   - Medium armour +10 points
   - Heavy armour +18 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May be mounted on one of the following:
   - Oathstone +25 points
 - One Thane may carry the Battle Standard +25 points
@@ -571,7 +571,7 @@ In addition, a model with this special rule has the four Runes listed below. Unl
   - Light armour +4 points
   - Medium armour +10 points
   - Heavy armour +18 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May take Magic Items and/or Runic Items up to a total of 50 points
   ],
 )

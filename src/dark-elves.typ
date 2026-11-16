@@ -432,7 +432,7 @@ Lifetaker ignores all To Hit modifiers.
   - Light armour +2 points
   - Medium armour +6 points
   - Heavy armour +12 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May take a Sea Dragon Cloak +2 points
 - May be mounted on one of the following:
   - Dark Steed +15 points

@@ -494,7 +494,7 @@ No saves are allowed against Wounds caused by this weapon.
   - Heavy armour +12 points
 - May choose one of the following:
   - Buckler +2 points
-  - Shield +3 points
+  - Shield +5 points
 - May be mounted on one of the following:
   - Warhorse +15 points
   - Pegasus +25 points
@@ -561,7 +561,7 @@ No saves are allowed against Wounds caused by this weapon.
   - Heavy armour +12 points
 - May choose one of the following:
   - Buckler +2 points
-  - Shield +3 points
+  - Shield +5 points
 - May take a Money Lender +10 points
 - May take one of the following:
   - Paychest +30 points
@@ -608,7 +608,7 @@ No saves are allowed against Wounds caused by this weapon.
   - Light armour +2 points
   - Medium armour +6 points
   - Heavy armour +12 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],
 )
@@ -633,7 +633,7 @@ No saves are allowed against Wounds caused by this weapon.
   - Light armour +2 points
   - Medium armour +6 points
   - Heavy armour +12 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],
 )
@@ -662,7 +662,7 @@ No saves are allowed against Wounds caused by this weapon.
 - May take light armour +2 points
 - May choose one of the following:
   - Buckler +2 points
-  - Shield +3 points
+  - Shield +5 points
 - May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],
 )
@@ -704,7 +704,7 @@ No saves are allowed against Wounds caused by this weapon.
 - May choose one of the following:
   - Light armour +2 points
   - Medium armour +6 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],
 )
@@ -730,7 +730,7 @@ No saves are allowed against Wounds caused by this weapon.
 - May choose one of the following:
   - Light armour +2 points
   - Medium armour +6 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],
 )

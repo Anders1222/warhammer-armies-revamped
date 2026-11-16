@@ -373,7 +373,7 @@ At the start of each enemy turn, the transformed model must take a Leadership te
     opt("Great weapon", "+11 points"),
   ),
     opt("May take heavy armour", "+12 points"),
-    opt("May take a shield", "+3 points"),
+    opt("May take a shield", "+5 points"),
     optgroup("May be mounted on one of the following:",
     opt("Warhorse", "+15 points"),
     opt("Pegasus", "+25 points"),
@@ -444,7 +444,7 @@ At the start of each enemy turn, the transformed model must take a Leadership te
     opt("Light armour", "+2 points"),
     opt("Medium armour", "+6 points"),
   ),
-    opt("May take a shield", "+3 points"),
+    opt("May take a shield", "+5 points"),
     opt("May be mounted on a Horse", "+15 points"),
   ),
   notes: [

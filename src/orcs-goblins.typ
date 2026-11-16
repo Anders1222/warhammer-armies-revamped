@@ -790,7 +790,7 @@ choose another victim. Roll again on this table to see what the Troll Hag does w
   - Light armour +2 points
   - Medium armour (Common and Black Orc only) +6 points
   - Heavy armour (Black Orc only) +12 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May be mounted on one of the following:
   - War Boar +20 points
   - Grunta (Common Orc only) +40 points
@@ -851,7 +851,7 @@ choose another victim. Roll again on this table to see what the Troll Hag does w
 - May choose one of the following:
   - Light armour +2 points
   - Medium armour (Common and Night Goblin only) +6 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May be mounted on one of the following:
   - Giant Wolf (Common Goblin only) +15 points
   - Giant Spider (Forest Goblin only) +15 points

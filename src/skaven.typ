@@ -667,7 +667,7 @@ They may use a combination of spells from both Lores.
   - Light armour +2 points
   - Medium armour +6 points
   - Heavy armour +12 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May take a tail weapon +5 points
 - May take a Rat Hound Bodyguard +3 points
 - May be mounted on one of the following:

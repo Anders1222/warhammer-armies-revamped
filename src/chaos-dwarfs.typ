@@ -456,7 +456,7 @@ this turn.")))
 - May choose one of the following:
   - Medium armour +6 points
   - Heavy armour +12 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May be mounted on one of the following:
   - Great Taurus +95 points
 - One Overseer may carry the Battle Standard +25 points
@@ -513,7 +513,7 @@ this turn.")))
 - May choose one of the following:
   - Light armour +12 points
   - Medium armour +28 points
-- May take a shield +7 points
+- May take a shield +5 points
 - May take Magic Items up to a total of 50 points
   ],
   notes: [
@@ -537,7 +537,7 @@ this turn.")))
 - May choose one of the following:
   - Light armour +2 points
   - Medium armour +6 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May be mounted on a Giant Wolf +15 points
 - May take Magic Items up to a total of 25 points
   ],

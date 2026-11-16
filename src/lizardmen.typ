@@ -451,7 +451,7 @@ Strength 5 hits.")))
   - Light lance +4 points
   - Polearm +8 points
   - Great weapon +8 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May take light armour +6 points
 - May be mounted on one of the following:
   - Cold One +25 points
@@ -483,7 +483,7 @@ Strength 5 hits.")))
   - Shortbow +4 points
   - Sling +4 points
   - Javelins +5 points
-- May take a shield +3 points
+- May take a shield +5 points
 - May take light armour +4 points
 - May take Firefly Frog Venom +5 points
 - May be mounted on one of the following:
