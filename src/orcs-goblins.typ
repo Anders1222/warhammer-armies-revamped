@@ -2384,7 +2384,7 @@ it.")))
   options: [
 - May choose one of the following:
   - Additional hand weapon +3 points
-  - Shield +3 points
+  - Shield +5 points
   ],
 )
 
