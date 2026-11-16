@@ -342,12 +342,12 @@ In addition to the normal rules for the army battle standard, units of Undead wi
 - May choose one of the following:
   - Spear free
   - Additional hand weapon +5 points
-  - Light lance +5 points
-  - Flail +10 points
-  - Polearm +10 points
-  - Great weapon +15 points
-- May take light armour +3 points
-- May take a shield +5 points
+  - Light lance +4 points
+  - Flail +8 points
+  - Polearm +8 points
+  - Great weapon +11 points
+- May take light armour +2 points
+- May take a shield +4 points
 - May be mounted on one of the following:
   - Skeletal Steed +10 points
   - Necroserpent +40 points
@@ -372,7 +372,7 @@ In addition to the normal rules for the army battle standard, units of Undead wi
   special-rules: "Indomitable, Undead",
   options: [
 - May take an additional Wizard Level +35 points
-- May take light armour +3 points
+- May take light armour +2 points
 - May be mounted on one of the following:
   - Skeletal Steed +10 points
 - May take Magic Items up to a total of 50 points

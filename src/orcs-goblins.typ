@@ -782,15 +782,15 @@ choose another victim. Roll again on this table to see what the Troll Hag does w
   - Savage Orc +20 points
 - May choose any of the following:
   - Additional hand weapon +5 points
-  - Spear +5 points
-  - Light lance +5 points
-  - Polearm +10 points
-  - Great weapon +15 points
+  - Spear +4 points
+  - Light lance +4 points
+  - Polearm +8 points
+  - Great weapon +11 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour (Common and Black Orc only) +9 points
-  - Heavy armour (Black Orc only) +18 points
-- May take a shield +5 points
+  - Light armour +2 points
+  - Medium armour (Common and Black Orc only) +6 points
+  - Heavy armour (Black Orc only) +12 points
+- May take a shield +3 points
 - May be mounted on one of the following:
   - War Boar +20 points
   - Grunta (Common Orc only) +40 points
@@ -843,15 +843,15 @@ choose another victim. Roll again on this table to see what the Troll Hag does w
   - Forest Goblin free
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Spear +5 points
-  - Light lance +5 points
-  - Polearm +10 points
-  - Great weapon +15 points
-- May take a shortbow +4 points
+  - Spear +4 points
+  - Light lance +4 points
+  - Polearm +8 points
+  - Great weapon +11 points
+- May take a shortbow +3 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour (Common and Night Goblin only) +9 points
-- May take a shield +5 points
+  - Light armour +2 points
+  - Medium armour (Common and Night Goblin only) +6 points
+- May take a shield +3 points
 - May be mounted on one of the following:
   - Giant Wolf (Common Goblin only) +15 points
   - Giant Spider (Forest Goblin only) +15 points

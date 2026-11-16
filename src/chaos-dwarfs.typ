@@ -423,9 +423,9 @@ this turn.")))
 - May take an additional Wizard Level +35 points
 - May take Naptha Bombs +10 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-  - Heavy armour +18 points
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
 - May be mounted on one of the following:
   - Palanquin +25 points
   - Great Taurus +95 points
@@ -448,15 +448,15 @@ this turn.")))
 - May choose one of the following:
   - Additional hand weapon +5 points
   - Fireglaive +15 points
-  - Great weapon +15 points
+  - Great weapon +11 points
 - May choose one of the following:
   - Pistol +4 points
   - Blunderbuss +6 points
   - Crossbow +6 points
 - May choose one of the following:
-  - Medium armour +9 points
-  - Heavy armour +18 points
-- May take a shield +5 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
+- May take a shield +3 points
 - May be mounted on one of the following:
   - Great Taurus +95 points
 - One Overseer may carry the Battle Standard +25 points

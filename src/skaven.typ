@@ -658,16 +658,16 @@ They may use a combination of spells from both Lores.
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Polearm +10 points
-  - Great weapon +15 points
+  - Polearm +8 points
+  - Great weapon +11 points
 - May choose one of the following:
   - Warplock pistol +7 points
   - Ratling pistol +7 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-  - Heavy armour +18 points
-- May take a shield +5 points
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
+- May take a shield +3 points
 - May take a tail weapon +5 points
 - May take a Rat Hound Bodyguard +3 points
 - May be mounted on one of the following:
@@ -693,8 +693,8 @@ They may use a combination of spells from both Lores.
   special-rules: "Dodge (5+), Hidden, Poisoned Attacks, Scouts, Strength in Numbers, Scurry Away",
   options: [
 - May choose one of the following:
-  - Blowpipe +6 points
-  - Sling +7 points
+  - Blowpipe +5 points
+  - Sling +6 points
 - May take a tail weapon +5 points
 - May take smoke bombs +5 points
 - May take Magic Items up to a total of 50 points
@@ -734,10 +734,10 @@ They may use a combination of spells from both Lores.
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Whip +10 points
-  - Great weapon +15 points
-  - Things-catcher +20 points
-  - Shock-prod +25 points
+  - Whip +7 points
+  - Great weapon +10 points
+  - Things-catcher +13 points
+  - Shock-prod +17 points
 - May take a tail weapon +5 points
 - May take a Rat Hound Bodyguard +3 points
 - May be mounted on one of the following:
@@ -760,9 +760,9 @@ They may use a combination of spells from both Lores.
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Flail +10 points
-  - Great weapon +15 points
-  - Plague censer +20 points
+  - Flail +7 points
+  - Great weapon +10 points
+  - Plague censer +13 points
 - May be mounted on one of the following:
   - Great Pox Rat +20 points
 - May take Magic Items up to a total of 50 points
@@ -793,12 +793,12 @@ They may use a combination of spells from both Lores.
     rule("Warp-Blades")[Warp-Blades give the bearer a +1 casting bonus when using the _Warp Lightning_ spell from the Lore of Ruin.],
   ),
   options: [
-- May take a polearm +5 points
+- May take a polearm +3 points
 - May choose one of the following:
-  - Warplock Pistol +6 points
-  - Ratling Pistol +6 points
-  - Warpmusket +9 points
-  - Warpvolt Obliterator +15 points
+  - Warplock Pistol +5 points
+  - Ratling Pistol +5 points
+  - Warpmusket +8 points
+  - Warpvolt Obliterator +14 points
 - May choose one of the following:
   - Gas Mask +5 points
   - Warlock Optics +15 points
@@ -806,7 +806,7 @@ They may use a combination of spells from both Lores.
   - Warp-Blades +5 points
   - Supercharged Warp-Power Accumulator +10 points
   - Upgraded Warp-Energy Condenser +15 points
-- May take light armour +3 points
+- May take light armour +2 points
 - May take Magic Items up to a total of 50 points
   ],
 )

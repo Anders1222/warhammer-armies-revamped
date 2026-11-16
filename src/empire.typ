@@ -578,11 +578,11 @@ If a character with this special rule joins a unit of Knights, Foot Knights or D
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Spear +5 points
-  - Light lance +5 points
-  - Heavy lance +10 points
-  - Polearm +10 points
-  - Great weapon +15 points
+  - Spear +4 points
+  - Light lance +4 points
+  - Heavy lance +8 points
+  - Polearm +8 points
+  - Great weapon +11 points
 - May choose one of the following:
   - Pistol +5 points
   - Longbow +6 points
@@ -591,11 +591,11 @@ If a character with this special rule joins a unit of Knights, Foot Knights or D
   - Repeater pistol +7 points
   - Repeater handgun +9 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-  - Heavy armour +18 points
-- May take a shield +5 points
-- May be upgraded with the Full Plate special rule for +12 points.
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
+- May take a shield +3 points
+- May be upgraded with the Full Plate special rule for +8 points.
 - May be mounted on one of the following:
   - Warhorse +15 points
   - Pegasus +25 points
@@ -650,13 +650,13 @@ If a character with this special rule joins a unit of Knights, Foot Knights or D
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Cavalry hammer +10 points
-  - Flail +10 points
-  - Heavy lance +10 points
-  - Polearm +10 points
-  - Great weapon +15 points
-- May take heavy armour +18 points
-- May take a shield +5 points
+  - Cavalry hammer +8 points
+  - Flail +8 points
+  - Heavy lance +8 points
+  - Polearm +8 points
+  - Great weapon +11 points
+- May take heavy armour +12 points
+- May take a shield +3 points
 - May be mounted on one of the following:
   - Warhorse +15 points
   - Demigryph +40 points
@@ -687,12 +687,12 @@ If a character with this special rule joins a unit of Knights, Foot Knights or D
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Great weapon +10 points
+  - Great weapon +7 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-  - Heavy armour +18 points
-- May take a shield +5 points
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
+- May take a shield +3 points
 - May be mounted on one of the following:
   - Warhorse +15 points
 - May take Magic Items up to a total of 50 points
@@ -715,12 +715,12 @@ If a character with this special rule joins a unit of Knights, Foot Knights or D
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Great weapon +10 points
-- May take a brace of pistols +5 points
+  - Great weapon +7 points
+- May take a brace of pistols +4 points
 - May choose one of the following:
-  - Crossbow +7 points
-  - Handgun +7 points
-- May take light armour +3 points
+  - Crossbow +6 points
+  - Handgun +6 points
+- May take light armour +2 points
 - May be mounted on a Warhorse +15 points
 - May take Magic Items up to a total of 50 points
   ],

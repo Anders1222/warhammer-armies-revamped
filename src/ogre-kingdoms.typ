@@ -431,16 +431,16 @@ At least one of them must choose their spells from the Lore of the Great Maw.
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Spear +5 points
-  - Light lance +5 points
-  - Ironfist +5 points
-  - Great weapon +10 points
-  - Polearm +10 points
+  - Spear +4 points
+  - Light lance +4 points
+  - Ironfist +4 points
+  - Great weapon +8 points
+  - Polearm +8 points
 - May choose one of the following:
   - Ogre pistol +8 points
   - Brace of Ogre pistols +11 points
 - May take a gut-plate +5 points
-- May take light armour +10 points
+- May take light armour +8 points
 - May take up to 2 Name-Gnoblars +3 points/Gnoblar
 - May take up to 2 Sword-Gnoblars +3 points/Gnoblar
 - May take a Luck-Gnoblar +5 points
@@ -478,7 +478,7 @@ At least one of them must choose their spells from the Lore of the Great Maw.
 - May take an additional Wizard Level +35 points
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Great weapon +15 points
+  - Great weapon +11 points
 - May take a gut-plate +5 points
 - May take up to 2 Scalp-Gnoblars +5 points/Gnoblar
 - May take up to 2 Tooth-Gnoblars +5 points/Gnoblar

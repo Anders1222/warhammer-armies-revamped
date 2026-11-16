@@ -477,11 +477,11 @@ No saves are allowed against Wounds caused by this weapon.
 - May choose one of the following:
   - Spear free
   - Additional hand weapon +5 points
-  - Oriental longsword +5 points
-  - Light lance +5 points
-  - Heavy lance +10 points
-  - Polearm +10 points
-  - Great weapon +15 points
+  - Oriental longsword +4 points
+  - Light lance +4 points
+  - Heavy lance +8 points
+  - Polearm +8 points
+  - Great weapon +11 points
 - May choose one of the following:
   - Shortbow +4 points
   - Pistol +5 points
@@ -489,12 +489,12 @@ No saves are allowed against Wounds caused by this weapon.
   - Handgun +7 points
   - Brace of pistols +8 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-  - Heavy armour +18 points
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
 - May choose one of the following:
-  - Buckler +3 points
-  - Shield +5 points
+  - Buckler +2 points
+  - Shield +3 points
 - May be mounted on one of the following:
   - Warhorse +15 points
   - Pegasus +25 points

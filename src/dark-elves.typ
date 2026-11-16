@@ -422,18 +422,18 @@ Lifetaker ignores all To Hit modifiers.
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Spear +5 points
-  - Light lance +5 points
-  - Heavy lance +10 points
-  - Polearm +10 points
-  - Great weapon +15 points
-- May take a Deathrain crossbow +8 points
+  - Spear +4 points
+  - Light lance +4 points
+  - Heavy lance +8 points
+  - Polearm +8 points
+  - Great weapon +11 points
+- May take a Deathrain crossbow +7 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-  - Heavy armour +18 points
-- May take a shield +5 points
-- May take a Sea Dragon Cloak +3 points
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
+- May take a shield +3 points
+- May take a Sea Dragon Cloak +2 points
 - May be mounted on one of the following:
   - Dark Steed +15 points
   - Cold One +20 points
@@ -469,7 +469,7 @@ Lifetaker ignores all To Hit modifiers.
   special-rules: "Elven Grace, Hatred (High Elves), Hekarti's Blessing, Murderous Prowess",
   options: [
 - May take an additional Wizard Level +35 points
-- May take light armour +3 points
+- May take light armour +2 points
 - May be mounted on one of the following:
   - Dark Steed +15 points
   - Cold One +20 points
@@ -489,8 +489,8 @@ Lifetaker ignores all To Hit modifiers.
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Polearm +10 points
-- May take light armour +3 points
+  - Polearm +8 points
+- May take light armour +2 points
 - One Death Hag may carry the Battle Standard +25 points
 - May take Magic Items and/or Gifts of Khaine up to a total of 50 points
   ],

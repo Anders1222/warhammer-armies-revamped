@@ -522,11 +522,11 @@ When transforming, they become a Monster (Draconid) with the Dragon Form profile
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Celestial blade +5 points
-  - Spear +5 points
-  - Light lance +5 points
-  - Polearm +10 points
-  - Great weapon +15 points
+  - Celestial blade +4 points
+  - Spear +4 points
+  - Light lance +4 points
+  - Polearm +8 points
+  - Great weapon +11 points
 - May choose one of the following:
   - Shortbow +4 points
   - Repeater crossbow +5 points
@@ -535,9 +535,9 @@ When transforming, they become a Monster (Draconid) with the Dragon Form profile
   - Handgun +7 points
   - Dragon fire pistol +9 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-  - Heavy armour +18 points
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
 - May be mounted on one of the following:
   - Warhorse +14 points
   - Jade Longma +40 points
@@ -562,7 +562,7 @@ When transforming, they become a Monster (Draconid) with the Dragon Form profile
   special-rules: "Mastery of the Elemental Winds, Will of the Dragons, Yin",
   options: [
 - May take an additional Wizard Level +35 points
-- May take light armour +3 points
+- May take light armour +2 points
 - May be mounted on a Warhorse +15 points
 - May take Magic Items up to a total of 50 points
   ],
@@ -579,7 +579,7 @@ When transforming, they become a Monster (Draconid) with the Dragon Form profile
   special-rules: "Mastery of the Elemental Winds, Will of the Dragons, Yang",
   options: [
 - May take an additional Wizard Level +35 points
-- May take light armour +3 points
+- May take light armour +2 points
 - May be mounted on one of the following:
   - Warhorse +15 points
 - May take Magic Items up to a total of 50 points
@@ -600,18 +600,18 @@ When transforming, they become a Monster (Draconid) with the Dragon Form profile
   ),
   options: [
 - May choose one of the following:
-  - Spear +5 points
-  - Light lance +5 points
-  - Polearm +10 points
+  - Spear +3 points
+  - Light lance +3 points
+  - Polearm +7 points
 - May choose one of the following:
-  - Shortbow +4 points
-  - Longbow +6 points
-  - Crossbow +7 points
-  - Repeater crossbow +6 points
+  - Shortbow +3 points
+  - Longbow +5 points
+  - Crossbow +6 points
+  - Repeater crossbow +5 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-- May take a shield +5 points
+  - Light armour +2 points
+  - Medium armour +6 points
+- May take a shield +3 points
 - May be mounted on a Warhorse +15 points
 - One Gate Keeper may carry the Battle Standard +25 points
 - May take Magic Items up to a total of 50 points
@@ -636,8 +636,8 @@ When transforming, they become a Monster (Draconid) with the Dragon Form profile
   - *Inspired Marksmanship:* The unit ignores all negative shooting modifiers not caused by spells or magic items.
   ],
   options: [
-- May take dragon fire bombs +10 points
-- May take light armour +3 points
+- May take dragon fire bombs +9 points
+- May take light armour +2 points
 - May be mounted on one of the following
   - Warhorse +15 points
   - Sky Lantern (replacing one of the crew) +85 points

@@ -524,14 +524,14 @@ A model with this rule can choose to make a single Tree Whack in place of making
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Spear +5 points
-  - Light lance +5 points
-  - Great weapon +15 points
+  - Spear +4 points
+  - Light lance +4 points
+  - Great weapon +11 points
 - May choose one of the following:
-  - Elven shortbow +6 points
-  - Elven longbow +8 points
-- May take light armour +3 points
-- May take a shield +5 points
+  - Elven shortbow +5 points
+  - Elven longbow +7 points
+- May take light armour +2 points
+- May take a shield +3 points
 - May choose one of the following:
   - Arcane Bodkins +1 point
   - Moonfire Shot +1 point
