@@ -1321,7 +1321,7 @@ Some unusual attacks (most commonly those made by magic missiles, but also many 
 
 In the boxes where there are two values listed, this means that in order to successfully score a Wound, you must first roll a 6, followed by another D6. In situations where the roll might have a modifier to it, this primarily affects the second roll before the first. For example, a Strength 2 Attack with a +1 modifier treats Toughness 5 as only requiring to roll a 6+ To Wound, rather than a 6+ followed by a 2+.
 
-When a unit has multiple toughness values or armour saves you use the value of the majority or in the case of a tie, the best tied value, unless specified otherwise.
+When a unit has multiple toughness values you use the value of the majority or in the case of a tie, the best tied value, unless specified otherwise.
 
 #namecost("Resolving Unusual Attacks", "")
 
@@ -2597,7 +2597,7 @@ Any special rules listed for Cavalry units only apply to the rider, unless they 
 - Fear
 - Fly (\*)
 - Immunity (\*)
-
+- Regeneration (\*)
 - Scouts
 - Stupidity
 - Stubborn
