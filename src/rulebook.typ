@@ -711,7 +711,7 @@ All compulsory movement is carried out after charges have been resolved, but bef
 
 During the Compulsory Moves sub-phase, the player picks any one of their fleeing units and tests to rally it (as explained below). They then proceed to the next fleeing unit and attempt to rally it, and so on, in any order they wish, until all units that are able to make a rally attempt have done so.
 
-If the unit started to flee in this turn it cannot attempt to rally the same turn.
+If the unit started to flee in this turn it cannot attempt to rally the same turn. Units cannot attempt to rally if enemy units are within 6", unless those units are fleeing, engaged in combat or have less than Unit Strength 10.
 
 A unit attempts to rally by taking a Leadership test. If the fleeing unit has been reduced in size to a quarter (25%) or less of the number of models with which it began the game, its Leadership value is halved (after any other modifiers, special rules or abilities are applied, rounded up).
 
