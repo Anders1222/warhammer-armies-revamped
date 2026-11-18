@@ -610,9 +610,6 @@ The charge range of a unit is the sum of its Movement value and 2D6 (choose the 
 
 With the unit's charge range established, measure the distance between the charging unit and its target unit at their closest points in an uninterrupted line between them. If the distance is greater than the charge range, then the charging unit realises that if has insufficient momentum to reach the enemy and instead makes what we call a failed charge. If the distance is less than or equal to the charge range, then the charging unit has reached the enemy and makes a successful charge.
 
-#namecost("DISORDERED CHARGE", "")
-
-In certain situations, a unit’s charge may become disordered, most commonly due to various types of terrain. A unit that makes a disordered charge is not subject to any rules that only apply when a unit charges.
 
 #namecost("FAILED CHARGE", "")
 
@@ -664,7 +661,7 @@ If a charging unit straddles two zones, then the unit is considered to be in the
 
 #note[_4\. In this case it is hard to tell where the majority of the front rank lies, so it is best to roll a dice to decide between a flank and rear charge._]
 
-In some cases, the enemy unit might have to close the door with the chargers instead. In this situation, the charging unit counts as making a disordered charge against that unit. If no amount of finagling can allow the unit to avoid the obstacle, the charge fails.
+In some cases, the enemy unit might have to close the door with the chargers instead. If no amount of finagling can allow the unit to avoid the obstacle, the charge fails.
 
 There is one important principle that you should always keep in mind when charging: under no circumstances can a unit use its charge move to move into contact with an enemy it has not declared a charge against.
 
@@ -674,7 +671,7 @@ Sometimes a charging unit can move into contact with its target, but cannot clos
 
 #diagram("/assets/figures/rulebook/img-0470.svg", 0.999)
 
-#note[_1\. The red unit declares a charge. 2. It wheels to maximise and avoid terrain. 3. It moves into contact with the enemy. 4. The charging unit cannot close the door, because a rock is in the way, so the blue unit does instead. This causes the red unit to make a disordered charge._]
+#note[_1\. The red unit declares a charge. 2. It wheels to maximise and avoid terrain. 3. It moves into contact with the enemy. 4. The charging unit cannot close the door, because a rock is in the way, so the blue unit does instead._]
 
 #namecost("CHARGING A FLEEING ENEMY", "")
 
