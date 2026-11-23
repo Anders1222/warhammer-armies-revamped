@@ -270,12 +270,68 @@ In addition to the normal rules for the army battle standard, units of Undead wi
 #magic-standard("MIRAGE STANDARD", 40)[The Mirage Standard forces all Hits from missile attacks targeting the unit carrying it to be re-rolled.]
 ]
 
-= CHARACTERS
+= LORDS
 
-#unit("TOMB MONARCHS",
+#unit("TOMB KING",
   first: true,
   profiles: (
     (name: "Tomb King", m: 4, ws: 6, bs: 3, s: 5, t: 5, w: 4, i: 3, a: 4, ld: 10, points: 155),
+  ),
+  troop-type: "Infantry (Character, Undead)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Curse of the Necropolis, Flammable, Indomitable, My Will Be Done, Undead",
+  options: [
+- May choose one of the following:
+  - Spear free
+  - Additional hand weapon +5 points
+  - Light lance +5 points
+  - Flail +10 points
+  - Polearm +10 points
+  - Great weapon +15 points
+- May take light armour +3 points
+- May take a shield +5 points
+- May be mounted on one of the following:
+  - Skeletal Steed +10 points
+  - Necroserpent +40 points
+  - Skeleton Chariot +45 points
+  - Khemrian Warsphinx (replacing the crew) +225 points
+  - Necrolith Bone Dragon +235 points
+- May take Magic Items up to a total of 100 points
+  ],
+)
+
+#unit("LICHE HIGH PRIEST",
+  profiles: (
+    (name: "Liche High Priest", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 3, i: 3, a: 2, ld: 8, points: 160),
+  ),
+  troop-type: "Infantry (Character, Undead)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "A Liche High Priest is a Level 3 Wizard who chooses spells from one of the following Lores of Magic:",
+  magic-body: [
+- Death
+- Light
+- Nehekhara
+  ],
+  special-rules: "Indomitable, Undead",
+  options: [
+- May take an additional Wizard Level +35 points
+- May take light armour +3 points
+- May be mounted on one of the following:
+  - Skeletal Steed +10 points
+  - Tomb Barque (replacing one of the crew) +120 points
+  - Casket of Souls (replacing the Keeper of the Casket) +130 points
+  - Necrolith Bone Dragon +235 points
+- May take Magic Items up to a total of 100 points
+  ],
+)
+
+= HEROES
+
+#unit("TOMB PRINCE",
+  first: true,
+  profiles: (
     (name: "Tomb Prince", m: 4, ws: 5, bs: 3, s: 5, t: 5, w: 3, i: 3, a: 3, ld: 9, points: 105),
   ),
   troop-type: "Infantry (Character, Undead)",
@@ -296,22 +352,18 @@ In addition to the normal rules for the army battle standard, units of Undead wi
   - Skeletal Steed +10 points
   - Necroserpent +40 points
   - Skeleton Chariot +45 points
-  - Khemrian Warsphinx (Tomb King only, replacing the crew) +225 points
-  - Necrolith Bone Dragon (Tomb King only) +235 points
-- A Tomb Prince may take Magic Items up to a total of 50 points
-- A Tomb King may take Magic Items up to a total of 100 points
+- May take Magic Items up to a total of 50 points
   ],
 )
 
-#unit("LICHE PRIESTS",
+#unit("LICHE PRIEST",
   profiles: (
-    (name: "Liche High Priest", m: 4, ws: 4, bs: 3, s: 3, t: 3, w: 3, i: 3, a: 2, ld: 8, points: 160),
     (name: "Liche Priest", m: 4, ws: 3, bs: 3, s: 3, t: 3, w: 2, i: 2, a: 1, ld: 7, points: 65),
   ),
   troop-type: "Infantry (Character, Undead)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "A Liche High Priest is a Level 3 Wizard who chooses spells from one of the following Lores of Magic:",
+  magic: "A Liche Priest is a Level 1 Wizard who chooses spells from one of the following Lores of Magic:",
   magic-body: [
 - Death
 - Light
@@ -323,11 +375,7 @@ In addition to the normal rules for the army battle standard, units of Undead wi
 - May take light armour +3 points
 - May be mounted on one of the following:
   - Skeletal Steed +10 points
-  - Tomb Barque (Liche High Priest only, replacing one of the crew) +120 points
-  - Casket of Souls (Liche High Priest only, replacing the Keeper of the Casket) +130 points
-  - Necrolith Bone Dragon (Liche High Priest only) +235 points
-- A Liche Priest may take Magic Items up to a total of 50 points
-- A Liche High Priest may take Magic Items up to a total of 100 points
+- May take Magic Items up to a total of 50 points
   ],
 )
 

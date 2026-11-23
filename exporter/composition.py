@@ -104,6 +104,17 @@ def rulebook_composition(rulebook: dict) -> dict:
         if cat:
             comp["pointsCategories"][key] = cat
 
+    # One sentence, three caps: Lords, Heroes, and both together as `characters`.
+    h = heads.get("LORDS & HEROES")
+    if h:
+        for key, pattern in (("lords", r"\bup to\s+(\d+)%[^.%]*?\bon Lords\b"),
+                             ("heroes", r"\b(\d+)%\s+on Heroes\b"),
+                             ("characters", r"\bno more than\s+(\d+)%\s+in total\b")):
+            hit = percent_in(h["text"], pattern)
+            if hit:
+                comp["pointsCategories"].setdefault(key, {})["maxPercent"] = hit[0]
+                sources[f"pointsCategories.{key}.maxPercent"] = hit[1]
+
     h = heads.get("COST LIMIT")
     if h:
         hit = percent_in(h["text"], r"\bmore than\s+(\d+)%")

@@ -75,9 +75,9 @@ unit, not alternatives.) Each takes that profile's printed name; its
 are only the groups, at every depth, whose `appliesTo` is `null` or that
 profile, and within them only the choices whose own `appliesTo` is `null` or
 that profile. A group left with no choices is dropped. Every other field is
-copied to each. The Empire's COMMANDERS is the builder's General (with the
-Griffons, which are General only) and Captain (with the Battle Standard,
-which a Captain carries).
+copied to each. No WAR book has such an entry: each files its generic
+characters under LORDS and HEROES, one entry per priced profile, so the
+split column of the build report is 0.
 
 A unit has every key, `null` when the entry has none, in this order:
 `name`, `category`, `profiles`, `troopType`, `baseSize`, `equipment`,

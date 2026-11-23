@@ -380,12 +380,141 @@ A model with this rule can choose to make a single Tree Whack in place of making
 #magic-standard("BANNER OF MIDSUMMER'S EVE", 10)[The unit carrying this standard ignores To Hit penalties for shooting at enemies in cover.]
 ]
 
-= CHARACTERS
+= LORDS
 
-#unit("HIGHBORNS",
+#unit("GLADE LORD",
   first: true,
   profiles: (
     (name: "Glade Lord", m: 5, ws: 7, bs: 7, s: 4, t: 3, w: 3, i: 8, a: 4, ld: 10, points: 120),
+  ),
+  troop-type: "Infantry (Character, Wood Elf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Asrai Archery, Elven Grace, Forest Strider",
+  options: [
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Spear +5 points
+  - Light lance +5 points
+  - Great weapon +15 points
+- May choose one of the following:
+  - Elven shortbow +6 points
+  - Elven longbow +8 points
+- May take light armour +3 points
+- May take a shield +5 points
+- May choose one of the following:
+  - Arcane Bodkins +1 point
+  - Moonfire Shot +1 point
+  - Starfire Shafts +1 point
+  - Hagbane Tips +2 points
+  - Swiftshiver Shards +2 points
+  - Trueflight Arrows +2 points
+- May be mounted on one of the following:
+  - Elven Steed +15 points
+  - Warhawk +25 points
+  - Great Eagle +40 points
+  - Great Stag +50 points
+  - Meadow Chariot (replacing one of the crew) +70 points
+  - Forest Dragon +325 points
+- May take one Spite and/or Magic Items up to a total of 100 points
+  ],
+)
+
+#unit("SPELLWEAVER",
+  profiles: (
+    (name: "Spellweaver", m: 5, ws: 5, bs: 4, s: 3, t: 3, w: 3, i: 6, a: 2, ld: 9, points: 195),
+  ),
+  troop-type: "Infantry (Character, Wood Elf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "A Spellweaver is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic-body: [
+- Athel Loren
+- Beasts
+- Heavens
+- Light
+- Life
+- Shadow
+  ],
+  special-rules: "Blessings of the Ancients, Elven Grace, Forest Strider",
+  options: [
+- May take an additional Wizard Level +35 points
+- May be mounted on one of the following:
+  - Elven Steed +15 points
+  - Warhawk +25 points
+  - Unicorn +25 points
+  - Great Eagle +40 points
+- May take one Spite and/or Magic Items up to a total of 100 points
+  ],
+)
+
+#unit("ARCH-REVENANT",
+  profiles: (
+    (name: "Arch-Revenant", m: 5, ws: 7, bs: 7, s: 4, t: 3, w: 3, i: 8, a: 4, ld: 10, points: 160),
+  ),
+  troop-type: "Infantry (Character, Forest Spirit)",
+  base-size: "25x25 or 30x30",
+  equipment: "Polearm, shield",
+  special-rules: "Fly (10), Forest Spirit, Natural Armour (6+)",
+  special-rules-body: (
+    rule("Call to Battle")[All friendly units with the Forest Spirit special rule within 6" of the Arch-Revenant are subject to the Frenzy special rule as long as they remain within range, and do not lose Frenzy even if losing combat.],
+  ),
+  options: [
+- May take one Spite and/or Magic Items up to a total of 100 points
+  ],
+)
+
+#unit("WARSONG REVENANT",
+  profiles: (
+    (name: "Warsong Revenant", m: 5, ws: 4, bs: 4, s: 3, t: 3, w: 3, i: 5, a: 1, ld: 9, points: 250),
+  ),
+  troop-type: "Infantry (Character, Forest Spirit)",
+  base-size: "50x75",
+  equipment: "Hand weapon",
+  magic: "A Warsong Revenant is a Level 3 Wizard who uses one of the following Lores of Magic:",
+  magic-body: [
+- Athel Loren
+- Life
+  ],
+  special-rules: "Blessings of the Ancients, Fly (5), Forest Spirit, Regeneration (5+), Natural Armour (6+)",
+  special-rules-body: (
+    rule("Song of Athel Loren")[Friendly models within 12" of one or more Warsong Revenants gain +1 to their Leadership. Enemy models within 12" of one or more Warsong Revenants suffer \-1 to their Leadership.],
+  ),
+  options: [
+- May take one Spite and/or Magic Items up to a total of 100 points
+  ],
+)
+
+#unit("TREELORD ANCIENT",
+  profiles: (
+    (name: "Treelord Ancient", m: 5, ws: 4, bs: 4, s: 6, t: 6, w: 6, i: 2, a: 3, ld: 10, points: 250),
+  ),
+  troop-type: "Monster (Character, Forest Spirit)",
+  base-size: "75x50 or 100x100",
+  equipment: "Hand weapon",
+  magic: "A Treelord Ancient is a Level 1 Wizard who uses one of the following Lores of Magic:",
+  magic-body: [
+- Athel Loren
+- Life
+  ],
+  special-rules: "Blessings of the Ancients, Flammable, Forest Spirit, Natural Armour (3+), Stubborn, Tree Whack",
+  upgrades: [
+- *Strangleroots:* Strangleroots have the following profile:
+
+#minitable(("Range", "Strength", "Special Rules"), ("6/12\"", "5", "Multiple Shots (D6+1), Quick Shot, Rapid Fire"))
+  ],
+  options: [
+- May be upgraded to a Level 2 Wizard +35 points
+- May take Strangleroots +10 points
+- May take Spites up to a total of 100 points
+  ],
+)
+
+= HEROES
+
+#unit("GLADE CAPTAIN",
+  first: true,
+  profiles: (
     (name: "Glade Captain", m: 5, ws: 6, bs: 6, s: 4, t: 3, w: 2, i: 7, a: 3, ld: 9, points: 55),
   ),
   troop-type: "Infantry (Character, Wood Elf)",
@@ -416,25 +545,22 @@ A model with this rule can choose to make a single Tree Whack in place of making
   - Great Eagle +40 points
   - Great Stag +50 points
   - Meadow Chariot (replacing one of the crew) +70 points
-  - Forest Dragon (Glade Lord only) +325 points
 - One Glade Captain may carry the Battle Standard +25 points
-- A Glade Captain may take one Spite and/or Magic Items up to a total of 50 points
-- A Glade Lord may take one Spite and/or Magic Items up to a total of 100 points
+- May take one Spite and/or Magic Items up to a total of 50 points
   ],
   notes: [
 - The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
   ],
 )
 
-#unit("SPELLSINGERS",
+#unit("SPELLSINGER",
   profiles: (
-    (name: "Spellweaver", m: 5, ws: 5, bs: 4, s: 3, t: 3, w: 3, i: 6, a: 2, ld: 9, points: 195),
     (name: "Spellsinger", m: 5, ws: 4, bs: 4, s: 3, t: 3, w: 2, i: 5, a: 1, ld: 8, points: 85),
   ),
   troop-type: "Infantry (Character, Wood Elf)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "A Spellsinger is a Level 1 Wizard. A Spellweaver is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic: "A Spellsinger is a Level 1 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
 - Athel Loren
 - Beasts
@@ -451,8 +577,7 @@ A model with this rule can choose to make a single Tree Whack in place of making
   - Warhawk +25 points
   - Unicorn +25 points
   - Great Eagle +40 points
-- A Spellsinger may take one Spite and/or Magic Items up to a total of 50 points
-- A Spellweaver take one Spite and/or Magic Items up to a total of 100 points
+- May take one Spite and/or Magic Items up to a total of 50 points
   ],
 )
 
@@ -516,68 +641,6 @@ A model with this rule can choose to make a single Tree Whack in place of making
   - Swiftshiver Shards +2 points
   - Trueflight Arrows +2 points
 - May take one Spite and/or Magic Items up to a total of 50 points
-  ],
-)
-
-#unit("ARCH-REVENANT",
-  profiles: (
-    (name: "Arch-Revenant", m: 5, ws: 7, bs: 7, s: 4, t: 3, w: 3, i: 8, a: 4, ld: 10, points: 160),
-  ),
-  troop-type: "Infantry (Character, Forest Spirit)",
-  base-size: "25x25 or 30x30",
-  equipment: "Polearm, shield",
-  special-rules: "Fly (10), Forest Spirit, Natural Armour (6+)",
-  special-rules-body: (
-    rule("Call to Battle")[All friendly units with the Forest Spirit special rule within 6" of the Arch-Revenant are subject to the Frenzy special rule as long as they remain within range, and do not lose Frenzy even if losing combat.],
-  ),
-  options: [
-- May take one Spite and/or Magic Items up to a total of 100 points
-  ],
-)
-
-#unit("WARSONG REVENANT",
-  profiles: (
-    (name: "Warsong Revenant", m: 5, ws: 4, bs: 4, s: 3, t: 3, w: 3, i: 5, a: 1, ld: 9, points: 250),
-  ),
-  troop-type: "Infantry (Character, Forest Spirit)",
-  base-size: "50x75",
-  equipment: "Hand weapon",
-  magic: "A Warsong Revenant is a Level 3 Wizard who uses one of the following Lores of Magic:",
-  magic-body: [
-- Athel Loren
-- Life
-  ],
-  special-rules: "Blessings of the Ancients, Fly (5), Forest Spirit, Regeneration (5+), Natural Armour (6+)",
-  special-rules-body: (
-    rule("Song of Athel Loren")[Friendly models within 12" of one or more Warsong Revenants gain +1 to their Leadership. Enemy models within 12" of one or more Warsong Revenants suffer \-1 to their Leadership.],
-  ),
-  options: [
-- May take one Spite and/or Magic Items up to a total of 100 points
-  ],
-)
-
-#unit("TREELORD ANCIENT",
-  profiles: (
-    (name: "Treelord Ancient", m: 5, ws: 4, bs: 4, s: 6, t: 6, w: 6, i: 2, a: 3, ld: 10, points: 250),
-  ),
-  troop-type: "Monster (Character, Forest Spirit)",
-  base-size: "75x50 or 100x100",
-  equipment: "Hand weapon",
-  magic: "A Treelord Ancient is a Level 1 Wizard who uses one of the following Lores of Magic:",
-  magic-body: [
-- Athel Loren
-- Life
-  ],
-  special-rules: "Blessings of the Ancients, Flammable, Forest Spirit, Natural Armour (3+), Stubborn, Tree Whack",
-  upgrades: [
-- *Strangleroots:* Strangleroots have the following profile:
-
-#minitable(("Range", "Strength", "Special Rules"), ("6/12\"", "5", "Multiple Shots (D6+1), Quick Shot, Rapid Fire"))
-  ],
-  options: [
-- May be upgraded to a Level 2 Wizard +35 points
-- May take Strangleroots +10 points
-- May take Spites up to a total of 100 points
   ],
 )
 

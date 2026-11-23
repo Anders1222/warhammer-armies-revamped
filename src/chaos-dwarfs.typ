@@ -335,18 +335,17 @@ this turn.")))
 #magic-standard("SHROUD OF THE ANCESTOR", 10)[The unit carrying this standard gains the Hatred (Dwarfs) special rule.]
 ]
 
-= CHARACTERS
+= LORDS
 
-#unit("SORCERERS OF HASHUT",
+#unit("SORCERER-PROPHET",
   first: true,
   profiles: (
     (name: "Sorcerer-Prophet", m: 3, ws: 5, bs: 3, s: 3, t: 4, w: 3, i: 3, a: 2, ld: 9, points: 195),
-    (name: "Sorcerer-Priest", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 2, i: 2, a: 1, ld: 9, points: 80),
   ),
   troop-type: "Infantry (Character, Chaos Dwarf)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "A Sorcerer-Priest is a Level 1 Wizard. A Sorcerer-Prophet is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic: "A Sorcerer-Prophet is a Level 3 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
 - Death
 - Fire
@@ -364,17 +363,78 @@ this turn.")))
 - May be mounted on one of the following:
   - Palanquin +25 points
   - Great Taurus +95 points
-  - Altar of Hashut (Sorcerer-Prophet only) +100 points
-  - Lammasu (Sorcerer-Prophet only) +155 points
-  - Bale Taurus (Sorcerer-Prophet only) +175 points
-- A Sorcerer-Priest may take Magic Items up to a total of 50 points
-- A Sorcerer-Prophet may take Magic Items up to a total of 100 points
+  - Altar of Hashut +100 points
+  - Lammasu +155 points
+  - Bale Taurus +175 points
+- May take Magic Items up to a total of 100 points
   ],
 )
 
-#unit("DESPOTS",
+#unit("OVERLORD",
   profiles: (
     (name: "Overlord", m: 3, ws: 7, bs: 4, s: 4, t: 5, w: 3, i: 5, a: 4, ld: 10, points: 125),
+  ),
+  troop-type: "Infantry (Character, Chaos Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Blackshard Armour, Contempt, Relentless, Resolute",
+  special-rules-body: (
+    rule("Infernal Cohort")[You may upgrade one unit of Warriors with heavy armour for +1.5 points/model for each model with this special rule in your army.],
+  ),
+  options: [
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Fireglaive +15 points
+  - Great weapon +15 points
+- May choose one of the following:
+  - Pistol +4 points
+  - Blunderbuss +6 points
+  - Crossbow +6 points
+- May choose one of the following:
+  - Medium armour +9 points
+  - Heavy armour +18 points
+- May take a shield +5 points
+- May be mounted on one of the following:
+  - Great Taurus +95 points
+  - Bale Taurus +175 points
+- May take Magic Items up to a total of 100 points
+  ],
+)
+
+= HEROES
+
+#unit("SORCERER-PRIEST",
+  first: true,
+  profiles: (
+    (name: "Sorcerer-Priest", m: 3, ws: 4, bs: 3, s: 3, t: 4, w: 2, i: 2, a: 1, ld: 9, points: 80),
+  ),
+  troop-type: "Infantry (Character, Chaos Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "A Sorcerer-Priest is a Level 1 Wizard. They use one of the following Lores of Magic:",
+  magic-body: [
+- Death
+- Fire
+- Hashut
+- Metal
+  ],
+  special-rules: "Blackshard Armour, Contempt, Relentless, Resolute, Sorcerer's Curse",
+  options: [
+- May take an additional Wizard Level +35 points
+- May take Naptha Bombs +10 points
+- May choose one of the following:
+  - Light armour +3 points
+  - Medium armour +9 points
+  - Heavy armour +18 points
+- May be mounted on one of the following:
+  - Palanquin +25 points
+  - Great Taurus +95 points
+- May take Magic Items up to a total of 50 points
+  ],
+)
+
+#unit("OVERSEER",
+  profiles: (
     (name: "Overseer", m: 3, ws: 6, bs: 4, s: 4, t: 5, w: 2, i: 4, a: 3, ld: 9, points: 60),
   ),
   troop-type: "Infantry (Character, Chaos Dwarf)",
@@ -399,10 +459,8 @@ this turn.")))
 - May take a shield +5 points
 - May be mounted on one of the following:
   - Great Taurus +95 points
-  - Bale Taurus (Overlord only) +175 points
 - One Overseer may carry the Battle Standard +25 points
-- An Overseer may take Magic Items up to a total of 50 points
-- An Overlord may take Magic Items up to a total of 100 points
+- May take Magic Items up to a total of 50 points
   ],
   notes: [
 - The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.

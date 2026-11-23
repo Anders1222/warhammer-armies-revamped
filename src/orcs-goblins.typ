@@ -588,13 +588,12 @@ special rule.")))
 #magic-standard("BANNER OF THE WILDZ", 5)[The unit carrying this standard may re-roll failed Dangerous Terrain tests.]
 ]
 
-= CHARACTERS
+= LORDS
 
-#unit("ORC BOSSES",
+#unit("ORC WARBOSS",
   first: true,
   profiles: (
     (name: "Orc Warboss", m: 4, ws: 6, bs: 3, s: 5, t: 5, w: 3, i: 4, a: 4, ld: 9, points: 115),
-    (name: "Orc Big Boss", m: 4, ws: 5, bs: 3, s: 5, t: 5, w: 2, i: 3, a: 3, ld: 8, points: 70),
   ),
   troop-type: "Infantry (Character, Common Orc)",
   base-size: "25x25 or 30x30",
@@ -623,27 +622,21 @@ special rule.")))
   - War Boar +20 points
   - Grunta (Common Orc only) +40 points
   - Boar Chariot (Common or Black Orc only, replacing one of the crew) +70 points
-  - Wyvern (Warboss only) +160 points
+  - Wyvern +160 points
   - Maw-grunta (Common Orc Warboss only, replacing one of the crew) +235 points
-  - Maw-krusha (Warboss only) +250 points
-- One Orc Big Boss may carry the Battle Standard +25 points
-- An Orc Big Boss may take Magic Items up to a total of 50 points
-- An Orc Warboss may take Magic Items up to a total of 100 points
-  ],
-  notes: [
-- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  - Maw-krusha +250 points
+- May take Magic Items up to a total of 100 points
   ],
 )
 
-#unit("ORC SHAMANS",
+#unit("WEIRDNOB",
   profiles: (
     (name: "Weirdnob", m: 4, ws: 4, bs: 3, s: 4, t: 4, w: 3, i: 3, a: 2, ld: 8, points: 190),
-    (name: "Weirdboy", m: 4, ws: 3, bs: 3, s: 4, t: 4, w: 2, i: 2, a: 1, ld: 7, points: 80),
   ),
   troop-type: "Infantry (Character, Common Orc)",
   base-size: "25x25 or 30x30",
   equipment: "Hand weapon",
-  magic: "A Weirdboy is a Level 1 Wizard. A Weirdnob is a Level 3 Wizard. They choose spells from the Lore of da Big Waaagh!",
+  magic: "A Weirdnob is a Level 3 Wizard. They choose spells from the Lore of da Big Waaagh!",
   special-rules: "Size Matters",
   upgrades: (
     rule("Savage Orc")[The model gains the Frenzy and Magical Ward (6+) special rules. This changes their Troop Type to Infantry (Character, Savage Orc). A Savage Orc Shaman can use spells from the Lore of da Big Waaagh! or da Savage Waaagh!],
@@ -654,16 +647,14 @@ special rule.")))
 - May be mounted on one of the following:
   - War Boar +20 points
   - Boar Chariot (Common Orc only, replacing one of the crew) +70 points
-  - Wyvern (Weirdnob only) +160 points
-- A Weirdboy may take Magic Items up to a total of 50 points
-- A Weirdnob may take Magic Items up to a total of 100 points
+  - Wyvern +160 points
+- May take Magic Items up to a total of 100 points
   ],
 )
 
-#unit("GOBLIN BOSSES",
+#unit("GOBLIN WARBOSS",
   profiles: (
     (name: "Goblin Warboss", m: 4, ws: 5, bs: 6, s: 4, t: 4, w: 3, i: 4, a: 4, ld: 8, points: 60),
-    (name: "Goblin Big Boss", m: 4, ws: 4, bs: 5, s: 4, t: 4, w: 2, i: 3, a: 3, ld: 7, points: 35),
   ),
   troop-type: "Infantry (Character, Common Goblin)",
   base-size: "20x20 or 25x25",
@@ -696,24 +687,18 @@ special rule.")))
   - Great Cave Squig (Night Goblin only) +40 points
   - Wolf Chariot (Common Goblin only, replacing one of the crew) +45 points
   - Arachnarok Spider (Forest Goblin Warboss only, replacing one of the crew) +255 points
-- One Goblin Big Boss may carry the Battle Standard +25 points
-- A Goblin Big Boss may take Magic Items up to a total of 50 points
-- A Goblin Warboss may take Magic Items up to a total of 100 points
-  ],
-  notes: [
-- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+- May take Magic Items up to a total of 100 points
   ],
 )
 
-#unit("GOBLIN SHAMANS",
+#unit("ODDNOB",
   profiles: (
     (name: "Oddnob", m: 4, ws: 3, bs: 3, s: 3, t: 4, w: 3, i: 3, a: 2, ld: 7, points: 160),
-    (name: "Oddgit", m: 4, ws: 3, bs: 3, s: 3, t: 4, w: 2, i: 2, a: 1, ld: 7, points: 60),
   ),
   troop-type: "Infantry (Character, Common Goblin)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  magic: "An Oddgit is a Level 1 Wizard. An Oddnob is a Level 3 Wizard. They choose spells from the Lore of da Little Waaagh!",
+  magic: "An Oddnob is a Level 3 Wizard. They choose spells from the Lore of da Little Waaagh!",
   special-rules: "Fear Elves",
   upgrades: (
     rule("Night Goblin")[The model gains the Hatred (Dwarfs) and Magic Mushrooms special rules. This changes their Troop Type to Infantry (Character, Night Goblin). A Night Goblin Shaman can use spells from the Lore of da Little Waaagh! or da Bad Moon.],
@@ -730,8 +715,7 @@ special rule.")))
   - Wolf Chariot (Common Goblin only, replacing one of the crew) +45 points
   - Gigantic Spider (Forest Goblin only) +48 points
   - Arachnarok Spider (Forest Goblin only, replacing one of the crew) +255 points
-- An Oddgit may take Magic Items up to a total of 50 points
-- An Oddnob may take Magic Items up to a total of 100 points
+- May take Magic Items up to a total of 100 points
   ],
 )
 
@@ -774,6 +758,140 @@ choose another victim. Roll again on this table to see what the Troll Hag does w
   options: [
 - May take an additional Wizard Level +35 points
 - May take Magic Items up to a total of 100 points
+  ],
+)
+
+= HEROES
+
+#unit("ORC BIG BOSS",
+  first: true,
+  profiles: (
+    (name: "Orc Big Boss", m: 4, ws: 5, bs: 3, s: 5, t: 5, w: 2, i: 3, a: 3, ld: 8, points: 70),
+  ),
+  troop-type: "Infantry (Character, Common Orc)",
+  base-size: "25x25 or 30x30",
+  equipment: "Hand weapon",
+  special-rules: "Size Matters, Waaagh!",
+  upgrades: (
+    rule("Savage Orc")[The model gains the Frenzy and Magical Ward (6+) special rules. This changes their Troop Type to Infantry (Character, Savage Orc).],
+    rule("Black Orc")[The model gains +1 Weapon Skill, Armed to da Teef, Immunity (Psychology) and Quell Animosity special rules. This changes their Troop Type to Infantry (Character, Black Orc).],
+  ),
+  options: [
+- May be upgraded to one of the following:
+  - Black Orc +20 points
+  - Savage Orc +20 points
+- May choose any of the following:
+  - Additional hand weapon +5 points
+  - Spear +5 points
+  - Light lance +5 points
+  - Polearm +10 points
+  - Great weapon +15 points
+- May choose one of the following:
+  - Light armour +3 points
+  - Medium armour (Common and Black Orc only) +9 points
+  - Heavy armour (Black Orc only) +18 points
+- May take a shield +5 points
+- May be mounted on one of the following:
+  - War Boar +20 points
+  - Grunta (Common Orc only) +40 points
+  - Boar Chariot (Common or Black Orc only, replacing one of the crew) +70 points
+- One Orc Big Boss may carry the Battle Standard +25 points
+- May take Magic Items up to a total of 50 points
+  ],
+  notes: [
+- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  ],
+)
+
+#unit("WEIRDBOY",
+  profiles: (
+    (name: "Weirdboy", m: 4, ws: 3, bs: 3, s: 4, t: 4, w: 2, i: 2, a: 1, ld: 7, points: 80),
+  ),
+  troop-type: "Infantry (Character, Common Orc)",
+  base-size: "25x25 or 30x30",
+  equipment: "Hand weapon",
+  magic: "A Weirdboy is a Level 1 Wizard. They choose spells from the Lore of da Big Waaagh!",
+  special-rules: "Size Matters",
+  upgrades: (
+    rule("Savage Orc")[The model gains the Frenzy and Magical Ward (6+) special rules. This changes their Troop Type to Infantry (Character, Savage Orc). A Savage Orc Shaman can use spells from the Lore of da Big Waaagh! or da Savage Waaagh!],
+  ),
+  options: [
+- May be upgraded to a Savage Orc +15 points
+- May take an additional Wizard Level +35 points
+- May be mounted on one of the following:
+  - War Boar +20 points
+  - Boar Chariot (Common Orc only, replacing one of the crew) +70 points
+- May take Magic Items up to a total of 50 points
+  ],
+)
+
+#unit("GOBLIN BIG BOSS",
+  profiles: (
+    (name: "Goblin Big Boss", m: 4, ws: 4, bs: 5, s: 4, t: 4, w: 2, i: 3, a: 3, ld: 7, points: 35),
+  ),
+  troop-type: "Infantry (Character, Common Goblin)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Fear Elves",
+  upgrades: (
+    rule("Night Goblin")[The model gains the Hatred (Dwarfs) special rule. This changes their Troop Type to Infantry (Character, Night Goblin).],
+    rule("Forest Goblin")[The model gains the Forest Strider special rule. This changes their Troop Type to Infantry (Character, Forest Goblin).],
+  ),
+  options: [
+- May be upgraded to one of the following:
+  - Night Goblin free
+  - Forest Goblin free
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Spear +5 points
+  - Light lance +5 points
+  - Polearm +10 points
+  - Great weapon +15 points
+- May take a shortbow +4 points
+- May choose one of the following:
+  - Light armour +3 points
+  - Medium armour (Common and Night Goblin only) +9 points
+- May take a shield +5 points
+- May be mounted on one of the following:
+  - Giant Wolf (Common Goblin only) +15 points
+  - Giant Spider (Forest Goblin only) +15 points
+  - Snarlfang (Common Goblin only) +40 points
+  - Gigantic Spider (Forest Goblin only) +40 points
+  - Great Cave Squig (Night Goblin only) +40 points
+  - Wolf Chariot (Common Goblin only, replacing one of the crew) +45 points
+- One Goblin Big Boss may carry the Battle Standard +25 points
+- May take Magic Items up to a total of 50 points
+  ],
+  notes: [
+- The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
+  ],
+)
+
+#unit("ODDGIT",
+  profiles: (
+    (name: "Oddgit", m: 4, ws: 3, bs: 3, s: 3, t: 4, w: 2, i: 2, a: 1, ld: 7, points: 60),
+  ),
+  troop-type: "Infantry (Character, Common Goblin)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  magic: "An Oddgit is a Level 1 Wizard. They choose spells from the Lore of da Little Waaagh!",
+  special-rules: "Fear Elves",
+  upgrades: (
+    rule("Night Goblin")[The model gains the Hatred (Dwarfs) and Magic Mushrooms special rules. This changes their Troop Type to Infantry (Character, Night Goblin). A Night Goblin Shaman can use spells from the Lore of da Little Waaagh! or da Bad Moon.],
+    rule("Forest Goblin")[The model gains the Forest Strider and Spider Venom special rules. This changes their Troop Type to Infantry (Character, Forest Goblin). A Forest Goblin Shaman can use spells from the Lore of da Little Waaagh! or da Spider God.],
+  ),
+  options: [
+- May be upgraded to one of the following:
+  - Night Goblin +10 points
+  - Forest Goblin +15 points
+- May take an additional Wizard Level +35 points
+- May be mounted on one of the following:
+  - Giant Wolf (Common Goblin only) +18 points
+  - Giant Spider (Forest Goblin only) +21 points
+  - Wolf Chariot (Common Goblin only, replacing one of the crew) +45 points
+  - Gigantic Spider (Forest Goblin only) +48 points
+  - Arachnarok Spider (Forest Goblin only, replacing one of the crew) +255 points
+- May take Magic Items up to a total of 50 points
   ],
 )
 

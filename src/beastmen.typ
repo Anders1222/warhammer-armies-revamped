@@ -418,12 +418,105 @@ All models with this special rule follow the Berserk Rage rules from Frenzy. In 
 #magic-standard("PREYSEEKER", 10)[The unit carrying this standard automatically enters the battlefield when using the Ambushers special rule (no roll is needed).]
 ]
 
-= CHARACTERS
+= LORDS
 
-#unit("CHIEFTAINS",
+#unit("BEASTLORD",
   first: true,
   profiles: (
     (name: "Beastlord", m: 5, ws: 6, bs: 3, s: 4, t: 5, w: 3, i: 5, a: 4, ld: 9, points: 125),
+  ),
+  troop-type: "Infantry (Character, Beastman, Gor)",
+  base-size: "25x25 or 30x30",
+  equipment: "Hand weapon",
+  special-rules: "Forest Strider, Primal Fury",
+  options: [
+- May choose one of the following:
+  - Spear +3 points
+  - Additional hand weapon +5 points
+  - Light lance +5 points
+  - Great weapon +15 points
+- May choose one of the following:
+  - Throwing axes +6 points
+  - Javelins +6 points
+- May choose one of the following:
+  - Light armour +3 points
+  - Medium armour +9 points
+- May take a shield +5 points
+- May have the Ambushers special rule (model on foot only) +5 points
+- May choose one of the following:
+  - Mark of Khorne +15 points
+  - Mark of Slaanesh +15 points
+  - Mark of Nurgle +20 points
+  - Mark of Tzeentch +20 points
+- May be mounted on one of the following:
+  - Tuskgor Chariot (replacing the Bestigor) +70 points
+  - Ramhorn (replacing one of the crew) +250 points
+- May take Mutations & Traits and/or Magic Items up to a total of 100 points
+  ],
+)
+
+#unit("GREAT BRAY-SHAMAN",
+  profiles: (
+    (name: "Great Bray-Shaman", m: 5, ws: 5, bs: 3, s: 3, t: 4, w: 3, i: 4, a: 2, ld: 8, points: 180),
+  ),
+  troop-type: "Infantry (Character, Beastman, Gor)",
+  base-size: "25x25 or 30x30",
+  equipment: "Hand weapon",
+  magic: "A Great Bray-Shaman is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic-body: [
+- Beasts
+- Chaos
+- Death
+- Shadow
+- Wild
+
+A Bray-Shaman or Great Bray-Shaman with the Mark of Tzeentch, Nurgle or Slaanesh must use the Lore of Tzeentch, Nurgle, or Slaanesh, respectively.
+  ],
+  special-rules: "Forest Strider, Primal Fury",
+  options: [
+- May take an additional Wizard Level +35 points
+- May have the Ambushers special rule (model on foot only) +5 points
+- May choose one of the following:
+  - Mark of Slaanesh +15 points
+  - Mark of Nurgle +20 points
+  - Mark of Tzeentch +20 points
+- May be mounted on one of the following:
+  - Tuskgor Chariot (replacing the Bestigor) +70 points
+  - Ramhorn (replacing one of the crew) +250 points
+- May take Mutations & Traits and/or Magic Items up to a total of 100 points
+  ],
+)
+
+#unit("DOOMBULL",
+  profiles: (
+    (name: "Doombull", m: 6, ws: 6, bs: 3, s: 6, t: 5, w: 5, i: 5, a: 6, ld: 8, points: 240),
+  ),
+  troop-type: "Monstrous Infantry (Character, Beastman, Minotaur)",
+  base-size: "40x40 or 50x50",
+  equipment: "Hand weapon",
+  special-rules: "Bloodgreed, Impact Hits (1)",
+  options: [
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Great weapon +10 points
+- May choose one of the following:
+  - Light armour +5 points
+  - Medium armour +15 points
+- May take a shield +5 points
+- May choose one of the following:
+  - Mark of Khorne +15 points
+  - Mark of Slaanesh +15 points
+  - Mark of Nurgle +20 points
+  - Mark of Tzeentch +20 points
+- May take Mutations & Traits and/or Magic Items up to a total of 100 points
+  ],
+)
+
+= HEROES
+
+#unit("WARGOR",
+  first: true,
+  profiles: (
     (name: "Wargor", m: 5, ws: 5, bs: 3, s: 4, t: 5, w: 2, i: 4, a: 3, ld: 8, points: 85),
   ),
   troop-type: "Infantry (Character, Beastman, Gor)",
@@ -453,23 +546,21 @@ All models with this special rule follow the Berserk Rage rules from Frenzy. In 
   - Tuskgor Chariot (replacing the Bestigor) +70 points
   - Ramhorn (replacing one of the crew) +250 points
 - One Wargor may carry the Battle Standard +25 points
-- A Wargor may take Mutations & Traits and/or Magic Items up to a total of 50 points
-- A Beastlord may take Mutations & Traits and/or Magic Items up to a total of 100 points
+- May take Mutations & Traits and/or Magic Items up to a total of 50 points
   ],
   notes: [
 - The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.
   ],
 )
 
-#unit("BRAY-SHAMANS",
+#unit("BRAY-SHAMAN",
   profiles: (
-    (name: "Great Bray-Shaman", m: 5, ws: 5, bs: 3, s: 3, t: 4, w: 3, i: 4, a: 2, ld: 8, points: 180),
     (name: "Bray-Shaman", m: 5, ws: 4, bs: 3, s: 3, t: 4, w: 2, i: 3, a: 1, ld: 7, points: 75),
   ),
   troop-type: "Infantry (Character, Beastman, Gor)",
   base-size: "25x25 or 30x30",
   equipment: "Hand weapon",
-  magic: "A Bray-Shaman is a Level 1 Wizard. A Great Bray-Shaman is a Level 3 Wizard. They use one of the following Lores of Magic:",
+  magic: "A Bray-Shaman is a Level 1 Wizard. They use one of the following Lores of Magic:",
   magic-body: [
 - Beasts
 - Chaos
@@ -490,14 +581,12 @@ A Bray-Shaman or Great Bray-Shaman with the Mark of Tzeentch, Nurgle or Slaanesh
 - May be mounted on one of the following:
   - Tuskgor Chariot (replacing the Bestigor) +70 points
   - Ramhorn (replacing one of the crew) +250 points
-- A Bray-Shaman may take Mutations & Traits and/or Magic Items up to a total of 50 points
-- A Great Bray-Shaman may take Mutations & Traits and/or Magic Items up to a total of 100 points
+- May take Mutations & Traits and/or Magic Items up to a total of 50 points
   ],
 )
 
-#unit("MINOTAUR CHAMPIONS",
+#unit("GOREBULL",
   profiles: (
-    (name: "Doombull", m: 6, ws: 6, bs: 3, s: 6, t: 5, w: 5, i: 5, a: 6, ld: 8, points: 240),
     (name: "Gorebull", m: 6, ws: 5, bs: 3, s: 6, t: 5, w: 4, i: 4, a: 5, ld: 7, points: 180),
   ),
   troop-type: "Monstrous Infantry (Character, Beastman, Minotaur)",
@@ -518,8 +607,7 @@ A Bray-Shaman or Great Bray-Shaman with the Mark of Tzeentch, Nurgle or Slaanesh
   - Mark of Nurgle +20 points
   - Mark of Tzeentch +20 points
 - One Gorebull may carry the Battle Standard +25 points
-- A Gorebull may take Mutations & Traits and/or Magic Items up to a total of 50 points
-- A Doombull may take Mutations & Traits and/or Magic Items up to a total of 100 points
+- May take Mutations & Traits and/or Magic Items up to a total of 50 points
   ],
   notes: [
 - The Battle Standard Bearer can have a Magic Standard with no points limit in addition to any other Magic Items they might have.

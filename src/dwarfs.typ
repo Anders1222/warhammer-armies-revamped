@@ -431,13 +431,12 @@ A war machine engraved with two Stalwart Runes confers a +1 bonus to its crew's 
 #upgrade("RUNE OF GRIT", 20)[A model with this runic tattoo gains +1 Toughness.]
 ]
 
-= CHARACTERS
+= LORDS
 
-#unit("LORDS",
+#unit("KING",
   first: true,
   profiles: (
     (name: "King", m: 3, ws: 7, bs: 4, s: 4, t: 5, w: 3, i: 4, a: 4, ld: 10, points: 125),
-    (name: "Thane", m: 3, ws: 6, bs: 4, s: 4, t: 5, w: 2, i: 3, a: 3, ld: 9, points: 65),
   ),
   troop-type: "Infantry (Character, Dwarf)",
   base-size: "20x20 or 25x25",
@@ -460,17 +459,14 @@ A war machine engraved with two Stalwart Runes confers a +1 bonus to its crew's 
 - May take a shield +5 points
 - May be mounted on one of the following:
   - Oathstone +25 points
-  - Shieldbearers (King only) +25 points
-- One Thane may carry the Battle Standard +25 points
-- A Thane may take Magic Items and/or Runic Items up to a total of 50 points
-- A King may take Magic Items and/or Runic Items up to a total of 100 points
+  - Shieldbearers +25 points
+- May take Magic Items and/or Runic Items up to a total of 100 points
   ],
 )
 
-#unit("RUNESMITHS",
+#unit("RUNELORD",
   profiles: (
     (name: "Runelord", m: 3, ws: 6, bs: 4, s: 4, t: 5, w: 3, i: 3, a: 3, ld: 9, points: 150),
-    (name: "Runesmith", m: 3, ws: 5, bs: 4, s: 4, t: 4, w: 2, i: 2, a: 2, ld: 9, points: 90),
   ),
   troop-type: "Infantry (Character, Dwarf)",
   base-size: "20x20 or 25x25",
@@ -478,7 +474,7 @@ A war machine engraved with two Stalwart Runes confers a +1 bonus to its crew's 
   special-rules: "Ancestral Grudge, Gromril Armour, Magic Resistance (2), Relentless, Resolute",
   special-rules-body: [
 - *Forgefire*: Models with this special rule and any unit they join gain the Armour Piercing (1) special rule.
-- *Rune Lore:* Runelords follow the rules for Level 4 Wizards for the purposes of channelling dispel dice and dispelling. Runesmiths follow the rules for Level 2 Wizards for the purposes of channelling dispel dice and dispelling.
+- *Rune Lore:* Runelords follow the rules for Level 4 Wizards for the purposes of channelling dispel dice and dispelling.
 
 In addition, a model with this special rule has the four Runes listed below. Unless fleeing, they may attempt to use one at the start of each of your turns by taking a Leadership test on their own unmodified Leadership. If passed, the Rune is struck and takes immediate effect. A unit can only be under the effect of one Rune at a time. - *Rune of Haste & Urgency:* The model and their unit gain +1 Movement and the Swiftstride special rule until the start of your next turn. - *Rune of Hearth & Hold:* The model and their unit gain the Stubborn special rule until the start of your next turn. - *Rune of Stone & Steel:* The model and their unit gain a 6+ armour until the start of your next turn. - *Rune of Wrath & Ruin:* All enemy units in base contact with the model suffer 2D6 Strength 4 hits.
   ],
@@ -489,21 +485,19 @@ In addition, a model with this special rule has the four Runes listed below. Unl
   - Medium armour +18 points
   - Heavy armour +27 points
 - May take a shield +5 points
-- May be mounted on an Anvil of Doom (Runelord only) +120 points
-- A Runesmith may take Magic Items and/or Runic Items up to a total of 50 points
-- A Runelord may take Magic Items and/or Runic Items up to a total of 100 points
+- May be mounted on an Anvil of Doom +120 points
+- May take Magic Items and/or Runic Items up to a total of 100 points
   ],
 )
 
-#unit("SLAYERS OF LEGEND",
+#unit("DAEMON SLAYER",
   profiles: (
     (name: "Daemon Slayer", m: 3, ws: 7, bs: 4, s: 4, t: 5, w: 3, i: 5, a: 4, ld: 10, points: 140),
-    (name: "Dragon Slayer", m: 3, ws: 6, bs: 4, s: 4, t: 5, w: 2, i: 4, a: 3, ld: 10, points: 70),
   ),
   troop-type: "Infantry (Character, Dwarf)",
   base-size: "20x20 or 25x25",
   equipment: "Hand weapon",
-  special-rules: "Ancestral Grudge, Daemon Slayer (Daemon Slayer only), Deathblow, Dragon Slayer, Magic Resistance (1), Relentless, Unbreakable",
+  special-rules: "Ancestral Grudge, Daemon Slayer, Deathblow, Dragon Slayer, Magic Resistance (1), Relentless, Unbreakable",
   upgrades: (
     rule("Beast Slayer")[Each wound inflicted by the model counts double towards that round's Combat Resolution (excluding Wounds from Overkill in a challenge).],
     rule("Killing Blow")[The model gains the Killing Blow special rule.],
@@ -520,11 +514,93 @@ In addition, a model with this special rule has the four Runes listed below. Unl
   - Beast Slayer +25 points
   - Skaven Slayer +25 points
 - May have Wards of Grimnir +20 points
-- A Dragon Slayer may take Magic Items and/or Runic Items up to a total of 50 points
-- A Daemon Slayer may take Magic Items and/or Runic Items up to a total of 100 points
+- May take Magic Items and/or Runic Items up to a total of 100 points
   ],
   notes: [
 - For each Daemon Slayer in your army, you may take one unit of Troll Slayers as a Core Unit.
+  ],
+)
+
+= HEROES
+
+#unit("THANE",
+  first: true,
+  profiles: (
+    (name: "Thane", m: 3, ws: 6, bs: 4, s: 4, t: 5, w: 2, i: 3, a: 3, ld: 9, points: 65),
+  ),
+  troop-type: "Infantry (Character, Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Ancestral Grudge, Gromril Armour, Magic Resistance (1), Relentless, Resolute",
+  options: [
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Great weapon +15 points
+- May choose one of the following:
+  - Dwarfen pistol +5 points
+  - Dwarfen crossbow +7 points
+  - Dwarfen handgun +7 points
+- May choose one of the following:
+  - Medium armour +18 points
+  - Heavy armour +27 points
+- May take a shield +5 points
+- May be mounted on one of the following:
+  - Oathstone +25 points
+- One Thane may carry the Battle Standard +25 points
+- May take Magic Items and/or Runic Items up to a total of 50 points
+  ],
+)
+
+#unit("RUNESMITH",
+  profiles: (
+    (name: "Runesmith", m: 3, ws: 5, bs: 4, s: 4, t: 4, w: 2, i: 2, a: 2, ld: 9, points: 90),
+  ),
+  troop-type: "Infantry (Character, Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Ancestral Grudge, Gromril Armour, Magic Resistance (2), Relentless, Resolute",
+  special-rules-body: [
+- *Forgefire*: Models with this special rule and any unit they join gain the Armour Piercing (1) special rule.
+- *Rune Lore:* Runesmiths follow the rules for Level 2 Wizards for the purposes of channelling dispel dice and dispelling.
+
+In addition, a model with this special rule has the four Runes listed below. Unless fleeing, they may attempt to use one at the start of each of your turns by taking a Leadership test on their own unmodified Leadership. If passed, the Rune is struck and takes immediate effect. A unit can only be under the effect of one Rune at a time. - *Rune of Haste & Urgency:* The model and their unit gain +1 Movement and the Swiftstride special rule until the start of your next turn. - *Rune of Hearth & Hold:* The model and their unit gain the Stubborn special rule until the start of your next turn. - *Rune of Stone & Steel:* The model and their unit gain a 6+ armour until the start of your next turn. - *Rune of Wrath & Ruin:* All enemy units in base contact with the model suffer 2D6 Strength 4 hits.
+  ],
+  options: [
+- May take a great weapon +10 points
+- May choose one of the following:
+  - Light armour +9 points
+  - Medium armour +18 points
+  - Heavy armour +27 points
+- May take a shield +5 points
+- May take Magic Items and/or Runic Items up to a total of 50 points
+  ],
+)
+
+#unit("DRAGON SLAYER",
+  profiles: (
+    (name: "Dragon Slayer", m: 3, ws: 6, bs: 4, s: 4, t: 5, w: 2, i: 4, a: 3, ld: 10, points: 70),
+  ),
+  troop-type: "Infantry (Character, Dwarf)",
+  base-size: "20x20 or 25x25",
+  equipment: "Hand weapon",
+  special-rules: "Ancestral Grudge, Deathblow, Dragon Slayer, Magic Resistance (1), Relentless, Unbreakable",
+  upgrades: (
+    rule("Beast Slayer")[Each wound inflicted by the model counts double towards that round's Combat Resolution (excluding Wounds from Overkill in a challenge).],
+    rule("Killing Blow")[The model gains the Killing Blow special rule.],
+    rule("Skaven Slayer")[The model gains a number of Attacks equal to the number of enemy models in base contact with him.],
+    rule("Vampire Slayer")[The model may re-roll failed rolls To Wound against enemies with Toughness 5 or higher.],
+  ),
+  options: [
+- May choose one of the following:
+  - Additional hand weapon +5 points
+  - Great weapon +15 points
+- May choose one of the following:
+  - Killing Blow +15 points
+  - Vampire Slayer +15 points
+  - Beast Slayer +25 points
+  - Skaven Slayer +25 points
+- May have Wards of Grimnir +20 points
+- May take Magic Items and/or Runic Items up to a total of 50 points
   ],
 )
 
