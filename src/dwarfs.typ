@@ -535,14 +535,14 @@ In addition, a model with this special rule has the four Runes listed below. Unl
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Great weapon +15 points
+  - Great weapon +11 points
 - May choose one of the following:
   - Dwarfen pistol +5 points
   - Dwarfen crossbow +7 points
   - Dwarfen handgun +7 points
 - May choose one of the following:
-  - Medium armour +18 points
-  - Heavy armour +27 points
+  - Medium armour +10 points
+  - Heavy armour +18 points
 - May take a shield +5 points
 - May be mounted on one of the following:
   - Oathstone +25 points
@@ -566,11 +566,11 @@ In addition, a model with this special rule has the four Runes listed below. Unl
 In addition, a model with this special rule has the four Runes listed below. Unless fleeing, they may attempt to use one at the start of each of your turns by taking a Leadership test on their own unmodified Leadership. If passed, the Rune is struck and takes immediate effect. A unit can only be under the effect of one Rune at a time. - *Rune of Haste & Urgency:* The model and their unit gain +1 Movement and the Swiftstride special rule until the start of your next turn. - *Rune of Hearth & Hold:* The model and their unit gain the Stubborn special rule until the start of your next turn. - *Rune of Stone & Steel:* The model and their unit gain a 6+ armour until the start of your next turn. - *Rune of Wrath & Ruin:* All enemy units in base contact with the model suffer 2D6 Strength 4 hits.
   ],
   options: [
-- May take a great weapon +10 points
+- May take a great weapon +7 points
 - May choose one of the following:
-  - Light armour +9 points
-  - Medium armour +18 points
-  - Heavy armour +27 points
+  - Light armour +4 points
+  - Medium armour +10 points
+  - Heavy armour +18 points
 - May take a shield +5 points
 - May take Magic Items and/or Runic Items up to a total of 50 points
   ],
@@ -593,7 +593,7 @@ In addition, a model with this special rule has the four Runes listed below. Unl
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Great weapon +15 points
+  - Great weapon +11 points
 - May choose one of the following:
   - Killing Blow +15 points
   - Vampire Slayer +15 points
@@ -619,10 +619,10 @@ In addition, a model with this special rule has the four Runes listed below. Unl
   - *Troll Brew:* The unit gains the Regeneration (6+) special rule.
   ],
   options: [
-- May take a great weapon +10 points
+- May take a great weapon +5 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
+  - Light armour +2 points
+  - Medium armour +6 points
 - May be mounted on a Beer Cart +25 points
 - May take Magic Items and/or Runic Items up to a total of 50 points
   ],
@@ -642,14 +642,14 @@ In addition, a model with this special rule has the four Runes listed below. Unl
 - *"Stand Back Sir!":* A model with this special rule that is within 3" of a war machine is allowed to take a "Look Out Sir!" roll just as if he was within 3" of a unit of five or more models of the same troop type as himself. If the roll is successful, the hit is resolved instead against the nearest friendly war machine.
   ],
   options: [
-- May take a great weapon +10 points
+- May take a great weapon +5 points
 - May choose any of the following:
   - Dwarfen pistol +5 points
   - Dwarfen brace of pistols +7 points
   - Dwarfen handgun +7 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
+  - Light armour +2 points
+  - Medium armour +6 points
 - May take Magic Items and/or Runic Items up to a total of 50 points
   ],
 )

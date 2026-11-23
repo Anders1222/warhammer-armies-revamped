@@ -804,14 +804,14 @@ A Daemon Prince who is a Daemon of Tzeentch, Nurgle or Slaanesh must use the Lor
   - Mark of Tzeentch +20 points
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Light lance +5 points
-  - Flail +10 points
-  - Heavy lance +10 points
-  - Polearm +10 points
-  - Great weapon +10 points
+  - Light lance +4 points
+  - Flail +8 points
+  - Heavy lance +8 points
+  - Polearm +8 points
+  - Great weapon +8 points
 - May choose one of the following:
-  - Medium armour +9 points
-  - Heavy armour +18 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
 - May take a shield +5 points
 - May be mounted on one of the following:
   - Warsteed +20 points
@@ -844,14 +844,14 @@ A Daemon Prince who is a Daemon of Tzeentch, Nurgle or Slaanesh must use the Lor
   - Mark of Tzeentch +20 points
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Light lance +5 points
-  - Flail +10 points
-  - Heavy lance +10 points
-  - Polearm +10 points
-  - Great weapon +10 points
+  - Light lance +3 points
+  - Flail +6 points
+  - Heavy lance +6 points
+  - Polearm +6 points
+  - Great weapon +6 points
 - May choose one of the following:
-  - Medium armour +9 points
-  - Heavy armour +18 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
 - May take a shield +5 points
 - May be mounted on one of the following:
   - Warsteed +20 points
@@ -894,9 +894,9 @@ A Sorcerer with a mark of chaos can choose:
   - Mark of Nurgle +20 points
   - Mark of Tzeentch +20 points
 - May choose one of the following:
-  - Light armour +9 points
-  - Medium armour +18 points
-  - Heavy armour +30 points
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
 - May be mounted on one of the following:
   - Warsteed +20 points
   - Steed of Slaanesh (Mark of Slaanesh only) +45 points
@@ -924,18 +924,18 @@ A Sorcerer with a mark of chaos can choose:
   - Mark of Tzeentch +20 points
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Spear +5 points
-  - Light lance +5 points
-  - Flail +10 points
-  - Polearm +10 points
-  - Great weapon +15 points
+  - Spear +4 points
+  - Light lance +4 points
+  - Flail +8 points
+  - Polearm +8 points
+  - Great weapon +11 points
 - May choose one of the following:
   - Shortbow +4 points
   - Throwing axes +4 points
   - Javelins +4 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
+  - Light armour +2 points
+  - Medium armour +6 points
 - May take a shield +5 points
 - May be mounted on one of the following:
   - Warhorse +15 points
@@ -1822,7 +1822,7 @@ another victim. Roll again on this table to see what happens.")))
   ],
   options: [
 - May choose one of the following:
-  - Additional hand weapon +2 points
+  - Additional hand weapon +5 points
   - Great weapon +9 points
 - May take medium armour +6 points
 - May be mounted upon a Chaos Warshrine of Khorne (replacing the Shrinemaster) +95 points

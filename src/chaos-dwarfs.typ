@@ -423,9 +423,9 @@ this turn.")))
 - May take an additional Wizard Level +35 points
 - May take Naptha Bombs +10 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-  - Heavy armour +18 points
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
 - May be mounted on one of the following:
   - Palanquin +25 points
   - Great Taurus +95 points
@@ -448,14 +448,14 @@ this turn.")))
 - May choose one of the following:
   - Additional hand weapon +5 points
   - Fireglaive +15 points
-  - Great weapon +15 points
+  - Great weapon +11 points
 - May choose one of the following:
   - Pistol +4 points
   - Blunderbuss +6 points
   - Crossbow +6 points
 - May choose one of the following:
-  - Medium armour +9 points
-  - Heavy armour +18 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
 - May take a shield +5 points
 - May be mounted on one of the following:
   - Great Taurus +95 points
@@ -492,8 +492,8 @@ this turn.")))
   - Fireglaive +9 points
 - May take Naptha Bombs +10 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
+  - Light armour +2 points
+  - Medium armour +6 points
 - May take Magic Items up to a total of 50 points
   ],
 )
@@ -508,11 +508,11 @@ this turn.")))
   special-rules: "Contempt, Natural Armour (5+)",
   options: [
 - May choose one of the following:
-  - Additional hand weapon +4 points
+  - Additional hand weapon +5 points
   - Great weapon +12 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
+  - Light armour +12 points
+  - Medium armour +28 points
 - May take a shield +5 points
 - May take Magic Items up to a total of 50 points
   ],
@@ -532,11 +532,11 @@ this turn.")))
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Light lance +5 points
+  - Light lance +4 points
 - May take a shortbow +4 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
+  - Light armour +2 points
+  - Medium armour +6 points
 - May take a shield +5 points
 - May be mounted on a Giant Wolf +15 points
 - May take Magic Items up to a total of 25 points

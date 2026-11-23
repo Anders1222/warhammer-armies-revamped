@@ -524,13 +524,13 @@ A model with this rule can choose to make a single Tree Whack in place of making
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Spear +5 points
-  - Light lance +5 points
-  - Great weapon +15 points
+  - Spear +4 points
+  - Light lance +4 points
+  - Great weapon +11 points
 - May choose one of the following:
-  - Elven shortbow +6 points
-  - Elven longbow +8 points
-- May take light armour +3 points
+  - Elven shortbow +5 points
+  - Elven longbow +7 points
+- May take light armour +2 points
 - May take a shield +5 points
 - May choose one of the following:
   - Arcane Bodkins +1 point
@@ -613,7 +613,7 @@ A model with this rule can choose to make a single Tree Whack in place of making
   special-rules: "Devastating Charge, Elven Grace, Forest Spirit, Frenzy",
   options: [
 - May take a shield +5 points
-- May take light armour +3 points
+- May take light armour +2 points
 - May replace Elven Steed with one of the following:
   - Steed of Kurnous +5 points
   - Great Stag +25 points
@@ -631,7 +631,7 @@ A model with this rule can choose to make a single Tree Whack in place of making
   equipment: "Hand weapon, Elven shortbow",
   special-rules: "Asrai Archery, Elven Grace, Forest Strider, Forest Stalker, Lethal Shot, Scouts, Sniper",
   options: [
-- May take an additional hand weapon +3 points
+- May take an additional hand weapon +5 points
 - May replace Elven shortbow with Elven longbow +2 points
 - May choose one of the following:
   - Arcane Bodkins +1 point

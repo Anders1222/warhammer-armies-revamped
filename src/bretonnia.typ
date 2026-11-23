@@ -368,11 +368,11 @@ At the start of each enemy turn, the transformed model must take a Leadership te
   special-rules: "Blessing of the Lady, The Knight's Vow, Lance Formation",
   options: (
     optgroup("May choose one of the following:",
-    opt("Heavy lance", "+10 points"),
-    opt("Polearm (on foot only)", "+10 points"),
-    opt("Great weapon", "+15 points"),
+    opt("Heavy lance", "+8 points"),
+    opt("Polearm (on foot only)", "+8 points"),
+    opt("Great weapon", "+11 points"),
   ),
-    opt("May take heavy armour", "+18 points"),
+    opt("May take heavy armour", "+12 points"),
     opt("May take a shield", "+5 points"),
     optgroup("May be mounted on one of the following:",
     opt("Warhorse", "+15 points"),
@@ -431,9 +431,9 @@ At the start of each enemy turn, the transformed model must take a Leadership te
   ),
   options: (
     optgroup("May choose one of the following:",
-    opt("Light lance", "+5 points"),
-    opt("Polearm (on foot only)", "+5 points"),
-    opt("Great weapon", "+10 points"),
+    opt("Light lance", "+3 points"),
+    opt("Polearm (on foot only)", "+3 points"),
+    opt("Great weapon", "+5 points"),
   ),
     optgroup("May choose one of the following:",
     opt("Shortbow", "+3 points"),
@@ -441,8 +441,8 @@ At the start of each enemy turn, the transformed model must take a Leadership te
     opt("Crossbow", "+6 points"),
   ),
     optgroup("May choose one of the following:",
-    opt("Light armour", "+5 points"),
-    opt("Medium armour", "+10 points"),
+    opt("Light armour", "+2 points"),
+    opt("Medium armour", "+6 points"),
   ),
     opt("May take a shield", "+5 points"),
     opt("May be mounted on a Horse", "+15 points"),
@@ -462,7 +462,7 @@ At the start of each enemy turn, the transformed model must take a Leadership te
   special-rules: "Independent, Scouts, Sniper",
   options: (
     opt("May take an additional hand weapon", "+5 points"),
-    opt("May take light armour", "+5 points"),
+    opt("May take light armour", "+2 points"),
   ),
   notes: [
 - A Faceless may never be the Army General.

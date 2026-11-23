@@ -695,13 +695,13 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
   - Level 2 Wizard +70 points
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Heavy lance +10 points
-  - Polearm +10 points
-  - Great weapon +10 points
+  - Heavy lance +8 points
+  - Polearm +8 points
+  - Great weapon +8 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-  - Heavy armour +18 points
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
 - May be mounted on one of the following:
   - Nightmare +15 points
   - Hellsteed +25 points
@@ -763,7 +763,7 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
 - May take an additional hand weapon +5 points
 - May take throwing weapons +6 points
 - May take a shortbow +4 points
-- May take light armour +3 points
+- May take light armour +2 points
 - May have Poisoned Attacks +10 points
 - May be mounted on one of the following:
   - Nightmare +15 points
@@ -798,9 +798,9 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
   - Level 1 Wizard +35 points
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Heavy lance +10 points
-  - Great weapon +10 points
-- May take heavy armour +18 points
+  - Heavy lance +8 points
+  - Great weapon +8 points
+- May take heavy armour +12 points
 - May take a shield +5 points
 - May be mounted on one of the following:
   - Nightmare +20 points
@@ -873,8 +873,8 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Heavy lance +10 points
-  - Great weapon +10 points
+  - Heavy lance +8 points
+  - Great weapon +8 points
 - May choose one of the following:
   - Medium armour +9 points
   - Heavy armour +18 points
@@ -904,8 +904,8 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
   ),
   options: [
 - May choose one of the following:
-  - Additional hand weapon +2 points
-  - Great weapon +4 points
+  - Additional hand weapon +5 points
+  - Great weapon +3 points
 - May be mounted on a Skeletal Steed +12 points
 - May take Magic Items up to a total of 50 points
   ],
@@ -936,14 +936,14 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Polearm +10 points
-  - Great weapon +15 points
+  - Polearm +8 points
+  - Great weapon +11 points
 - May take a pistol +5 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-  - Heavy armour +18 points
-- May take a shield +2 points
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
+- May take a shield +5 points
 - May take Magic Items up to a total of 50 points
   ],
   notes: [
@@ -962,8 +962,8 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Polearm +10 points
-  - Great weapon +15 points
+  - Polearm +8 points
+  - Great weapon +11 points
 - One Crypt Ghast may carry the Battle Standard +25 points
 - May take Magic Items up to a total of 50 points
   ],

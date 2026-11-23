@@ -447,12 +447,12 @@ Strength 5 hits.")))
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Spear +5 points
-  - Light lance +5 points
-  - Polearm +10 points
-  - Great weapon +10 points
+  - Spear +4 points
+  - Light lance +4 points
+  - Polearm +8 points
+  - Great weapon +8 points
 - May take a shield +5 points
-- May take light armour +9 points
+- May take light armour +6 points
 - May be mounted on one of the following:
   - Cold One +25 points
   - Horned One +30 points
@@ -476,15 +476,15 @@ Strength 5 hits.")))
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Spear +5 points
-  - Light lance +5 points
+  - Spear +4 points
+  - Light lance +4 points
 - May choose one of the following:
-  - Blowpipe +5 points
-  - Shortbow +5 points
-  - Sling +5 points
-  - Javelins +6 points
+  - Blowpipe +4 points
+  - Shortbow +4 points
+  - Sling +4 points
+  - Javelins +5 points
 - May take a shield +5 points
-- May take light armour +6 points
+- May take light armour +4 points
 - May take Firefly Frog Venom +5 points
 - May be mounted on one of the following:
   - Raptadon +25 points
@@ -532,7 +532,7 @@ Strength 5 hits.")))
   special-rules: "Aquatic, Cold-blooded, Predatory Fighter, Natural Armour (3+)",
   options: [
 - May replace great weapons with war gauntlets free
-- May take light armour +16 points
+- May take light armour +20 points
 - May take Blessed Spawnings and/or Magic Items up to a total of 50 points
   ],
   notes: [

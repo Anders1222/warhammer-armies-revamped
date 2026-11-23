@@ -479,18 +479,18 @@ The bearer gains the Natural Armour (6+) special rule against missile attacks.
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Spear +5 points
-  - Light lance +5 points
-  - Heavy lance +10 points
-  - Polearm +10 points
-  - Great weapon +15 points
+  - Spear +4 points
+  - Light lance +4 points
+  - Heavy lance +8 points
+  - Polearm +8 points
+  - Great weapon +11 points
 - May choose one of the following:
-  - Elven shortbow +7 points
-  - Elven longbow +8 points
+  - Elven shortbow +6 points
+  - Elven longbow +7 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-  - Heavy armour +18 points
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
 - May take a shield +5 points
 - May be mounted on one of the following:
   - Elven Steed +15 points
@@ -527,7 +527,7 @@ The bearer gains the Natural Armour (6+) special rule against missile attacks.
   special-rules: "Elven Grace, Lileath's Blessing, Martial Prowess, Valour of Ages",
   options: [
 - May take an additional Wizard Level +35 points
-- May take light armour +3 points
+- May take light armour +2 points
 - May be mounted on one of the following:
   - Elven Steed +15 points
   - Unicorn +25 points
@@ -593,7 +593,7 @@ The bearer gains the Natural Armour (6+) special rule against missile attacks.
     rule("Quicksilver Shot")[A Handmaiden and any unit of Sistern of Avelorn that they join gain the Quick Shot special rule, and can move and shoot without losing Multiple Shots.],
   ),
   options: [
-- May take light armour +3 points
+- May take light armour +2 points
 - One Handmaiden may carry the Battle Standard +25 points
 - May take Magic Items up to a total of 50 points
   ],

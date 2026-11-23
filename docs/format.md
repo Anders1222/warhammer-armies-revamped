@@ -367,11 +367,11 @@ lines as printed and is elided here after its first entry.
   {"raw": "May choose one of the following:", "text": "May choose one of the following:",
    "sub": [
     {"raw": "Additional hand weapon +5 points", "text": "Additional hand weapon", "cost": 5, "perModel": false},
-    {"raw": "Spear +5 points", "text": "Spear", "cost": 5, "perModel": false},
-    {"raw": "Light lance +5 points", "text": "Light lance", "cost": 5, "perModel": false},
-    {"raw": "Heavy lance +10 points", "text": "Heavy lance", "cost": 10, "perModel": false},
-    {"raw": "Polearm +10 points", "text": "Polearm", "cost": 10, "perModel": false},
-    {"raw": "Great weapon +15 points", "text": "Great weapon", "cost": 15, "perModel": false}
+    {"raw": "Spear +4 points", "text": "Spear", "cost": 4, "perModel": false},
+    {"raw": "Light lance +4 points", "text": "Light lance", "cost": 4, "perModel": false},
+    {"raw": "Heavy lance +8 points", "text": "Heavy lance", "cost": 8, "perModel": false},
+    {"raw": "Polearm +8 points", "text": "Polearm", "cost": 8, "perModel": false},
+    {"raw": "Great weapon +11 points", "text": "Great weapon", "cost": 11, "perModel": false}
    ]},
   "... seven more lines, unchanged from formatVersion 1 ..."
  ],
@@ -389,11 +389,11 @@ lines as printed and is elided here after its first entry.
    "raw": "May choose one of the following:",
    "choices": [
     {"id": "additional-hand-weapon", "name": "Additional hand weapon", "points": 5, "perModel": false, "raw": "Additional hand weapon +5 points"},
-    {"id": "spear", "name": "Spear", "points": 5, "perModel": false, "raw": "Spear +5 points"},
-    {"id": "light-lance", "name": "Light lance", "points": 5, "perModel": false, "raw": "Light lance +5 points"},
-    {"id": "heavy-lance", "name": "Heavy lance", "points": 10, "perModel": false, "raw": "Heavy lance +10 points"},
-    {"id": "polearm", "name": "Polearm", "points": 10, "perModel": false, "raw": "Polearm +10 points"},
-    {"id": "great-weapon", "name": "Great weapon", "points": 15, "perModel": false, "raw": "Great weapon +15 points"}
+    {"id": "spear", "name": "Spear", "points": 4, "perModel": false, "raw": "Spear +4 points"},
+    {"id": "light-lance", "name": "Light lance", "points": 4, "perModel": false, "raw": "Light lance +4 points"},
+    {"id": "heavy-lance", "name": "Heavy lance", "points": 8, "perModel": false, "raw": "Heavy lance +8 points"},
+    {"id": "polearm", "name": "Polearm", "points": 8, "perModel": false, "raw": "Polearm +8 points"},
+    {"id": "great-weapon", "name": "Great weapon", "points": 11, "perModel": false, "raw": "Great weapon +11 points"}
    ]
   },
   {
@@ -412,9 +412,9 @@ lines as printed and is elided here after its first entry.
    "id": "armour", "kind": "equipment", "select": "one", "min": 0, "max": 1, "appliesTo": null,
    "raw": "May choose one of the following:",
    "choices": [
-    {"id": "light-armour", "name": "Light armour", "points": 3, "perModel": false, "raw": "Light armour +3 points"},
-    {"id": "medium-armour", "name": "Medium armour", "points": 9, "perModel": false, "raw": "Medium armour +9 points"},
-    {"id": "heavy-armour", "name": "Heavy armour", "points": 18, "perModel": false, "raw": "Heavy armour +18 points"}
+    {"id": "light-armour", "name": "Light armour", "points": 2, "perModel": false, "raw": "Light armour +2 points"},
+    {"id": "medium-armour", "name": "Medium armour", "points": 6, "perModel": false, "raw": "Medium armour +6 points"},
+    {"id": "heavy-armour", "name": "Heavy armour", "points": 12, "perModel": false, "raw": "Heavy armour +12 points"}
    ]
   },
   {
@@ -424,10 +424,10 @@ lines as printed and is elided here after its first entry.
   },
   {
    "id": "full-plate", "kind": "specialRule", "select": "any", "min": 0, "max": 1, "appliesTo": null,
-   "raw": "May be upgraded with the Full Plate special rule for +12 points.",
+   "raw": "May be upgraded with the Full Plate special rule for +8 points.",
    "rule": "Full Plate",
-   "choices": [{"id": "full-plate", "name": "Full Plate", "points": 12, "perModel": false,
-                "raw": "May be upgraded with the Full Plate special rule for +12 points.", "rule": "Full Plate"}]
+   "choices": [{"id": "full-plate", "name": "Full Plate", "points": 8, "perModel": false,
+                "raw": "May be upgraded with the Full Plate special rule for +8 points.", "rule": "Full Plate"}]
   },
   {
    "id": "mount", "kind": "mount", "select": "one", "min": 0, "max": 1, "appliesTo": null,

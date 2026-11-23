@@ -477,11 +477,11 @@ No saves are allowed against Wounds caused by this weapon.
 - May choose one of the following:
   - Spear free
   - Additional hand weapon +5 points
-  - Oriental longsword +5 points
-  - Light lance +5 points
-  - Heavy lance +10 points
-  - Polearm +10 points
-  - Great weapon +15 points
+  - Oriental longsword +4 points
+  - Light lance +4 points
+  - Heavy lance +8 points
+  - Polearm +8 points
+  - Great weapon +11 points
 - May choose one of the following:
   - Shortbow +4 points
   - Pistol +5 points
@@ -489,11 +489,11 @@ No saves are allowed against Wounds caused by this weapon.
   - Handgun +7 points
   - Brace of pistols +8 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-  - Heavy armour +18 points
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
 - May choose one of the following:
-  - Buckler +3 points
+  - Buckler +2 points
   - Shield +5 points
 - May be mounted on one of the following:
   - Warhorse +15 points
@@ -547,8 +547,8 @@ No saves are allowed against Wounds caused by this weapon.
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Polearm +5 points
-  - Great weapon +5 points
+  - Polearm +3 points
+  - Great weapon +3 points
 - May choose one of the following:
   - Shortbow +3 points
   - Pistol +4 points
@@ -556,11 +556,11 @@ No saves are allowed against Wounds caused by this weapon.
   - Handgun +6 points
   - Brace of pistols +7 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-  - Heavy armour +15 points
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
 - May choose one of the following:
-  - Buckler +3 points
+  - Buckler +2 points
   - Shield +5 points
 - May take a Money Lender +10 points
 - May take one of the following:
@@ -584,7 +584,7 @@ No saves are allowed against Wounds caused by this weapon.
   - Throwing weapons +5 points
   - Pistol +6 points
   - Crossbow +8 points
-- May take light armour +3 points
+- May take light armour +2 points
 - May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],
 )
@@ -600,14 +600,14 @@ No saves are allowed against Wounds caused by this weapon.
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Great weapon +15 points
+  - Great weapon +11 points
 - May choose one of the following:
   - Dwarfen pistol +5 points
   - Dwarfen crossbow +7 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-  - Heavy armour +18 points
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
 - May take a shield +5 points
 - May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],
@@ -624,15 +624,15 @@ No saves are allowed against Wounds caused by this weapon.
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Spear +5 points
-  - Great weapon +15 points
+  - Spear +4 points
+  - Great weapon +11 points
 - May choose one of the following:
   - Elven shortbow +6 points
   - Elven longbow +8 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
-  - Heavy armour +18 points
+  - Light armour +2 points
+  - Medium armour +6 points
+  - Heavy armour +12 points
 - May take a shield +5 points
 - May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],
@@ -653,15 +653,15 @@ No saves are allowed against Wounds caused by this weapon.
 - May choose one of the following:
   - Spear free
   - Additional hand weapon +5 points
-  - Flail +10 points
-  - Great weapon +15 points
+  - Flail +8 points
+  - Great weapon +11 points
 - May choose one of the following:
   - Throwing weapons +4 points
   - Shortbow +5 points
   - Sling +6 points
 - May take light armour +2 points
 - May choose one of the following:
-  - Buckler +3 points
+  - Buckler +2 points
   - Shield +5 points
 - May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],
@@ -679,12 +679,12 @@ No saves are allowed against Wounds caused by this weapon.
 - May choose one of the following:
   - Additional hand weapon +5 points
   - Spear +5 points
-  - Ironfist +5 points
+  - Ironfist +7 points
   - Great weapon +15 points
 - May choose one of the following:
   - Ogre pistol +6 points
   - Brace of Ogre pistols +9 points
-- May take light armour +12 points
+- May take light armour +8 points
 - May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],
 )
@@ -700,10 +700,10 @@ No saves are allowed against Wounds caused by this weapon.
   options: [
 - May choose any of the following:
   - Additional hand weapon +5 points
-  - Great weapon +15 points
+  - Great weapon +11 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
+  - Light armour +2 points
+  - Medium armour +6 points
 - May take a shield +5 points
 - May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],
@@ -725,11 +725,11 @@ No saves are allowed against Wounds caused by this weapon.
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Light lance +5 points
+  - Light lance +4 points
 - May take a shortbow +5 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
+  - Light armour +2 points
+  - Medium armour +6 points
 - May take a shield +5 points
 - May take Quirks of Character and/or Magic Items up to a total of 50 points
   ],

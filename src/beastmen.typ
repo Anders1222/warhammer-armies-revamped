@@ -525,16 +525,16 @@ A Bray-Shaman or Great Bray-Shaman with the Mark of Tzeentch, Nurgle or Slaanesh
   special-rules: "Forest Strider, Primal Fury",
   options: [
 - May choose one of the following:
-  - Spear +3 points
+  - Spear +2 points
   - Additional hand weapon +5 points
-  - Light lance +5 points
-  - Great weapon +15 points
+  - Light lance +4 points
+  - Great weapon +11 points
 - May choose one of the following:
   - Throwing axes +6 points
   - Javelins +6 points
 - May choose one of the following:
-  - Light armour +3 points
-  - Medium armour +9 points
+  - Light armour +2 points
+  - Medium armour +6 points
 - May take a shield +5 points
 - May have the Ambushers special rule (model on foot only) +5 points
 - May choose one of the following:
@@ -596,10 +596,10 @@ A Bray-Shaman or Great Bray-Shaman with the Mark of Tzeentch, Nurgle or Slaanesh
   options: [
 - May choose one of the following:
   - Additional hand weapon +5 points
-  - Great weapon +10 points
+  - Great weapon +8 points
 - May choose one of the following:
-  - Light armour +5 points
-  - Medium armour +15 points
+  - Light armour +4 points
+  - Medium armour +12 points
 - May take a shield +5 points
 - May choose one of the following:
   - Mark of Khorne +15 points
@@ -624,7 +624,7 @@ A Bray-Shaman or Great Bray-Shaman with the Mark of Tzeentch, Nurgle or Slaanesh
   special-rules: "Drunken, Forest Strider, Primal Fury",
   options: [
 - May choose one of the following:
-  - Additional hand weapon +2 points
+  - Additional hand weapon +5 points
   - Light lance +4 points
   - Great weapon +12 points
 - May choose one of the following:
@@ -632,7 +632,7 @@ A Bray-Shaman or Great Bray-Shaman with the Mark of Tzeentch, Nurgle or Slaanesh
   - Throwing axes +2 points
 - May choose one of the following:
   - Light armour +3 points
-  - Medium armour +9 points
+  - Medium armour +4 points
 - May take a shield +5 points
 - May have the Ambushers special rule +5 points
 - May choose one of the following:
@@ -657,13 +657,13 @@ A Bray-Shaman or Great Bray-Shaman with the Mark of Tzeentch, Nurgle or Slaanesh
   special-rules: "Forest Strider, Primal Fury",
   options: [
 - May choose one of the following:
-  - Additional hand weapon +2 points
-  - Spear +2 points
+  - Additional hand weapon +5 points
+  - Spear +1 points
 - May choose one of the following:
   - Shortbow +3 points
   - Javelins +4 points
 - May take light armour +2 points
-- May take a shield +2 points
+- May take a shield +5 points
 - May take Mutations & Traits and/or Magic Items up to a total of 25 points
   ],
   notes: [
