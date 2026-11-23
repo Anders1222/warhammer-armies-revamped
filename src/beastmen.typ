@@ -624,7 +624,7 @@ A Bray-Shaman or Great Bray-Shaman with the Mark of Tzeentch, Nurgle or Slaanesh
   special-rules: "Drunken, Forest Strider, Primal Fury",
   options: [
 - May choose one of the following:
-  - Additional hand weapon +2 points
+  - Additional hand weapon +5 points
   - Light lance +4 points
   - Great weapon +12 points
 - May choose one of the following:
@@ -657,7 +657,7 @@ A Bray-Shaman or Great Bray-Shaman with the Mark of Tzeentch, Nurgle or Slaanesh
   special-rules: "Forest Strider, Primal Fury",
   options: [
 - May choose one of the following:
-  - Additional hand weapon +2 points
+  - Additional hand weapon +5 points
   - Spear +1 points
 - May choose one of the following:
   - Shortbow +3 points

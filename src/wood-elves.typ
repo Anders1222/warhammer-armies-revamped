@@ -631,7 +631,7 @@ A model with this rule can choose to make a single Tree Whack in place of making
   equipment: "Hand weapon, Elven shortbow",
   special-rules: "Asrai Archery, Elven Grace, Forest Strider, Forest Stalker, Lethal Shot, Scouts, Sniper",
   options: [
-- May take an additional hand weapon +3 points
+- May take an additional hand weapon +5 points
 - May replace Elven shortbow with Elven longbow +2 points
 - May choose one of the following:
   - Arcane Bodkins +1 point

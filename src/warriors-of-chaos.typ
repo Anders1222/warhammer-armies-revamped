@@ -1822,7 +1822,7 @@ another victim. Roll again on this table to see what happens.")))
   ],
   options: [
 - May choose one of the following:
-  - Additional hand weapon +2 points
+  - Additional hand weapon +5 points
   - Great weapon +9 points
 - May take medium armour +6 points
 - May be mounted upon a Chaos Warshrine of Khorne (replacing the Shrinemaster) +95 points

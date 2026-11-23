@@ -508,7 +508,7 @@ this turn.")))
   special-rules: "Contempt, Natural Armour (5+)",
   options: [
 - May choose one of the following:
-  - Additional hand weapon +4 points
+  - Additional hand weapon +5 points
   - Great weapon +12 points
 - May choose one of the following:
   - Light armour +12 points

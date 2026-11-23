@@ -904,7 +904,7 @@ Shadow)"), ("2", "The Enfeebling Foe (Lore of Shadow)"), ("3", "The Withering (L
   ),
   options: [
 - May choose one of the following:
-  - Additional hand weapon +2 points
+  - Additional hand weapon +5 points
   - Great weapon +3 points
 - May be mounted on a Skeletal Steed +12 points
 - May take Magic Items up to a total of 50 points
